@@ -1,0 +1,656 @@
+
+local counter_squad = 0
+local counter_group = 0
+local counter_unit = 0
+
+local num_pos = 0
+
+local function get_x(zone)
+    if zone == nil then
+        return 0
+    else
+        return zone[num_pos].x
+    end
+end
+
+local function get_y(zone,next)
+    if next == nil or next == true then
+        num_pos = num_pos+1
+    end
+
+    if zone == nil then
+        return 0
+    else    
+        if  zone[num_pos] == nil then
+            num_pos = 1
+        end
+        return zone[num_pos].y
+    end
+end
+
+local function get_course(zone)
+    if zone == nil then
+        return 0
+    else
+        return zone[num_pos].course
+    end
+end
+
+local function new_group_name()
+    counter_group = counter_group + 1
+    counter_unit = 0
+    if counter_squad == 0 then
+        return string.format("ArmoredForce_Group_%d",counter_group)
+    else
+        return string.format("ArmoredForce_%d_Group_%d",counter_squad, counter_group)
+    end
+end
+
+local function new_unit_name()
+    counter_unit = counter_unit + 1
+    if counter_squad == 0 then
+        return string.format("ArmoredForce_Group_%d_%d",counter_group, counter_unit)
+    else
+        return string.format("ArmoredForce_%d_Group_%d_%d",counter_squad, counter_group, counter_unit)
+    end
+end
+
+local function pointShiftAngleDeg(start_pos, length, course)--prop [-180..180]
+    return
+    {
+        x = start_pos.x + math.cos(math.rad(course)) * length,
+        y = start_pos.y,
+        z = start_pos.z - math.sin(math.rad(course)) * length
+    }
+end
+
+local function pointShiftAngleRad(start_pos, length, course)--prop [-pi..pi]
+    return
+    {
+        x = start_pos.x + math.cos(course) * length,
+        y = start_pos.y,
+        z = start_pos.z - math.sin(course) * length
+    }
+end
+
+local function pointCenter(start_pos, end_pos)
+    local vector = {
+        x = 0.5*(end_pos.x - start_pos.x) + start_pos.x, 
+        y = 0.5*(end_pos.y - start_pos.y) + start_pos.y,
+        z = 0.5*(end_pos.z - start_pos.z) + start_pos.z
+       }
+
+    return vector
+end
+
+local function pointCourseRad(start_pos, end_pos)--return [radians]
+    local vector_xz = {
+        x = end_pos.x - start_pos.x, 
+        z = end_pos.z - start_pos.z 
+       }
+
+    local course = 0
+    if vector_xz.x < 0.01 and vector_xz.x > -0.01 then
+        if  vector_xz.z > 0 then
+            course = - 0.5 * math.pi
+        else
+            course =   0.5 * math.pi
+        end
+    else
+        course = math.atan2(vector_xz.z, vector_xz.x)
+    end
+
+    return course
+end
+
+local function rotateCourseRad(course, angle)--course[radians] angle[radians] return [radians]
+    local new_course = math.fmod(course,math.pi) + angle
+    if new_course > math.pi then
+        new_course = new_course - 2 * math.pi
+    elseif new_course < -math.pi then
+        new_course = 2 * math.pi + new_course
+    end
+
+    return new_course
+end
+
+local function ArmoredForceGroup(zone, unit_skill, pos, course)
+    counter_squad = counter_squad + 1
+    
+    return 
+    {
+        ["visible"] = false,
+        ["tasks"] = 
+        {
+        }, -- end of ["tasks"]
+        ["uncontrollable"] = false,
+        ["task"] = "Ground Nothing",
+        ["route"] = 
+        {
+        }, -- end of ["route"]
+        ["hidden"] = false,
+        ["units"] = 
+        {
+            [1] = 
+            {
+                ["skill"] = unit_skill,
+                ["type"] = "T-55",
+                ["y"] = get_y(zone),
+                ["x"] = get_x(zone),
+                ["name"] = new_unit_name(),
+                ["heading"] = course,
+                ["playerCanDrive"] = false,
+            }, -- end of [1]
+            [2] = 
+            {
+                ["skill"] = unit_skill,
+                ["type"] = "T-55",
+                ["y"] = get_y(zone),
+                ["x"] = get_x(zone),
+                ["name"] = new_unit_name(),
+                ["heading"] = course,
+                ["playerCanDrive"] = false,
+            }, -- end of [2]
+            [3] = 
+            {
+                ["skill"] = unit_skill,
+                ["type"] = "T-55",
+                ["y"] = get_y(zone),
+                ["x"] = get_x(zone),
+                ["name"] = new_unit_name(),
+                ["heading"] = course,
+                ["playerCanDrive"] = false,
+            }, -- end of [3]
+            [4] = 
+            {
+                ["skill"] = unit_skill,
+                ["type"] = "T-55",
+                ["y"] = get_y(zone),
+                ["x"] = get_x(zone),
+                ["name"] = new_unit_name(),
+                ["heading"] = course,
+                ["playerCanDrive"] = false,
+            }, -- end of [4]
+            [5] = 
+            {
+                ["skill"] = unit_skill,
+                ["type"] = "T-55",
+                ["y"] = get_y(zone),
+                ["x"] = get_x(zone),
+                ["name"] = new_unit_name(),
+                ["heading"] = course,
+                ["playerCanDrive"] = false,
+            }, -- end of [5]
+            [6] = 
+            {
+                ["skill"] = unit_skill,
+                ["type"] = "T-55",
+                ["y"] = get_y(zone),
+                ["x"] = get_x(zone),
+                ["name"] = new_unit_name(),
+                ["heading"] = course,
+                ["playerCanDrive"] = false,
+            }, -- end of [6]
+        }, -- end of ["units"]
+        ["y"] = pos.z,
+        ["x"] = pos.x,
+        ["name"] = new_group_name(),
+        ["start_time"] = 0,
+    }
+end
+
+local function ArmoredForceSupport(zone, unit_skill, pos, course)
+    counter_squad = counter_squad + 1
+
+    return 
+    {
+
+        ["visible"] = false,
+        ["tasks"] = 
+        {
+        }, -- end of ["tasks"]
+        ["uncontrollable"] = false,
+        ["task"] = "Ground Nothing",
+        ["taskSelected"] = true,
+        ["route"] = 
+        {
+        }, -- end of ["route"]
+        ["hidden"] = false,
+        ["units"] = 
+        {
+            [1] = 
+            {
+                ["skill"] = unit_skill,
+                ["type"] = "BMP-2",
+                ["y"] = get_y(zone),
+                ["x"] = get_x(zone),
+                ["name"] = new_unit_name(),
+                ["heading"] = course,
+                ["playerCanDrive"] = false,
+            }, -- end of [1]
+            [2] = 
+            {
+                ["skill"] = unit_skill,
+                ["type"] = "BMP-2",
+                ["y"] = get_y(zone),
+                ["x"] = get_x(zone),
+                ["name"] = new_unit_name(),
+                ["heading"] = course,
+                ["playerCanDrive"] = false,
+            }, -- end of [2]
+            [3] = 
+            {
+                ["skill"] = unit_skill,
+                ["type"] = "BMP-2",
+                ["y"] = get_y(zone),
+                ["x"] = get_x(zone),
+                ["name"] = new_unit_name(),
+                ["heading"] = course,
+                ["playerCanDrive"] = false,
+            }, -- end of [3]
+        }, -- end of ["units"]
+        ["y"] = pos.z,
+        ["x"] = pos.x,
+        ["name"] = new_group_name(),
+        ["start_time"] = 0,
+    }
+end
+
+local function ArmoredForceAirDefence(zone, unit_skill, course)
+    counter_squad = counter_squad + 1
+
+    return {
+        ["visible"] = false,
+        ["tasks"] = 
+        {
+        }, -- end of ["tasks"]
+        ["uncontrollable"] = false,
+        ["task"] = "Ground Nothing",
+        ["taskSelected"] = true,
+        ["route"] = 
+        {
+        }, -- end of ["route"]
+        ["hidden"] = false,
+        ["units"] = 
+        {
+            [1] = 
+            {
+                ["type"] = "ZSU-23-4 Shilka",
+                ["skill"] = unit_skill,
+                ["y"] = get_y(zone),
+                ["x"] = get_x(zone),
+                ["name"] = new_unit_name(),
+                ["heading"] = course,
+                ["playerCanDrive"] = false,
+            }, -- end of [1]
+            [2] = 
+            {
+                ["type"] = "ZSU-23-4 Shilka",
+                ["skill"] = unit_skill,
+                ["y"] = get_y(zone),
+                ["x"] = get_x(zone),
+                ["name"] = new_unit_name(),
+                ["heading"] = course,
+                ["playerCanDrive"] = false,
+            }, -- end of [2]
+        }, -- end of ["units"]
+        ["y"] = get_y(zone),
+        ["x"] = get_x(zone),
+        ["name"] = new_group_name(),
+        ["start_time"] = 0,
+    }
+end
+
+local function ArmoredForceShip(zone, unit_skill, pos, course)
+    counter_squad = counter_squad + 1
+    
+    return {
+        ["visible"] = false,
+        ["tasks"] = 
+        {
+        }, -- end of ["tasks"]
+        ["uncontrollable"] = false,
+        ["route"] = 
+        {
+        }, -- end of ["route"]
+        ["hidden"] = false,
+        ["units"] = 
+        {
+            [1] = 
+            {
+                ["type"] = "ELNYA",
+                ["modulation"] = 0,
+                ["skill"] = unit_skill,
+                ["y"] = get_y(zone),
+                ["x"] = get_x(zone),
+                ["name"] = new_unit_name(),
+                ["heading"] = course,
+                ["frequency"] = 127500000,
+            }, -- end of [1]
+            [2] = 
+            {
+                ["type"] = "ELNYA",
+                ["modulation"] = 0,
+                ["skill"] = unit_skill,
+                ["y"] = get_y(zone),
+                ["x"] = get_x(zone),
+                ["name"] = new_unit_name(),
+                ["heading"] = course,
+                ["frequency"] = 127500000,
+            }, -- end of [2]
+            [3] = 
+            {
+                ["type"] = "ELNYA",
+                ["modulation"] = 0,
+                ["skill"] = unit_skill,
+                ["y"] = get_y(zone),
+                ["x"] = get_x(zone),
+                ["name"] = new_unit_name(),
+                ["heading"] = course,
+                ["frequency"] = 127500000,
+            }, -- end of [3]
+        }, -- end of ["units"]
+        ["y"] = pos.z,
+        ["x"] = pos.x,
+        ["name"] = new_group_name(),
+        ["start_time"] = 0,
+    }
+
+end
+
+local function ArmoredForceSupportShip(zone, unit_skill, pos, course)
+    counter_squad = counter_squad + 1
+
+    return
+    {
+        ["visible"] = false,
+        ["tasks"] = 
+        {
+        }, -- end of ["tasks"]
+        ["uncontrollable"] = false,
+        ["route"] = 
+        {
+        }, -- end of ["route"]
+        ["hidden"] = false,
+        ["units"] = 
+        {
+            [1] = 
+            {
+                ["type"] = "MOLNIYA",
+                ["modulation"] = 0,
+                ["skill"] = unit_skill,
+                ["y"] = get_y(zone),
+                ["x"] = get_x(zone),
+                ["name"] = new_unit_name(),
+                ["heading"] = course,
+                ["frequency"] = 127500000,
+            }, -- end of [1]
+            [2] = 
+            {
+                ["type"] = "MOLNIYA",
+                ["modulation"] = 0,
+                ["skill"] = unit_skill,
+                ["y"] = get_y(zone),
+                ["x"] = get_x(zone),
+                ["name"] = new_unit_name(),
+                ["heading"] = course,
+                ["frequency"] = 127500000,
+            }, -- end of [2]
+            [3] = 
+            {
+                ["type"] = "MOLNIYA",
+                ["modulation"] = 0,
+                ["skill"] = unit_skill,
+                ["y"] = get_y(zone),
+                ["x"] = get_x(zone),
+                ["name"] = new_unit_name(),
+                ["heading"] = course,
+                ["frequency"] = 127500000,
+            }, -- end of [3]
+        }, -- end of ["units"]
+        ["y"] = pos.z,
+        ["x"] = pos.x,
+        ["name"] = new_group_name(),
+        ["start_time"] = 0, 
+
+    }
+   
+end
+
+function ArmoredForceGroupPrepareWithZone(squad_name, unit_skill, zone_pos, course)
+    if squad_name ~= nil then
+        counter_squad = squad_name
+    end
+   
+	local position = {x=get_x(zone),y=0,z=get_y(zone)}
+    num_pos = 0
+
+    local group_1 = ArmoredForceGroup(zone_pos, unit_skill, position, course)
+    local group_2 = ArmoredForceSupport(zone_pos, unit_skill, position, course)
+    --local group_3 = ArmoredForceAirDefence(zone_pos, unit_skill, course)
+    
+
+    return {group_1, group_2}--, group_3}
+end
+
+function ArmoredForceShipPrepareWithZone(squad_name, unit_skill, zone_pos, course)
+    if squad_name ~= nil then
+        counter_squad = squad_name
+    end
+
+	local position = {x=get_x(zone),y=0,z=get_y(zone)}
+    num_pos = 0
+
+    --local group_1 = ArmoredForceShip(zone_pos, unit_skill, position, course)
+    local group_2 = ArmoredForceSupportShip(zone_pos, unit_skill, position, course)
+
+    return {group_2}--, group_1}
+end
+
+function ArmoredForceGroupPrepare(squad_name, unit_skill, position, course, calc_zone)
+    if squad_name ~= nil then
+        counter_squad = squad_name
+    end
+
+    num_pos = 0
+
+
+    local group_1 = ArmoredForceGroup(calc_zone, unit_skill, position, course)
+    local group_2 = ArmoredForceSupport(calc_zone, unit_skill, position, course)
+    --local group_3 = ArmoredForceAirDefence(calc_zone, unit_skill, course)
+
+    return {group_1, group_2}--, group_3}
+end
+
+function ArmoredForceShipPrepare(squad_name, unit_skill, position, course)
+    if squad_name ~= nil then
+        counter_squad = squad_name
+    end
+
+    -- найти в области с координатой и радиусом 5000м чистые 10 позиций радиусом 500м для размещения морских юнитов
+    local calc_zone = Disposition.getSimpleZones(position, 5000, 500, 10, true)
+
+    --Disposition.getPrintData("zone_pos ",calc_zone)
+
+    num_pos = 0
+
+    --local group_1 = ArmoredForceShip(calc_zone, unit_skill, position, course)
+    local group_2 = ArmoredForceSupportShip(calc_zone, unit_skill, position, course)
+
+    return {group_2}--, group_1}
+end
+
+function CreateGroup(group_country,group_data, group_category)
+    --Group.Category.GROUND
+    local group = coalition.addGroup(group_country, group_category, group_data)
+    return group:getID()
+end
+
+function CreateGroups(group_country,groups_to_create, group_category)
+    local groun_num = 0
+    local groups_id = {}
+    
+    for i = 1, #groups_to_create do
+         groun_num = groun_num + 1
+         groups_id[groun_num] = CreateGroup(group_country, groups_to_create[i], group_category)
+    end
+
+    return groups_id
+end
+
+function ArmoredForceDirect(squad_name, group_country, airbase_name_str_to, unit_skill, course, dist, is_water)
+
+    local b_find_base = false
+
+    local airbase_pos_to = {}
+    if airbase_name_str_to ~= nil and airbase_name_str_to ~= "" then
+        local airbase_to =  Airbase.getByName(airbase_name_str_to)
+        if airbase_to ~= nil then
+            airbase_pos_to = Object.getPosition(airbase_to).p
+            b_find_base = true
+        end
+    end
+
+    if b_find_base == false then
+        return nil
+    end
+
+    local pos = pointShiftAngleRad(airbase_pos_to, dist, course)
+
+    local groups_to_create = {}
+    local group_category = 0
+
+    if is_water == true then
+        group_category = 3--Group.Category.NAVAL
+        local course_to_base = pointCourseRad(pos, airbase_pos_to)
+        groups_to_create = ArmoredForceShipPrepare(squad_name, unit_skill, pos, course_to_base)
+    else
+        -- найти в области с координатой и радиусом 1000м чистые 50 позиций радиусом 100м для размещения юнитов
+        local calc_zone = Disposition.getSimpleZones(pos, 1000, 40, 20)
+        group_category = Group.Category.GROUND
+        local course_to_base = pointCourseRad(pos, airbase_pos_to)
+        groups_to_create = ArmoredForceGroupPrepare(squad_name, unit_skill, pos, course_to_base, calc_zone)
+    end
+
+    if groups_to_create == nil then
+        return nil
+    end
+
+    return CreateGroups(group_country,groups_to_create, group_category)
+end
+
+function ArmoredForce(squad_name, group_country, airbase_name_str_to, unit_skill, course, dist)
+
+    local b_find_base = false
+
+    local airbase_pos_to = {}
+    if airbase_name_str_to ~= nil and airbase_name_str_to ~= "" then
+        local airbase_to =  Airbase.getByName(airbase_name_str_to)
+        if airbase_to ~= nil then
+            airbase_pos_to = Object.getPosition(airbase_to).p
+            b_find_base = true
+        end
+    end
+
+    if b_find_base == false then
+        return nil
+    end
+
+    local pos = pointShiftAngleRad(airbase_pos_to, dist, course)
+
+    local is_water = false
+    local is_first_water_pos = false
+    local first_water_pos = {}
+    local calc_zone = {}
+
+    -- найти в области с координатой и радиусом 1000м чистые 50 позиций радиусом 40м для размещения юнитов
+    calc_zone = Disposition.getSimpleZones(pos, 1000, 40, 20)
+
+    local shift_angle = 1/3 --вращаем точку вокруг аэродрома с радиусом dist со сдвигом 20гр
+    if dist > 1500 then
+        shift_angle = 500/dist
+    end
+
+    local shift_rad = math.atan(shift_angle)
+    local count = math.floor(math.pi/shift_rad)--1/2 круга
+    for i = 2, count do 
+        
+        --print('~~~~~~~~~~ ArmoredForce ~~~~~~', i, '  ', #calc_zone)
+
+        if #calc_zone >= 20 then
+            is_water = false
+            break
+        end--выход из цыкла
+
+        --нет мест на суше - ищем большую воду
+        if is_first_water_pos == false then
+
+            local big_water = Disposition.getPointWater(pos,5000,100)
+            if big_water == true then
+                is_water = true
+                is_first_water_pos = true
+                first_water_pos = pos
+            end
+        end
+
+        -- меняем позицию
+        local n = math.floor(0.5*i)
+        local sign = i%2;
+        local next_shift_rad
+        if sign == 0 then
+            next_shift_rad = -shift_rad * n
+        else
+            next_shift_rad = shift_rad * n
+        end 
+
+        local next_course_to_base = rotateCourseRad(course, next_shift_rad)
+        pos = pointShiftAngleRad(airbase_pos_to, dist, next_course_to_base)
+        
+        -- ищем место на новой позиции
+        calc_zone = Disposition.getSimpleZones(pos, 1000, 40, 20)
+    end
+
+
+    local groups_to_create = {}
+    local group_category = 0
+
+    if is_water == true then
+        group_category = 3--Group.Category.NAVAL
+        local course_to_base = pointCourseRad(first_water_pos, airbase_pos_to)
+        groups_to_create = ArmoredForceShipPrepare(squad_name, unit_skill, first_water_pos, course_to_base)
+    else
+        group_category = Group.Category.GROUND
+        local course_to_base = pointCourseRad(pos, airbase_pos_to)
+        groups_to_create = ArmoredForceGroupPrepare(squad_name, unit_skill, pos, course_to_base, calc_zone)
+    end
+
+    if groups_to_create == nil then
+        return nil
+    end
+
+    return CreateGroups(group_country,groups_to_create, group_category)
+end
+
+function CreateGroupsWithZone(squad_name, group_country, unit_skill, zone_pos, target_point, course, is_water)
+    if zone_pos == nil then
+        return
+    end
+	
+	local group_category = 0
+
+    if is_water == true then
+        group_category = 3--Group.Category.NAVAL
+        groups_to_create = ArmoredForceShipPrepareWithZone(squad_name, unit_skill, zone_pos, course)
+    else
+        group_category = Group.Category.GROUND
+        groups_to_create = ArmoredForceGroupPrepareWithZone(squad_name, unit_skill, zone_pos, course)
+    end
+
+    if groups_to_create == nil then
+        return
+    end
+
+    return CreateGroups(group_country,groups_to_create, group_category)
+end
+
+--ArmoredForce = ArmoredForce(nil, country.id.RUSSIA, "Senaki-Kolkhi", "Good", math.rad(-135), 5000)

@@ -1,0 +1,848 @@
+dialog = {
+	["children"] = {
+		["panelMain"] = {
+			["children"] = {
+				["panelSliders"] = {
+					["children"] = {
+						["checkBoxInvert"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 180,
+									["x"] = 10,
+									["y"] = 135,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 0,
+								["text"] = "$invert",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "checkBoxSkin_options",
+								},
+							},
+							["type"] = "CheckBox",
+						},
+						["checkBoxSlider"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 180,
+									["x"] = 10,
+									["y"] = 105,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 0,
+								["text"] = "$slider",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "checkBoxSkin_options",
+								},
+							},
+							["type"] = "CheckBox",
+						},
+						["editBoxCurvature"] = {
+							["params"] = {
+								["acceptDecimalPoint"] = false,
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 30,
+									["x"] = 170,
+									["y"] = 70,
+								},
+								["enabled"] = true,
+								["multiline"] = false,
+								["numeric"] = true,
+								["password"] = false,
+								["readOnly"] = false,
+								["tabOrder"] = 0,
+								["text"] = "0",
+								["textWrapping"] = true,
+								["tooltip"] = "$editBoxHint",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["maxSize"] = {
+										["horz"] = 0,
+										["vert"] = 0,
+									},
+									["minSize"] = {
+										["horz"] = 0,
+										["vert"] = 0,
+									},
+									["name"] = "editBoxSkin",
+									["textOffset"] = {
+										["left"] = 2,
+										["top"] = 1,
+									},
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["bkg"] = {
+												["center_bottom"] = "0x49637fff",
+												["center_center"] = "$nil$",
+												["center_top"] = "0x49637fff",
+												["file"] = "$nil$",
+												["insets"] = {
+													["bottom"] = "1",
+													["left"] = "1",
+													["right"] = "1",
+													["top"] = "1",
+												},
+												["left_bottom"] = "0x49637fff",
+												["left_center"] = "0x49637fff",
+												["left_top"] = "0x49637fff",
+												["right_bottom"] = "0x49637fff",
+												["right_center"] = "0x49637fff",
+												["right_top"] = "0x49637fff",
+											},
+											["text"] = {
+												["color"] = "0x6ed8f3ff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["fontSize"] = 13,
+												["lineHeight"] = 0,
+												["vertAlign"] = {
+													["offset"] = 0,
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "EditBox",
+						},
+						["editBoxDeadzone"] = {
+							["params"] = {
+								["acceptDecimalPoint"] = false,
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 30,
+									["x"] = 170,
+									["y"] = 25,
+								},
+								["enabled"] = true,
+								["multiline"] = false,
+								["numeric"] = true,
+								["password"] = false,
+								["readOnly"] = false,
+								["tabOrder"] = 0,
+								["text"] = "0",
+								["textWrapping"] = true,
+								["tooltip"] = "$editBoxHint",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["maxSize"] = {
+										["horz"] = 0,
+										["vert"] = 0,
+									},
+									["minSize"] = {
+										["horz"] = 0,
+										["vert"] = 0,
+									},
+									["name"] = "editBoxSkin",
+									["textOffset"] = {
+										["left"] = 2,
+										["top"] = 1,
+									},
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["bkg"] = {
+												["center_bottom"] = "0x49637fff",
+												["center_center"] = "$nil$",
+												["center_top"] = "0x49637fff",
+												["file"] = "$nil$",
+												["insets"] = {
+													["bottom"] = "1",
+													["left"] = "1",
+													["right"] = "1",
+													["top"] = "1",
+												},
+												["left_bottom"] = "0x49637fff",
+												["left_center"] = "0x49637fff",
+												["left_top"] = "0x49637fff",
+												["right_bottom"] = "0x49637fff",
+												["right_center"] = "0x49637fff",
+												["right_top"] = "0x49637fff",
+											},
+											["text"] = {
+												["color"] = "0x6ed8f3ff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["fontSize"] = 13,
+												["lineHeight"] = 0,
+												["vertAlign"] = {
+													["offset"] = 0,
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "EditBox",
+						},
+						["sliderCurvature"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 26,
+									["w"] = 156,
+									["x"] = 10,
+									["y"] = 70,
+								},
+								["enabled"] = true,
+								["pageStep"] = 0.1,
+								["range"] = {
+									["max"] = 1,
+									["min"] = -1,
+								},
+								["step"] = 0.01,
+								["tabOrder"] = 0,
+								["text"] = "",
+								["tooltip"] = "",
+								["value"] = 0,
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "horzSliderSkin_options",
+								},
+							},
+							["type"] = "HorzSlider",
+						},
+						["sliderDeadzode"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 26,
+									["w"] = 156,
+									["x"] = 10,
+									["y"] = 20,
+								},
+								["enabled"] = true,
+								["pageStep"] = 0.1,
+								["range"] = {
+									["max"] = 1,
+									["min"] = 0,
+								},
+								["step"] = 0.01,
+								["tabOrder"] = 0,
+								["text"] = "",
+								["tooltip"] = "",
+								["value"] = 0,
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "horzSliderSkin_options",
+								},
+							},
+							["type"] = "HorzSlider",
+						},
+						["staticCurvature"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 180,
+									["x"] = 10,
+									["y"] = 50,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "$curvature",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticOptionsPanelCaptionSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["color"] = "0xffffffff",
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["staticDeadzone"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 180,
+									["x"] = 10,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "$deadZone",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticOptionsPanelCaptionSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["color"] = "0xffffffff",
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+					},
+					["params"] = {
+						["bounds"] = {
+							["h"] = 160,
+							["w"] = 200,
+							["x"] = 814,
+							["y"] = 10,
+						},
+						["enabled"] = true,
+						["layout"] = {
+						},
+						["text"] = "panel0",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "panelSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["picture"] = {
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "min",
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Panel",
+				},
+				["staticAxisTuneWidgetPlaceholder"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 354,
+							["w"] = 354,
+							["x"] = 450,
+							["y"] = 10,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "placeholder",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["picture"] = {
+										["color"] = "0x6ed8f350",
+										["file"] = "dxgui\\skins\\skinme\\images\\axes_tune_bkg.png",
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "min",
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+									["text"] = {
+										["blur"] = "$nil$",
+										["color"] = "$nil$",
+										["font"] = "$nil$",
+										["fontSize"] = "$nil$",
+										["shadowOffset"] = {
+											["horz"] = "$nil$",
+											["vert"] = "$nil$",
+										},
+										["vertAlign"] = {
+											["offset"] = "$nil$",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["staticCaption"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 40,
+							["w"] = 494,
+							["x"] = 380,
+							["y"] = 380,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "$selectAxisDescription",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xffffffe6",
+										["font"] = "DejaVuLGCSansCondensed-Bold.ttf",
+										["fontSize"] = 18,
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["staticCommandIcon"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 219,
+							["w"] = 394,
+							["x"] = 28,
+							["y"] = 246,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\window\\wizard\\pitch.png",
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+										["rect"] = {
+											["x1"] = 0,
+											["y2"] = 438,
+										},
+										["size"] = {
+											["horz"] = 394,
+											["vert"] = 219,
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["staticDesc"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 230,
+							["w"] = 430,
+							["x"] = 10,
+							["y"] = 10,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "$pitchDescription",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+							["textWrapping"] = true,
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["picture"] = {
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "min",
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+									["text"] = {
+										["color"] = "0xffffffe6",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 20,
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["staticTooltip"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 60,
+							["w"] = 1004,
+							["x"] = 10,
+							["y"] = 470,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "$continueTip",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+							["textWrapping"] = true,
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0x000000ff",
+										["center_top"] = "0x000000ff",
+										["insets"] = {
+											["bottom"] = 1,
+											["left"] = 1,
+											["right"] = 1,
+											["top"] = 1,
+										},
+										["left_bottom"] = "0x000000ff",
+										["left_center"] = "0x000000ff",
+										["left_top"] = "0x000000ff",
+										["right_bottom"] = "0x000000ff",
+										["right_center"] = "0x000000ff",
+										["right_top"] = "0x000000ff",
+									},
+									["picture"] = {
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "min",
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+									["text"] = {
+										["color"] = "0xffffffe6",
+										["font"] = "DejaVuLGCSansCondensed-Bold.ttf",
+										["fontSize"] = 16,
+										["horzAlign"] = {
+											["offset"] = 5,
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["stickWidgetPlaceholder"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 200,
+							["w"] = 200,
+							["x"] = 814,
+							["y"] = 170,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+					},
+					["type"] = "Static",
+				},
+				["toggleButtonAxis"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 32,
+							["w"] = 354,
+							["x"] = 450,
+							["y"] = 430,
+						},
+						["enabled"] = true,
+						["state"] = false,
+						["tabOrder"] = 0,
+						["text"] = "$clickToStart",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "toggleButtonSkin_ME",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["text"] = {
+										["fontSize"] = 16,
+									},
+								},
+								[2] = {
+									["text"] = {
+										["fontSize"] = 16,
+									},
+								},
+							},
+							["hover"] = {
+								[1] = {
+									["text"] = {
+										["fontSize"] = 16,
+									},
+								},
+								[2] = {
+									["text"] = {
+										["fontSize"] = 16,
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xe0dedaff",
+										["fontSize"] = 16,
+									},
+								},
+								[2] = {
+									["text"] = {
+										["fontSize"] = 16,
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["fontSize"] = 16,
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "min",
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+									["text"] = {
+										["color"] = "0xe0dedaff",
+										["fontSize"] = 16,
+									},
+								},
+							},
+						},
+					},
+					["type"] = "ToggleButton",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 550,
+					["w"] = 1022,
+					["x"] = 1,
+					["y"] = 3,
+				},
+				["enabled"] = true,
+				["layout"] = {
+				},
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "0x000000ff",
+								["center_top"] = "0x000000ff",
+								["insets"] = {
+									["bottom"] = 1,
+									["left"] = 1,
+									["right"] = 1,
+									["top"] = 1,
+								},
+								["left_bottom"] = "0x000000ff",
+								["left_center"] = "0x000000ff",
+								["left_top"] = "0x000000ff",
+								["right_bottom"] = "0x000000ff",
+								["right_center"] = "0x000000ff",
+								["right_top"] = "0x000000ff",
+							},
+							["picture"] = {
+								["horzAlign"] = {
+									["offset"] = 0,
+									["type"] = "min",
+								},
+								["vertAlign"] = {
+									["offset"] = 0,
+									["type"] = "middle",
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Panel",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 600,
+			["w"] = 1024,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["buddy"] = false,
+		["clipResizeCursor"] = false,
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["layout"] = {
+		},
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["overlay"] = false,
+		["resizable"] = false,
+		["text"] = "New dialog",
+		["zOrder"] = 0,
+	},
+	["skin"] = {
+		["params"] = {
+			["name"] = "windowSkin",
+		},
+		["states"] = {
+			["released"] = {
+				[1] = {
+					["picture"] = {
+						["horzAlign"] = {
+							["offset"] = 0,
+							["type"] = "min",
+						},
+						["vertAlign"] = {
+							["offset"] = 0,
+							["type"] = "middle",
+						},
+					},
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+}
