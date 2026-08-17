@@ -1,0 +1,947 @@
+dialog = {
+	["children"] = {
+		["pDown"] = {
+			["children"] = {
+				["bClose"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 24,
+							["w"] = 84,
+							["x"] = 892,
+							["y"] = 12,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "$CLOSE",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "buttonSkinGreenNew2",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["picture"] = {
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "min",
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Button",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 48,
+					["w"] = 1000,
+					["x"] = 0,
+					["y"] = 720,
+				},
+				["enabled"] = true,
+				["layout"] = {
+				},
+				["text"] = "panel0",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "0x000000ff",
+								["center_center"] = "0x1d3c50cc",
+								["center_top"] = "0x000000ff",
+								["insets"] = {
+									["bottom"] = 1,
+									["left"] = 1,
+									["right"] = 1,
+									["top"] = 1,
+								},
+								["left_bottom"] = "0x000000ff",
+								["left_center"] = "0x000000ff",
+								["left_top"] = "0x000000ff",
+								["right_bottom"] = "0x000000ff",
+								["right_center"] = "0x000000ff",
+								["right_top"] = "0x000000ff",
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Panel",
+		},
+		["pMsg"] = {
+			["children"] = {
+				["testStatic"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 94,
+							["w"] = 895,
+							["x"] = 0,
+							["y"] = 24,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "testStatic 434 34 343 343 43 434 345567 ",
+						["tooltip"] = "",
+						["visible"] = false,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+							["textWrapping"] = true,
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["font"] = "arial.ttf",
+										["fontSize"] = 14,
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["vsScroll"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 638,
+							["w"] = 11,
+							["x"] = 984,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["pageStep"] = 1,
+						["range"] = {
+							["max"] = 1,
+							["min"] = 0,
+						},
+						["step"] = 1,
+						["text"] = "vertScrollBar0",
+						["thumbValue"] = 0,
+						["tooltip"] = "",
+						["value"] = 0,
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "vertScrollBarSkinSV",
+						},
+					},
+					["type"] = "VertScrollBar",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 638,
+					["w"] = 1000,
+					["x"] = 0,
+					["y"] = 82,
+				},
+				["enabled"] = true,
+				["layout"] = {
+				},
+				["text"] = "panel0",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+				["states"] = {
+					["disabled"] = {
+						[1] = {
+							["bkg"] = {
+								["center_center"] = "0x1d3c50cc",
+								["insets"] = {
+									["bottom"] = 0,
+									["right"] = 1,
+								},
+								["right_bottom"] = "0xffffff80",
+								["right_center"] = "0xffffff80",
+								["right_top"] = "0xffffff80",
+							},
+						},
+					},
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_center"] = "0x1d3c50cc",
+								["insets"] = {
+									["bottom"] = 0,
+									["left"] = 1,
+									["right"] = 1,
+								},
+								["left_bottom"] = "0x000000ff",
+								["left_center"] = "0x000000ff",
+								["right_bottom"] = "0x000000ff",
+								["right_center"] = "0x000000ff",
+								["right_top"] = "0x000000ff",
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Panel",
+		},
+		["pNoVisible"] = {
+			["children"] = {
+				["sMsg"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 40,
+							["w"] = 205,
+							["x"] = 247,
+							["y"] = 41,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "sMsg",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+							["textWrapping"] = true,
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xffffffff",
+										["font"] = "arial.ttf",
+										["fontSize"] = 14,
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["sMsgGray"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 40,
+							["w"] = 205,
+							["x"] = 455,
+							["y"] = 39,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "sMsg",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+							["textWrapping"] = true,
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_center"] = "0x00000035",
+									},
+									["text"] = {
+										["color"] = "0xffffffff",
+										["font"] = "arial.ttf",
+										["fontSize"] = 14,
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["sMsgGrayOffset"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 40,
+							["w"] = 205,
+							["x"] = 458,
+							["y"] = 86,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "sMsg",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+							["textWrapping"] = true,
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_center"] = "0x00000035",
+									},
+									["text"] = {
+										["color"] = "0xffffffff",
+										["font"] = "arial.ttf",
+										["fontSize"] = 14,
+										["vertAlign"] = {
+											["offset"] = 5,
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["sMsgOffset"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 40,
+							["w"] = 205,
+							["x"] = 247,
+							["y"] = 85,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "sMsg",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+							["textWrapping"] = true,
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xffffffff",
+										["font"] = "arial.ttf",
+										["fontSize"] = 14,
+										["vertAlign"] = {
+											["offset"] = 5,
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["sTime"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 100,
+							["x"] = 42,
+							["y"] = 53,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "sTime",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xffffffff",
+										["font"] = "arial.ttf",
+										["fontSize"] = 14,
+										["horzAlign"] = {
+											["offset"] = 24,
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["sTimeGray"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 100,
+							["x"] = 36,
+							["y"] = 71,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "sTime",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_center"] = "0x00000035",
+									},
+									["text"] = {
+										["color"] = "0xffffffff",
+										["font"] = "arial.ttf",
+										["fontSize"] = 14,
+										["horzAlign"] = {
+											["offset"] = 24,
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["sTimeGrayOffset"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 28,
+							["w"] = 100,
+							["x"] = 33,
+							["y"] = 101,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "sTime",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_center"] = "0x00000035",
+									},
+									["text"] = {
+										["color"] = "0xffffffff",
+										["font"] = "arial.ttf",
+										["fontSize"] = 14,
+										["horzAlign"] = {
+											["offset"] = 24,
+										},
+										["vertAlign"] = {
+											["offset"] = 5,
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["sTimeOffset"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 28,
+							["w"] = 100,
+							["x"] = 141,
+							["y"] = 98,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "sTime",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xffffffff",
+										["font"] = "arial.ttf",
+										["fontSize"] = 14,
+										["horzAlign"] = {
+											["offset"] = 24,
+										},
+										["vertAlign"] = {
+											["offset"] = 5,
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 175,
+					["w"] = 768,
+					["x"] = 112,
+					["y"] = 734,
+				},
+				["enabled"] = true,
+				["layout"] = {
+				},
+				["text"] = "panel0",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+			},
+			["type"] = "Panel",
+		},
+		["pRight"] = {
+			["children"] = {
+				["cbRadio"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 170,
+							["x"] = 201,
+							["y"] = 7,
+						},
+						["enabled"] = true,
+						["state"] = true,
+						["tabOrder"] = 0,
+						["text"] = "$RadioMessage",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "checkBoxSkin_MENew",
+						},
+						["states"] = {
+							["hover"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0x969696ff",
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0x969696ff",
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0x969696ff",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "CheckBox",
+				},
+				["cbTriggers"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 170,
+							["x"] = 24,
+							["y"] = 7,
+						},
+						["enabled"] = true,
+						["state"] = true,
+						["tabOrder"] = 0,
+						["text"] = "$Dialogs",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "checkBoxSkin_MENew",
+						},
+						["states"] = {
+							["hover"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0x969696ff",
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0x969696ff",
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0x969696ff",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "CheckBox",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 34,
+					["w"] = 1000,
+					["x"] = 0,
+					["y"] = 48,
+				},
+				["enabled"] = true,
+				["layout"] = {
+				},
+				["text"] = "panel0",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+				["states"] = {
+					["disabled"] = {
+						[1] = {
+							["bkg"] = {
+								["center_center"] = "0x1d3c50cc",
+								["insets"] = {
+									["bottom"] = 0,
+									["right"] = 1,
+								},
+								["right_bottom"] = "0xffffff80",
+								["right_center"] = "0xffffff80",
+								["right_top"] = "0xffffff80",
+							},
+						},
+					},
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "0x000000ff",
+								["center_center"] = "0x1d3c50cc",
+								["center_top"] = "0x000000ff",
+								["insets"] = {
+									["bottom"] = 1,
+									["left"] = 1,
+									["right"] = 1,
+									["top"] = 1,
+								},
+								["left_bottom"] = "0x000000ff",
+								["left_center"] = "0x000000ff",
+								["left_top"] = "0x000000ff",
+								["right_bottom"] = "0x000000ff",
+								["right_center"] = "0x000000ff",
+								["right_top"] = "0x000000ff",
+							},
+							["picture"] = {
+								["horzAlign"] = {
+									["offset"] = 0,
+									["type"] = "min",
+								},
+								["vertAlign"] = {
+									["offset"] = 0,
+									["type"] = "middle",
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Panel",
+		},
+		["pTop"] = {
+			["children"] = {
+				["btnClose"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 24,
+							["w"] = 24,
+							["x"] = 963,
+							["y"] = 12,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 15,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "btn_close",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["bkg"] = {
+										["center_center"] = "0xc8c8c8ff",
+									},
+								},
+							},
+							["hover"] = {
+								[1] = {
+									["bkg"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\buttons\\buttons(new)\\button close\\btnClose2.png",
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["bkg"] = {
+										["center_center"] = "0xc8c8c8ff",
+										["file"] = "dxgui\\skins\\skinme\\images\\buttons\\buttons(new)\\button close\\btnClose2.png",
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_center"] = "0xc8c8c8ff",
+										["file"] = "dxgui\\skins\\skinme\\images\\buttons\\buttons(new)\\button close\\btnClose2.png",
+									},
+									["picture"] = {
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "min",
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+									["text"] = {
+										["blur"] = "$nil$",
+										["color"] = "$nil$",
+										["font"] = "$nil$",
+										["fontSize"] = "$nil$",
+										["shadowOffset"] = {
+											["horz"] = "$nil$",
+											["vert"] = "$nil$",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Button",
+				},
+				["static0"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 31,
+							["w"] = 407,
+							["x"] = 24,
+							["y"] = 8,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "$JOURNAL",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xffffffff",
+										["font"] = "arial.ttf",
+										["fontSize"] = 20,
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 48,
+					["w"] = 1000,
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["enabled"] = true,
+				["layout"] = {
+				},
+				["text"] = "panel0",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_center"] = "0x1d3c50cc",
+								["center_top"] = "0x000000ff",
+								["insets"] = {
+									["bottom"] = 0,
+									["left"] = 1,
+									["right"] = 1,
+									["top"] = 1,
+								},
+								["left_bottom"] = "0x000000ff",
+								["left_center"] = "0x000000ff",
+								["left_top"] = "0x000000ff",
+								["right_bottom"] = "0x000000ff",
+								["right_center"] = "0x000000ff",
+								["right_top"] = "0x000000ff",
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Panel",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 885,
+			["w"] = 1000,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["buddy"] = false,
+		["clipResizeCursor"] = false,
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["layout"] = {
+		},
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["overlay"] = false,
+		["resizable"] = false,
+		["text"] = "New dialog",
+		["unitTest"] = "print(dialog.pMsg.testStatic:getResourceString())",
+		["zOrder"] = 100,
+	},
+	["skin"] = {
+		["params"] = {
+			["headerHeight"] = 0,
+			["name"] = "windowSkin",
+		},
+		["states"] = {
+			["released"] = {
+				[1] = {
+					["bkg"] = {
+						["center_bottom"] = "0x000000ff",
+						["center_center"] = "0xffffff00",
+						["center_top"] = "0x000000ff",
+						["left_bottom"] = "0x000000ff",
+						["left_center"] = "0x000000ff",
+						["left_top"] = "0x000000ff",
+						["right_bottom"] = "0x000000ff",
+						["right_center"] = "0x000000ff",
+						["right_top"] = "0x000000ff",
+					},
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+}

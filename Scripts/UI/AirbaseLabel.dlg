@@ -1,0 +1,2298 @@
+dialog = {
+	["children"] = {
+		["horzSliderPercent"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 30,
+					["w"] = 400,
+					["x"] = 225,
+					["y"] = 560,
+				},
+				["enabled"] = true,
+				["pageStep"] = 10,
+				["range"] = {
+					["max"] = 100,
+					["min"] = 0,
+				},
+				["step"] = 1,
+				["tabOrder"] = 0,
+				["text"] = "horzSlider0",
+				["tooltip"] = "",
+				["value"] = 0,
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "horzSliderOptionsPanelSkin",
+				},
+				["skins"] = {
+					["thumb"] = {
+						["skinData"] = {
+							["states"] = {
+								["hover"] = {
+									[1] = {
+										["picture"] = {
+											["color"] = "0x7c7f6eff",
+											["file"] = "Keys-v3h.png",
+											["horzAlign"] = {
+												["offset"] = 0,
+												["type"] = "middle",
+											},
+											["rect"] = {
+												["x1"] = 0,
+												["x2"] = 19,
+												["y1"] = 41,
+												["y2"] = 58,
+											},
+											["size"] = {
+												["horz"] = 0,
+												["vert"] = 0,
+											},
+											["userTexSampler"] = 0,
+											["vertAlign"] = {
+												["offset"] = 0,
+												["type"] = "middle",
+											},
+										},
+									},
+								},
+								["released"] = {
+									[1] = {
+										["bkg"] = {
+											["center_bottom"] = "$nil$",
+											["center_center"] = "$nil$",
+											["center_top"] = "$nil$",
+											["file"] = "$nil$",
+											["insets"] = {
+												["bottom"] = "$nil$",
+												["left"] = "$nil$",
+												["right"] = "$nil$",
+												["top"] = "$nil$",
+											},
+											["left_bottom"] = "$nil$",
+											["left_center"] = "$nil$",
+											["left_top"] = "$nil$",
+											["rect"] = {
+												["x1"] = "$nil$",
+												["x2"] = "$nil$",
+												["y1"] = "$nil$",
+												["y2"] = "$nil$",
+											},
+											["right_bottom"] = "$nil$",
+											["right_center"] = "$nil$",
+											["right_top"] = "$nil$",
+										},
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "HorzSlider",
+		},
+		["labelTemplate"] = {
+			["children"] = {
+				["staticCode"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 60,
+							["x"] = 10,
+							["y"] = 106,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "MWSH",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 10,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xffffffff",
+										["font"] = "PTM75F.ttf",
+										["fontSize"] = 20,
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["staticDistance"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 60,
+							["x"] = 185,
+							["y"] = 106,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "72km",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 10,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xffffffff",
+										["font"] = "PTM75F.ttf",
+										["fontSize"] = 20,
+										["horzAlign"] = {
+											["type"] = "max",
+										},
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["staticName"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 50,
+							["w"] = 245,
+							["x"] = 0,
+							["y"] = 15,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "Krasnodar-Pashkovsky",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 10,
+					},
+					["skin"] = {
+						["params"] = {
+							["insets"] = {
+								["left"] = 0,
+								["right"] = 4,
+							},
+							["name"] = "staticSkin",
+							["textWrapping"] = true,
+							["useEllipsis"] = true,
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xffffffff",
+										["font"] = "PTM75F.ttf",
+										["fontSize"] = 20,
+										["horzAlign"] = {
+											["offset"] = 20,
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["staticPercent"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 34,
+							["w"] = 58,
+							["x"] = 169,
+							["y"] = 58,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "78",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 10,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xffffffff",
+										["font"] = "PTM75F.ttf",
+										["fontSize"] = 32,
+										["horzAlign"] = {
+											["offset"] = 20,
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["staticProgress"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 92,
+							["w"] = 65,
+							["x"] = 10,
+							["y"] = 10,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_center"] = "0x85b3feff",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["staticProgressBkg"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 92,
+							["w"] = 236,
+							["x"] = 10,
+							["y"] = 10,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_center"] = "0x959698ff",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["staticProgressBorder"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 92,
+							["w"] = 236,
+							["x"] = 10,
+							["y"] = 10,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 2,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0xffffffff",
+										["center_top"] = "0xffffffff",
+										["insets"] = {
+											["bottom"] = 1,
+											["left"] = 1,
+											["right"] = 1,
+											["top"] = 1,
+										},
+										["left_bottom"] = "0xffffffff",
+										["left_center"] = "0xffffffff",
+										["left_top"] = "0xffffffff",
+										["right_bottom"] = "0xffffffff",
+										["right_center"] = "0xffffffff",
+										["right_top"] = "0xffffffff",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 128,
+					["w"] = 256,
+					["x"] = 16,
+					["y"] = 10,
+				},
+				["enabled"] = true,
+				["layout"] = {
+				},
+				["text"] = "panel0",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_center"] = "0x85b3feff",
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Panel",
+		},
+		["panelCircleBlue"] = {
+			["children"] = {
+				["static0"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 140,
+							["w"] = 140,
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 70,
+							["y"] = 70,
+						},
+						["text"] = "%",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["blur"] = "$nil$",
+										["color"] = "0x333333ff",
+										["font"] = "Roboto.ttf",
+										["fontSize"] = 26,
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["shadowOffset"] = {
+											["horz"] = "$nil$",
+											["vert"] = "$nil$",
+										},
+										["vertAlign"] = {
+											["offset"] = 31,
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["staticBkg"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 140,
+							["w"] = 140,
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 70,
+							["y"] = 70,
+						},
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["picture"] = {
+										["color"] = "0xbdbdbdff",
+										["file"] = "dxgui\\skins\\skinme\\images\\airdromelabels\\circle_bkg.png",
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["userTexSampler"] = 0,
+									},
+									["text"] = {
+										["blur"] = "$nil$",
+										["color"] = "$nil$",
+										["font"] = "$nil$",
+										["fontSize"] = "$nil$",
+										["shadowOffset"] = {
+											["horz"] = "$nil$",
+											["vert"] = "$nil$",
+										},
+										["vertAlign"] = {
+											["offset"] = "$nil$",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["staticPercent13"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 140,
+							["w"] = 140,
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 70,
+							["y"] = 70,
+						},
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = false,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["picture"] = {
+										["color"] = "0x7eb0ffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\airdromelabels\\circle_13.png",
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["userTexSampler"] = 1,
+									},
+									["text"] = {
+										["blur"] = "$nil$",
+										["color"] = "$nil$",
+										["font"] = "$nil$",
+										["fontSize"] = "$nil$",
+										["shadowOffset"] = {
+											["horz"] = "$nil$",
+											["vert"] = "$nil$",
+										},
+										["vertAlign"] = {
+											["offset"] = "$nil$",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["staticPercent2"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 140,
+							["w"] = 140,
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 70,
+							["y"] = 70,
+						},
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = false,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["picture"] = {
+										["color"] = "0x7eb0ffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\airdromelabels\\circle_2.png",
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["userTexSampler"] = 1,
+									},
+									["text"] = {
+										["blur"] = "$nil$",
+										["color"] = "$nil$",
+										["font"] = "$nil$",
+										["fontSize"] = "$nil$",
+										["shadowOffset"] = {
+											["horz"] = "$nil$",
+											["vert"] = "$nil$",
+										},
+										["vertAlign"] = {
+											["offset"] = "$nil$",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["staticPercent25"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 140,
+							["w"] = 140,
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 70,
+							["y"] = 70,
+						},
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = false,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["picture"] = {
+										["color"] = "0x7eb0ffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\airdromelabels\\circle_25.png",
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["userTexSampler"] = 1,
+									},
+									["text"] = {
+										["blur"] = "$nil$",
+										["color"] = "$nil$",
+										["font"] = "$nil$",
+										["fontSize"] = "$nil$",
+										["shadowOffset"] = {
+											["horz"] = "$nil$",
+											["vert"] = "$nil$",
+										},
+										["vertAlign"] = {
+											["offset"] = "$nil$",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["staticPercent4"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 140,
+							["w"] = 140,
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 70,
+							["y"] = 70,
+						},
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = false,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["picture"] = {
+										["color"] = "0x7eb0ffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\airdromelabels\\circle_4.png",
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["userTexSampler"] = 1,
+									},
+									["text"] = {
+										["blur"] = "$nil$",
+										["color"] = "$nil$",
+										["font"] = "$nil$",
+										["fontSize"] = "$nil$",
+										["shadowOffset"] = {
+											["horz"] = "$nil$",
+											["vert"] = "$nil$",
+										},
+										["vertAlign"] = {
+											["offset"] = "$nil$",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["staticPercent50"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 140,
+							["w"] = 140,
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 70,
+							["y"] = 70,
+						},
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = false,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["picture"] = {
+										["color"] = "0x7eb0ffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\airdromelabels\\circle_50.png",
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["userTexSampler"] = 1,
+									},
+									["text"] = {
+										["blur"] = "$nil$",
+										["color"] = "$nil$",
+										["font"] = "$nil$",
+										["fontSize"] = "$nil$",
+										["shadowOffset"] = {
+											["horz"] = "$nil$",
+											["vert"] = "$nil$",
+										},
+										["vertAlign"] = {
+											["offset"] = "$nil$",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["staticPercent7"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 140,
+							["w"] = 140,
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 70,
+							["y"] = 70,
+						},
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = false,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["picture"] = {
+										["color"] = "0x7eb0ffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\airdromelabels\\circle_7.png",
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["userTexSampler"] = 1,
+									},
+									["text"] = {
+										["blur"] = "$nil$",
+										["color"] = "$nil$",
+										["font"] = "$nil$",
+										["fontSize"] = "$nil$",
+										["shadowOffset"] = {
+											["horz"] = "$nil$",
+											["vert"] = "$nil$",
+										},
+										["vertAlign"] = {
+											["offset"] = "$nil$",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["staticPercent75"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 140,
+							["w"] = 140,
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 70,
+							["y"] = 70,
+						},
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = false,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["picture"] = {
+										["color"] = "0x7eb0ffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\airdromelabels\\circle_75.png",
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["userTexSampler"] = 1,
+									},
+									["text"] = {
+										["blur"] = "$nil$",
+										["color"] = "$nil$",
+										["font"] = "$nil$",
+										["fontSize"] = "$nil$",
+										["shadowOffset"] = {
+											["horz"] = "$nil$",
+											["vert"] = "$nil$",
+										},
+										["vertAlign"] = {
+											["offset"] = "$nil$",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["staticPercentBegin"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 140,
+							["w"] = 140,
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 70,
+							["y"] = 70,
+						},
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = false,
+						["zindex"] = 10,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["picture"] = {
+										["color"] = "0x7eb0ffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\airdromelabels\\circle_begin.png",
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["userTexSampler"] = 1,
+									},
+									["text"] = {
+										["blur"] = "$nil$",
+										["color"] = "$nil$",
+										["font"] = "$nil$",
+										["fontSize"] = "$nil$",
+										["shadowOffset"] = {
+											["horz"] = "$nil$",
+											["vert"] = "$nil$",
+										},
+										["vertAlign"] = {
+											["offset"] = "$nil$",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["staticPercentEnd"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 140,
+							["w"] = 140,
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 70,
+							["y"] = 70,
+						},
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = false,
+						["zindex"] = 10,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["picture"] = {
+										["color"] = "0x7eb0ffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\airdromelabels\\circle_begin.png",
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["userTexSampler"] = 1,
+									},
+									["text"] = {
+										["blur"] = "$nil$",
+										["color"] = "$nil$",
+										["font"] = "$nil$",
+										["fontSize"] = "$nil$",
+										["shadowOffset"] = {
+											["horz"] = "$nil$",
+											["vert"] = "$nil$",
+										},
+										["vertAlign"] = {
+											["offset"] = "$nil$",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["staticPercentText"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 140,
+							["w"] = 140,
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 70,
+							["y"] = 70,
+						},
+						["text"] = "100",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["blur"] = "$nil$",
+										["color"] = "0x333333ff",
+										["font"] = "Roboto-Medium.ttf",
+										["fontSize"] = 50,
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["shadowOffset"] = {
+											["horz"] = "$nil$",
+											["vert"] = "$nil$",
+										},
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["staticProgressBkg"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 140,
+							["w"] = 140,
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 70,
+							["y"] = 70,
+						},
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = false,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["picture"] = {
+										["color"] = "0xdfdfdfff",
+										["file"] = "dxgui\\skins\\skinme\\images\\airdromelabels\\circle_progress_bkg.png",
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["userTexSampler"] = 0,
+									},
+									["text"] = {
+										["blur"] = "$nil$",
+										["color"] = "$nil$",
+										["font"] = "$nil$",
+										["fontSize"] = "$nil$",
+										["shadowOffset"] = {
+											["horz"] = "$nil$",
+											["vert"] = "$nil$",
+										},
+										["vertAlign"] = {
+											["offset"] = "$nil$",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 140,
+					["w"] = 140,
+					["x"] = 447,
+					["y"] = 338,
+				},
+				["enabled"] = true,
+				["layout"] = {
+				},
+				["text"] = "panel0",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["picture"] = {
+								["color"] = "0xffffffff",
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Panel",
+		},
+		["panelTemplate"] = {
+			["children"] = {
+				["panelCircle"] = {
+					["children"] = {
+						["static0"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 140,
+									["w"] = 140,
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 70,
+									["y"] = 70,
+								},
+								["text"] = "%",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 1,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["blur"] = "$nil$",
+												["color"] = "0x333333ff",
+												["font"] = "Roboto.ttf",
+												["fontSize"] = 26,
+												["horzAlign"] = {
+													["type"] = "middle",
+												},
+												["shadowOffset"] = {
+													["horz"] = "$nil$",
+													["vert"] = "$nil$",
+												},
+												["vertAlign"] = {
+													["offset"] = 31,
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["staticBkg"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 140,
+									["w"] = 140,
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 70,
+									["y"] = 70,
+								},
+								["text"] = "",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["picture"] = {
+												["color"] = "0xbdbdbdff",
+												["file"] = "dxgui\\skins\\skinme\\images\\airdromelabels\\circle_bkg.png",
+												["horzAlign"] = {
+													["type"] = "middle",
+												},
+												["userTexSampler"] = 0,
+											},
+											["text"] = {
+												["blur"] = "$nil$",
+												["color"] = "$nil$",
+												["font"] = "$nil$",
+												["fontSize"] = "$nil$",
+												["shadowOffset"] = {
+													["horz"] = "$nil$",
+													["vert"] = "$nil$",
+												},
+												["vertAlign"] = {
+													["offset"] = "$nil$",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["staticPercent13"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 140,
+									["w"] = 140,
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 70,
+									["y"] = 70,
+								},
+								["text"] = "",
+								["tooltip"] = "",
+								["visible"] = false,
+								["zindex"] = 1,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["picture"] = {
+												["color"] = "0x7eb0ffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\airdromelabels\\circle_13.png",
+												["horzAlign"] = {
+													["type"] = "middle",
+												},
+												["userTexSampler"] = 1,
+											},
+											["text"] = {
+												["blur"] = "$nil$",
+												["color"] = "$nil$",
+												["font"] = "$nil$",
+												["fontSize"] = "$nil$",
+												["shadowOffset"] = {
+													["horz"] = "$nil$",
+													["vert"] = "$nil$",
+												},
+												["vertAlign"] = {
+													["offset"] = "$nil$",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["staticPercent2"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 140,
+									["w"] = 140,
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 70,
+									["y"] = 70,
+								},
+								["text"] = "",
+								["tooltip"] = "",
+								["visible"] = false,
+								["zindex"] = 1,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["picture"] = {
+												["color"] = "0x7eb0ffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\airdromelabels\\circle_2.png",
+												["horzAlign"] = {
+													["type"] = "middle",
+												},
+												["userTexSampler"] = 1,
+											},
+											["text"] = {
+												["blur"] = "$nil$",
+												["color"] = "$nil$",
+												["font"] = "$nil$",
+												["fontSize"] = "$nil$",
+												["shadowOffset"] = {
+													["horz"] = "$nil$",
+													["vert"] = "$nil$",
+												},
+												["vertAlign"] = {
+													["offset"] = "$nil$",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["staticPercent25"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 140,
+									["w"] = 140,
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 70,
+									["y"] = 70,
+								},
+								["text"] = "",
+								["tooltip"] = "",
+								["visible"] = false,
+								["zindex"] = 1,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["picture"] = {
+												["color"] = "0x7eb0ffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\airdromelabels\\circle_25.png",
+												["horzAlign"] = {
+													["type"] = "middle",
+												},
+												["userTexSampler"] = 1,
+											},
+											["text"] = {
+												["blur"] = "$nil$",
+												["color"] = "$nil$",
+												["font"] = "$nil$",
+												["fontSize"] = "$nil$",
+												["shadowOffset"] = {
+													["horz"] = "$nil$",
+													["vert"] = "$nil$",
+												},
+												["vertAlign"] = {
+													["offset"] = "$nil$",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["staticPercent4"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 140,
+									["w"] = 140,
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 70,
+									["y"] = 70,
+								},
+								["text"] = "",
+								["tooltip"] = "",
+								["visible"] = false,
+								["zindex"] = 1,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["picture"] = {
+												["color"] = "0x7eb0ffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\airdromelabels\\circle_4.png",
+												["horzAlign"] = {
+													["type"] = "middle",
+												},
+												["userTexSampler"] = 1,
+											},
+											["text"] = {
+												["blur"] = "$nil$",
+												["color"] = "$nil$",
+												["font"] = "$nil$",
+												["fontSize"] = "$nil$",
+												["shadowOffset"] = {
+													["horz"] = "$nil$",
+													["vert"] = "$nil$",
+												},
+												["vertAlign"] = {
+													["offset"] = "$nil$",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["staticPercent50"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 140,
+									["w"] = 140,
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 70,
+									["y"] = 70,
+								},
+								["text"] = "",
+								["tooltip"] = "",
+								["visible"] = false,
+								["zindex"] = 1,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["picture"] = {
+												["color"] = "0x7eb0ffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\airdromelabels\\circle_50.png",
+												["horzAlign"] = {
+													["type"] = "middle",
+												},
+												["userTexSampler"] = 1,
+											},
+											["text"] = {
+												["blur"] = "$nil$",
+												["color"] = "$nil$",
+												["font"] = "$nil$",
+												["fontSize"] = "$nil$",
+												["shadowOffset"] = {
+													["horz"] = "$nil$",
+													["vert"] = "$nil$",
+												},
+												["vertAlign"] = {
+													["offset"] = "$nil$",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["staticPercent7"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 140,
+									["w"] = 140,
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 70,
+									["y"] = 70,
+								},
+								["text"] = "",
+								["tooltip"] = "",
+								["visible"] = false,
+								["zindex"] = 1,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["picture"] = {
+												["color"] = "0x7eb0ffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\airdromelabels\\circle_7.png",
+												["horzAlign"] = {
+													["type"] = "middle",
+												},
+												["userTexSampler"] = 1,
+											},
+											["text"] = {
+												["blur"] = "$nil$",
+												["color"] = "$nil$",
+												["font"] = "$nil$",
+												["fontSize"] = "$nil$",
+												["shadowOffset"] = {
+													["horz"] = "$nil$",
+													["vert"] = "$nil$",
+												},
+												["vertAlign"] = {
+													["offset"] = "$nil$",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["staticPercent75"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 140,
+									["w"] = 140,
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 70,
+									["y"] = 70,
+								},
+								["text"] = "",
+								["tooltip"] = "",
+								["visible"] = false,
+								["zindex"] = 1,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["picture"] = {
+												["color"] = "0x7eb0ffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\airdromelabels\\circle_75.png",
+												["horzAlign"] = {
+													["type"] = "middle",
+												},
+												["userTexSampler"] = 1,
+											},
+											["text"] = {
+												["blur"] = "$nil$",
+												["color"] = "$nil$",
+												["font"] = "$nil$",
+												["fontSize"] = "$nil$",
+												["shadowOffset"] = {
+													["horz"] = "$nil$",
+													["vert"] = "$nil$",
+												},
+												["vertAlign"] = {
+													["offset"] = "$nil$",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["staticPercentBegin"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 140,
+									["w"] = 140,
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 70,
+									["y"] = 70,
+								},
+								["text"] = "",
+								["tooltip"] = "",
+								["visible"] = false,
+								["zindex"] = 10,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["picture"] = {
+												["color"] = "0x7eb0ffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\airdromelabels\\circle_begin.png",
+												["horzAlign"] = {
+													["type"] = "middle",
+												},
+												["userTexSampler"] = 1,
+											},
+											["text"] = {
+												["blur"] = "$nil$",
+												["color"] = "$nil$",
+												["font"] = "$nil$",
+												["fontSize"] = "$nil$",
+												["shadowOffset"] = {
+													["horz"] = "$nil$",
+													["vert"] = "$nil$",
+												},
+												["vertAlign"] = {
+													["offset"] = "$nil$",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["staticPercentEnd"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 140,
+									["w"] = 140,
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 70,
+									["y"] = 70,
+								},
+								["text"] = "",
+								["tooltip"] = "",
+								["visible"] = false,
+								["zindex"] = 10,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["picture"] = {
+												["color"] = "0x7eb0ffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\airdromelabels\\circle_begin.png",
+												["horzAlign"] = {
+													["type"] = "middle",
+												},
+												["userTexSampler"] = 1,
+											},
+											["text"] = {
+												["blur"] = "$nil$",
+												["color"] = "$nil$",
+												["font"] = "$nil$",
+												["fontSize"] = "$nil$",
+												["shadowOffset"] = {
+													["horz"] = "$nil$",
+													["vert"] = "$nil$",
+												},
+												["vertAlign"] = {
+													["offset"] = "$nil$",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["staticPercentText"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 140,
+									["w"] = 140,
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 70,
+									["y"] = 70,
+								},
+								["text"] = "100",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 1,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["blur"] = "$nil$",
+												["color"] = "0x333333ff",
+												["font"] = "Roboto-Medium.ttf",
+												["fontSize"] = 50,
+												["horzAlign"] = {
+													["type"] = "middle",
+												},
+												["shadowOffset"] = {
+													["horz"] = "$nil$",
+													["vert"] = "$nil$",
+												},
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["staticProgressBkg"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 140,
+									["w"] = 140,
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 70,
+									["y"] = 70,
+								},
+								["text"] = "",
+								["tooltip"] = "",
+								["visible"] = false,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["picture"] = {
+												["color"] = "0xdfdfdfff",
+												["file"] = "dxgui\\skins\\skinme\\images\\airdromelabels\\circle_progress_bkg.png",
+												["horzAlign"] = {
+													["type"] = "middle",
+												},
+												["userTexSampler"] = 0,
+											},
+											["text"] = {
+												["blur"] = "$nil$",
+												["color"] = "$nil$",
+												["font"] = "$nil$",
+												["fontSize"] = "$nil$",
+												["shadowOffset"] = {
+													["horz"] = "$nil$",
+													["vert"] = "$nil$",
+												},
+												["vertAlign"] = {
+													["offset"] = "$nil$",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+					},
+					["params"] = {
+						["bounds"] = {
+							["h"] = 140,
+							["w"] = 140,
+							["x"] = 186,
+							["y"] = 41,
+						},
+						["enabled"] = true,
+						["layout"] = {
+						},
+						["text"] = "panel0",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 2,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "panelSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["picture"] = {
+										["color"] = "0xffffffff",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Panel",
+				},
+				["staticDistance"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 32,
+							["w"] = 120,
+							["x"] = 196,
+							["y"] = 5,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "800 km",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["insets"] = {
+								["bottom"] = 4,
+								["left"] = 4,
+								["right"] = 4,
+								["top"] = 4,
+							},
+							["minSize"] = {
+								["vert"] = 0,
+							},
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0x000000c0",
+										["center_center"] = "0x000000c0",
+										["center_top"] = "0x000000c0",
+										["file"] = "dxgui\\skins\\skinme\\images\\bkg\\rect-2.png",
+										["insets"] = {
+											["bottom"] = 2,
+											["left"] = 2,
+											["right"] = 2,
+											["top"] = 2,
+										},
+										["left_bottom"] = "0x000000c0",
+										["left_center"] = "0x000000c0",
+										["left_top"] = "0x000000c0",
+										["right_bottom"] = "0x000000c0",
+										["right_center"] = "0x000000c0",
+										["right_top"] = "0x000000c0",
+									},
+									["text"] = {
+										["color"] = "0xffffffff",
+										["font"] = "Roboto-Medium.ttf",
+										["fontSize"] = 24,
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["staticName"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 35,
+							["w"] = 512,
+							["x"] = 0,
+							["y"] = 216,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "Krasnodar-Pashkovsky1234567890",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 3,
+					},
+					["skin"] = {
+						["params"] = {
+							["insets"] = {
+								["bottom"] = 4,
+								["left"] = 4,
+								["right"] = 4,
+								["top"] = 4,
+							},
+							["minSize"] = {
+								["vert"] = 35,
+							},
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0x000000c0",
+										["center_center"] = "0x000000c0",
+										["center_top"] = "0x000000c0",
+										["file"] = "dxgui\\skins\\skinme\\images\\bkg\\rect-2.png",
+										["insets"] = {
+											["bottom"] = 2,
+											["left"] = 2,
+											["right"] = 2,
+											["top"] = 2,
+										},
+										["left_bottom"] = "0x000000c0",
+										["left_center"] = "0x000000c0",
+										["left_top"] = "0x000000c0",
+										["right_bottom"] = "0x000000c0",
+										["right_center"] = "0x000000c0",
+										["right_top"] = "0x000000c0",
+									},
+									["text"] = {
+										["color"] = "0xffffffff",
+										["font"] = "Roboto-Medium.ttf",
+										["fontSize"] = 24,
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 256,
+					["w"] = 512,
+					["x"] = 330,
+					["y"] = 26,
+				},
+				["enabled"] = true,
+				["layout"] = {
+					["data"] = {
+						["gap"] = 20,
+						["horzAlign"] = {
+							["offset"] = 0,
+							["type"] = "middle",
+						},
+						["vertAlign"] = {
+							["offset"] = 0,
+							["type"] = "min",
+						},
+					},
+					["type"] = "vert",
+				},
+				["text"] = "panel0",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+			},
+			["type"] = "Panel",
+		},
+		["staticColorBlue"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 28,
+					["w"] = 77,
+					["x"] = 109,
+					["y"] = 444,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "static0",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_center"] = "0x7eb0ffff",
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+		["staticColorNeutral"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 28,
+					["w"] = 77,
+					["x"] = 62,
+					["y"] = 376,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "static0",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_center"] = "0xbdbdbdff",
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+		["staticColorRed"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 28,
+					["w"] = 77,
+					["x"] = 107,
+					["y"] = 415,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "static0",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_center"] = "0xff8686ff",
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+		["staticLine"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 126,
+					["w"] = 1,
+					["x"] = 148,
+					["y"] = 154,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "static0",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_center"] = "0xf18787ff",
+							},
+							["text"] = {
+								["blur"] = "$nil$",
+								["color"] = "$nil$",
+								["font"] = "$nil$",
+								["fontSize"] = "$nil$",
+								["shadowOffset"] = {
+									["horz"] = "$nil$",
+									["vert"] = "$nil$",
+								},
+								["vertAlign"] = {
+									["offset"] = "$nil$",
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 720,
+			["w"] = 873,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["buddy"] = false,
+		["clipResizeCursor"] = false,
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["layout"] = {
+		},
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["overlay"] = false,
+		["resizable"] = false,
+		["text"] = "New dialog",
+		["unitTest"] = "local percentInfos = {\
+    {percent = 75    , angle = 270    , widget = 'staticPercent75'},\
+    {percent = 50    , angle = 180    , widget = 'staticPercent50'},\
+    {percent = 25    , angle = 90    , widget = 'staticPercent25'},\
+    {percent = 12.5    , angle = 45    , widget = 'staticPercent13'},\
+    {percent = 6.25    , angle = 22.5    , widget = 'staticPercent7'    },\
+    {percent = 3.125    , angle = 11.25    , widget = 'staticPercent4'    },\
+    {percent = 1.5625    , angle = 5.625        , widget = 'staticPercent2'    },\
+}\
+\
+local function processValue(value)\
+    print('~~~processValue', value)\
+    \
+    local extraAngle = 0\
+    local result = {}\
+    local valueCopy = value\
+    \
+    for i, info in ipairs(percentInfos) do\
+        if valueCopy - info.percent >= 0 then\
+            table.insert(result, {widget = info.widget, visible = true, angle = extraAngle})\
+            print('~~~', info.widget, extraAngle)            \
+            extraAngle = extraAngle + info.angle\
+            valueCopy = valueCopy - info.percent\
+        else\
+            table.insert(result, {widget = info.widget, visible = false, angle = 0})\
+        end\
+    end\
+    \
+    if value > 0 and value < 100 then\
+        table.insert(result, {widget = 'staticPercentBegin', visible = true, angle = 0})\
+        table.insert(result, {widget = 'staticPercentEnd', visible = true, angle = extraAngle})\
+        table.insert(result, {widget = 'staticProgressBkg', visible = true, angle = 0})\
+    else\
+        table.insert(result, {widget = 'staticPercentBegin', visible = false, angle = 0})\
+        table.insert(result, {widget = 'staticPercentEnd', visible = false, angle = 0})        \
+        table.insert(result, {widget = 'staticProgressBkg', visible = false, angle = 0})        \
+    end    \
+\
+    return result\
+end\
+\
+local panels = {\
+    dialog.panelCircleBlue,\
+    --dialog.panelCircleRed,\
+}\
+\
+function dialog.horzSliderPercent:onChange()\
+    local value = dialog.horzSliderPercent:getValue()\
+    local infos = processValue(value)\
+    \
+    for j, panel in ipairs(panels) do\
+        for i, info in ipairs(infos) do\
+            \
+            local widget = panel[info.widget]\
+            \
+            widget:setVisible(info.visible)\
+            \
+            if info.visible then\
+                widget:setAngle(-info.angle)\
+            end\
+        end\
+        \
+        panel.staticPercentText:setText(dialog.horzSliderPercent:getValue())\
+    end\
+\
+    dialog.panelCircleBlue:redraw()\
+end\
+\
+dialog.panelCircleBlue:setOpacity(0.7)",
+		["zOrder"] = 0,
+	},
+	["skin"] = {
+		["params"] = {
+			["name"] = "windowSkin",
+		},
+		["states"] = {
+			["released"] = {
+				[1] = {
+					["bkg"] = {
+						["center_bottom"] = "0x000000ff",
+						["center_center"] = "0x89838cff",
+						["center_top"] = "0x000000ff",
+						["insets"] = {
+							["bottom"] = 1,
+							["left"] = 1,
+							["right"] = 1,
+							["top"] = 1,
+						},
+						["left_bottom"] = "0x000000ff",
+						["left_center"] = "0x000000ff",
+						["left_top"] = "0x000000ff",
+						["right_bottom"] = "0x000000ff",
+						["right_center"] = "0x000000ff",
+						["right_top"] = "0x000000ff",
+					},
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+	["vertGuids"] = {
+		[1] = 40,
+	},
+}
