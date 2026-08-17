@@ -1,0 +1,1 @@
+return _('Rafale-C')
