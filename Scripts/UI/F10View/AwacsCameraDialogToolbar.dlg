@@ -1,0 +1,3306 @@
+dialog = {
+	["children"] = {
+		["TIME_DATE"] = {
+			["children"] = {
+				["DATE"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 15,
+							["w"] = 70,
+							["x"] = 56,
+							["y"] = 14,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "31/07/2015",
+						["tooltip"] = "DATE",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xffffffff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 13,
+										["horzAlign"] = {
+											["type"] = "max",
+										},
+										["lineHeight"] = 0,
+										["shadowColor"] = "0x00000000",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["SIMSPEED"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 15,
+							["w"] = 65,
+							["x"] = 3,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "(II/F)(1/20)",
+						["tooltip"] = "TIME",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xff4747ff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 13,
+										["horzAlign"] = {
+											["type"] = "max",
+										},
+										["lineHeight"] = 0,
+										["shadowColor"] = "0x00000000",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["TIME"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 15,
+							["w"] = 50,
+							["x"] = 75,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "12:00:00",
+						["tooltip"] = "TIME",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xffffffff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 13,
+										["horzAlign"] = {
+											["type"] = "max",
+										},
+										["lineHeight"] = 0,
+										["shadowColor"] = "0x00000000",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 29,
+					["w"] = 128,
+					["x"] = 1238,
+					["y"] = 2,
+				},
+				["enabled"] = true,
+				["layout"] = {
+					["data"] = {
+						["anchorInfos"] = {
+						},
+						["count"] = 0,
+					},
+					["type"] = "anchor",
+				},
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 100,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+			},
+			["type"] = "Panel",
+		},
+		["panelTop"] = {
+			["children"] = {
+				["buttonDatum"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 22,
+							["w"] = 50,
+							["x"] = 11,
+							["y"] = 4,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "WGS84",
+						["tooltip"] = "Selected Geodetic Datum, Press to change",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["maxSize"] = {
+								["horz"] = 0,
+							},
+							["minSize"] = {
+								["horz"] = 60,
+								["vert"] = 22,
+							},
+							["name"] = "ButtonSimSkin",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "$nil$",
+										["center_center"] = "$nil$",
+										["center_top"] = "$nil$",
+										["file"] = "$nil$",
+										["left_bottom"] = "$nil$",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["right_bottom"] = "$nil$",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["text"] = {
+										["color"] = "0x6ed8f3ff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 14,
+										["horzAlign"] = {
+											["offset"] = 5,
+											["type"] = "min",
+										},
+										["lineHeight"] = 0,
+										["vertAlign"] = {
+											["offset"] = 0,
+										},
+									},
+								},
+							},
+							["hover"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0x6ed8f3a5",
+										["center_top"] = "0x6ed8f3a5",
+										["insets"] = {
+											["bottom"] = 1,
+											["left"] = 1,
+											["right"] = 1,
+											["top"] = 1,
+										},
+										["left_bottom"] = "0x6ed8f3a5",
+										["left_center"] = "0x6ed8f3a5",
+										["left_top"] = "0x6ed8f3a5",
+										["right_bottom"] = "0x6ed8f3a5",
+										["right_center"] = "0x6ed8f3a5",
+										["right_top"] = "0x6ed8f3a5",
+									},
+									["text"] = {
+										["blur"] = 0,
+										["color"] = "0x81eaf3ff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 14,
+										["horzAlign"] = {
+											["offset"] = 5,
+											["type"] = "min",
+										},
+										["lineHeight"] = 0,
+										["shadowOffset"] = {
+											["horz"] = 0,
+											["vert"] = 0,
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0x6ed8f3a5",
+										["center_top"] = "0x6ed8f3a5",
+										["left_bottom"] = "0x6ed8f3a5",
+										["left_center"] = "0x6ed8f3a5",
+										["left_top"] = "0x6ed8f3a5",
+										["right_bottom"] = "0x6ed8f3a5",
+										["right_center"] = "0x6ed8f3a5",
+										["right_top"] = "0x6ed8f3a5",
+									},
+									["text"] = {
+										["blur"] = 0,
+										["color"] = "0x6ed8f3ff",
+										["fontSize"] = 14,
+										["horzAlign"] = {
+											["offset"] = 6,
+											["type"] = "min",
+										},
+										["lineHeight"] = 0,
+										["shadowOffset"] = {
+											["horz"] = 0,
+											["vert"] = 0,
+										},
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "$nil$",
+										["center_top"] = "$nil$",
+										["left_bottom"] = "$nil$",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["right_bottom"] = "$nil$",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["text"] = {
+										["color"] = "0x6ed8f3ff",
+										["fontSize"] = 14,
+										["horzAlign"] = {
+											["offset"] = 5,
+											["type"] = "min",
+										},
+										["lineHeight"] = 0,
+										["vertAlign"] = {
+											["offset"] = 0,
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Button",
+				},
+				["buttonEnterRadio"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 28,
+							["w"] = 28,
+							["x"] = 561,
+							["y"] = 3,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "",
+						["tooltip"] = "$tip_EnterRadio",
+						["visible"] = true,
+						["zindex"] = 15,
+					},
+					["skin"] = {
+						["params"] = {
+							["insets"] = {
+								["bottom"] = 0,
+								["left"] = 0,
+								["right"] = 0,
+								["top"] = 0,
+							},
+							["maxSize"] = {
+								["horz"] = 28,
+								["vert"] = 28,
+							},
+							["minSize"] = {
+								["horz"] = 24,
+								["vert"] = 24,
+							},
+							["name"] = "buttonSkinAwacs",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "$nil$",
+										["center_center"] = "$nil$",
+										["center_top"] = "$nil$",
+										["file"] = "$nil$",
+										["insets"] = "$nil$",
+										["left_bottom"] = "$nil$",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["right_bottom"] = "$nil$",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["picture"] = {
+										["color"] = "0xffffff80",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon11.png",
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+										["rect"] = {
+											["x1"] = 0,
+											["x2"] = 0,
+											["y1"] = 0,
+											["y2"] = 0,
+										},
+										["resizeToFill"] = false,
+										["size"] = {
+											["horz"] = 0,
+											["vert"] = 0,
+										},
+										["tileHorizontally"] = false,
+										["tileVertically"] = false,
+										["userTexSampler"] = 0,
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+									["text"] = {
+										["blur"] = "$nil$",
+										["color"] = "$nil$",
+										["font"] = "$nil$",
+										["fontSize"] = "$nil$",
+										["shadowOffset"] = {
+											["horz"] = "$nil$",
+											["vert"] = "$nil$",
+										},
+									},
+								},
+							},
+							["hover"] = {
+								[1] = {
+									["bkg"] = {
+										["center_center"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\bgbuttonhover.png",
+									},
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon11.png",
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+										["rect"] = {
+											["x1"] = 0,
+											["x2"] = 0,
+											["y1"] = 0,
+											["y2"] = 0,
+										},
+										["resizeToFill"] = false,
+										["size"] = {
+											["horz"] = 0,
+											["vert"] = 0,
+										},
+										["tileHorizontally"] = false,
+										["tileVertically"] = false,
+										["userTexSampler"] = 0,
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "$nil$",
+										["center_top"] = "$nil$",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\bgbuttonselected.png",
+										["insets"] = "$nil$",
+										["left_bottom"] = "$nil$",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["right_bottom"] = "$nil$",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon11.png",
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+										["rect"] = {
+											["x1"] = 0,
+											["x2"] = 0,
+											["y1"] = 0,
+											["y2"] = 0,
+										},
+										["resizeToFill"] = false,
+										["size"] = {
+											["horz"] = 0,
+											["vert"] = 0,
+										},
+										["tileHorizontally"] = false,
+										["tileVertically"] = false,
+										["userTexSampler"] = 0,
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+									["text"] = {
+										["bkgColor"] = "$nil$",
+										["blur"] = "$nil$",
+										["blurColor"] = "$nil$",
+										["color"] = "$nil$",
+										["font"] = "$nil$",
+										["fontSize"] = "$nil$",
+										["horzAlign"] = {
+											["offset"] = "$nil$",
+										},
+										["lineThroughColor"] = "$nil$",
+										["lineThroughHeight"] = "$nil$",
+										["shadowColor"] = "$nil$",
+										["shadowOffset"] = {
+											["horz"] = "$nil$",
+											["vert"] = "$nil$",
+										},
+										["vertAlign"] = {
+											["offset"] = "$nil$",
+										},
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "$nil$",
+										["center_center"] = "$nil$",
+										["center_top"] = "$nil$",
+										["file"] = "$nil$",
+										["insets"] = "$nil$",
+										["left_bottom"] = "$nil$",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["right_bottom"] = "$nil$",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon11.png",
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+									["text"] = {
+										["blur"] = "$nil$",
+										["color"] = "$nil$",
+										["font"] = "$nil$",
+										["fontSize"] = "$nil$",
+										["shadowOffset"] = {
+											["horz"] = "$nil$",
+											["vert"] = "$nil$",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Button",
+				},
+				["buttonEnterVehicle"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 28,
+							["w"] = 28,
+							["x"] = 251,
+							["y"] = 3,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "",
+						["tooltip"] = "$tip_EnterVehicle",
+						["visible"] = true,
+						["zindex"] = 15,
+					},
+					["skin"] = {
+						["params"] = {
+							["insets"] = {
+								["bottom"] = 0,
+								["left"] = 0,
+								["right"] = 0,
+								["top"] = 0,
+							},
+							["maxSize"] = {
+								["horz"] = 28,
+								["vert"] = 28,
+							},
+							["minSize"] = {
+								["horz"] = 24,
+								["vert"] = 24,
+							},
+							["name"] = "buttonSkinAwacs",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "$nil$",
+										["center_center"] = "$nil$",
+										["center_top"] = "$nil$",
+										["file"] = "$nil$",
+										["insets"] = "$nil$",
+										["left_bottom"] = "$nil$",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["right_bottom"] = "$nil$",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["picture"] = {
+										["color"] = "0xffffff80",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon11.png",
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+										["rect"] = {
+											["x1"] = 0,
+											["x2"] = 0,
+											["y1"] = 0,
+											["y2"] = 0,
+										},
+										["resizeToFill"] = false,
+										["size"] = {
+											["horz"] = 0,
+											["vert"] = 0,
+										},
+										["tileHorizontally"] = false,
+										["tileVertically"] = false,
+										["userTexSampler"] = 0,
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+									["text"] = {
+										["blur"] = "$nil$",
+										["color"] = "$nil$",
+										["font"] = "$nil$",
+										["fontSize"] = "$nil$",
+										["shadowOffset"] = {
+											["horz"] = "$nil$",
+											["vert"] = "$nil$",
+										},
+									},
+								},
+							},
+							["hover"] = {
+								[1] = {
+									["bkg"] = {
+										["center_center"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\bgbuttonhover.png",
+									},
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon11.png",
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+										["rect"] = {
+											["x1"] = 0,
+											["x2"] = 0,
+											["y1"] = 0,
+											["y2"] = 0,
+										},
+										["resizeToFill"] = false,
+										["size"] = {
+											["horz"] = 0,
+											["vert"] = 0,
+										},
+										["tileHorizontally"] = false,
+										["tileVertically"] = false,
+										["userTexSampler"] = 0,
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "$nil$",
+										["center_top"] = "$nil$",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\bgbuttonselected.png",
+										["insets"] = "$nil$",
+										["left_bottom"] = "$nil$",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["right_bottom"] = "$nil$",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon11.png",
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+										["rect"] = {
+											["x1"] = 0,
+											["x2"] = 0,
+											["y1"] = 0,
+											["y2"] = 0,
+										},
+										["resizeToFill"] = false,
+										["size"] = {
+											["horz"] = 0,
+											["vert"] = 0,
+										},
+										["tileHorizontally"] = false,
+										["tileVertically"] = false,
+										["userTexSampler"] = 0,
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+									["text"] = {
+										["bkgColor"] = "$nil$",
+										["blur"] = "$nil$",
+										["blurColor"] = "$nil$",
+										["color"] = "$nil$",
+										["font"] = "$nil$",
+										["fontSize"] = "$nil$",
+										["horzAlign"] = {
+											["offset"] = "$nil$",
+										},
+										["lineThroughColor"] = "$nil$",
+										["lineThroughHeight"] = "$nil$",
+										["shadowColor"] = "$nil$",
+										["shadowOffset"] = {
+											["horz"] = "$nil$",
+											["vert"] = "$nil$",
+										},
+										["vertAlign"] = {
+											["offset"] = "$nil$",
+										},
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "$nil$",
+										["center_center"] = "$nil$",
+										["center_top"] = "$nil$",
+										["file"] = "$nil$",
+										["insets"] = "$nil$",
+										["left_bottom"] = "$nil$",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["right_bottom"] = "$nil$",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon11.png",
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+									["text"] = {
+										["blur"] = "$nil$",
+										["color"] = "$nil$",
+										["font"] = "$nil$",
+										["fontSize"] = "$nil$",
+										["shadowOffset"] = {
+											["horz"] = "$nil$",
+											["vert"] = "$nil$",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Button",
+				},
+				["buttonHeadingUnits"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 28,
+							["w"] = 48,
+							["x"] = 1072,
+							["y"] = 6,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "°=>°°",
+						["tooltip"] = "°=>°°",
+						["visible"] = true,
+						["zindex"] = 202,
+					},
+					["skin"] = {
+						["params"] = {
+							["maxSize"] = {
+								["horz"] = 48,
+							},
+							["minSize"] = {
+								["horz"] = 48,
+								["vert"] = 28,
+							},
+							["name"] = "toggleButtonSkinAwacsToolbar",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["text"] = {
+										["blur"] = 0,
+										["color"] = "0x6ed8f3ff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 14,
+										["horzAlign"] = {
+											["offset"] = 5,
+											["type"] = "min",
+										},
+										["lineHeight"] = 0,
+										["shadowOffset"] = {
+											["horz"] = 0,
+											["vert"] = 0,
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+							["hover"] = {
+								[1] = {
+									["bkg"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\bgbuttonhover48.png",
+									},
+									["text"] = {
+										["blur"] = 0,
+										["color"] = "0x6ed8f3ff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 14,
+										["horzAlign"] = {
+											["offset"] = 5,
+											["type"] = "min",
+										},
+										["lineHeight"] = 0,
+										["shadowOffset"] = {
+											["horz"] = 0,
+											["vert"] = 0,
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["bkg"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\bgbuttonselected48.png",
+									},
+									["text"] = {
+										["blur"] = 0,
+										["color"] = "0x6ed8f3ff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 14,
+										["horzAlign"] = {
+											["offset"] = 5,
+											["type"] = "min",
+										},
+										["lineHeight"] = 0,
+										["shadowOffset"] = {
+											["horz"] = 0,
+											["vert"] = 0,
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_center"] = "0xe5e5e7ff",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\bgbuttonhover48.png",
+									},
+									["text"] = {
+										["bkgColor"] = "$nil$",
+										["blur"] = 0,
+										["blurColor"] = "$nil$",
+										["color"] = "0x6ed8f3ff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 14,
+										["horzAlign"] = {
+											["offset"] = 5,
+											["type"] = "min",
+										},
+										["lineThroughColor"] = "$nil$",
+										["lineThroughHeight"] = "$nil$",
+										["shadowColor"] = "$nil$",
+										["shadowOffset"] = {
+											["horz"] = 0,
+											["vert"] = 0,
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Button",
+				},
+				["buttonImperialMetric"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 28,
+							["w"] = 64,
+							["x"] = 1124,
+							["y"] = 4,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "m=>ft",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 201,
+					},
+					["skin"] = {
+						["params"] = {
+							["maxSize"] = {
+								["horz"] = 64,
+							},
+							["minSize"] = {
+								["horz"] = 64,
+								["vert"] = 28,
+							},
+							["name"] = "toggleButtonSkinAwacsToolbar",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["text"] = {
+										["blur"] = 0,
+										["color"] = "0x6ed8f3ff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 14,
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+										["lineHeight"] = 0,
+										["shadowOffset"] = {
+											["horz"] = 0,
+											["vert"] = 0,
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+							["hover"] = {
+								[1] = {
+									["bkg"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\bgbuttonhover64.png",
+									},
+									["text"] = {
+										["blur"] = 0,
+										["color"] = "0x6ed8f3ff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 14,
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+										["lineHeight"] = 0,
+										["shadowOffset"] = {
+											["horz"] = 0,
+											["vert"] = 0,
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["bkg"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\bgbuttonselected64.png",
+									},
+									["text"] = {
+										["blur"] = 0,
+										["color"] = "0x6ed8f3ff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 14,
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+										["lineHeight"] = 0,
+										["shadowOffset"] = {
+											["horz"] = 0,
+											["vert"] = 0,
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_center"] = "0xe5e5e7ff",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\bgbuttonhover64.png",
+									},
+									["text"] = {
+										["bkgColor"] = "$nil$",
+										["blur"] = 0,
+										["blurColor"] = "$nil$",
+										["color"] = "0x6ed8f3ff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 14,
+										["lineThroughColor"] = "$nil$",
+										["lineThroughHeight"] = "$nil$",
+										["shadowColor"] = "$nil$",
+										["shadowOffset"] = {
+											["horz"] = 0,
+											["vert"] = 0,
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Button",
+				},
+				["buttonMarkPanel"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 28,
+							["w"] = 28,
+							["x"] = 870,
+							["y"] = 3,
+						},
+						["enabled"] = true,
+						["state"] = false,
+						["tabOrder"] = 0,
+						["text"] = "",
+						["tooltip"] = "$tip_MarkLabel",
+						["visible"] = true,
+						["zindex"] = 13,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "toggleButtonSkinAwacsToolbar",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon8.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon8.png",
+									},
+								},
+							},
+							["hover"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon8.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon8.png",
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon8.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon8.png",
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon8.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon8.png",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "ToggleButton",
+				},
+				["buttonMarkVis"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 28,
+							["w"] = 28,
+							["x"] = 786,
+							["y"] = 3,
+						},
+						["enabled"] = true,
+						["state"] = false,
+						["tabOrder"] = 0,
+						["text"] = "",
+						["tooltip"] = "$tip_MarksOnOff",
+						["visible"] = true,
+						["zindex"] = 14,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "toggleButtonSkinAwacsToolbar",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon 16.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon 16.png",
+									},
+								},
+							},
+							["hover"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon 16.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon 16.png",
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon 16.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon 16.png",
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon 16.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon 16.png",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "ToggleButton",
+				},
+				["buttonZoom100"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 29,
+							["w"] = 29,
+							["x"] = 670,
+							["y"] = 3,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "100%",
+						["tooltip"] = "$tip_ActualSize",
+						["visible"] = true,
+						["zindex"] = 130,
+					},
+					["skin"] = {
+						["params"] = {
+							["insets"] = {
+								["bottom"] = 0,
+								["left"] = 0,
+								["right"] = 0,
+								["top"] = 0,
+							},
+							["maxSize"] = {
+								["horz"] = 28,
+								["vert"] = 28,
+							},
+							["minSize"] = {
+								["horz"] = 24,
+								["vert"] = 24,
+							},
+							["name"] = "buttonSkinAwacs",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "$nil$",
+										["center_center"] = "$nil$",
+										["center_top"] = "$nil$",
+										["file"] = "$nil$",
+										["insets"] = "$nil$",
+										["left_bottom"] = "$nil$",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["right_bottom"] = "$nil$",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["picture"] = {
+										["color"] = "0xffffff80",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon13.png",
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+										["rect"] = {
+											["x1"] = 0,
+											["x2"] = 0,
+											["y1"] = 0,
+											["y2"] = 0,
+										},
+										["resizeToFill"] = false,
+										["size"] = {
+											["horz"] = 0,
+											["vert"] = 0,
+										},
+										["tileHorizontally"] = false,
+										["tileVertically"] = false,
+										["userTexSampler"] = 0,
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+									["text"] = {
+										["blur"] = "$nil$",
+										["color"] = "$nil$",
+										["font"] = "$nil$",
+										["fontSize"] = "$nil$",
+										["shadowOffset"] = {
+											["horz"] = "$nil$",
+											["vert"] = "$nil$",
+										},
+									},
+								},
+							},
+							["hover"] = {
+								[1] = {
+									["bkg"] = {
+										["center_center"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\bgbuttonhover.png",
+									},
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon13.png",
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+										["rect"] = {
+											["x1"] = 0,
+											["x2"] = 0,
+											["y1"] = 0,
+											["y2"] = 0,
+										},
+										["resizeToFill"] = false,
+										["size"] = {
+											["horz"] = 0,
+											["vert"] = 0,
+										},
+										["tileHorizontally"] = false,
+										["tileVertically"] = false,
+										["userTexSampler"] = 0,
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "$nil$",
+										["center_top"] = "$nil$",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\bgbuttonselected.png",
+										["insets"] = "$nil$",
+										["left_bottom"] = "$nil$",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["right_bottom"] = "$nil$",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon13.png",
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+										["rect"] = {
+											["x1"] = 0,
+											["x2"] = 0,
+											["y1"] = 0,
+											["y2"] = 0,
+										},
+										["resizeToFill"] = false,
+										["size"] = {
+											["horz"] = 0,
+											["vert"] = 0,
+										},
+										["tileHorizontally"] = false,
+										["tileVertically"] = false,
+										["userTexSampler"] = 0,
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+									["text"] = {
+										["bkgColor"] = "$nil$",
+										["blur"] = "$nil$",
+										["blurColor"] = "$nil$",
+										["color"] = "$nil$",
+										["font"] = "$nil$",
+										["fontSize"] = "$nil$",
+										["horzAlign"] = {
+											["offset"] = "$nil$",
+										},
+										["lineThroughColor"] = "$nil$",
+										["lineThroughHeight"] = "$nil$",
+										["shadowColor"] = "$nil$",
+										["shadowOffset"] = {
+											["horz"] = "$nil$",
+											["vert"] = "$nil$",
+										},
+										["vertAlign"] = {
+											["offset"] = "$nil$",
+										},
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "$nil$",
+										["center_center"] = "$nil$",
+										["center_top"] = "$nil$",
+										["file"] = "$nil$",
+										["insets"] = "$nil$",
+										["left_bottom"] = "$nil$",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["right_bottom"] = "$nil$",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon13.png",
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+									["text"] = {
+										["blur"] = "$nil$",
+										["color"] = "$nil$",
+										["font"] = "$nil$",
+										["fontSize"] = "$nil$",
+										["shadowOffset"] = {
+											["horz"] = "$nil$",
+											["vert"] = "$nil$",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Button",
+				},
+				["staticCoordinates"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 22,
+							["w"] = 183,
+							["x"] = 58,
+							["y"] = 4,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "coordinates",
+						["tooltip"] = "$tip_Coordinates",
+						["visible"] = true,
+						["zindex"] = 9,
+					},
+					["skin"] = {
+						["params"] = {
+							["maxSize"] = {
+								["horz"] = 0,
+							},
+							["minSize"] = {
+								["horz"] = 256,
+								["vert"] = 22,
+							},
+							["name"] = "ButtonSimSkin",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "$nil$",
+										["center_center"] = "$nil$",
+										["center_top"] = "$nil$",
+										["file"] = "$nil$",
+										["left_bottom"] = "$nil$",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["right_bottom"] = "$nil$",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["text"] = {
+										["color"] = "0x6ed8f3ff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 14,
+										["horzAlign"] = {
+											["offset"] = 5,
+											["type"] = "min",
+										},
+										["lineHeight"] = 0,
+										["vertAlign"] = {
+											["offset"] = 0,
+										},
+									},
+								},
+							},
+							["hover"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0x6ed8f3a5",
+										["center_top"] = "0x6ed8f3a5",
+										["insets"] = {
+											["bottom"] = 1,
+											["left"] = 1,
+											["right"] = 1,
+											["top"] = 1,
+										},
+										["left_bottom"] = "0x6ed8f3a5",
+										["left_center"] = "0x6ed8f3a5",
+										["left_top"] = "0x6ed8f3a5",
+										["right_bottom"] = "0x6ed8f3a5",
+										["right_center"] = "0x6ed8f3a5",
+										["right_top"] = "0x6ed8f3a5",
+									},
+									["text"] = {
+										["blur"] = 0,
+										["color"] = "0x81eaf3ff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 14,
+										["horzAlign"] = {
+											["offset"] = 5,
+											["type"] = "min",
+										},
+										["lineHeight"] = 0,
+										["shadowOffset"] = {
+											["horz"] = 0,
+											["vert"] = 0,
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0x6ed8f3a5",
+										["center_top"] = "0x6ed8f3a5",
+										["left_bottom"] = "0x6ed8f3a5",
+										["left_center"] = "0x6ed8f3a5",
+										["left_top"] = "0x6ed8f3a5",
+										["right_bottom"] = "0x6ed8f3a5",
+										["right_center"] = "0x6ed8f3a5",
+										["right_top"] = "0x6ed8f3a5",
+									},
+									["text"] = {
+										["blur"] = 0,
+										["color"] = "0x6ed8f3ff",
+										["fontSize"] = 14,
+										["horzAlign"] = {
+											["offset"] = 6,
+											["type"] = "min",
+										},
+										["lineHeight"] = 0,
+										["shadowOffset"] = {
+											["horz"] = 0,
+											["vert"] = 0,
+										},
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "$nil$",
+										["center_top"] = "$nil$",
+										["left_bottom"] = "$nil$",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["right_bottom"] = "$nil$",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["text"] = {
+										["color"] = "0x6ed8f3ff",
+										["fontSize"] = 14,
+										["horzAlign"] = {
+											["offset"] = 5,
+											["type"] = "min",
+										},
+										["lineHeight"] = 0,
+										["vertAlign"] = {
+											["offset"] = 0,
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Button",
+				},
+				["toggleButtonBullsEyeRef"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 28,
+							["w"] = 29,
+							["x"] = 707,
+							["y"] = 1,
+						},
+						["enabled"] = true,
+						["state"] = false,
+						["tabOrder"] = 0,
+						["text"] = "",
+						["tooltip"] = "$tip_BullseyeRfrnce",
+						["visible"] = true,
+						["zindex"] = 169,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "toggleButtonSkinAwacsToolbar",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\bullseye_ref.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\bullseye_ref.png",
+									},
+								},
+							},
+							["hover"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\bullseye_ref.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\bullseye_ref.png",
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\bullseye_ref.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\bullseye_ref.png",
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\bullseye_ref.png",
+										["rect"] = {
+											["x1"] = 0,
+											["x2"] = 0,
+											["y1"] = 0,
+											["y2"] = 0,
+										},
+										["resizeToFill"] = false,
+										["size"] = {
+											["horz"] = 0,
+											["vert"] = 0,
+										},
+										["tileHorizontally"] = false,
+										["tileVertically"] = false,
+										["userTexSampler"] = 0,
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\bullseye_ref.png",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "ToggleButton",
+				},
+				["toggleButtonCenterOnPlane"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 28,
+							["w"] = 28,
+							["x"] = 746,
+							["y"] = 3,
+						},
+						["enabled"] = true,
+						["state"] = false,
+						["tabOrder"] = 0,
+						["text"] = "",
+						["tooltip"] = "$tip_CenterOnPlane",
+						["visible"] = true,
+						["zindex"] = 11,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "toggleButtonSkinAwacsToolbar",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon12.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon12.png",
+									},
+								},
+							},
+							["hover"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon12.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon12.png",
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon12.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon12.png",
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon12.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon12.png",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "ToggleButton",
+				},
+				["toggleButtonShowBeacons"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 28,
+							["w"] = 28,
+							["x"] = 1174,
+							["y"] = 3,
+						},
+						["enabled"] = true,
+						["state"] = false,
+						["tabOrder"] = 0,
+						["text"] = "",
+						["tooltip"] = "$tip_Beacons",
+						["visible"] = true,
+						["zindex"] = 51,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "toggleButtonSkinAwacsToolbar",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\iconbeacons.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\iconbeacons.png",
+									},
+								},
+							},
+							["hover"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\iconbeacons.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\iconbeacons.png",
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\iconbeacons.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\iconbeacons.png",
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\iconbeacons.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\iconbeacons.png",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "ToggleButton",
+				},
+				["toggleButtonShowDetectionAreas"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 28,
+							["w"] = 28,
+							["x"] = 341,
+							["y"] = 3,
+						},
+						["enabled"] = true,
+						["state"] = false,
+						["tabOrder"] = 0,
+						["text"] = "",
+						["tooltip"] = "$tip_DetectionAreas",
+						["visible"] = true,
+						["zindex"] = 40,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "toggleButtonSkinAwacsToolbar",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon2.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon2.png",
+									},
+								},
+							},
+							["hover"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon2.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon2.png",
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon2.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon2.png",
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon2.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon2.png",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "ToggleButton",
+				},
+				["toggleButtonShowEngagementAreas"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 28,
+							["w"] = 28,
+							["x"] = 369,
+							["y"] = 3,
+						},
+						["enabled"] = true,
+						["state"] = true,
+						["tabOrder"] = 0,
+						["text"] = "",
+						["tooltip"] = "$tip_EngagementAreas",
+						["visible"] = true,
+						["zindex"] = 50,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "toggleButtonSkinAwacsToolbar",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon1.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon1.png",
+									},
+								},
+							},
+							["hover"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon1.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon1.png",
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon1.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon1.png",
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon1.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon1.png",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "ToggleButton",
+				},
+				["toggleButtonShowLabelsA"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 28,
+							["w"] = 28,
+							["x"] = 399,
+							["y"] = 3,
+						},
+						["enabled"] = true,
+						["state"] = false,
+						["tabOrder"] = 0,
+						["text"] = "",
+						["tooltip"] = "$tip_LabelsA",
+						["visible"] = true,
+						["zindex"] = 60,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "toggleButtonSkinAwacsToolbar",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\iconLabelsA.png",
+									},
+								},
+							},
+							["hover"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\iconLabelsA.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\iconLabelsA.png",
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\iconLabelsA.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\iconLabelsA.png",
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\iconLabelsA.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\iconLabelsA.png",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "ToggleButton",
+				},
+				["toggleButtonShowLabelsG"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 28,
+							["w"] = 28,
+							["x"] = 426,
+							["y"] = 3,
+						},
+						["enabled"] = true,
+						["state"] = false,
+						["tabOrder"] = 0,
+						["text"] = "",
+						["tooltip"] = "$tip_LabelsG",
+						["visible"] = true,
+						["zindex"] = 61,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "toggleButtonSkinAwacsToolbar",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\iconLabelsG.png",
+									},
+								},
+							},
+							["hover"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\iconLabelsG.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\iconLabelsG.png",
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\iconLabelsG.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\iconLabelsG.png",
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\iconLabelsG.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\iconLabelsG.png",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "ToggleButton",
+				},
+				["toggleButtonShowLabelsW"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 28,
+							["w"] = 28,
+							["x"] = 453,
+							["y"] = 3,
+						},
+						["enabled"] = true,
+						["state"] = false,
+						["tabOrder"] = 0,
+						["text"] = "",
+						["tooltip"] = "$tip_LabelsW",
+						["visible"] = true,
+						["zindex"] = 62,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "toggleButtonSkinAwacsToolbar",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\iconLabelsW.png",
+									},
+								},
+							},
+							["hover"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\iconLabelsW.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\iconLabelsW.png",
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\iconLabelsW.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\iconLabelsW.png",
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\iconLabelsW.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\iconLabelsW.png",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "ToggleButton",
+				},
+				["toggleButtonShowLatLonGrid"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 28,
+							["w"] = 29,
+							["x"] = 918,
+							["y"] = 3,
+						},
+						["enabled"] = true,
+						["state"] = false,
+						["tabOrder"] = 0,
+						["text"] = "",
+						["tooltip"] = "$tip_LL_grid",
+						["visible"] = true,
+						["zindex"] = 170,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "toggleButtonSkinAwacsToolbar",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon14.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon14.png",
+									},
+								},
+							},
+							["hover"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon14.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon14.png",
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon14.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon14.png",
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon14.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon14.png",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "ToggleButton",
+				},
+				["toggleButtonShowLifeBar"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 28,
+							["w"] = 28,
+							["x"] = 825,
+							["y"] = 3,
+						},
+						["enabled"] = true,
+						["state"] = false,
+						["tabOrder"] = 0,
+						["text"] = "",
+						["tooltip"] = "$tip_LifeBar",
+						["visible"] = true,
+						["zindex"] = 12,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "toggleButtonSkinAwacsToolbar",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon4.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon4.png",
+									},
+								},
+							},
+							["hover"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon4.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon4.png",
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon4.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon4.png",
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon4.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon4.png",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "ToggleButton",
+				},
+				["toggleButtonShowMgrsGrid"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 29,
+							["w"] = 29,
+							["x"] = 970,
+							["y"] = 1,
+						},
+						["enabled"] = true,
+						["state"] = false,
+						["tabOrder"] = 0,
+						["text"] = "",
+						["tooltip"] = "$tip_MGRS_grid",
+						["visible"] = true,
+						["zindex"] = 180,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "toggleButtonSkinAwacsToolbar",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon15.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon15.png",
+									},
+								},
+							},
+							["hover"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon15.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon15.png",
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon15.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon15.png",
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon15.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon15.png",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "ToggleButton",
+				},
+				["toggleButtonShowRouteTool"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 28,
+							["w"] = 28,
+							["x"] = 1195,
+							["y"] = 3,
+						},
+						["enabled"] = true,
+						["state"] = false,
+						["tabOrder"] = 0,
+						["text"] = "",
+						["tooltip"] = "$tip_RouteTool",
+						["visible"] = true,
+						["zindex"] = 10,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "toggleButtonSkinAwacsToolbar",
+						},
+						["states"] = {
+							["disabled"] = {
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon3.png",
+									},
+								},
+							},
+							["hover"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\route_tool28.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\route_tool28.png",
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\route_tool28.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\route_tool28.png",
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\route_tool28.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\route_tool28.png",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "ToggleButton",
+				},
+				["toggleButtonShowRoutes"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 28,
+							["w"] = 28,
+							["x"] = 281,
+							["y"] = 3,
+						},
+						["enabled"] = true,
+						["state"] = false,
+						["tabOrder"] = 0,
+						["text"] = "",
+						["tooltip"] = "$tip_AllRoutes",
+						["visible"] = true,
+						["zindex"] = 20,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "toggleButtonSkinAwacsToolbar",
+						},
+						["states"] = {
+							["disabled"] = {
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon3.png",
+									},
+								},
+							},
+							["hover"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon3.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon3.png",
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon3.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon3.png",
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon3.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon3.png",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "ToggleButton",
+				},
+				["toggleButtonShowRuler"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 28,
+							["w"] = 28,
+							["x"] = 513,
+							["y"] = 3,
+						},
+						["enabled"] = true,
+						["state"] = false,
+						["tabOrder"] = 0,
+						["text"] = "",
+						["tooltip"] = "$tip_Ruler",
+						["visible"] = true,
+						["zindex"] = 70,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "toggleButtonSkinAwacsToolbar",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon9.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon9.png",
+									},
+								},
+							},
+							["hover"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon9.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon9.png",
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon9.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon9.png",
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon9.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon9.png",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "ToggleButton",
+				},
+				["toggleButtonShowTargets"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 28,
+							["w"] = 28,
+							["x"] = 315,
+							["y"] = 3,
+						},
+						["enabled"] = true,
+						["state"] = false,
+						["tabOrder"] = 0,
+						["text"] = "",
+						["tooltip"] = "$tip_AllTargets",
+						["visible"] = true,
+						["zindex"] = 30,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "toggleButtonSkinAwacsToolbar",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon10.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon10.png",
+									},
+								},
+							},
+							["hover"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon10.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon10.png",
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon10.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon10.png",
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon10.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon10.png",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "ToggleButton",
+				},
+				["toggleButtonShowUserDraw"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 29,
+							["w"] = 29,
+							["x"] = 1002,
+							["y"] = 2,
+						},
+						["enabled"] = false,
+						["state"] = true,
+						["tabOrder"] = 0,
+						["text"] = "",
+						["tooltip"] = "$tip_UserDraw",
+						["visible"] = true,
+						["zindex"] = 199,
+					},
+					["skin"] = {
+						["params"] = {
+							["insets"] = {
+								["bottom"] = 0,
+								["left"] = 0,
+								["right"] = 0,
+								["top"] = 0,
+							},
+							["maxSize"] = {
+								["horz"] = 28,
+								["vert"] = 28,
+							},
+							["minSize"] = {
+								["horz"] = 28,
+								["vert"] = 28,
+							},
+							["name"] = "buttonSkinAwacs",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "$nil$",
+										["center_center"] = "$nil$",
+										["center_top"] = "$nil$",
+										["file"] = "$nil$",
+										["insets"] = "$nil$",
+										["left_bottom"] = "$nil$",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["rect"] = {
+											["x1"] = 0,
+											["x2"] = 29,
+											["y1"] = 0,
+											["y2"] = 29,
+										},
+										["right_bottom"] = "$nil$",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["picture"] = {
+										["color"] = "0x2d6c84ff",
+										["file"] = "dxgui\\skins\\skinme\\images\\buttons\\edit\\edit_pressed.png",
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+									["text"] = {
+										["blur"] = "$nil$",
+										["color"] = "$nil$",
+										["font"] = "$nil$",
+										["fontSize"] = "$nil$",
+										["shadowOffset"] = {
+											["horz"] = "$nil$",
+											["vert"] = "$nil$",
+										},
+									},
+								},
+								[2] = {
+									["bkg"] = {
+										["center_center"] = "0xffffffb4",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\bgbuttonselected.png",
+									},
+									["picture"] = {
+										["color"] = "0x2d6c84b4",
+										["file"] = "dxgui\\skins\\skinme\\images\\buttons\\edit\\edit_pressed.png",
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+							["hover"] = {
+								[1] = {
+									["bkg"] = {
+										["center_center"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\bgbuttonhover.png",
+									},
+									["picture"] = {
+										["color"] = "0x2f9dbdff",
+										["file"] = "dxgui\\skins\\skinme\\images\\buttons\\edit\\edit_pressed.png",
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+								},
+								[2] = {
+									["bkg"] = {
+										["center_center"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\bgbuttonselected.png",
+									},
+									["picture"] = {
+										["color"] = "0x2f9dbdff",
+										["file"] = "dxgui\\skins\\skinme\\images\\buttons\\edit\\edit_pressed.png",
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "$nil$",
+										["center_center"] = "$nil$",
+										["center_top"] = "$nil$",
+										["file"] = "$nil$",
+										["insets"] = "$nil$",
+										["left_bottom"] = "$nil$",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["right_bottom"] = "$nil$",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["picture"] = {
+										["color"] = "0x2f9dbdff",
+										["file"] = "dxgui\\skins\\skinme\\images\\buttons\\edit\\edit_pressed.png",
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+									["text"] = {
+										["bkgColor"] = "$nil$",
+										["blur"] = "$nil$",
+										["blurColor"] = "$nil$",
+										["color"] = "$nil$",
+										["font"] = "$nil$",
+										["fontSize"] = "$nil$",
+										["horzAlign"] = {
+											["offset"] = "$nil$",
+										},
+										["lineThroughColor"] = "$nil$",
+										["lineThroughHeight"] = "$nil$",
+										["shadowColor"] = "$nil$",
+										["shadowOffset"] = {
+											["horz"] = "$nil$",
+											["vert"] = "$nil$",
+										},
+										["vertAlign"] = {
+											["offset"] = "$nil$",
+										},
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["color"] = "0x2f9dbdff",
+										["file"] = "dxgui\\skins\\skinme\\images\\buttons\\edit\\edit_pressed.png",
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "$nil$",
+										["center_center"] = "$nil$",
+										["center_top"] = "$nil$",
+										["file"] = "$nil$",
+										["insets"] = "$nil$",
+										["left_bottom"] = "$nil$",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["right_bottom"] = "$nil$",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["picture"] = {
+										["color"] = "0x2f9dbdff",
+										["file"] = "dxgui\\skins\\skinme\\images\\buttons\\edit\\edit_pressed.png",
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+									["text"] = {
+										["blur"] = "$nil$",
+										["color"] = "$nil$",
+										["font"] = "$nil$",
+										["fontSize"] = "$nil$",
+										["shadowOffset"] = {
+											["horz"] = "$nil$",
+											["vert"] = "$nil$",
+										},
+									},
+								},
+								[2] = {
+									["bkg"] = {
+										["center_center"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\bgbuttonselected.png",
+									},
+									["picture"] = {
+										["color"] = "0x2f9dbdff",
+										["file"] = "dxgui\\skins\\skinme\\images\\buttons\\edit\\edit_pressed.png",
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "ToggleButton",
+				},
+				["toggleButtonShowWindy"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 29,
+							["w"] = 29,
+							["x"] = 1037,
+							["y"] = 2,
+						},
+						["enabled"] = true,
+						["state"] = false,
+						["tabOrder"] = 0,
+						["text"] = "",
+						["tooltip"] = "$tip_WINDY",
+						["visible"] = true,
+						["zindex"] = 200,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "toggleButtonSkinAwacsToolbar",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\wind_rose_.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\wind_rose_.png",
+									},
+								},
+							},
+							["hover"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\wind_rose_.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\wind_rose_.png",
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\wind_rose_.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\wind_rose_.png",
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\wind_rose_.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\wind_rose_.png",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "ToggleButton",
+				},
+				["toggleButtonZoomIn"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 28,
+							["w"] = 28,
+							["x"] = 605,
+							["y"] = 3,
+						},
+						["enabled"] = true,
+						["state"] = false,
+						["tabOrder"] = 0,
+						["text"] = "",
+						["tooltip"] = "$tip_ZoomIn",
+						["visible"] = true,
+						["zindex"] = 110,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "toggleButtonSkinAwacsToolbar",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon7.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon7.png",
+									},
+								},
+							},
+							["hover"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon7.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon7.png",
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon7.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon7.png",
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon7.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon7.png",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "ToggleButton",
+				},
+				["toggleButtonZoomOut"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 28,
+							["w"] = 28,
+							["x"] = 637,
+							["y"] = 3,
+						},
+						["enabled"] = true,
+						["state"] = false,
+						["tabOrder"] = 0,
+						["text"] = "",
+						["tooltip"] = "$tip_ZoomOut",
+						["visible"] = true,
+						["zindex"] = 120,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "toggleButtonSkinAwacsToolbar",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon6.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon6.png",
+									},
+								},
+							},
+							["hover"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon6.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon6.png",
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon6.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon6.png",
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon6.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon6.png",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "ToggleButton",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 34,
+					["w"] = 1366,
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["enabled"] = true,
+				["layout"] = {
+					["data"] = {
+						["gap"] = 3,
+						["horzAlign"] = {
+							["offset"] = 0,
+							["type"] = "min",
+						},
+						["vertAlign"] = {
+							["offset"] = 0,
+							["type"] = "middle",
+						},
+					},
+					["type"] = "horz",
+				},
+				["text"] = "panel0",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 20,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "0x000000ff",
+								["center_center"] = "0x2d3e50ff",
+								["center_top"] = "0x000000ff",
+								["file"] = "",
+								["insets"] = {
+									["bottom"] = 1,
+								},
+								["left_bottom"] = "0x000000ff",
+								["left_center"] = "0x000000ff",
+								["left_top"] = "0x000000ff",
+								["right_bottom"] = "0x000000ff",
+								["right_center"] = "0x000000ff",
+								["right_top"] = "0x000000ff",
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Panel",
+		},
+	},
+	["horzGuids"] = {
+		[1] = 215,
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 34,
+			["w"] = 1366,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["buddy"] = false,
+		["clipResizeCursor"] = false,
+		["draggable"] = false,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["layout"] = {
+			["data"] = {
+				["anchorInfos"] = {
+					[1] = {
+						["bottom"] = {
+							["offset"] = 0,
+							["type"] = "max",
+						},
+						["left"] = {
+							["offset"] = 0,
+							["type"] = "min",
+						},
+						["right"] = {
+							["offset"] = 0,
+							["type"] = "max",
+						},
+						["top"] = {
+							["offset"] = 0,
+							["type"] = "min",
+						},
+					},
+					[2] = {
+						["bottom"] = {
+							["offset"] = 0,
+							["type"] = "min",
+						},
+						["left"] = {
+							["offset"] = 0,
+							["type"] = "max",
+						},
+						["right"] = {
+							["offset"] = 0,
+							["type"] = "max",
+						},
+						["top"] = {
+							["offset"] = 0,
+							["type"] = "min",
+						},
+					},
+					[3] = {
+						["bottom"] = {
+							["offset"] = 0,
+							["type"] = "min",
+						},
+						["left"] = {
+							["offset"] = 0,
+							["type"] = "min",
+						},
+						["right"] = {
+							["offset"] = 0,
+							["type"] = "max",
+						},
+						["top"] = {
+							["offset"] = 0,
+							["type"] = "min",
+						},
+					},
+					[4] = {
+						["bottom"] = {
+							["offset"] = 0,
+							["type"] = "min",
+						},
+						["left"] = {
+							["offset"] = 0,
+							["type"] = "max",
+						},
+						["right"] = {
+							["offset"] = 0,
+							["type"] = "max",
+						},
+						["top"] = {
+							["offset"] = 0,
+							["type"] = "min",
+						},
+					},
+				},
+				["count"] = 4,
+			},
+			["type"] = "anchor",
+		},
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["overlay"] = false,
+		["resizable"] = false,
+		["text"] = "New dialog",
+		["zOrder"] = 100,
+	},
+	["skin"] = {
+		["params"] = {
+			["headerHeight"] = 0,
+			["name"] = "windowSkin",
+		},
+		["states"] = {
+			["released"] = {
+				[1] = {
+					["bkg"] = {
+						["center_center"] = "$nil$",
+					},
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+	["vertGuids"] = {
+		[1] = 139,
+	},
+}

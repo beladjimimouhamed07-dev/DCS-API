@@ -1,0 +1,754 @@
+dialog = {
+	["children"] = {
+		["btnStats"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 26,
+					["w"] = 240,
+					["x"] = 100,
+					["y"] = 330,
+				},
+				["enabled"] = true,
+				["tabOrder"] = 0,
+				["text"] = "$Resources",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "buttonSkinGrayNew2",
+				},
+				["states"] = {
+					["pressed"] = {
+						[1] = {
+							["picture"] = {
+								["horzAlign"] = {
+									["offset"] = 0,
+									["type"] = "min",
+								},
+								["vertAlign"] = {
+									["offset"] = 0,
+									["type"] = "middle",
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Button",
+		},
+		["sAlt"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 26,
+					["w"] = 75,
+					["x"] = 10,
+					["y"] = 50,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "$altitude",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin",
+				},
+				["states"] = {
+					["disabled"] = {
+						[1] = {
+							["text"] = {
+								["vertAlign"] = {
+									["offset"] = 4,
+								},
+							},
+						},
+					},
+					["released"] = {
+						[1] = {
+							["text"] = {
+								["color"] = "0xffffffff",
+								["font"] = "DejaVuLGCSansCondensed.ttf",
+								["fontSize"] = 14,
+								["lineHeight"] = 0,
+								["vertAlign"] = {
+									["offset"] = 4,
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+		["sAltValue"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 26,
+					["w"] = 240,
+					["x"] = 100,
+					["y"] = 50,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "$altitude",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "editBoxSkin_airdromedata",
+				},
+			},
+			["type"] = "Static",
+		},
+		["sCallsign"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 26,
+					["w"] = 75,
+					["x"] = 10,
+					["y"] = 290,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "$callsign",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin",
+				},
+				["states"] = {
+					["disabled"] = {
+						[1] = {
+							["text"] = {
+								["vertAlign"] = {
+									["offset"] = 4,
+								},
+							},
+						},
+					},
+					["released"] = {
+						[1] = {
+							["text"] = {
+								["color"] = "0xffffffff",
+								["font"] = "DejaVuLGCSansCondensed.ttf",
+								["fontSize"] = 14,
+								["lineHeight"] = 0,
+								["vertAlign"] = {
+									["offset"] = 4,
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+		["sCallsignValue"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 26,
+					["w"] = 240,
+					["x"] = 100,
+					["y"] = 290,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "$callsign",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "editBoxSkin_airdromedata",
+				},
+			},
+			["type"] = "Static",
+		},
+		["sCoords"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 26,
+					["w"] = 75,
+					["x"] = 10,
+					["y"] = 130,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "$coord",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin",
+				},
+				["states"] = {
+					["disabled"] = {
+						[1] = {
+							["text"] = {
+								["vertAlign"] = {
+									["offset"] = 4,
+								},
+							},
+						},
+					},
+					["released"] = {
+						[1] = {
+							["text"] = {
+								["color"] = "0xffffffff",
+								["font"] = "DejaVuLGCSansCondensed.ttf",
+								["fontSize"] = 14,
+								["lineHeight"] = 0,
+								["vertAlign"] = {
+									["offset"] = 4,
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+		["sCoordsValue"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 26,
+					["w"] = 240,
+					["x"] = 100,
+					["y"] = 130,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "$coordinates",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "editBoxSkin_airdromedata",
+				},
+			},
+			["type"] = "Static",
+		},
+		["sCountry"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 26,
+					["w"] = 75,
+					["x"] = 10,
+					["y"] = 170,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "$country",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin",
+				},
+				["states"] = {
+					["disabled"] = {
+						[1] = {
+							["text"] = {
+								["vertAlign"] = {
+									["offset"] = 4,
+								},
+							},
+						},
+					},
+					["released"] = {
+						[1] = {
+							["text"] = {
+								["color"] = "0xffffffff",
+								["font"] = "DejaVuLGCSansCondensed.ttf",
+								["fontSize"] = 14,
+								["lineHeight"] = 0,
+								["vertAlign"] = {
+									["offset"] = 4,
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+		["sCountryValue"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 26,
+					["w"] = 240,
+					["x"] = 100,
+					["y"] = 170,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "$country",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "editBoxSkin_airdromedata",
+				},
+			},
+			["type"] = "Static",
+		},
+		["sGroup"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 26,
+					["w"] = 75,
+					["x"] = 10,
+					["y"] = 210,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "$group",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin",
+				},
+				["states"] = {
+					["disabled"] = {
+						[1] = {
+							["text"] = {
+								["vertAlign"] = {
+									["offset"] = 4,
+								},
+							},
+						},
+					},
+					["released"] = {
+						[1] = {
+							["text"] = {
+								["color"] = "0xffffffff",
+								["font"] = "DejaVuLGCSansCondensed.ttf",
+								["fontSize"] = 14,
+								["lineHeight"] = 0,
+								["vertAlign"] = {
+									["offset"] = 4,
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+		["sGroupValue"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 26,
+					["w"] = 240,
+					["x"] = 100,
+					["y"] = 210,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "$group",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "editBoxSkin_airdromedata",
+				},
+			},
+			["type"] = "Static",
+		},
+		["sHeading"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 26,
+					["w"] = 75,
+					["x"] = 10,
+					["y"] = 90,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "$heading",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin",
+				},
+				["states"] = {
+					["disabled"] = {
+						[1] = {
+							["text"] = {
+								["vertAlign"] = {
+									["offset"] = 4,
+								},
+							},
+						},
+					},
+					["released"] = {
+						[1] = {
+							["text"] = {
+								["color"] = "0xffffffff",
+								["font"] = "DejaVuLGCSansCondensed.ttf",
+								["fontSize"] = 14,
+								["lineHeight"] = 0,
+								["vertAlign"] = {
+									["offset"] = 4,
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+		["sHeadingMagneticValue"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 26,
+					["w"] = 110,
+					["x"] = 100,
+					["y"] = 90,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "236°M",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "editBoxSkin_airdromedata",
+				},
+			},
+			["type"] = "Static",
+		},
+		["sHeadingValue"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 26,
+					["w"] = 110,
+					["x"] = 230,
+					["y"] = 90,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "236°",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "editBoxSkin_airdromedata",
+				},
+			},
+			["type"] = "Static",
+		},
+		["sSpeed"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 26,
+					["w"] = 75,
+					["x"] = 10,
+					["y"] = 10,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "$speed",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin",
+				},
+				["states"] = {
+					["disabled"] = {
+						[1] = {
+							["text"] = {
+								["vertAlign"] = {
+									["offset"] = 4,
+								},
+							},
+						},
+					},
+					["released"] = {
+						[1] = {
+							["text"] = {
+								["color"] = "0xffffffff",
+								["font"] = "DejaVuLGCSansCondensed.ttf",
+								["fontSize"] = 14,
+								["lineHeight"] = 0,
+								["vertAlign"] = {
+									["offset"] = 4,
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+		["sSpeedValue"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 26,
+					["w"] = 240,
+					["x"] = 100,
+					["y"] = 10,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "$speed",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "editBoxSkin_airdromedata",
+				},
+			},
+			["type"] = "Static",
+		},
+		["sTask"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 26,
+					["w"] = 75,
+					["x"] = 10,
+					["y"] = 250,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "$task",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin",
+				},
+				["states"] = {
+					["disabled"] = {
+						[1] = {
+							["text"] = {
+								["vertAlign"] = {
+									["offset"] = 4,
+								},
+							},
+						},
+					},
+					["released"] = {
+						[1] = {
+							["text"] = {
+								["color"] = "0xffffffff",
+								["font"] = "DejaVuLGCSansCondensed.ttf",
+								["fontSize"] = 14,
+								["lineHeight"] = 0,
+								["vertAlign"] = {
+									["offset"] = 4,
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+		["sTaskValue"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 26,
+					["w"] = 240,
+					["x"] = 100,
+					["y"] = 250,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "$task",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "editBoxSkin_airdromedata",
+				},
+			},
+			["type"] = "Static",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 400,
+			["w"] = 350,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["buddy"] = false,
+		["clipResizeCursor"] = false,
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["layout"] = {
+		},
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["overlay"] = false,
+		["resizable"] = false,
+		["text"] = "$unit_data",
+		["zOrder"] = 201,
+	},
+	["skin"] = {
+		["params"] = {
+			["name"] = "windowSkinME",
+		},
+		["skins"] = {
+			["header"] = {
+				["skinData"] = {
+					["states"] = {
+						["hover"] = {
+							[1] = {
+								["picture"] = {
+									["horzAlign"] = {
+										["offset"] = 0,
+										["type"] = "min",
+									},
+									["vertAlign"] = {
+										["offset"] = 0,
+										["type"] = "middle",
+									},
+								},
+							},
+						},
+						["released"] = {
+							[1] = {
+								["text"] = {
+									["fontSize"] = 14,
+								},
+							},
+							[2] = {
+								["text"] = {
+									["fontSize"] = 14,
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		["states"] = {
+			["released"] = {
+				[1] = {
+					["picture"] = {
+						["horzAlign"] = {
+							["offset"] = 0,
+							["type"] = "min",
+						},
+						["vertAlign"] = {
+							["offset"] = 0,
+							["type"] = "middle",
+						},
+					},
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+}

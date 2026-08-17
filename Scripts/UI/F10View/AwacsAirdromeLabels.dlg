@@ -1,0 +1,457 @@
+dialog = {
+	["children"] = {
+		["airbaseLabel"] = {
+			["children"] = {
+				["panelBkg"] = {
+					["children"] = {
+						["staticArrowLeftBlue"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 44,
+									["w"] = 9,
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 2,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\airdromelabels\\arrowleftblue.png",
+											},
+											["text"] = {
+												["blur"] = "$nil$",
+												["color"] = "$nil$",
+												["font"] = "$nil$",
+												["fontSize"] = "$nil$",
+												["shadowOffset"] = {
+													["horz"] = "$nil$",
+													["vert"] = "$nil$",
+												},
+												["vertAlign"] = {
+													["offset"] = "$nil$",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["staticArrowLeftRed"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 44,
+									["w"] = 9,
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "",
+								["tooltip"] = "",
+								["visible"] = false,
+								["zindex"] = 2,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\airdromelabels\\arrowleftred.png",
+											},
+											["text"] = {
+												["blur"] = "$nil$",
+												["color"] = "$nil$",
+												["font"] = "$nil$",
+												["fontSize"] = "$nil$",
+												["shadowOffset"] = {
+													["horz"] = "$nil$",
+													["vert"] = "$nil$",
+												},
+												["vertAlign"] = {
+													["offset"] = "$nil$",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["staticArrowRightBlue"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 44,
+									["w"] = 9,
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "",
+								["tooltip"] = "",
+								["visible"] = false,
+								["zindex"] = 2,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\airdromelabels\\arrowrightblue.png",
+											},
+											["text"] = {
+												["blur"] = "$nil$",
+												["color"] = "$nil$",
+												["font"] = "$nil$",
+												["fontSize"] = "$nil$",
+												["shadowOffset"] = {
+													["horz"] = "$nil$",
+													["vert"] = "$nil$",
+												},
+												["vertAlign"] = {
+													["offset"] = "$nil$",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["staticArrowRightRed"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 44,
+									["w"] = 9,
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "",
+								["tooltip"] = "",
+								["visible"] = false,
+								["zindex"] = 2,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\airdromelabels\\arrowrightred.png",
+											},
+											["text"] = {
+												["blur"] = "$nil$",
+												["color"] = "$nil$",
+												["font"] = "$nil$",
+												["fontSize"] = "$nil$",
+												["shadowOffset"] = {
+													["horz"] = "$nil$",
+													["vert"] = "$nil$",
+												},
+												["vertAlign"] = {
+													["offset"] = "$nil$",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["staticProgressBlue"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 44,
+									["w"] = 27,
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 1,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["bkg"] = {
+												["center_center"] = "0x61b1ffff",
+											},
+											["text"] = {
+												["blur"] = "$nil$",
+												["color"] = "$nil$",
+												["font"] = "$nil$",
+												["fontSize"] = "$nil$",
+												["shadowOffset"] = {
+													["horz"] = "$nil$",
+													["vert"] = "$nil$",
+												},
+												["vertAlign"] = {
+													["offset"] = "$nil$",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["staticProgressRed"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 44,
+									["w"] = 27,
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "",
+								["tooltip"] = "",
+								["visible"] = false,
+								["zindex"] = 1,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["bkg"] = {
+												["center_center"] = "0xff8686ff",
+											},
+											["text"] = {
+												["blur"] = "$nil$",
+												["color"] = "$nil$",
+												["font"] = "$nil$",
+												["fontSize"] = "$nil$",
+												["shadowOffset"] = {
+													["horz"] = "$nil$",
+													["vert"] = "$nil$",
+												},
+												["vertAlign"] = {
+													["offset"] = "$nil$",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+					},
+					["params"] = {
+						["bounds"] = {
+							["h"] = 44,
+							["w"] = 58,
+							["x"] = 4,
+							["y"] = 3,
+						},
+						["enabled"] = true,
+						["layout"] = {
+						},
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "panelSkin",
+						},
+					},
+					["type"] = "Panel",
+				},
+				["staticPercent"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 44,
+							["w"] = 58,
+							["x"] = 4,
+							["y"] = 3,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "50%",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 3,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["blur"] = "$nil$",
+										["color"] = "0x000000ff",
+										["font"] = "DejaVuLGCSansMono-Bold.ttf",
+										["fontSize"] = 14,
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["shadowOffset"] = {
+											["horz"] = "$nil$",
+											["vert"] = "$nil$",
+										},
+										["vertAlign"] = {
+											["offset"] = "$nil$",
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 80,
+					["w"] = 65,
+					["x"] = 64,
+					["y"] = 40,
+				},
+				["enabled"] = true,
+				["layout"] = {
+				},
+				["text"] = "panel0",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["picture"] = {
+								["color"] = "0xffffffff",
+								["file"] = "dxgui\\skins\\skinme\\images\\airdromelabels\\flag.png",
+								["vertAlign"] = {
+									["type"] = "min",
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Panel",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 500,
+			["w"] = 700,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["clipResizeCursor"] = false,
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["layout"] = {
+		},
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["resizable"] = false,
+		["text"] = "New dialog",
+		["zOrder"] = 0,
+	},
+	["skin"] = {
+		["params"] = {
+			["name"] = "windowSkin",
+		},
+		["states"] = {
+			["released"] = {
+				[1] = {
+					["bkg"] = {
+						["center_bottom"] = "0x000000ff",
+						["center_center"] = "0x00b130ff",
+						["center_top"] = "0x000000ff",
+						["insets"] = {
+							["bottom"] = 1,
+							["left"] = 1,
+							["right"] = 1,
+							["top"] = 1,
+						},
+						["left_bottom"] = "0x000000ff",
+						["left_center"] = "0x000000ff",
+						["left_top"] = "0x000000ff",
+						["right_bottom"] = "0x000000ff",
+						["right_center"] = "0x000000ff",
+						["right_top"] = "0x000000ff",
+					},
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+}

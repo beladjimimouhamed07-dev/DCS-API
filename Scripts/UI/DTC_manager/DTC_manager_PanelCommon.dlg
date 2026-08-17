@@ -1,0 +1,61 @@
+dialog = {
+	["children"] = {
+		["pMainCont"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 562,
+					["w"] = 734,
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["enabled"] = true,
+				["horzMouseWheel"] = false,
+				["horzScrollBarPageStep"] = 0,
+				["horzScrollBarStep"] = 1,
+				["layout"] = {
+				},
+				["text"] = "scrollPane0",
+				["tooltip"] = "",
+				["vertMouseWheel"] = true,
+				["vertScrollBarPageStep"] = 0,
+				["vertScrollBarStep"] = 1,
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "scrollPaneSkin",
+				},
+			},
+			["type"] = "ScrollPane",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 500,
+			["w"] = 700,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["buddy"] = false,
+		["clipResizeCursor"] = false,
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["layout"] = {
+		},
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["overlay"] = false,
+		["resizable"] = false,
+		["text"] = "New dialog",
+		["zOrder"] = 200,
+	},
+	["skin"] = {
+		["params"] = {
+			["name"] = "windowSkin_MERightbot",
+		},
+	},
+	["type"] = "Window",
+}
