@@ -1,0 +1,36 @@
+extract/copy to:
+\Mods\aircraft\Flaming Cliffs\Cockpit\su25rel\
+										^-or directory of your choice
+
+
+
+-----------------------------------------------------------------
+-- \Mods\aircraft\Flaming Cliffs\entry.lua
+-----------------------------------------------------------------
+make_flyable('Su-25'	, current_mod_path..'/Cockpit/su25rel/', nil, current_mod_path..'/Comm/Su-25.lua')
+
+
+
+	
+	
+	
+	
+	
+-----------------------------------------------------------------
+-- \Mods\aircraft\Flaming Cliffs\Input\su-25\keyboard\default.lua
+-----------------------------------------------------------------
+
+local MM_DevID 	= 2	--MFD MOD device ID
+local MM_Cat 	= 'MFD'	--MFD MOD category
+
+
+--MFD MOD-------------------------------------------------------------------------------------------------------------------------------------------
+{down = 3001, up = 3001, cockpit_device_id = MM_DevID, value_down = 1.0, value_up = 0.0, name = _('MFD UP')  	, category = _(MM_Cat)},
+{down = 3002, up = 3002, cockpit_device_id = MM_DevID, value_down = 1.0, value_up = 0.0, name = _('MFD RIGHT')  , category = _(MM_Cat)},
+{down = 3003, up = 3003, cockpit_device_id = MM_DevID, value_down = 1.0, value_up = 0.0, name = _('MFD DOWN')  	, category = _(MM_Cat)},
+{down = 3004, up = 3004, cockpit_device_id = MM_DevID, value_down = 1.0, value_up = 0.0, name = _('MFD LEFT')  	, category = _(MM_Cat)},
+
+{down = 3005, up = 3005, cockpit_device_id = MM_DevID, value_down = 1.0, value_up = 0.0, name = _('MFD ENTER')  , category = _(MM_Cat)},
+{down = 3006, up = 3006, cockpit_device_id = MM_DevID, value_down = 1.0, value_up = 0.0, name = _('MFD CANCEL') , category = _(MM_Cat)},
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
