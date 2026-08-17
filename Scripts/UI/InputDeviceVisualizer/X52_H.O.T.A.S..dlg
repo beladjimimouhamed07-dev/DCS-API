@@ -1,0 +1,978 @@
+dialog = {
+	["children"] = {
+		["root"] = {
+			["children"] = {
+				["ViewStick1"] = {
+					["children"] = {
+						["axes"] = {
+							["children"] = {
+								["JOY_X"] = {
+									["params"] = {
+										["angle"] = 0,
+										["bounds"] = {
+											["h"] = 302,
+											["w"] = 174,
+											["x"] = 332,
+											["y"] = 216,
+										},
+										["enabled"] = true,
+										["pivotPoint"] = {
+											["x"] = 0,
+											["y"] = 0,
+										},
+										["text"] = "",
+										["tooltip"] = "",
+										["visible"] = false,
+										["zindex"] = 0,
+									},
+									["skin"] = {
+										["params"] = {
+											["name"] = "staticSkin",
+										},
+										["states"] = {
+											["released"] = {
+												[1] = {
+													["picture"] = {
+														["color"] = "0xffffffff",
+														["file"] = "scripts\\ui\\inputdevicevisualizer\\x52_h.o.t.a.s.\\viewstick1_joy_x.png",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "min",
+														},
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+												},
+											},
+										},
+									},
+									["type"] = "Static",
+								},
+								["JOY_Y"] = {
+									["params"] = {
+										["angle"] = 0,
+										["bounds"] = {
+											["h"] = 302,
+											["w"] = 174,
+											["x"] = 332,
+											["y"] = 216,
+										},
+										["enabled"] = true,
+										["pivotPoint"] = {
+											["x"] = 0,
+											["y"] = 0,
+										},
+										["text"] = "",
+										["tooltip"] = "",
+										["visible"] = false,
+										["zindex"] = 0,
+									},
+									["skin"] = {
+										["params"] = {
+											["name"] = "staticSkin",
+										},
+										["states"] = {
+											["released"] = {
+												[1] = {
+													["picture"] = {
+														["color"] = "0xffffffff",
+														["file"] = "scripts\\ui\\inputdevicevisualizer\\x52_h.o.t.a.s.\\viewstick1_joy_y.png",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "min",
+														},
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+												},
+											},
+										},
+									},
+									["type"] = "Static",
+								},
+							},
+							["params"] = {
+								["bounds"] = {
+									["h"] = 800,
+									["w"] = 800,
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["layout"] = {
+								},
+								["text"] = "",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "panelSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["picture"] = {
+												["horzAlign"] = {
+													["offset"] = 0,
+													["type"] = "min",
+												},
+												["vertAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Panel",
+						},
+						["buttons"] = {
+							["children"] = {
+								["JOY_BTN2"] = {
+									["params"] = {
+										["angle"] = 0,
+										["bounds"] = {
+											["h"] = 52,
+											["w"] = 45,
+											["x"] = 379,
+											["y"] = 76,
+										},
+										["enabled"] = true,
+										["pivotPoint"] = {
+											["x"] = 0,
+											["y"] = 0,
+										},
+										["text"] = "",
+										["tooltip"] = "",
+										["visible"] = false,
+										["zindex"] = 0,
+									},
+									["skin"] = {
+										["params"] = {
+											["name"] = "staticSkin",
+										},
+										["states"] = {
+											["released"] = {
+												[1] = {
+													["picture"] = {
+														["color"] = "0xffffffff",
+														["file"] = "scripts\\ui\\inputdevicevisualizer\\x52_h.o.t.a.s.\\viewstick1_joy_btn2.png",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "min",
+														},
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+												},
+											},
+										},
+									},
+									["type"] = "Static",
+								},
+								["JOY_BTN3"] = {
+									["params"] = {
+										["angle"] = 0,
+										["bounds"] = {
+											["h"] = 33,
+											["w"] = 33,
+											["x"] = 425,
+											["y"] = 90,
+										},
+										["enabled"] = true,
+										["pivotPoint"] = {
+											["x"] = 0,
+											["y"] = 0,
+										},
+										["text"] = "",
+										["tooltip"] = "",
+										["visible"] = false,
+										["zindex"] = 0,
+									},
+									["skin"] = {
+										["params"] = {
+											["name"] = "staticSkin",
+										},
+										["states"] = {
+											["released"] = {
+												[1] = {
+													["picture"] = {
+														["color"] = "0xffffffff",
+														["file"] = "scripts\\ui\\inputdevicevisualizer\\x52_h.o.t.a.s.\\viewstick1_joy_btn3.png",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "min",
+														},
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+												},
+											},
+										},
+									},
+									["type"] = "Static",
+								},
+								["JOY_BTN4"] = {
+									["params"] = {
+										["angle"] = 0,
+										["bounds"] = {
+											["h"] = 27,
+											["w"] = 25,
+											["x"] = 425,
+											["y"] = 137,
+										},
+										["enabled"] = true,
+										["pivotPoint"] = {
+											["x"] = 0,
+											["y"] = 0,
+										},
+										["text"] = "",
+										["tooltip"] = "",
+										["visible"] = false,
+										["zindex"] = 0,
+									},
+									["skin"] = {
+										["params"] = {
+											["name"] = "staticSkin",
+										},
+										["states"] = {
+											["released"] = {
+												[1] = {
+													["picture"] = {
+														["color"] = "0xffffffff",
+														["file"] = "scripts\\ui\\inputdevicevisualizer\\x52_h.o.t.a.s.\\viewstick1_joy_btn4.png",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "min",
+														},
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+												},
+											},
+										},
+									},
+									["type"] = "Static",
+								},
+								["JOY_BTN5"] = {
+									["params"] = {
+										["angle"] = 0,
+										["bounds"] = {
+											["h"] = 44,
+											["w"] = 48,
+											["x"] = 318,
+											["y"] = 149,
+										},
+										["enabled"] = true,
+										["pivotPoint"] = {
+											["x"] = 0,
+											["y"] = 0,
+										},
+										["text"] = "",
+										["tooltip"] = "",
+										["visible"] = false,
+										["zindex"] = 0,
+									},
+									["skin"] = {
+										["params"] = {
+											["name"] = "staticSkin",
+										},
+										["states"] = {
+											["released"] = {
+												[1] = {
+													["picture"] = {
+														["color"] = "0xffffffff",
+														["file"] = "scripts\\ui\\inputdevicevisualizer\\x52_h.o.t.a.s.\\viewstick1_joy_btn5.png",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "min",
+														},
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+												},
+											},
+										},
+									},
+									["type"] = "Static",
+								},
+							},
+							["params"] = {
+								["bounds"] = {
+									["h"] = 800,
+									["w"] = 800,
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["layout"] = {
+								},
+								["text"] = "",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 1,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "panelSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["picture"] = {
+												["horzAlign"] = {
+													["offset"] = 0,
+													["type"] = "min",
+												},
+												["vertAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Panel",
+						},
+					},
+					["params"] = {
+						["bounds"] = {
+							["h"] = 800,
+							["w"] = 800,
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["layout"] = {
+						},
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = false,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "panelSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "scripts\\ui\\inputdevicevisualizer\\x52_h.o.t.a.s.\\viewstick1.png",
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "min",
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Panel",
+				},
+				["ViewStick2"] = {
+					["children"] = {
+						["axes"] = {
+							["children"] = {
+								["JOY_X"] = {
+									["params"] = {
+										["angle"] = 0,
+										["bounds"] = {
+											["h"] = 412,
+											["w"] = 200,
+											["x"] = 291,
+											["y"] = 111,
+										},
+										["enabled"] = true,
+										["pivotPoint"] = {
+											["x"] = 0,
+											["y"] = 0,
+										},
+										["text"] = "",
+										["tooltip"] = "",
+										["visible"] = false,
+										["zindex"] = 0,
+									},
+									["skin"] = {
+										["params"] = {
+											["name"] = "staticSkin",
+										},
+										["states"] = {
+											["released"] = {
+												[1] = {
+													["picture"] = {
+														["color"] = "0xffffffff",
+														["file"] = "scripts\\ui\\inputdevicevisualizer\\x52_h.o.t.a.s.\\viewstick2_joy_x.png",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "min",
+														},
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+												},
+											},
+										},
+									},
+									["type"] = "Static",
+								},
+								["JOY_Y"] = {
+									["params"] = {
+										["angle"] = 0,
+										["bounds"] = {
+											["h"] = 412,
+											["w"] = 200,
+											["x"] = 291,
+											["y"] = 111,
+										},
+										["enabled"] = true,
+										["pivotPoint"] = {
+											["x"] = 0,
+											["y"] = 0,
+										},
+										["text"] = "",
+										["tooltip"] = "",
+										["visible"] = false,
+										["zindex"] = 0,
+									},
+									["skin"] = {
+										["params"] = {
+											["name"] = "staticSkin",
+										},
+										["states"] = {
+											["released"] = {
+												[1] = {
+													["picture"] = {
+														["color"] = "0xffffffff",
+														["file"] = "scripts\\ui\\inputdevicevisualizer\\x52_h.o.t.a.s.\\viewstick2_joy_y.png",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "min",
+														},
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+												},
+											},
+										},
+									},
+									["type"] = "Static",
+								},
+							},
+							["params"] = {
+								["bounds"] = {
+									["h"] = 800,
+									["w"] = 800,
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["layout"] = {
+								},
+								["text"] = "",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "panelSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["picture"] = {
+												["horzAlign"] = {
+													["offset"] = 0,
+													["type"] = "min",
+												},
+												["vertAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Panel",
+						},
+						["buttons"] = {
+							["children"] = {
+								["JOY_BTN1"] = {
+									["params"] = {
+										["angle"] = 0,
+										["bounds"] = {
+											["h"] = 97,
+											["w"] = 60,
+											["x"] = 294,
+											["y"] = 174,
+										},
+										["enabled"] = true,
+										["pivotPoint"] = {
+											["x"] = 0,
+											["y"] = 0,
+										},
+										["text"] = "",
+										["tooltip"] = "",
+										["visible"] = false,
+										["zindex"] = 0,
+									},
+									["skin"] = {
+										["params"] = {
+											["name"] = "staticSkin",
+										},
+										["states"] = {
+											["released"] = {
+												[1] = {
+													["picture"] = {
+														["color"] = "0xffffffff",
+														["file"] = "scripts\\ui\\inputdevicevisualizer\\x52_h.o.t.a.s.\\viewstick2_joy_btn1.png",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "min",
+														},
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+												},
+											},
+										},
+									},
+									["type"] = "Static",
+								},
+							},
+							["params"] = {
+								["bounds"] = {
+									["h"] = 800,
+									["w"] = 800,
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["layout"] = {
+								},
+								["text"] = "",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 1,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "panelSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["picture"] = {
+												["horzAlign"] = {
+													["offset"] = 0,
+													["type"] = "min",
+												},
+												["vertAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Panel",
+						},
+					},
+					["params"] = {
+						["bounds"] = {
+							["h"] = 800,
+							["w"] = 800,
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["layout"] = {
+						},
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = false,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "panelSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "scripts\\ui\\inputdevicevisualizer\\x52_h.o.t.a.s.\\viewstick2.png",
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "min",
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Panel",
+				},
+				["ViewThrottle1"] = {
+					["children"] = {
+						["axes"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 800,
+									["w"] = 800,
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["layout"] = {
+								},
+								["text"] = "",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "panelSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["picture"] = {
+												["horzAlign"] = {
+													["offset"] = 0,
+													["type"] = "min",
+												},
+												["vertAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Panel",
+						},
+						["buttons"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 800,
+									["w"] = 800,
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["layout"] = {
+								},
+								["text"] = "",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 1,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "panelSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["picture"] = {
+												["horzAlign"] = {
+													["offset"] = 0,
+													["type"] = "min",
+												},
+												["vertAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Panel",
+						},
+					},
+					["params"] = {
+						["bounds"] = {
+							["h"] = 800,
+							["w"] = 800,
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["enabled"] = false,
+						["layout"] = {
+						},
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = false,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "panelSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "scripts\\ui\\inputdevicevisualizer\\x52_h.o.t.a.s.\\viewthrottle1.png",
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "min",
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Panel",
+				},
+				["ViewThrottle2"] = {
+					["children"] = {
+						["axes"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 800,
+									["w"] = 800,
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["layout"] = {
+								},
+								["text"] = "",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "panelSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["picture"] = {
+												["horzAlign"] = {
+													["offset"] = 0,
+													["type"] = "min",
+												},
+												["vertAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Panel",
+						},
+						["buttons"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 800,
+									["w"] = 800,
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["layout"] = {
+								},
+								["text"] = "",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 1,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "panelSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["picture"] = {
+												["horzAlign"] = {
+													["offset"] = 0,
+													["type"] = "min",
+												},
+												["vertAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Panel",
+						},
+					},
+					["params"] = {
+						["bounds"] = {
+							["h"] = 800,
+							["w"] = 800,
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["enabled"] = false,
+						["layout"] = {
+						},
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = false,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "panelSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "scripts\\ui\\inputdevicevisualizer\\x52_h.o.t.a.s.\\viewthrottle2.png",
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "min",
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Panel",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 800,
+					["w"] = 800,
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["enabled"] = true,
+				["layout"] = {
+				},
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["picture"] = {
+								["horzAlign"] = {
+									["offset"] = 0,
+									["type"] = "min",
+								},
+								["vertAlign"] = {
+									["offset"] = 0,
+									["type"] = "middle",
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Panel",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 800,
+			["w"] = 800,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["buddy"] = false,
+		["clipResizeCursor"] = false,
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["layout"] = {
+		},
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["overlay"] = false,
+		["resizable"] = false,
+		["text"] = "New dialog",
+		["zOrder"] = 0,
+	},
+	["skin"] = {
+		["params"] = {
+			["headerHeight"] = 0,
+			["name"] = "windowSkin",
+		},
+		["states"] = {
+			["released"] = {
+				[1] = {
+					["picture"] = {
+						["horzAlign"] = {
+							["offset"] = 0,
+							["type"] = "min",
+						},
+						["vertAlign"] = {
+							["offset"] = 0,
+							["type"] = "middle",
+						},
+					},
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+}

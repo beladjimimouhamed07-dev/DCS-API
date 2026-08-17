@@ -1,0 +1,972 @@
+dialog = {
+	["children"] = {
+		["root"] = {
+			["children"] = {
+				["grid"] = {
+					["children"] = {
+						["gridHeaderCell0"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 30,
+									["w"] = 200,
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["draggable"] = true,
+								["enabled"] = true,
+								["layout"] = {
+								},
+								["text"] = "$commandName",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "gridHeaderCellSkin2New__",
+									["useEllipsis"] = true,
+								},
+								["states"] = {
+									["hover"] = {
+										[1] = {
+											["bkg"] = {
+												["center_center"] = "$nil$",
+											},
+											["picture"] = {
+												["color"] = "$nil$",
+												["file"] = "$nil$",
+												["horzAlign"] = {
+													["offset"] = 0,
+												},
+												["rect"] = {
+													["x1"] = "$nil$",
+													["x2"] = "$nil$",
+													["y1"] = "$nil$",
+													["y2"] = "$nil$",
+												},
+												["size"] = {
+													["horz"] = "$nil$",
+													["vert"] = "$nil$",
+												},
+												["userTexSampler"] = "$nil$",
+												["vertAlign"] = {
+													["offset"] = "$nil$",
+												},
+											},
+											["text"] = {
+												["color"] = "0x6ed8f3ff",
+											},
+										},
+									},
+									["pressed"] = {
+										[1] = {
+											["bkg"] = {
+												["center_center"] = "$nil$",
+											},
+											["picture"] = {
+												["color"] = "$nil$",
+												["file"] = "$nil$",
+												["horzAlign"] = {
+													["offset"] = 0,
+													["type"] = "min",
+												},
+												["rect"] = {
+													["x1"] = "$nil$",
+													["x2"] = "$nil$",
+													["y1"] = "$nil$",
+													["y2"] = "$nil$",
+												},
+												["size"] = {
+													["horz"] = "$nil$",
+													["vert"] = "$nil$",
+												},
+												["userTexSampler"] = "$nil$",
+												["vertAlign"] = {
+													["offset"] = "$nil$",
+												},
+											},
+											["text"] = {
+												["color"] = "0x6ed8f3ff",
+											},
+										},
+									},
+									["released"] = {
+										[1] = {
+											["bkg"] = {
+												["center_center"] = "$nil$",
+											},
+											["picture"] = {
+												["color"] = "$nil$",
+												["file"] = "$nil$",
+												["horzAlign"] = {
+													["offset"] = 0,
+												},
+												["rect"] = {
+													["x1"] = "$nil$",
+													["x2"] = "$nil$",
+													["y1"] = "$nil$",
+													["y2"] = "$nil$",
+												},
+												["size"] = {
+													["horz"] = "$nil$",
+													["vert"] = "$nil$",
+												},
+												["userTexSampler"] = "$nil$",
+												["vertAlign"] = {
+													["offset"] = "$nil$",
+												},
+											},
+											["text"] = {
+												["color"] = "0x6ed8f3ff",
+											},
+										},
+									},
+								},
+							},
+							["type"] = "GridHeaderCell",
+						},
+						["gridHeaderCell1"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 50,
+									["w"] = 250,
+									["x"] = 201,
+									["y"] = 0,
+								},
+								["draggable"] = true,
+								["enabled"] = true,
+								["layout"] = {
+								},
+								["text"] = "$inputName",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 1,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "gridHeaderCellSkin2New__",
+									["useEllipsis"] = true,
+								},
+								["states"] = {
+									["hover"] = {
+										[1] = {
+											["bkg"] = {
+												["center_center"] = "$nil$",
+											},
+											["picture"] = {
+												["color"] = "$nil$",
+												["file"] = "$nil$",
+												["horzAlign"] = {
+													["offset"] = 0,
+												},
+												["rect"] = {
+													["x1"] = "$nil$",
+													["x2"] = "$nil$",
+													["y1"] = "$nil$",
+													["y2"] = "$nil$",
+												},
+												["size"] = {
+													["horz"] = "$nil$",
+													["vert"] = "$nil$",
+												},
+												["userTexSampler"] = "$nil$",
+												["vertAlign"] = {
+													["offset"] = "$nil$",
+												},
+											},
+											["text"] = {
+												["color"] = "0x6ed8f3ff",
+											},
+										},
+									},
+									["pressed"] = {
+										[1] = {
+											["bkg"] = {
+												["center_center"] = "$nil$",
+											},
+											["picture"] = {
+												["color"] = "$nil$",
+												["file"] = "$nil$",
+												["horzAlign"] = {
+													["offset"] = 0,
+													["type"] = "min",
+												},
+												["rect"] = {
+													["x1"] = "$nil$",
+													["x2"] = "$nil$",
+													["y1"] = "$nil$",
+													["y2"] = "$nil$",
+												},
+												["size"] = {
+													["horz"] = "$nil$",
+													["vert"] = "$nil$",
+												},
+												["userTexSampler"] = "$nil$",
+												["vertAlign"] = {
+													["offset"] = "$nil$",
+												},
+											},
+											["text"] = {
+												["color"] = "0x6ed8f3ff",
+											},
+										},
+									},
+									["released"] = {
+										[1] = {
+											["bkg"] = {
+												["center_center"] = "$nil$",
+											},
+											["picture"] = {
+												["color"] = "$nil$",
+												["file"] = "$nil$",
+												["horzAlign"] = {
+													["offset"] = 0,
+												},
+												["rect"] = {
+													["x1"] = "$nil$",
+													["x2"] = "$nil$",
+													["y1"] = "$nil$",
+													["y2"] = "$nil$",
+												},
+												["size"] = {
+													["horz"] = "$nil$",
+													["vert"] = "$nil$",
+												},
+												["userTexSampler"] = "$nil$",
+												["vertAlign"] = {
+													["offset"] = "$nil$",
+												},
+											},
+											["text"] = {
+												["color"] = "0x6ed8f3ff",
+											},
+										},
+									},
+								},
+							},
+							["type"] = "GridHeaderCell",
+						},
+					},
+					["params"] = {
+						["bounds"] = {
+							["h"] = 780,
+							["w"] = 450,
+							["x"] = 800,
+							["y"] = 20,
+						},
+						["columnMouseResizing"] = true,
+						["enabled"] = true,
+						["fixedColumns"] = 0,
+						["horzScrollBarPageStep"] = 0,
+						["horzScrollBarStep"] = 1,
+						["rows"] = 20,
+						["text"] = "grid0",
+						["tooltip"] = "",
+						["vertScrollBarPageStep"] = 0,
+						["vertScrollBarStep"] = 22,
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "gridSkinNewNew",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["picture"] = {
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "min",
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Grid",
+				},
+				["header"] = {
+					["children"] = {
+						["close"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 10,
+									["w"] = 10,
+									["x"] = 1235,
+									["y"] = 5,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["maxSize"] = {
+										["horz"] = 10,
+										["vert"] = 10,
+									},
+									["minSize"] = {
+										["horz"] = 10,
+										["vert"] = 10,
+									},
+									["name"] = "buttonSkin",
+								},
+								["states"] = {
+									["disabled"] = {
+										[1] = {
+											["bkg"] = {
+												["center_bottom"] = "$nil$",
+												["center_center"] = "$nil$",
+												["center_top"] = "$nil$",
+												["file"] = "$nil$",
+												["insets"] = "$nil$",
+												["left_bottom"] = "$nil$",
+												["left_center"] = "$nil$",
+												["left_top"] = "$nil$",
+												["right_bottom"] = "$nil$",
+												["right_center"] = "$nil$",
+												["right_top"] = "$nil$",
+											},
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinME\\images\\btn-tools-01.png",
+												["horzAlign"] = {
+													["type"] = "min",
+												},
+												["rect"] = {
+													["x1"] = 484,
+													["x2"] = 494,
+													["y1"] = 4,
+													["y2"] = 14,
+												},
+												["size"] = {
+													["horz"] = 10,
+													["vert"] = 10,
+												},
+												["userTexSampler"] = 0,
+												["vertAlign"] = {
+													["type"] = "min",
+												},
+											},
+											["text"] = {
+												["blur"] = "$nil$",
+												["color"] = "$nil$",
+												["font"] = "$nil$",
+												["fontSize"] = "$nil$",
+												["shadowOffset"] = {
+													["horz"] = "$nil$",
+													["vert"] = "$nil$",
+												},
+											},
+										},
+									},
+									["hover"] = {
+										[1] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinME\\images\\btn-tools-01.png",
+												["horzAlign"] = {
+													["type"] = "min",
+												},
+												["rect"] = {
+													["x1"] = 484,
+													["x2"] = 494,
+													["y1"] = 4,
+													["y2"] = 14,
+												},
+												["size"] = {
+													["horz"] = 10,
+													["vert"] = 10,
+												},
+												["userTexSampler"] = 0,
+												["vertAlign"] = {
+													["type"] = "min",
+												},
+											},
+										},
+									},
+									["pressed"] = {
+										[1] = {
+											["bkg"] = {
+												["center_bottom"] = "$nil$",
+												["center_center"] = "$nil$",
+												["center_top"] = "$nil$",
+												["file"] = "$nil$",
+												["insets"] = "$nil$",
+												["left_bottom"] = "$nil$",
+												["left_center"] = "$nil$",
+												["left_top"] = "$nil$",
+												["right_bottom"] = "$nil$",
+												["right_center"] = "$nil$",
+												["right_top"] = "$nil$",
+											},
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinME\\images\\btn-tools-01.png",
+												["horzAlign"] = {
+													["type"] = "min",
+												},
+												["rect"] = {
+													["x1"] = 484,
+													["x2"] = 494,
+													["y1"] = 22,
+													["y2"] = 32,
+												},
+												["size"] = {
+													["horz"] = 10,
+													["vert"] = 10,
+												},
+												["userTexSampler"] = 0,
+												["vertAlign"] = {
+													["type"] = "min",
+												},
+											},
+										},
+									},
+									["released"] = {
+										[1] = {
+											["bkg"] = {
+												["center_bottom"] = "$nil$",
+												["center_center"] = "$nil$",
+												["center_top"] = "$nil$",
+												["file"] = "$nil$",
+												["insets"] = "$nil$",
+												["left_bottom"] = "$nil$",
+												["left_center"] = "$nil$",
+												["left_top"] = "$nil$",
+												["right_bottom"] = "$nil$",
+												["right_center"] = "$nil$",
+												["right_top"] = "$nil$",
+											},
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinME\\images\\btn-tools-01.png",
+												["horzAlign"] = {
+													["offset"] = 0,
+													["type"] = "min",
+												},
+												["rect"] = {
+													["x1"] = 484,
+													["x2"] = 494,
+													["y1"] = 4,
+													["y2"] = 14,
+												},
+												["size"] = {
+													["horz"] = 10,
+													["vert"] = 10,
+												},
+												["userTexSampler"] = 0,
+												["vertAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+											},
+											["text"] = {
+												["blur"] = "$nil$",
+												["color"] = "$nil$",
+												["font"] = "$nil$",
+												["fontSize"] = "$nil$",
+												["shadowOffset"] = {
+													["horz"] = "$nil$",
+													["vert"] = "$nil$",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Button",
+						},
+						["text"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 1000,
+									["x"] = 10,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "VisualizerTest",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["picture"] = {
+												["horzAlign"] = {
+													["offset"] = 0,
+													["type"] = "min",
+												},
+												["vertAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+											},
+											["text"] = {
+												["color"] = "0xffffffff",
+												["fontSize"] = 13,
+												["vertAlign"] = {
+													["offset"] = "$nil$",
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+					},
+					["params"] = {
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 1250,
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["layout"] = {
+						},
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "panelSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_center"] = "0x000000ff",
+									},
+									["picture"] = {
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "min",
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Panel",
+				},
+				["pNoVisible"] = {
+					["children"] = {
+						["gridRowHover"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 224,
+									["x"] = 140,
+									["y"] = 70,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "GridItemPadding1",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin_table_rowLeftText_withPadding",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["color"] = "0x6ed8f3ff",
+												["horzAlign"] = {
+													["offset"] = 16,
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["gridRowNormal"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 224,
+									["x"] = 140,
+									["y"] = 40,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "GridItemPadding1",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin_table_rowLeftText_withPadding",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["horzAlign"] = {
+													["offset"] = 16,
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["gridRowSelect"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 224,
+									["x"] = 140,
+									["y"] = 100,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "GridItemPadding1",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin_table_rowLeftText_withPadding",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["bkg"] = {
+												["center_bottom"] = "0x6ed8f378",
+												["center_center"] = "0x6ed8f378",
+												["center_top"] = "0x6ed8f378",
+												["left_bottom"] = "0x6ed8f378",
+												["left_center"] = "0x6ed8f378",
+												["left_top"] = "0x6ed8f378",
+												["right_bottom"] = "0x6ed8f378",
+												["right_center"] = "0x6ed8f378",
+												["right_top"] = "0x6ed8f378",
+											},
+											["text"] = {
+												["horzAlign"] = {
+													["offset"] = 16,
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+					},
+					["params"] = {
+						["bounds"] = {
+							["h"] = 417,
+							["w"] = 578,
+							["x"] = 999,
+							["y"] = 999,
+						},
+						["enabled"] = true,
+						["layout"] = {
+						},
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = false,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "panelSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["picture"] = {
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "min",
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Panel",
+				},
+				["panelBottom"] = {
+					["children"] = {
+						["buttonAdd"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 30,
+									["w"] = 218,
+									["x"] = 516,
+									["y"] = 10,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "$addCombo",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 2,
+							},
+							["skin"] = {
+								["params"] = {
+									["insets"] = {
+										["left"] = 10,
+										["right"] = 10,
+									},
+									["name"] = "buttonSkinGrayNew2",
+								},
+							},
+							["type"] = "Button",
+						},
+						["buttonBack"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 50,
+									["w"] = 140,
+									["x"] = 5,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "$cancel",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "buttonSkinRedNew",
+								},
+							},
+							["type"] = "Button",
+						},
+						["buttonOK"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 50,
+									["w"] = 140,
+									["x"] = 1105,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "$ok",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "buttonSkinGreenNew",
+								},
+							},
+							["type"] = "Button",
+						},
+					},
+					["params"] = {
+						["bounds"] = {
+							["h"] = 50,
+							["w"] = 1250,
+							["x"] = 0,
+							["y"] = 820,
+						},
+						["enabled"] = true,
+						["layout"] = {
+						},
+						["text"] = "Panel3",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 3,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "panelSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_center"] = "0x2d3e50ff",
+										["center_top"] = "0x00000080",
+										["insets"] = {
+											["top"] = 1,
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Panel",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 870,
+					["w"] = 1250,
+					["x"] = 30,
+					["y"] = 10,
+				},
+				["enabled"] = true,
+				["layout"] = {
+				},
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_center"] = "0x2d3e50cc",
+							},
+							["picture"] = {
+								["horzAlign"] = {
+									["offset"] = 0,
+									["type"] = "min",
+								},
+								["vertAlign"] = {
+									["offset"] = 0,
+									["type"] = "middle",
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Panel",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 900,
+			["w"] = 1400,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["buddy"] = false,
+		["clipResizeCursor"] = false,
+		["draggable"] = false,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["layout"] = {
+		},
+		["lockFlow"] = true,
+		["modal"] = true,
+		["offscreen"] = false,
+		["overlay"] = false,
+		["resizable"] = false,
+		["text"] = "Visualizer Test",
+		["zOrder"] = 999,
+	},
+	["skin"] = {
+		["params"] = {
+			["headerHeight"] = 0,
+			["name"] = "windowSkin",
+		},
+		["skins"] = {
+			["view"] = {
+				["skinData"] = {
+					["states"] = {
+						["released"] = {
+							[1] = {
+								["picture"] = {
+									["horzAlign"] = {
+										["offset"] = 0,
+										["type"] = "min",
+									},
+									["rect"] = {
+										["x2"] = 100,
+									},
+									["size"] = {
+										["horz"] = 0,
+										["vert"] = 0,
+									},
+									["vertAlign"] = {
+										["offset"] = 0,
+										["type"] = "middle",
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		["states"] = {
+			["released"] = {
+				[1] = {
+					["bkg"] = {
+						["center_center"] = "0x00000064",
+					},
+					["picture"] = {
+						["horzAlign"] = {
+							["offset"] = 0,
+							["type"] = "min",
+						},
+						["vertAlign"] = {
+							["offset"] = 0,
+							["type"] = "middle",
+						},
+					},
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+}
