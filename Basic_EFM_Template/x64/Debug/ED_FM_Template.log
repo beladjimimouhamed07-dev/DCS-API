@@ -1,0 +1,14 @@
+﻿K:\Visual studio\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets(537,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  Basic_EFM_Template.cpp
+K:\template efm ne pas toucher\Basic_EFM_Template\Basic_EFM_Template.cpp(1251,32): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  (compiling source file '/Basic_EFM_Template.cpp')
+  
+K:\template efm ne pas toucher\Basic_EFM_Template\Basic_EFM_Template.cpp(1280,26): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  (compiling source file '/Basic_EFM_Template.cpp')
+  
+K:\template efm ne pas toucher\Basic_EFM_Template\Basic_EFM_Template.cpp(1295,55): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/Basic_EFM_Template.cpp')
+  
+K:\template efm ne pas toucher\Basic_EFM_Template\Utility.h(63,1): warning C4715: 'rescale': not all control paths return a value
+     Creating library ..\..\..\bin\x86_64\vc100.debug\Basic_EFM_template.lib and object ..\..\..\bin\x86_64\vc100.debug\Basic_EFM_template.exp
+  ED_FM_Template.vcxproj -> K:\bin\x86_64\vc100.debug\Basic_EFM_template.dll

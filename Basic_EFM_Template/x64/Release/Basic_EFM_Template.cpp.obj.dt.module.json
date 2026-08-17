@@ -1,0 +1,15 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Release\\Basic_EFM_Template.obj",
+            "outputs": [
+                "x64\\Release\\Basic_EFM_Template.cpp.obj.dt.module.json",
+                "x64\\Release\\Basic_EFM_Template.cpp.obj.dt.d.json",
+                "x64\\Release\\Rafale_DLL.pch"
+            ],
+            "requires": []
+        }
+    ]
+}
