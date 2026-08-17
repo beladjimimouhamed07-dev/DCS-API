@@ -1,0 +1,240 @@
+dialog = {
+	["children"] = {
+		["editBoxName"] = {
+			["params"] = {
+				["acceptDecimalPoint"] = false,
+				["bounds"] = {
+					["h"] = 30,
+					["w"] = 264,
+					["x"] = 8,
+					["y"] = 27,
+				},
+				["enabled"] = true,
+				["multiline"] = false,
+				["numeric"] = false,
+				["password"] = false,
+				["readOnly"] = false,
+				["tabOrder"] = 0,
+				["text"] = "",
+				["textWrapping"] = true,
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 1,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "editBoxSkin_ME",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["text"] = {
+								["fontSize"] = 16,
+							},
+						},
+					},
+				},
+			},
+			["type"] = "EditBox",
+		},
+		["panelButtons"] = {
+			["children"] = {
+				["buttonCancel"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 30,
+							["w"] = 100,
+							["x"] = 149,
+							["y"] = 9,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "$cancel",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "buttonSkinRedNew",
+						},
+					},
+					["type"] = "Button",
+				},
+				["buttonOK"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 30,
+							["w"] = 100,
+							["x"] = 15,
+							["y"] = 9,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "$ok",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "buttonSkinRedNew",
+						},
+					},
+					["type"] = "Button",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 36,
+					["w"] = 264,
+					["x"] = 8,
+					["y"] = 65,
+				},
+				["enabled"] = true,
+				["layout"] = {
+					["data"] = {
+						["gap"] = 16,
+						["horzAlign"] = {
+							["offset"] = 0,
+							["type"] = "stretch",
+						},
+						["vertAlign"] = {
+							["offset"] = 0,
+							["type"] = "middle",
+						},
+					},
+					["type"] = "horz",
+				},
+				["text"] = "panel0",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 2,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+			},
+			["type"] = "Panel",
+		},
+		["staticEnter"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 264,
+					["x"] = 8,
+					["y"] = -2,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "$enterUniqueBookmarkName",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["text"] = {
+								["color"] = "0xffffffff",
+								["font"] = "arial.ttf",
+								["fontSize"] = 14,
+								["horzAlign"] = {
+									["offset"] = 24,
+								},
+								["vertAlign"] = {
+									["type"] = "middle",
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 148,
+			["w"] = 280,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["buddy"] = false,
+		["clipResizeCursor"] = false,
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["layout"] = {
+		},
+		["lockFlow"] = false,
+		["modal"] = true,
+		["offscreen"] = false,
+		["overlay"] = false,
+		["resizable"] = false,
+		["text"] = "$newBookmark",
+		["zOrder"] = 0,
+	},
+	["skin"] = {
+		["params"] = {
+			["headerHeight"] = 36,
+			["name"] = "windowSkinME",
+		},
+		["skins"] = {
+			["header"] = {
+				["skinData"] = {
+					["states"] = {
+						["released"] = {
+							[1] = {
+								["bkg"] = {
+									["insets"] = {
+										["right"] = 1,
+										["top"] = 1,
+									},
+									["left_bottom"] = "$nil$",
+									["right_bottom"] = "$nil$",
+								},
+							},
+							[2] = {
+								["bkg"] = {
+									["insets"] = {
+										["right"] = 1,
+										["top"] = 1,
+									},
+									["left_bottom"] = "$nil$",
+									["right_bottom"] = "$nil$",
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		["states"] = {
+			["released"] = {
+				[1] = {
+					["bkg"] = {
+						["center_top"] = "0x1a232dff",
+						["insets"] = {
+							["left"] = "$nil$",
+						},
+						["left_bottom"] = "0x1a232dff",
+						["right_bottom"] = "0x1a232dff",
+						["right_center"] = "0x1a232dff",
+						["right_top"] = "0x1a232dff",
+					},
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+}

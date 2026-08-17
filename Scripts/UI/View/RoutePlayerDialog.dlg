@@ -1,0 +1,626 @@
+dialog = {
+	["children"] = {
+		["panelBottom"] = {
+			["children"] = {
+				["buttonBackward"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 32,
+							["w"] = 32,
+							["x"] = 220,
+							["y"] = 10,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 4,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "buttonSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\view\\playback.png",
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Button",
+				},
+				["buttonBegin"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 32,
+							["w"] = 32,
+							["x"] = 20,
+							["y"] = 10,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "buttonSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\view\\first record.png",
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+										["size"] = {
+											["horz"] = 0,
+											["vert"] = 0,
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Button",
+				},
+				["buttonCancel"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 32,
+							["w"] = 32,
+							["x"] = 170,
+							["y"] = 10,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 3,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "buttonSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\view\\stop.png",
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Button",
+				},
+				["buttonEnd"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 32,
+							["w"] = 32,
+							["x"] = 270,
+							["y"] = 10,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 5,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "buttonSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\view\\last record.png",
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Button",
+				},
+				["buttonForward"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 32,
+							["w"] = 32,
+							["x"] = 70,
+							["y"] = 10,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "buttonSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\view\\play.png",
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+										["size"] = {
+											["horz"] = 0,
+											["vert"] = 0,
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Button",
+				},
+				["buttonStop"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 32,
+							["w"] = 33,
+							["x"] = 120,
+							["y"] = 10,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 2,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "buttonSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\view\\pause.png",
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Button",
+				},
+				["horzProgressBarDistance"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 24,
+							["w"] = 302,
+							["x"] = 10,
+							["y"] = 53,
+						},
+						["enabled"] = true,
+						["range"] = {
+							["max"] = 100,
+							["min"] = 0,
+						},
+						["step"] = 1,
+						["text"] = "0",
+						["tooltip"] = "",
+						["value"] = 0,
+						["visible"] = true,
+						["zindex"] = 6,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "horzProgressBarSkin",
+						},
+					},
+					["type"] = "HorzProgressBar",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 90,
+					["w"] = 320,
+					["x"] = 9,
+					["y"] = 186,
+				},
+				["enabled"] = true,
+				["layout"] = {
+				},
+				["text"] = "Panel1",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 2,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+			},
+			["type"] = "Panel",
+		},
+		["panelRadio"] = {
+			["children"] = {
+				["radioButtonPredefined"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 140,
+							["x"] = 10,
+							["y"] = 10,
+						},
+						["enabled"] = true,
+						["state"] = true,
+						["tabOrder"] = 0,
+						["text"] = "$predefined",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "radioButtonSkin",
+						},
+					},
+					["type"] = "RadioButton",
+				},
+				["radioButtonUserDefined"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 140,
+							["x"] = 165,
+							["y"] = 9,
+						},
+						["enabled"] = true,
+						["state"] = false,
+						["tabOrder"] = 0,
+						["text"] = "$user-defined",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "radioButtonSkin",
+						},
+					},
+					["type"] = "RadioButton",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 40,
+					["w"] = 320,
+					["x"] = 10,
+					["y"] = 10,
+				},
+				["enabled"] = true,
+				["layout"] = {
+				},
+				["text"] = "panel0",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+			},
+			["type"] = "Panel",
+		},
+		["panelTop"] = {
+			["children"] = {
+				["comboBoxRoute"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 180,
+							["x"] = 10,
+							["y"] = 10,
+						},
+						["enabled"] = true,
+						["readOnly"] = false,
+						["tabOrder"] = 0,
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "comboBoxSkin",
+						},
+					},
+					["type"] = "ComboBox",
+				},
+				["editBoxSpeed"] = {
+					["params"] = {
+						["acceptDecimalPoint"] = false,
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 180,
+							["x"] = 9,
+							["y"] = 88,
+						},
+						["enabled"] = true,
+						["multiline"] = false,
+						["numeric"] = false,
+						["password"] = false,
+						["readOnly"] = false,
+						["tabOrder"] = 0,
+						["text"] = "0",
+						["textWrapping"] = true,
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 4,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "editBoxSkin",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["text"] = {
+										["horzAlign"] = {
+											["type"] = "max",
+										},
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["horzAlign"] = {
+											["type"] = "max",
+										},
+									},
+								},
+								[2] = {
+									["text"] = {
+										["horzAlign"] = {
+											["type"] = "max",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "EditBox",
+				},
+				["staticDistance"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 180,
+							["x"] = 8,
+							["y"] = 50,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "0",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 2,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+					},
+					["type"] = "Static",
+				},
+				["staticDistanceLabel"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 100,
+							["x"] = 210,
+							["y"] = 50,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "$route_length",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 3,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+					},
+					["type"] = "Static",
+				},
+				["staticRouteLabel"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 100,
+							["x"] = 210,
+							["y"] = 10,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "$route",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+					},
+					["type"] = "Static",
+				},
+				["staticSpeedLabel"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 100,
+							["x"] = 210,
+							["y"] = 90,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "$speed",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 5,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+					},
+					["type"] = "Static",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 119,
+					["w"] = 320,
+					["x"] = 9,
+					["y"] = 57,
+				},
+				["enabled"] = true,
+				["layout"] = {
+				},
+				["text"] = "panel0",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 1,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+			},
+			["type"] = "Panel",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 305,
+			["w"] = 320,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["buddy"] = false,
+		["clipResizeCursor"] = false,
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["layout"] = {
+		},
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["overlay"] = false,
+		["resizable"] = false,
+		["text"] = "$camera_route_player",
+		["zOrder"] = 0,
+	},
+	["skin"] = {
+		["params"] = {
+			["name"] = "windowSkin",
+		},
+		["states"] = {
+			["released"] = {
+				[1] = {
+					["picture"] = {
+						["horzAlign"] = {
+							["offset"] = 0,
+							["type"] = "min",
+						},
+						["vertAlign"] = {
+							["offset"] = 0,
+							["type"] = "middle",
+						},
+					},
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+}

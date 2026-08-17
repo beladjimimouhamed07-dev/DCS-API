@@ -1,0 +1,1086 @@
+dialog = {
+	["children"] = {
+		["MainPanel"] = {
+			["children"] = {
+				["containerCommon"] = {
+					["children"] = {
+						["comboboxAircraft"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 140,
+									["x"] = 160,
+									["y"] = 10,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "Item1",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "comboListSkinNew_",
+								},
+							},
+							["type"] = "ComboList",
+						},
+						["comboboxWingmenAISkill"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 140,
+									["x"] = 160,
+									["y"] = 160,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "Item1",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "comboListSkinNew_",
+								},
+							},
+							["type"] = "ComboList",
+						},
+						["dHeadingToTarget"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 46,
+									["w"] = 46,
+									["x"] = 160,
+									["y"] = 60,
+								},
+								["cyclic"] = true,
+								["enabled"] = true,
+								["pageStep"] = 10,
+								["range"] = {
+									["max"] = 359,
+									["min"] = 0,
+								},
+								["step"] = 1,
+								["tabOrder"] = 0,
+								["text"] = "dial0",
+								["tooltip"] = "",
+								["value"] = 0,
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "dialSkin_ME",
+								},
+								["states"] = {
+									["disabled"] = {
+										[1] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\m1\\elements\\dial_me.png",
+												["horzAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+												["resizeToFill"] = false,
+												["size"] = {
+													["horz"] = 0,
+													["vert"] = 0,
+												},
+												["tileHorizontally"] = false,
+												["tileVertically"] = false,
+												["userTexSampler"] = 0,
+												["vertAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+									["released"] = {
+										[1] = {
+											["picture"] = {
+												["file"] = "dxgui\\skins\\skinme\\images\\m1\\elements\\dial_me.png",
+												["horzAlign"] = {
+													["type"] = "middle",
+												},
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Dial",
+						},
+						["labelAircraft"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 160,
+									["x"] = 0,
+									["y"] = 10,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "$aircraft",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSimpleMissionGeneratorSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["fontSize"] = 13,
+												["horzAlign"] = {
+													["offset"] = 15,
+													["type"] = "min",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["labelAlliedGroups"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 160,
+									["x"] = 0,
+									["y"] = 185,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "$alliedGroups",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSimpleMissionGeneratorSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["bkgColor"] = "0x00000000",
+												["blurColor"] = "0x00000000",
+												["fontSize"] = 13,
+												["horzAlign"] = {
+													["offset"] = 15,
+													["type"] = "min",
+												},
+												["lineThroughColor"] = "0x00000000",
+												["lineThroughHeight"] = 1,
+												["shadowColor"] = "0x00000000",
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["labelAltitude"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 160,
+									["x"] = 0,
+									["y"] = 110,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "$altitude",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSimpleMissionGeneratorSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["bkgColor"] = "0x00000000",
+												["blurColor"] = "0x00000000",
+												["fontSize"] = 13,
+												["horzAlign"] = {
+													["offset"] = 15,
+													["type"] = "min",
+												},
+												["lineThroughColor"] = "0x00000000",
+												["lineThroughHeight"] = 1,
+												["shadowColor"] = "0x00000000",
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["labelDistanceToTarget"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 160,
+									["x"] = 0,
+									["y"] = 35,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "$distanceToTarget",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSimpleMissionGeneratorSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["fontSize"] = 13,
+												["horzAlign"] = {
+													["offset"] = 15,
+													["type"] = "min",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["labelHeadingToTarget"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 160,
+									["x"] = 0,
+									["y"] = 71,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "$headingToTarget",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSimpleMissionGeneratorSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["bkgColor"] = "0x00000000",
+												["blurColor"] = "0x00000000",
+												["fontSize"] = 13,
+												["horzAlign"] = {
+													["offset"] = 15,
+													["type"] = "min",
+												},
+												["lineThroughColor"] = "0x00000000",
+												["lineThroughHeight"] = 1,
+												["shadowColor"] = "0x00000000",
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["labelSpeed"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 160,
+									["x"] = 0,
+									["y"] = 135,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "$speed",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSimpleMissionGeneratorSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["bkgColor"] = "0x00000000",
+												["blurColor"] = "0x00000000",
+												["fontSize"] = 13,
+												["horzAlign"] = {
+													["offset"] = 15,
+													["type"] = "min",
+												},
+												["lineThroughColor"] = "0x00000000",
+												["lineThroughHeight"] = 1,
+												["shadowColor"] = "0x00000000",
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["labelWingmenSkill"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 160,
+									["x"] = 0,
+									["y"] = 160,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "$wingmenAISkill",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSimpleMissionGeneratorSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["bkgColor"] = "0x00000000",
+												["blurColor"] = "0x00000000",
+												["fontSize"] = 13,
+												["horzAlign"] = {
+													["offset"] = 15,
+													["type"] = "min",
+												},
+												["lineThroughColor"] = "0x00000000",
+												["lineThroughHeight"] = 1,
+												["shadowColor"] = "0x00000000",
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["sAltitude"] = {
+							["params"] = {
+								["acceptDecimalPoint"] = false,
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 140,
+									["x"] = 160,
+									["y"] = 110,
+								},
+								["checkRange"] = true,
+								["enabled"] = true,
+								["pageStep"] = 100,
+								["range"] = {
+									["max"] = 40000,
+									["min"] = 0,
+								},
+								["step"] = 10,
+								["tabOrder"] = 30,
+								["text"] = "",
+								["tooltip"] = "",
+								["value"] = 0,
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "spinBoxSkin_MENew",
+								},
+							},
+							["type"] = "SpinBox",
+						},
+						["sDistanceToTarget"] = {
+							["params"] = {
+								["acceptDecimalPoint"] = false,
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 140,
+									["x"] = 160,
+									["y"] = 35,
+								},
+								["checkRange"] = true,
+								["enabled"] = true,
+								["pageStep"] = 10,
+								["range"] = {
+									["max"] = 999999999,
+									["min"] = 0,
+								},
+								["step"] = 1,
+								["tabOrder"] = 30,
+								["text"] = "",
+								["tooltip"] = "",
+								["value"] = 0,
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "spinBoxSkin_MENew",
+								},
+							},
+							["type"] = "SpinBox",
+						},
+						["sHeadingToTarget"] = {
+							["params"] = {
+								["acceptDecimalPoint"] = false,
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 85,
+									["x"] = 215,
+									["y"] = 71,
+								},
+								["checkRange"] = true,
+								["enabled"] = true,
+								["pageStep"] = 10,
+								["range"] = {
+									["max"] = 359,
+									["min"] = 0,
+								},
+								["step"] = 1,
+								["tabOrder"] = 30,
+								["text"] = "",
+								["tooltip"] = "",
+								["value"] = 0,
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "spinBoxSkin_MENew",
+								},
+							},
+							["type"] = "SpinBox",
+						},
+						["sSpeed"] = {
+							["params"] = {
+								["acceptDecimalPoint"] = false,
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 140,
+									["x"] = 160,
+									["y"] = 135,
+								},
+								["checkRange"] = true,
+								["enabled"] = true,
+								["pageStep"] = 100,
+								["range"] = {
+									["max"] = 2500,
+									["min"] = 1,
+								},
+								["step"] = 10,
+								["tabOrder"] = 30,
+								["text"] = "",
+								["tooltip"] = "",
+								["value"] = 1,
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "spinBoxSkin_MENew",
+								},
+							},
+							["type"] = "SpinBox",
+						},
+						["textAltitude"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 50,
+									["x"] = 305,
+									["y"] = 110,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["disabled"] = {
+										[1] = {
+											["text"] = {
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["lineHeight"] = 0,
+											},
+										},
+									},
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["bkgColor"] = "0x00000000",
+												["blurColor"] = "0x00000000",
+												["color"] = "0xc8c8c8ff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["horzAlign"] = {
+													["offset"] = 0,
+												},
+												["lineHeight"] = 0,
+												["lineThroughColor"] = "0x00000000",
+												["lineThroughHeight"] = 1,
+												["lineThroughOffset"] = 1,
+												["shadowColor"] = "0x00000000",
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["textDistanceToTarget"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 50,
+									["x"] = 305,
+									["y"] = 35,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["disabled"] = {
+										[1] = {
+											["text"] = {
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["lineHeight"] = 0,
+											},
+										},
+									},
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["bkgColor"] = "0x00000000",
+												["blurColor"] = "0x00000000",
+												["color"] = "0xc8c8c8ff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["horzAlign"] = {
+													["offset"] = 0,
+												},
+												["lineHeight"] = 0,
+												["lineThroughColor"] = "0x00000000",
+												["lineThroughHeight"] = 1,
+												["lineThroughOffset"] = 1,
+												["shadowColor"] = "0x00000000",
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["textHeadingToTarget"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 50,
+									["x"] = 305,
+									["y"] = 71,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "°",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["disabled"] = {
+										[1] = {
+											["text"] = {
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["lineHeight"] = 0,
+											},
+										},
+									},
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["bkgColor"] = "0x00000000",
+												["blurColor"] = "0x00000000",
+												["color"] = "0xc8c8c8ff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["horzAlign"] = {
+													["offset"] = 0,
+												},
+												["lineHeight"] = 0,
+												["lineThroughColor"] = "0x00000000",
+												["lineThroughHeight"] = 1,
+												["lineThroughOffset"] = 1,
+												["shadowColor"] = "0x00000000",
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["textSpeed"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 50,
+									["x"] = 305,
+									["y"] = 135,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["disabled"] = {
+										[1] = {
+											["text"] = {
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["lineHeight"] = 0,
+											},
+										},
+									},
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["bkgColor"] = "0x00000000",
+												["blurColor"] = "0x00000000",
+												["color"] = "0xc8c8c8ff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["horzAlign"] = {
+													["offset"] = 0,
+												},
+												["lineHeight"] = 0,
+												["lineThroughColor"] = "0x00000000",
+												["lineThroughHeight"] = 1,
+												["lineThroughOffset"] = 1,
+												["shadowColor"] = "0x00000000",
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["toggleButtonAlliedGroups"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 60,
+									["x"] = 160,
+									["y"] = 185,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 0,
+								["text"] = "$edit",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "toggleButtonCampSkin",
+								},
+								["states"] = {
+									["hover"] = {
+										[1] = {
+											["bkg"] = {
+												["file"] = "dxgui\\skins\\skinme\\images\\buttons\\buttons(new)\\hover\\btngray.png",
+												["insets"] = {
+													["left"] = 4,
+													["right"] = 4,
+													["top"] = 4,
+												},
+											},
+										},
+										[2] = {
+											["bkg"] = {
+												["center_bottom"] = "0xa4a4a4ff",
+												["center_center"] = "0xa4a4a4ff",
+												["center_top"] = "0xa4a4a4ff",
+												["file"] = "dxgui\\skins\\skinme\\images\\buttons\\buttons(new)\\released\\btngray.png",
+												["left_bottom"] = "0xa4a4a4ff",
+												["left_center"] = "0xa4a4a4ff",
+												["left_top"] = "0xa4a4a4ff",
+												["right_bottom"] = "0xa4a4a4ff",
+												["right_center"] = "0xa4a4a4ff",
+												["right_top"] = "0xa4a4a4ff",
+											},
+										},
+									},
+									["pressed"] = {
+										[1] = {
+											["bkg"] = {
+												["file"] = "dxgui\\skins\\skinme\\images\\buttons\\buttons(new)\\released\\btngray3.png",
+											},
+										},
+										[2] = {
+											["bkg"] = {
+												["center_bottom"] = "0xa4a4a4ff",
+												["center_center"] = "0xa4a4a4ff",
+												["center_top"] = "0xa4a4a4ff",
+												["left_bottom"] = "0xa4a4a4ff",
+												["left_center"] = "0xa4a4a4ff",
+												["left_top"] = "0xa4a4a4ff",
+												["right_bottom"] = "0xa4a4a4ff",
+												["right_center"] = "0xa4a4a4ff",
+												["right_top"] = "0xa4a4a4ff",
+											},
+										},
+									},
+									["released"] = {
+										[2] = {
+											["bkg"] = {
+												["center_bottom"] = "0xa4a4a4ff",
+												["center_center"] = "0xa4a4a4ff",
+												["center_top"] = "0xa4a4a4ff",
+												["file"] = "dxgui\\skins\\skinme\\images\\buttons\\buttons(new)\\released\\btngray3.png",
+												["left_bottom"] = "0xa4a4a4ff",
+												["left_center"] = "0xa4a4a4ff",
+												["left_top"] = "0xa4a4a4ff",
+												["right_bottom"] = "0xa4a4a4ff",
+												["right_center"] = "0xa4a4a4ff",
+												["right_top"] = "0xa4a4a4ff",
+											},
+											["picture"] = {
+												["horzAlign"] = {
+													["offset"] = 0,
+													["type"] = "min",
+												},
+												["vertAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "ToggleButton",
+						},
+					},
+					["params"] = {
+						["bounds"] = {
+							["h"] = 210,
+							["w"] = 400,
+							["x"] = 0,
+							["y"] = 49,
+						},
+						["enabled"] = true,
+						["layout"] = {
+						},
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "panelSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0xffffff7f",
+										["center_center"] = "0x2d3e50cc",
+										["center_top"] = "0xffffff7f",
+										["left_bottom"] = "0xffffff7f",
+										["left_center"] = "0xffffff7f",
+										["left_top"] = "0xffffff7f",
+										["right_bottom"] = "0xffffff7f",
+										["right_center"] = "0xffffff7f",
+										["right_top"] = "0xffffff7f",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Panel",
+				},
+				["staticTitle"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 50,
+							["w"] = 400,
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "$playerPosition",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0x00000080",
+										["center_center"] = "0x2d3e50ff",
+										["insets"] = {
+											["bottom"] = 1,
+										},
+									},
+									["text"] = {
+										["bkgColor"] = "0x00000000",
+										["blurColor"] = "0x00000000",
+										["color"] = "0xbccecdff",
+										["fontSize"] = 18,
+										["horzAlign"] = {
+											["offset"] = 15,
+										},
+										["lineHeight"] = 0,
+										["lineThroughColor"] = "0x00000000",
+										["lineThroughHeight"] = 1,
+										["shadowColor"] = "0x00000000",
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 260,
+					["w"] = 400,
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["enabled"] = true,
+				["layout"] = {
+				},
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "0x00000080",
+								["center_top"] = "0x00000080",
+								["insets"] = {
+									["bottom"] = 2,
+									["left"] = 2,
+									["right"] = 2,
+									["top"] = 2,
+								},
+								["left_bottom"] = "0x00000080",
+								["left_center"] = "0x00000080",
+								["left_top"] = "0x00000080",
+								["right_bottom"] = "0x00000080",
+								["right_center"] = "0x00000080",
+								["right_top"] = "0x00000080",
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Panel",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 260,
+			["w"] = 400,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["buddy"] = false,
+		["clipResizeCursor"] = false,
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["layout"] = {
+		},
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["overlay"] = false,
+		["resizable"] = false,
+		["text"] = "$missionGenerator",
+		["zOrder"] = 99,
+	},
+	["skin"] = {
+		["params"] = {
+			["headerHeight"] = 0,
+			["name"] = "windowSkin",
+		},
+		["skins"] = {
+			["header"] = {
+				["skinData"] = {
+					["params"] = {
+						["insets"] = {
+							["bottom"] = "2",
+							["left"] = "16",
+							["right"] = "12",
+							["top"] = "2",
+						},
+					},
+					["states"] = {
+						["released"] = {
+							[1] = {
+								["bkg"] = {
+									["center_center"] = "$nil$",
+								},
+								["text"] = {
+									["font"] = "DejaVuLGCSansCondensed-Bold.ttf",
+									["fontSize"] = 19,
+									["lineHeight"] = 0,
+								},
+							},
+							[2] = {
+								["bkg"] = {
+									["center_center"] = "$nil$",
+								},
+								["text"] = {
+									["font"] = "DejaVuLGCSansCondensed-Bold.ttf",
+									["fontSize"] = 19,
+									["lineHeight"] = 0,
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		["states"] = {
+			["released"] = {
+				[1] = {
+					["bkg"] = {
+						["center_center"] = "0x00000080",
+					},
+					["picture"] = {
+						["horzAlign"] = {
+							["type"] = "middle",
+						},
+						["rect"] = {
+							["x1"] = "0",
+							["x2"] = "372",
+							["y1"] = "0",
+							["y2"] = "412",
+						},
+						["vertAlign"] = {
+							["type"] = "middle",
+						},
+					},
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+}

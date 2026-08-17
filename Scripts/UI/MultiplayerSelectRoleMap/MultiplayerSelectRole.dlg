@@ -1,0 +1,1368 @@
+dialog = {
+	["children"] = {
+		["panelLeft"] = {
+			["children"] = {
+				["panelServerInfo"] = {
+					["children"] = {
+						["acsServerAddress"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 26,
+									["w"] = 303,
+									["x"] = 384,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["text"] = "Server IP Address",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 3,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+									["textColorDisappearDuration"] = 1,
+									["textColorShowDuration"] = 0,
+								},
+								["states"] = {
+									["disabled"] = {
+										[1] = {
+											["text"] = {
+												["fontSize"] = 13,
+											},
+										},
+									},
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["color"] = "0x6ed8f3ff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["fontSize"] = 14,
+												["horzAlign"] = {
+													["offset"] = 0,
+												},
+												["lineHeight"] = 0,
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "AnimatedColorStatic",
+						},
+						["checkStar"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 27,
+									["x"] = 5,
+									["y"] = 3,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 0,
+								["text"] = "",
+								["tooltip"] = "$tgleFavorites_tooltip",
+								["visible"] = true,
+								["zindex"] = 1,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "checkBoxSkin",
+								},
+								["states"] = {
+									["disabled"] = {
+										[1] = {
+											["check"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\favorites.png",
+												["horzAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+												["rect"] = {
+													["x2"] = 14,
+													["y1"] = 30,
+												},
+												["vertAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+											},
+										},
+										[2] = {
+											["check"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\favorites.png",
+												["horzAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+												["rect"] = {
+													["x2"] = 14,
+													["y1"] = 30,
+												},
+												["vertAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+									["hover"] = {
+										[1] = {
+											["check"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\favorites.png",
+												["horzAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+												["rect"] = {
+													["x2"] = 14,
+													["y2"] = 15,
+												},
+												["vertAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+											},
+											["picture"] = {
+												["horzAlign"] = {
+													["offset"] = 0,
+													["type"] = "min",
+												},
+												["vertAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+											},
+										},
+										[2] = {
+											["check"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\favorites.png",
+												["horzAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+												["rect"] = {
+													["x1"] = 14,
+													["y2"] = 15,
+												},
+												["vertAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+									["pressed"] = {
+										[1] = {
+											["check"] = {
+												["file"] = "dxgui\\skins\\skinme\\images\\favorites.png",
+												["horzAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+												["rect"] = {
+													["x1"] = 14,
+													["y1"] = 16,
+													["y2"] = 30,
+												},
+												["vertAlign"] = {
+													["offset"] = 0,
+												},
+											},
+										},
+										[2] = {
+											["check"] = {
+												["file"] = "dxgui\\skins\\skinme\\images\\favorites.png",
+												["horzAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+												["rect"] = {
+													["x2"] = 14,
+													["y1"] = 16,
+													["y2"] = 30,
+												},
+												["vertAlign"] = {
+													["offset"] = 0,
+												},
+											},
+										},
+									},
+									["released"] = {
+										[1] = {
+											["check"] = {
+												["file"] = "dxgui\\skins\\skinme\\images\\favorites.png",
+												["horzAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+												["rect"] = {
+													["x2"] = 14,
+													["y1"] = 16,
+													["y2"] = 30,
+												},
+												["vertAlign"] = {
+													["offset"] = 0,
+												},
+											},
+											["picture"] = {
+												["color"] = "$nil$",
+												["horzAlign"] = {
+													["offset"] = 0,
+												},
+												["vertAlign"] = {
+													["offset"] = 0,
+												},
+											},
+										},
+										[2] = {
+											["check"] = {
+												["file"] = "dxgui\\skins\\skinme\\images\\favorites.png",
+												["horzAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+												["rect"] = {
+													["x1"] = 14,
+													["y1"] = 16,
+													["y2"] = 30,
+												},
+												["vertAlign"] = {
+													["offset"] = 0,
+												},
+											},
+											["picture"] = {
+												["horzAlign"] = {
+													["offset"] = 0,
+												},
+												["vertAlign"] = {
+													["offset"] = 0,
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "CheckBox",
+						},
+						["sServerFlag"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 52,
+									["x"] = 325,
+									["y"] = 3,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "flag",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 4,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin_table_row_TextAlignMiddle",
+								},
+								["states"] = {
+									["disabled"] = {
+										[1] = {
+											["picture"] = {
+												["horzAlign"] = {
+													["type"] = "middle",
+												},
+												["rect"] = {
+													["x2"] = 48,
+													["y2"] = 32,
+												},
+											},
+											["text"] = {
+												["color"] = "0xffffffff",
+											},
+										},
+									},
+									["released"] = {
+										[1] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\flags\\ao.png",
+												["horzAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+												["rect"] = {
+													["x2"] = 16,
+													["y2"] = 11,
+												},
+												["resizeToFill"] = false,
+												["size"] = {
+													["horz"] = 16,
+													["vert"] = 11,
+												},
+												["vertAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+											},
+											["text"] = {
+												["color"] = "0xffffff80",
+												["fontSize"] = 13,
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["sServerName"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 26,
+									["w"] = 285,
+									["x"] = 36,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "Server Name is Here",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 2,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["disabled"] = {
+										[1] = {
+											["text"] = {
+												["color"] = "0x6ed8f3ff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["fontSize"] = 13,
+												["horzAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+												["lineHeight"] = 0,
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+									["released"] = {
+										[1] = {
+											["picture"] = {
+												["horzAlign"] = {
+													["offset"] = 0,
+													["type"] = "min",
+												},
+												["vertAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+											},
+											["text"] = {
+												["color"] = "0x6ed8f3ff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["fontSize"] = 14,
+												["horzAlign"] = {
+													["offset"] = 0,
+												},
+												["lineHeight"] = 0,
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+					},
+					["params"] = {
+						["bounds"] = {
+							["h"] = 34,
+							["w"] = 700,
+							["x"] = 128,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["layout"] = {
+							["data"] = {
+								["gap"] = 10,
+								["horzAlign"] = {
+									["offset"] = 0,
+									["type"] = "min",
+								},
+								["vertAlign"] = {
+									["offset"] = 0,
+									["type"] = "middle",
+								},
+							},
+							["type"] = "horz",
+						},
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "panelSkin",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["picture"] = {
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "min",
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["file"] = "",
+										["insets"] = {
+											["bottom"] = 0,
+										},
+									},
+									["picture"] = {
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "min",
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Panel",
+				},
+				["panelTglBtns"] = {
+					["children"] = {
+						["tglbtnCoalitions"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 34,
+									["w"] = 34,
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 0,
+								["text"] = "",
+								["tooltip"] = "$tip_selectCoalition",
+								["visible"] = true,
+								["zindex"] = 1,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "toggleButtonSkinAwacsToolbar",
+								},
+								["states"] = {
+									["disabled"] = {
+										[1] = {
+											["picture"] = {
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\multiplayer_select_role\\iconbriefing.png",
+											},
+										},
+										[2] = {
+											["picture"] = {
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\multiplayer_select_role\\iconbriefing.png",
+											},
+										},
+									},
+									["hover"] = {
+										[1] = {
+											["picture"] = {
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\multiplayer_select_role\\iconbriefing.png",
+											},
+										},
+										[2] = {
+											["picture"] = {
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\multiplayer_select_role\\iconbriefing.png",
+											},
+										},
+									},
+									["pressed"] = {
+										[1] = {
+											["picture"] = {
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\multiplayer_select_role\\iconbriefing.png",
+											},
+										},
+										[2] = {
+											["picture"] = {
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\multiplayer_select_role\\iconbriefing.png",
+											},
+										},
+									},
+									["released"] = {
+										[1] = {
+											["picture"] = {
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\multiplayer_select_role\\iconbriefing.png",
+											},
+										},
+										[2] = {
+											["picture"] = {
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\multiplayer_select_role\\iconbriefing.png",
+											},
+										},
+									},
+								},
+							},
+							["type"] = "ToggleButton",
+						},
+						["tglbtnDynamicSlots"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 34,
+									["w"] = 34,
+									["x"] = 74,
+									["y"] = 0,
+								},
+								["enabled"] = false,
+								["state"] = false,
+								["tabOrder"] = 0,
+								["text"] = "",
+								["tooltip"] = "$tip_selectDynamicSlot",
+								["visible"] = false,
+								["zindex"] = 3,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "toggleButtonSkinAwacsToolbar",
+								},
+								["states"] = {
+									["disabled"] = {
+										[1] = {
+											["picture"] = {
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\multiplayer_select_role\\icondynamicslots.png",
+											},
+										},
+										[2] = {
+											["picture"] = {
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\multiplayer_select_role\\icondynamicslots.png",
+											},
+										},
+									},
+									["hover"] = {
+										[1] = {
+											["picture"] = {
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\multiplayer_select_role\\icondynamicslots.png",
+											},
+										},
+										[2] = {
+											["picture"] = {
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\multiplayer_select_role\\icondynamicslots.png",
+											},
+										},
+									},
+									["pressed"] = {
+										[1] = {
+											["picture"] = {
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\multiplayer_select_role\\icondynamicslots.png",
+											},
+										},
+										[2] = {
+											["picture"] = {
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\multiplayer_select_role\\icondynamicslots.png",
+											},
+										},
+									},
+									["released"] = {
+										[1] = {
+											["picture"] = {
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\multiplayer_select_role\\icondynamicslots.png",
+											},
+										},
+										[2] = {
+											["picture"] = {
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\multiplayer_select_role\\icondynamicslots.png",
+											},
+										},
+									},
+								},
+							},
+							["type"] = "ToggleButton",
+						},
+						["tglbtnSlots"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 34,
+									["w"] = 34,
+									["x"] = 37,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["state"] = false,
+								["tabOrder"] = 0,
+								["text"] = "",
+								["tooltip"] = "$tip_selectSlot",
+								["visible"] = true,
+								["zindex"] = 2,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "toggleButtonSkinAwacsToolbar",
+								},
+								["states"] = {
+									["disabled"] = {
+										[1] = {
+											["picture"] = {
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\multiplayer_select_role\\iconmpslots.png",
+											},
+										},
+										[2] = {
+											["picture"] = {
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\multiplayer_select_role\\iconmpslots.png",
+											},
+										},
+									},
+									["hover"] = {
+										[1] = {
+											["picture"] = {
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\multiplayer_select_role\\iconmpslots.png",
+											},
+										},
+										[2] = {
+											["picture"] = {
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\multiplayer_select_role\\iconmpslots.png",
+											},
+										},
+									},
+									["pressed"] = {
+										[1] = {
+											["picture"] = {
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\multiplayer_select_role\\iconmpslots.png",
+											},
+										},
+										[2] = {
+											["picture"] = {
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\multiplayer_select_role\\iconmpslots.png",
+											},
+										},
+									},
+									["released"] = {
+										[1] = {
+											["picture"] = {
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\multiplayer_select_role\\iconmpslots.png",
+											},
+										},
+										[2] = {
+											["picture"] = {
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\multiplayer_select_role\\iconmpslots.png",
+											},
+										},
+									},
+								},
+							},
+							["type"] = "ToggleButton",
+						},
+					},
+					["params"] = {
+						["bounds"] = {
+							["h"] = 34,
+							["w"] = 74,
+							["x"] = 10,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["layout"] = {
+							["data"] = {
+								["gap"] = 4,
+								["horzAlign"] = {
+									["offset"] = 4,
+									["type"] = "min",
+								},
+								["vertAlign"] = {
+									["offset"] = 0,
+									["type"] = "middle",
+								},
+							},
+							["type"] = "horz",
+						},
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "panelSkin",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["picture"] = {
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "min",
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["picture"] = {
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "min",
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Panel",
+				},
+				["toggleButtonShowRouteTool"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 28,
+							["w"] = 28,
+							["x"] = 84,
+							["y"] = 3,
+						},
+						["enabled"] = true,
+						["state"] = false,
+						["tabOrder"] = 0,
+						["text"] = "",
+						["tooltip"] = "$tip_RouteTool",
+						["visible"] = true,
+						["zindex"] = 202,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "toggleButtonSkinAwacsToolbar",
+						},
+						["states"] = {
+							["disabled"] = {
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\icon3.png",
+									},
+								},
+							},
+							["hover"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\route_tool28.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\route_tool28.png",
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\route_tool28.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\route_tool28.png",
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\route_tool28.png",
+									},
+								},
+								[2] = {
+									["picture"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\m1\\awacscameradialog\\route_tool28.png",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "ToggleButton",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 34,
+					["w"] = 820,
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["enabled"] = true,
+				["layout"] = {
+				},
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["picture"] = {
+								["horzAlign"] = {
+									["offset"] = 0,
+									["type"] = "min",
+								},
+								["vertAlign"] = {
+									["offset"] = 0,
+									["type"] = "middle",
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Panel",
+		},
+		["panelRight"] = {
+			["children"] = {
+				["btnChangeMission"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 26,
+							["w"] = 130,
+							["x"] = 370,
+							["y"] = 4,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "$ChangeMission",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 2,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "buttonSkinRedNew",
+							["textWrapping"] = false,
+							["useEllipsis"] = false,
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0xffffffff",
+										["center_center"] = "0xffffffff",
+										["center_top"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\buttons\\buttons(new)\\released\\btngray.png",
+										["insets"] = {
+											["bottom"] = 4,
+											["left"] = 4,
+											["right"] = 4,
+											["top"] = 4,
+										},
+										["left_bottom"] = "0xffffffff",
+										["left_center"] = "0xffffffff",
+										["left_top"] = "0xffffffff",
+										["rect"] = {
+											["x1"] = 10,
+											["x2"] = 130,
+											["y1"] = 10,
+											["y2"] = 40,
+										},
+										["right_bottom"] = "0xffffffff",
+										["right_center"] = "0xffffffff",
+										["right_top"] = "0xffffffff",
+									},
+									["picture"] = {
+										["color"] = "$nil$",
+										["file"] = "$nil$",
+										["horzAlign"] = {
+											["offset"] = 0,
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+										},
+									},
+									["text"] = {
+										["fontSize"] = 11,
+									},
+								},
+							},
+							["hover"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0xffffffff",
+										["center_center"] = "0xffffffff",
+										["center_top"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\buttons\\buttons(new)\\hover\\btngray.png",
+										["insets"] = {
+											["bottom"] = 4,
+											["left"] = 4,
+											["right"] = 4,
+											["top"] = 4,
+										},
+										["left_bottom"] = "0xffffffff",
+										["left_center"] = "0xffffffff",
+										["left_top"] = "0xffffffff",
+										["rect"] = {
+											["x1"] = 10,
+											["x2"] = 130,
+											["y1"] = 10,
+											["y2"] = 40,
+										},
+										["right_bottom"] = "0xffffffff",
+										["right_center"] = "0xffffffff",
+										["right_top"] = "0xffffffff",
+									},
+									["picture"] = {
+										["color"] = "$nil$",
+										["file"] = "$nil$",
+										["horzAlign"] = {
+											["offset"] = 0,
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+										},
+									},
+									["text"] = {
+										["fontSize"] = 11,
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0xffffffff",
+										["center_center"] = "0xffffffff",
+										["center_top"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\buttons\\buttons(new)\\pressed\\btnred.png",
+										["insets"] = {
+											["bottom"] = 4,
+											["left"] = 4,
+											["right"] = 4,
+											["top"] = 4,
+										},
+										["left_bottom"] = "0xffffffff",
+										["left_center"] = "0xffffffff",
+										["left_top"] = "0xffffffff",
+										["rect"] = {
+											["x1"] = 10,
+											["x2"] = 130,
+											["y1"] = 10,
+											["y2"] = 40,
+										},
+										["right_bottom"] = "0xffffffff",
+										["right_center"] = "0xffffffff",
+										["right_top"] = "0xffffffff",
+									},
+									["picture"] = {
+										["color"] = "$nil$",
+										["file"] = "$nil$",
+										["horzAlign"] = {
+											["offset"] = 0,
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+										},
+									},
+									["text"] = {
+										["fontSize"] = 11,
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0xffffffff",
+										["center_center"] = "0xffffffff",
+										["center_top"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\buttons\\buttons(new)\\released\\btngray.png",
+										["insets"] = {
+											["bottom"] = 4,
+											["left"] = 4,
+											["right"] = 4,
+											["top"] = 4,
+										},
+										["left_bottom"] = "0xffffffff",
+										["left_center"] = "0xffffffff",
+										["left_top"] = "0xffffffff",
+										["rect"] = {
+											["x1"] = 10,
+											["x2"] = 130,
+											["y1"] = 10,
+											["y2"] = 40,
+										},
+										["right_bottom"] = "0xffffffff",
+										["right_center"] = "0xffffffff",
+										["right_top"] = "0xffffffff",
+									},
+									["picture"] = {
+										["color"] = "$nil$",
+										["file"] = "$nil$",
+										["horzAlign"] = {
+											["offset"] = 0,
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+										},
+									},
+									["text"] = {
+										["fontSize"] = 11,
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Button",
+				},
+				["btnClose"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 26,
+							["w"] = 18,
+							["x"] = 515,
+							["y"] = 4,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 9,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "btn_closeNew",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "$nil$",
+										["center_center"] = "$nil$",
+										["center_top"] = "$nil$",
+										["file"] = "$nil$",
+										["left_bottom"] = "$nil$",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["right_bottom"] = "$nil$",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["picture"] = {
+										["color"] = "0x969696b4",
+										["file"] = "dxgui\\skins\\skinme\\images\\buttons\\buttons(new)\\button close\\btncloserl.png",
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["picture"] = {
+										["horzAlign"] = {
+											["offset"] = 0,
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Button",
+				},
+				["sNameMission"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 26,
+							["w"] = 352,
+							["x"] = 0,
+							["y"] = 4,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "NameMission",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 3,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["text"] = {
+										["fontSize"] = 13,
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xffffffff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 13,
+										["horzAlign"] = {
+											["type"] = "max",
+										},
+										["lineHeight"] = 0,
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 34,
+					["w"] = 540,
+					["x"] = 820,
+					["y"] = 0,
+				},
+				["enabled"] = true,
+				["layout"] = {
+				},
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 2,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["picture"] = {
+								["horzAlign"] = {
+									["offset"] = 0,
+									["type"] = "min",
+								},
+								["vertAlign"] = {
+									["offset"] = 0,
+									["type"] = "middle",
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Panel",
+		},
+	},
+	["horzGuids"] = {
+		[1] = 215,
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 34,
+			["w"] = 1366,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["buddy"] = false,
+		["clipResizeCursor"] = false,
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["layout"] = {
+			["data"] = {
+				["anchorInfos"] = {
+					[1] = {
+						["bottom"] = {
+							["offset"] = 0,
+							["type"] = "max",
+						},
+						["left"] = {
+							["offset"] = 0,
+							["type"] = "min",
+						},
+						["right"] = {
+							["offset"] = 0,
+							["type"] = "max",
+						},
+						["top"] = {
+							["offset"] = 0,
+							["type"] = "min",
+						},
+					},
+					[2] = {
+						["bottom"] = {
+							["offset"] = 0,
+							["type"] = "min",
+						},
+						["left"] = {
+							["offset"] = 0,
+							["type"] = "max",
+						},
+						["right"] = {
+							["offset"] = 0,
+							["type"] = "max",
+						},
+						["top"] = {
+							["offset"] = 0,
+							["type"] = "min",
+						},
+					},
+					[3] = {
+						["bottom"] = {
+							["offset"] = 0,
+							["type"] = "min",
+						},
+						["left"] = {
+							["offset"] = 0,
+							["type"] = "min",
+						},
+						["right"] = {
+							["offset"] = 0,
+							["type"] = "max",
+						},
+						["top"] = {
+							["offset"] = 0,
+							["type"] = "min",
+						},
+					},
+					[4] = {
+						["bottom"] = {
+							["offset"] = 0,
+							["type"] = "min",
+						},
+						["left"] = {
+							["offset"] = 0,
+							["type"] = "max",
+						},
+						["right"] = {
+							["offset"] = 0,
+							["type"] = "max",
+						},
+						["top"] = {
+							["offset"] = 0,
+							["type"] = "min",
+						},
+					},
+				},
+				["count"] = 4,
+			},
+			["type"] = "anchor",
+		},
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["overlay"] = false,
+		["resizable"] = false,
+		["text"] = "New dialog",
+		["zOrder"] = -500,
+	},
+	["skin"] = {
+		["params"] = {
+			["headerHeight"] = 0,
+			["name"] = "windowSkin",
+		},
+		["states"] = {
+			["disabled"] = {
+				[1] = {
+					["picture"] = {
+						["horzAlign"] = {
+							["offset"] = 0,
+							["type"] = "min",
+						},
+						["vertAlign"] = {
+							["offset"] = 0,
+							["type"] = "middle",
+						},
+					},
+				},
+			},
+			["released"] = {
+				[1] = {
+					["bkg"] = {
+						["center_bottom"] = "0x000000ff",
+						["center_center"] = "0x2d3e50ff",
+						["center_top"] = "0x000000ff",
+						["file"] = "",
+						["insets"] = {
+							["bottom"] = 1,
+						},
+						["left_bottom"] = "0x000000ff",
+						["left_center"] = "0x000000ff",
+						["left_top"] = "0x000000ff",
+						["right_bottom"] = "0x000000ff",
+						["right_center"] = "0x000000ff",
+						["right_top"] = "0x000000ff",
+					},
+					["picture"] = {
+						["horzAlign"] = {
+							["offset"] = 0,
+							["type"] = "min",
+						},
+						["vertAlign"] = {
+							["offset"] = 0,
+							["type"] = "middle",
+						},
+					},
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+	["vertGuids"] = {
+		[1] = 139,
+	},
+}

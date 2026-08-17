@@ -1,0 +1,883 @@
+dialog = {
+	["children"] = {
+		["containerMain"] = {
+			["children"] = {
+				["btnContinue"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 30,
+							["w"] = 150,
+							["x"] = 630,
+							["y"] = 120,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "$continue",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "buttonSkinGreenNew",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0xffffffff",
+										["center_center"] = "0xffffffff",
+										["center_top"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\buttons\\buttons(new)\\pressed\\btngreen.png",
+										["insets"] = {
+											["bottom"] = 4,
+											["left"] = 4,
+											["right"] = 4,
+											["top"] = 4,
+										},
+										["left_bottom"] = "0xffffffff",
+										["left_center"] = "0xffffffff",
+										["left_top"] = "0xffffffff",
+										["rect"] = {
+											["x1"] = 10,
+											["x2"] = 130,
+											["y1"] = 10,
+											["y2"] = 40,
+										},
+										["right_bottom"] = "0xffffffff",
+										["right_center"] = "0xffffffff",
+										["right_top"] = "0xffffffff",
+									},
+									["picture"] = {
+										["file"] = "$nil$",
+										["horzAlign"] = {
+											["offset"] = 0,
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+										},
+									},
+									["text"] = {
+										["fontSize"] = 11,
+									},
+								},
+							},
+							["hover"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0xffffffff",
+										["center_center"] = "0xffffffff",
+										["center_top"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\buttons\\buttons(new)\\hover\\btngreen.png",
+										["insets"] = {
+											["bottom"] = 4,
+											["left"] = 4,
+											["right"] = 4,
+											["top"] = 4,
+										},
+										["left_bottom"] = "0xffffffff",
+										["left_center"] = "0xffffffff",
+										["left_top"] = "0xffffffff",
+										["rect"] = {
+											["x1"] = 10,
+											["x2"] = 130,
+											["y1"] = 10,
+											["y2"] = 40,
+										},
+										["right_bottom"] = "0xffffffff",
+										["right_center"] = "0xffffffff",
+										["right_top"] = "0xffffffff",
+									},
+									["picture"] = {
+										["file"] = "$nil$",
+										["horzAlign"] = {
+											["offset"] = 0,
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+										},
+									},
+									["text"] = {
+										["fontSize"] = 11,
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0xffffffff",
+										["center_center"] = "0xffffffff",
+										["center_top"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\buttons\\buttons(new)\\pressed\\btngreen.png",
+										["insets"] = {
+											["bottom"] = 4,
+											["left"] = 4,
+											["right"] = 4,
+											["top"] = 4,
+										},
+										["left_bottom"] = "0xffffffff",
+										["left_center"] = "0xffffffff",
+										["left_top"] = "0xffffffff",
+										["rect"] = {
+											["x1"] = 10,
+											["x2"] = 130,
+											["y1"] = 10,
+											["y2"] = 40,
+										},
+										["right_bottom"] = "0xffffffff",
+										["right_center"] = "0xffffffff",
+										["right_top"] = "0xffffffff",
+									},
+									["picture"] = {
+										["file"] = "$nil$",
+										["horzAlign"] = {
+											["offset"] = 0,
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+										},
+									},
+									["text"] = {
+										["fontSize"] = 11,
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0xffffffff",
+										["center_center"] = "0xffffffff",
+										["center_top"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\buttons\\buttons(new)\\released\\btngreen.png",
+										["insets"] = {
+											["bottom"] = 4,
+											["left"] = 4,
+											["right"] = 4,
+											["top"] = 4,
+										},
+										["left_bottom"] = "0xffffffff",
+										["left_center"] = "0xffffffff",
+										["left_top"] = "0xffffffff",
+										["rect"] = {
+											["x1"] = 10,
+											["x2"] = 130,
+											["y1"] = 10,
+											["y2"] = 40,
+										},
+										["right_bottom"] = "0xffffffff",
+										["right_center"] = "0xffffffff",
+										["right_top"] = "0xffffffff",
+									},
+									["picture"] = {
+										["file"] = "$nil$",
+										["horzAlign"] = {
+											["offset"] = 0,
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+										},
+									},
+									["text"] = {
+										["fontSize"] = 11,
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Button",
+				},
+				["btnEndMission"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 30,
+							["w"] = 150,
+							["x"] = 20,
+							["y"] = 120,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "$endMission",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 2,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "buttonSkinRedNew",
+							["textWrapping"] = false,
+							["useEllipsis"] = false,
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0xffffffff",
+										["center_center"] = "0xffffffff",
+										["center_top"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\buttons\\buttons(new)\\released\\btngray.png",
+										["insets"] = {
+											["bottom"] = 4,
+											["left"] = 4,
+											["right"] = 4,
+											["top"] = 4,
+										},
+										["left_bottom"] = "0xffffffff",
+										["left_center"] = "0xffffffff",
+										["left_top"] = "0xffffffff",
+										["rect"] = {
+											["x1"] = 10,
+											["x2"] = 130,
+											["y1"] = 10,
+											["y2"] = 40,
+										},
+										["right_bottom"] = "0xffffffff",
+										["right_center"] = "0xffffffff",
+										["right_top"] = "0xffffffff",
+									},
+									["picture"] = {
+										["color"] = "$nil$",
+										["file"] = "$nil$",
+										["horzAlign"] = {
+											["offset"] = 0,
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+										},
+									},
+								},
+							},
+							["hover"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0xffffffff",
+										["center_center"] = "0xffffffff",
+										["center_top"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\buttons\\buttons(new)\\hover\\btngray.png",
+										["insets"] = {
+											["bottom"] = 4,
+											["left"] = 4,
+											["right"] = 4,
+											["top"] = 4,
+										},
+										["left_bottom"] = "0xffffffff",
+										["left_center"] = "0xffffffff",
+										["left_top"] = "0xffffffff",
+										["rect"] = {
+											["x1"] = 10,
+											["x2"] = 130,
+											["y1"] = 10,
+											["y2"] = 40,
+										},
+										["right_bottom"] = "0xffffffff",
+										["right_center"] = "0xffffffff",
+										["right_top"] = "0xffffffff",
+									},
+									["picture"] = {
+										["color"] = "$nil$",
+										["file"] = "$nil$",
+										["horzAlign"] = {
+											["offset"] = 0,
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+										},
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0xffffffff",
+										["center_center"] = "0xffffffff",
+										["center_top"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\buttons\\buttons(new)\\pressed\\btnred.png",
+										["insets"] = {
+											["bottom"] = 4,
+											["left"] = 4,
+											["right"] = 4,
+											["top"] = 4,
+										},
+										["left_bottom"] = "0xffffffff",
+										["left_center"] = "0xffffffff",
+										["left_top"] = "0xffffffff",
+										["rect"] = {
+											["x1"] = 10,
+											["x2"] = 130,
+											["y1"] = 10,
+											["y2"] = 40,
+										},
+										["right_bottom"] = "0xffffffff",
+										["right_center"] = "0xffffffff",
+										["right_top"] = "0xffffffff",
+									},
+									["picture"] = {
+										["color"] = "$nil$",
+										["file"] = "$nil$",
+										["horzAlign"] = {
+											["offset"] = 0,
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+										},
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0xffffffff",
+										["center_center"] = "0xffffffff",
+										["center_top"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\buttons\\buttons(new)\\released\\btngray.png",
+										["insets"] = {
+											["bottom"] = 4,
+											["left"] = 4,
+											["right"] = 4,
+											["top"] = 4,
+										},
+										["left_bottom"] = "0xffffffff",
+										["left_center"] = "0xffffffff",
+										["left_top"] = "0xffffffff",
+										["rect"] = {
+											["x1"] = 10,
+											["x2"] = 130,
+											["y1"] = 10,
+											["y2"] = 40,
+										},
+										["right_bottom"] = "0xffffffff",
+										["right_center"] = "0xffffffff",
+										["right_top"] = "0xffffffff",
+									},
+									["picture"] = {
+										["color"] = "$nil$",
+										["file"] = "$nil$",
+										["horzAlign"] = {
+											["offset"] = 0,
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Button",
+				},
+				["btnRefly"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 30,
+							["w"] = 150,
+							["x"] = 325,
+							["y"] = 120,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "$refly",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "buttonSkinGreenNew",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0xffffffff",
+										["center_center"] = "0xffffffff",
+										["center_top"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\buttons\\buttons(new)\\pressed\\btnorange.png",
+										["insets"] = {
+											["bottom"] = 4,
+											["left"] = 4,
+											["right"] = 4,
+											["top"] = 4,
+										},
+										["left_bottom"] = "0xffffffff",
+										["left_center"] = "0xffffffff",
+										["left_top"] = "0xffffffff",
+										["rect"] = {
+											["x1"] = 10,
+											["x2"] = 130,
+											["y1"] = 10,
+											["y2"] = 40,
+										},
+										["right_bottom"] = "0xffffffff",
+										["right_center"] = "0xffffffff",
+										["right_top"] = "0xffffffff",
+									},
+									["picture"] = {
+										["file"] = "$nil$",
+										["horzAlign"] = {
+											["offset"] = 0,
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+										},
+									},
+									["text"] = {
+										["fontSize"] = 11,
+									},
+								},
+							},
+							["hover"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0xffffffff",
+										["center_center"] = "0xffffffff",
+										["center_top"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\buttons\\buttons(new)\\hover\\btnorange.png",
+										["insets"] = {
+											["bottom"] = 4,
+											["left"] = 4,
+											["right"] = 4,
+											["top"] = 4,
+										},
+										["left_bottom"] = "0xffffffff",
+										["left_center"] = "0xffffffff",
+										["left_top"] = "0xffffffff",
+										["rect"] = {
+											["x1"] = 10,
+											["x2"] = 130,
+											["y1"] = 10,
+											["y2"] = 40,
+										},
+										["right_bottom"] = "0xffffffff",
+										["right_center"] = "0xffffffff",
+										["right_top"] = "0xffffffff",
+									},
+									["picture"] = {
+										["file"] = "$nil$",
+										["horzAlign"] = {
+											["offset"] = 0,
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+										},
+									},
+									["text"] = {
+										["fontSize"] = 11,
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0xffffffff",
+										["center_center"] = "0xffffffff",
+										["center_top"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\buttons\\buttons(new)\\pressed\\btnorange.png",
+										["insets"] = {
+											["bottom"] = 4,
+											["left"] = 4,
+											["right"] = 4,
+											["top"] = 4,
+										},
+										["left_bottom"] = "0xffffffff",
+										["left_center"] = "0xffffffff",
+										["left_top"] = "0xffffffff",
+										["rect"] = {
+											["x1"] = 10,
+											["x2"] = 130,
+											["y1"] = 10,
+											["y2"] = 40,
+										},
+										["right_bottom"] = "0xffffffff",
+										["right_center"] = "0xffffffff",
+										["right_top"] = "0xffffffff",
+									},
+									["picture"] = {
+										["file"] = "$nil$",
+										["horzAlign"] = {
+											["offset"] = 0,
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+										},
+									},
+									["text"] = {
+										["fontSize"] = 11,
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0xffffffff",
+										["center_center"] = "0xffffffff",
+										["center_top"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\buttons\\buttons(new)\\released\\btnorange.png",
+										["insets"] = {
+											["bottom"] = 4,
+											["left"] = 4,
+											["right"] = 4,
+											["top"] = 4,
+										},
+										["left_bottom"] = "0xffffffff",
+										["left_center"] = "0xffffffff",
+										["left_top"] = "0xffffffff",
+										["rect"] = {
+											["x1"] = 10,
+											["x2"] = 130,
+											["y1"] = 10,
+											["y2"] = 40,
+										},
+										["right_bottom"] = "0xffffffff",
+										["right_center"] = "0xffffffff",
+										["right_top"] = "0xffffffff",
+									},
+									["picture"] = {
+										["file"] = "$nil$",
+										["horzAlign"] = {
+											["offset"] = 0,
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+										},
+									},
+									["text"] = {
+										["fontSize"] = 11,
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Button",
+				},
+				["text"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 100,
+							["w"] = 760,
+							["x"] = 20,
+							["y"] = 10,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "static0",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xbccecdff",
+										["fontSize"] = 15,
+										["horzAlign"] = {
+											["offset"] = 10,
+											["type"] = "middle",
+										},
+										["lineHeight"] = 0,
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 160,
+					["w"] = 800,
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["enabled"] = true,
+				["layout"] = {
+				},
+				["text"] = "panel0",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["insets"] = {
+						["bottom"] = 0,
+						["left"] = 0,
+						["right"] = 0,
+						["top"] = 0,
+					},
+					["name"] = "panelSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "0x00000080",
+								["center_center"] = "0x2d3e50cc",
+								["center_top"] = "0x00000080",
+								["left_bottom"] = "0x00000080",
+								["left_center"] = "0x00000080",
+								["left_top"] = "0x00000080",
+								["right_bottom"] = "0x00000080",
+								["right_center"] = "0x00000080",
+								["right_top"] = "0x00000080",
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Panel",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 210,
+			["w"] = 800,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["buddy"] = false,
+		["clipResizeCursor"] = false,
+		["draggable"] = false,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["layout"] = {
+		},
+		["lockFlow"] = false,
+		["modal"] = true,
+		["offscreen"] = false,
+		["overlay"] = false,
+		["resizable"] = false,
+		["text"] = "$title",
+		["zOrder"] = 100,
+	},
+	["skin"] = {
+		["params"] = {
+			["headerHeight"] = 50,
+			["insets"] = {
+				["bottom"] = 0,
+				["left"] = 0,
+				["right"] = 0,
+				["top"] = 0,
+			},
+			["name"] = "windowSkin",
+		},
+		["skins"] = {
+			["header"] = {
+				["skinData"] = {
+					["params"] = {
+						["closeButtonHorzAlign"] = {
+							["offset"] = -15,
+						},
+						["insets"] = {
+							["bottom"] = 0,
+							["left"] = 0,
+							["right"] = 0,
+							["top"] = 0,
+						},
+					},
+					["skins"] = {
+						["closeButton"] = {
+							["skinData"] = {
+								["states"] = {
+									["disabled"] = {
+										[1] = {
+											["bkg"] = {
+												["center_bottom"] = "0xb3b3b34d",
+												["center_center"] = "0xffffffff",
+												["center_top"] = "0xb3b3b34d",
+												["file"] = "dxgui\\skins\\skinme\\images\\window\\other\\close\\x_disabled.png",
+												["left_bottom"] = "0xb3b3b34d",
+												["left_center"] = "0xb3b3b34d",
+												["left_top"] = "0xb3b3b34d",
+												["right_bottom"] = "0xb3b3b34d",
+												["right_center"] = "0xb3b3b34d",
+												["right_top"] = "0xb3b3b34d",
+											},
+											["picture"] = {
+												["color"] = "$nil$",
+												["file"] = "$nil$",
+												["rect"] = {
+													["x1"] = "$nil$",
+													["x2"] = "$nil$",
+													["y1"] = "$nil$",
+													["y2"] = "$nil$",
+												},
+												["size"] = {
+													["horz"] = "$nil$",
+													["vert"] = "$nil$",
+												},
+												["userTexSampler"] = "$nil$",
+											},
+											["text"] = {
+												["blur"] = 0,
+												["color"] = "0x808080ff",
+												["font"] = "DejaVuLGCSansCondensed-Bold.ttf",
+												["fontSize"] = 12,
+												["horzAlign"] = {
+													["type"] = "middle",
+												},
+												["shadowOffset"] = {
+													["horz"] = 0,
+													["vert"] = 0,
+												},
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+									["focused"] = {
+									},
+									["hover"] = {
+										[1] = {
+											["picture"] = {
+												["file"] = "dxgui\\skins\\skinme\\images\\buttons\\buttons(new)\\button close\\btnclosehover.png",
+												["horzAlign"] = {
+													["type"] = "middle",
+												},
+												["rect"] = {
+													["x1"] = "$nil$",
+													["x2"] = "$nil$",
+													["y1"] = "$nil$",
+													["y2"] = "$nil$",
+												},
+												["size"] = {
+													["horz"] = "$nil$",
+													["vert"] = "$nil$",
+												},
+												["userTexSampler"] = "$nil$",
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+									["pressed"] = {
+										[1] = {
+											["picture"] = {
+												["file"] = "dxgui\\skins\\skinme\\images\\buttons\\buttons(new)\\button close\\btnclosepressed.png",
+												["horzAlign"] = {
+													["type"] = "middle",
+												},
+												["rect"] = {
+													["x1"] = "$nil$",
+													["x2"] = "$nil$",
+													["y1"] = "$nil$",
+													["y2"] = "$nil$",
+												},
+												["size"] = {
+													["horz"] = "$nil$",
+													["vert"] = "$nil$",
+												},
+												["userTexSampler"] = "$nil$",
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+									["released"] = {
+										[1] = {
+											["picture"] = {
+												["file"] = "dxgui\\skins\\skinme\\images\\buttons\\buttons(new)\\button close\\btncloserl.png",
+												["horzAlign"] = {
+													["type"] = "middle",
+												},
+												["rect"] = {
+													["x1"] = "$nil$",
+													["x2"] = "$nil$",
+													["y1"] = "$nil$",
+													["y2"] = "$nil$",
+												},
+												["size"] = {
+													["horz"] = "$nil$",
+													["vert"] = "$nil$",
+												},
+												["userTexSampler"] = "$nil$",
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+								},
+								["type"] = "button",
+							},
+						},
+					},
+					["states"] = {
+						["released"] = {
+							[1] = {
+								["bkg"] = {
+									["center_bottom"] = "0x232a31ff",
+									["center_center"] = "0x2d3e50ff",
+									["insets"] = {
+										["bottom"] = 1,
+									},
+								},
+								["text"] = {
+									["color"] = "0xbccecdff",
+									["fontSize"] = 16,
+									["horzAlign"] = {
+										["offset"] = 10,
+									},
+									["lineHeight"] = 0,
+									["vertAlign"] = {
+										["offset"] = 0,
+									},
+								},
+							},
+							[2] = {
+								["bkg"] = {
+									["center_bottom"] = "0x232a31ff",
+									["center_center"] = "0x2d3e50ff",
+									["insets"] = {
+										["bottom"] = 1,
+									},
+								},
+								["text"] = {
+									["color"] = "0xbccecdff",
+									["fontSize"] = 16,
+									["horzAlign"] = {
+										["offset"] = 10,
+									},
+									["lineHeight"] = 0,
+									["vertAlign"] = {
+										["offset"] = 0,
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		["states"] = {
+			["released"] = {
+				[1] = {
+					["bkg"] = {
+						["center_center"] = "$nil$",
+						["insets"] = {
+							["bottom"] = "0",
+							["left"] = "0",
+							["right"] = "0",
+							["top"] = "0",
+						},
+					},
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+}

@@ -1,0 +1,210 @@
+dialog = {
+	["children"] = {
+		["editBoxName"] = {
+			["params"] = {
+				["acceptDecimalPoint"] = false,
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 264,
+					["x"] = 8,
+					["y"] = 28,
+				},
+				["enabled"] = true,
+				["multiline"] = false,
+				["numeric"] = false,
+				["password"] = false,
+				["readOnly"] = false,
+				["tabOrder"] = 0,
+				["text"] = "",
+				["textWrapping"] = true,
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 1,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "editBoxSkin",
+				},
+				["skins"] = {
+					["caret"] = {
+						["skinData"] = {
+							["states"] = {
+								["disabled"] = {
+									[1] = {
+										["text"] = {
+											["fontSize"] = 0,
+											["lineHeight"] = 0,
+										},
+									},
+								},
+								["released"] = {
+									[1] = {
+										["text"] = {
+											["fontSize"] = 0,
+											["lineHeight"] = 0,
+										},
+									},
+								},
+							},
+						},
+					},
+				},
+				["states"] = {
+					["disabled"] = {
+						[1] = {
+							["text"] = {
+								["fontSize"] = 14,
+							},
+						},
+					},
+					["released"] = {
+						[1] = {
+							["text"] = {
+								["fontSize"] = 14,
+							},
+						},
+						[2] = {
+							["text"] = {
+								["fontSize"] = 14,
+							},
+						},
+					},
+				},
+			},
+			["type"] = "EditBox",
+		},
+		["panelButtons"] = {
+			["children"] = {
+				["buttonCancel"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 100,
+							["x"] = 149,
+							["y"] = 9,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "$cancel",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "buttonSkin",
+						},
+					},
+					["type"] = "Button",
+				},
+				["buttonOK"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 100,
+							["x"] = 15,
+							["y"] = 9,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "$ok",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "buttonSkin",
+						},
+					},
+					["type"] = "Button",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 36,
+					["w"] = 264,
+					["x"] = 8,
+					["y"] = 60,
+				},
+				["enabled"] = true,
+				["layout"] = {
+					["data"] = {
+						["gap"] = 16,
+						["horzAlign"] = {
+							["offset"] = 0,
+							["type"] = "stretch",
+						},
+						["vertAlign"] = {
+							["offset"] = 0,
+							["type"] = "middle",
+						},
+					},
+					["type"] = "horz",
+				},
+				["text"] = "panel0",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 2,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+			},
+			["type"] = "Panel",
+		},
+		["staticEnter"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 264,
+					["x"] = 8,
+					["y"] = 8,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "$enterUniqueRouteName",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin",
+				},
+			},
+			["type"] = "Static",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 120,
+			["w"] = 280,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["clipResizeCursor"] = false,
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["layout"] = {
+		},
+		["lockFlow"] = false,
+		["modal"] = true,
+		["offscreen"] = false,
+		["resizable"] = false,
+		["text"] = "$newRoute",
+		["zOrder"] = 0,
+	},
+	["skin"] = {
+		["params"] = {
+			["name"] = "windowSkin",
+		},
+	},
+	["type"] = "Window",
+}

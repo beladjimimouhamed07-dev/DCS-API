@@ -1,0 +1,21 @@
+dialog = {
+	["params"] = {
+		["bounds"] = {
+			["h"] = 600,
+			["w"] = 600,
+			["x"] = 80,
+			["y"] = 120,
+		},
+		["enabled"] = true,
+		["text"] = "pieMenu",
+		["tooltip"] = "",
+		["visible"] = false,
+		["zindex"] = 0,
+	},
+	["skin"] = {
+		["params"] = {
+			["name"] = "pieMenuSkin",
+		},
+	},
+	["type"] = "PieMenu",
+}

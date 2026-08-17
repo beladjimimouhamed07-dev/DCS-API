@@ -1,0 +1,3166 @@
+dialog = {
+	["children"] = {
+		["button_close"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 20,
+					["x"] = 1260,
+					["y"] = 5,
+				},
+				["enabled"] = true,
+				["tabOrder"] = 0,
+				["text"] = "X",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "buttonSkin",
+				},
+			},
+			["type"] = "Button",
+		},
+		["menuBarTop"] = {
+			["children"] = {
+				["menuBarItemAirSquadrons"] = {
+					["children"] = {
+						["menu"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 0,
+									["w"] = 160,
+									["x"] = 30,
+									["y"] = 20,
+								},
+								["enabled"] = true,
+								["text"] = "menu",
+								["tooltip"] = "",
+								["visible"] = false,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "menuSkin",
+								},
+							},
+							["type"] = "Menu",
+						},
+					},
+					["params"] = {
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 120,
+							["x"] = 300,
+							["y"] = 5,
+						},
+						["enabled"] = true,
+						["menuName"] = "",
+						["text"] = "$air_squadrons",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 2,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "menuBarItemSkin",
+						},
+					},
+					["type"] = "MenuBarItem",
+				},
+				["menuBarItemPilots"] = {
+					["children"] = {
+						["menu"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 0,
+									["w"] = 160,
+									["x"] = 30,
+									["y"] = 20,
+								},
+								["enabled"] = true,
+								["text"] = "menu",
+								["tooltip"] = "",
+								["visible"] = false,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "menuSkin",
+								},
+							},
+							["type"] = "Menu",
+						},
+					},
+					["params"] = {
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 120,
+							["x"] = 440,
+							["y"] = 5,
+						},
+						["enabled"] = true,
+						["menuName"] = "",
+						["text"] = "$pilots",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 3,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "menuBarItemSkin",
+						},
+					},
+					["type"] = "MenuBarItem",
+				},
+				["menuBarItemRoomViews"] = {
+					["children"] = {
+						["menu"] = {
+							["children"] = {
+								["menuItemCommanderPC"] = {
+									["params"] = {
+										["bounds"] = {
+											["h"] = 20,
+											["w"] = 100,
+											["x"] = 5,
+											["y"] = 152,
+										},
+										["enabled"] = true,
+										["shortcut"] = "",
+										["text"] = "$commander_PC",
+										["tooltip"] = "",
+										["visible"] = true,
+										["zindex"] = 6,
+									},
+									["skin"] = {
+										["params"] = {
+											["clipInsets"] = {
+												["bottom"] = 0,
+												["left"] = 0,
+												["right"] = 0,
+												["top"] = 0,
+											},
+											["focusRectInsets"] = {
+												["bottom"] = 2,
+												["left"] = 2,
+												["right"] = 2,
+												["top"] = 2,
+											},
+											["insets"] = {
+												["bottom"] = 0,
+												["top"] = 0,
+											},
+											["maxSize"] = {
+												["horz"] = 0,
+												["vert"] = 0,
+											},
+											["minSize"] = {
+												["horz"] = 0,
+											},
+											["name"] = "menuItemSkin",
+											["textLineHeight"] = 0,
+											["textWrapping"] = false,
+											["useEllipsis"] = false,
+										},
+										["states"] = {
+											["disabled"] = {
+												[1] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["picture"] = {
+														["file"] = "",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "min",
+														},
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["resizeToFill"] = false,
+														["size"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["tileHorizontally"] = false,
+														["tileVertically"] = false,
+														["userTexSampler"] = 0,
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+													["text"] = {
+														["lineHeight"] = 0,
+														["lineThroughOffset"] = 1,
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+												},
+											},
+											["hover"] = {
+												[1] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["picture"] = {
+														["file"] = "",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "min",
+														},
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["resizeToFill"] = false,
+														["size"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["tileHorizontally"] = false,
+														["tileVertically"] = false,
+														["userTexSampler"] = 0,
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+													["text"] = {
+														["lineThroughOffset"] = 1,
+													},
+												},
+											},
+											["pressed"] = {
+												[1] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["picture"] = {
+														["file"] = "",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "min",
+														},
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["resizeToFill"] = false,
+														["size"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["tileHorizontally"] = false,
+														["tileVertically"] = false,
+														["userTexSampler"] = 0,
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+													["text"] = {
+														["lineThroughOffset"] = 1,
+													},
+												},
+											},
+											["released"] = {
+												[1] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["picture"] = {
+														["file"] = "",
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["resizeToFill"] = false,
+														["tileHorizontally"] = false,
+														["tileVertically"] = false,
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+													["text"] = {
+														["lineHeight"] = 0,
+														["lineThroughOffset"] = 1,
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+												},
+												[2] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["text"] = {
+														["lineHeight"] = 0,
+														["lineThroughOffset"] = 1,
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+												},
+											},
+										},
+									},
+									["type"] = "MenuItem",
+								},
+								["menuItemFromRoom"] = {
+									["params"] = {
+										["bounds"] = {
+											["h"] = 20,
+											["w"] = 100,
+											["x"] = 9,
+											["y"] = 5,
+										},
+										["enabled"] = true,
+										["shortcut"] = "",
+										["text"] = "$from_room",
+										["tooltip"] = "",
+										["visible"] = true,
+										["zindex"] = 0,
+									},
+									["skin"] = {
+										["params"] = {
+											["clipInsets"] = {
+												["bottom"] = 0,
+												["left"] = 0,
+												["right"] = 0,
+												["top"] = 0,
+											},
+											["focusRectInsets"] = {
+												["bottom"] = 2,
+												["left"] = 2,
+												["right"] = 2,
+												["top"] = 2,
+											},
+											["insets"] = {
+												["bottom"] = 0,
+												["top"] = 0,
+											},
+											["maxSize"] = {
+												["horz"] = 0,
+												["vert"] = 0,
+											},
+											["minSize"] = {
+												["horz"] = 0,
+											},
+											["name"] = "menuItemSkin",
+											["textLineHeight"] = 0,
+											["textWrapping"] = false,
+											["useEllipsis"] = false,
+										},
+										["states"] = {
+											["disabled"] = {
+												[1] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["picture"] = {
+														["file"] = "",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "min",
+														},
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["resizeToFill"] = false,
+														["size"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["tileHorizontally"] = false,
+														["tileVertically"] = false,
+														["userTexSampler"] = 0,
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+													["text"] = {
+														["lineHeight"] = 0,
+														["lineThroughOffset"] = 1,
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+												},
+											},
+											["hover"] = {
+												[1] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["picture"] = {
+														["file"] = "",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "min",
+														},
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["resizeToFill"] = false,
+														["size"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["tileHorizontally"] = false,
+														["tileVertically"] = false,
+														["userTexSampler"] = 0,
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+													["text"] = {
+														["lineThroughOffset"] = 1,
+													},
+												},
+											},
+											["pressed"] = {
+												[1] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["picture"] = {
+														["file"] = "",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "min",
+														},
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["resizeToFill"] = false,
+														["size"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["tileHorizontally"] = false,
+														["tileVertically"] = false,
+														["userTexSampler"] = 0,
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+													["text"] = {
+														["lineThroughOffset"] = 1,
+													},
+												},
+											},
+											["released"] = {
+												[1] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["picture"] = {
+														["file"] = "",
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["resizeToFill"] = false,
+														["tileHorizontally"] = false,
+														["tileVertically"] = false,
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+													["text"] = {
+														["lineHeight"] = 0,
+														["lineThroughOffset"] = 1,
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+												},
+												[2] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["text"] = {
+														["lineHeight"] = 0,
+														["lineThroughOffset"] = 1,
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+												},
+											},
+										},
+									},
+									["type"] = "MenuItem",
+								},
+								["menuItemGreenieBoard"] = {
+									["params"] = {
+										["bounds"] = {
+											["h"] = 20,
+											["w"] = 100,
+											["x"] = 7,
+											["y"] = 101,
+										},
+										["enabled"] = true,
+										["shortcut"] = "",
+										["text"] = "$greenie_board",
+										["tooltip"] = "",
+										["visible"] = true,
+										["zindex"] = 4,
+									},
+									["skin"] = {
+										["params"] = {
+											["clipInsets"] = {
+												["bottom"] = 0,
+												["left"] = 0,
+												["right"] = 0,
+												["top"] = 0,
+											},
+											["focusRectInsets"] = {
+												["bottom"] = 2,
+												["left"] = 2,
+												["right"] = 2,
+												["top"] = 2,
+											},
+											["insets"] = {
+												["bottom"] = 0,
+												["top"] = 0,
+											},
+											["maxSize"] = {
+												["horz"] = 0,
+												["vert"] = 0,
+											},
+											["minSize"] = {
+												["horz"] = 0,
+											},
+											["name"] = "menuItemSkin",
+											["textLineHeight"] = 0,
+											["textWrapping"] = false,
+											["useEllipsis"] = false,
+										},
+										["states"] = {
+											["disabled"] = {
+												[1] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["picture"] = {
+														["file"] = "",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "min",
+														},
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["resizeToFill"] = false,
+														["size"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["tileHorizontally"] = false,
+														["tileVertically"] = false,
+														["userTexSampler"] = 0,
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+													["text"] = {
+														["lineHeight"] = 0,
+														["lineThroughOffset"] = 1,
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+												},
+											},
+											["hover"] = {
+												[1] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["picture"] = {
+														["file"] = "",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "min",
+														},
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["resizeToFill"] = false,
+														["size"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["tileHorizontally"] = false,
+														["tileVertically"] = false,
+														["userTexSampler"] = 0,
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+													["text"] = {
+														["lineThroughOffset"] = 1,
+													},
+												},
+											},
+											["pressed"] = {
+												[1] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["picture"] = {
+														["file"] = "",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "min",
+														},
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["resizeToFill"] = false,
+														["size"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["tileHorizontally"] = false,
+														["tileVertically"] = false,
+														["userTexSampler"] = 0,
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+													["text"] = {
+														["lineThroughOffset"] = 1,
+													},
+												},
+											},
+											["released"] = {
+												[1] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["picture"] = {
+														["file"] = "",
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["resizeToFill"] = false,
+														["tileHorizontally"] = false,
+														["tileVertically"] = false,
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+													["text"] = {
+														["lineHeight"] = 0,
+														["lineThroughOffset"] = 1,
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+												},
+												[2] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["text"] = {
+														["lineHeight"] = 0,
+														["lineThroughOffset"] = 1,
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+												},
+											},
+										},
+									},
+									["type"] = "MenuItem",
+								},
+								["menuItemKillBoard"] = {
+									["params"] = {
+										["bounds"] = {
+											["h"] = 20,
+											["w"] = 100,
+											["x"] = 5,
+											["y"] = 127,
+										},
+										["enabled"] = true,
+										["shortcut"] = "",
+										["text"] = "$kill_board",
+										["tooltip"] = "",
+										["visible"] = true,
+										["zindex"] = 5,
+									},
+									["skin"] = {
+										["params"] = {
+											["clipInsets"] = {
+												["bottom"] = 0,
+												["left"] = 0,
+												["right"] = 0,
+												["top"] = 0,
+											},
+											["focusRectInsets"] = {
+												["bottom"] = 2,
+												["left"] = 2,
+												["right"] = 2,
+												["top"] = 2,
+											},
+											["insets"] = {
+												["bottom"] = 0,
+												["top"] = 0,
+											},
+											["maxSize"] = {
+												["horz"] = 0,
+												["vert"] = 0,
+											},
+											["minSize"] = {
+												["horz"] = 0,
+											},
+											["name"] = "menuItemSkin",
+											["textLineHeight"] = 0,
+											["textWrapping"] = false,
+											["useEllipsis"] = false,
+										},
+										["states"] = {
+											["disabled"] = {
+												[1] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["picture"] = {
+														["file"] = "",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "min",
+														},
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["resizeToFill"] = false,
+														["size"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["tileHorizontally"] = false,
+														["tileVertically"] = false,
+														["userTexSampler"] = 0,
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+													["text"] = {
+														["lineHeight"] = 0,
+														["lineThroughOffset"] = 1,
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+												},
+											},
+											["hover"] = {
+												[1] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["picture"] = {
+														["file"] = "",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "min",
+														},
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["resizeToFill"] = false,
+														["size"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["tileHorizontally"] = false,
+														["tileVertically"] = false,
+														["userTexSampler"] = 0,
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+													["text"] = {
+														["lineThroughOffset"] = 1,
+													},
+												},
+											},
+											["pressed"] = {
+												[1] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["picture"] = {
+														["file"] = "",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "min",
+														},
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["resizeToFill"] = false,
+														["size"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["tileHorizontally"] = false,
+														["tileVertically"] = false,
+														["userTexSampler"] = 0,
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+													["text"] = {
+														["lineThroughOffset"] = 1,
+													},
+												},
+											},
+											["released"] = {
+												[1] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["picture"] = {
+														["file"] = "",
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["resizeToFill"] = false,
+														["tileHorizontally"] = false,
+														["tileVertically"] = false,
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+													["text"] = {
+														["lineHeight"] = 0,
+														["lineThroughOffset"] = 1,
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+												},
+												[2] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["text"] = {
+														["lineHeight"] = 0,
+														["lineThroughOffset"] = 1,
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+												},
+											},
+										},
+									},
+									["type"] = "MenuItem",
+								},
+								["menuItemPilotPC"] = {
+									["params"] = {
+										["bounds"] = {
+											["h"] = 20,
+											["w"] = 100,
+											["x"] = 4,
+											["y"] = 177,
+										},
+										["enabled"] = true,
+										["shortcut"] = "",
+										["text"] = "$pilot_PC",
+										["tooltip"] = "",
+										["visible"] = true,
+										["zindex"] = 7,
+									},
+									["skin"] = {
+										["params"] = {
+											["clipInsets"] = {
+												["bottom"] = 0,
+												["left"] = 0,
+												["right"] = 0,
+												["top"] = 0,
+											},
+											["focusRectInsets"] = {
+												["bottom"] = 2,
+												["left"] = 2,
+												["right"] = 2,
+												["top"] = 2,
+											},
+											["insets"] = {
+												["bottom"] = 0,
+												["top"] = 0,
+											},
+											["maxSize"] = {
+												["horz"] = 0,
+												["vert"] = 0,
+											},
+											["minSize"] = {
+												["horz"] = 0,
+											},
+											["name"] = "menuItemSkin",
+											["textLineHeight"] = 0,
+											["textWrapping"] = false,
+											["useEllipsis"] = false,
+										},
+										["states"] = {
+											["disabled"] = {
+												[1] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["picture"] = {
+														["file"] = "",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "min",
+														},
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["resizeToFill"] = false,
+														["size"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["tileHorizontally"] = false,
+														["tileVertically"] = false,
+														["userTexSampler"] = 0,
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+													["text"] = {
+														["lineHeight"] = 0,
+														["lineThroughOffset"] = 1,
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+												},
+											},
+											["hover"] = {
+												[1] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["picture"] = {
+														["file"] = "",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "min",
+														},
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["resizeToFill"] = false,
+														["size"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["tileHorizontally"] = false,
+														["tileVertically"] = false,
+														["userTexSampler"] = 0,
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+													["text"] = {
+														["lineThroughOffset"] = 1,
+													},
+												},
+											},
+											["pressed"] = {
+												[1] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["picture"] = {
+														["file"] = "",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "min",
+														},
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["resizeToFill"] = false,
+														["size"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["tileHorizontally"] = false,
+														["tileVertically"] = false,
+														["userTexSampler"] = 0,
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+													["text"] = {
+														["lineThroughOffset"] = 1,
+													},
+												},
+											},
+											["released"] = {
+												[1] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["picture"] = {
+														["file"] = "",
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["resizeToFill"] = false,
+														["tileHorizontally"] = false,
+														["tileVertically"] = false,
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+													["text"] = {
+														["lineHeight"] = 0,
+														["lineThroughOffset"] = 1,
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+												},
+												[2] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["text"] = {
+														["lineHeight"] = 0,
+														["lineThroughOffset"] = 1,
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+												},
+											},
+										},
+									},
+									["type"] = "MenuItem",
+								},
+								["menuItemProjector"] = {
+									["params"] = {
+										["bounds"] = {
+											["h"] = 20,
+											["w"] = 100,
+											["x"] = 9,
+											["y"] = 77,
+										},
+										["enabled"] = true,
+										["shortcut"] = "",
+										["text"] = "$projector",
+										["tooltip"] = "",
+										["visible"] = true,
+										["zindex"] = 3,
+									},
+									["skin"] = {
+										["params"] = {
+											["clipInsets"] = {
+												["bottom"] = 0,
+												["left"] = 0,
+												["right"] = 0,
+												["top"] = 0,
+											},
+											["focusRectInsets"] = {
+												["bottom"] = 2,
+												["left"] = 2,
+												["right"] = 2,
+												["top"] = 2,
+											},
+											["insets"] = {
+												["bottom"] = 0,
+												["top"] = 0,
+											},
+											["maxSize"] = {
+												["horz"] = 0,
+												["vert"] = 0,
+											},
+											["minSize"] = {
+												["horz"] = 0,
+											},
+											["name"] = "menuItemSkin",
+											["textLineHeight"] = 0,
+											["textWrapping"] = false,
+											["useEllipsis"] = false,
+										},
+										["states"] = {
+											["disabled"] = {
+												[1] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["picture"] = {
+														["file"] = "",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "min",
+														},
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["resizeToFill"] = false,
+														["size"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["tileHorizontally"] = false,
+														["tileVertically"] = false,
+														["userTexSampler"] = 0,
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+													["text"] = {
+														["lineHeight"] = 0,
+														["lineThroughOffset"] = 1,
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+												},
+											},
+											["hover"] = {
+												[1] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["picture"] = {
+														["file"] = "",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "min",
+														},
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["resizeToFill"] = false,
+														["size"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["tileHorizontally"] = false,
+														["tileVertically"] = false,
+														["userTexSampler"] = 0,
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+													["text"] = {
+														["lineThroughOffset"] = 1,
+													},
+												},
+											},
+											["pressed"] = {
+												[1] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["picture"] = {
+														["file"] = "",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "min",
+														},
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["resizeToFill"] = false,
+														["size"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["tileHorizontally"] = false,
+														["tileVertically"] = false,
+														["userTexSampler"] = 0,
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+													["text"] = {
+														["lineThroughOffset"] = 1,
+													},
+												},
+											},
+											["released"] = {
+												[1] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["picture"] = {
+														["file"] = "",
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["resizeToFill"] = false,
+														["tileHorizontally"] = false,
+														["tileVertically"] = false,
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+													["text"] = {
+														["lineHeight"] = 0,
+														["lineThroughOffset"] = 1,
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+												},
+												[2] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["text"] = {
+														["lineHeight"] = 0,
+														["lineThroughOffset"] = 1,
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+												},
+											},
+										},
+									},
+									["type"] = "MenuItem",
+								},
+								["menuItemTV"] = {
+									["params"] = {
+										["bounds"] = {
+											["h"] = 20,
+											["w"] = 100,
+											["x"] = 9,
+											["y"] = 53,
+										},
+										["enabled"] = true,
+										["shortcut"] = "",
+										["text"] = "$TV",
+										["tooltip"] = "",
+										["visible"] = true,
+										["zindex"] = 2,
+									},
+									["skin"] = {
+										["params"] = {
+											["clipInsets"] = {
+												["bottom"] = 0,
+												["left"] = 0,
+												["right"] = 0,
+												["top"] = 0,
+											},
+											["focusRectInsets"] = {
+												["bottom"] = 2,
+												["left"] = 2,
+												["right"] = 2,
+												["top"] = 2,
+											},
+											["insets"] = {
+												["bottom"] = 0,
+												["top"] = 0,
+											},
+											["maxSize"] = {
+												["horz"] = 0,
+												["vert"] = 0,
+											},
+											["minSize"] = {
+												["horz"] = 0,
+											},
+											["name"] = "menuItemSkin",
+											["textLineHeight"] = 0,
+											["textWrapping"] = false,
+											["useEllipsis"] = false,
+										},
+										["states"] = {
+											["disabled"] = {
+												[1] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["picture"] = {
+														["file"] = "",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "min",
+														},
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["resizeToFill"] = false,
+														["size"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["tileHorizontally"] = false,
+														["tileVertically"] = false,
+														["userTexSampler"] = 0,
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+													["text"] = {
+														["lineHeight"] = 0,
+														["lineThroughOffset"] = 1,
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+												},
+											},
+											["hover"] = {
+												[1] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["picture"] = {
+														["file"] = "",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "min",
+														},
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["resizeToFill"] = false,
+														["size"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["tileHorizontally"] = false,
+														["tileVertically"] = false,
+														["userTexSampler"] = 0,
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+													["text"] = {
+														["lineThroughOffset"] = 1,
+													},
+												},
+											},
+											["pressed"] = {
+												[1] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["picture"] = {
+														["file"] = "",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "min",
+														},
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["resizeToFill"] = false,
+														["size"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["tileHorizontally"] = false,
+														["tileVertically"] = false,
+														["userTexSampler"] = 0,
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+													["text"] = {
+														["lineThroughOffset"] = 1,
+													},
+												},
+											},
+											["released"] = {
+												[1] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["picture"] = {
+														["file"] = "",
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["resizeToFill"] = false,
+														["tileHorizontally"] = false,
+														["tileVertically"] = false,
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+													["text"] = {
+														["lineHeight"] = 0,
+														["lineThroughOffset"] = 1,
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+												},
+												[2] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["text"] = {
+														["lineHeight"] = 0,
+														["lineThroughOffset"] = 1,
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+												},
+											},
+										},
+									},
+									["type"] = "MenuItem",
+								},
+								["menuItemToRoom"] = {
+									["params"] = {
+										["bounds"] = {
+											["h"] = 20,
+											["w"] = 100,
+											["x"] = 9,
+											["y"] = 29,
+										},
+										["enabled"] = true,
+										["shortcut"] = "",
+										["text"] = "$to_room",
+										["tooltip"] = "",
+										["visible"] = true,
+										["zindex"] = 1,
+									},
+									["skin"] = {
+										["params"] = {
+											["clipInsets"] = {
+												["bottom"] = 0,
+												["left"] = 0,
+												["right"] = 0,
+												["top"] = 0,
+											},
+											["focusRectInsets"] = {
+												["bottom"] = 2,
+												["left"] = 2,
+												["right"] = 2,
+												["top"] = 2,
+											},
+											["insets"] = {
+												["bottom"] = 0,
+												["top"] = 0,
+											},
+											["maxSize"] = {
+												["horz"] = 0,
+												["vert"] = 0,
+											},
+											["minSize"] = {
+												["horz"] = 0,
+											},
+											["name"] = "menuItemSkin",
+											["textLineHeight"] = 0,
+											["textWrapping"] = false,
+											["useEllipsis"] = false,
+										},
+										["states"] = {
+											["disabled"] = {
+												[1] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["picture"] = {
+														["file"] = "",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "min",
+														},
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["resizeToFill"] = false,
+														["size"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["tileHorizontally"] = false,
+														["tileVertically"] = false,
+														["userTexSampler"] = 0,
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+													["text"] = {
+														["lineHeight"] = 0,
+														["lineThroughOffset"] = 1,
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+												},
+											},
+											["hover"] = {
+												[1] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["picture"] = {
+														["file"] = "",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "min",
+														},
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["resizeToFill"] = false,
+														["size"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["tileHorizontally"] = false,
+														["tileVertically"] = false,
+														["userTexSampler"] = 0,
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+													["text"] = {
+														["lineThroughOffset"] = 1,
+													},
+												},
+											},
+											["pressed"] = {
+												[1] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["picture"] = {
+														["file"] = "",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "min",
+														},
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["resizeToFill"] = false,
+														["size"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["tileHorizontally"] = false,
+														["tileVertically"] = false,
+														["userTexSampler"] = 0,
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+													["text"] = {
+														["lineThroughOffset"] = 1,
+													},
+												},
+											},
+											["released"] = {
+												[1] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["picture"] = {
+														["file"] = "",
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["resizeToFill"] = false,
+														["tileHorizontally"] = false,
+														["tileVertically"] = false,
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+													["text"] = {
+														["lineHeight"] = 0,
+														["lineThroughOffset"] = 1,
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+												},
+												[2] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["text"] = {
+														["lineHeight"] = 0,
+														["lineThroughOffset"] = 1,
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+												},
+											},
+										},
+									},
+									["type"] = "MenuItem",
+								},
+							},
+							["params"] = {
+								["bounds"] = {
+									["h"] = 217,
+									["w"] = 160,
+									["x"] = 30,
+									["y"] = 20,
+								},
+								["enabled"] = true,
+								["text"] = "menu",
+								["tooltip"] = "",
+								["visible"] = false,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "menuSkin",
+								},
+							},
+							["type"] = "Menu",
+						},
+					},
+					["params"] = {
+						["bounds"] = {
+							["h"] = 252,
+							["w"] = 120,
+							["x"] = 161,
+							["y"] = 4,
+						},
+						["enabled"] = true,
+						["menuName"] = "",
+						["text"] = "$room_views",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "menuBarItemSkin",
+						},
+					},
+					["type"] = "MenuBarItem",
+				},
+				["menuBarItemViews"] = {
+					["children"] = {
+						["menu"] = {
+							["children"] = {
+								["menuItemAirBoss"] = {
+									["params"] = {
+										["bounds"] = {
+											["h"] = 20,
+											["w"] = 100,
+											["x"] = 9,
+											["y"] = 29,
+										},
+										["enabled"] = true,
+										["shortcut"] = "",
+										["text"] = "$air_boss",
+										["tooltip"] = "",
+										["visible"] = true,
+										["zindex"] = 1,
+									},
+									["skin"] = {
+										["params"] = {
+											["clipInsets"] = {
+												["bottom"] = 0,
+												["left"] = 0,
+												["right"] = 0,
+												["top"] = 0,
+											},
+											["focusRectInsets"] = {
+												["bottom"] = 2,
+												["left"] = 2,
+												["right"] = 2,
+												["top"] = 2,
+											},
+											["insets"] = {
+												["bottom"] = 0,
+												["top"] = 0,
+											},
+											["maxSize"] = {
+												["horz"] = 0,
+												["vert"] = 0,
+											},
+											["minSize"] = {
+												["horz"] = 0,
+											},
+											["name"] = "menuItemSkin",
+											["textLineHeight"] = 0,
+											["textWrapping"] = false,
+											["useEllipsis"] = false,
+										},
+										["states"] = {
+											["disabled"] = {
+												[1] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["picture"] = {
+														["file"] = "",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "min",
+														},
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["resizeToFill"] = false,
+														["size"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["tileHorizontally"] = false,
+														["tileVertically"] = false,
+														["userTexSampler"] = 0,
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+													["text"] = {
+														["lineHeight"] = 0,
+														["lineThroughOffset"] = 1,
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+												},
+											},
+											["hover"] = {
+												[1] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["picture"] = {
+														["file"] = "",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "min",
+														},
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["resizeToFill"] = false,
+														["size"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["tileHorizontally"] = false,
+														["tileVertically"] = false,
+														["userTexSampler"] = 0,
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+													["text"] = {
+														["lineThroughOffset"] = 1,
+													},
+												},
+											},
+											["pressed"] = {
+												[1] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["picture"] = {
+														["file"] = "",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "min",
+														},
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["resizeToFill"] = false,
+														["size"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["tileHorizontally"] = false,
+														["tileVertically"] = false,
+														["userTexSampler"] = 0,
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+													["text"] = {
+														["lineThroughOffset"] = 1,
+													},
+												},
+											},
+											["released"] = {
+												[1] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["picture"] = {
+														["file"] = "",
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["resizeToFill"] = false,
+														["tileHorizontally"] = false,
+														["tileVertically"] = false,
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+													["text"] = {
+														["lineHeight"] = 0,
+														["lineThroughOffset"] = 1,
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+												},
+												[2] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["text"] = {
+														["lineHeight"] = 0,
+														["lineThroughOffset"] = 1,
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+												},
+											},
+										},
+									},
+									["type"] = "MenuItem",
+								},
+								["menuItemBriefingRoom"] = {
+									["params"] = {
+										["bounds"] = {
+											["h"] = 20,
+											["w"] = 100,
+											["x"] = 10,
+											["y"] = 142,
+										},
+										["enabled"] = true,
+										["shortcut"] = "",
+										["text"] = "$briefing_room",
+										["tooltip"] = "",
+										["visible"] = true,
+										["zindex"] = 5,
+									},
+									["skin"] = {
+										["params"] = {
+											["clipInsets"] = {
+												["bottom"] = 0,
+												["left"] = 0,
+												["right"] = 0,
+												["top"] = 0,
+											},
+											["focusRectInsets"] = {
+												["bottom"] = 2,
+												["left"] = 2,
+												["right"] = 2,
+												["top"] = 2,
+											},
+											["insets"] = {
+												["bottom"] = 0,
+												["top"] = 0,
+											},
+											["maxSize"] = {
+												["horz"] = 0,
+												["vert"] = 0,
+											},
+											["minSize"] = {
+												["horz"] = 0,
+											},
+											["name"] = "menuItemSkin",
+											["textLineHeight"] = 0,
+											["textWrapping"] = false,
+											["useEllipsis"] = false,
+										},
+										["states"] = {
+											["disabled"] = {
+												[1] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["picture"] = {
+														["file"] = "",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "min",
+														},
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["resizeToFill"] = false,
+														["size"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["tileHorizontally"] = false,
+														["tileVertically"] = false,
+														["userTexSampler"] = 0,
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+													["text"] = {
+														["lineHeight"] = 0,
+														["lineThroughOffset"] = 1,
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+												},
+											},
+											["hover"] = {
+												[1] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["picture"] = {
+														["file"] = "",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "min",
+														},
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["resizeToFill"] = false,
+														["size"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["tileHorizontally"] = false,
+														["tileVertically"] = false,
+														["userTexSampler"] = 0,
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+													["text"] = {
+														["lineThroughOffset"] = 1,
+													},
+												},
+											},
+											["pressed"] = {
+												[1] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["picture"] = {
+														["file"] = "",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "min",
+														},
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["resizeToFill"] = false,
+														["size"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["tileHorizontally"] = false,
+														["tileVertically"] = false,
+														["userTexSampler"] = 0,
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+													["text"] = {
+														["lineThroughOffset"] = 1,
+													},
+												},
+											},
+											["released"] = {
+												[1] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["picture"] = {
+														["file"] = "",
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["resizeToFill"] = false,
+														["tileHorizontally"] = false,
+														["tileVertically"] = false,
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+													["text"] = {
+														["lineHeight"] = 0,
+														["lineThroughOffset"] = 1,
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+												},
+												[2] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["text"] = {
+														["lineHeight"] = 0,
+														["lineThroughOffset"] = 1,
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+												},
+											},
+										},
+									},
+									["type"] = "MenuItem",
+								},
+								["menuItemCatapults"] = {
+									["params"] = {
+										["bounds"] = {
+											["h"] = 20,
+											["w"] = 100,
+											["x"] = 11,
+											["y"] = 84,
+										},
+										["enabled"] = true,
+										["shortcut"] = "",
+										["text"] = "$catapults",
+										["tooltip"] = "",
+										["visible"] = true,
+										["zindex"] = 3,
+									},
+									["skin"] = {
+										["params"] = {
+											["clipInsets"] = {
+												["bottom"] = 0,
+												["left"] = 0,
+												["right"] = 0,
+												["top"] = 0,
+											},
+											["focusRectInsets"] = {
+												["bottom"] = 2,
+												["left"] = 2,
+												["right"] = 2,
+												["top"] = 2,
+											},
+											["insets"] = {
+												["bottom"] = 0,
+												["top"] = 0,
+											},
+											["maxSize"] = {
+												["horz"] = 0,
+												["vert"] = 0,
+											},
+											["minSize"] = {
+												["horz"] = 0,
+											},
+											["name"] = "menuItemSkin",
+											["textLineHeight"] = 0,
+											["textWrapping"] = false,
+											["useEllipsis"] = false,
+										},
+										["states"] = {
+											["disabled"] = {
+												[1] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["picture"] = {
+														["file"] = "",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "min",
+														},
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["resizeToFill"] = false,
+														["size"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["tileHorizontally"] = false,
+														["tileVertically"] = false,
+														["userTexSampler"] = 0,
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+													["text"] = {
+														["lineHeight"] = 0,
+														["lineThroughOffset"] = 1,
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+												},
+											},
+											["hover"] = {
+												[1] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["picture"] = {
+														["file"] = "",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "min",
+														},
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["resizeToFill"] = false,
+														["size"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["tileHorizontally"] = false,
+														["tileVertically"] = false,
+														["userTexSampler"] = 0,
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+													["text"] = {
+														["lineThroughOffset"] = 1,
+													},
+												},
+											},
+											["pressed"] = {
+												[1] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["picture"] = {
+														["file"] = "",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "min",
+														},
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["resizeToFill"] = false,
+														["size"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["tileHorizontally"] = false,
+														["tileVertically"] = false,
+														["userTexSampler"] = 0,
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+													["text"] = {
+														["lineThroughOffset"] = 1,
+													},
+												},
+											},
+											["released"] = {
+												[1] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["picture"] = {
+														["file"] = "",
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["resizeToFill"] = false,
+														["tileHorizontally"] = false,
+														["tileVertically"] = false,
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+													["text"] = {
+														["lineHeight"] = 0,
+														["lineThroughOffset"] = 1,
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+												},
+												[2] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["text"] = {
+														["lineHeight"] = 0,
+														["lineThroughOffset"] = 1,
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+												},
+											},
+										},
+									},
+									["type"] = "MenuItem",
+								},
+								["menuItemHangar"] = {
+									["params"] = {
+										["bounds"] = {
+											["h"] = 20,
+											["w"] = 100,
+											["x"] = 10,
+											["y"] = 113,
+										},
+										["enabled"] = true,
+										["shortcut"] = "",
+										["text"] = "$hangar",
+										["tooltip"] = "",
+										["visible"] = true,
+										["zindex"] = 4,
+									},
+									["skin"] = {
+										["params"] = {
+											["clipInsets"] = {
+												["bottom"] = 0,
+												["left"] = 0,
+												["right"] = 0,
+												["top"] = 0,
+											},
+											["focusRectInsets"] = {
+												["bottom"] = 2,
+												["left"] = 2,
+												["right"] = 2,
+												["top"] = 2,
+											},
+											["insets"] = {
+												["bottom"] = 0,
+												["top"] = 0,
+											},
+											["maxSize"] = {
+												["horz"] = 0,
+												["vert"] = 0,
+											},
+											["minSize"] = {
+												["horz"] = 0,
+											},
+											["name"] = "menuItemSkin",
+											["textLineHeight"] = 0,
+											["textWrapping"] = false,
+											["useEllipsis"] = false,
+										},
+										["states"] = {
+											["disabled"] = {
+												[1] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["picture"] = {
+														["file"] = "",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "min",
+														},
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["resizeToFill"] = false,
+														["size"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["tileHorizontally"] = false,
+														["tileVertically"] = false,
+														["userTexSampler"] = 0,
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+													["text"] = {
+														["lineHeight"] = 0,
+														["lineThroughOffset"] = 1,
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+												},
+											},
+											["hover"] = {
+												[1] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["picture"] = {
+														["file"] = "",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "min",
+														},
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["resizeToFill"] = false,
+														["size"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["tileHorizontally"] = false,
+														["tileVertically"] = false,
+														["userTexSampler"] = 0,
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+													["text"] = {
+														["lineThroughOffset"] = 1,
+													},
+												},
+											},
+											["pressed"] = {
+												[1] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["picture"] = {
+														["file"] = "",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "min",
+														},
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["resizeToFill"] = false,
+														["size"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["tileHorizontally"] = false,
+														["tileVertically"] = false,
+														["userTexSampler"] = 0,
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+													["text"] = {
+														["lineThroughOffset"] = 1,
+													},
+												},
+											},
+											["released"] = {
+												[1] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["picture"] = {
+														["file"] = "",
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["resizeToFill"] = false,
+														["tileHorizontally"] = false,
+														["tileVertically"] = false,
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+													["text"] = {
+														["lineHeight"] = 0,
+														["lineThroughOffset"] = 1,
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+												},
+												[2] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["text"] = {
+														["lineHeight"] = 0,
+														["lineThroughOffset"] = 1,
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+												},
+											},
+										},
+									},
+									["type"] = "MenuItem",
+								},
+								["menuItemLSO"] = {
+									["params"] = {
+										["bounds"] = {
+											["h"] = 20,
+											["w"] = 100,
+											["x"] = 12,
+											["y"] = 57,
+										},
+										["enabled"] = true,
+										["shortcut"] = "",
+										["text"] = "$lso",
+										["tooltip"] = "",
+										["visible"] = true,
+										["zindex"] = 2,
+									},
+									["skin"] = {
+										["params"] = {
+											["clipInsets"] = {
+												["bottom"] = 0,
+												["left"] = 0,
+												["right"] = 0,
+												["top"] = 0,
+											},
+											["focusRectInsets"] = {
+												["bottom"] = 2,
+												["left"] = 2,
+												["right"] = 2,
+												["top"] = 2,
+											},
+											["insets"] = {
+												["bottom"] = 0,
+												["top"] = 0,
+											},
+											["maxSize"] = {
+												["horz"] = 0,
+												["vert"] = 0,
+											},
+											["minSize"] = {
+												["horz"] = 0,
+											},
+											["name"] = "menuItemSkin",
+											["textLineHeight"] = 0,
+											["textWrapping"] = false,
+											["useEllipsis"] = false,
+										},
+										["states"] = {
+											["disabled"] = {
+												[1] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["picture"] = {
+														["file"] = "",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "min",
+														},
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["resizeToFill"] = false,
+														["size"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["tileHorizontally"] = false,
+														["tileVertically"] = false,
+														["userTexSampler"] = 0,
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+													["text"] = {
+														["lineHeight"] = 0,
+														["lineThroughOffset"] = 1,
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+												},
+											},
+											["hover"] = {
+												[1] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["picture"] = {
+														["file"] = "",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "min",
+														},
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["resizeToFill"] = false,
+														["size"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["tileHorizontally"] = false,
+														["tileVertically"] = false,
+														["userTexSampler"] = 0,
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+													["text"] = {
+														["lineThroughOffset"] = 1,
+													},
+												},
+											},
+											["pressed"] = {
+												[1] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["picture"] = {
+														["file"] = "",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "min",
+														},
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["resizeToFill"] = false,
+														["size"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["tileHorizontally"] = false,
+														["tileVertically"] = false,
+														["userTexSampler"] = 0,
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+													["text"] = {
+														["lineThroughOffset"] = 1,
+													},
+												},
+											},
+											["released"] = {
+												[1] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["picture"] = {
+														["file"] = "",
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["resizeToFill"] = false,
+														["tileHorizontally"] = false,
+														["tileVertically"] = false,
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+													["text"] = {
+														["lineHeight"] = 0,
+														["lineThroughOffset"] = 1,
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+												},
+												[2] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["text"] = {
+														["lineHeight"] = 0,
+														["lineThroughOffset"] = 1,
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+												},
+											},
+										},
+									},
+									["type"] = "MenuItem",
+								},
+								["menuItemSupercarrier"] = {
+									["params"] = {
+										["bounds"] = {
+											["h"] = 20,
+											["w"] = 100,
+											["x"] = 20,
+											["y"] = 3,
+										},
+										["enabled"] = true,
+										["shortcut"] = "",
+										["text"] = "$supercarrier",
+										["tooltip"] = "",
+										["visible"] = true,
+										["zindex"] = 0,
+									},
+									["skin"] = {
+										["params"] = {
+											["clipInsets"] = {
+												["bottom"] = 0,
+												["left"] = 0,
+												["right"] = 0,
+												["top"] = 0,
+											},
+											["focusRectInsets"] = {
+												["bottom"] = 2,
+												["left"] = 2,
+												["right"] = 2,
+												["top"] = 2,
+											},
+											["insets"] = {
+												["bottom"] = 0,
+												["top"] = 0,
+											},
+											["maxSize"] = {
+												["horz"] = 0,
+												["vert"] = 0,
+											},
+											["minSize"] = {
+												["horz"] = 0,
+											},
+											["name"] = "menuItemSkin",
+											["textLineHeight"] = 0,
+											["textWrapping"] = false,
+											["useEllipsis"] = false,
+										},
+										["states"] = {
+											["disabled"] = {
+												[1] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["picture"] = {
+														["file"] = "",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "min",
+														},
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["resizeToFill"] = false,
+														["size"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["tileHorizontally"] = false,
+														["tileVertically"] = false,
+														["userTexSampler"] = 0,
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+													["text"] = {
+														["lineHeight"] = 0,
+														["lineThroughOffset"] = 1,
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+												},
+											},
+											["hover"] = {
+												[1] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["picture"] = {
+														["file"] = "",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "min",
+														},
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["resizeToFill"] = false,
+														["size"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["tileHorizontally"] = false,
+														["tileVertically"] = false,
+														["userTexSampler"] = 0,
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+													["text"] = {
+														["lineThroughOffset"] = 1,
+													},
+												},
+											},
+											["pressed"] = {
+												[1] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["picture"] = {
+														["file"] = "",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "min",
+														},
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["resizeToFill"] = false,
+														["size"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["tileHorizontally"] = false,
+														["tileVertically"] = false,
+														["userTexSampler"] = 0,
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+													["text"] = {
+														["lineThroughOffset"] = 1,
+													},
+												},
+											},
+											["released"] = {
+												[1] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["picture"] = {
+														["file"] = "",
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["resizeToFill"] = false,
+														["tileHorizontally"] = false,
+														["tileVertically"] = false,
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+													["text"] = {
+														["lineHeight"] = 0,
+														["lineThroughOffset"] = 1,
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+												},
+												[2] = {
+													["bkg"] = {
+														["file"] = "",
+													},
+													["text"] = {
+														["lineHeight"] = 0,
+														["lineThroughOffset"] = 1,
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+												},
+											},
+										},
+									},
+									["type"] = "MenuItem",
+								},
+							},
+							["params"] = {
+								["bounds"] = {
+									["h"] = 170,
+									["w"] = 160,
+									["x"] = 30,
+									["y"] = 20,
+								},
+								["enabled"] = true,
+								["text"] = "menu",
+								["tooltip"] = "",
+								["visible"] = false,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "menuSkin",
+								},
+							},
+							["type"] = "Menu",
+						},
+					},
+					["params"] = {
+						["bounds"] = {
+							["h"] = 230,
+							["w"] = 120,
+							["x"] = 20,
+							["y"] = 5,
+						},
+						["enabled"] = true,
+						["menuName"] = "",
+						["text"] = "$views",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "menuBarItemSkin",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xff5050ff",
+									},
+								},
+								[2] = {
+									["text"] = {
+										["color"] = "0xff5050ff",
+									},
+								},
+							},
+							["hover"] = {
+								[2] = {
+									["text"] = {
+										["color"] = "0x8c5050ff",
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xff5050ff",
+									},
+								},
+								[2] = {
+									["text"] = {
+										["color"] = "0xff5050ff",
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xffb93cff",
+									},
+								},
+								[2] = {
+									["text"] = {
+										["color"] = "0xff5050ff",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "MenuBarItem",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 32,
+					["w"] = 1260,
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["enabled"] = true,
+				["layout"] = {
+					["data"] = {
+						["gap"] = 20,
+						["horzAlign"] = {
+							["offset"] = 20,
+							["type"] = "min",
+						},
+						["vertAlign"] = {
+							["offset"] = 0,
+							["type"] = "middle",
+						},
+					},
+					["type"] = "horz",
+				},
+				["text"] = "menuBarTop",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 1,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "menuBarSkin",
+				},
+				["skins"] = {
+					["item"] = {
+						["skinData"] = {
+							["states"] = {
+								["released"] = {
+									[1] = {
+										["text"] = {
+											["color"] = "0xffffffff",
+										},
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "MenuBar",
+		},
+	},
+	["horzGuids"] = {
+		[1] = 215,
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 32,
+			["w"] = 1280,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["buddy"] = false,
+		["clipResizeCursor"] = false,
+		["draggable"] = false,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["layout"] = {
+			["data"] = {
+				["anchorInfos"] = {
+					[1] = {
+						["bottom"] = {
+							["offset"] = 0,
+							["type"] = "min",
+						},
+						["left"] = {
+							["offset"] = 0,
+							["type"] = "max",
+						},
+						["right"] = {
+							["offset"] = 0,
+							["type"] = "max",
+						},
+						["top"] = {
+							["offset"] = 0,
+							["type"] = "min",
+						},
+					},
+				},
+				["count"] = 1,
+			},
+			["type"] = "anchor",
+		},
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["overlay"] = false,
+		["resizable"] = false,
+		["text"] = "Briefing Room Menu Bar",
+		["zOrder"] = -1000,
+	},
+	["skin"] = {
+		["params"] = {
+			["headerHeight"] = 0,
+			["name"] = "windowSkin",
+		},
+	},
+	["type"] = "Window",
+	["vertGuids"] = {
+		[1] = 139,
+	},
+}
