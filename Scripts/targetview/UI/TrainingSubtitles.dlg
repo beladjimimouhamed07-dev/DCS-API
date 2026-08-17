@@ -1,0 +1,480 @@
+dialog = {
+	["children"] = {
+		["buttonAssign"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 40,
+					["w"] = 43,
+					["x"] = 389,
+					["y"] = 163,
+				},
+				["enabled"] = true,
+				["tabOrder"] = 0,
+				["text"] = "button0",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["minSize"] = {
+						["horz"] = 32,
+						["vert"] = 32,
+					},
+					["name"] = "buttonSkin",
+				},
+				["states"] = {
+					["disabled"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "$nil$",
+								["center_center"] = "$nil$",
+								["center_top"] = "$nil$",
+								["file"] = "$nil$",
+								["insets"] = "$nil$",
+								["left_bottom"] = "$nil$",
+								["left_center"] = "$nil$",
+								["left_top"] = "$nil$",
+								["right_bottom"] = "$nil$",
+								["right_center"] = "$nil$",
+								["right_top"] = "$nil$",
+							},
+							["text"] = {
+								["blur"] = "$nil$",
+								["color"] = "$nil$",
+								["font"] = "$nil$",
+								["fontSize"] = "$nil$",
+								["shadowOffset"] = {
+									["horz"] = "$nil$",
+									["vert"] = "$nil$",
+								},
+							},
+						},
+					},
+					["hover"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "0xffd085ff",
+								["center_top"] = "0xffd085ff",
+								["file"] = "dxgui\\skins\\skinme\\images\\bkg\\border-2-r4.png",
+								["insets"] = {
+									["bottom"] = 4,
+									["left"] = 4,
+									["right"] = 4,
+									["top"] = 4,
+								},
+								["left_bottom"] = "0xffd085ff",
+								["left_center"] = "0xffd085ff",
+								["left_top"] = "0xffd085ff",
+								["right_bottom"] = "0xffd085ff",
+								["right_center"] = "0xffd085ff",
+								["right_top"] = "0xffd085ff",
+							},
+							["picture"] = {
+								["color"] = "0xffd085ff",
+								["file"] = "dxgui\\skins\\skinme\\images\\gear.png",
+								["horzAlign"] = {
+									["type"] = "middle",
+								},
+								["size"] = {
+									["horz"] = 0,
+									["vert"] = 0,
+								},
+								["userTexSampler"] = 0,
+							},
+						},
+					},
+					["pressed"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "0xe1ac57ff",
+								["center_center"] = "$nil$",
+								["center_top"] = "0xe1ac57ff",
+								["file"] = "dxgui\\skins\\skinme\\images\\bkg\\border-2-r4.png",
+								["insets"] = {
+									["bottom"] = 4,
+									["left"] = 4,
+									["right"] = 4,
+									["top"] = 4,
+								},
+								["left_bottom"] = "0xe1ac57ff",
+								["left_center"] = "0xe1ac57ff",
+								["left_top"] = "0xe1ac57ff",
+								["right_bottom"] = "0xe1ac57ff",
+								["right_center"] = "0xe1ac57ff",
+								["right_top"] = "0xe1ac57ff",
+							},
+							["picture"] = {
+								["color"] = "0xe1ac57ff",
+								["file"] = "dxgui\\skins\\skinme\\images\\gear.png",
+								["horzAlign"] = {
+									["type"] = "middle",
+								},
+								["size"] = {
+									["horz"] = 0,
+									["vert"] = 0,
+								},
+								["userTexSampler"] = 0,
+							},
+						},
+					},
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "$nil$",
+								["center_center"] = "$nil$",
+								["center_top"] = "$nil$",
+								["file"] = "$nil$",
+								["insets"] = "$nil$",
+								["left_bottom"] = "$nil$",
+								["left_center"] = "$nil$",
+								["left_top"] = "$nil$",
+								["right_bottom"] = "$nil$",
+								["right_center"] = "$nil$",
+								["right_top"] = "$nil$",
+							},
+							["picture"] = {
+								["color"] = "0xffc364ff",
+								["file"] = "dxgui\\skins\\skinme\\images\\gear.png",
+								["horzAlign"] = {
+									["type"] = "middle",
+								},
+								["size"] = {
+									["horz"] = 0,
+									["vert"] = 0,
+								},
+								["userTexSampler"] = 0,
+							},
+							["text"] = {
+								["blur"] = "$nil$",
+								["color"] = "$nil$",
+								["font"] = "$nil$",
+								["fontSize"] = "$nil$",
+								["shadowOffset"] = {
+									["horz"] = "$nil$",
+									["vert"] = "$nil$",
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Button",
+		},
+		["panelLine"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 78,
+					["w"] = 962,
+					["x"] = 91,
+					["y"] = 249,
+				},
+				["enabled"] = true,
+				["layout"] = {
+					["data"] = {
+						["gap"] = 0,
+						["horzAlign"] = {
+							["offset"] = 0,
+							["type"] = "middle",
+						},
+						["vertAlign"] = {
+							["offset"] = 0,
+							["type"] = "middle",
+						},
+					},
+					["type"] = "horz",
+				},
+				["text"] = "panel0",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 3,
+			},
+			["skin"] = {
+				["params"] = {
+					["insets"] = {
+						["left"] = 32,
+						["right"] = 32,
+					},
+					["maxSize"] = {
+						["vert"] = 0,
+					},
+					["minSize"] = {
+						["vert"] = 0,
+					},
+					["name"] = "panelSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "0x00000084",
+								["center_center"] = "0x00000084",
+								["center_top"] = "0x00000084",
+								["file"] = "dxgui\\skins\\skinme\\images\\training_subtitle_line_bkg.png",
+								["insets"] = {
+									["bottom"] = 10,
+									["left"] = 10,
+									["right"] = 10,
+									["top"] = 10,
+								},
+								["left_bottom"] = "0x00000084",
+								["left_center"] = "0x00000084",
+								["left_top"] = "0x00000084",
+								["right_bottom"] = "0x00000084",
+								["right_center"] = "0x00000084",
+								["right_top"] = "0x00000084",
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Panel",
+		},
+		["staticAxis"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 47,
+					["w"] = 136,
+					["x"] = 44,
+					["y"] = 131,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "Axis",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 1,
+			},
+			["skin"] = {
+				["params"] = {
+					["insets"] = {
+						["left"] = 0,
+						["right"] = 0,
+					},
+					["minSize"] = {
+						["vert"] = 32,
+					},
+					["name"] = "staticSkinHelpButton",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_top"] = "$nil$",
+								["file"] = "$nil$",
+								["insets"] = {
+									["left"] = "$nil$",
+									["right"] = "$nil$",
+									["top"] = "$nil$",
+								},
+								["left_top"] = "$nil$",
+								["rect"] = {
+									["x1"] = "$nil$",
+								},
+								["right_top"] = "$nil$",
+							},
+							["picture"] = {
+								["color"] = "0xffffffff",
+								["file"] = "dxgui\\skins\\skinme\\images\\training_subtitle_axis.png",
+								["size"] = {
+									["horz"] = 32,
+									["vert"] = 32,
+								},
+							},
+							["text"] = {
+								["color"] = "0xFFC364ff",
+								["font"] = "PTM75F.ttf",
+								["fontSize"] = 20,
+								["horzAlign"] = {
+									["offset"] = 36,
+									["type"] = "min",
+								},
+								["vertAlign"] = {
+									["offset"] = 0,
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+		["staticKey"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 57,
+					["w"] = 228,
+					["x"] = 207,
+					["y"] = 53,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "Key",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 1,
+			},
+			["skin"] = {
+				["params"] = {
+					["insets"] = {
+						["left"] = 16,
+						["right"] = 16,
+					},
+					["minSize"] = {
+						["vert"] = 32,
+					},
+					["name"] = "staticSkinHelpButton",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "0xffffffff",
+								["center_center"] = "0xffffffff",
+								["file"] = "dxgui\\skins\\skinme\\images\\training_subtitle_key_bkg.png",
+								["insets"] = {
+									["bottom"] = 10,
+									["left"] = 10,
+									["right"] = 10,
+									["top"] = 10,
+								},
+								["left_bottom"] = "0xffffffff",
+								["left_center"] = "0xffffffff",
+								["rect"] = {
+									["x1"] = "$nil$",
+								},
+								["right_bottom"] = "0xffffffff",
+								["right_center"] = "0xffffffff",
+							},
+							["text"] = {
+								["color"] = "0xFFC364ff",
+								["font"] = "PTM75F.ttf",
+								["fontSize"] = 20,
+								["horzAlign"] = {
+									["offset"] = 0,
+									["type"] = "min",
+								},
+								["vertAlign"] = {
+									["offset"] = 0,
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+		["staticText"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 51,
+					["w"] = 112,
+					["x"] = 62,
+					["y"] = 6,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "$line4_1",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["insets"] = {
+						["left"] = 0,
+						["right"] = 0,
+					},
+					["minSize"] = {
+						["vert"] = 32,
+					},
+					["name"] = "staticSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["text"] = {
+								["color"] = "0xffc364ff",
+								["font"] = "PTM75F.ttf",
+								["fontSize"] = 16,
+								["vertAlign"] = {
+									["type"] = "middle",
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 500,
+			["w"] = 1243,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["clipResizeCursor"] = false,
+		["draggable"] = false,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["layout"] = {
+			["data"] = {
+				["gap"] = 10,
+				["horzAlign"] = {
+					["offset"] = 0,
+					["type"] = "middle",
+				},
+				["vertAlign"] = {
+					["offset"] = 0,
+					["type"] = "max",
+				},
+			},
+			["type"] = "vert",
+		},
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["resizable"] = true,
+		["text"] = "New dialog",
+		["unitTest"] = "dofile('./Scripts/helpTestInput.lua')\
+dofile('./Scripts/helpTest.lua')\
+dialog:setOpacity(0.2)",
+		["zOrder"] = 0,
+	},
+	["skin"] = {
+		["params"] = {
+			["headerHeight"] = 0,
+			["insets"] = {
+				["bottom"] = 40,
+				["left"] = 20,
+				["right"] = 20,
+				["top"] = 20,
+			},
+			["name"] = "windowSkin",
+		},
+		["states"] = {
+			["released"] = {
+				[1] = {
+					["bkg"] = {
+						["center_center"] = "$nil$",
+					},
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+}

@@ -1,0 +1,505 @@
+dialog = {
+	["children"] = {
+		["arrow"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 512,
+					["w"] = 512,
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 256,
+					["y"] = 256,
+				},
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin",
+				},
+				["states"] = {
+					["disabled"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "0x57575736",
+								["center_center"] = "0x57575736",
+								["center_top"] = "0x57575736",
+								["file"] = "mods\\tech\\supercarrier\\platcameraui\\flols.tga",
+								["left_bottom"] = "0x57575736",
+								["left_center"] = "0x57575736",
+								["left_top"] = "0x57575736",
+								["rect"] = {
+									["x2"] = 288,
+									["y1"] = 131,
+									["y2"] = 151,
+								},
+								["right_bottom"] = "0x57575736",
+								["right_center"] = "0x57575736",
+								["right_top"] = "0x57575736",
+							},
+							["text"] = {
+								["blur"] = 2,
+								["blurColor"] = "0x585858ff",
+								["color"] = "0xffffffff",
+								["font"] = "DejaVuLGCSansCondensed-Bold.ttf",
+								["fontSize"] = 16,
+								["horzAlign"] = {
+									["offset"] = 0,
+									["type"] = "middle",
+								},
+								["lineHeight"] = 0,
+								["lineThroughHeight"] = 1,
+								["vertAlign"] = {
+									["type"] = "middle",
+								},
+							},
+						},
+					},
+					["released"] = {
+						[1] = {
+							["picture"] = {
+								["color"] = "0xffffffff",
+								["file"] = "fui\\common\\test_compass_ring.png",
+								["horzAlign"] = {
+									["offset"] = 0,
+									["type"] = "stretch",
+								},
+								["rect"] = {
+									["x2"] = 1024,
+									["y2"] = 0,
+								},
+								["userTexSampler"] = 1,
+								["vertAlign"] = {
+									["offset"] = 0,
+									["type"] = "stretch",
+								},
+							},
+							["text"] = {
+								["blur"] = 2,
+								["blurColor"] = "0x585858ff",
+								["color"] = "0xffffffff",
+								["font"] = "DejaVuLGCSansCondensed-Bold.ttf",
+								["fontSize"] = 16,
+								["horzAlign"] = {
+									["offset"] = 0,
+									["type"] = "middle",
+								},
+								["lineHeight"] = 0,
+								["lineThroughHeight"] = 1,
+								["vertAlign"] = {
+									["type"] = "middle",
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+		["arrow_magnetic"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 512,
+					["w"] = 512,
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 256,
+					["y"] = 256,
+				},
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin",
+				},
+				["states"] = {
+					["disabled"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "0x57575736",
+								["center_center"] = "0x57575736",
+								["center_top"] = "0x57575736",
+								["file"] = "mods\\tech\\supercarrier\\platcameraui\\flols.tga",
+								["left_bottom"] = "0x57575736",
+								["left_center"] = "0x57575736",
+								["left_top"] = "0x57575736",
+								["rect"] = {
+									["x2"] = 288,
+									["y1"] = 131,
+									["y2"] = 151,
+								},
+								["right_bottom"] = "0x57575736",
+								["right_center"] = "0x57575736",
+								["right_top"] = "0x57575736",
+							},
+						},
+					},
+					["released"] = {
+						[1] = {
+							["picture"] = {
+								["color"] = "0xffffffff",
+								["file"] = "fui\\common\\test_compass_ring.png",
+								["horzAlign"] = {
+									["offset"] = 0,
+									["type"] = "stretch",
+								},
+								["rect"] = {
+									["x1"] = 1024,
+									["x2"] = 2048,
+									["y2"] = 0,
+								},
+								["userTexSampler"] = 1,
+								["vertAlign"] = {
+									["offset"] = 0,
+									["type"] = "stretch",
+								},
+							},
+							["text"] = {
+								["color"] = "$nil$",
+								["font"] = "$nil$",
+								["fontSize"] = 0,
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+		["mag_declination"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 100,
+					["x"] = 274,
+					["y"] = 7,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "M+7.1*",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin",
+				},
+				["states"] = {
+					["disabled"] = {
+						[1] = {
+							["text"] = {
+								["blurColor"] = "0x000000ff",
+								["color"] = "0xe50083ff",
+								["font"] = "DejaVuLGCSansMono.ttf",
+								["fontSize"] = 18,
+								["horzAlign"] = {
+									["offset"] = 0,
+								},
+								["lineHeight"] = 0,
+								["lineThroughHeight"] = 1,
+							},
+						},
+					},
+					["released"] = {
+						[1] = {
+							["text"] = {
+								["blurColor"] = "0x000000ff",
+								["color"] = "0xe50083ff",
+								["font"] = "DejaVuLGCSansMono.ttf",
+								["fontSize"] = 18,
+								["horzAlign"] = {
+									["offset"] = 0,
+								},
+								["lineHeight"] = 0,
+								["lineThroughHeight"] = 1,
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+	},
+	["horzGuids"] = {
+		[1] = 104,
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 512,
+			["w"] = 512,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["buddy"] = false,
+		["clipResizeCursor"] = false,
+		["draggable"] = false,
+		["enabled"] = true,
+		["hasCursor"] = false,
+		["layout"] = {
+		},
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["overlay"] = false,
+		["resizable"] = false,
+		["text"] = "True North",
+		["unitTest"] = "COMPASS             = dialog\
+activity             = function()\
+    if not os then \
+        os = require(\"os\")\
+    end\
+    if not COMPASS then\
+        return true\
+    end\
+    local  a = os.clock() * 45\
+    COMPASS.arrow:setAngle(a)\
+    return false\
+end",
+		["zOrder"] = -999,
+	},
+	["skin"] = {
+		["params"] = {
+			["headerHeight"] = 0,
+			["name"] = "windowSkin_ME",
+		},
+		["skins"] = {
+			["header"] = {
+				["skinData"] = {
+					["params"] = {
+						["closeButtonHorzAlign"] = {
+							["type"] = "middle",
+						},
+						["hasCloseButton"] = false,
+					},
+					["states"] = {
+						["disabled"] = {
+							[1] = {
+								["text"] = {
+									["blur"] = 0,
+									["color"] = "0xe0dedaff",
+									["font"] = "DejaVuLGCSansCondensed-Bold.ttf",
+									["fontSize"] = 12,
+									["horzAlign"] = {
+										["type"] = "middle",
+									},
+									["lineThroughHeight"] = 1,
+									["shadowOffset"] = {
+										["horz"] = 0,
+										["vert"] = 0,
+									},
+								},
+							},
+							[2] = {
+								["text"] = {
+									["blur"] = 0,
+									["color"] = "0xe0dedaff",
+									["font"] = "DejaVuLGCSansCondensed-Bold.ttf",
+									["fontSize"] = 12,
+									["horzAlign"] = {
+										["offset"] = 0,
+										["type"] = "middle",
+									},
+									["lineHeight"] = 0,
+									["lineThroughHeight"] = 1,
+									["shadowOffset"] = {
+										["horz"] = 0,
+										["vert"] = 0,
+									},
+									["vertAlign"] = {
+										["offset"] = 0,
+										["type"] = "middle",
+									},
+								},
+							},
+						},
+						["hover"] = {
+							[1] = {
+								["text"] = {
+									["blur"] = 2,
+									["blurColor"] = "0x585858ff",
+									["color"] = "0xffe7a1ff",
+									["font"] = "DejaVuLGCSansCondensed-Bold.ttf",
+									["fontSize"] = 16,
+									["horzAlign"] = {
+										["offset"] = 0,
+										["type"] = "middle",
+									},
+									["lineHeight"] = 0,
+									["lineThroughHeight"] = 1,
+									["shadowOffset"] = {
+										["horz"] = 0,
+										["vert"] = 0,
+									},
+									["vertAlign"] = {
+										["offset"] = 0,
+										["type"] = "middle",
+									},
+								},
+							},
+							[2] = {
+								["text"] = {
+									["blur"] = 2,
+									["blurColor"] = "0x585858ff",
+									["color"] = "0xffe7a1ff",
+									["font"] = "DejaVuLGCSansCondensed-Bold.ttf",
+									["fontSize"] = 16,
+									["horzAlign"] = {
+										["offset"] = 0,
+										["type"] = "middle",
+									},
+									["lineHeight"] = 0,
+									["lineThroughHeight"] = 1,
+									["shadowOffset"] = {
+										["horz"] = 0,
+										["vert"] = 0,
+									},
+									["vertAlign"] = {
+										["offset"] = 0,
+										["type"] = "middle",
+									},
+								},
+							},
+						},
+						["pressed"] = {
+							[1] = {
+								["text"] = {
+									["blur"] = 0,
+									["color"] = "0xe0dedaff",
+									["font"] = "DejaVuLGCSansCondensed-Bold.ttf",
+									["fontSize"] = 12,
+									["horzAlign"] = {
+										["offset"] = 0,
+										["type"] = "middle",
+									},
+									["lineHeight"] = 0,
+									["lineThroughHeight"] = 1,
+									["shadowOffset"] = {
+										["horz"] = 0,
+										["vert"] = 0,
+									},
+									["vertAlign"] = {
+										["offset"] = 0,
+										["type"] = "middle",
+									},
+								},
+							},
+							[2] = {
+								["text"] = {
+									["blur"] = 0,
+									["color"] = "0xe0dedaff",
+									["font"] = "DejaVuLGCSansCondensed-Bold.ttf",
+									["fontSize"] = 12,
+									["horzAlign"] = {
+										["offset"] = 0,
+										["type"] = "middle",
+									},
+									["lineHeight"] = 0,
+									["lineThroughHeight"] = 1,
+									["shadowOffset"] = {
+										["horz"] = 0,
+										["vert"] = 0,
+									},
+									["vertAlign"] = {
+										["offset"] = 0,
+										["type"] = "middle",
+									},
+								},
+							},
+						},
+						["released"] = {
+							[1] = {
+								["bkg"] = {
+									["center_bottom"] = "$nil$",
+									["center_center"] = "$nil$",
+									["center_top"] = "$nil$",
+									["file"] = "$nil$",
+									["left_bottom"] = "$nil$",
+									["left_center"] = "$nil$",
+									["left_top"] = "$nil$",
+									["right_bottom"] = "$nil$",
+									["right_center"] = "$nil$",
+									["right_top"] = "$nil$",
+								},
+								["text"] = {
+									["blur"] = 2,
+									["blurColor"] = "0x585858ff",
+									["color"] = "0xffffffff",
+									["fontSize"] = 16,
+									["horzAlign"] = {
+										["offset"] = 0,
+										["type"] = "middle",
+									},
+								},
+							},
+							[2] = {
+								["bkg"] = {
+									["center_bottom"] = "$nil$",
+									["center_center"] = "$nil$",
+									["center_top"] = "$nil$",
+									["file"] = "$nil$",
+									["left_bottom"] = "$nil$",
+									["left_center"] = "$nil$",
+									["left_top"] = "$nil$",
+									["right_bottom"] = "$nil$",
+									["right_center"] = "$nil$",
+									["right_top"] = "$nil$",
+								},
+								["text"] = {
+									["blur"] = 2,
+									["blurColor"] = "0x585858ff",
+									["color"] = "0xffffffff",
+									["fontSize"] = 16,
+									["horzAlign"] = {
+										["offset"] = 0,
+										["type"] = "middle",
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		["states"] = {
+			["released"] = {
+				[1] = {
+					["bkg"] = {
+						["center_center"] = "0x30302f00",
+						["insets"] = {
+							["bottom"] = 1,
+							["left"] = 1,
+							["right"] = 1,
+							["top"] = 1,
+						},
+					},
+					["picture"] = {
+						["horzAlign"] = {
+							["offset"] = 0,
+						},
+						["vertAlign"] = {
+							["offset"] = 0,
+						},
+					},
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+}

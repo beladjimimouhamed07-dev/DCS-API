@@ -1,0 +1,172 @@
+dialog = {
+	["children"] = {
+		["grid"] = {
+			["children"] = {
+				["gridHeaderCell0"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 45,
+							["w"] = 316,
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["draggable"] = true,
+						["enabled"] = true,
+						["layout"] = {
+						},
+						["text"] = "Param",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "gridHeaderCellSkinSelectRole",
+						},
+					},
+					["type"] = "GridHeaderCell",
+				},
+				["gridHeaderCell1"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 45,
+							["w"] = 416,
+							["x"] = 317,
+							["y"] = 0,
+						},
+						["draggable"] = true,
+						["enabled"] = true,
+						["layout"] = {
+						},
+						["text"] = "Value",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "gridHeaderCellSkinSelectRole",
+						},
+					},
+					["type"] = "GridHeaderCell",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 370,
+					["w"] = 700,
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["columnMouseResizing"] = true,
+				["enabled"] = true,
+				["fixedColumns"] = 0,
+				["horzScrollBarPageStep"] = 0,
+				["horzScrollBarStep"] = 1,
+				["rows"] = 20,
+				["text"] = "",
+				["tooltip"] = "",
+				["vertScrollBarPageStep"] = 0,
+				["vertScrollBarStep"] = 22,
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "gridSkinNewNew",
+				},
+			},
+			["type"] = "Grid",
+		},
+		["gridItem"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 131,
+					["x"] = 9999,
+					["y"] = 0,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "GridItemPadding1",
+				["tooltip"] = "",
+				["visible"] = false,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin_table_rowLeftText_withPadding",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["text"] = {
+								["horzAlign"] = {
+									["offset"] = 5,
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 400,
+			["w"] = 700,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["buddy"] = false,
+		["clipResizeCursor"] = false,
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["layout"] = {
+		},
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["overlay"] = false,
+		["resizable"] = false,
+		["text"] = "EntityInformationDialog",
+		["zOrder"] = 0,
+	},
+	["skin"] = {
+		["params"] = {
+			["name"] = "windowSkinME",
+		},
+		["skins"] = {
+			["header"] = {
+				["skinData"] = {
+					["params"] = {
+						["hasCloseButton"] = false,
+					},
+					["skins"] = {
+						["closeButton"] = {
+							["skinData"] = {
+								["params"] = {
+									["maxSize"] = {
+										["horz"] = 0,
+										["vert"] = 0,
+									},
+									["minSize"] = {
+										["horz"] = 0,
+										["vert"] = 0,
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+}
