@@ -1,0 +1,151 @@
+Put your HTML text here<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Générateur d'Atlas B612 Bold - 1024x1024</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            background-color: #1a1a1a;
+            color: #eee;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        #canvas-container {
+            position: relative;
+            border: 2px solid #444;
+            background-image: 
+                linear-gradient(45deg, #252525 25%, transparent 25%), 
+                linear-gradient(-45deg, #252525 25%, transparent 25%),
+                linear-gradient(45deg, transparent 75%, #252525 75%),
+                linear-gradient(-45deg, transparent 75%, #252525 75%);
+            background-size: 20px 20px;
+            background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            max-width: 90vw;
+        }
+
+        canvas {
+            display: block;
+            width: 512px;
+            height: 512px;
+        }
+
+        .controls {
+            margin-top: 20px;
+            display: flex;
+            gap: 10px;
+        }
+
+        button {
+            background-color: #e67e22;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        button:hover {
+            background-color: #d35400;
+        }
+
+        .info {
+            margin-top: 10px;
+            font-size: 0.9em;
+            color: #888;
+        }
+    </head>
+</style>
+<body>
+
+    <div class="header">
+        <h2>Atlas Rafale (B612 Bold) Corrigé</h2>
+        <p>Format : 1024 x 1024 | Grille stricte 16x16</p>
+    </div>
+
+    <div id="canvas-container">
+        <canvas id="fontCanvas" width="1024" height="1024"></canvas>
+    </div>
+
+    <div class="controls">
+        <button id="downloadBtn">Télécharger PNG (1024x1024)</button>
+    </div>
+
+    <div class="info">
+        Note: Les glyphes sont maintenant alignés sur une grille stricte sans saut de ligne.
+    </div>
+
+    <script>
+        const canvas = document.getElementById('fontCanvas');
+        const ctx = canvas.getContext('2d');
+        const downloadBtn = document.getElementById('downloadBtn');
+
+        const chars = [
+            ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P'],
+            ['Q','R','S','T','U','V','W','X','Y','Z','0','1','2','3','4','5'],
+            ['6','7','8','9','.',',',':',';','!','?','\'','"','(','[','{','/'],
+            ['+','-','*','=','<','>','_','@','#','$','%','&','|','\\','^','~'],
+            ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p'],
+            ['q','r','s','t','u','v','w','x','y','z',' ',' ',' ',' ',' ',' ']
+        ];
+
+        function drawAtlas() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            
+            ctx.fillStyle = 'white';
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+            
+            const cols = 16;
+            const rows = 16; 
+            const cellSize = canvas.width / cols; // 64px
+            
+            // J'ai légèrement réduit la taille de la police (de 68 à 60)
+            // pour éviter qu'un caractère large ne déborde sur la cellule voisine.
+            ctx.font = 'bold 60px "B612", "Arial", sans-serif';
+
+            chars.forEach((row, rowIndex) => {
+                row.forEach((char, colIndex) => {
+                    if (char.trim() !== '' || char === ' ') {
+                        // Position X : Centre de la colonne
+                        const x = colIndex * cellSize + cellSize / 2;
+                        
+                        // CORRECTION ICI :
+                        // 1. Suppression du "* 2" qui créait une ligne vide sur deux
+                        // 2. Remplacement du "cellSize / 1" par "cellSize / 2" pour bien centrer verticalement
+                        const y = rowIndex * cellSize + cellSize / 2;
+                        
+                        ctx.fillText(char, x, y + 4); 
+                    }
+                });
+            });
+        }
+
+        window.onload = () => {
+            setTimeout(drawAtlas, 300);
+        };
+
+        downloadBtn.onclick = () => {
+            const link = document.createElement('a');
+            link.download = 'Atlas_B612_Bold_1024_Fixed.png';
+            link.href = canvas.toDataURL('image/png');
+            link.click();
+        };
+    </script>
+</body>
+</html>
+

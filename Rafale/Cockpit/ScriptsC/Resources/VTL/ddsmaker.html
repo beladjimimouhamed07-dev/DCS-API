@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Générateur d'Atlas Rafale - Transparent</title>
+    <style>
+        body { 
+            background-color: #1a1a1a; 
+            color: #eee; 
+            font-family: 'Segoe UI', sans-serif; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+            padding: 20px;
+        }
+
+        #drop-zone {
+            width: 80%;
+            border: 2px dashed #444;
+            padding: 25px;
+            text-align: center;
+            background: #222;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            transition: 0.3s;
+            cursor: pointer;
+        }
+
+        #drop-zone.hover { border-color: #e67e22; background: #2a2a2a; }
+
+        #canvas-container {
+            /* Motif à carreaux pour visualiser la transparence */
+            background-image: 
+                linear-gradient(45deg, #252525 25%, transparent 25%), 
+                linear-gradient(-45deg, #252525 25%, transparent 25%),
+                linear-gradient(45deg, transparent 75%, #252525 75%),
+                linear-gradient(-45deg, transparent 75%, #252525 75%);
+            background-size: 20px 20px;
+            background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+            
+            border: 2px solid #444;
+            line-height: 0;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+
+        canvas {
+            width: 512px; 
+            height: 512px;
+            display: block;
+            image-rendering: pixelated; /* Netteté maximale */
+        }
+
+        .controls { margin-top: 20px; display: flex; gap: 15px; align-items: center; background: #222; padding: 15px; border-radius: 8px; }
+
+        button {
+            background-color: #e67e22; color: white; border: none;
+            padding: 12px 24px; cursor: pointer; font-weight: bold; border-radius: 5px;
+        }
+        button:hover { background-color: #d35400; }
+
+        input[type="number"] { padding: 8px; border-radius: 4px; border: 1px solid #444; background: #111; color: white; width: 60px; text-align: center; }
+        label { font-size: 14px; color: #aaa; margin-right: 5px; }
+    </style>
+</head>
+<body>
+
+    <h2>Générateur d'Atlas (Fond Transparent)</h2>
+    
+    <div id="drop-zone">
+        DÉPOSEZ VOTRE FICHIER .TTF ICI
+        <span style="font-size: 0.8em; color: #666; display: block; margin-top: 5px;">(ex: B612-Bold.ttf, RussellSquare.ttf, etc.)</span>
+    </div>
+
+    <div class="controls">
+        <div>
+            <label>Taille (px):</label>
+            <input type="number" id="fontSize" value="60" min="10" max="100">
+        </div>
+        <div>
+            <label>Ajustement vertical (+5):</label>
+            <input type="number" id="yOffset" value="5" min="-50" max="50">
+        </div>
+        <button id="downloadBtn">Télécharger l'Atlas PNG (Transparent)</button>
+    </div>
+
+    <br>
+
+    <div id="canvas-container">
+        <canvas id="fontCanvas" width="1024" height="1024"></canvas>
+    </div>
+
+    <script>
+        const canvas = document.getElementById('fontCanvas');
+        const ctx = canvas.getContext('2d');
+        const dropZone = document.getElementById('drop-zone');
+        const fontSizeInput = document.getElementById('fontSize');
+        const yOffsetInput = document.getElementById('yOffset');
+        const downloadBtn = document.getElementById('downloadBtn');
+        
+        let currentFontName = "Arial"; // Police par défaut
+        let currentFileName = "Arial (Défaut)";
+
+        // Structure de l'atlas 16x16 stricte
+        const chars = [
+            ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P'],
+            ['Q','R','S','T','U','V','W','X','Y','Z','0','1','2','3','4','5'],
+            ['6','7','8','9','.',',',':',';','!','?','\'','"','(','[','{','/'],
+            ['+','-','*','=','<','>','_','@','#','$','%','&','|','\\','^','~'],
+            ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p'],
+            ['q','r','s','t','u','v','w','x','y','z',' ',' ',' ',' ',' ',' ']
+        ];
+
+        function drawAtlas() {
+            // 1. CLEAR TOTAL (C'est ça qui rend le fond transparent)
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            // 2. CONFIGURATION DU TEXTE
+            ctx.fillStyle = "white"; // Couleur des lettres
+            ctx.textAlign = "center";
+            ctx.textBaseline = "middle";
+            
+            const size = fontSizeInput.value;
+            const offset = parseInt(yOffsetInput.value) || 0; // Valeur par défaut si vide
+            
+            // On applique la police (Data-URI si chargée)
+            ctx.font = `${size}px "${currentFontName}"`;
+
+            // 3. DESSIN DE LA GRILLE (Sur 1024x1024)
+            const cellSize = 1024 / 16; // 64 pixels par cellule
+
+            chars.forEach((row, rowIndex) => {
+                row.forEach((char, colIndex) => {
+                    // Position X : Centre de la cellule
+                    const x = colIndex * cellSize + cellSize / 2;
+                    // Position Y : Centre de la cellule + ton ajustement vertical
+                    const y = rowIndex * cellSize + cellSize / 2;
+                    
+                    // On dessine la lettre
+                    ctx.fillText(char, x, y + offset);
+                });
+            });
+        }
+
+        // --- GESTION DU DRAG & DROP (Pour contourner la sécurité) ---
+        dropZone.ondragover = (e) => { e.preventDefault(); dropZone.classList.add('hover'); };
+        dropZone.ondragleave = () => dropZone.classList.remove('hover');
+        
+        dropZone.ondrop = (e) => {
+            e.preventDefault();
+            dropZone.classList.remove('hover');
+            const file = e.dataTransfer.files[0];
+            
+            if (file && file.name.toLowerCase().endsWith('.ttf')) {
+                const reader = new FileReader();
+                reader.onload = async (event) => {
+                    // Création d'un nom unique pour la police
+                    const fontName = 'Font_' + Date.now();
+                    const fontFace = new FontFace(fontName, event.target.result);
+                    
+                    try {
+                        // Chargement forcé de la police
+                        await fontFace.load();
+                        document.fonts.add(fontFace);
+                        
+                        // Mise à jour des variables globales
+                        currentFontName = fontName;
+                        currentFileName = file.name;
+                        dropZone.innerHTML = `Police active : <b>${currentFileName}</b>`;
+                        
+                        // On redessine l'atlas
+                        drawAtlas();
+                    } catch (err) {
+                        alert("Erreur critique : Impossible de charger ce fichier .ttf.");
+                        console.error(err);
+                    }
+                };
+                reader.readAsArrayBuffer(file);
+            } else {
+                alert("Veuillez déposer un fichier au format .ttf uniquement.");
+            }
+        };
+
+        // --- INTERACTION ---
+        // Redessiner immédiatement si on change Taille ou Ajustement
+        fontSizeInput.oninput = drawAtlas;
+        yOffsetInput.oninput = drawAtlas;
+
+        // --- TÉLÉCHARGEMENT ---
+        downloadBtn.onclick = () => {
+            if (currentFontName === "Arial") {
+                if(!confirm("Vous allez télécharger l'atlas en Arial par défaut. Continuer ?")) return;
+            }
+            
+            // Création d'un lien invisible
+            const link = document.createElement('a');
+            // Nom du fichier nettoyé (ex: atlas_B612-Bold.png)
+            const cleanName = currentFileName.replace(/\.[^/.]+$/, "");
+            link.download = `atlas_${cleanName}.png`;
+            
+            // Conversion du canvas en PNG (le transparent est géré par défaut)
+            link.href = canvas.toDataURL('image/png');
+            
+            // Clic simulé
+            link.click();
+        };
+
+        // --- PREMIER DESSIN ---
+        // On attend que le navigateur soit prêt pour dessiner l'Arial par défaut
+        window.onload = drawAtlas;
+    </script>
+</body>
+</html>
+
