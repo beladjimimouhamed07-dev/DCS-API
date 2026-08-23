@@ -1,0 +1,45 @@
+// DCS_OPS_RE: edterrainGraphics41.dll
+// Generated from dumpbin /exports
+
+[    1]          0x0  public: __cdecl edtg41::TerrainRenderable::TerrainRenderable(class edtg41::TerrainRenderable const &)
+[    2]          0x1  public: __cdecl edtg41::TerrainRenderable::TerrainRenderable(void)
+[    3]          0x2  public: __cdecl edtg41::lMaterialParamsArrayGraphics::lMaterialParamsArrayGraphics(void)
+[    4]          0x3  public: virtual __cdecl edtg41::TerrainRenderable::~TerrainRenderable(void)
+[    5]          0x4  public: __cdecl edtg41::lMaterialParamsArrayGraphics::~lMaterialParamsArrayGraphics(void)
+[    6]          0x5  public: class edtg41::TerrainRenderable & __cdecl edtg41::TerrainRenderable::operator=(class edtg41::TerrainRenderable const &)
+[    7]          0x6  const edtg41::TerrainRenderable::`vftable'{for `edtg41::IRenderQueue'}
+[    8]          0x7  const edtg41::TerrainRenderable::`vftable'{for `edge::IRenderable'}
+[    9]          0x8  class edtg41::ITerraDispatchGraphics * __cdecl edtg41::GetITerraDispatchGraphics(void)
+[   10]          0x9  void __cdecl edtg41::ReadShadingOptions(class Lua::Config &, struct edtg41::TerrainOptions &)
+[   11]          0xA  bool __cdecl edtg41::ReadTerrainOptions(class Lua::Config &, struct edtg41::TerrainOptions &)
+[   12]          0xB  void __cdecl edtg41::RecalcDistances(struct edtg41::TerrainOptions &, float, float, enum edtg41::edRecalcDistancesFilter)
+[   13]          0xC  void __cdecl edtg41::RecalcDistances(struct edtg41::TerrainOptions &, float, enum edtg41::edRecalcDistancesFilter)
+[   14]          0xD  public: void __cdecl edtg41::TerrainRenderable::addCounter(char const *, unsigned int)
+[   15]          0xE  public: virtual bool __cdecl edtg41::TerrainRenderable::addInstanceRenderItem(class osg::Matrixf const &, class osg::BoundingBoxImpl<class osg::Vec3f> const &, struct edtg41::RenderItem *, void *)
+[   16]          0xF  public: virtual bool __cdecl edtg41::TerrainRenderable::addRenderItem(class osg::Matrixf const &, class osg::BoundingBoxImpl<class osg::Vec3f> const &, struct edtg41::RenderItem *, void *)
+[   17]         0x10  public: virtual bool __cdecl edtg41::TerrainRenderable::addRenderItem(class edtg41::ParseContextWrapper const &, unsigned int, class osg::Matrixf const &, class osg::BoundingBoxImpl<class osg::Vec3f> const &, struct edtg41::RenderItem *, void *)
+[   18]         0x11  public: virtual void __cdecl edtg41::TerrainRenderable::clear(unsigned __int64, unsigned int, double, double, double, bool *, class osg::Vec2i)
+[   19]         0x12  public: void __cdecl edtg41::lMaterialParamsArrayGraphics::clear(void)
+[   20]         0x13  public: virtual void __cdecl edtg41::TerrainRenderable::dump(class edge::Context *, class osg::Matrixd const &, void *, int)
+[   21]         0x14  protected: void __cdecl edtg41::TerrainRenderable::dumpRenderItem(class render::IRenderContext *, struct edtg41::RenderItem *, struct edtg41::TerrainOptions const *, struct edtg41::RenderContext *, int)
+[   22]         0x15  public: virtual class osg::BoundingBoxImpl<class osg::Vec3f> const & __cdecl edtg41::TerrainRenderable::getBoundingBox(void) const
+[   23]         0x16  public: class ed::compact_vector<int, 32> const & __cdecl edtg41::TerrainRenderable::getLodsList(void) const
+[   24]         0x17  public: struct edtg41::Statistic const & __cdecl edtg41::TerrainRenderable::getStatistic(void) const
+[   25]         0x18  protected: bool __cdecl edtg41::TerrainRenderable::hidden(struct edtg41::RenderItem *)
+[   26]         0x19  public: void __cdecl edtg41::TerrainRenderable::init(void)
+[   27]         0x1A  public: void __cdecl edtg41::TextureArrayRemapperGraphics::init(class landscape4::TextureArrayRemapper const &)
+[   28]         0x1B  public: void __cdecl edtg41::lMaterialParamsArrayGraphics::init(struct landscape5::lMaterialParamsArray const &, char const *)
+[   29]         0x1C  public: bool __cdecl edtg41::TextureArrayRemapperGraphics::isEmpty(void)
+[   30]         0x1D  public: virtual bool __cdecl edtg41::TerrainRenderable::isLoaded(int) const
+[   31]         0x1E  public: virtual bool __cdecl edtg41::TerrainRenderable::isLoaded(void) const
+[   32]         0x1F  protected: bool __cdecl edtg41::TerrainRenderable::layerIsHidden(bool const *, int)
+[   33]         0x20  void __cdecl edtg41::loadGeometry(struct landscape4::GeometrySource &, struct landscape4::GeometrySource &, class ed::vector<struct edtg41::SharedBuffer, class ed::allocator<struct edtg41::SharedBuffer>> &, class osg::Matrixf *, struct landscape4::Material &, class ed::list<struct edtg41::RenderItem *, class ed::allocator<struct edtg41::RenderItem *>> &, class ed::vector<struct edtg41::DeformGeometryStream, class ed::allocator<struct edtg41::DeformGeometryStream>> *, class edtg41::lMaterialParamsArrayGraphics *)
+[   34]         0x21  public: static void __cdecl edtg41::TextureArrayRemapperGraphics::remapManifold(unsigned char *, int, int, void *)
+[   35]         0x22  public: virtual void __cdecl edtg41::TerrainRenderable::render(unsigned int, enum render::enShadingModel, class render::IRenderContext const &, struct edtg41::TerrainOptions const *, unsigned int)
+[   36]         0x23  public: virtual void __cdecl edtg41::TerrainRenderable::render(class edge::Context *, class osg::Matrixd const &, void *)
+[   37]         0x24  public: virtual void __cdecl edtg41::TerrainRenderable::render(enum render::enShadingModel, class render::IRenderContext const &, unsigned int)
+[   38]         0x25  public: void __cdecl edtg41::TerrainRenderable::setLodsList(class ed::compact_vector<int, 32> &)
+[   39]         0x26  CreateITerrainGraphics
+[   40]         0x27  createInstancerRenderable
+[   41]         0x28  getReferenceManager
+[   42]         0x29  luaopen_edterrainGraphics41

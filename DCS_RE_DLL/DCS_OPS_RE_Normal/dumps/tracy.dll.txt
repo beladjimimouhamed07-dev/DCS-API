@@ -1,0 +1,81 @@
+Microsoft (R) COFF/PE Dumper Version 14.51.36256.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file G:\DCS_OPS_RE\bin\tracy.dll
+
+File Type: DLL
+
+  Section contains the following exports for tracy.dll
+
+    00000000 characteristics
+    FFFFFFFF time date stamp
+        0.00 version
+           1 ordinal base
+          53 number of functions
+          53 number of names
+
+    ordinal hint RVA      name
+
+          1    0 000033B0 ?CallTrace@tracy@@YAPEA_KH@Z
+          2    1 00005430 ?GetFrequencyQpc@tracy@@YA_JXZ
+          3    2 00005450 ?GetGpuCtx@tracy@@YAAEAUGpuCtxWrapper@1@XZ
+          4    3 00005470 ?GetGpuCtxCounter@tracy@@YAAEAU?$atomic@E@std@@XZ
+          5    4 00005480 ?GetInitTime@tracy@@YA_JXZ
+          6    5 00005490 ?GetLockCounter@tracy@@YAAEAU?$atomic@I@std@@XZ
+          7    6 000056F0 ?GetProfiler@tracy@@YAAEAVProfiler@1@XZ
+          8    7 00005700 ?GetQueue@tracy@@YAAEAV?$ConcurrentQueue@UQueueItem@tracy@@UConcurrentQueueDefaultTraits@moodycamel@2@@moodycamel@1@XZ
+          9    8 00005710 ?GetThreadHandle@tracy@@YA_KXZ
+         10    9 00005750 ?GetThreadHandleImpl@detail@tracy@@YA_KXZ
+         11    A 00005770 ?GetThreadName@tracy@@YAPEBD_K@Z
+         12    B 000057C0 ?GetToken@tracy@@YAPEAUExplicitProducer@?$ConcurrentQueue@UQueueItem@tracy@@UConcurrentQueueDefaultTraits@moodycamel@2@@moodycamel@1@XZ
+         13    C 00006470 ?InitRPMallocThread@tracy@@YAXXZ
+         14    D 000093D0 ?ProfilerAvailable@tracy@@YA_NXZ
+         15    E 0000A040 ?SetThreadName@tracy@@YAXPEBD@Z
+         16    F 0000DB80 ?rpfree@tracy@@YAXPEAX@Z
+         17   10 0000DB90 ?rpmalloc@tracy@@YAPEAX_K@Z
+         18   11 0000DBC0 ?rpmalloc_finalize@tracy@@YAXXZ
+         19   12 0000DE30 ?rpmalloc_initialize@tracy@@YAHXZ
+         20   13 0000E310 ?rpmalloc_thread_finalize@tracy@@YAXXZ
+         21   14 00006470 ?rpmalloc_thread_initialize@tracy@@YAXXZ
+         22   15 0000E470 ?rprealloc@tracy@@YAPEAXPEAX_K@Z
+         23   16 0000E590 ___tracy_alloc_srcloc
+         24   17 0000E650 ___tracy_alloc_srcloc_name
+         25   18 0000E740 ___tracy_emit_frame_image
+         26   19 0000E830 ___tracy_emit_frame_mark
+         27   1A 0000E8E0 ___tracy_emit_frame_mark_end
+         28   1B 0000E950 ___tracy_emit_frame_mark_start
+         29   1C 0000E9C0 ___tracy_emit_memory_alloc
+         30   1D 0000EAA0 ___tracy_emit_memory_alloc_callstack
+         31   1E 0000EC20 ___tracy_emit_memory_alloc_callstack_named
+         32   1F 0000EDD0 ___tracy_emit_memory_alloc_named
+         33   20 0000EEF0 ___tracy_emit_memory_free
+         34   21 0000EFB0 ___tracy_emit_memory_free_callstack
+         35   22 0000F120 ___tracy_emit_memory_free_callstack_named
+         36   23 0000F2C0 ___tracy_emit_memory_free_named
+         37   24 0000F3C0 ___tracy_emit_message
+         38   25 0000F540 ___tracy_emit_messageC
+         39   26 0000F6E0 ___tracy_emit_messageL
+         40   27 0000F830 ___tracy_emit_messageLC
+         41   28 0000F9B0 ___tracy_emit_message_appinfo
+         42   29 0000FAA0 ___tracy_emit_plot
+         43   2A 0000FB60 ___tracy_emit_zone_begin
+         44   2B 0000FC80 ___tracy_emit_zone_begin_alloc
+         45   2C 0000FDB0 ___tracy_emit_zone_begin_alloc_callstack
+         46   2D 0000FF60 ___tracy_emit_zone_begin_callstack
+         47   2E 00010100 ___tracy_emit_zone_color
+         48   2F 00010210 ___tracy_emit_zone_end
+         49   30 00010310 ___tracy_emit_zone_name
+         50   31 00010440 ___tracy_emit_zone_text
+         51   32 00010570 ___tracy_emit_zone_value
+         52   33 00010670 ___tracy_init_thread
+         53   34 000106A0 ___tracy_set_thread_name
+
+  Summary
+
+        4000 .data
+        1000 .pdata
+        6000 .rdata
+        1000 .reloc
+        1000 .rsrc
+       11000 .text

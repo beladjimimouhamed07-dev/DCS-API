@@ -1,0 +1,185 @@
+Microsoft (R) COFF/PE Dumper Version 14.51.36256.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file G:\DCS_OPS_RE_SCY\bin\Weather.dll
+
+File Type: DLL
+
+  Section contains the following exports for Weather.dll
+
+    00000000 characteristics
+    FFFFFFFF time date stamp
+        0.00 version
+           1 ordinal base
+         156 number of functions
+         156 number of names
+
+    ordinal hint RVA      name
+
+          1    0 0000F330 ??0CloudDensityForMap@Weather@@QEAA@$$QEAV01@@Z
+          2    1 0000F470 ??0CloudDensityForMap@Weather@@QEAA@AEBV01@@Z
+          3    2 00022E60 ??0CloudDensityForMap@Weather@@QEAA@XZ
+          4    3 0000F6C0 ??0DynamicAtmosphere@Weather@@QEAA@AEBV01@@Z
+          5    4 0001D390 ??0DynamicAtmosphere@Weather@@QEAA@XZ
+          6    5 00009C30 ??0IAtmosphere@Weather@@QEAA@AEBV01@@Z
+          7    6 0001F330 ??0IAtmosphere@Weather@@QEAA@XZ
+          8    7 00022AE0 ??0RenderUtils@Weather@@QEAA@XZ
+          9    8 0000F8A0 ??0StaticAtmosphere@Weather@@QEAA@AEBV01@@Z
+         10    9 000216A0 ??0StaticAtmosphere@Weather@@QEAA@XZ
+         11    A 0000A030 ??0WakeTurbulenceEmitter@@QEAA@AEBV0@@Z
+         12    B 0000A030 ??0WakeTurbulenceEmitter@@QEAA@XZ
+         13    C 0000F960 ??0WindyForMap@Weather@@QEAA@$$QEAV01@@Z
+         14    D 00024360 ??0WindyForMap@Weather@@QEAA@XZ
+         15    E 0000FCC0 ??1CloudDensityForMap@Weather@@QEAA@XZ
+         16    F 0001D440 ??1DynamicAtmosphere@Weather@@UEAA@XZ
+         17   10 0001F4D0 ??1IAtmosphere@Weather@@UEAA@XZ
+         18   11 00022B70 ??1RenderUtils@Weather@@QEAA@XZ
+         19   12 000216D0 ??1StaticAtmosphere@Weather@@UEAA@XZ
+         20   13 0000A310 ??1WakeTurbulenceEmitter@@UEAA@XZ
+         21   14 0000FD20 ??1WindyForMap@Weather@@QEAA@XZ
+         22   15 0000FF60 ??4CloudDensityForMap@Weather@@QEAAAEAV01@$$QEAV01@@Z
+         23   16 00010100 ??4CloudDensityForMap@Weather@@QEAAAEAV01@AEBV01@@Z
+         24   17 00010240 ??4DynamicAtmosphere@Weather@@QEAAAEAV01@AEBV01@@Z
+         25   18 0000A5C0 ??4IAtmosphere@Weather@@QEAAAEAV01@AEBV01@@Z
+         26   19 00010330 ??4StaticAtmosphere@Weather@@QEAAAEAV01@AEBV01@@Z
+         27   1A 0000A940 ??4WakeTurbulenceEmitter@@QEAAAEAV0@AEBV0@@Z
+         28   1B 00030A08 ??_7DynamicAtmosphere@Weather@@6B@
+         29   1C 00030390 ??_7IAtmosphere@Weather@@6B@
+         30   1D 00030AB0 ??_7StaticAtmosphere@Weather@@6B@
+         31   1E 00030370 ??_7WakeTurbulenceEmitter@@6B@
+         32   1F 0003E490 ?WindNoise@IAtmosphere@Weather@@1PAY0MI@V?$Vector@$02N@Math@@A
+         33   20 0001D4A0 ?addBaricSystem@DynamicAtmosphere@Weather@@QEAAXAEBVBaricSystem@2@@Z
+         34   21 000216E0 ?addCeiling@StaticAtmosphere@Weather@@QEAAXN@Z
+         35   22 000216F0 ?addCloudsUpperEdge@StaticAtmosphere@Weather@@QEAAXN@Z
+         36   23 0001D500 ?addGroundTurbulence@DynamicAtmosphere@Weather@@QEAAXN@Z
+         37   24 00021700 ?addPointAtmoPressure@StaticAtmosphere@Weather@@QEAAXAEBV?$Vector@$02N@Math@@NN@Z
+         38   25 0001D520 ?addPointAtmoTemperature@DynamicAtmosphere@Weather@@QEAAXAEBV?$Vector@$02N@Math@@NN@Z
+         39   26 00021710 ?addPointAtmoTemperature@StaticAtmosphere@Weather@@QEAAXAEBV?$Vector@$02N@Math@@NN@Z
+         40   27 00021720 ?addPointAtmoWind_w@StaticAtmosphere@Weather@@QEAAXAEBV?$Vector@$02N@Math@@N0N@Z
+         41   28 00021810 ?addPointGroundWind_w@StaticAtmosphere@Weather@@QEAAXAEBV?$Vector@$02N@Math@@N0N@Z
+         42   29 00022F20 ?addPoly@CloudDensityForMap@Weather@@AEAAXNNAEBVVec4f@osg@@NAEBV?$wPosition3@N@@AEBV?$RectImpl@VVec2i@osg@@@4@@Z
+         43   2A 000218D0 ?addPrecipitation@StaticAtmosphere@Weather@@QEAAXAEBV?$Vector@$02N@Math@@W4ATMO_PRECIP@2@@Z
+         44   2B 0001F560 ?addWingtipVortices@IAtmosphere@Weather@@QEAAXPEAVAtmosphericEffect@@I@Z
+         45   2C 000218E0 ?calcAtmosphere@StaticAtmosphere@Weather@@AEAAXXZ
+         46   2D 0001F5B0 ?calcDynamicSlowdown@IAtmosphere@Weather@@QEBAXNAEAN0@Z
+         47   2E 0001F630 ?calcDynamicSlowdown@IAtmosphere@Weather@@QEBAXNAEAN@Z
+         48   2F 0001D5B0 ?calcIcingRate@DynamicAtmosphere@Weather@@UEBANAEBV?$Vector@$02N@Math@@N@Z
+         49   30 0001D610 ?calcIcingRate@DynamicAtmosphere@Weather@@UEBANNNN@Z
+         50   31 0001D5B0 ?calcIcingRate@StaticAtmosphere@Weather@@UEBANAEBV?$Vector@$02N@Math@@N@Z
+         51   32 0001D610 ?calcIcingRate@StaticAtmosphere@Weather@@UEBANNNN@Z
+         52   33 0001D720 ?clear@DynamicAtmosphere@Weather@@UEAAXXZ
+         53   34 00021C30 ?clear@StaticAtmosphere@Weather@@UEAAXXZ
+         54   35 0001F690 ?clearWingtipVortices@IAtmosphere@Weather@@QEAAXI@Z
+         55   36 0000BCA0 ?create@WakeTurbulenceEmitter@@SAPEAV1@PEAVMovingObject@@@Z
+         56   37 00024690 ?createThread@WindyForMap@Weather@@AEAAXXZ
+         57   38 000235F0 ?discard@CloudDensityForMap@Weather@@QEAAXXZ
+         58   39 00024710 ?discard@WindyForMap@Weather@@QEAAXXZ
+         59   3A 00023610 ?doRedraw@CloudDensityForMap@Weather@@QEAAXNAEBV?$wPosition3@N@@AEBV?$RectImpl@VVec2i@osg@@@osg@@@Z
+         60   3B 00024770 ?doRedraw@WindyForMap@Weather@@QEAAXNAEBV?$wPosition3@N@@AEBV?$RectImpl@VVec2i@osg@@@osg@@@Z
+         61   3C 0001F6F0 ?eraseWingtipVortices@IAtmosphere@Weather@@QEAAXPEAVAtmosphericEffect@@@Z
+         62   3D 00024800 ?exitThread@WindyForMap@Weather@@AEAAXXZ
+         63   3E 000236A0 ?fillCamera@CloudDensityForMap@Weather@@AEAAXNAEBV?$wPosition3@N@@AEBV?$RectImpl@VVec2i@osg@@@osg@@@Z
+         64   3F 000237A0 ?fillGeom@CloudDensityForMap@Weather@@AEAAXNAEBV?$wPosition3@N@@AEBV?$RectImpl@VVec2i@osg@@@osg@@@Z
+         65   40 00024810 ?fillGeom@WindyForMap@Weather@@AEAAXXZ
+         66   41 0001DA60 ?fillPressureGrid@DynamicAtmosphere@Weather@@AEBAXAEBVVec3d@osg@@PEAN@Z
+         67   42 0001F740 ?generateClouds@IAtmosphere@Weather@@QEAAXXZ
+         68   43 0001DB60 ?getAtmoSoundSpeed@DynamicAtmosphere@Weather@@UEBANN@Z
+         69   44 0001DB60 ?getAtmoSoundSpeed@StaticAtmosphere@Weather@@UEBANN@Z
+         70   45 0001DB90 ?getAtmoTemperature@DynamicAtmosphere@Weather@@UEBAXAEBV?$Vector@$02N@Math@@PEAN1@Z
+         71   46 00021F30 ?getAtmoTemperature@StaticAtmosphere@Weather@@UEBAXAEBV?$Vector@$02N@Math@@PEAN1@Z
+         72   47 0001DC10 ?getAtmoTemperatureAndPressure@DynamicAtmosphere@Weather@@UEBAXAEBV?$Vector@$02N@Math@@PEAN11@Z
+         73   48 00021FC0 ?getAtmoTemperatureAndPressure@StaticAtmosphere@Weather@@UEBAXAEBV?$Vector@$02N@Math@@PEAN11@Z
+         74   49 0001DCC0 ?getAtmoTemperatureAndPressureAndDensity@DynamicAtmosphere@Weather@@UEBAXAEBV?$Vector@$02N@Math@@PEAN111@Z
+         75   4A 0001DCC0 ?getAtmoTemperatureAndPressureAndDensity@StaticAtmosphere@Weather@@UEBAXAEBV?$Vector@$02N@Math@@PEAN111@Z
+         76   4B 0001DD40 ?getAtmoType@DynamicAtmosphere@Weather@@UEBA?AW4ATMO_TYPES@2@XZ
+         77   4C 0000B970 ?getAtmoType@StaticAtmosphere@Weather@@UEBA?AW4ATMO_TYPES@2@XZ
+         78   4D 0001DD50 ?getAtmoWind_w@DynamicAtmosphere@Weather@@UEBA?AV?$Vector@$02N@Math@@AEBV34@N@Z
+         79   4E 00022110 ?getAtmoWind_w@StaticAtmosphere@Weather@@UEBA?AV?$Vector@$02N@Math@@AEBV34@N@Z
+         80   4F 0001E150 ?getAverageTemperature@DynamicAtmosphere@Weather@@AEBANN@Z
+         81   50 0001E3D0 ?getBaseWind_w@DynamicAtmosphere@Weather@@UEBA?AV?$Vector@$02N@Math@@AEBV34@N@Z
+         82   51 00022510 ?getBaseWind_w@StaticAtmosphere@Weather@@UEBA?AV?$Vector@$02N@Math@@AEBV34@N@Z
+         83   52 0001FB80 ?getBasicRelativeHumidity@IAtmosphere@Weather@@IEBANXZ
+         84   53 0001E760 ?getCeiling@DynamicAtmosphere@Weather@@UEAANAEBV?$Vector@$02N@Math@@@Z
+         85   54 00022710 ?getCeiling@StaticAtmosphere@Weather@@UEAANAEBV?$Vector@$02N@Math@@@Z
+         86   55 00022BB0 ?getCloudDensityForMap@RenderUtils@Weather@@QEAAPEAVCloudDensityForMap@2@XZ
+         87   56 0001FC50 ?getCloudSquare@IAtmosphere@Weather@@IEAAPEAVCloudSquare@2@AEBVVec2i@osg@@@Z
+         88   57 0001FCF0 ?getClouds@IAtmosphere@Weather@@QEAAAEAV?$map@VVec2i@osg@@PEAVCloudSquare@Weather@@U?$less@VVec2i@osg@@@std@@V?$allocator@U?$pair@$$CBVVec2i@osg@@PEAVCloudSquare@Weather@@@std@@@ed@@@std@@XZ
+         89   58 0001E800 ?getCloudsDensity@DynamicAtmosphere@Weather@@UEBANAEBV?$Vector@$02N@Math@@@Z
+         90   59 00022720 ?getCloudsDensity@StaticAtmosphere@Weather@@UEBANAEBV?$Vector@$02N@Math@@@Z
+         91   5A 000197A0 ?getCloudsPreset@Weather@@YAPEBUcloudPresetData@1@PEBD@Z
+         92   5B 0001E920 ?getCloudsUpperEdge@DynamicAtmosphere@Weather@@UEAANAEBV?$Vector@$02N@Math@@@Z
+         93   5C 00022730 ?getCloudsUpperEdge@StaticAtmosphere@Weather@@UEAANAEBV?$Vector@$02N@Math@@@Z
+         94   5D 0001FD00 ?getDailyHumidityDelta@IAtmosphere@Weather@@IEBANXZ
+         95   5E 0001FD90 ?getDewPoint@IAtmosphere@Weather@@IEBANN@Z
+         96   5F 0001FDD0 ?getDewPoint@IAtmosphere@Weather@@IEBANNN@Z
+         97   60 0001FE40 ?getDewPoint@IAtmosphere@Weather@@UEBANAEBV?$Vector@$02N@Math@@@Z
+         98   61 0001E9C0 ?getDynSlowdownK@DynamicAtmosphere@Weather@@EEBANXZ
+         99   62 00022740 ?getDynSlowdownK@StaticAtmosphere@Weather@@EEBANXZ
+        100   63 0001FEE0 ?getGroundWind_w@IAtmosphere@Weather@@QEBA?AV?$Vector@$02N@Math@@AEBV34@@Z
+        101   64 0001FF00 ?getLayeredTurbulence@IAtmosphere@Weather@@IEBANAEBV?$Vector@$02N@Math@@@Z
+        102   65 00020010 ?getLayeredTurbulence@IAtmosphere@Weather@@IEBANAEBV?$Vector@$02N@Math@@N@Z
+        103   66 0001E9F0 ?getPrecipitation@DynamicAtmosphere@Weather@@UEBA?AW4ATMO_PRECIP@2@AEBV?$Vector@$02N@Math@@@Z
+        104   67 0001E9F0 ?getPrecipitation@StaticAtmosphere@Weather@@UEBA?AW4ATMO_PRECIP@2@AEBV?$Vector@$02N@Math@@@Z
+        105   68 0001EA00 ?getPressureExcess@DynamicAtmosphere@Weather@@AEBANAEBV?$Vector@$02N@Math@@@Z
+        106   69 0001EBE0 ?getRelativeHumidity@DynamicAtmosphere@Weather@@UEBANAEBV?$Vector@$02N@Math@@@Z
+        107   6A 00022750 ?getRelativeHumidity@StaticAtmosphere@Weather@@UEBANAEBV?$Vector@$02N@Math@@@Z
+        108   6B 00020130 ?getSaturationPressure@IAtmosphere@Weather@@IEBANN@Z
+        109   6C 00020170 ?getTurbulenceInLayer@IAtmosphere@Weather@@IEBA?AV?$Vector@$02N@Math@@AEBV34@N@Z
+        110   6D 000203D0 ?getVaporPressure@IAtmosphere@Weather@@IEBANNN@Z
+        111   6E 0000C6F0 ?getWakeTurbulenceState@@YAXPEAVVec3d@osg@@0_KI@Z
+        112   6F 00020430 ?getWakeTurbulenceWind_w@IAtmosphere@Weather@@IEBA?AV?$Vector@$02N@Math@@AEBV34@@Z
+        113   70 00020510 ?getWindGroundFactor@IAtmosphere@Weather@@IEBANNAEBN@Z
+        114   71 00022BC0 ?getWindyForMap@RenderUtils@Weather@@QEAAPEAVWindyForMap@2@XZ
+        115   72 000205D0 ?getYearHumidityDelta@IAtmosphere@Weather@@IEBANXZ
+        116   73 0003D000 ?globalAtmo@@3PEAVme_atmo_initializer@@EA
+        117   74 00020600 ?graphicUpdate@IAtmosphere@Weather@@QEAAX_NPEAV?$map@VVec2i@osg@@_NU?$less@VVec2i@osg@@@std@@V?$allocator@U?$pair@$$CBVVec2i@osg@@_N@std@@@ed@@@std@@@Z
+        118   75 00024950 ?init@WindyForMap@Weather@@QEAAXXZ
+        119   76 00023C50 ?initSize@CloudDensityForMap@Weather@@AEAAXAEBV?$RectImpl@VVec2i@osg@@@osg@@@Z
+        120   77 00010620 ?isBaricSystemPresent@DynamicAtmosphere@Weather@@UEBA_NXZ
+        121   78 0000C8E0 ?isBaricSystemPresent@IAtmosphere@Weather@@UEBA_NXZ
+        122   79 00024990 ?isBaricSystemPresent@WindyForMap@Weather@@QEBA_NXZ
+        123   7A 000227B0 ?isOvercast@StaticAtmosphere@Weather@@QEAA_NXZ
+        124   7B 00023DE0 ?map2Window@CloudDensityForMap@Weather@@AEAA?AVVec2i@osg@@AEBVVec2d@4@NAEBV?$wPosition3@N@@AEBV?$RectImpl@VVec2i@osg@@@4@@Z
+        125   7C 000249A0 ?map2Window@WindyForMap@Weather@@AEAA?AVVec2i@osg@@AEBVVec2d@4@@Z
+        126   7D 00023ED0 ?oneTimeInit@CloudDensityForMap@Weather@@AEAAXAEBV?$RectImpl@VVec2i@osg@@@osg@@@Z
+        127   7E 00024AB0 ?parse@WindyForMap@Weather@@QEAAXXZ
+        128   7F 00020D40 ?readTurbulenceData@IAtmosphere@Weather@@IEAAXXZ
+        129   80 00019C40 ?reconfigureAtmosphere@Weather@@YAXAEAUatmo_initializer@1@AEAVConfig@Lua@@@Z
+        130   81 00024270 ?render@CloudDensityForMap@Weather@@QEAAXXZ
+        131   82 00024B00 ?render@WindyForMap@Weather@@QEAAXPEAVuiBaseShader@@@Z
+        132   83 00024B40 ?renderGeometry@WindyForMap@Weather@@AEAAXPEAVuiBaseShader@@@Z
+        133   84 00024C00 ?renderText@WindyForMap@Weather@@AEAAXPEAVuiBaseShader@@@Z
+        134   85 0003E488 ?sAtmosphere@Weather@@3PEAVIAtmosphere@1@EA
+        135   86 00010940 ?setAtmo@CloudDensityForMap@Weather@@QEAAXPEAVIAtmosphere@2@@Z
+        136   87 00022BD0 ?setAtmo@RenderUtils@Weather@@QEAAXPEAVIAtmosphere@2@@Z
+        137   88 00024CD0 ?setAtmo@WindyForMap@Weather@@QEAAXPEAVIAtmosphere@2@@Z
+        138   89 000227C0 ?setCloudsDensity@StaticAtmosphere@Weather@@QEAAXH@Z
+        139   8A 000227E0 ?setOvercast@StaticAtmosphere@Weather@@QEAAX_N@Z
+        140   8B 00020E30 ?setRelativeHumidityData@IAtmosphere@Weather@@QEAAXNNN@Z
+        141   8C 0000C990 ?setSecondsInYear@IAtmosphere@Weather@@QEAAXH@Z
+        142   8D 00020E50 ?setSquaresToGraphicUpdate@IAtmosphere@Weather@@QEAAXHHHH@Z
+        143   8E 00024CE0 ?setState@WindyForMap@Weather@@QEAAX_N@Z
+        144   8F 0000C9A0 ?setTimeFromYearStart@IAtmosphere@Weather@@QEAAXN@Z
+        145   90 0001EC80 ?simulate@DynamicAtmosphere@Weather@@UEAAXN@Z
+        146   91 00021310 ?simulate@IAtmosphere@Weather@@UEAAXN@Z
+        147   92 000227F0 ?simulate@StaticAtmosphere@Weather@@UEAAXN@Z
+        148   93 00021340 ?synchronize@IAtmosphere@Weather@@QEAAXNN@Z
+        149   94 00024310 ?texPosToWPos@CloudDensityForMap@Weather@@AEAAXIIPEAN0@Z
+        150   95 00024D00 ?textUpdate@WindyForMap@Weather@@AEAAXXZ
+        151   96 0001ED20 ?updateBaricSystems@DynamicAtmosphere@Weather@@AEAAXN@Z
+        152   97 000213A0 ?updateClouds@IAtmosphere@Weather@@IEAAXXZ
+        153   98 000252C0 ?updateMapPoint@WindyForMap@Weather@@QEAAXAEBVVec2d@osg@@@Z
+        154   99 00021470 ?viObjectWasDeleted@IAtmosphere@Weather@@QEAAXPEAVviObject@@@Z
+        155   9A 0001B020 ?windVectorToVelocityAndDirection@Weather@@YAXV?$Vector@$02N@Math@@AEAN1@Z
+        156   9B 00010960 luaopen_Weather
+
+  Summary
+
+       3D000 .SCY
+       ED000 .data
+        2000 .pdata
+       12000 .rdata
+        1000 .reloc
+        1000 .rsrc
+       2A000 .text

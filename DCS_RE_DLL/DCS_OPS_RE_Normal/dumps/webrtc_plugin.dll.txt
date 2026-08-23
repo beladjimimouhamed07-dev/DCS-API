@@ -1,0 +1,120 @@
+Microsoft (R) COFF/PE Dumper Version 14.51.36256.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file G:\DCS_OPS_RE\bin\webrtc_plugin.dll
+
+File Type: DLL
+
+  Section contains the following exports for webrtc_plugin.dll
+
+    00000000 characteristics
+           0 time date stamp
+        0.00 version
+           1 ordinal base
+          88 number of functions
+          88 number of names
+
+    ordinal hint RVA      name
+
+          1    0 00029B20 AddDataChannel
+          2    1 00029C60 AddIceCandidate
+          3    2 000298E0 AddMixerSample
+          4    3 00029860 AddSamplePlayout
+          5    4 00029910 AddSourceSample
+          6    5 00029A80 AddStream
+          7    6 00029AB0 AddTrack
+          8    7 00029CC0 Add_STUN_server
+          9    8 00029CE0 Add_TURN_server
+         10    9 00029980 ClearMixerSources
+         11    A 00029EA0 CloseAllPeerConnections
+         12    B 00029420 CloseAudioDeviceModule
+         13    C 000298C0 CloseAudioMixer
+         14    D 00029A60 ClosePeerConnection
+         15    E 000293C0 ClosePeerConnectionFactory
+         16    F 00029B00 CreateAnswer
+         17   10 00029400 CreateAudioDeviceModule
+         18   11 000298A0 CreateAudioMixer
+         19   12 0002A030 CreateExteranlSocketServer
+         20   13 00029AE0 CreateOffer
+         21   14 000299A0 CreatePeerConnection
+         22   15 00029390 CreatePeerConnectionFactory
+         23   16 000299D0 CreatePeerConnectionOffer
+         24   17 00029F70 GetAudioDataObserver
+         25   18 00029F50 GetPeerCallback
+         26   19 00029540 GetPlayoutDeviceData
+         27   1A 00029480 GetPlayoutDevicesCount
+         28   1B 00029570 GetRecordingDeviceData
+         29   1C 000294A0 GetRecordingDevicesCount
+         30   1D 00029440 InitAudioDeviceModule
+         31   1E 00029DC0 InitLoopBack
+         32   1F 000295E0 InitPlayout
+         33   20 00029640 InitRecording
+         34   21 00029360 Initialize
+         35   22 00029460 IsAudioModuleInitialized
+         36   23 00029E80 IsPeerConnections
+         37   24 00029780 MicrophoneVolumeIsAvailable
+         38   25 00029D50 OnOffOnAudioDataCallback
+         39   26 00029D80 OnOffOnCaptureData
+         40   27 00029840 PeekMeterOnOff
+         41   28 000297C0 Playing
+         42   29 00029800 PlayoutIsInitialized
+         43   2A 00029760 PlayoutVolume
+         44   2B 000297E0 Recording
+         45   2C 00029820 RecordingIsInitialized
+         46   2D 000296F0 RecordingVolume
+         47   2E 00029FF0 RegisterAudioInputCallback
+         48   2F 00029EC0 RegisterCallback
+         49   30 0002A0B0 RegisterExternalHandler
+         50   31 0002A010 RegisterLoopbackAudioCallback
+         51   32 000293E0 Release
+         52   33 00029D30 RemoveAllServers
+         53   34 00029930 RemoveSourceSample
+         54   35 00029D10 Remove_All_TURN_servers
+         55   36 00029880 SamplePlayout
+         56   37 0002A110 Send
+         57   38 00029B40 SendDataViaDataChannel
+         58   39 00029B70 SetAudioControl
+         59   3A 00029520 SetCommunicationsInputDevice
+         60   3B 00029500 SetCommunicationsOutputDevice
+         61   3C 000294E0 SetDefaultInputDevice
+         62   3D 000294C0 SetDefaultOutputDevice
+         63   3E 00029CA0 SetDefaultSTUN_server
+         64   3F 00029DA0 SetDefaultTransport
+         65   40 0002A0F0 SetExternalTransportLocalPeerID
+         66   41 00029950 SetGainSourceSample
+         67   42 00029F90 SetLocalVideoCallback
+         68   43 00029E50 SetMicrophoneLoopBackGain
+         69   44 00029E30 SetMicrophoneLoopBackVolume
+         70   45 00029E00 SetPayoutLoopBackGain
+         71   46 00029DE0 SetPayoutLoopBackVolume
+         72   47 000295A0 SetPlayoutDevice
+         73   48 00029730 SetPlayoutGain
+         74   49 00029710 SetPlayoutVolume
+         75   4A 000295C0 SetRecordingDevice
+         76   4B 000296C0 SetRecordingGain
+         77   4C 000296A0 SetRecordingVolume
+         78   4D 00029C30 SetRemoteDescription
+         79   4E 00029FC0 SetRemoteVideoCallback
+         80   4F 00029C00 SetSenderTrackAudioVolume
+         81   50 00029BA0 SetTrackAudioControl
+         82   51 00029BD0 SetTrackAudioVolume
+         83   52 000297A0 SpeakerVolumeIsAvailable
+         84   53 00029600 StartPlayout
+         85   54 00029660 StartRecording
+         86   55 00029620 StopPlayout
+         87   56 00029680 StopRecording
+         88   57 0002A0D0 UnRegisterExternalHandler
+
+  Summary
+
+       9C000 .data
+        4000 .gxfg
+       35000 .pdata
+      17C000 .rdata
+        A000 .reloc
+        1000 .retplne
+        1000 .rodata
+      D94000 .text
+        1000 .tls
+        1000 _RDATA

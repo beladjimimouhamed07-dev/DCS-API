@@ -1,0 +1,460 @@
+// DCS_OPS_RE: edObjects.dll
+// Generated from dumpbin /exports
+
+[    1]          0x0  public: __cdecl Evoker<class LandObjectDestroyNotifierBase, class Link<class LandObjectDestroyNotifierBase>>::Evoker<class LandObjectDestroyNotifierBase, class Link<class LandObjectDestroyNotifierBase>>(class Evoker<class LandObjectDestroyNotifierBase, class Link<class LandObjectDestroyNotifierBase>> const &)
+[    2]          0x1  public: __cdecl Evoker<class LandObjectDestroyNotifierBase, class Link<class LandObjectDestroyNotifierBase>>::Evoker<class LandObjectDestroyNotifierBase, class Link<class LandObjectDestroyNotifierBase>>(void)
+[    3]          0x2  public: __cdecl DamageInfo::DamageInfo(float, int, enum DamageCause, unsigned int)
+[    4]          0x3  public: __cdecl DistanceKiller::DistanceKiller(class DistanceKiller const &)
+[    5]          0x4  public: __cdecl DistanceKiller::DistanceKiller(float, class DistanceKillerManager *)
+[    6]          0x5  public: __cdecl DistanceKillerManager::DistanceKillerManager(class DistanceKillerManager const &)
+[    7]          0x6  public: __cdecl DistanceKillerManager::DistanceKillerManager(float)
+[    8]          0x7  public: __cdecl ForestSceneObject::ForestSceneObject(class ForestSceneObject &&)
+[    9]          0x8  public: __cdecl ForestSceneObject::ForestSceneObject(class ForestSceneObject const &)
+[   10]          0x9  public: __cdecl ForestSceneObject::ForestSceneObject(class osg::Matrixd, class model::IModel *)
+[   11]          0xA  public: __cdecl HierarchyLayer::HierarchyLayer(class HierarchyLayer const &)
+[   12]          0xB  public: __cdecl HierarchyLayer::HierarchyLayer(void)
+[   13]          0xC  public: __cdecl HierarchyLinearNode::HierarchyLinearNode(class HierarchyLinearNode const &)
+[   14]          0xD  public: __cdecl HierarchyLinearNode::HierarchyLinearNode(void)
+[   15]          0xE  public: __cdecl HierarchyStorage::HierarchyStorage(class HierarchyStorage const &)
+[   16]          0xF  public: __cdecl HierarchyStorage::HierarchyStorage(unsigned int, class HierarchyNode *)
+[   17]         0x10  public: __cdecl LandObjectDestroyNotifierBase::LandObjectDestroyNotifierBase(class LandObjectDestroyNotifierBase &&)
+[   18]         0x11  public: __cdecl LandObjectDestroyNotifierBase::LandObjectDestroyNotifierBase(class LandObjectDestroyNotifierBase const &)
+[   19]         0x12  public: __cdecl LandObjectDestroyNotifierBase::LandObjectDestroyNotifierBase(void)
+[   20]         0x13  public: __cdecl LandObjectDestroySignal::LandObjectDestroySignal(class LandObjectDestroySignal &&)
+[   21]         0x14  public: __cdecl LandObjectDestroySignal::LandObjectDestroySignal(class LandObjectDestroySignal const &)
+[   22]         0x15  public: __cdecl LandObjectDestroySignal::LandObjectDestroySignal(void)
+[   23]         0x16  public: __cdecl LandObjectInitData::LandObjectInitData(struct LandObjectInitData &&)
+[   24]         0x17  public: __cdecl LandObjectInitData::LandObjectInitData(struct LandObjectInitData const &)
+[   25]         0x18  public: __cdecl LandObjectInitData::LandObjectInitData(char const *)
+[   26]         0x19  public: __cdecl LandObjectInitData::LandObjectInitData(void)
+[   27]         0x1A  public: __cdecl ModelLightObject::ModelLightObject(void)
+[   28]         0x1B  public: __cdecl RegisterManager::RegisterManager(class RegisterManager const &)
+[   29]         0x1C  public: __cdecl RegisterManager::RegisterManager(void)
+[   30]         0x1D  public: __cdecl Registered::Registered(unsigned int)
+[   31]         0x1E  public: __cdecl SceneObject::SceneObject(unsigned int)
+[   32]         0x1F  public: __cdecl TerrainSceneObject::TerrainSceneObject(class TerrainSceneObject &&)
+[   33]         0x20  public: __cdecl TerrainSceneObject::TerrainSceneObject(class TerrainSceneObject const &)
+[   34]         0x21  public: __cdecl TerrainSceneObject::TerrainSceneObject(unsigned int)
+[   35]         0x22  public: __cdecl lLandObject::lLandObject(class lLandObject const &)
+[   36]         0x23  public: __cdecl lLandObject::lLandObject(void)
+[   37]         0x24  public: __cdecl lObjectDynData::lObjectDynData(void)
+[   38]         0x25  public: __cdecl lTypeObjectManager::lTypeObjectManager(class lTypeObjectManager const &)
+[   39]         0x26  public: __cdecl lTypeObjectManager::lTypeObjectManager(void)
+[   40]         0x27  public: __cdecl viClosestHandlerInfo::viClosestHandlerInfo(class osg::Vec3f const &)
+[   41]         0x28  public: __cdecl viLight::viLight(class viLight const &)
+[   42]         0x29  public: __cdecl viLight::viLight(void)
+[   43]         0x2A  public: __cdecl viMovingObject::viMovingObject(unsigned int, class osg::Vec3f const &)
+[   44]         0x2B  public: __cdecl viObject::viObject(class viObject const &)
+[   45]         0x2C  public: __cdecl viObject::viObject(unsigned int)
+[   46]         0x2D  public: __cdecl viObjectFlatShape::viObjectFlatShape(unsigned int)
+[   47]         0x2E  public: __cdecl viObjectNode::viObjectNode(class viObjectNode const &)
+[   48]         0x2F  public: __cdecl viObjectNode::viObjectNode(unsigned int, class viObjectNode *)
+[   49]         0x30  public: __cdecl viObjectShape::viObjectShape(class viObjectShape const &)
+[   50]         0x31  public: __cdecl viObjectShape::viObjectShape(unsigned int)
+[   51]         0x32  public: __cdecl viObjectShapeCustom::viObjectShapeCustom(class viObjectShapeCustom const &)
+[   52]         0x33  public: __cdecl viObjectShapeCustom::viObjectShapeCustom(void)
+[   53]         0x34  public: __cdecl viSearch::viSearch(class ClipVolume const *, bool (__cdecl *)(class viObject *, class viSearch *, void *), void *, unsigned int)
+[   54]         0x35  public: __cdecl viSearch::viSearch(class ClipVolume const *, bool (__cdecl *)(class viObject *, class viSearch *, void *), void *, class viObject **, unsigned int, unsigned int)
+[   55]         0x36  public: __cdecl viSearch::viSearch(class ClipVolume const *, class viObject **, unsigned int, unsigned int)
+[   56]         0x37  public: __cdecl vi_helper::vi_helper(void)
+[   57]         0x38  public: __cdecl wShape::wShape(struct wShape &&)
+[   58]         0x39  public: __cdecl wShape::wShape(struct wShape const &)
+[   59]         0x3A  public: __cdecl wShape::wShape(void)
+[   60]         0x3B  public: virtual __cdecl Evoker<class LandObjectDestroyNotifierBase, class Link<class LandObjectDestroyNotifierBase>>::~Evoker<class LandObjectDestroyNotifierBase, class Link<class LandObjectDestroyNotifierBase>>(void)
+[   61]         0x3C  public: __cdecl DistanceKiller::~DistanceKiller(void)
+[   62]         0x3D  public: __cdecl DistanceKillerManager::~DistanceKillerManager(void)
+[   63]         0x3E  public: virtual __cdecl ForestSceneObject::~ForestSceneObject(void)
+[   64]         0x3F  public: virtual __cdecl HierarchyLayer::~HierarchyLayer(void)
+[   65]         0x40  public: virtual __cdecl HierarchyLinearNode::~HierarchyLinearNode(void)
+[   66]         0x41  public: virtual __cdecl HierarchyStorage::~HierarchyStorage(void)
+[   67]         0x42  public: __cdecl LandObjectDestroyNotifierBase::~LandObjectDestroyNotifierBase(void)
+[   68]         0x43  public: virtual __cdecl LandObjectDestroySignal::~LandObjectDestroySignal(void)
+[   69]         0x44  public: virtual __cdecl RegisterManager::~RegisterManager(void)
+[   70]         0x45  public: virtual __cdecl Registered::~Registered(void)
+[   71]         0x46  public: virtual __cdecl SceneObject::~SceneObject(void)
+[   72]         0x47  public: virtual __cdecl TerrainSceneObject::~TerrainSceneObject(void)
+[   73]         0x48  public: virtual __cdecl lDynObjectManager::~lDynObjectManager(void)
+[   74]         0x49  public: virtual __cdecl lLandObject::~lLandObject(void)
+[   75]         0x4A  public: virtual __cdecl lObjectDynData::~lObjectDynData(void)
+[   76]         0x4B  public: virtual __cdecl lTypeObjectManager::~lTypeObjectManager(void)
+[   77]         0x4C  public: virtual __cdecl viLight::~viLight(void)
+[   78]         0x4D  public: virtual __cdecl viMovingObject::~viMovingObject(void)
+[   79]         0x4E  public: virtual __cdecl viObject::~viObject(void)
+[   80]         0x4F  public: virtual __cdecl viObjectFlatShape::~viObjectFlatShape(void)
+[   81]         0x50  public: virtual __cdecl viObjectNode::~viObjectNode(void)
+[   82]         0x51  public: virtual __cdecl viObjectShape::~viObjectShape(void)
+[   83]         0x52  public: virtual __cdecl viObjectShapeCustom::~viObjectShapeCustom(void)
+[   84]         0x53  public: virtual __cdecl vi_helper::~vi_helper(void)
+[   85]         0x54  public: __cdecl wShape::~wShape(void)
+[   86]         0x55  public: class Evoker<class LandObjectDestroyNotifierBase, class Link<class LandObjectDestroyNotifierBase>> & __cdecl Evoker<class LandObjectDestroyNotifierBase, class Link<class LandObjectDestroyNotifierBase>>::operator=(class Evoker<class LandObjectDestroyNotifierBase, class Link<class LandObjectDestroyNotifierBase>> const &)
+[   87]         0x56  public: class DamageInfo & __cdecl DamageInfo::operator=(class DamageInfo &&)
+[   88]         0x57  public: class DamageInfo & __cdecl DamageInfo::operator=(class DamageInfo const &)
+[   89]         0x58  public: class DistanceKiller & __cdecl DistanceKiller::operator=(class DistanceKiller const &)
+[   90]         0x59  public: class DistanceKillerManager & __cdecl DistanceKillerManager::operator=(class DistanceKillerManager const &)
+[   91]         0x5A  public: class ForestSceneObject & __cdecl ForestSceneObject::operator=(class ForestSceneObject &&)
+[   92]         0x5B  public: class ForestSceneObject & __cdecl ForestSceneObject::operator=(class ForestSceneObject const &)
+[   93]         0x5C  public: class HierarchyLayer & __cdecl HierarchyLayer::operator=(class HierarchyLayer const &)
+[   94]         0x5D  public: class HierarchyLinearNode & __cdecl HierarchyLinearNode::operator=(class HierarchyLinearNode const &)
+[   95]         0x5E  public: class HierarchyStorage & __cdecl HierarchyStorage::operator=(class HierarchyStorage const &)
+[   96]         0x5F  public: class LandObjectDestroyNotifierBase & __cdecl LandObjectDestroyNotifierBase::operator=(class LandObjectDestroyNotifierBase &&)
+[   97]         0x60  public: class LandObjectDestroyNotifierBase & __cdecl LandObjectDestroyNotifierBase::operator=(class LandObjectDestroyNotifierBase const &)
+[   98]         0x61  public: class LandObjectDestroySignal & __cdecl LandObjectDestroySignal::operator=(class LandObjectDestroySignal &&)
+[   99]         0x62  public: class LandObjectDestroySignal & __cdecl LandObjectDestroySignal::operator=(class LandObjectDestroySignal const &)
+[  100]         0x63  public: struct LandObjectInitData & __cdecl LandObjectInitData::operator=(struct LandObjectInitData &&)
+[  101]         0x64  public: struct LandObjectInitData & __cdecl LandObjectInitData::operator=(struct LandObjectInitData const &)
+[  102]         0x65  public: class RegisterManager & __cdecl RegisterManager::operator=(class RegisterManager const &)
+[  103]         0x66  public: class TerrainSceneObject & __cdecl TerrainSceneObject::operator=(class TerrainSceneObject &&)
+[  104]         0x67  public: class TerrainSceneObject & __cdecl TerrainSceneObject::operator=(class TerrainSceneObject const &)
+[  105]         0x68  public: class lTypeObjectManager & __cdecl lTypeObjectManager::operator=(class lTypeObjectManager const &)
+[  106]         0x69  public: struct viClosestHandlerInfo & __cdecl viClosestHandlerInfo::operator=(struct viClosestHandlerInfo &&)
+[  107]         0x6A  public: struct viClosestHandlerInfo & __cdecl viClosestHandlerInfo::operator=(struct viClosestHandlerInfo const &)
+[  108]         0x6B  public: class viLight & __cdecl viLight::operator=(class viLight const &)
+[  109]         0x6C  public: class viObject & __cdecl viObject::operator=(class viObject const &)
+[  110]         0x6D  public: struct wShape & __cdecl wShape::operator=(struct wShape &&)
+[  111]         0x6E  public: struct wShape & __cdecl wShape::operator=(struct wShape const &)
+[  112]         0x6F  public: bool __cdecl SceneObject::operator bool(void) const
+[  113]         0x70  const Evoker<class LandObjectDestroyNotifierBase, class Link<class LandObjectDestroyNotifierBase>>::`vftable'
+[  114]         0x71  const DistanceKiller::`vftable'
+[  115]         0x72  const ForestSceneObject::`vftable'
+[  116]         0x73  const HierarchyLayer::`vftable'
+[  117]         0x74  const HierarchyLinearNode::`vftable'
+[  118]         0x75  const HierarchyStorage::`vftable'
+[  119]         0x76  const LandObjectDestroyNotifierBase::`vftable'
+[  120]         0x77  const LandObjectDestroySignal::`vftable'
+[  121]         0x78  const RegisterManager::`vftable'
+[  122]         0x79  const SceneObject::`vftable'
+[  123]         0x7A  const TerrainSceneObject::`vftable'
+[  124]         0x7B  const lLandObject::`vftable'{for `ISceneObject'}
+[  125]         0x7C  const lLandObject::`vftable'{for `Graphics::ModelInstance'}
+[  126]         0x7D  const lLandObject::`vftable'{for `viObject'}
+[  127]         0x7E  const lTypeObjectManager::`vftable'
+[  128]         0x7F  const viLight::`vftable'{for `Suicide'}
+[  129]         0x80  const viLight::`vftable'{for `viObject'}
+[  130]         0x81  const viMovingObject::`vftable'{for `ISceneObject'}
+[  131]         0x82  const viMovingObject::`vftable'{for `Graphics::ModelInstance'}
+[  132]         0x83  const viMovingObject::`vftable'{for `viObject'}
+[  133]         0x84  const viObject::`vftable'
+[  134]         0x85  const viObjectNode::`vftable'{for `ISceneObject'}
+[  135]         0x86  const viObjectNode::`vftable'{for `Graphics::ModelInstance'}
+[  136]         0x87  const viObjectNode::`vftable'{for `viObject'}
+[  137]         0x88  const viObjectShape::`vftable'{for `ISceneObject'}
+[  138]         0x89  const viObjectShape::`vftable'{for `Graphics::ModelInstance'}
+[  139]         0x8A  const viObjectShape::`vftable'{for `viObject'}
+[  140]         0x8B  const viObjectShapeCustom::`vftable'{for `ISceneObject'}
+[  141]         0x8C  const viObjectShapeCustom::`vftable'{for `Graphics::ModelInstance'}
+[  142]         0x8D  const viObjectShapeCustom::`vftable'{for `viObject'}
+[  143]         0x8E  const wShape::`vftable'
+[  144]         0x8F  public: void __cdecl Registered::`default ctor closure'(void)
+[  145]         0x90  public: void __cdecl viMovingObject::`default ctor closure'(void)
+[  146]         0x91  public: void __cdecl viObject::`default ctor closure'(void)
+[  147]         0x92  public: void __cdecl viObjectFlatShape::`default ctor closure'(void)
+[  148]         0x93  public: void __cdecl viObjectNode::`default ctor closure'(void)
+[  149]         0x94  public: void __cdecl viObjectShape::`default ctor closure'(void)
+[  150]         0x95  private: int __cdecl viObjectNode::AddChild(class viObjectNode *)
+[  151]         0x96  public: static void __cdecl lLandObject::AddDestroyedObject(unsigned int)
+[  152]         0x97  public: virtual bool __cdecl HierarchyLinearNode::AddObject(class HierarchyNode *)
+[  153]         0x98  public: virtual bool __cdecl HierarchyStorage::AddObjectPrivate(class viObject *)
+[  154]         0x99  public: virtual void __cdecl viLight::AddToEffects(class Graphics::effectState *)
+[  155]         0x9A  void __cdecl AircraftSetBoardNumberArgs(class ed::vector<float, class ed::allocator128<float>> &, class ed::basic_string<char> const &)
+[  156]         0x9B  public: virtual void __cdecl lObjectDynData::ArgNetState(struct Graphics::AnimHolderNetState &)
+[  157]         0x9C  public: virtual void __cdecl lObjectDynData::ArgNetStateSet(struct Graphics::AnimHolderNetState const &)
+[  158]         0x9D  public: virtual bool __cdecl lObjectDynData::ArgPlay(int, float, float, float)
+[  159]         0x9E  public: virtual bool __cdecl lObjectDynData::ArgSet(int, float)
+[  160]         0x9F  public: virtual void __cdecl HierarchyLayer::Build(void)
+[  161]         0xA0  public: virtual void __cdecl HierarchyLayer::CalculateBoxes(void)
+[  162]         0xA1  public: virtual bool __cdecl lLandObject::CanTakeDamage(float)
+[  163]         0xA2  public: void __cdecl viObjectNode::ChangeParent(class viObjectNode *)
+[  164]         0xA3  public: virtual void __cdecl viObject::ChangePos(class wPosition3<float> const &)
+[  165]         0xA4  protected: virtual void __cdecl viObjectNode::ChangePos(class wPosition3<float> const &)
+[  166]         0xA5  public: virtual void __cdecl viObjectShape::ChangePos(class wPosition3<float> const &)
+[  167]         0xA6  public: class viObjectNode * __cdecl viObjectNode::Child(int) const
+[  168]         0xA7  public: int __cdecl viObjectNode::ChildCount(void) const
+[  169]         0xA8  public: static void __cdecl lLandObject::ClearDestroyedObjects(void)
+[  170]         0xA9  public: enum wcCoalitionName __cdecl lLandObject::Coalition(void) const
+[  171]         0xAA  public: unsigned int __cdecl viSearch::Count(void) const
+[  172]         0xAB  public: unsigned char __cdecl lLandObject::Country(void) const
+[  173]         0xAC  public: static class RegisterManager * __cdecl RegisterManager::Create(void)
+[  174]         0xAD  public: static class lTypeObjectManager * __cdecl lTypeObjectManager::Create(void)
+[  175]         0xAE  public: static class viLight * __cdecl viLight::Create(char const *)
+[  176]         0xAF  public: static class viObjectManager * __cdecl viObjectManager::Create(class osg::BoundingBoxImpl<class osg::Vec3f> const &)
+[  177]         0xB0  protected: virtual void __cdecl lLandObject::CreateDynamicData(void)
+[  178]         0xB1  public: static class viObjectShapeCustom * __cdecl viObjectShapeCustom::CreateObject(char const *, class wPosition3<float> const &, double, class viObjectNode *)
+[  179]         0xB2  public: static class viObjectShapeCustom * __cdecl viObjectShapeCustom::CreateObject(class Graphics::ModelPtr, class wPosition3<float> const &, double, class viObjectNode *)
+[  180]         0xB3  public: double __cdecl lLandObject::CurLife(void) const
+[  181]         0xB4  public: void __cdecl lLandObject::Degrade(bool, unsigned int)
+[  182]         0xB5  public: virtual void __cdecl lLandObject::Degrade(bool)
+[  183]         0xB6  public: virtual void __cdecl HierarchyLinearNode::DeleteObjects(void)
+[  184]         0xB7  public: static void __cdecl lTypeObjectManager::Destroy(void)
+[  185]         0xB8  public: static void __cdecl viLight::Destroy(class viLight *)
+[  186]         0xB9  public: static void __cdecl viLight::Destroy(class Link<class viLight>)
+[  187]         0xBA  public: class lObjectDynData * __cdecl lLandObject::DynData(void)
+[  188]         0xBB  public: class lObjectDynData const * __cdecl lLandObject::DynData(void) const
+[  189]         0xBC  public: void __cdecl viSearch::Finish(void)
+[  190]         0xBD  public: static void __cdecl wShape::Finish(void)
+[  191]         0xBE  public: virtual bool __cdecl Registered::ForceID(unsigned int, unsigned int)
+[  192]         0xBF  protected: virtual bool __cdecl lLandObject::ForceID(unsigned int, unsigned int)
+[  193]         0xC0  public: virtual bool __cdecl viObject::ForceID(unsigned int, unsigned int)
+[  194]         0xC1  public: void __cdecl lLandObject::GetArgsNetState(struct Graphics::AnimHolderNetState &)
+[  195]         0xC2  public: virtual class osg::BoundingBoxImpl<class osg::Vec3f> const & __cdecl HierarchyLinearNode::GetBox(void) const
+[  196]         0xC3  public: int __cdecl viObjectManager::GetBoxList(class osg::Vec3f const &, class osg::Vec3f const &, bool (__cdecl *)(class viObject *, class viSearch *, void *), void *, unsigned int)
+[  197]         0xC4  public: int __cdecl viObjectManager::GetBoxList(class osg::Vec3f const &, class osg::Vec3f const &, class viObject **, int, unsigned int)
+[  198]         0xC5  public: int __cdecl viObjectManager::GetCameraList(class wPosition3<float> &, float, float, bool (__cdecl *)(class viObject *, class viSearch *, void *), void *, unsigned int, float)
+[  199]         0xC6  public: int __cdecl viObjectManager::GetCameraList(class wPosition3<float> &, float, float, class viObject **, int, unsigned int)
+[  200]         0xC7  public: virtual unsigned int __cdecl HierarchyLinearNode::GetCount(void)
+[  201]         0xC8  public: virtual unsigned int __cdecl HierarchyStorage::GetCount(void)
+[  202]         0xC9  public: class Registered * __cdecl DamageInfo::GetDamager(void) const
+[  203]         0xCA  public: static struct wShape * __cdecl wShape::GetDecl(int, int)
+[  204]         0xCB  public: static struct wShape * __cdecl wShape::GetDecl(char const *)
+[  205]         0xCC  public: virtual class ed::vector<float, class ed::allocator128<float>> const & __cdecl viObjectShape::GetDrawArguments(void)
+[  206]         0xCD  public: virtual class ed::vector<float, class ed::allocator128<float>> const & __cdecl viObjectShapeCustom::GetDrawArguments(void)
+[  207]         0xCE  public: class lObjectDynData * __cdecl lLandObject::GetDynData(bool)
+[  208]         0xCF  public: class Graphics::effectState & __cdecl viObjectShape::GetEffectState(void)
+[  209]         0xD0  public: float __cdecl DistanceKiller::GetKillerDistance(void)
+[  210]         0xD1  public: virtual class osg::Vec3f __cdecl viLight::GetLuminanceAt(class osg::Vec3f const &)
+[  211]         0xD2  public: virtual class Graphics::ModelPtr __cdecl wShape::GetModel(void)
+[  212]         0xD3  public: virtual bool __cdecl HierarchyLinearNode::GetObjects(class viSearch *, enum IntersectionType)
+[  213]         0xD4  public: virtual void __cdecl HierarchyStorage::GetObjects(class viSearch *)
+[  214]         0xD5  public: int __cdecl viObjectManager::GetObjects(class ClipVolume const *, bool (__cdecl *)(class viObject *, class viSearch *, void *), void *, unsigned int)
+[  215]         0xD6  public: int __cdecl viObjectManager::GetObjects(class ClipVolume const *, class viObject **, int, unsigned int)
+[  216]         0xD7  public: virtual class osg::Vec3d __cdecl ModelLightObject::GetPoint(void)
+[  217]         0xD8  public: virtual class osg::Vec3d __cdecl lLandObject::GetPoint(void)
+[  218]         0xD9  public: virtual class osg::Vec3d __cdecl viObject::GetPoint(void)
+[  219]         0xDA  public: virtual class osg::Vec3d __cdecl viObjectShape::GetPoint(void)
+[  220]         0xDB  public: virtual class osg::Vec3d __cdecl viObjectShapeCustom::GetPoint(void)
+[  221]         0xDC  public: virtual class wPosition3<float> const & __cdecl ModelLightObject::GetPosition(void)
+[  222]         0xDD  public: virtual class wPosition3<float> const & __cdecl lLandObject::GetPosition(void)
+[  223]         0xDE  public: virtual class wPosition3<float> const & __cdecl viLight::GetPosition(void)
+[  224]         0xDF  public: virtual class wPosition3<float> const & __cdecl viObjectNode::GetPosition(void)
+[  225]         0xE0  public: virtual class wPosition3<float> const & __cdecl viObjectShapeCustom::GetPosition(void)
+[  226]         0xE1  public: int __cdecl viObjectManager::GetSegmentList(class osg::Vec3f const &, class osg::Vec3f const &, bool (__cdecl *)(class viObject *, class viSearch *, void *), void *, unsigned int)
+[  227]         0xE2  public: int __cdecl viObjectManager::GetSegmentList(class osg::Vec3f const &, class osg::Vec3f const &, class viObject **, int, unsigned int)
+[  228]         0xE3  public: virtual float __cdecl ModelLightObject::GetSize(void)
+[  229]         0xE4  public: virtual float __cdecl viLight::GetSize(void)
+[  230]         0xE5  public: virtual float __cdecl viMovingObject::GetSize(void)
+[  231]         0xE6  public: virtual void __cdecl HierarchyStorage::GetStatistics(char *const)
+[  232]         0xE7  public: bool __cdecl ModelLightObject::Init(class viObjectShape *, unsigned int)
+[  233]         0xE8  public: virtual void __cdecl lLandObject::Init(struct LandObjectInitData const &)
+[  234]         0xE9  public: virtual void __cdecl lObjectDynData::Init(class lLandObject *)
+[  235]         0xEA  public: virtual bool __cdecl viLight::Init(char const *)
+[  236]         0xEB  protected: void __cdecl viObjectShapeCustom::Init(class viObjectNode *, class wPosition3<float> const &, double)
+[  237]         0xEC  public: static void __cdecl wShape::Init(bool, bool)
+[  238]         0xED  public: static void __cdecl wShape::InitLand(void)
+[  239]         0xEE  public: virtual bool __cdecl lLandObject::IsDead(void) const
+[  240]         0xEF  public: static bool __cdecl lLandObject::IsMarkedDestroyed(unsigned int)
+[  241]         0xF0  public: bool __cdecl lLandObject::IsNetServer(void) const
+[  242]         0xF1  public: bool __cdecl viObject::IsSearch(int)
+[  243]         0xF2  public: virtual float __cdecl lLandObject::Life0(void) const
+[  244]         0xF3  public: virtual float __cdecl lLandObject::Life(void) const
+[  245]         0xF4  public: virtual struct gBox const & __cdecl lLandObject::LocalBox(double)
+[  246]         0xF5  public: virtual struct gBox const & __cdecl viLight::LocalBox(double)
+[  247]         0xF6  public: virtual struct gBox const & __cdecl viObjectShape::LocalBox(double)
+[  248]         0xF7  public: virtual char const * __cdecl HierarchyStorage::Name(void)
+[  249]         0xF8  public: bool __cdecl viObjectShape::OnChangeEffectState(void)
+[  250]         0xF9  private: virtual void __cdecl lLandObject::OnParentChangePos(void)
+[  251]         0xFA  protected: virtual void __cdecl viObjectNode::OnParentChangePos(void)
+[  252]         0xFB  public: virtual void __cdecl viObjectShapeCustom::OnParentChangePos(void)
+[  253]         0xFC  protected: virtual void __cdecl viObjectNode::OnParentDeath(void)
+[  254]         0xFD  private: virtual void __cdecl viObjectShapeCustom::OnParentDeath(void)
+[  255]         0xFE  public: class viObjectNode * __cdecl viObjectNode::Parent(void) const
+[  256]         0xFF  public: virtual void __cdecl lLandObject::Parse(class Graphics::ModelParser &, class wPosition3<float> const &, class Graphics::effectState *)
+[  257]        0x100  public: virtual void __cdecl viObject::Parse(class Graphics::ModelParser &, class wPosition3<float> const &, class Graphics::effectState *)
+[  258]        0x101  public: virtual void __cdecl viObjectShape::Parse(class Graphics::ModelParser &, class wPosition3<float> const &, class Graphics::effectState *)
+[  259]        0x102  public: virtual void __cdecl viObjectShape::ParseWithVolumeTestResult(class Graphics::ModelParser &, class wPosition3<float> const &, enum IntersectionType)
+[  260]        0x103  public: bool __cdecl lLandObject::PlayArg(int, float, float, float)
+[  261]        0x104  public: virtual class wPosition3<float> const & __cdecl lLandObject::Position(double)
+[  262]        0x105  public: virtual class wPosition3<float> const & __cdecl viLight::Position(double)
+[  263]        0x106  public: virtual class wPosition3<float> const & __cdecl viObjectShapeCustom::Position(double)
+[  264]        0x107  public: virtual void __cdecl lLandObject::PostCollisionProcessing(struct wsCollisionData *)
+[  265]        0x108  public: virtual void __cdecl ModelLightObject::PrepareFrame(class osg::Vec3d const &)
+[  266]        0x109  public: virtual void __cdecl viLight::PrepareFrame(class osg::Vec3d const &)
+[  267]        0x10A  protected: virtual bool __cdecl HierarchyLayer::PreserveHere(class HierarchyNode *)
+[  268]        0x10B  protected: virtual bool __cdecl HierarchyLinearNode::PreserveHere(class HierarchyNode *)
+[  269]        0x10C  public: virtual void __cdecl HierarchyStorage::Purge(unsigned int)
+[  270]        0x10D  public: class Graphics::Light * __cdecl viLight::QueryEditor(void)
+[  271]        0x10E  private: void __cdecl viObjectNode::RecursiveLightsUpdate(void)
+[  272]        0x10F  private: void __cdecl DistanceKillerManager::Register(class DistanceKiller *)
+[  273]        0x110  protected: virtual bool __cdecl Registered::Register(void)
+[  274]        0x111  protected: virtual bool __cdecl viObject::Register(void)
+[  275]        0x112  public: void __cdecl DistanceKiller::RegisterKillByDistance(void)
+[  276]        0x113  public: virtual void __cdecl lLandObject::ReinitState(void)
+[  277]        0x114  private: void __cdecl viObjectNode::RemoveChild(int)
+[  278]        0x115  public: virtual bool __cdecl HierarchyLinearNode::RemoveObject(class HierarchyNode *)
+[  279]        0x116  public: virtual bool __cdecl HierarchyStorage::RemoveObjectPrivate(class viObject *)
+[  280]        0x117  public: virtual float __cdecl viMovingObject::ScalarVelocity(void) const
+[  281]        0x118  public: bool __cdecl viObject::SearchFromThisNode(class viSearch *)
+[  282]        0x119  public: void __cdecl HierarchyLayer::SetAcceptance(bool)
+[  283]        0x11A  public: void __cdecl lLandObject::SetArgsNetState(struct Graphics::AnimHolderNetState const &)
+[  284]        0x11B  public: void __cdecl lLandObject::SetCoalition(enum wcCoalitionName)
+[  285]        0x11C  public: bool __cdecl lLandObject::SetDrawArg(int, float)
+[  286]        0x11D  public: void __cdecl DistanceKiller::SetKillerDistance(float)
+[  287]        0x11E  private: void __cdecl lLandObject::SetLife(double)
+[  288]        0x11F  public: virtual void __cdecl lObjectDynData::SetLife(double)
+[  289]        0x120  public: virtual void __cdecl viObjectShape::SetModel(class Graphics::ModelPtr)
+[  290]        0x121  public: virtual void __cdecl viObjectShapeCustom::SetModel(class Graphics::ModelPtr)
+[  291]        0x122  public: void __cdecl viObjectShape::SetModelByName(char const *)
+[  292]        0x123  public: void __cdecl viObjectShapeCustom::SetModelParam(int, float)
+[  293]        0x124  public: void __cdecl viObjectShapeCustom::SetModelParams(class ed::vector<float, class ed::allocator128<float>> const &)
+[  294]        0x125  public: void __cdecl lObjectDynData::SetOwner(class lLandObject *)
+[  295]        0x126  public: void __cdecl viObjectShapeCustom::SetPoint(class osg::Vec3d const &)
+[  296]        0x127  public: virtual void __cdecl lLandObject::SetPos(class wPosition3<float> const &)
+[  297]        0x128  public: virtual void __cdecl viLight::SetPosition(class wPosition3<float> const &)
+[  298]        0x129  public: static void __cdecl wShape::SetPositionType(unsigned char)
+[  299]        0x12A  public: void __cdecl viObject::SetSearchID(int)
+[  300]        0x12B  public: void __cdecl DistanceKillerManager::SetThreshold(float)
+[  301]        0x12C  public: static void __cdecl wShape::Start(void)
+[  302]        0x12D  public: static void __cdecl wShape::StartNet(void)
+[  303]        0x12E  public: static void __cdecl wShape::Stop(void)
+[  304]        0x12F  public: class viObject ** __cdecl viSearch::Store(void)
+[  305]        0x130  public: virtual bool __cdecl HierarchyLayer::Subdivide(void)
+[  306]        0x131  public: virtual void __cdecl viObject::SubmitImmediateDebugGeometry(void)
+[  307]        0x132  public: virtual void __cdecl lLandObject::TakeDamage(double, unsigned int, unsigned int)
+[  308]        0x133  public: virtual bool __cdecl viSearch::TestAndInsert(class viObject *, bool)
+[  309]        0x134  public: virtual enum IntersectionType __cdecl viLight::TestVolume(class ClipVolume const &)
+[  310]        0x135  public: virtual enum IntersectionType __cdecl viObject::TestVolume(class ClipVolume const &)
+[  311]        0x136  public: virtual enum IntersectionType __cdecl viObjectFlatShape::TestVolume(class ClipVolume const &)
+[  312]        0x137  protected: class wPosition3<float> __cdecl viObjectNode::TopMostParentSpace_GetPosition(void)
+[  313]        0x138  public: struct wShape * __cdecl lLandObject::Type0(void) const
+[  314]        0x139  public: struct wShape * __cdecl lLandObject::Type(void) const
+[  315]        0x13A  private: void __cdecl DistanceKillerManager::Unregister(class DistanceKiller *)
+[  316]        0x13B  protected: virtual bool __cdecl Registered::Unregister(void)
+[  317]        0x13C  protected: virtual bool __cdecl viObject::Unregister(void)
+[  318]        0x13D  public: void __cdecl DistanceKiller::UnregisterKillByDistance(void)
+[  319]        0x13E  public: void __cdecl DistanceKillerManager::Update(class osg::Vec3f const &)
+[  320]        0x13F  public: virtual void __cdecl ModelLightObject::Update(void)
+[  321]        0x140  public: virtual void __cdecl viLight::Update(void)
+[  322]        0x141  public: virtual unsigned int __cdecl viObject::UpdateGraphicState(void)
+[  323]        0x142  public: virtual unsigned int __cdecl viObjectShape::UpdateGraphicState(void)
+[  324]        0x143  public: void __cdecl lLandObject::UpdateSpaceRegistration(void)
+[  325]        0x144  public: virtual bool __cdecl viObjectNode::UseChildren(double, enum viArgumentPurpose)
+[  326]        0x145  public: virtual class osg::Vec3f const & __cdecl viMovingObject::VectorAngular(void) const
+[  327]        0x146  public: virtual class osg::Vec3f const & __cdecl viMovingObject::VectorVelocity(void) const
+[  328]        0x147  protected: bool __cdecl HierarchyLinearNode::WasInSearch(class viSearch *)
+[  329]        0x148  protected: class osg::Vec3d __cdecl viObjectNode::WorldSpaceWithParents_GetPoint(void)
+[  330]        0x149  protected: class wPosition3<float> __cdecl viObjectNode::WorldSpaceWithParents_GetPosition(void)
+[  331]        0x14A  public: void __cdecl Evoker<class LandObjectDestroyNotifierBase, class Link<class LandObjectDestroyNotifierBase>>::add(class Link<class LandObjectDestroyNotifierBase>)
+[  332]        0x14B  public: void __cdecl lLandObject::advanceGraphRevision(void)
+[  333]        0x14C  void __cdecl allocateRequiredAmount(class ed::vector<float, class ed::allocator128<float>> &, unsigned int, class Graphics::ModelPtr)
+[  334]        0x14D  public: void __cdecl vi_helper::attach_obj(class eddd::DbgObjWrapper<class eddd::IDbgObj>, class wPosition3<float> const &)
+[  335]        0x14E  public: void __cdecl vi_helper::attach_obj_at_index(unsigned int, class eddd::DbgObjWrapper<class eddd::IDbgObj>, class wPosition3<float> const *)
+[  336]        0x14F  class DistanceKillerManager cameraKiller
+[  337]        0x150  public: virtual bool __cdecl viObjectShape::canBeImpostor(void) const
+[  338]        0x151  public: void __cdecl Evoker<class LandObjectDestroyNotifierBase, class Link<class LandObjectDestroyNotifierBase>>::cancel(void)
+[  339]        0x152  public: virtual class Effects::GraphicEffect * __cdecl viObject::cast_GraphicEffect(void)
+[  340]        0x153  public: virtual class MovingObject * __cdecl Registered::cast_MovingObject(void)
+[  341]        0x154  public: virtual class lLandObject * __cdecl Registered::cast_lLandObject(void)
+[  342]        0x155  public: virtual class lLandObject * __cdecl lLandObject::cast_lLandObject(void)
+[  343]        0x156  public: virtual class viObject * __cdecl Registered::cast_viObject(void)
+[  344]        0x157  public: virtual class viObject * __cdecl viObject::cast_viObject(void)
+[  345]        0x158  public: virtual class viObjectNode * __cdecl Registered::cast_viObjectNode(void)
+[  346]        0x159  public: virtual class viObjectNode * __cdecl viObjectNode::cast_viObjectNode(void)
+[  347]        0x15A  public: virtual class viObjectShape * __cdecl Registered::cast_viObjectShape(void)
+[  348]        0x15B  public: virtual class viObjectShape * __cdecl viObjectShape::cast_viObjectShape(void)
+[  349]        0x15C  public: virtual class viObjectShapeCustom * __cdecl Registered::cast_viObjectShapeCustom(void)
+[  350]        0x15D  public: virtual class viObjectShapeCustom * __cdecl viObjectShapeCustom::cast_viObjectShapeCustom(void)
+[  351]        0x15E  public: virtual bool __cdecl viObject::checkDrawingInCockpit(void)
+[  352]        0x15F  private: bool __cdecl Evoker<class LandObjectDestroyNotifierBase, class Link<class LandObjectDestroyNotifierBase>>::checkEachIteration(class std::_Vector_iterator<class std::_Vector_val<struct std::_Simple_types<class Link<class LandObjectDestroyNotifierBase>>>> &)
+[  353]        0x160  public: void __cdecl Evoker<class LandObjectDestroyNotifierBase, class Link<class LandObjectDestroyNotifierBase>>::clear(void)
+[  354]        0x161  public: static class vi_helper * __cdecl vi_helper::create(class eddd::DbgObjWrapper<class eddd::IDbgObj>)
+[  355]        0x162  public: void __cdecl lLandObject::destroy(void)
+[  356]        0x163  protected: void __cdecl lLandObject::detachFromTerrainSceneObject(void)
+[  357]        0x164  public: void __cdecl vi_helper::detach_all(void)
+[  358]        0x165  public: void __cdecl Evoker<class LandObjectDestroyNotifierBase, class Link<class LandObjectDestroyNotifierBase>>::evoke(void (__cdecl LandObjectDestroyNotifierBase::*)(void))
+[  359]        0x166  public: void __cdecl viObjectNode::for_each_child(double, enum viArgumentPurpose, class std::function<void __cdecl(class viObjectNode *)>)
+[  360]        0x167  class ed::vector<struct argValuePair, class ed::allocator<struct argValuePair>> __cdecl getArgsFromLiveryDiff(class ILivery const *, class ed::vector<float, class ed::allocator128<float>> const &)
+[  361]        0x168  public: class Graphics::Light * __cdecl viLight::getGraphicsLight(void) const
+[  362]        0x169  public: static int __cdecl RegStorage::getHostID(void)
+[  363]        0x16A  public: class ed::vector<class ModelLightObject *, class ed::allocator<class ModelLightObject *>> & __cdecl ModelLights::getLights(void)
+[  364]        0x16B  public: class ed::basic_string<char> const & __cdecl lLandObject::getMissionID(void) const
+[  365]        0x16C  public: virtual class model::IModelParams const * __cdecl ForestSceneObject::getModelParams(void) const
+[  366]        0x16D  public: virtual class model::IModelParams const * __cdecl SceneObject::getModelParams(void) const
+[  367]        0x16E  public: virtual class model::IModelParams const * __cdecl TerrainSceneObject::getModelParams(void) const
+[  368]        0x16F  public: virtual class model::IModelParams const * __cdecl viObjectShape::getModelParams(void) const
+[  369]        0x170  public: class ed::basic_string<char> const & __cdecl lLandObject::getName(void) const
+[  370]        0x171  public: virtual unsigned int __cdecl ForestSceneObject::getObjectID(void) const
+[  371]        0x172  public: virtual unsigned int __cdecl SceneObject::getObjectID(void) const
+[  372]        0x173  public: virtual unsigned int __cdecl TerrainSceneObject::getObjectID(void) const
+[  373]        0x174  public: virtual unsigned int __cdecl viObjectShape::getObjectID(void) const
+[  374]        0x175  public: virtual class osg::Matrixd __cdecl ForestSceneObject::getObjectPosition(void) const
+[  375]        0x176  public: virtual class osg::Matrixd __cdecl SceneObject::getObjectPosition(void) const
+[  376]        0x177  public: virtual class osg::Matrixd __cdecl TerrainSceneObject::getObjectPosition(void) const
+[  377]        0x178  public: virtual class osg::Matrixd __cdecl viObjectShape::getObjectPosition(void) const
+[  378]        0x179  public: virtual class model::IModel * __cdecl ForestSceneObject::getObjectType(void) const
+[  379]        0x17A  public: virtual class model::IModel * __cdecl SceneObject::getObjectType(void) const
+[  380]        0x17B  public: virtual class model::IModel * __cdecl TerrainSceneObject::getObjectType(void) const
+[  381]        0x17C  public: virtual class model::IModel * __cdecl lLandObject::getObjectType(void) const
+[  382]        0x17D  public: virtual class model::IModel * __cdecl viObjectShape::getObjectType(void) const
+[  383]        0x17E  public: virtual class wPosition3<float> const & __cdecl viObjectNode::getPositionInParentSpace(double)
+[  384]        0x17F  private: virtual enum positionUsingMode __cdecl lLandObject::getPositionUsingMode(void) const
+[  385]        0x180  public: virtual enum positionUsingMode __cdecl viObjectNode::getPositionUsingMode(void) const
+[  386]        0x181  public: virtual enum positionUsingMode __cdecl viObjectShapeCustom::getPositionUsingMode(void) const
+[  387]        0x182  public: double __cdecl viObject::getRadius(void)
+[  388]        0x183  public: virtual class ISceneObject * __cdecl viObject::getSceneObjectInterface(void)
+[  389]        0x184  public: virtual class ISceneObject * __cdecl viObjectShape::getSceneObjectInterface(void)
+[  390]        0x185  public: struct StaticObjectData const * __cdecl lLandObject::getStaticData(void) const
+[  391]        0x186  public: class ed::basic_string<char> const & __cdecl lLandObject::getTypeName(void) const
+[  392]        0x187  public: virtual unsigned int __cdecl ForestSceneObject::getViType(void) const
+[  393]        0x188  public: virtual unsigned int __cdecl SceneObject::getViType(void) const
+[  394]        0x189  public: virtual unsigned int __cdecl TerrainSceneObject::getViType(void) const
+[  395]        0x18A  public: virtual unsigned int __cdecl viObjectShape::getViType(void) const
+[  396]        0x18B  public: virtual float __cdecl lLandObject::getVisibility(void) const
+[  397]        0x18C  public: virtual float __cdecl viObjectShape::getVisibility(void) const
+[  398]        0x18D  public: virtual class Registered * __cdecl SceneObject::get_Registered(void)
+[  399]        0x18E  public: virtual class Registered * __cdecl viObjectShape::get_Registered(void)
+[  400]        0x18F  public: class eddd::DbgObjWrapper<class eddd::IDbgObj> __cdecl vi_helper::get_attached_object(unsigned int)
+[  401]        0x190  public: class wPosition3<float> const * __cdecl vi_helper::get_attached_object_position(unsigned int) const
+[  402]        0x191  public: void __cdecl vi_helper::hide(void)
+[  403]        0x192  protected: bool __cdecl lLandObject::initFromMapObject(class ISceneObject &)
+[  404]        0x193  public: static class RegisterManager *RegisterManager::instance
+[  405]        0x194  public: static class lDynObjectManager *lDynObjectManager::instance
+[  406]        0x195  public: static class lTypeObjectManager *lTypeObjectManager::instance
+[  407]        0x196  public: static class viObjectManager *viObjectManager::instance
+[  408]        0x197  bool __cdecl intersectModel(class ISceneObject const &, class ISceneObject const &, class ed::basic_string<char> &, class ed::basic_string<char> &, class osg::Vec3d &, class osg::Vec3d &)
+[  409]        0x198  bool __cdecl intersectModel(class ISceneObject const &, class ISceneObject const &, class ed::basic_string<char> &, class ed::basic_string<char> &, class osg::Vec3d &)
+[  410]        0x199  char const * __cdecl intersectSegment(class ISceneObject const &, class osg::Vec3d const &, class osg::Vec3d const &, class osg::Vec3d &, class osg::Vec3d &)
+[  411]        0x19A  char const * __cdecl intersectSegment(class ISceneObject const &, class osg::Vec3d const &, class osg::Vec3d const &, class osg::Vec3d &, double &, class osg::Vec3d &)
+[  412]        0x19B  char const * __cdecl intersectSegment(class ISceneObject const &, class osg::Vec3f const &, class osg::Vec3f const &, class osg::Vec3f &, class osg::Vec3f &)
+[  413]        0x19C  char const * __cdecl intersectSegment(class ISceneObject const &, class osg::Vec3f const &, class osg::Vec3f const &, class osg::Vec3f &, double &, class osg::Vec3f &)
+[  414]        0x19D  protected: bool __cdecl lLandObject::isReflectionOfTerrainSceneObject(void) const
+[  415]        0x19E  public: void __cdecl lLandObject::markTransparentAtThisMoment(bool)
+[  416]        0x19F  protected: void __cdecl Evoker<class LandObjectDestroyNotifierBase, class Link<class LandObjectDestroyNotifierBase>>::merge(class ed::vector<class Link<class LandObjectDestroyNotifierBase>, class ed::allocator<class Link<class LandObjectDestroyNotifierBase>>> &, class ed::vector<class Link<class LandObjectDestroyNotifierBase>, class ed::allocator<class Link<class LandObjectDestroyNotifierBase>>> const &)
+[  417]        0x1A0  protected: virtual void __cdecl viObjectShape::modelReadyToParse(class Graphics::ModelPtr, class Graphics::ModelParser &, class wPosition3<float> const &, class Graphics::effectState *)
+[  418]        0x1A1  public: int __cdecl Registered::netHost(void) const
+[  419]        0x1A2  public: void __cdecl LandObjectDestroySignal::notifyDestroy(class lLandObject *)
+[  420]        0x1A3  public: void __cdecl lLandObject::notifyOnDestroy(class LandObjectDestroyNotifierBase *)
+[  421]        0x1A4  public: bool __cdecl viObjectNode::objectIsPartOfToMe(class ISceneObject &) const
+[  422]        0x1A5  public: bool __cdecl wShape::obtainModel(bool)
+[  423]        0x1A6  private: void __cdecl Evoker<class LandObjectDestroyNotifierBase, class Link<class LandObjectDestroyNotifierBase>>::onFinishEvoke(void)
+[  424]        0x1A7  private: void __cdecl Evoker<class LandObjectDestroyNotifierBase, class Link<class LandObjectDestroyNotifierBase>>::onStartEvoke(void)
+[  425]        0x1A8  protected: virtual void __cdecl lLandObject::onStateChanged(void)
+[  426]        0x1A9  void __cdecl placeToSurface(unsigned int, class wPosition3<float> &, class osg::Vec3f const &, float, class osg::BoundingBoxImpl<class osg::Vec3f> const &)
+[  427]        0x1AA  public: virtual void __cdecl viObject::prepareForRendering(void)
+[  428]        0x1AB  public: static class RandomObject lCrater::randomEvenly
+[  429]        0x1AC  protected: void __cdecl Evoker<class LandObjectDestroyNotifierBase, class Link<class LandObjectDestroyNotifierBase>>::remove(class ed::vector<class Link<class LandObjectDestroyNotifierBase>, class ed::allocator<class Link<class LandObjectDestroyNotifierBase>>> &, class ed::vector<class Link<class LandObjectDestroyNotifierBase>, class ed::allocator<class Link<class LandObjectDestroyNotifierBase>>> const &)
+[  430]        0x1AD  public: void __cdecl Evoker<class LandObjectDestroyNotifierBase, class Link<class LandObjectDestroyNotifierBase>>::remove(class Link<class LandObjectDestroyNotifierBase>)
+[  431]        0x1AE  protected: void __cdecl Evoker<class LandObjectDestroyNotifierBase, class Link<class LandObjectDestroyNotifierBase>>::removeAll(class ed::vector<class Link<class LandObjectDestroyNotifierBase>, class ed::allocator<class Link<class LandObjectDestroyNotifierBase>>> &, class Link<class LandObjectDestroyNotifierBase> const &)
+[  432]        0x1AF  private: void __cdecl lLandObject::removeFromDistrict(void)
+[  433]        0x1B0  void __cdecl setArgsFromLivery(class ILivery const *, class ed::vector<float, class ed::allocator128<float>> &)
+[  434]        0x1B1  void __cdecl setArgsFromLiveryWithRestore(class ILivery const *, class ed::vector<float, class ed::allocator128<float>> &, class ed::vector<struct argValuePair, class ed::allocator<struct argValuePair>> &)
+[  435]        0x1B2  private: static void __cdecl RegStorage::setHostID(int)
+[  436]        0x1B3  protected: virtual void __cdecl lLandObject::setLiveryFrom(struct StaticObjectData const &)
+[  437]        0x1B4  private: void __cdecl lLandObject::setNewShape(struct wShape *)
+[  438]        0x1B5  public: virtual void __cdecl lLandObject::setStaticData(struct StaticObjectData const &)
+[  439]        0x1B6  public: void __cdecl vi_helper::set_attached_object_position(unsigned int, class wPosition3<float> const &)
+[  440]        0x1B7  public: void __cdecl vi_helper::set_lifetime(float)
+[  441]        0x1B8  public: void __cdecl vi_helper::set_obj(class eddd::DbgObjWrapper<class eddd::IDbgObj>)
+[  442]        0x1B9  public: void __cdecl vi_helper::set_point(class osg::Vec3d const &)
+[  443]        0x1BA  public: void __cdecl vi_helper::set_velocity(class osg::Vec3f const &)
+[  444]        0x1BB  public: virtual void __cdecl lLandObject::take_missionID(class ed::basic_string<char> const &, class ed::basic_string<char> const &)
+[  445]        0x1BC  public: void __cdecl vi_helper::unhide(void)
+[  446]        0x1BD  public: void __cdecl ModelLights::update(void)
+[  447]        0x1BE  bool __cdecl viClosestHandler(class viObject *, class viSearch *, void *)
+[  448]        0x1BF  bool __cdecl viCounterHandler(class viObject *, class viSearch *, void *)
+[  449]        0x1C0  unsigned int viDefaultSerializerMask
+[  450]        0x1C1  bool __cdecl viMaxHeightHandler(class viObject *, class viSearch *, void *)
+[  451]        0x1C2  public: bool __cdecl viObjectNode::viObjectNodeIsPartOfToMe(class viObjectNode const *) const
+[  452]        0x1C3  protected: virtual bool __cdecl viObject::viRegister(void)
+[  453]        0x1C4  public: virtual void __cdecl Registered::viSetType(unsigned int)
+[  454]        0x1C5  public: virtual void __cdecl lLandObject::viSetType(unsigned int)
+[  455]        0x1C6  bool __cdecl viShapeHandler(class viObject *, class viSearch *, void *)
+[  456]        0x1C7  protected: virtual bool __cdecl viObject::viUnregister(void)
+[  457]        0x1C8  public: bool __cdecl vi_helper::visible(void)

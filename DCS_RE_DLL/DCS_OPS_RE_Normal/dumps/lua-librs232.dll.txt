@@ -1,0 +1,69 @@
+Microsoft (R) COFF/PE Dumper Version 14.51.36256.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file G:\DCS_OPS_RE\bin\lua-librs232.dll
+
+File Type: DLL
+
+  Section contains the following exports for lua-librs232.dll
+
+    00000000 characteristics
+    FFFFFFFF time date stamp
+        0.00 version
+           1 ordinal base
+          41 number of functions
+          41 number of names
+
+    ordinal hint RVA      name
+
+          1    0 00001F70 luaopen_librs232
+          2    1 000020E0 luaopen_rs232_core
+          3    2 00002450 rs232_close
+          4    3 000024B0 rs232_end
+          5    4 00002520 rs232_fd
+          6    5 00002530 rs232_flush
+          7    6 00002160 rs232_get_baud
+          8    7 00002170 rs232_get_data
+          9    8 00002180 rs232_get_device
+         10    9 00002190 rs232_get_dtr
+         11    A 000021A0 rs232_get_flow
+         12    B 000021B0 rs232_get_parity
+         13    C 000021C0 rs232_get_rts
+         14    D 000021D0 rs232_get_stop
+         15    E 00002590 rs232_in_queue
+         16    F 00002610 rs232_in_queue_clear
+         17   10 00002640 rs232_init
+         18   11 00002710 rs232_open
+         19   12 000021E0 rs232_port_open
+         20   13 00002980 rs232_read
+         21   14 00002D40 rs232_read_timeout
+         22   15 00002DD0 rs232_read_timeout_forced
+         23   16 00002E50 rs232_set_baud
+         24   17 00002F90 rs232_set_data
+         25   18 00003060 rs232_set_device
+         26   19 00003090 rs232_set_dtr
+         27   1A 00003150 rs232_set_flow
+         28   1B 00003230 rs232_set_parity
+         29   1C 000032F0 rs232_set_rts
+         30   1D 000033B0 rs232_set_stop
+         31   1E 000021F0 rs232_strbaud
+         32   1F 00002210 rs232_strdata
+         33   20 00002230 rs232_strdtr
+         34   21 00002250 rs232_strerror
+         35   22 00002270 rs232_strflow
+         36   23 00002290 rs232_strparity
+         37   24 000022B0 rs232_strrts
+         38   25 000022D0 rs232_strstop
+         39   26 000022F0 rs232_to_string
+         40   27 00003470 rs232_write
+         41   28 00003590 rs232_write_timeout
+
+  Summary
+
+        1000 .data
+        1000 .pdata
+        3000 .rdata
+        1000 .reloc
+        1000 .rsrc
+        4000 .text

@@ -1,0 +1,449 @@
+// DCS_OPS_RE: Qt5Xml.dll
+// Generated from dumpbin /exports
+
+[    1]          0x0  private: __cdecl QDomAttr::QDomAttr(class QDomAttrPrivate *)
+[    2]          0x1  public: __cdecl QDomAttr::QDomAttr(class QDomAttr const &)
+[    3]          0x2  public: __cdecl QDomAttr::QDomAttr(void)
+[    4]          0x3  private: __cdecl QDomCDATASection::QDomCDATASection(class QDomCDATASectionPrivate *)
+[    5]          0x4  public: __cdecl QDomCDATASection::QDomCDATASection(class QDomCDATASection const &)
+[    6]          0x5  public: __cdecl QDomCDATASection::QDomCDATASection(void)
+[    7]          0x6  private: __cdecl QDomCharacterData::QDomCharacterData(class QDomCharacterDataPrivate *)
+[    8]          0x7  public: __cdecl QDomCharacterData::QDomCharacterData(class QDomCharacterData const &)
+[    9]          0x8  public: __cdecl QDomCharacterData::QDomCharacterData(void)
+[   10]          0x9  private: __cdecl QDomComment::QDomComment(class QDomCommentPrivate *)
+[   11]          0xA  public: __cdecl QDomComment::QDomComment(class QDomComment const &)
+[   12]          0xB  public: __cdecl QDomComment::QDomComment(void)
+[   13]          0xC  private: __cdecl QDomDocument::QDomDocument(class QDomDocumentPrivate *)
+[   14]          0xD  public: __cdecl QDomDocument::QDomDocument(class QDomDocument const &)
+[   15]          0xE  public: __cdecl QDomDocument::QDomDocument(class QDomDocumentType const &)
+[   16]          0xF  public: __cdecl QDomDocument::QDomDocument(class QString const &)
+[   17]         0x10  public: __cdecl QDomDocument::QDomDocument(void)
+[   18]         0x11  private: __cdecl QDomDocumentFragment::QDomDocumentFragment(class QDomDocumentFragmentPrivate *)
+[   19]         0x12  public: __cdecl QDomDocumentFragment::QDomDocumentFragment(class QDomDocumentFragment const &)
+[   20]         0x13  public: __cdecl QDomDocumentFragment::QDomDocumentFragment(void)
+[   21]         0x14  private: __cdecl QDomDocumentType::QDomDocumentType(class QDomDocumentTypePrivate *)
+[   22]         0x15  public: __cdecl QDomDocumentType::QDomDocumentType(class QDomDocumentType const &)
+[   23]         0x16  public: __cdecl QDomDocumentType::QDomDocumentType(void)
+[   24]         0x17  private: __cdecl QDomElement::QDomElement(class QDomElementPrivate *)
+[   25]         0x18  public: __cdecl QDomElement::QDomElement(class QDomElement const &)
+[   26]         0x19  public: __cdecl QDomElement::QDomElement(void)
+[   27]         0x1A  private: __cdecl QDomEntity::QDomEntity(class QDomEntityPrivate *)
+[   28]         0x1B  public: __cdecl QDomEntity::QDomEntity(class QDomEntity const &)
+[   29]         0x1C  public: __cdecl QDomEntity::QDomEntity(void)
+[   30]         0x1D  private: __cdecl QDomEntityReference::QDomEntityReference(class QDomEntityReferencePrivate *)
+[   31]         0x1E  public: __cdecl QDomEntityReference::QDomEntityReference(class QDomEntityReference const &)
+[   32]         0x1F  public: __cdecl QDomEntityReference::QDomEntityReference(void)
+[   33]         0x20  private: __cdecl QDomImplementation::QDomImplementation(class QDomImplementationPrivate *)
+[   34]         0x21  public: __cdecl QDomImplementation::QDomImplementation(class QDomImplementation const &)
+[   35]         0x22  public: __cdecl QDomImplementation::QDomImplementation(void)
+[   36]         0x23  private: __cdecl QDomNamedNodeMap::QDomNamedNodeMap(class QDomNamedNodeMapPrivate *)
+[   37]         0x24  public: __cdecl QDomNamedNodeMap::QDomNamedNodeMap(class QDomNamedNodeMap const &)
+[   38]         0x25  public: __cdecl QDomNamedNodeMap::QDomNamedNodeMap(void)
+[   39]         0x26  protected: __cdecl QDomNode::QDomNode(class QDomNodePrivate *)
+[   40]         0x27  public: __cdecl QDomNode::QDomNode(class QDomNode const &)
+[   41]         0x28  public: __cdecl QDomNode::QDomNode(void)
+[   42]         0x29  private: __cdecl QDomNodeList::QDomNodeList(class QDomNodeListPrivate *)
+[   43]         0x2A  public: __cdecl QDomNodeList::QDomNodeList(class QDomNodeList const &)
+[   44]         0x2B  public: __cdecl QDomNodeList::QDomNodeList(void)
+[   45]         0x2C  private: __cdecl QDomNotation::QDomNotation(class QDomNotationPrivate *)
+[   46]         0x2D  public: __cdecl QDomNotation::QDomNotation(class QDomNotation const &)
+[   47]         0x2E  public: __cdecl QDomNotation::QDomNotation(void)
+[   48]         0x2F  private: __cdecl QDomProcessingInstruction::QDomProcessingInstruction(class QDomProcessingInstructionPrivate *)
+[   49]         0x30  public: __cdecl QDomProcessingInstruction::QDomProcessingInstruction(class QDomProcessingInstruction const &)
+[   50]         0x31  public: __cdecl QDomProcessingInstruction::QDomProcessingInstruction(void)
+[   51]         0x32  private: __cdecl QDomText::QDomText(class QDomTextPrivate *)
+[   52]         0x33  public: __cdecl QDomText::QDomText(class QDomText const &)
+[   53]         0x34  public: __cdecl QDomText::QDomText(void)
+[   54]         0x35  public: __cdecl QXmlAttributes::QXmlAttributes(class QXmlAttributes &&)
+[   55]         0x36  public: __cdecl QXmlAttributes::QXmlAttributes(class QXmlAttributes const &)
+[   56]         0x37  public: __cdecl QXmlAttributes::QXmlAttributes(void)
+[   57]         0x38  public: __cdecl QXmlContentHandler::QXmlContentHandler(class QXmlContentHandler const &)
+[   58]         0x39  public: __cdecl QXmlContentHandler::QXmlContentHandler(void)
+[   59]         0x3A  public: __cdecl QXmlDTDHandler::QXmlDTDHandler(class QXmlDTDHandler const &)
+[   60]         0x3B  public: __cdecl QXmlDTDHandler::QXmlDTDHandler(void)
+[   61]         0x3C  public: __cdecl QXmlDeclHandler::QXmlDeclHandler(class QXmlDeclHandler const &)
+[   62]         0x3D  public: __cdecl QXmlDeclHandler::QXmlDeclHandler(void)
+[   63]         0x3E  public: __cdecl QXmlDefaultHandler::QXmlDefaultHandler(void)
+[   64]         0x3F  public: __cdecl QXmlEntityResolver::QXmlEntityResolver(class QXmlEntityResolver const &)
+[   65]         0x40  public: __cdecl QXmlEntityResolver::QXmlEntityResolver(void)
+[   66]         0x41  public: __cdecl QXmlErrorHandler::QXmlErrorHandler(class QXmlErrorHandler const &)
+[   67]         0x42  public: __cdecl QXmlErrorHandler::QXmlErrorHandler(void)
+[   68]         0x43  public: __cdecl QXmlInputSource::QXmlInputSource(class QXmlInputSource const &)
+[   69]         0x44  public: __cdecl QXmlInputSource::QXmlInputSource(class QIODevice *)
+[   70]         0x45  public: __cdecl QXmlInputSource::QXmlInputSource(void)
+[   71]         0x46  public: __cdecl QXmlLexicalHandler::QXmlLexicalHandler(class QXmlLexicalHandler const &)
+[   72]         0x47  public: __cdecl QXmlLexicalHandler::QXmlLexicalHandler(void)
+[   73]         0x48  public: __cdecl QXmlLocator::QXmlLocator(class QXmlLocator const &)
+[   74]         0x49  public: __cdecl QXmlLocator::QXmlLocator(void)
+[   75]         0x4A  public: __cdecl QXmlNamespaceSupport::QXmlNamespaceSupport(void)
+[   76]         0x4B  public: __cdecl QXmlParseException::QXmlParseException(class QXmlParseException const &)
+[   77]         0x4C  public: __cdecl QXmlParseException::QXmlParseException(class QString const &, int, int, class QString const &, class QString const &)
+[   78]         0x4D  public: __cdecl QXmlReader::QXmlReader(class QXmlReader const &)
+[   79]         0x4E  public: __cdecl QXmlReader::QXmlReader(void)
+[   80]         0x4F  public: __cdecl QXmlSimpleReader::QXmlSimpleReader(void)
+[   81]         0x50  public: __cdecl QDomAttr::~QDomAttr(void)
+[   82]         0x51  public: __cdecl QDomCDATASection::~QDomCDATASection(void)
+[   83]         0x52  public: __cdecl QDomCharacterData::~QDomCharacterData(void)
+[   84]         0x53  public: __cdecl QDomComment::~QDomComment(void)
+[   85]         0x54  public: __cdecl QDomDocument::~QDomDocument(void)
+[   86]         0x55  public: __cdecl QDomDocumentFragment::~QDomDocumentFragment(void)
+[   87]         0x56  public: __cdecl QDomDocumentType::~QDomDocumentType(void)
+[   88]         0x57  public: __cdecl QDomElement::~QDomElement(void)
+[   89]         0x58  public: __cdecl QDomEntity::~QDomEntity(void)
+[   90]         0x59  public: __cdecl QDomEntityReference::~QDomEntityReference(void)
+[   91]         0x5A  public: __cdecl QDomImplementation::~QDomImplementation(void)
+[   92]         0x5B  public: __cdecl QDomNamedNodeMap::~QDomNamedNodeMap(void)
+[   93]         0x5C  public: __cdecl QDomNode::~QDomNode(void)
+[   94]         0x5D  public: __cdecl QDomNodeList::~QDomNodeList(void)
+[   95]         0x5E  public: __cdecl QDomNotation::~QDomNotation(void)
+[   96]         0x5F  public: __cdecl QDomProcessingInstruction::~QDomProcessingInstruction(void)
+[   97]         0x60  public: __cdecl QDomText::~QDomText(void)
+[   98]         0x61  public: virtual __cdecl QXmlAttributes::~QXmlAttributes(void)
+[   99]         0x62  public: virtual __cdecl QXmlContentHandler::~QXmlContentHandler(void)
+[  100]         0x63  public: virtual __cdecl QXmlDTDHandler::~QXmlDTDHandler(void)
+[  101]         0x64  public: virtual __cdecl QXmlDeclHandler::~QXmlDeclHandler(void)
+[  102]         0x65  public: virtual __cdecl QXmlDefaultHandler::~QXmlDefaultHandler(void)
+[  103]         0x66  public: virtual __cdecl QXmlEntityResolver::~QXmlEntityResolver(void)
+[  104]         0x67  public: virtual __cdecl QXmlErrorHandler::~QXmlErrorHandler(void)
+[  105]         0x68  public: virtual __cdecl QXmlInputSource::~QXmlInputSource(void)
+[  106]         0x69  public: virtual __cdecl QXmlLexicalHandler::~QXmlLexicalHandler(void)
+[  107]         0x6A  public: virtual __cdecl QXmlLocator::~QXmlLocator(void)
+[  108]         0x6B  public: __cdecl QXmlNamespaceSupport::~QXmlNamespaceSupport(void)
+[  109]         0x6C  public: __cdecl QXmlParseException::~QXmlParseException(void)
+[  110]         0x6D  public: virtual __cdecl QXmlReader::~QXmlReader(void)
+[  111]         0x6E  public: virtual __cdecl QXmlSimpleReader::~QXmlSimpleReader(void)
+[  112]         0x6F  public: class QDomAttr & __cdecl QDomAttr::operator=(class QDomAttr const &)
+[  113]         0x70  public: class QDomCDATASection & __cdecl QDomCDATASection::operator=(class QDomCDATASection const &)
+[  114]         0x71  public: class QDomCharacterData & __cdecl QDomCharacterData::operator=(class QDomCharacterData const &)
+[  115]         0x72  public: class QDomComment & __cdecl QDomComment::operator=(class QDomComment const &)
+[  116]         0x73  public: class QDomDocument & __cdecl QDomDocument::operator=(class QDomDocument const &)
+[  117]         0x74  public: class QDomDocumentFragment & __cdecl QDomDocumentFragment::operator=(class QDomDocumentFragment const &)
+[  118]         0x75  public: class QDomDocumentType & __cdecl QDomDocumentType::operator=(class QDomDocumentType const &)
+[  119]         0x76  public: class QDomElement & __cdecl QDomElement::operator=(class QDomElement const &)
+[  120]         0x77  public: class QDomEntity & __cdecl QDomEntity::operator=(class QDomEntity const &)
+[  121]         0x78  public: class QDomEntityReference & __cdecl QDomEntityReference::operator=(class QDomEntityReference const &)
+[  122]         0x79  public: class QDomImplementation & __cdecl QDomImplementation::operator=(class QDomImplementation const &)
+[  123]         0x7A  public: class QDomNamedNodeMap & __cdecl QDomNamedNodeMap::operator=(class QDomNamedNodeMap const &)
+[  124]         0x7B  public: class QDomNode & __cdecl QDomNode::operator=(class QDomNode const &)
+[  125]         0x7C  public: class QDomNodeList & __cdecl QDomNodeList::operator=(class QDomNodeList const &)
+[  126]         0x7D  public: class QDomNotation & __cdecl QDomNotation::operator=(class QDomNotation const &)
+[  127]         0x7E  public: class QDomProcessingInstruction & __cdecl QDomProcessingInstruction::operator=(class QDomProcessingInstruction const &)
+[  128]         0x7F  public: class QDomText & __cdecl QDomText::operator=(class QDomText const &)
+[  129]         0x80  public: class QXmlAttributes & __cdecl QXmlAttributes::operator=(class QXmlAttributes &&)
+[  130]         0x81  public: class QXmlAttributes & __cdecl QXmlAttributes::operator=(class QXmlAttributes const &)
+[  131]         0x82  public: class QXmlContentHandler & __cdecl QXmlContentHandler::operator=(class QXmlContentHandler const &)
+[  132]         0x83  public: class QXmlDTDHandler & __cdecl QXmlDTDHandler::operator=(class QXmlDTDHandler const &)
+[  133]         0x84  public: class QXmlDeclHandler & __cdecl QXmlDeclHandler::operator=(class QXmlDeclHandler const &)
+[  134]         0x85  public: class QXmlEntityResolver & __cdecl QXmlEntityResolver::operator=(class QXmlEntityResolver const &)
+[  135]         0x86  public: class QXmlErrorHandler & __cdecl QXmlErrorHandler::operator=(class QXmlErrorHandler const &)
+[  136]         0x87  public: class QXmlInputSource & __cdecl QXmlInputSource::operator=(class QXmlInputSource const &)
+[  137]         0x88  public: class QXmlLexicalHandler & __cdecl QXmlLexicalHandler::operator=(class QXmlLexicalHandler const &)
+[  138]         0x89  public: class QXmlLocator & __cdecl QXmlLocator::operator=(class QXmlLocator const &)
+[  139]         0x8A  public: class QXmlReader & __cdecl QXmlReader::operator=(class QXmlReader const &)
+[  140]         0x8B  class QTextStream & __cdecl operator<<(class QTextStream &, class QDomNode const &)
+[  141]         0x8C  public: bool __cdecl QDomImplementation::operator==(class QDomImplementation const &) const
+[  142]         0x8D  public: bool __cdecl QDomNamedNodeMap::operator==(class QDomNamedNodeMap const &) const
+[  143]         0x8E  public: bool __cdecl QDomNode::operator==(class QDomNode const &) const
+[  144]         0x8F  public: bool __cdecl QDomNodeList::operator==(class QDomNodeList const &) const
+[  145]         0x90  public: bool __cdecl QDomImplementation::operator!=(class QDomImplementation const &) const
+[  146]         0x91  public: bool __cdecl QDomNamedNodeMap::operator!=(class QDomNamedNodeMap const &) const
+[  147]         0x92  public: bool __cdecl QDomNode::operator!=(class QDomNode const &) const
+[  148]         0x93  public: bool __cdecl QDomNodeList::operator!=(class QDomNodeList const &) const
+[  149]         0x94  const QXmlAttributes::`vftable'
+[  150]         0x95  const QXmlContentHandler::`vftable'
+[  151]         0x96  const QXmlDTDHandler::`vftable'
+[  152]         0x97  const QXmlDeclHandler::`vftable'
+[  153]         0x98  const QXmlDefaultHandler::`vftable'{for `QXmlContentHandler'}
+[  154]         0x99  const QXmlDefaultHandler::`vftable'{for `QXmlDTDHandler'}
+[  155]         0x9A  const QXmlDefaultHandler::`vftable'{for `QXmlDeclHandler'}
+[  156]         0x9B  const QXmlDefaultHandler::`vftable'{for `QXmlEntityResolver'}
+[  157]         0x9C  const QXmlDefaultHandler::`vftable'{for `QXmlErrorHandler'}
+[  158]         0x9D  const QXmlDefaultHandler::`vftable'{for `QXmlLexicalHandler'}
+[  159]         0x9E  const QXmlEntityResolver::`vftable'
+[  160]         0x9F  const QXmlErrorHandler::`vftable'
+[  161]         0xA0  const QXmlInputSource::`vftable'
+[  162]         0xA1  const QXmlLexicalHandler::`vftable'
+[  163]         0xA2  const QXmlLocator::`vftable'
+[  164]         0xA3  const QXmlReader::`vftable'
+[  165]         0xA4  const QXmlSimpleReader::`vftable'
+[  166]         0xA5  public: void __cdecl QXmlParseException::`default ctor closure'(void)
+[  167]         0xA6  public: virtual class QXmlDTDHandler * __cdecl QXmlSimpleReader::DTDHandler(void) const
+[  168]         0xA7  public: static unsigned short const QXmlInputSource::EndOfData
+[  169]         0xA8  public: static unsigned short const QXmlInputSource::EndOfDocument
+[  170]         0xA9  public: void __cdecl QXmlAttributes::append(class QString const &, class QString const &, class QString const &, class QString const &)
+[  171]         0xAA  public: class QDomNode __cdecl QDomNode::appendChild(class QDomNode const &)
+[  172]         0xAB  public: void __cdecl QDomCharacterData::appendData(class QString const &)
+[  173]         0xAC  public: class QDomNode __cdecl QDomNodeList::at(int) const
+[  174]         0xAD  public: class QString __cdecl QDomElement::attribute(class QString const &, class QString const &) const
+[  175]         0xAE  public: virtual bool __cdecl QXmlDefaultHandler::attributeDecl(class QString const &, class QString const &, class QString const &, class QString const &, class QString const &)
+[  176]         0xAF  public: class QString __cdecl QDomElement::attributeNS(class QString, class QString const &, class QString const &) const
+[  177]         0xB0  public: class QDomAttr __cdecl QDomElement::attributeNode(class QString const &)
+[  178]         0xB1  public: class QDomAttr __cdecl QDomElement::attributeNodeNS(class QString const &, class QString const &)
+[  179]         0xB2  public: class QDomNamedNodeMap __cdecl QDomElement::attributes(void) const
+[  180]         0xB3  public: class QDomNamedNodeMap __cdecl QDomNode::attributes(void) const
+[  181]         0xB4  public: virtual bool __cdecl QXmlDefaultHandler::characters(class QString const &)
+[  182]         0xB5  public: class QDomNodeList __cdecl QDomNode::childNodes(void) const
+[  183]         0xB6  public: void __cdecl QDomNode::clear(void)
+[  184]         0xB7  public: void __cdecl QXmlAttributes::clear(void)
+[  185]         0xB8  public: class QDomNode __cdecl QDomNode::cloneNode(bool) const
+[  186]         0xB9  public: int __cdecl QDomNode::columnNumber(void) const
+[  187]         0xBA  public: int __cdecl QXmlParseException::columnNumber(void) const
+[  188]         0xBB  public: virtual bool __cdecl QXmlDefaultHandler::comment(class QString const &)
+[  189]         0xBC  public: bool __cdecl QDomNamedNodeMap::contains(class QString const &) const
+[  190]         0xBD  public: virtual class QXmlContentHandler * __cdecl QXmlSimpleReader::contentHandler(void) const
+[  191]         0xBE  public: int __cdecl QDomNamedNodeMap::count(void) const
+[  192]         0xBF  public: int __cdecl QDomNodeList::count(void) const
+[  193]         0xC0  public: int __cdecl QXmlAttributes::count(void) const
+[  194]         0xC1  public: class QDomAttr __cdecl QDomDocument::createAttribute(class QString const &)
+[  195]         0xC2  public: class QDomAttr __cdecl QDomDocument::createAttributeNS(class QString const &, class QString const &)
+[  196]         0xC3  public: class QDomCDATASection __cdecl QDomDocument::createCDATASection(class QString const &)
+[  197]         0xC4  public: class QDomComment __cdecl QDomDocument::createComment(class QString const &)
+[  198]         0xC5  public: class QDomDocument __cdecl QDomImplementation::createDocument(class QString const &, class QString const &, class QDomDocumentType const &)
+[  199]         0xC6  public: class QDomDocumentFragment __cdecl QDomDocument::createDocumentFragment(void)
+[  200]         0xC7  public: class QDomDocumentType __cdecl QDomImplementation::createDocumentType(class QString const &, class QString const &, class QString const &)
+[  201]         0xC8  public: class QDomElement __cdecl QDomDocument::createElement(class QString const &)
+[  202]         0xC9  public: class QDomElement __cdecl QDomDocument::createElementNS(class QString const &, class QString const &)
+[  203]         0xCA  public: class QDomEntityReference __cdecl QDomDocument::createEntityReference(class QString const &)
+[  204]         0xCB  public: class QDomProcessingInstruction __cdecl QDomDocument::createProcessingInstruction(class QString const &, class QString const &)
+[  205]         0xCC  public: class QDomText __cdecl QDomDocument::createTextNode(class QString const &)
+[  206]         0xCD  private: class QXmlSimpleReaderPrivate * __cdecl QXmlSimpleReader::d_func(void)
+[  207]         0xCE  private: class QXmlSimpleReaderPrivate const * __cdecl QXmlSimpleReader::d_func(void) const
+[  208]         0xCF  public: class QString __cdecl QDomCharacterData::data(void) const
+[  209]         0xD0  public: class QString __cdecl QDomProcessingInstruction::data(void) const
+[  210]         0xD1  public: virtual class QString __cdecl QXmlInputSource::data(void) const
+[  211]         0xD2  public: virtual class QXmlDeclHandler * __cdecl QXmlSimpleReader::declHandler(void) const
+[  212]         0xD3  public: void __cdecl QDomCharacterData::deleteData(unsigned long, unsigned long)
+[  213]         0xD4  public: class QDomDocumentType __cdecl QDomDocument::doctype(void) const
+[  214]         0xD5  public: class QDomElement __cdecl QDomDocument::documentElement(void) const
+[  215]         0xD6  public: class QDomElement __cdecl QDomDocument::elementById(class QString const &)
+[  216]         0xD7  public: class QDomNodeList __cdecl QDomDocument::elementsByTagName(class QString const &) const
+[  217]         0xD8  public: class QDomNodeList __cdecl QDomElement::elementsByTagName(class QString const &) const
+[  218]         0xD9  public: class QDomNodeList __cdecl QDomDocument::elementsByTagNameNS(class QString const &, class QString const &)
+[  219]         0xDA  public: class QDomNodeList __cdecl QDomElement::elementsByTagNameNS(class QString const &, class QString const &) const
+[  220]         0xDB  public: virtual bool __cdecl QXmlDefaultHandler::endCDATA(void)
+[  221]         0xDC  public: virtual bool __cdecl QXmlDefaultHandler::endDTD(void)
+[  222]         0xDD  public: virtual bool __cdecl QXmlDefaultHandler::endDocument(void)
+[  223]         0xDE  public: virtual bool __cdecl QXmlDefaultHandler::endElement(class QString const &, class QString const &, class QString const &)
+[  224]         0xDF  public: virtual bool __cdecl QXmlDefaultHandler::endEntity(class QString const &)
+[  225]         0xE0  public: virtual bool __cdecl QXmlDefaultHandler::endPrefixMapping(class QString const &)
+[  226]         0xE1  public: class QDomNamedNodeMap __cdecl QDomDocumentType::entities(void) const
+[  227]         0xE2  public: virtual class QXmlEntityResolver * __cdecl QXmlSimpleReader::entityResolver(void) const
+[  228]         0xE3  public: virtual bool __cdecl QXmlDefaultHandler::error(class QXmlParseException const &)
+[  229]         0xE4  public: virtual class QXmlErrorHandler * __cdecl QXmlSimpleReader::errorHandler(void) const
+[  230]         0xE5  public: virtual class QString __cdecl QXmlDefaultHandler::errorString(void) const
+[  231]         0xE6  public: virtual bool __cdecl QXmlDefaultHandler::externalEntityDecl(class QString const &, class QString const &, class QString const &)
+[  232]         0xE7  public: virtual bool __cdecl QXmlDefaultHandler::fatalError(class QXmlParseException const &)
+[  233]         0xE8  public: virtual bool __cdecl QXmlSimpleReader::feature(class QString const &, bool *) const
+[  234]         0xE9  public: virtual void __cdecl QXmlInputSource::fetchData(void)
+[  235]         0xEA  public: class QDomNode __cdecl QDomNode::firstChild(void) const
+[  236]         0xEB  public: class QDomElement __cdecl QDomNode::firstChildElement(class QString const &) const
+[  237]         0xEC  protected: virtual class QString __cdecl QXmlInputSource::fromRawData(class QByteArray const &, bool)
+[  238]         0xED  public: bool __cdecl QDomElement::hasAttribute(class QString const &) const
+[  239]         0xEE  public: bool __cdecl QDomElement::hasAttributeNS(class QString const &, class QString const &) const
+[  240]         0xEF  public: bool __cdecl QDomNode::hasAttributes(void) const
+[  241]         0xF0  public: bool __cdecl QDomNode::hasChildNodes(void) const
+[  242]         0xF1  public: bool __cdecl QDomImplementation::hasFeature(class QString const &, class QString const &) const
+[  243]         0xF2  public: virtual bool __cdecl QXmlSimpleReader::hasFeature(class QString const &) const
+[  244]         0xF3  public: virtual bool __cdecl QXmlSimpleReader::hasProperty(class QString const &) const
+[  245]         0xF4  public: virtual bool __cdecl QXmlDefaultHandler::ignorableWhitespace(class QString const &)
+[  246]         0xF5  public: class QDomImplementation __cdecl QDomDocument::implementation(void) const
+[  247]         0xF6  public: class QDomNode __cdecl QDomDocument::importNode(class QDomNode const &, bool)
+[  248]         0xF7  public: int __cdecl QXmlAttributes::index(class QString const &, class QString const &) const
+[  249]         0xF8  public: int __cdecl QXmlAttributes::index(class QString const &) const
+[  250]         0xF9  public: int __cdecl QXmlAttributes::index(class QLatin1String) const
+[  251]         0xFA  private: void __cdecl QXmlInputSource::init(void)
+[  252]         0xFB  public: class QDomNode __cdecl QDomNode::insertAfter(class QDomNode const &, class QDomNode const &)
+[  253]         0xFC  public: class QDomNode __cdecl QDomNode::insertBefore(class QDomNode const &, class QDomNode const &)
+[  254]         0xFD  public: void __cdecl QDomCharacterData::insertData(unsigned long, class QString const &)
+[  255]         0xFE  public: virtual bool __cdecl QXmlDefaultHandler::internalEntityDecl(class QString const &, class QString const &)
+[  256]         0xFF  public: class QString __cdecl QDomDocumentType::internalSubset(void) const
+[  257]        0x100  public: static enum QDomImplementation::InvalidDataPolicy __cdecl QDomImplementation::invalidDataPolicy(void)
+[  258]        0x101  public: bool __cdecl QDomNode::isAttr(void) const
+[  259]        0x102  public: bool __cdecl QDomNode::isCDATASection(void) const
+[  260]        0x103  public: bool __cdecl QDomNode::isCharacterData(void) const
+[  261]        0x104  public: bool __cdecl QDomNode::isComment(void) const
+[  262]        0x105  public: bool __cdecl QDomNode::isDocument(void) const
+[  263]        0x106  public: bool __cdecl QDomNode::isDocumentFragment(void) const
+[  264]        0x107  public: bool __cdecl QDomNode::isDocumentType(void) const
+[  265]        0x108  public: bool __cdecl QDomNode::isElement(void) const
+[  266]        0x109  public: bool __cdecl QDomNamedNodeMap::isEmpty(void) const
+[  267]        0x10A  public: bool __cdecl QDomNodeList::isEmpty(void) const
+[  268]        0x10B  public: bool __cdecl QDomNode::isEntity(void) const
+[  269]        0x10C  public: bool __cdecl QDomNode::isEntityReference(void) const
+[  270]        0x10D  public: bool __cdecl QDomNode::isNotation(void) const
+[  271]        0x10E  public: bool __cdecl QDomImplementation::isNull(void)
+[  272]        0x10F  public: bool __cdecl QDomNode::isNull(void) const
+[  273]        0x110  public: bool __cdecl QDomNode::isProcessingInstruction(void) const
+[  274]        0x111  public: bool __cdecl QDomNode::isSupported(class QString const &, class QString const &) const
+[  275]        0x112  public: bool __cdecl QDomNode::isText(void) const
+[  276]        0x113  public: class QDomNode __cdecl QDomNamedNodeMap::item(int) const
+[  277]        0x114  public: class QDomNode __cdecl QDomNodeList::item(int) const
+[  278]        0x115  public: class QDomNode __cdecl QDomNode::lastChild(void) const
+[  279]        0x116  public: class QDomElement __cdecl QDomNode::lastChildElement(class QString const &) const
+[  280]        0x117  public: int __cdecl QDomCharacterData::length(void) const
+[  281]        0x118  public: int __cdecl QDomNamedNodeMap::length(void) const
+[  282]        0x119  public: int __cdecl QDomNodeList::length(void) const
+[  283]        0x11A  public: int __cdecl QXmlAttributes::length(void) const
+[  284]        0x11B  public: virtual class QXmlLexicalHandler * __cdecl QXmlSimpleReader::lexicalHandler(void) const
+[  285]        0x11C  public: int __cdecl QDomNode::lineNumber(void) const
+[  286]        0x11D  public: int __cdecl QXmlParseException::lineNumber(void) const
+[  287]        0x11E  public: class QString __cdecl QDomNode::localName(void) const
+[  288]        0x11F  public: class QString __cdecl QXmlAttributes::localName(int) const
+[  289]        0x120  public: class QString __cdecl QXmlParseException::message(void) const
+[  290]        0x121  public: class QString __cdecl QDomAttr::name(void) const
+[  291]        0x122  public: class QString __cdecl QDomDocumentType::name(void) const
+[  292]        0x123  public: class QDomNode __cdecl QDomNamedNodeMap::namedItem(class QString const &) const
+[  293]        0x124  public: class QDomNode __cdecl QDomNode::namedItem(class QString const &) const
+[  294]        0x125  public: class QDomNode __cdecl QDomNamedNodeMap::namedItemNS(class QString const &, class QString const &) const
+[  295]        0x126  public: class QString __cdecl QDomNode::namespaceURI(void) const
+[  296]        0x127  public: virtual class QChar __cdecl QXmlInputSource::next(void)
+[  297]        0x128  public: class QDomNode __cdecl QDomNode::nextSibling(void) const
+[  298]        0x129  public: class QDomElement __cdecl QDomNode::nextSiblingElement(class QString const &) const
+[  299]        0x12A  public: class QString __cdecl QDomNode::nodeName(void) const
+[  300]        0x12B  public: enum QDomNode::NodeType __cdecl QDomAttr::nodeType(void) const
+[  301]        0x12C  public: enum QDomNode::NodeType __cdecl QDomCDATASection::nodeType(void) const
+[  302]        0x12D  public: enum QDomNode::NodeType __cdecl QDomCharacterData::nodeType(void) const
+[  303]        0x12E  public: enum QDomNode::NodeType __cdecl QDomComment::nodeType(void) const
+[  304]        0x12F  public: enum QDomNode::NodeType __cdecl QDomDocument::nodeType(void) const
+[  305]        0x130  public: enum QDomNode::NodeType __cdecl QDomDocumentFragment::nodeType(void) const
+[  306]        0x131  public: enum QDomNode::NodeType __cdecl QDomDocumentType::nodeType(void) const
+[  307]        0x132  public: enum QDomNode::NodeType __cdecl QDomElement::nodeType(void) const
+[  308]        0x133  public: enum QDomNode::NodeType __cdecl QDomEntity::nodeType(void) const
+[  309]        0x134  public: enum QDomNode::NodeType __cdecl QDomEntityReference::nodeType(void) const
+[  310]        0x135  public: enum QDomNode::NodeType __cdecl QDomNode::nodeType(void) const
+[  311]        0x136  public: enum QDomNode::NodeType __cdecl QDomNotation::nodeType(void) const
+[  312]        0x137  public: enum QDomNode::NodeType __cdecl QDomProcessingInstruction::nodeType(void) const
+[  313]        0x138  public: enum QDomNode::NodeType __cdecl QDomText::nodeType(void) const
+[  314]        0x139  public: class QString __cdecl QDomNode::nodeValue(void) const
+[  315]        0x13A  public: void __cdecl QDomNode::normalize(void)
+[  316]        0x13B  public: virtual bool __cdecl QXmlDefaultHandler::notationDecl(class QString const &, class QString const &, class QString const &)
+[  317]        0x13C  public: class QString __cdecl QDomEntity::notationName(void) const
+[  318]        0x13D  public: class QDomNamedNodeMap __cdecl QDomDocumentType::notations(void) const
+[  319]        0x13E  public: class QDomDocument __cdecl QDomNode::ownerDocument(void) const
+[  320]        0x13F  public: class QDomElement __cdecl QDomAttr::ownerElement(void) const
+[  321]        0x140  public: class QDomNode __cdecl QDomNode::parentNode(void) const
+[  322]        0x141  public: virtual bool __cdecl QXmlSimpleReader::parse(class QXmlInputSource const &)
+[  323]        0x142  public: virtual bool __cdecl QXmlSimpleReader::parse(class QXmlInputSource const *)
+[  324]        0x143  public: virtual bool __cdecl QXmlSimpleReader::parse(class QXmlInputSource const *, bool)
+[  325]        0x144  public: virtual bool __cdecl QXmlSimpleReader::parseContinue(void)
+[  326]        0x145  public: void __cdecl QXmlNamespaceSupport::popContext(void)
+[  327]        0x146  public: class QString __cdecl QDomNode::prefix(void) const
+[  328]        0x147  public: class QString __cdecl QXmlNamespaceSupport::prefix(class QString const &) const
+[  329]        0x148  public: class QStringList __cdecl QXmlNamespaceSupport::prefixes(class QString const &) const
+[  330]        0x149  public: class QStringList __cdecl QXmlNamespaceSupport::prefixes(void) const
+[  331]        0x14A  public: class QDomNode __cdecl QDomNode::previousSibling(void) const
+[  332]        0x14B  public: class QDomElement __cdecl QDomNode::previousSiblingElement(class QString const &) const
+[  333]        0x14C  public: void __cdecl QXmlNamespaceSupport::processName(class QString const &, bool, class QString &, class QString &) const
+[  334]        0x14D  public: virtual bool __cdecl QXmlDefaultHandler::processingInstruction(class QString const &, class QString const &)
+[  335]        0x14E  public: virtual void * __cdecl QXmlSimpleReader::property(class QString const &, bool *) const
+[  336]        0x14F  public: class QString __cdecl QDomDocumentType::publicId(void) const
+[  337]        0x150  public: class QString __cdecl QDomEntity::publicId(void) const
+[  338]        0x151  public: class QString __cdecl QDomNotation::publicId(void) const
+[  339]        0x152  public: class QString __cdecl QXmlParseException::publicId(void) const
+[  340]        0x153  public: void __cdecl QXmlNamespaceSupport::pushContext(void)
+[  341]        0x154  public: class QString __cdecl QXmlAttributes::qName(int) const
+[  342]        0x155  public: void __cdecl QDomElement::removeAttribute(class QString const &)
+[  343]        0x156  public: void __cdecl QDomElement::removeAttributeNS(class QString const &, class QString const &)
+[  344]        0x157  public: class QDomAttr __cdecl QDomElement::removeAttributeNode(class QDomAttr const &)
+[  345]        0x158  public: class QDomNode __cdecl QDomNode::removeChild(class QDomNode const &)
+[  346]        0x159  public: class QDomNode __cdecl QDomNamedNodeMap::removeNamedItem(class QString const &)
+[  347]        0x15A  public: class QDomNode __cdecl QDomNamedNodeMap::removeNamedItemNS(class QString const &, class QString const &)
+[  348]        0x15B  public: class QDomNode __cdecl QDomNode::replaceChild(class QDomNode const &, class QDomNode const &)
+[  349]        0x15C  public: void __cdecl QDomCharacterData::replaceData(unsigned long, unsigned long, class QString const &)
+[  350]        0x15D  public: virtual void __cdecl QXmlInputSource::reset(void)
+[  351]        0x15E  public: void __cdecl QXmlNamespaceSupport::reset(void)
+[  352]        0x15F  public: virtual bool __cdecl QXmlDefaultHandler::resolveEntity(class QString const &, class QString const &, class QXmlInputSource *&)
+[  353]        0x160  public: void __cdecl QDomNode::save(class QTextStream &, int, enum QDomNode::EncodingPolicy) const
+[  354]        0x161  public: void __cdecl QDomElement::setAttribute(class QString const &, class QString const &)
+[  355]        0x162  public: void __cdecl QDomElement::setAttribute(class QString const &, int)
+[  356]        0x163  public: void __cdecl QDomElement::setAttribute(class QString const &, unsigned int)
+[  357]        0x164  public: void __cdecl QDomElement::setAttribute(class QString const &, float)
+[  358]        0x165  public: void __cdecl QDomElement::setAttribute(class QString const &, double)
+[  359]        0x166  public: void __cdecl QDomElement::setAttribute(class QString const &, __int64)
+[  360]        0x167  public: void __cdecl QDomElement::setAttribute(class QString const &, unsigned __int64)
+[  361]        0x168  public: void __cdecl QDomElement::setAttributeNS(class QString, class QString const &, class QString const &)
+[  362]        0x169  public: void __cdecl QDomElement::setAttributeNS(class QString, class QString const &, int)
+[  363]        0x16A  public: void __cdecl QDomElement::setAttributeNS(class QString, class QString const &, unsigned int)
+[  364]        0x16B  public: void __cdecl QDomElement::setAttributeNS(class QString, class QString const &, double)
+[  365]        0x16C  public: void __cdecl QDomElement::setAttributeNS(class QString, class QString const &, __int64)
+[  366]        0x16D  public: void __cdecl QDomElement::setAttributeNS(class QString, class QString const &, unsigned __int64)
+[  367]        0x16E  public: class QDomAttr __cdecl QDomElement::setAttributeNode(class QDomAttr const &)
+[  368]        0x16F  public: class QDomAttr __cdecl QDomElement::setAttributeNodeNS(class QDomAttr const &)
+[  369]        0x170  public: bool __cdecl QDomDocument::setContent(class QByteArray const &, class QString *, int *, int *)
+[  370]        0x171  public: bool __cdecl QDomDocument::setContent(class QByteArray const &, bool, class QString *, int *, int *)
+[  371]        0x172  public: bool __cdecl QDomDocument::setContent(class QString const &, class QString *, int *, int *)
+[  372]        0x173  public: bool __cdecl QDomDocument::setContent(class QString const &, bool, class QString *, int *, int *)
+[  373]        0x174  public: bool __cdecl QDomDocument::setContent(class QIODevice *, class QString *, int *, int *)
+[  374]        0x175  public: bool __cdecl QDomDocument::setContent(class QIODevice *, bool, class QString *, int *, int *)
+[  375]        0x176  public: bool __cdecl QDomDocument::setContent(class QXmlInputSource *, class QXmlReader *, class QString *, int *, int *)
+[  376]        0x177  public: bool __cdecl QDomDocument::setContent(class QXmlInputSource *, bool, class QString *, int *, int *)
+[  377]        0x178  public: bool __cdecl QDomDocument::setContent(class QXmlStreamReader *, bool, class QString *, int *, int *)
+[  378]        0x179  public: virtual void __cdecl QXmlSimpleReader::setContentHandler(class QXmlContentHandler *)
+[  379]        0x17A  public: virtual void __cdecl QXmlSimpleReader::setDTDHandler(class QXmlDTDHandler *)
+[  380]        0x17B  public: void __cdecl QDomCharacterData::setData(class QString const &)
+[  381]        0x17C  public: void __cdecl QDomProcessingInstruction::setData(class QString const &)
+[  382]        0x17D  public: virtual void __cdecl QXmlInputSource::setData(class QByteArray const &)
+[  383]        0x17E  public: virtual void __cdecl QXmlInputSource::setData(class QString const &)
+[  384]        0x17F  public: virtual void __cdecl QXmlSimpleReader::setDeclHandler(class QXmlDeclHandler *)
+[  385]        0x180  public: virtual void __cdecl QXmlDefaultHandler::setDocumentLocator(class QXmlLocator *)
+[  386]        0x181  public: virtual void __cdecl QXmlSimpleReader::setEntityResolver(class QXmlEntityResolver *)
+[  387]        0x182  public: virtual void __cdecl QXmlSimpleReader::setErrorHandler(class QXmlErrorHandler *)
+[  388]        0x183  public: virtual void __cdecl QXmlSimpleReader::setFeature(class QString const &, bool)
+[  389]        0x184  public: static void __cdecl QDomImplementation::setInvalidDataPolicy(enum QDomImplementation::InvalidDataPolicy)
+[  390]        0x185  public: virtual void __cdecl QXmlSimpleReader::setLexicalHandler(class QXmlLexicalHandler *)
+[  391]        0x186  public: class QDomNode __cdecl QDomNamedNodeMap::setNamedItem(class QDomNode const &)
+[  392]        0x187  public: class QDomNode __cdecl QDomNamedNodeMap::setNamedItemNS(class QDomNode const &)
+[  393]        0x188  public: void __cdecl QDomNode::setNodeValue(class QString const &)
+[  394]        0x189  public: void __cdecl QDomNode::setPrefix(class QString const &)
+[  395]        0x18A  public: void __cdecl QXmlNamespaceSupport::setPrefix(class QString const &, class QString const &)
+[  396]        0x18B  public: virtual void __cdecl QXmlSimpleReader::setProperty(class QString const &, void *)
+[  397]        0x18C  public: void __cdecl QDomElement::setTagName(class QString const &)
+[  398]        0x18D  public: void __cdecl QDomAttr::setValue(class QString const &)
+[  399]        0x18E  public: int __cdecl QDomNamedNodeMap::size(void) const
+[  400]        0x18F  public: int __cdecl QDomNodeList::size(void) const
+[  401]        0x190  public: virtual bool __cdecl QXmlDefaultHandler::skippedEntity(class QString const &)
+[  402]        0x191  public: bool __cdecl QDomAttr::specified(void) const
+[  403]        0x192  public: void __cdecl QXmlNamespaceSupport::splitName(class QString const &, class QString &, class QString &) const
+[  404]        0x193  public: class QDomText __cdecl QDomText::splitText(int)
+[  405]        0x194  public: virtual bool __cdecl QXmlDefaultHandler::startCDATA(void)
+[  406]        0x195  public: virtual bool __cdecl QXmlDefaultHandler::startDTD(class QString const &, class QString const &, class QString const &)
+[  407]        0x196  public: virtual bool __cdecl QXmlDefaultHandler::startDocument(void)
+[  408]        0x197  public: virtual bool __cdecl QXmlDefaultHandler::startElement(class QString const &, class QString const &, class QString const &, class QXmlAttributes const &)
+[  409]        0x198  public: virtual bool __cdecl QXmlDefaultHandler::startEntity(class QString const &)
+[  410]        0x199  public: virtual bool __cdecl QXmlDefaultHandler::startPrefixMapping(class QString const &, class QString const &)
+[  411]        0x19A  public: class QString __cdecl QDomCharacterData::substringData(unsigned long, unsigned long)
+[  412]        0x19B  public: void __cdecl QXmlAttributes::swap(class QXmlAttributes &)
+[  413]        0x19C  public: class QString __cdecl QDomDocumentType::systemId(void) const
+[  414]        0x19D  public: class QString __cdecl QDomEntity::systemId(void) const
+[  415]        0x19E  public: class QString __cdecl QDomNotation::systemId(void) const
+[  416]        0x19F  public: class QString __cdecl QXmlParseException::systemId(void) const
+[  417]        0x1A0  public: class QString __cdecl QDomElement::tagName(void) const
+[  418]        0x1A1  public: class QString __cdecl QDomProcessingInstruction::target(void) const
+[  419]        0x1A2  public: class QString __cdecl QDomElement::text(void) const
+[  420]        0x1A3  public: class QDomAttr __cdecl QDomNode::toAttr(void) const
+[  421]        0x1A4  public: class QByteArray __cdecl QDomDocument::toByteArray(int) const
+[  422]        0x1A5  public: class QDomCDATASection __cdecl QDomNode::toCDATASection(void) const
+[  423]        0x1A6  public: class QDomCharacterData __cdecl QDomNode::toCharacterData(void) const
+[  424]        0x1A7  public: class QDomComment __cdecl QDomNode::toComment(void) const
+[  425]        0x1A8  public: class QDomDocument __cdecl QDomNode::toDocument(void) const
+[  426]        0x1A9  public: class QDomDocumentFragment __cdecl QDomNode::toDocumentFragment(void) const
+[  427]        0x1AA  public: class QDomDocumentType __cdecl QDomNode::toDocumentType(void) const
+[  428]        0x1AB  public: class QDomElement __cdecl QDomNode::toElement(void) const
+[  429]        0x1AC  public: class QDomEntity __cdecl QDomNode::toEntity(void) const
+[  430]        0x1AD  public: class QDomEntityReference __cdecl QDomNode::toEntityReference(void) const
+[  431]        0x1AE  public: class QDomNotation __cdecl QDomNode::toNotation(void) const
+[  432]        0x1AF  public: class QDomProcessingInstruction __cdecl QDomNode::toProcessingInstruction(void) const
+[  433]        0x1B0  public: class QString __cdecl QDomDocument::toString(int) const
+[  434]        0x1B1  public: class QDomText __cdecl QDomNode::toText(void) const
+[  435]        0x1B2  public: class QString __cdecl QXmlAttributes::type(class QString const &, class QString const &) const
+[  436]        0x1B3  public: class QString __cdecl QXmlAttributes::type(class QString const &) const
+[  437]        0x1B4  public: class QString __cdecl QXmlAttributes::type(int) const
+[  438]        0x1B5  public: virtual bool __cdecl QXmlDefaultHandler::unparsedEntityDecl(class QString const &, class QString const &, class QString const &, class QString const &)
+[  439]        0x1B6  public: class QString __cdecl QXmlAttributes::uri(int) const
+[  440]        0x1B7  public: class QString __cdecl QXmlNamespaceSupport::uri(class QString const &) const
+[  441]        0x1B8  public: class QString __cdecl QDomAttr::value(void) const
+[  442]        0x1B9  public: class QString __cdecl QXmlAttributes::value(class QString const &, class QString const &) const
+[  443]        0x1BA  public: class QString __cdecl QXmlAttributes::value(class QString const &) const
+[  444]        0x1BB  public: class QString __cdecl QXmlAttributes::value(int) const
+[  445]        0x1BC  public: class QString __cdecl QXmlAttributes::value(class QLatin1String) const
+[  446]        0x1BD  public: virtual bool __cdecl QXmlDefaultHandler::warning(class QXmlParseException const &)

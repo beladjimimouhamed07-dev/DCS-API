@@ -1,0 +1,132 @@
+Microsoft (R) COFF/PE Dumper Version 14.51.36256.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file G:\DCS_OPS_RE\bin\rendererStub.dll
+
+File Type: DLL
+
+  Section contains the following exports for rendererStub.dll
+
+    00000000 characteristics
+    FFFFFFFF time date stamp
+        0.00 version
+           1 ordinal base
+         104 number of functions
+         104 number of names
+
+    ordinal hint RVA      name
+
+          1    0 000108C8 ?$TSS0@?1??getGpuQuery@StubRenderer@RenderAPI@@UEAAAEAVIGpuQuery@render@@XZ@4HA
+          2    1 000108C4 ?$TSS0@?1??getStatistics@StubRenderer@RenderAPI@@UEAAAEAVIStatistics@render@@XZ@4HA
+          3    2 00001D70 ??0StubRenderer@RenderAPI@@QEAA@$$QEAV01@@Z
+          4    3 00001E80 ??0StubRenderer@RenderAPI@@QEAA@XZ
+          5    4 00001F80 ??1StubRenderer@RenderAPI@@QEAA@XZ
+          6    5 00001FD0 ??4StubRenderer@RenderAPI@@QEAAAEAV01@$$QEAV01@@Z
+          7    6 00009688 ??_7StubRenderer@RenderAPI@@6B@
+          8    7 000022B0 ?addTextureDriver@StubRenderer@RenderAPI@@UEAA_NPEBD@Z
+          9    8 00001C10 ?beginDebugEvent@StubRenderer@RenderAPI@@UEAAXPEB_W@Z
+         10    9 00001C10 ?beginFrame@StubRenderer@RenderAPI@@UEAAXXZ
+         11    A 00001C10 ?bindResource@StubRenderer@RenderAPI@@UEAAXIPEAUITexture@2@@Z
+         12    B 00001C10 ?bindResource@StubRenderer@RenderAPI@@UEAAXIPEBUIConstantBuffer@2@@Z
+         13    C 00001C10 ?bindResource@StubRenderer@RenderAPI@@UEAAXIPEBUIStructuredBuffer@2@@Z
+         14    D 00001C10 ?bindResourceAsStencil@StubRenderer@RenderAPI@@UEAAXIPEAUITexture@2@@Z
+         15    E 00001C10 ?clearColor@StubRenderer@RenderAPI@@UEAAXPEBVVec4f@osg@@H@Z
+         16    F 00001C10 ?clearDepth@StubRenderer@RenderAPI@@UEAAXM@Z
+         17   10 00001C10 ?clearFrameBuffer@StubRenderer@RenderAPI@@UEAAXAEBVVec4f@osg@@MI@Z
+         18   11 00001C10 ?clearStencil@StubRenderer@RenderAPI@@UEAAXI@Z
+         19   12 000022B0 ?clearUAV@StubRenderer@RenderAPI@@UEAA_NPEAUITexture@2@AEBVVec4f@osg@@@Z
+         20   13 000022B0 ?clearUAV@StubRenderer@RenderAPI@@UEAA_NPEAUITexture@2@AEBVVec4ui@osg@@@Z
+         21   14 00001C10 ?compute@StubRenderer@RenderAPI@@UEAAXHPEAUIShader@2@HHH@Z
+         22   15 00001C10 ?computeIndirect@StubRenderer@RenderAPI@@UEAAXHPEAUIShader@2@PEAUIBuffer@2@I@Z
+         23   16 00001C10 ?copyBuffer@StubRenderer@RenderAPI@@UEAAXPEBUIBuffer@2@0@Z
+         24   17 00001C10 ?copyBuffer@StubRenderer@RenderAPI@@UEAAXPEBUIBuffer@2@0HHH@Z
+         25   18 00001C10 ?copyStructuredBuffer@StubRenderer@RenderAPI@@UEAAXPEBUIStructuredBuffer@2@0@Z
+         26   19 00001C10 ?copyStructuredBuffer@StubRenderer@RenderAPI@@UEAAXPEBUIStructuredBuffer@2@0HHH@Z
+         27   1A 00001C10 ?copyStructuredToConstantBuffer@StubRenderer@RenderAPI@@UEAAXPEBUIStructuredBuffer@2@PEBUIConstantBuffer@2@@Z
+         28   1B 000022B0 ?copyTexture@StubRenderer@RenderAPI@@UEAA_NPEAUITexture@2@HPEBVVec4i@osg@@0H1@Z
+         29   1C 00003860 ?createBuffer@StubRenderer@RenderAPI@@UEAA?AV?$Ptr@UIBuffer@RenderAPI@@UDeleter@12@@ed@@W4FMT_ENUM@render@@HW4BUFFERUSAGE_ENUM@6@IPEBXPEBD@Z
+         30   1D 00003A50 ?createConstantBuffer@StubRenderer@RenderAPI@@UEAA?AV?$Ptr@UIConstantBuffer@RenderAPI@@UDeleter@12@@ed@@HW4BUFFERUSAGE_ENUM@render@@PEBDPEBX@Z
+         31   1E 00003AF0 ?createFrameBuffer@StubRenderer@RenderAPI@@UEAAPEAUIFrameBuffer@2@QEBUTextureOrDesc@2@IPEBU42@@Z
+         32   1F 00004080 ?createFrameBuffer@StubRenderer@RenderAPI@@UEAAPEAUIFrameBuffer@2@QEBV?$Ptr@UITexture@RenderAPI@@UDeleter@12@@ed@@IV45@@Z
+         33   20 00004660 ?createIndexBuffer@StubRenderer@RenderAPI@@UEAA?AV?$Ptr@UIIndexBuffer@RenderAPI@@UDeleter@12@@ed@@HHW4PRIMTYPE_ENUM@render@@W4BUFFERUSAGE_ENUM@6@IPEBDPEBX@Z
+         34   21 00004720 ?createRenderTarget@StubRenderer@RenderAPI@@UEAA?AV?$Ptr@UITexture@RenderAPI@@UDeleter@12@@ed@@AEBUTextureDescBackend@2@PEBD@Z
+         35   22 00004750 ?createStructuredBuffer@StubRenderer@RenderAPI@@UEAA?AV?$Ptr@UIStructuredBuffer@RenderAPI@@UDeleter@12@@ed@@HHW4BUFFERUSAGE_ENUM@render@@IPEBXHPEBD@Z
+         36   23 00004870 ?createVertexBuffer@StubRenderer@RenderAPI@@UEAA?AV?$Ptr@UIVertexBuffer@RenderAPI@@UDeleter@12@@ed@@HPEAW4ELEMENTTYPE_ENUM@render@@HW4BUFFERUSAGE_ENUM@6@IPEBDPEBX@Z
+         37   24 00001C30 ?dev@StubRenderer@RenderAPI@@UEAAPEAXXZ
+         38   25 00001C30 ?devCtx@StubRenderer@RenderAPI@@UEAAPEAXXZ
+         39   26 00001C10 ?draw@StubRenderer@RenderAPI@@UEAAXHPEAUIShader@2@W4PRIMTYPE_ENUM@render@@HHHPEBD@Z
+         40   27 00001C10 ?drawIndirect@StubRenderer@RenderAPI@@UEAAXHPEAUIShader@2@W4PRIMTYPE_ENUM@render@@PEAUIBuffer@2@HPEBD@Z
+         41   28 00002430 ?drawMultIndirect@StubRenderer@RenderAPI@@UEAAXHPEAUIShader@2@W4PRIMTYPE_ENUM@render@@PEAUIBuffer@2@V?$function@$$A6AHH@Z@std@@PEBD@Z
+         42   29 00001C10 ?drawWithOffset@StubRenderer@RenderAPI@@UEAAXHPEAUIShader@2@W4PRIMTYPE_ENUM@render@@HHH@Z
+         43   2A 00001C10 ?emitBarrier@StubRenderer@RenderAPI@@UEAAXAEBUBarrierInfo2@render@@@Z
+         44   2B 00001C10 ?endDebugEvent@StubRenderer@RenderAPI@@UEAAXXZ
+         45   2C 000022B0 ?endFrame@StubRenderer@RenderAPI@@UEAA_NXZ
+         46   2D 00001C40 ?enumModes@StubRenderer@RenderAPI@@UEAAHPEAUModeInfo@2@H@Z
+         47   2E 00001C10 ?flush@StubRenderer@RenderAPI@@UEAAXXZ
+         48   2F 00001C10 ?forceDrawRoutine@StubRenderer@RenderAPI@@UEAAXH@Z
+         49   30 00001C10 ?forceFlipPrimitiveWinding@StubRenderer@RenderAPI@@UEAAX_N@Z
+         50   31 00001C10 ?forceWireFrame@StubRenderer@RenderAPI@@UEAAX_N@Z
+         51   32 000049E0 ?freeStringMem@StubRenderer@RenderAPI@@UEAAXPEBD@Z
+         52   33 00001C50 ?getAdapterInfo@StubRenderer@RenderAPI@@UEAA_NAEAUAdapterInfo@2@@Z
+         53   34 00002470 ?getBackendName@StubRenderer@RenderAPI@@UEBAPEBDXZ
+         54   35 00002480 ?getCapability@StubRenderer@RenderAPI@@UEAAHW4CAPABILITY_ENUM@render@@@Z
+         55   36 00001C40 ?getCoreCount@StubRenderer@RenderAPI@@UEBAHXZ
+         56   37 00001C30 ?getCoreIdx@StubRenderer@RenderAPI@@UEBAHXZ
+         57   38 00004A60 ?getCurrentColorBuffer@StubRenderer@RenderAPI@@UEAA?AV?$Ptr@UITexture@RenderAPI@@UDeleter@12@@ed@@H@Z
+         58   39 00004BB0 ?getCurrentDepthStencilBuffer@StubRenderer@RenderAPI@@UEAA?AV?$Ptr@UITexture@RenderAPI@@UDeleter@12@@ed@@XZ
+         59   3A 00004D10 ?getCurrentFrameBuffer@StubRenderer@RenderAPI@@UEAAPEAUIFrameBuffer@2@XZ
+         60   3B 000024D0 ?getGpuQuery@StubRenderer@RenderAPI@@UEAAAEAVIGpuQuery@render@@XZ
+         61   3C 00001C30 ?getHMD@StubRenderer@RenderAPI@@UEAAPEAUIHMDRenderAPI@2@XZ
+         62   3D 00001C30 ?getNGX@StubRenderer@RenderAPI@@UEAAPEAUINGX_API@2@XZ
+         63   3E 00004DE0 ?getRenderTarget@StubRenderer@RenderAPI@@UEAA?AV?$Ptr@UITexture@RenderAPI@@UDeleter@12@@ed@@PEBD@Z
+         64   3F 00001C30 ?getResourcesList@StubRenderer@RenderAPI@@UEAAPEBDXZ
+         65   40 00004E00 ?getShaderManager@StubRenderer@RenderAPI@@UEAAPEAUIShaderManager@2@XZ
+         66   41 00004E70 ?getStateManager@StubRenderer@RenderAPI@@UEAAPEAUIStateManager@2@XZ
+         67   42 00001C30 ?getStatistic@StubRenderer@RenderAPI@@UEAAPEBDPEBD@Z
+         68   43 000025A0 ?getStatistics@StubRenderer@RenderAPI@@UEAAAEAVIStatistics@render@@XZ
+         69   44 00002610 ?getTargetDims@StubRenderer@RenderAPI@@UEAA?AVVec2i@osg@@XZ
+         70   45 00004EE0 ?getTextureManager@StubRenderer@RenderAPI@@UEAAPEAUITextureManager@2@XZ
+         71   46 00002630 ?getVSyncMode@StubRenderer@RenderAPI@@UEAAHXZ
+         72   47 00002610 ?getViewportDims@StubRenderer@RenderAPI@@UEAA?AVVec2i@osg@@XZ
+         73   48 00002650 ?getViewportPos@StubRenderer@RenderAPI@@UEAA?AVVec2i@osg@@XZ
+         74   49 00010010 ?gqs@?1??getGpuQuery@StubRenderer@RenderAPI@@UEAAAEAVIGpuQuery@render@@XZ@4VGpuQueryStub@3@A
+         75   4A 00004EF0 ?init@StubRenderer@RenderAPI@@UEAA_NAEBURenderConfig@render@@@Z
+         76   4B 00001C10 ?interframeResourceSync@StubRenderer@RenderAPI@@UEAAX_N@Z
+         77   4C 00004FA0 ?isRenderTargetExists@StubRenderer@RenderAPI@@UEAA_NPEBD@Z
+         78   4D 00005130 ?popFrameBuffer@StubRenderer@RenderAPI@@UEAA_NXZ
+         79   4E 00001C10 ?popScissor@StubRenderer@RenderAPI@@UEAAXXZ
+         80   4F 000022B0 ?popStreamOutput@StubRenderer@RenderAPI@@UEAA_NXZ
+         81   50 00001C10 ?popViewport@StubRenderer@RenderAPI@@UEAAXXZ
+         82   51 00002660 ?pushFrameBuffer@StubRenderer@RenderAPI@@UEAA_NIQEBURenderTargetBindInfo@2@U32@@Z
+         83   52 00005170 ?pushFrameBuffer@StubRenderer@RenderAPI@@UEAA_NPEAUIFrameBuffer@2@HH@Z
+         84   53 00001C10 ?pushScissor@StubRenderer@RenderAPI@@UEAAXHHHH@Z
+         85   54 000022B0 ?pushStreamOutput@StubRenderer@RenderAPI@@UEAA_NPEAUIVertexBuffer@2@@Z
+         86   55 00001C10 ?pushViewport@StubRenderer@RenderAPI@@UEAAXHHHHMM_N@Z
+         87   56 00001C30 ?queryCommandStreamRenderer@StubRenderer@RenderAPI@@UEAAPEAUICommandStreamRenderer@2@XZ
+         88   57 00001C10 ?reloadTextures@StubRenderer@RenderAPI@@UEAAXXZ
+         89   58 000022B0 ?resize@StubRenderer@RenderAPI@@UEAA_NHH_N@Z
+         90   59 00001C10 ?setFullscreen@StubRenderer@RenderAPI@@UEAAX_N@Z
+         91   5A 000022B0 ?setIndices@StubRenderer@RenderAPI@@UEAA_NPEAUIShader@2@PEAUIIndexBuffer@2@@Z
+         92   5B 00001C10 ?setRenderGraphResourceTracking@StubRenderer@RenderAPI@@UEAAX_N@Z
+         93   5C 00001C40 ?setShader@StubRenderer@RenderAPI@@UEAAHPEAUIShader@2@_K@Z
+         94   5D 00001C10 ?setupSlotBinder@StubRenderer@RenderAPI@@UEAAXHH@Z
+         95   5E 000052A0 ?shutdown@StubRenderer@RenderAPI@@UEAAXXZ
+         96   5F 00010008 ?ss@?1??getStatistics@StubRenderer@RenderAPI@@UEAAAEAVIStatistics@render@@XZ@4VStatisticsStub@3@A
+         97   60 00001C10 ?test@StubRenderer@RenderAPI@@UEAAXPEBD@Z
+         98   61 00001C10 ?trackResourceByRenderGraph@StubRenderer@RenderAPI@@UEAAXPEAUIBuffer@2@@Z
+         99   62 00001C10 ?trackResourceByRenderGraph@StubRenderer@RenderAPI@@UEAAXPEAUIConstantBuffer@2@@Z
+        100   63 00001C10 ?trackResourceByRenderGraph@StubRenderer@RenderAPI@@UEAAXPEAUIStructuredBuffer@2@@Z
+        101   64 00001C10 ?trackResourceByRenderGraph@StubRenderer@RenderAPI@@UEAAXPEAUITexture@2@@Z
+        102   65 00001C10 ?unbindResource@StubRenderer@RenderAPI@@UEAAXIW4RESOURCE_TYPE_ENUM@render@@@Z
+        103   66 00001C10 ?waitForIdle@StubRenderer@RenderAPI@@UEAAXXZ
+        104   67 00005310 createRenderer
+
+  Summary
+
+        2000 .data
+        1000 .pdata
+        7000 .rdata
+        1000 .reloc
+        1000 .rsrc
+        8000 .text

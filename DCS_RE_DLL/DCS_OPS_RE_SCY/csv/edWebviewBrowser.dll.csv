@@ -1,0 +1,7 @@
+﻿ordinal,rva,rva_hex,name,demangled,symbol_type,namespace,class_name,function_name,parameters,const,static,virtual,is_vftable,is_vbtable,is_rtti,demangle_ok
+1,0,0x0,??0CEFInit@ed@@QEAA@_N@Z,public: __cdecl ed::CEFInit::CEFInit(bool),method,ed,CEFInit,CEFInit,bool,False,False,False,False,False,False,True
+2,1,0x1,??_FCEFInit@ed@@QEAAXXZ,public: void __cdecl ed::CEFInit::`default ctor closure'(void),function,,,closure',void,False,False,False,False,False,False,True
+3,2,0x2,?getGlobalWebViewAllowList@ed@@YAPEAVWebViewAllowList@1@XZ,class ed::WebViewAllowList * __cdecl ed::getGlobalWebViewAllowList(void),method,,ed,getGlobalWebViewAllowList,void,False,False,False,False,False,False,True
+4,3,0x3,ed_WebViewTexture_create,,unknown,,,,,False,False,False,False,False,False,False
+5,4,0x4,ed_WebView_create,,unknown,,,,,False,False,False,False,False,False,False
+6,5,0x5,ed_WebWindow_create,,unknown,,,,,False,False,False,False,False,False,False

@@ -1,0 +1,31 @@
+Microsoft (R) COFF/PE Dumper Version 14.51.36256.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file G:\DCS_OPS_RE\bin\vrgeyes.dll
+
+File Type: DLL
+
+  Section contains the following exports for vrgeyes.dll
+
+    00000000 characteristics
+    FFFFFFFF time date stamp
+        0.00 version
+           1 ordinal base
+           2 number of functions
+           2 number of names
+
+    ordinal hint RVA      name
+
+          1    0 00131100 vrgFreeEyeApi
+          2    1 00130F00 vrgInitEyeApi
+
+  Summary
+
+      830000 .data
+       4F000 .pdata
+      393000 .rdata
+        D000 .reloc
+        1000 .rsrc
+      99A000 .text
+        C000 _RDATA

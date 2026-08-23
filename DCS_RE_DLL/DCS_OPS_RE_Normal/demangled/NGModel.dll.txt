@@ -1,0 +1,139 @@
+// DCS_OPS_RE: NGModel.dll
+// Generated from dumpbin /exports
+
+[    1]          0x0  public: __cdecl model::GlobalsMT::GlobalsMT(void)
+[    2]          0x1  public: __cdecl model::GraphNodesFactoryMT::GraphNodesFactoryMT(char const *)
+[    3]          0x2  public: virtual __cdecl cloth::FlagModel::~FlagModel(void)
+[    4]          0x3  public: virtual __cdecl model::GlobalsMT::~GlobalsMT(void)
+[    5]          0x4  public: virtual __cdecl model::NGModelLodsMT::~NGModelLodsMT(void)
+[    6]          0x5  public: static class Graphics::Model * __cdecl model::NGModelLodsMT::Create2(char const *, char const *, struct model::ModelOptions const &)
+[    7]          0x6  public: static class Graphics::Model * __cdecl cloth::FlagModel::Create(char const *, char const *, struct model::ModelOptions const &)
+[    8]          0x7  public: static class Graphics::Model * __cdecl model::NGModelLodsMT::Create(char const *, char const *, struct model::ModelOptions const &)
+[    9]          0x8  public: virtual class Graphics::ModelConnector * __cdecl cloth::FlagModel::GetConnector(int)
+[   10]          0x9  public: virtual class Graphics::ModelConnector * __cdecl cloth::FlagModel::GetConnector(char const *)
+[   11]          0xA  public: virtual class Graphics::ModelConnector * __cdecl model::NGModelLodsMT::GetConnector(int)
+[   12]          0xB  public: virtual class Graphics::ModelConnector * __cdecl model::NGModelLodsMT::GetConnector(char const *)
+[   13]          0xC  public: virtual void __cdecl cloth::FlagModel::GetLight(class Graphics::ModelInstance &, class wPosition3<float> const &, unsigned int, class Graphics::ModelLight &) const
+[   14]          0xD  public: virtual void __cdecl cloth::FlagModel::GetLight(class Graphics::ModelInstance &, unsigned int, class Graphics::ModelLight &) const
+[   15]          0xE  public: virtual void __cdecl model::NGModelLodsMT::GetLight(class Graphics::ModelInstance &, class wPosition3<float> const &, unsigned int, class Graphics::ModelLight &) const
+[   16]          0xF  public: virtual void __cdecl model::NGModelLodsMT::GetLight(class Graphics::ModelInstance &, unsigned int, class Graphics::ModelLight &) const
+[   17]         0x10  public: virtual class wPosition3<float> __cdecl cloth::FlagModel::GetLightPosition(class Graphics::ModelInstance &, class wPosition3<float> const &, unsigned int) const
+[   18]         0x11  public: virtual class wPosition3<float> __cdecl model::NGModelLodsMT::GetLightPosition(class Graphics::ModelInstance &, class wPosition3<float> const &, unsigned int) const
+[   19]         0x12  public: virtual void __cdecl cloth::FlagModel::GetTexturesNames(class ed::unordered_set<class ed::basic_string<char>, struct std::hash<class ed::basic_string<char>>, struct std::equal_to<class ed::basic_string<char>>, class ed::allocator<class ed::basic_string<char>>> &) const
+[   20]         0x13  public: virtual void __cdecl model::NGModelLodsMT::GetTexturesNames(class ed::unordered_set<class ed::basic_string<char>, struct std::hash<class ed::basic_string<char>>, struct std::equal_to<class ed::basic_string<char>>, class ed::allocator<class ed::basic_string<char>>> &) const
+[   21]         0x14  public: virtual void __cdecl cloth::FlagModel::GetTexturesTexCoords(class std::unordered_map<class ed::basic_string<char>, class ed::vector<class osg::Vec3f, class ed::allocator<class osg::Vec3f>>, struct std::hash<class ed::basic_string<char>>, struct std::equal_to<class ed::basic_string<char>>, class ed::allocator<struct std::pair<class ed::basic_string<char> const, class ed::vector<class osg::Vec3f, class ed::allocator<class osg::Vec3f>>>>> &) const
+[   22]         0x15  public: virtual void __cdecl model::NGModelLodsMT::GetTexturesTexCoords(class std::unordered_map<class ed::basic_string<char>, class ed::vector<class osg::Vec3f, class ed::allocator<class osg::Vec3f>>, struct std::hash<class ed::basic_string<char>>, struct std::equal_to<class ed::basic_string<char>>, class ed::allocator<struct std::pair<class ed::basic_string<char> const, class ed::vector<class osg::Vec3f, class ed::allocator<class osg::Vec3f>>>>> &) const
+[   23]         0x16  public: virtual void __cdecl model::GlobalsMT::OnEndParse(void)
+[   24]         0x17  public: virtual void __cdecl model::NGModelLodsMT::Parse(class Graphics::ModelInstance &, class Graphics::ModelParser &, class wPosition3<float> const &, class Graphics::effectState *)
+[   25]         0x18  public: virtual void __cdecl cloth::FlagModel::ParseMT2(class Graphics::ModelInstance &, unsigned int, struct render::CollectionInfo const **, bool const *const, class ed::vector<struct render::ISceneRenderable *, class ed::allocator<struct render::ISceneRenderable *>> **, struct render::ILightProbeSampler &, class wPosition3<float> const &)
+[   26]         0x19  public: virtual void __cdecl model::NGModelLodsMT::ParseMT2(class Graphics::ModelInstance &, unsigned int, struct render::CollectionInfo const **, bool const *const, class ed::vector<struct render::ISceneRenderable *, class ed::allocator<struct render::ISceneRenderable *>> **, struct render::ILightProbeSampler &, class wPosition3<float> const &)
+[   27]         0x1A  public: virtual void __cdecl model::NGModelLodsMT::ParseMT(class Graphics::ModelInstance &, struct render::CollectionInfo const *, class ed::vector<struct render::ISceneRenderable *, class ed::allocator<struct render::ISceneRenderable *>> *, struct render::ILightProbeSampler &, class wPosition3<float> const &)
+[   28]         0x1B  void __cdecl model::SetModelsVFS(class edvfs::IVFSandbox *)
+[   29]         0x1C  public: virtual bool __cdecl cloth::FlagModelCookie::allResourcesAreReady(void)
+[   30]         0x1D  public: virtual bool __cdecl model::NGModelLodsCookieMT::allResourcesAreReady(void)
+[   31]         0x1E  public: bool __cdecl model::GraphicsCookieMT::allTexturesAreReady(void) const
+[   32]         0x1F  public: virtual void __cdecl cloth::FlagModel::applyMults(class std::unordered_map<class ed::basic_string<char>, struct MultCoefs, struct std::hash<class ed::basic_string<char>>, struct std::equal_to<class ed::basic_string<char>>, class ed::allocator<struct std::pair<class ed::basic_string<char> const, struct MultCoefs>>> const &)
+[   33]         0x20  public: void __cdecl model::GRootNodeMT::applyMults(class std::unordered_map<class ed::basic_string<char>, struct MultCoefs, struct std::hash<class ed::basic_string<char>>, struct std::equal_to<class ed::basic_string<char>>, class ed::allocator<struct std::pair<class ed::basic_string<char> const, struct MultCoefs>>> const &)
+[   34]         0x21  public: virtual void __cdecl model::NGModelLodsMT::applyMults(class std::unordered_map<class ed::basic_string<char>, struct MultCoefs, struct std::hash<class ed::basic_string<char>>, struct std::equal_to<class ed::basic_string<char>>, class ed::allocator<struct std::pair<class ed::basic_string<char> const, struct MultCoefs>>> const &)
+[   35]         0x22  public: class model::GRootNodeMT * __cdecl model::GraphNodesFactoryMT::bootstrap(class model::RootNode &, class model::IAllocator *)
+[   36]         0x23  public: virtual void __cdecl cloth::FlagModelCookie::clearDecals(void)
+[   37]         0x24  public: virtual void __cdecl model::NGModelLodsCookieMT::clearDecals(void)
+[   38]         0x25  public: virtual class std::unique_ptr<class model::ModelCookie, struct model::ModelCookieDeleter> __cdecl cloth::FlagModelCookie::clone(void) const
+[   39]         0x26  public: virtual class std::unique_ptr<class model::ModelCookie, struct model::ModelCookieDeleter> __cdecl model::NGModelLodsCookieMT::clone(void) const
+[   40]         0x27  public: virtual struct Graphics::IParsableModel * __cdecl cloth::FlagModel::createGraphicInstance(class ed::vector<float, class ed::allocator128<float>> const &, class model::ModelCookie *) const
+[   41]         0x28  public: virtual struct Graphics::IParsableModel * __cdecl model::NGModelLodsMT::createGraphicInstance(class ed::vector<float, class ed::allocator128<float>> const &, class model::ModelCookie *) const
+[   42]         0x29  public: virtual class std::unique_ptr<class model::ModelCookie, struct model::ModelCookieDeleter> __cdecl cloth::FlagModel::create_cookie(void)
+[   43]         0x2A  public: virtual class std::unique_ptr<class model::ModelCookie, struct model::ModelCookieDeleter> __cdecl model::NGModelLodsMT::create_cookie(void)
+[   44]         0x2B  public: void __cdecl model::GRootNodeMT::destroy(void)
+[   45]         0x2C  public: virtual void __cdecl model::DeckMaterialMT::draw(struct model::BaseRenderDataMT const &, class osg::Vec3f const &, enum model::ModelPass, struct model::MeshMT const *, struct model::MeshMT const *, struct model::MaterialContext const *, class osg::Vec2i const &)
+[   46]         0x2D  public: virtual void __cdecl model::GlassMaterialMT::draw(struct model::BaseRenderDataMT const &, class osg::Vec3f const &, enum model::ModelPass, struct model::MeshMT const *, struct model::MeshMT const *, struct model::MaterialContext const *, class osg::Vec2i const &)
+[   47]         0x2E  public: virtual void __cdecl model::ModelMaterialMT::draw(struct model::BaseRenderDataMT const &, class osg::Vec3f const &, enum model::ModelPass, struct model::MeshMT const *, struct model::MeshMT const *, struct model::MaterialContext const *, class osg::Vec2i const &)
+[   48]         0x2F  public: virtual void __cdecl cloth::FlagModel::enumerateSegments(class osg::Matrixd const &, class model::IModelParams const *, class std::function<void __cdecl(char const *, class osg::Vec3f const &, class osg::Vec3f const &)> const &)
+[   49]         0x30  public: virtual void __cdecl model::NGModelLodsMT::enumerateSegments(class osg::Matrixd const &, class model::IModelParams const *, class std::function<void __cdecl(char const *, class osg::Vec3f const &, class osg::Vec3f const &)> const &)
+[   50]         0x31  public: bool __cdecl model::NGModelLodsMT::findCloseParts2(class osg::Matrixd const &, class model::IModelParams const *, class osg::Vec3f const &, class ClipVolume const *, class std::function<void __cdecl(char const *, float, class osg::Vec3d const &)> const &)
+[   51]         0x32  public: virtual bool __cdecl cloth::FlagModel::findCloseParts(class osg::Matrixd const &, class model::IModelParams const *, class osg::Vec3f const &, class ClipVolume const *, class std::function<void __cdecl(char const *, float)> const &)
+[   52]         0x33  public: virtual bool __cdecl model::NGModelLodsMT::findCloseParts(class osg::Matrixd const &, class model::IModelParams const *, class osg::Vec3f const &, class ClipVolume const *, class std::function<void __cdecl(char const *, float)> const &)
+[   53]         0x34  public: void __cdecl model::GRootNodeMT::getAllShaders(class ed::vector<struct std::pair<class ed::basic_string<char>, class ed::vector<class render::DefinePair, class ed::allocator<class render::DefinePair>>>, class ed::allocator<struct std::pair<class ed::basic_string<char>, class ed::vector<class render::DefinePair, class ed::allocator<class render::DefinePair>>>>> &)
+[   54]         0x35  public: virtual class osg::BoundingBoxImpl<class osg::Vec3f> __cdecl cloth::FlagModel::getBoundingBox(int) const
+[   55]         0x36  public: virtual class osg::BoundingBoxImpl<class osg::Vec3f> const & __cdecl cloth::FlagModel::getBoundingBox(void) const
+[   56]         0x37  public: virtual class osg::BoundingBoxImpl<class osg::Vec3f> __cdecl model::NGModelLodsMT::getBoundingBox(int) const
+[   57]         0x38  public: virtual class osg::BoundingBoxImpl<class osg::Vec3f> const & __cdecl model::NGModelLodsMT::getBoundingBox(void) const
+[   58]         0x39  public: virtual unsigned __int64 __cdecl cloth::FlagModel::getCollisionSegmentId(char const *) const
+[   59]         0x3A  public: virtual unsigned __int64 __cdecl model::NGModelLodsMT::getCollisionSegmentId(char const *) const
+[   60]         0x3B  public: virtual char const * __cdecl cloth::FlagModel::getCollisionSegmentName(unsigned __int64) const
+[   61]         0x3C  public: virtual char const * __cdecl model::NGModelLodsMT::getCollisionSegmentName(unsigned __int64) const
+[   62]         0x3D  public: virtual class osg::BoundingBoxImpl<class osg::Vec3f> __cdecl cloth::FlagModel::getCollisionShellBoundingBox(unsigned __int64, class model::IModelParams const *) const
+[   63]         0x3E  public: virtual class osg::BoundingBoxImpl<class osg::Vec3f> __cdecl model::NGModelLodsMT::getCollisionShellBoundingBox(unsigned __int64, class model::IModelParams const *) const
+[   64]         0x3F  public: virtual unsigned __int64 __cdecl cloth::FlagModel::getCollisionShellId(char const *) const
+[   65]         0x40  public: virtual unsigned __int64 __cdecl model::NGModelLodsMT::getCollisionShellId(char const *) const
+[   66]         0x41  public: virtual char const * __cdecl cloth::FlagModel::getCollisionShellName(unsigned __int64) const
+[   67]         0x42  public: virtual char const * __cdecl model::NGModelLodsMT::getCollisionShellName(unsigned __int64) const
+[   68]         0x43  public: virtual class model::IConnector const * __cdecl cloth::FlagModel::getConnector(unsigned int) const
+[   69]         0x44  public: virtual class model::IConnector const * __cdecl model::NGModelLodsMT::getConnector(unsigned int) const
+[   70]         0x45  public: virtual class model::IConnector const * __cdecl cloth::FlagModel::getConnectorByName(char const *) const
+[   71]         0x46  public: virtual class model::IConnector const * __cdecl model::NGModelLodsMT::getConnectorByName(char const *) const
+[   72]         0x47  public: unsigned int __cdecl model::NGModelLodsMT::getFirstLod(void) const
+[   73]         0x48  public: virtual class model::ILight const * __cdecl cloth::FlagModel::getLight(unsigned int) const
+[   74]         0x49  public: virtual class model::ILight const * __cdecl model::NGModelLodsMT::getLight(unsigned int) const
+[   75]         0x4A  public: virtual class osg::BoundingBoxImpl<class osg::Vec3f> const & __cdecl cloth::FlagModel::getLightingBox(void) const
+[   76]         0x4B  public: virtual class osg::BoundingBoxImpl<class osg::Vec3f> const & __cdecl model::NGModelLodsMT::getLightingBox(void) const
+[   77]         0x4C  public: virtual enum model::LoadState __cdecl cloth::FlagModel::getLoadState(void) const
+[   78]         0x4D  public: virtual enum model::LoadState __cdecl model::NGModelLodsMT::getLoadState(void) const
+[   79]         0x4E  public: class ed::vector<struct std::pair<double, double>, class ed::allocator<struct std::pair<double, double>>> __cdecl model::NGModelLodsMT::Lod::getLodDistances(void) const
+[   80]         0x4F  public: virtual class std::unordered_map<class ed::basic_string<char>, struct MultCoefs, struct std::hash<class ed::basic_string<char>>, struct std::equal_to<class ed::basic_string<char>>, class ed::allocator<struct std::pair<class ed::basic_string<char> const, struct MultCoefs>>> __cdecl cloth::FlagModel::getMults(void)
+[   81]         0x50  public: virtual class std::unordered_map<class ed::basic_string<char>, struct MultCoefs, struct std::hash<class ed::basic_string<char>>, struct std::equal_to<class ed::basic_string<char>>, class ed::allocator<struct std::pair<class ed::basic_string<char> const, struct MultCoefs>>> __cdecl model::NGModelLodsMT::getMults(void)
+[   82]         0x51  public: virtual void __cdecl cloth::FlagModel::getMultsToRegister(void *)
+[   83]         0x52  public: virtual void __cdecl model::NGModelLodsMT::getMultsToRegister(void *)
+[   84]         0x53  unsigned __int64 __cdecl model::getNRenderedTris(void)
+[   85]         0x54  public: virtual char const * __cdecl cloth::FlagModel::getName(void) const
+[   86]         0x55  public: virtual char const * __cdecl model::NGModelLodsMT::getName(void) const
+[   87]         0x56  public: virtual unsigned int __cdecl cloth::FlagModel::getNumArguments(void) const
+[   88]         0x57  public: virtual unsigned int __cdecl model::NGModelLodsMT::getNumArguments(void) const
+[   89]         0x58  public: virtual unsigned __int64 __cdecl cloth::FlagModel::getNumCollisionSegments(void) const
+[   90]         0x59  public: virtual unsigned __int64 __cdecl model::NGModelLodsMT::getNumCollisionSegments(void) const
+[   91]         0x5A  public: virtual unsigned __int64 __cdecl cloth::FlagModel::getNumCollisionShells(void) const
+[   92]         0x5B  public: virtual unsigned __int64 __cdecl model::NGModelLodsMT::getNumCollisionShells(void) const
+[   93]         0x5C  public: virtual unsigned int __cdecl cloth::FlagModel::getNumConnectors(void) const
+[   94]         0x5D  public: virtual unsigned int __cdecl model::NGModelLodsMT::getNumConnectors(void) const
+[   95]         0x5E  public: virtual unsigned int __cdecl cloth::FlagModel::getNumLights(void) const
+[   96]         0x5F  public: virtual unsigned int __cdecl model::NGModelLodsMT::getNumLights(void) const
+[   97]         0x60  public: virtual unsigned __int64 __cdecl cloth::FlagModelCookie::getType(void) const
+[   98]         0x61  public: virtual unsigned __int64 __cdecl model::NGModelLodsCookieMT::getType(void) const
+[   99]         0x62  public: virtual unsigned int __cdecl cloth::FlagModel::getUsedArgs(unsigned int *) const
+[  100]         0x63  public: virtual unsigned int __cdecl model::NGModelLodsMT::getUsedArgs(unsigned int *) const
+[  101]         0x64  public: virtual class osg::BoundingBoxImpl<class osg::Vec3f> const & __cdecl cloth::FlagModel::getUserBox(void) const
+[  102]         0x65  public: virtual class osg::BoundingBoxImpl<class osg::Vec3f> const & __cdecl model::NGModelLodsMT::getUserBox(void) const
+[  103]         0x66  public: virtual unsigned int const * __cdecl cloth::FlagModel::getVisArgs(unsigned __int64 &) const
+[  104]         0x67  public: virtual unsigned int const * __cdecl model::NGModelLodsMT::getVisArgs(unsigned __int64 &) const
+[  105]         0x68  class model::GlobalsMT *model::globals
+[  106]         0x69  public: void __cdecl model::GRootNodeMT::loadMaterials(void)
+[  107]         0x6A  public: void __cdecl model::GRootNodeMT::loadTextures(void) const
+[  108]         0x6B  class std::unordered_map<class ed::basic_string<char>, struct MultCoefs, struct std::hash<class ed::basic_string<char>>, struct std::equal_to<class ed::basic_string<char>>, class ed::allocator<struct std::pair<class ed::basic_string<char> const, struct MultCoefs>>> __cdecl model::load_json_mat(char const *)
+[  109]         0x6C  public: virtual void __cdecl cloth::FlagModel::reload(void)
+[  110]         0x6D  public: virtual void __cdecl model::NGModelLodsMT::reload(void)
+[  111]         0x6E  public: virtual void __cdecl cloth::FlagModel::resetMults(void)
+[  112]         0x6F  public: virtual void __cdecl model::NGModelLodsMT::resetMults(void)
+[  113]         0x70  void __cdecl model::resetTrisCounter(void)
+[  114]         0x71  public: virtual void __cdecl cloth::FlagModelCookie::setLiveryHandle(unsigned int)
+[  115]         0x72  public: virtual void __cdecl model::NGModelLodsCookieMT::setLiveryHandle(unsigned int)
+[  116]         0x73  public: virtual void __cdecl cloth::FlagModelCookie::shoot(class ed::vector<float, class ed::allocator128<float>> const &, class osg::Vec3d const &, class osg::Vec3d const &, float)
+[  117]         0x74  public: virtual void __cdecl model::NGModelLodsCookieMT::shoot(class ed::vector<float, class ed::allocator128<float>> const &, class osg::Vec3d const &, class osg::Vec3d const &, float)
+[  118]         0x75  public: virtual bool __cdecl cloth::FlagModel::testWithBBox(class osg::BoundingBoxImpl<class osg::Vec3f> const &, class model::IModelParams const *, class std::function<void __cdecl(unsigned int, double)> const &) const
+[  119]         0x76  public: virtual bool __cdecl model::NGModelLodsMT::testWithBBox(class osg::BoundingBoxImpl<class osg::Vec3f> const &, class model::IModelParams const *, class std::function<void __cdecl(unsigned int, double)> const &) const
+[  120]         0x77  public: virtual bool __cdecl model::NGModelLodsMT::testWithCone(class osg::Matrixd const &, class model::IModelParams const *, class osg::Matrixd const &, float, float, class ed::span<struct model::Cone const, -1>, class std::function<void __cdecl(char const *, unsigned __int64, class osg::Vec3d const &, float, float, float)> const &)
+[  121]         0x78  public: virtual bool __cdecl cloth::FlagModel::testWithModel(class osg::Matrixd const &, class model::IModelParams const *, class model::IModel &, class osg::Matrixd const &, class model::IModelParams const *, class std::function<bool __cdecl(char const *, char const *, class osg::Vec3d const &, class osg::Vec3d const &, float, class osg::Vec3f const &)> const &)
+[  122]         0x79  public: virtual bool __cdecl model::NGModelLodsMT::testWithModel(class osg::Matrixd const &, class model::IModelParams const *, class model::IModel &, class osg::Matrixd const &, class model::IModelParams const *, class std::function<bool __cdecl(char const *, char const *, class osg::Vec3d const &, class osg::Vec3d const &, float, class osg::Vec3f const &)> const &)
+[  123]         0x7A  public: virtual bool __cdecl cloth::FlagModel::testWithSegment(class osg::Vec3d const &, class osg::Vec3d const &, class osg::Matrixd const &, class model::IModelParams const *, class std::function<void __cdecl(char const *, unsigned __int64, double, class osg::Vec3d const &)> const &)
+[  124]         0x7B  public: virtual bool __cdecl cloth::FlagModel::testWithSegment(class osg::Vec3d const &, class osg::Vec3d const &, class model::IModelParams const *, class std::function<void __cdecl(unsigned int, double, class osg::Vec3d const &)> const &)
+[  125]         0x7C  public: virtual bool __cdecl cloth::FlagModel::testWithSegment(class osg::Vec3d const &, int, class model::IModelParams const *, class std::function<void __cdecl(unsigned int, double, class osg::Vec3d const &)> const &)
+[  126]         0x7D  public: virtual bool __cdecl model::NGModelLodsMT::testWithSegment(class osg::Vec3d const &, class osg::Vec3d const &, class osg::Matrixd const &, class model::IModelParams const *, class std::function<void __cdecl(char const *, unsigned __int64, double, class osg::Vec3d const &)> const &)
+[  127]         0x7E  public: virtual bool __cdecl model::NGModelLodsMT::testWithSegment(class osg::Vec3d const &, class osg::Vec3d const &, class model::IModelParams const *, class std::function<void __cdecl(unsigned int, double, class osg::Vec3d const &)> const &)
+[  128]         0x7F  public: virtual bool __cdecl model::NGModelLodsMT::testWithSegment(class osg::Vec3d const &, int, class model::IModelParams const *, class std::function<void __cdecl(unsigned int, double, class osg::Vec3d const &)> const &)
+[  129]         0x80  public: static unsigned __int64 const cloth::FlagModelCookie::type
+[  130]         0x81  public: static unsigned __int64 const model::NGModelLodsCookieMT::type
+[  131]         0x82  public: void __cdecl model::GraphicsCookieMT::updateTextures(void)
+[  132]         0x83  public: void __cdecl model::GRootNodeMT::uploadBuffers(class io::IBinaryFileR &)
+[  133]         0x84  deinit_graphics_plugin
+[  134]         0x85  getGraphModelManager
+[  135]         0x86  getModelManager
+[  136]         0x87  init_graphics_plugin

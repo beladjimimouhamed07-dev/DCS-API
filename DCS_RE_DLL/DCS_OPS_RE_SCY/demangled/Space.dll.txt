@@ -1,0 +1,94 @@
+// DCS_OPS_RE: Space.dll
+// Generated from dumpbin /exports
+
+[    1]          0x0  public: __cdecl AlmanacGPS::AlmanacGPS(void)
+[    2]          0x1  public: __cdecl SatelliteStorage::SatelliteStorage(void)
+[    3]          0x2  public: __cdecl Space::Space(class Space const &)
+[    4]          0x3  public: __cdecl Space::Space(void)
+[    5]          0x4  public: __cdecl waSatellite::waSatellite(class waSatellite const &)
+[    6]          0x5  public: __cdecl waSatellite::waSatellite(int, unsigned char)
+[    7]          0x6  public: __cdecl waSatellite::waSatellite(int, unsigned char, char const *)
+[    8]          0x7  public: __cdecl waSatellite::waSatellite(void)
+[    9]          0x8  public: __cdecl SatelliteStorage::~SatelliteStorage(void)
+[   10]          0x9  public: virtual __cdecl Space::~Space(void)
+[   11]          0xA  public: virtual __cdecl waSatellite::~waSatellite(void)
+[   12]          0xB  public: struct AlmanacGPS & __cdecl AlmanacGPS::operator=(struct AlmanacGPS &&)
+[   13]          0xC  public: struct AlmanacGPS & __cdecl AlmanacGPS::operator=(struct AlmanacGPS const &)
+[   14]          0xD  public: class Space & __cdecl Space::operator=(class Space const &)
+[   15]          0xE  public: class waSatellite & __cdecl waSatellite::operator=(class waSatellite const &)
+[   16]          0xF  const Space::`vftable'{for `IwaMoon'}
+[   17]         0x10  const Space::`vftable'{for `IwaSun'}
+[   18]         0x11  const waSatellite::`vftable'
+[   19]         0x12  private: static double const waSatellite::GPS_TIME_ZERO
+[   20]         0x13  public: float __cdecl waSatellite::GetSize(void)
+[   21]         0x14  public: virtual float __cdecl Space::Get_Sun_Zenit(void)
+[   22]         0x15  public: void __cdecl SatelliteStorage::Init(void)
+[   23]         0x16  public: virtual struct gBox const & __cdecl waSatellite::LocalBox(double)
+[   24]         0x17  public: virtual class wPosition3<float> const & __cdecl waSatellite::Position(double)
+[   25]         0x18  protected: void __cdecl Space::azimuthElevation(double, double, double &, double &)
+[   26]         0x19  protected: void __cdecl Space::azimuthElevationForLatLon(double, double, double, double, double &, double &) const
+[   27]         0x1A  public: class osg::Vec3d __cdecl waSatellite::calcPosition(double) const
+[   28]         0x1B  public: static class osg::Vec3d __cdecl waSatellite::calcPosition(struct AlmanacGPS const &, double)
+[   29]         0x1C  public: class osg::Vec3d __cdecl waSatellite::calcVelocity(double, double) const
+[   30]         0x1D  public: static class osg::Vec3d __cdecl waSatellite::calcVelocity(struct AlmanacGPS const &, double, double)
+[   31]         0x1E  public: void __cdecl SatelliteStorage::clear(void)
+[   32]         0x1F  public: class waSatellite * __cdecl SatelliteStorage::createSatellite(int, unsigned char)
+[   33]         0x20  public: static void __cdecl Space::done(void)
+[   34]         0x21  public: struct AlmanacGPS const & __cdecl waSatellite::getAlmanac(void) const
+[   35]         0x22  protected: double __cdecl Space::getD(void)
+[   36]         0x23  public: void __cdecl Space::getDateTime(double &, double &, double &, double &, double &, double &)
+[   37]         0x24  public: class osg::Vec3f __cdecl Space::getDir(double, double) const
+[   38]         0x25  public: static double const __cdecl waSatellite::getGlonassCommitDate(void)
+[   39]         0x26  public: static double const __cdecl waSatellite::getGpsCommitDate(void)
+[   40]         0x27  public: static class Space * __cdecl Space::getInstance(void)
+[   41]         0x28  public: void __cdecl Space::getLatLon(double &, double &)
+[   42]         0x29  public: void __cdecl Space::getMoon(double &, double &)
+[   43]         0x2A  public: void __cdecl Space::getMoon(class wPosition3<float> &)
+[   44]         0x2B  public: virtual float __cdecl Space::getMoonPhaseVisibility(void)
+[   45]         0x2C  public: virtual float __cdecl Space::getMoonZenithCos(void)
+[   46]         0x2D  protected: struct Space::OrbitalElements __cdecl Space::getOrbitalElements(enum Space::PlanetID) const
+[   47]         0x2E  public: class osg::Vec3f __cdecl Space::getPlanet(enum Space::PlanetID, double &)
+[   48]         0x2F  public: void __cdecl Space::getPlanet(enum Space::PlanetID, double &, double &, double &)
+[   49]         0x30  public: class waSatellite * __cdecl SatelliteStorage::getSatellite(int, unsigned char)
+[   50]         0x31  public: class osg::Vec3f __cdecl Space::getStar(int)
+[   51]         0x32  public: void __cdecl Space::getStar(int, double &, double &, double &)
+[   52]         0x33  public: void __cdecl Space::getStars(class ed::vector<class osg::Vec4f, class ed::allocator<class osg::Vec4f>> &, double, double, double)
+[   53]         0x34  public: class ed::vector<struct Space::StarData, class ed::allocator<struct Space::StarData>> __cdecl Space::getStarsList(void)
+[   54]         0x35  public: float __cdecl Space::getSummerTimeDelta(void)
+[   55]         0x36  public: void __cdecl Space::getSun(double &, double &)
+[   56]         0x37  public: void __cdecl Space::getSun(class wPosition3<float> &)
+[   57]         0x38  public: class osg::Vec3f __cdecl Space::getSunVector(void)
+[   58]         0x39  public: virtual void __cdecl Space::getSunVector(float &, float &, float &)
+[   59]         0x3A  public: double __cdecl Space::getSunZenithAngleD(void)
+[   60]         0x3B  public: double __cdecl Space::getSunZenithAngleR(void)
+[   61]         0x3C  public: virtual float __cdecl Space::getSunZenithCos(void)
+[   62]         0x3D  public: bool __cdecl Space::getSunriseSunsetSecond(double &, double &, double, double, double, double)
+[   63]         0x3E  public: unsigned char __cdecl waSatellite::getSystem(void) const
+[   64]         0x3F  public: double __cdecl Space::getTimeShift(void)
+[   65]         0x40  protected: double __cdecl Space::getUTime(void) const
+[   66]         0x41  public: class osg::Vec3d const & __cdecl waSatellite::getWGS84Position(void) const
+[   67]         0x42  public: class osg::Vec3d const & __cdecl waSatellite::getWGS84Velocity(void) const
+[   68]         0x43  public: float __cdecl Space::getWinterTimeDelta(void)
+[   69]         0x44  public: int __cdecl waSatellite::get_number(void) const
+[   70]         0x45  public: static void __cdecl Space::init(void)
+[   71]         0x46  public: static bool __cdecl Space::initialized(void)
+[   72]         0x47  public: void __cdecl SatelliteStorage::notifySatelliteDeath(class waSatellite *)
+[   73]         0x48  public: void __cdecl waSatellite::setAlmanac(struct AlmanacGPS)
+[   74]         0x49  public: void __cdecl Space::setGreenwichDateTime(double, double, double, double, double, double)
+[   75]         0x4A  public: void __cdecl Space::setGreenwichDateTimeNoUpdate(double, double, double, double, double, double)
+[   76]         0x4B  public: void __cdecl Space::setLatLon(double, double)
+[   77]         0x4C  public: void __cdecl waSatellite::setPosition(class osg::Vec3d const &)
+[   78]         0x4D  public: void __cdecl waSatellite::setSystem(unsigned char)
+[   79]         0x4E  public: void __cdecl waSatellite::setVelocity(class osg::Vec3d const &)
+[   80]         0x4F  public: void __cdecl waSatellite::set_number(int)
+[   81]         0x50  public: double __cdecl Space::siderialTime(void) const
+[   82]         0x51  public: double __cdecl Space::solarTime(void) const
+[   83]         0x52  class SatelliteStorage theSatelliteStorage
+[   84]         0x53  public: void __cdecl waSatellite::update2(double, double)
+[   85]         0x54  protected: void __cdecl Space::update(void)
+[   86]         0x55  public: void __cdecl waSatellite::update(double)
+[   87]         0x56  public: void __cdecl SatelliteStorage::updateSatellitesPos(double)
+[   88]         0x57  public: void __cdecl SatelliteStorage::updateSatellitesPos(void)
+[   89]         0x58  void __cdecl updateSpace(class Space *, class osg::Vec3d const &, double)
+[   90]         0x59  void __cdecl updateSpace(class Space *, double, double, double)
+[   91]         0x5A  public: void __cdecl Space::updateTimeShift(void)

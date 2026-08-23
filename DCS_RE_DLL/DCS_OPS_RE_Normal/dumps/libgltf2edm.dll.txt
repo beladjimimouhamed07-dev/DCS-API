@@ -1,0 +1,105 @@
+Microsoft (R) COFF/PE Dumper Version 14.51.36256.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file G:\DCS_OPS_RE\bin\libgltf2edm.dll
+
+File Type: DLL
+
+  Section contains the following exports for libgltf2edm.dll
+
+    00000000 characteristics
+    FFFFFFFF time date stamp
+        0.00 version
+           1 ordinal base
+          77 number of functions
+          77 number of names
+
+    ordinal hint RVA      name
+
+          1    0 00016820 ??0EdmGLTFLoader@@QEAA@$$QEAV0@@Z
+          2    1 00016B50 ??0EdmGLTFLoader@@QEAA@AEBV0@@Z
+          3    2 00016DD0 ??0EdmGLTFLoader@@QEAA@XZ
+          4    3 0001AEC0 ??1EdmGLTFLoader@@QEAA@XZ
+          5    4 0001D370 ??4EdmGLTFLoader@@QEAAAEAV0@$$QEAV0@@Z
+          6    5 0001D640 ??4EdmGLTFLoader@@QEAAAEAV0@AEBV0@@Z
+          7    6 0001F810 ?ExtractArgAnimationKeys@EdmGLTFLoader@@AEAAXAEAUArgAnimationKeys@1@AEAUBaseAnimParam@1@AEBUAnimation@tinygltf@@HH_N3@Z
+          8    7 0001FCB0 ?ExtractArgNum@EdmGLTFLoader@@AEAAXAEBV?$basic_string@D@ed@@AEAH@Z
+          9    8 00020050 ?ExtractConnectorName@EdmGLTFLoader@@AEAA?AV?$basic_string@D@ed@@AEBV23@@Z
+         10    9 000202D0 ?GetAttribute@EdmGLTFLoader@@AEAAMPEBEI@Z
+         11    A 00020310 ?GetColor3FromDoubleVec@EdmGLTFLoader@@AEAA?AVVec3f@osg@@AEBV?$vector@NV?$allocator@N@ed@@@ed@@@Z
+         12    B 00020310 ?GetColor3FromDoubleVec@EdmGLTFLoader@@AEAA?AVVec3f@osg@@AEBV?$vector@NV?$allocator@N@std@@@std@@@Z
+         13    C 00020380 ?GetColor4FromDoubleVec@EdmGLTFLoader@@AEAA?AVVec4f@osg@@AEBV?$vector@NV?$allocator@N@ed@@@ed@@@Z
+         14    D 00020380 ?GetColor4FromDoubleVec@EdmGLTFLoader@@AEAA?AVVec4f@osg@@AEBV?$vector@NV?$allocator@N@std@@@std@@@Z
+         15    E 00020400 ?GetDrawMode@EdmGLTFLoader@@AEBA?AW4DrawMode@render@model@@H@Z
+         16    F 00020460 ?GetIndice@EdmGLTFLoader@@AEAAIAEBUBuffer@tinygltf@@_K111@Z
+         17   10 000204C0 ?GetIndices@EdmGLTFLoader@@AEAA?AV?$vector@IV?$allocator@I@ed@@@ed@@AEBUAccessor@tinygltf@@@Z
+         18   11 00020500 ?GetIndices@EdmGLTFLoader@@AEAA?AV?$vector@IV?$allocator@I@ed@@@ed@@AEBUBuffer@tinygltf@@AEBUBufferView@5@AEBUAccessor@5@@Z
+         19   12 00020890 ?GetLightPunctual@EdmGLTFLoader@@AEAA?AULightPunctual@1@AEBV?$basic_json@Vmap@std@@Vvector@2@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@_N_J_KNVallocator@2@Uadl_serializer@nlohmann@@V?$vector@EV?$allocator@E@std@@@2@@nlohmann@@@Z
+         20   13 00020ED0 ?GetLoadError@EdmGLTFLoader@@QEBAAEBV?$basic_string@D@ed@@XZ
+         21   14 00020EE0 ?GetLoadState@EdmGLTFLoader@@QEAA?AW4LoaderState@1@XZ
+         22   15 00020EF0 ?GetLoadWarning@EdmGLTFLoader@@QEBAAEBV?$basic_string@D@ed@@XZ
+         23   16 00020F00 ?GetMatrices@EdmGLTFLoader@@AEAA?AV?$vector@VMatrixd@osg@@V?$allocator@VMatrixd@osg@@@ed@@@ed@@AEBUAccessor@tinygltf@@@Z
+         24   17 00021320 ?GetMatrices@EdmGLTFLoader@@AEAA?AV?$vector@VMatrixd@osg@@V?$allocator@VMatrixd@osg@@@ed@@@ed@@AEBUSkin@tinygltf@@@Z
+         25   18 00021570 ?GetNodeToAnimMap@EdmGLTFLoader@@AEAA?AV?$unordered_map@HV?$unordered_set@U?$pair@HH@std@@USimpleHash@EdmGLTFLoader@@U?$equal_to@U?$pair@HH@std@@@2@V?$allocator@U?$pair@HH@std@@@ed@@@ed@@U?$hash@H@std@@U?$equal_to@H@4@V?$allocator@U?$pair@$$CBHV?$unordered_set@U?$pair@HH@std@@USimpleHash@EdmGLTFLoader@@U?$equal_to@U?$pair@HH@std@@@2@V?$allocator@U?$pair@HH@std@@@ed@@@ed@@@std@@@2@@std@@XZ
+         26   19 00021AB0 ?GetNumPrimitives@EdmGLTFLoader@@AEAAHAEBUPrimitive@tinygltf@@@Z
+         27   1A 00021BC0 ?GetNumVertices@EdmGLTFLoader@@AEAAHAEBUPrimitive@tinygltf@@@Z
+         28   1B 00021CF0 ?GetPrimitiveErrorMsg@EdmGLTFLoader@@AEBA?AV?$basic_string@D@ed@@H@Z
+         29   1C 00021DB0 ?GetRootNode@EdmGLTFLoader@@QEAA?AV?$Ptr@VRootNode@model@@UIObjectDeleter@2@@ed@@XZ
+         30   1D 00021DE0 ?GetRotationFirstKey@EdmGLTFLoader@@AEAA?AVQuatd@osg@@AEBUAccessor@tinygltf@@@Z
+         31   1E 00022040 ?GetRotationKeys@EdmGLTFLoader@@AEAA?AU?$Animation@$00@ArgAnimationNode@model@@AEBUAccessor@tinygltf@@AEBV?$vector@MV?$allocator@M@ed@@@ed@@I_N@Z
+         32   1F 00022810 ?GetScaleFirstKey@EdmGLTFLoader@@AEAA?AVVec3d@osg@@AEBUAccessor@tinygltf@@@Z
+         33   20 00022A70 ?GetScaleKeys@EdmGLTFLoader@@AEAA?AU?$Animation@$01@ArgAnimationNode@model@@AEBUAccessor@tinygltf@@AEBV?$vector@MV?$allocator@M@ed@@@ed@@I_N@Z
+         34   21 00023340 ?GetSpecularGlossinessMat@EdmGLTFLoader@@AEAA?AUSpecularGlossinessMat@1@AEBV?$basic_json@Vmap@std@@Vvector@2@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@_N_J_KNVallocator@2@Uadl_serializer@nlohmann@@V?$vector@EV?$allocator@E@std@@@2@@nlohmann@@@Z
+         35   22 00023AC0 ?GetTimeline@EdmGLTFLoader@@AEAA?AV?$vector@MV?$allocator@M@ed@@@ed@@AEBUAccessor@tinygltf@@@Z
+         36   23 00023EF0 ?GetTranslationFirstKey@EdmGLTFLoader@@AEAA?AVVec3d@osg@@AEBUAccessor@tinygltf@@@Z
+         37   24 00024140 ?GetTranslationKeys@EdmGLTFLoader@@AEAA?AU?$Animation@$0A@@ArgAnimationNode@model@@AEBUAccessor@tinygltf@@AEBV?$vector@MV?$allocator@M@ed@@@ed@@I_N@Z
+         38   25 000247F0 ?GetUniMaterialName@EdmGLTFLoader@@AEAA?AV?$basic_string@D@ed@@AEBUMaterial@tinygltf@@@Z
+         39   26 00024910 ?GetVertexAttributeEnum@EdmGLTFLoader@@AEAAHAEBV?$basic_string@D@ed@@@Z
+         40   27 00024B50 ?GetVertexFormat@EdmGLTFLoader@@AEAA?AUVertexFormat@model@@AEBUPrimitive@tinygltf@@@Z
+         41   28 00024F30 ?GetVertices@EdmGLTFLoader@@AEAA?AV?$vector@MV?$allocator@M@ed@@@ed@@AEBUPrimitive@tinygltf@@AEBUVertexFormat@model@@@Z
+         42   29 00025630 ?HaveLightExt@EdmGLTFLoader@@AEAA_NAEBV?$basic_json@Vmap@std@@Vvector@2@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@_N_J_KNVallocator@2@Uadl_serializer@nlohmann@@V?$vector@EV?$allocator@E@std@@@2@@nlohmann@@@Z
+         43   2A 00025650 ?HaveLightExt@EdmGLTFLoader@@AEAA_NAEBVNode@tinygltf@@@Z
+         44   2B 000257A0 ?HaveSpecularGlossinessMat@EdmGLTFLoader@@AEAA_NAEBV?$basic_json@Vmap@std@@Vvector@2@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@_N_J_KNVallocator@2@Uadl_serializer@nlohmann@@V?$vector@EV?$allocator@E@std@@@2@@nlohmann@@@Z
+         45   2C 000258A0 ?IsConnectorNode@EdmGLTFLoader@@AEAA_NAEBVNode@tinygltf@@@Z
+         46   2D 00025A30 ?IsImageFileMime@EdmGLTFLoader@@AEAA_NAEBV?$basic_string@D@ed@@@Z
+         47   2E 00025AB0 ?IsRenderNode@EdmGLTFLoader@@AEAA_NAEBVNode@tinygltf@@@Z
+         48   2F 00025AC0 ?IsSegmentNode@EdmGLTFLoader@@AEAA_NAEBVNode@tinygltf@@@Z
+         49   30 00025C50 ?IsShellNode@EdmGLTFLoader@@AEAA_NAEBVNode@tinygltf@@@Z
+         50   31 00025DF0 ?LoadModel@EdmGLTFLoader@@QEAA_NAEBVpath@filesystem@std@@@Z
+         51   32 00026800 ?MakeConnectorNodes@EdmGLTFLoader@@AEAAXAEBH@Z
+         52   33 00026A20 ?MakeDafaultTransform@EdmGLTFLoader@@AEAA?AV?$Ptr@VTransformNode@model@@UIObjectDeleter@2@@ed@@VMatrixd@osg@@@Z
+         53   34 00026B70 ?MakeDafaultTransform@EdmGLTFLoader@@AEAA?AV?$Ptr@VTransformNode@model@@UIObjectDeleter@2@@ed@@XZ
+         54   35 00026CD0 ?MakeLightNodes@EdmGLTFLoader@@AEAAXAEBH@Z
+         55   36 00027580 ?MakeMaterialProperties@EdmGLTFLoader@@AEAAXAEBUMaterial@tinygltf@@AEAVPropertiesSet@model@@@Z
+         56   37 00027E30 ?MakeMatrix@EdmGLTFLoader@@AEBA?AVMatrixd@osg@@AEBV?$vector@NV?$allocator@N@ed@@@ed@@00@Z
+         57   38 000280F0 ?MakeMatrix@EdmGLTFLoader@@AEBA?AVMatrixd@osg@@AEBV?$vector@NV?$allocator@N@ed@@@ed@@@Z
+         58   39 00027E30 ?MakeMatrix@EdmGLTFLoader@@AEBA?AVMatrixd@osg@@AEBV?$vector@NV?$allocator@N@std@@@std@@00@Z
+         59   3A 000280F0 ?MakeMatrix@EdmGLTFLoader@@AEBA?AVMatrixd@osg@@AEBV?$vector@NV?$allocator@N@std@@@std@@@Z
+         60   3B 00028140 ?MakeMatrix@EdmGLTFLoader@@AEBA?AVMatrixd@osg@@AEBVNode@tinygltf@@@Z
+         61   3C 00028260 ?MakeNoMaterialProperties@EdmGLTFLoader@@AEAAXAEAVPropertiesSet@model@@@Z
+         62   3D 00028440 ?MakeNodesHierarchy@EdmGLTFLoader@@AEAA?AV?$Ptr@VTransformNode@model@@UIObjectDeleter@2@@ed@@H@Z
+         63   3E 000286E0 ?MakePropertySet@EdmGLTFLoader@@AEAA?AV?$unique_ptr@VPropertiesSet@model@@U?$default_delete@VPropertiesSet@model@@@std@@@std@@AEBUPrimitive@tinygltf@@@Z
+         64   3F 00028990 ?MakeRenderNodes@EdmGLTFLoader@@AEAAXAEBH@Z
+         65   40 000295E0 ?MakeSegmentNodes@EdmGLTFLoader@@AEAAXAEBH@Z
+         66   41 0002A140 ?MakeShellNodes@EdmGLTFLoader@@AEAAXAEBH@Z
+         67   42 0002A7A0 ?MakeSingleArgAnimationNode@EdmGLTFLoader@@AEAA?AV?$Ptr@VArgAnimationNode@model@@UIObjectDeleter@2@@ed@@HAEBUArgAnimationKeys@1@AEBUBaseAnimParam@1@@Z
+         68   43 0002AD20 ?MakeSingleBoneNode@EdmGLTFLoader@@AEAA?AV?$Ptr@VBone@model@@UIObjectDeleter@2@@ed@@HAEBVMatrixd@osg@@@Z
+         69   44 0002AF10 ?MakeSingleTransformNode@EdmGLTFLoader@@AEAA?AV?$Ptr@VTransformNode@model@@UIObjectDeleter@2@@ed@@AEBVNode@tinygltf@@@Z
+         70   45 0002B090 ?MakeTextureChannels@EdmGLTFLoader@@AEAA?AUTexCoordsChannels@model@@AEBUMaterial@tinygltf@@@Z
+         71   46 0002B410 ?MakeTextureProperties@EdmGLTFLoader@@AEAAXAEBUMaterial@tinygltf@@AEAVPropertiesSet@model@@@Z
+         72   47 0002B7F0 ?MaterialHasTextures@EdmGLTFLoader@@AEAA_NAEBUMaterial@tinygltf@@@Z
+         73   48 0002B950 ?NormalizeTimeline@EdmGLTFLoader@@AEAAXAEAV?$vector@MV?$allocator@M@ed@@@ed@@@Z
+         74   49 0002BA00 ?ParseModel@EdmGLTFLoader@@AEAA_NXZ
+         75   4A 0002D050 ?PrimitiveSupported@EdmGLTFLoader@@AEBA_NH@Z
+         76   4B 0002D060 ?SetTextureProperty@EdmGLTFLoader@@AEAAXAEBUTexture@tinygltf@@IAEAVPropertiesSet@model@@@Z
+         77   4C 0002D2A0 ?ValidateVertexAttribute@EdmGLTFLoader@@AEAA_NAEBV?$basic_string@D@ed@@@Z
+
+  Summary
+
+        4000 .data
+        5000 .pdata
+       1C000 .rdata
+        1000 .reloc
+        1000 .rsrc
+       81000 .text

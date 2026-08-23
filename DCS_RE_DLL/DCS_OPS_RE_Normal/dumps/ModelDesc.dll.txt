@@ -1,0 +1,113 @@
+Microsoft (R) COFF/PE Dumper Version 14.51.36256.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file G:\DCS_OPS_RE\bin\ModelDesc.dll
+
+File Type: DLL
+
+  Section contains the following exports for ModelDesc.dll
+
+    00000000 characteristics
+    FFFFFFFF time date stamp
+        0.00 version
+           1 ordinal base
+          85 number of functions
+          85 number of names
+
+    ordinal hint RVA      name
+
+          1    0 00003000 ??0ExtMemAllocator@model@@QEAA@XZ
+          2    1 00003350 ??0InstanceData@model@@QEAA@AEBU01@@Z
+          3    2 000033F0 ??0InstanceData@model@@QEAA@XZ
+          4    3 00003060 ??1ExtMemAllocator@model@@UEAA@XZ
+          5    4 00003440 ??1InstanceData@model@@QEAA@XZ
+          6    5 00003450 ??4InstanceData@model@@QEAAAEAU01@AEBU01@@Z
+          7    6 000034B0 ?alloc@InstanceData@model@@QEAAXII@Z
+          8    7 0002A1B0 ?apply@LightNode@model@@UEBAXAEBV?$vector@MV?$allocator128@M@ed@@@ed@@@Z
+          9    8 0002D960 ?calcDefShellSkinNormals@RootNode@model@@QEBAXAEBUInstanceData@2@@Z
+         10    9 00010530 ?calcNumberOfUsedTextures@PropertiesSet@model@@QEBAHXZ
+         11    A 0002DA20 ?calculateTransforms@RootNode@model@@QEBAXAEAUInstanceData@2@V?$span@$$CBM$0?0@ed@@@Z
+         12    B 0000AFD0 ?checkAnimation@Node@model@@UEBA_NXZ
+         13    C 000035E0 ?clear@InstanceData@model@@QEAAXXZ
+         14    D 000031C0 ?clearTempAllocations@ExtMemAllocator@model@@UEAAXXZ
+         15    E 0002DC00 ?destroy@RootNode@model@@QEAAXXZ
+         16    F 0002DC90 ?enumerateSegments@RootNode@model@@QEBAXAEBVMatrixd@osg@@AEBUInstanceData@2@AEBV?$function@$$A6AXPEBDAEBVVec3f@osg@@1@Z@std@@@Z
+         17   10 0002E2B0 ?findCloseParts2@RootNode@model@@QEBA_NAEBVMatrixd@osg@@AEBUInstanceData@2@AEBVVec3f@4@PEBVClipVolume@@AEBV?$function@$$A6AXPEBDMAEBVVec3d@osg@@@Z@std@@@Z
+         18   11 0002E6B0 ?findCloseParts@RootNode@model@@QEBA_NAEBVMatrixd@osg@@AEBUInstanceData@2@AEBVVec3f@4@PEBVClipVolume@@AEBV?$function@$$A6AXPEBDM@Z@std@@@Z
+         19   12 00002FE0 ?getAnimatedUniforms@BaseMaterial@model@@QEBAAEBVAnimatedProperties@2@XZ
+         20   13 000296C0 ?getBBox@FakeOmniLightsNode@model@@UEBAAEBV?$BoundingBoxImpl@VVec3f@osg@@@osg@@I@Z
+         21   14 0002EA80 ?getCollisionSegmentId@RootNode@model@@QEBA_KPEBD@Z
+         22   15 0002EAF0 ?getCollisionSegmentName@RootNode@model@@QEBAPEBD_K@Z
+         23   16 0002EB10 ?getCollisionShellBoundingBox@RootNode@model@@QEBA?AV?$BoundingBoxImpl@VVec3f@osg@@@osg@@_KAEBUInstanceData@2@@Z
+         24   17 0002EBA0 ?getCollisionShellId@RootNode@model@@QEBA_KPEBD@Z
+         25   18 0002EC10 ?getCollisionShellName@RootNode@model@@QEBAPEBD_K@Z
+         26   19 0002EC30 ?getConnectorByName@RootNode@model@@QEAAPEAVConnector@2@PEBD@Z
+         27   1A 000296E0 ?getControlNode@FakeOmniLightsNode@model@@UEBAPEBVNode@2@I@Z
+         28   1B 00029B90 ?getControlNode@FakeSpotLightsNode@model@@UEBAPEBVNode@2@I@Z
+         29   1C 0002BAA0 ?getDamageHandle@RenderNode@model@@QEBAII@Z
+         30   1D 00024E10 ?getHandles@AnimatedFakeOmniLightsNode@model@@UEBAXPEAI@Z
+         31   1E 00024FB0 ?getHandles@AnimatedFakeSpotLightsNode@model@@UEBAXPEAI@Z
+         32   1F 00029710 ?getLights@FakeOmniLightsNode@model@@QEBAPEBUFakeOmniLight@2@XZ
+         33   20 00002FF0 ?getName@Connector@model@@UEBAPEBDXZ
+         34   21 0002A330 ?getName@LightNode@model@@QEBAPEBDXZ
+         35   22 00029720 ?getNumControlNodes@FakeOmniLightsNode@model@@UEBAIXZ
+         36   23 00029720 ?getNumControlNodes@FakeSpotLightsNode@model@@UEBAIXZ
+         37   24 00029730 ?getNumLights@FakeOmniLightsNode@model@@QEBAIXZ
+         38   25 000216D0 ?getNumProperties@AnimatedProperties@model@@QEBAIXZ
+         39   26 000216D0 ?getNumProperties@Properties@model@@QEBAIXZ
+         40   27 00029740 ?getNumTriangles@FakeOmniLightsNode@model@@QEBAIXZ
+         41   28 00029BB0 ?getNumTriangles@FakeSpotLightsNode@model@@QEBAIXZ
+         42   29 00024B60 ?getOffset@VertexFormat@model@@QEBAII@Z
+         43   2A 00028F90 ?getPosition@Connector@model@@UEBA?AVMatrixd@osg@@AEBV34@AEBV?$vector@MV?$allocator128@M@ed@@@ed@@@Z
+         44   2B 00029020 ?getPosition@Connector@model@@UEBAXAEBVMatrixd@osg@@AEBV?$vector@MV?$allocator128@M@ed@@@ed@@AEAV34@@Z
+         45   2C 0002A360 ?getPosition@LightNode@model@@UEBA?AVMatrixd@osg@@AEBV34@AEBV?$vector@MV?$allocator128@M@ed@@@ed@@@Z
+         46   2D 0002A3F0 ?getPosition@LightNode@model@@UEBAXAEBVMatrixd@osg@@AEBV?$vector@MV?$allocator128@M@ed@@@ed@@AEAV34@@Z
+         47   2E 000290B0 ?getProperty@Connector@model@@UEBA_NPEBDAEBV?$vector@MV?$allocator128@M@ed@@@ed@@AEAI@Z
+         48   2F 00029130 ?getProperty@Connector@model@@UEBA_NPEBDAEBV?$vector@MV?$allocator128@M@ed@@@ed@@AEAM@Z
+         49   30 000291B0 ?getProperty@Connector@model@@UEBA_NPEBDAEBV?$vector@MV?$allocator128@M@ed@@@ed@@AEAVVec2f@osg@@@Z
+         50   31 00029230 ?getProperty@Connector@model@@UEBA_NPEBDAEBV?$vector@MV?$allocator128@M@ed@@@ed@@AEAVVec3f@osg@@@Z
+         51   32 000292B0 ?getProperty@Connector@model@@UEBA_NPEBDAEBV?$vector@MV?$allocator128@M@ed@@@ed@@AEAVVec4f@osg@@@Z
+         52   33 00029330 ?getProperty@Connector@model@@UEBA_NPEBDPEAPEAD@Z
+         53   34 000105D0 ?getTexture@PropertiesSet@model@@QEAAAEAUTexture2dProperties@2@I@Z
+         54   35 000105D0 ?getTexture@PropertiesSet@model@@QEBAAEBUTexture2dProperties@2@I@Z
+         55   36 0002ECE0 ?getTexturesNames@RootNode@model@@QEBAXAEAV?$unordered_set@V?$basic_string@D@ed@@U?$hash@V?$basic_string@D@ed@@@std@@U?$equal_to@V?$basic_string@D@ed@@@4@V?$allocator@V?$basic_string@D@ed@@@2@@ed@@@Z
+         56   37 0002EE80 ?getTexturesTexCoords@RootNode@model@@QEBAXHAEAV?$unordered_map@V?$basic_string@D@ed@@V?$vector@VVec3f@osg@@V?$allocator@VVec3f@osg@@@ed@@@2@U?$hash@V?$basic_string@D@ed@@@std@@U?$equal_to@V?$basic_string@D@ed@@@5@V?$allocator@U?$pair@$$CBV?$basic_string@D@ed@@V?$vector@VVec3f@osg@@V?$allocator@VVec3f@osg@@@ed@@@2@@std@@@2@@std@@@Z
+         57   38 00002FF0 ?getUniforms@BaseMaterial@model@@QEBAAEBVProperties@2@XZ
+         58   39 0002F030 ?getUsedArgs@RootNode@model@@QEBAIPEAI@Z
+         59   3A 00028490 ?getVersion@BaseNode@model@@QEBAIXZ
+         60   3B 00024C60 ?getVertexSize@VertexFormat@model@@QEBAIXZ
+         61   3C 0002F200 ?getVisArgs@RootNode@model@@QEBAAEBV?$vector@IV?$allocator@I@ed@@@ed@@XZ
+         62   3D 00029340 ?getVisibility@Connector@model@@UEBA_NAEBV?$vector@MV?$allocator128@M@ed@@@ed@@@Z
+         63   3E 0002A4C0 ?getVisibility@LightNode@model@@UEBA_NAEBV?$vector@MV?$allocator128@M@ed@@@ed@@@Z
+         64   3F 0002B080 ?hasAnimation@Node@model@@QEBA_NXZ
+         65   40 00035470 ?intersect@ShellNode@model@@QEBA?AV?$tuple@V?$vector@MV?$allocator@M@ed@@@ed@@V?$vector@IV?$allocator@I@ed@@@2@UVertexFormat@model@@@std@@AEBU?$OrientedBoundingBoxImpl@VVec3d@osg@@@osg@@AEBUInstanceData@2@@Z
+         66   41 000358C0 ?intersect@ShellNode@model@@QEBA_NAEBVVec3f@osg@@0AEBUInstanceData@2@AEAMAEAV34@@Z
+         67   42 00035D40 ?intersectAnim@ShellNode@model@@QEBA_NAEBVVec3f@osg@@0AEBUInstanceData@2@AEAMAEAV34@@Z
+         68   43 00036070 ?intersectCone@ShellNode@model@@QEBA_NAEBVMatrixd@osg@@0MMMMAEBUInstanceData@2@AEAVVec3d@4@AEAM33@Z
+         69   44 000363D0 ?intersectStat@ShellNode@model@@QEBA_NAEBVVec3f@osg@@0AEBUInstanceData@2@AEAMAEAV34@@Z
+         70   45 00024E40 ?load@AnimatedFakeOmniLightsNode@model@@UEAAXAEAVIBinaryFileR@io@@AEAVIAllocator@2@PEADI@Z
+         71   46 00024FE0 ?load@AnimatedFakeSpotLightsNode@model@@UEAAXAEAVIBinaryFileR@io@@AEAVIAllocator@2@PEADI@Z
+         72   47 00029750 ?load@FakeOmniLightsNode@model@@UEAAXAEAVIBinaryFileR@io@@AEAVIAllocator@2@PEADI@Z
+         73   48 00003FE0 ?loadData@LazyIndices@model@@QEBAXAEAVIBinaryFileR@io@@PEAE@Z
+         74   49 00004180 ?loadData@LazyVertices@model@@QEBAXAEAVIBinaryFileR@io@@PEAE@Z
+         75   4A 000308C0 ?open@RootNode@model@@SAPEAV12@AEAVIBinaryFileR@io@@PEAVIAllocator@2@PEBUModelOptions@2@@Z
+         76   4B 00039B70 ?processHitPos@ShellSkinNode@model@@QEAA?AVMatrixfa@osg@@V?$span@$$CBVMatrixfa@osg@@$0?0@ed@@H@Z
+         77   4C 00039DF0 ?processVerts@ShellSkinNode@model@@QEAAXV?$span@$$CBVMatrixfa@osg@@$0?0@ed@@AEAUSkinData@2@@Z
+         78   4D 00031A40 ?shoot@RootNode@model@@QEBAXAEBVVec3f@osg@@0AEBUInstanceData@2@AEAUNearest@2@@Z
+         79   4E 00031C30 ?testSegmentWithBox@RootNode@model@@QEBA_NAEBVVec3f@osg@@0@Z
+         80   4F 00031C40 ?testWithBBox@RootNode@model@@QEBA_NAEBV?$BoundingBoxImpl@VVec3f@osg@@@osg@@AEBV?$function@$$A6AXIN@Z@std@@@Z
+         81   50 00031DD0 ?testWithCone@RootNode@model@@QEAAXAEBVMatrixd@osg@@0MMMMAEBUInstanceData@2@AEAV?$small_vector_base@UCollisionConeData@model@@V?$allocator@UCollisionConeData@model@@@ed@@X@container@boost@@@Z
+         82   51 00031DE0 ?testWithModel@RootNode@model@@QEBA_NAEBVMatrixd@osg@@AEBUInstanceData@2@AEAV12@01AEBV?$function@$$A6A_NPEBD0AEBVVec3d@osg@@1MAEBVVec3f@2@@Z@std@@@Z
+         83   52 00032AC0 ?testWithModel@RootNode@model@@QEBA_NAEBVMatrixd@osg@@AEBUInstanceData@2@AEAVIModel@2@0PEBVIModelParams@2@AEBV?$function@$$A6A_NPEBD0AEBVVec3d@osg@@1MAEBVVec3f@2@@Z@std@@@Z
+         84   53 000331F0 ?testWithSegment@RootNode@model@@QEBAXAEBVVec3f@osg@@0AEBUInstanceData@2@AEAV?$small_vector_base@UCollisionData@model@@V?$allocator@UCollisionData@model@@@ed@@X@container@boost@@@Z
+         85   54 00024B30 ?valid@Texture2dProperties@model@@QEBA_NXZ
+
+  Summary
+
+        3000 .data
+        4000 .pdata
+       15000 .rdata
+        1000 .reloc
+        1000 .rsrc
+       42000 .text

@@ -1,0 +1,157 @@
+// DCS_OPS_RE: dx11backend.dll
+// Generated from dumpbin /exports
+
+[    1]          0x0  public: __cdecl RenderAPI::DX11Renderer::DX11Renderer(void)
+[    2]          0x1  private: __cdecl RenderAPI::DX11Renderer::~DX11Renderer(void)
+[    3]          0x2  const RenderAPI::DX11Renderer::`vftable'
+[    4]          0x3  private: void __cdecl RenderAPI::DX11Renderer::bakeFrameBuffer(class RenderAPI::DX11FrameBuffer *)
+[    5]          0x4  public: virtual void __cdecl RenderAPI::DX11Renderer::beginDebugEvent(wchar_t const *)
+[    6]          0x5  public: virtual void __cdecl RenderAPI::DX11Renderer::beginFrame(void)
+[    7]          0x6  public: virtual void __cdecl RenderAPI::DX11Renderer::bindResource(unsigned int, struct RenderAPI::ITexture *)
+[    8]          0x7  public: virtual void __cdecl RenderAPI::DX11Renderer::bindResource(unsigned int, struct RenderAPI::IConstantBuffer const *)
+[    9]          0x8  public: virtual void __cdecl RenderAPI::DX11Renderer::bindResource(unsigned int, struct RenderAPI::IStructuredBuffer const *)
+[   10]          0x9  public: virtual void __cdecl RenderAPI::DX11Renderer::bindResourceAsStencil(unsigned int, struct RenderAPI::ITexture *)
+[   11]          0xA  public: virtual void __cdecl RenderAPI::DX11Renderer::clearColor(class osg::Vec4f const *, int)
+[   12]          0xB  public: virtual void __cdecl RenderAPI::DX11Renderer::clearDepth(float)
+[   13]          0xC  public: virtual void __cdecl RenderAPI::DX11Renderer::clearFrameBuffer(class osg::Vec4f const &, float, unsigned int)
+[   14]          0xD  public: virtual void __cdecl RenderAPI::DX11Renderer::clearStencil(unsigned int)
+[   15]          0xE  public: virtual bool __cdecl RenderAPI::DX11Renderer::clearUAV(struct RenderAPI::ITexture *, class osg::Vec4f const &)
+[   16]          0xF  public: virtual bool __cdecl RenderAPI::DX11Renderer::clearUAV(struct RenderAPI::ITexture *, class osg::Vec4ui const &)
+[   17]         0x10  public: virtual void __cdecl RenderAPI::DX11Renderer::compute(int, struct RenderAPI::IShader *, int, int, int)
+[   18]         0x11  public: virtual void __cdecl RenderAPI::DX11Renderer::computeIndirect(int, struct RenderAPI::IShader *, struct RenderAPI::IBuffer *, unsigned int)
+[   19]         0x12  public: virtual void __cdecl RenderAPI::DX11Renderer::copyBuffer(struct RenderAPI::IBuffer const *, struct RenderAPI::IBuffer const *)
+[   20]         0x13  public: virtual void __cdecl RenderAPI::DX11Renderer::copyBuffer(struct RenderAPI::IBuffer const *, struct RenderAPI::IBuffer const *, int, int, int)
+[   21]         0x14  public: virtual void __cdecl RenderAPI::DX11Renderer::copyStructuredBuffer(struct RenderAPI::IStructuredBuffer const *, struct RenderAPI::IStructuredBuffer const *)
+[   22]         0x15  public: virtual void __cdecl RenderAPI::DX11Renderer::copyStructuredBuffer(struct RenderAPI::IStructuredBuffer const *, struct RenderAPI::IStructuredBuffer const *, int, int, int)
+[   23]         0x16  public: virtual void __cdecl RenderAPI::DX11Renderer::copyStructuredToConstantBuffer(struct RenderAPI::IStructuredBuffer const *, struct RenderAPI::IConstantBuffer const *)
+[   24]         0x17  protected: void __cdecl RenderAPI::DX11Renderer::copySubresourceRegion(int, struct ID3D11Buffer *, struct ID3D11Buffer *, int, int, int)
+[   25]         0x18  public: virtual bool __cdecl RenderAPI::DX11Renderer::copyTexture(struct RenderAPI::ITexture *, int, class osg::Vec4i const *, struct RenderAPI::ITexture *, int, class osg::Vec4i const *)
+[   26]         0x19  public: virtual class ed::Ptr<struct RenderAPI::IBuffer, struct RenderAPI::IBuffer::Deleter> __cdecl RenderAPI::DX11Renderer::createBuffer(enum render::FMT_ENUM, int, enum render::BUFFERUSAGE_ENUM, unsigned int, void const *, char const *)
+[   27]         0x1A  public: virtual class ed::Ptr<struct RenderAPI::IConstantBuffer, struct RenderAPI::IConstantBuffer::Deleter> __cdecl RenderAPI::DX11Renderer::createConstantBuffer(int, enum render::BUFFERUSAGE_ENUM, char const *, void const *)
+[   28]         0x1B  public: virtual struct RenderAPI::IFrameBuffer * __cdecl RenderAPI::DX11Renderer::createFrameBuffer(struct RenderAPI::TextureOrDesc const *const, unsigned int, struct RenderAPI::TextureOrDesc const *)
+[   29]         0x1C  public: virtual struct RenderAPI::IFrameBuffer * __cdecl RenderAPI::DX11Renderer::createFrameBuffer(class ed::Ptr<struct RenderAPI::ITexture, struct RenderAPI::ITexture::Deleter> const *const, unsigned int, class ed::Ptr<struct RenderAPI::ITexture, struct RenderAPI::ITexture::Deleter>)
+[   30]         0x1D  public: virtual class ed::Ptr<struct RenderAPI::IIndexBuffer, struct RenderAPI::IIndexBuffer::Deleter> __cdecl RenderAPI::DX11Renderer::createIndexBuffer(int, int, enum render::PRIMTYPE_ENUM, enum render::BUFFERUSAGE_ENUM, unsigned int, char const *, void const *)
+[   31]         0x1E  public: virtual class ed::Ptr<struct RenderAPI::ITexture, struct RenderAPI::ITexture::Deleter> __cdecl RenderAPI::DX11Renderer::createRenderTarget(struct RenderAPI::TextureDescBackend const &, char const *)
+[   32]         0x1F  public: virtual class ed::Ptr<struct RenderAPI::IStructuredBuffer, struct RenderAPI::IStructuredBuffer::Deleter> __cdecl RenderAPI::DX11Renderer::createStructuredBuffer(int, int, enum render::BUFFERUSAGE_ENUM, unsigned int, void const *, int, char const *)
+[   33]         0x20  public: virtual class ed::Ptr<struct RenderAPI::IVertexBuffer, struct RenderAPI::IVertexBuffer::Deleter> __cdecl RenderAPI::DX11Renderer::createVertexBuffer(int, enum render::ELEMENTTYPE_ENUM *, int, enum render::BUFFERUSAGE_ENUM, unsigned int, char const *, void const *)
+[   34]         0x21  public: virtual void * __cdecl RenderAPI::DX11Renderer::dev(void)
+[   35]         0x22  public: virtual void * __cdecl RenderAPI::DX11Renderer::devCtx(void)
+[   36]         0x23  public: virtual void __cdecl RenderAPI::DX11Renderer::draw(int, struct RenderAPI::IShader *, enum render::PRIMTYPE_ENUM, int, int, int, char const *)
+[   37]         0x24  public: virtual void __cdecl RenderAPI::DX11Renderer::drawIndirect(int, struct RenderAPI::IShader *, enum render::PRIMTYPE_ENUM, struct RenderAPI::IBuffer *, int, char const *)
+[   38]         0x25  public: virtual void __cdecl RenderAPI::DX11Renderer::drawMultIndirect(int, struct RenderAPI::IShader *, enum render::PRIMTYPE_ENUM, struct RenderAPI::IBuffer *, int (__cdecl *)(int, void *), void *, char const *)
+[   39]         0x26  public: virtual void __cdecl RenderAPI::DX11Renderer::drawWithOffset(int, struct RenderAPI::IShader *, enum render::PRIMTYPE_ENUM, int, int, int)
+[   40]         0x27  public: virtual void __cdecl RenderAPI::DX11Renderer::emitBarrier(struct render::BarrierInfo2 const &)
+[   41]         0x28  public: virtual void __cdecl RenderAPI::DX11Renderer::endDebugEvent(void)
+[   42]         0x29  public: virtual bool __cdecl RenderAPI::DX11Renderer::endFrame(void)
+[   43]         0x2A  public: virtual int __cdecl RenderAPI::DX11Renderer::enumModes(struct RenderAPI::ModeInfo *, int)
+[   44]         0x2B  public: virtual void __cdecl RenderAPI::DX11Renderer::flush(void)
+[   45]         0x2C  public: virtual void __cdecl RenderAPI::DX11Renderer::forceDrawRoutine(int)
+[   46]         0x2D  public: virtual void __cdecl RenderAPI::DX11Renderer::forceFlipPrimitiveWinding(bool)
+[   47]         0x2E  public: virtual void __cdecl RenderAPI::DX11Renderer::forceWireFrame(bool)
+[   48]         0x2F  public: virtual void __cdecl RenderAPI::DX11Renderer::freeStringMem(char const *)
+[   49]         0x30  private: bool __cdecl RenderAPI::DX11Renderer::getAdapterDesc(struct ID3D11Device *, struct DXGI_ADAPTER_DESC *)
+[   50]         0x31  public: virtual bool __cdecl RenderAPI::DX11Renderer::getAdapterInfo(struct RenderAPI::AdapterInfo &)
+[   51]         0x32  public: virtual char const * __cdecl RenderAPI::DX11Renderer::getBackendName(void) const
+[   52]         0x33  public: class RenderAPI::DX11BufferManager * __cdecl RenderAPI::DX11Renderer::getBufferManager(void)
+[   53]         0x34  public: virtual int __cdecl RenderAPI::DX11Renderer::getCapability(enum render::CAPABILITY_ENUM)
+[   54]         0x35  public: virtual int __cdecl RenderAPI::DX11Renderer::getCoreCount(void) const
+[   55]         0x36  public: virtual int __cdecl RenderAPI::DX11Renderer::getCoreIdx(void) const
+[   56]         0x37  public: virtual class ed::Ptr<struct RenderAPI::ITexture, struct RenderAPI::ITexture::Deleter> __cdecl RenderAPI::DX11Renderer::getCurrentColorBuffer(int)
+[   57]         0x38  public: virtual class ed::Ptr<struct RenderAPI::ITexture, struct RenderAPI::ITexture::Deleter> __cdecl RenderAPI::DX11Renderer::getCurrentDepthStencilBuffer(void)
+[   58]         0x39  public: virtual struct RenderAPI::IFrameBuffer * __cdecl RenderAPI::DX11Renderer::getCurrentFrameBuffer(void)
+[   59]         0x3A  public: struct ID3D11Device * __cdecl RenderAPI::DX11Renderer::getDevice(void)
+[   60]         0x3B  public: struct ID3D11DeviceContext * __cdecl RenderAPI::DX11Renderer::getDeviceContext(void)
+[   61]         0x3C  private: struct IDXGIFactory * __cdecl RenderAPI::DX11Renderer::getDeviceFactory(struct ID3D11Device *)
+[   62]         0x3D  public: virtual class render::IGpuQuery & __cdecl RenderAPI::DX11Renderer::getGpuQuery(void)
+[   63]         0x3E  public: virtual struct RenderAPI::IHMDRenderAPI * __cdecl RenderAPI::DX11Renderer::getHMD(void)
+[   64]         0x3F  public: virtual struct RenderAPI::INGX_API * __cdecl RenderAPI::DX11Renderer::getNGX(void)
+[   65]         0x40  private: bool __cdecl RenderAPI::DX11Renderer::getRenderOption(struct render::RenderConfig const &, char const *, class ed::basic_string<char> *)
+[   66]         0x41  public: virtual class ed::Ptr<struct RenderAPI::ITexture, struct RenderAPI::ITexture::Deleter> __cdecl RenderAPI::DX11Renderer::getRenderTarget(char const *)
+[   67]         0x42  private: class ed::Ptr<struct RenderAPI::ITexture, struct RenderAPI::ITexture::Deleter> __cdecl RenderAPI::DX11Renderer::getRenderTargetInternal(char const *)
+[   68]         0x43  public: virtual char const * __cdecl RenderAPI::DX11Renderer::getResourcesList(void)
+[   69]         0x44  public: virtual struct RenderAPI::IShaderManager * __cdecl RenderAPI::DX11Renderer::getShaderManager(void)
+[   70]         0x45  public: unsigned int __cdecl RenderAPI::DX11Renderer::getShaderResourcesCount(enum RenderAPI::enShaderType) const
+[   71]         0x46  public: class RenderAPI::DX11SlotBinder const * __cdecl RenderAPI::DX11Renderer::getSlotBinder(void) const
+[   72]         0x47  public: virtual struct RenderAPI::IStateManager * __cdecl RenderAPI::DX11Renderer::getStateManager(void)
+[   73]         0x48  public: virtual char const * __cdecl RenderAPI::DX11Renderer::getStatistic(char const *)
+[   74]         0x49  public: virtual class render::IStatistics & __cdecl RenderAPI::DX11Renderer::getStatistics(void)
+[   75]         0x4A  public: virtual class osg::Vec2i __cdecl RenderAPI::DX11Renderer::getTargetDims(void)
+[   76]         0x4B  public: virtual struct RenderAPI::ITextureManager * __cdecl RenderAPI::DX11Renderer::getTextureManager(void)
+[   77]         0x4C  public: virtual int __cdecl RenderAPI::DX11Renderer::getVSyncMode(void)
+[   78]         0x4D  public: virtual class osg::Vec2i __cdecl RenderAPI::DX11Renderer::getViewportDims(void)
+[   79]         0x4E  public: virtual class osg::Vec2i __cdecl RenderAPI::DX11Renderer::getViewportPos(void)
+[   80]         0x4F  public: virtual bool __cdecl RenderAPI::DX11Renderer::init(struct render::RenderConfig const &)
+[   81]         0x50  private: long __cdecl RenderAPI::DX11Renderer::initDevice2(int, int, bool, int, int, int, struct HWND__*, enum render::MSAA_ENUM, bool)
+[   82]         0x51  private: long __cdecl RenderAPI::DX11Renderer::initDevice(enum D3D_DRIVER_TYPE, int, int, bool, int, int, struct HWND__*, enum render::MSAA_ENUM, bool)
+[   83]         0x52  private: bool __cdecl RenderAPI::DX11Renderer::initializeScreenFrameBuffer(int, int, bool)
+[   84]         0x53  public: virtual void __cdecl RenderAPI::DX11Renderer::interframeResourceSync(bool)
+[   85]         0x54  public: bool __cdecl RenderAPI::DX11Renderer::isDump(enum RenderAPI::enDumpTypes)
+[   86]         0x55  public: virtual bool __cdecl RenderAPI::DX11Renderer::isRenderTargetExists(char const *)
+[   87]         0x56  public: virtual bool __cdecl RenderAPI::DX11Renderer::popFrameBuffer(void)
+[   88]         0x57  public: virtual void __cdecl RenderAPI::DX11Renderer::popScissor(void)
+[   89]         0x58  public: virtual bool __cdecl RenderAPI::DX11Renderer::popStreamOutput(void)
+[   90]         0x59  public: virtual void __cdecl RenderAPI::DX11Renderer::popViewport(void)
+[   91]         0x5A  protected: void __cdecl RenderAPI::DX11Renderer::printLeaks(void)
+[   92]         0x5B  public: virtual bool __cdecl RenderAPI::DX11Renderer::pushFrameBuffer(unsigned int, struct RenderAPI::RenderTargetBindInfo const *const, struct RenderAPI::RenderTargetBindInfo)
+[   93]         0x5C  public: virtual bool __cdecl RenderAPI::DX11Renderer::pushFrameBuffer(struct RenderAPI::IFrameBuffer *, int, int)
+[   94]         0x5D  public: virtual void __cdecl RenderAPI::DX11Renderer::pushScissor(int, int, int, int)
+[   95]         0x5E  public: virtual bool __cdecl RenderAPI::DX11Renderer::pushStreamOutput(struct RenderAPI::IVertexBuffer *)
+[   96]         0x5F  public: virtual void __cdecl RenderAPI::DX11Renderer::pushViewport(int, int, int, int, float, float, bool)
+[   97]         0x60  public: virtual struct RenderAPI::ICommandStreamRenderer * __cdecl RenderAPI::DX11Renderer::queryCommandStreamRenderer(void)
+[   98]         0x61  public: void __cdecl RenderAPI::DX11Renderer::resetSlots(enum RenderAPI::enShaderType)
+[   99]         0x62  public: void __cdecl RenderAPI::DX11Renderer::resetSlotsSRV(enum RenderAPI::enShaderType)
+[  100]         0x63  public: virtual bool __cdecl RenderAPI::DX11Renderer::resize(int, int, bool)
+[  101]         0x64  public: void __cdecl RenderAPI::DX11Renderer::setCSUnorderedAccessViews(unsigned int, unsigned int, struct ID3D11UnorderedAccessView *const *, unsigned int const *)
+[  102]         0x65  public: void __cdecl RenderAPI::DX11Renderer::setDebugEvents(bool)
+[  103]         0x66  private: void __cdecl RenderAPI::DX11Renderer::setFrameBuffer(class RenderAPI::DX11FrameBuffer *, int, int)
+[  104]         0x67  public: virtual void __cdecl RenderAPI::DX11Renderer::setFullscreen(bool)
+[  105]         0x68  public: virtual bool __cdecl RenderAPI::DX11Renderer::setIndices(struct RenderAPI::IShader *, struct RenderAPI::IIndexBuffer *)
+[  106]         0x69  private: void __cdecl RenderAPI::DX11Renderer::setNewFrameBuffer(class RenderAPI::DX11FrameBuffer *)
+[  107]         0x6A  public: void __cdecl RenderAPI::DX11Renderer::setOMRenderTargetsAndUnorderedAccessViews(unsigned int, struct ID3D11RenderTargetView *const *, struct ID3D11DepthStencilView *, unsigned int, unsigned int, struct ID3D11UnorderedAccessView *const *, unsigned int const *)
+[  108]         0x6B  public: virtual void __cdecl RenderAPI::DX11Renderer::setRenderGraphResourceTracking(bool)
+[  109]         0x6C  public: virtual int __cdecl RenderAPI::DX11Renderer::setShader(struct RenderAPI::IShader *, unsigned __int64)
+[  110]         0x6D  public: void __cdecl RenderAPI::DX11Renderer::setShaderResources(enum RenderAPI::enShaderType, void (__cdecl ID3D11DeviceContext::*)(unsigned int, unsigned int, struct ID3D11ShaderResourceView *const *), unsigned int, unsigned int, struct ID3D11ShaderResourceView *const *)
+[  111]         0x6E  protected: void __cdecl RenderAPI::DX11Renderer::setVertexBuffers(class RenderAPI::DX11Shader *, class RenderAPI::DX11ShaderTechnique &, int)
+[  112]         0x6F  public: virtual void __cdecl RenderAPI::DX11Renderer::setupSlotBinder(int, int)
+[  113]         0x70  public: virtual void __cdecl RenderAPI::DX11Renderer::shutdown(void)
+[  114]         0x71  protected: char const * __cdecl RenderAPI::DX11Renderer::strToPtr(class ed::basic_string<char> const &)
+[  115]         0x72  public: bool __cdecl RenderAPI::DX11Renderer::tesselatorIsActive(void) const
+[  116]         0x73  public: virtual void __cdecl RenderAPI::DX11Renderer::test(char const *)
+[  117]         0x74  public: virtual void __cdecl RenderAPI::DX11Renderer::trackResourceByRenderGraph(struct RenderAPI::IBuffer *)
+[  118]         0x75  public: virtual void __cdecl RenderAPI::DX11Renderer::trackResourceByRenderGraph(struct RenderAPI::IConstantBuffer *)
+[  119]         0x76  public: virtual void __cdecl RenderAPI::DX11Renderer::trackResourceByRenderGraph(struct RenderAPI::IStructuredBuffer *)
+[  120]         0x77  public: virtual void __cdecl RenderAPI::DX11Renderer::trackResourceByRenderGraph(struct RenderAPI::ITexture *)
+[  121]         0x78  private: void __cdecl RenderAPI::DX11Renderer::turnOffSpecificWarnings(void)
+[  122]         0x79  public: virtual void __cdecl RenderAPI::DX11Renderer::unbindResource(unsigned int, enum render::RESOURCE_TYPE_ENUM)
+[  123]         0x7A  public: void __cdecl RenderAPI::DX11Renderer::useTesselatorStage(bool)
+[  124]         0x7B  public: virtual void __cdecl RenderAPI::DX11Renderer::waitForIdle(void)
+[  125]         0x7C  NVSDK_NGX_D3D11_AllocateParameters
+[  126]         0x7D  NVSDK_NGX_D3D11_CreateFeature
+[  127]         0x7E  NVSDK_NGX_D3D11_DestroyParameters
+[  128]         0x7F  NVSDK_NGX_D3D11_EvaluateFeature
+[  129]         0x80  NVSDK_NGX_D3D11_EvaluateFeature_C
+[  130]         0x81  NVSDK_NGX_D3D11_GetCapabilityParameters
+[  131]         0x82  NVSDK_NGX_D3D11_GetFeatureRequirements
+[  132]         0x83  NVSDK_NGX_D3D11_GetParameters
+[  133]         0x84  NVSDK_NGX_D3D11_GetScratchBufferSize
+[  134]         0x85  NVSDK_NGX_D3D11_ReleaseFeature
+[  135]         0x86  NVSDK_NGX_D3D11_Shutdown
+[  136]         0x87  NVSDK_NGX_D3D11_Shutdown1
+[  137]         0x88  NVSDK_NGX_Parameter_GetD
+[  138]         0x89  NVSDK_NGX_Parameter_GetD3d11Resource
+[  139]         0x8A  NVSDK_NGX_Parameter_GetD3d12Resource
+[  140]         0x8B  NVSDK_NGX_Parameter_GetF
+[  141]         0x8C  NVSDK_NGX_Parameter_GetI
+[  142]         0x8D  NVSDK_NGX_Parameter_GetUI
+[  143]         0x8E  NVSDK_NGX_Parameter_GetULL
+[  144]         0x8F  NVSDK_NGX_Parameter_GetVoidPointer
+[  145]         0x90  NVSDK_NGX_Parameter_SetD
+[  146]         0x91  NVSDK_NGX_Parameter_SetD3d11Resource
+[  147]         0x92  NVSDK_NGX_Parameter_SetD3d12Resource
+[  148]         0x93  NVSDK_NGX_Parameter_SetF
+[  149]         0x94  NVSDK_NGX_Parameter_SetI
+[  150]         0x95  NVSDK_NGX_Parameter_SetUI
+[  151]         0x96  NVSDK_NGX_Parameter_SetULL
+[  152]         0x97  NVSDK_NGX_Parameter_SetVoidPointer
+[  153]         0x98  NVSDK_NGX_UpdateFeature
+[  154]         0x99  createRenderer

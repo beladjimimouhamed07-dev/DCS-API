@@ -1,0 +1,85 @@
+Microsoft (R) COFF/PE Dumper Version 14.51.36256.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file G:\DCS_OPS_RE\bin\Effects.dll
+
+File Type: DLL
+
+  Section contains the following exports for Effects.dll
+
+    00000000 characteristics
+    FFFFFFFF time date stamp
+        0.00 version
+           1 ordinal base
+          57 number of functions
+          57 number of names
+
+    ordinal hint RVA      name
+
+          1    0 00008400 ??0GraphicEffect_Impl@Effects@@QEAA@AEBV01@@Z
+          2    1 0002E6A0 ??0GraphicEffect_Impl@Effects@@QEAA@XZ
+          3    2 0002AA90 ??0ODCSEnvironment2@Effects@@QEAA@$$QEAU01@@Z
+          4    3 0002AA90 ??0ODCSEnvironment2@Effects@@QEAA@AEBU01@@Z
+          5    4 0002AB40 ??0ODCSEnvironment2@Effects@@QEAA@XZ
+          6    5 00037270 ??0PipeSmokeProviderProxy@Effects@@QEAA@PEAVDCSSceneProxy@@AEBV?$function@$$A6AMAEBUCollectionInfo@render@@@Z@std@@@Z
+          7    6 0002E8C0 ??1GraphicEffect_Impl@Effects@@UEAA@XZ
+          8    7 0002ADA0 ??1ODCSEnvironment2@Effects@@UEAA@XZ
+          9    8 000088E0 ??4GraphicEffect_Impl@Effects@@QEAAAEAV01@AEBV01@@Z
+         10    9 0002ADF0 ??4ODCSEnvironment2@Effects@@QEAAAEAU01@$$QEAU01@@Z
+         11    A 0002ADF0 ??4ODCSEnvironment2@Effects@@QEAAAEAU01@AEBU01@@Z
+         12    B 00049030 ??_7GraphicEffect_Impl@Effects@@6BIGraphicEffect@1@@
+         13    C 00048F10 ??_7GraphicEffect_Impl@Effects@@6BviObject@@@
+         14    D 0004B718 ??_7ODCSEnvironment2@Effects@@6B@
+         15    E 0002E9A0 ?CreateActivity@GraphicEffect_Impl@Effects@@UEAAXXZ
+         16    F 00008D20 ?GetBoundingBox@GraphicEffect_Impl@Effects@@UEAAAEBV?$BoundingBoxImpl@VVec3f@osg@@@osg@@XZ
+         17   10 00008D30 ?GetCenter@GraphicEffect_Impl@Effects@@UEAAAEBVVec3f@osg@@XZ
+         18   11 0002EAA0 ?GetDeltaT@GraphicEffect_Impl@Effects@@UEAANXZ
+         19   12 00008D40 ?GetPosition@GraphicEffect_Impl@Effects@@UEAAAEBV?$wPosition3@M@@XZ
+         20   13 00008D50 ?GetRadius@GraphicEffect_Impl@Effects@@UEAAMXZ
+         21   14 00008D60 ?IsTerminated@GraphicEffect_Impl@Effects@@UEAA_NXZ
+         22   15 0002EAB0 ?LocalBox@GraphicEffect_Impl@Effects@@UEAAAEBUgBox@@N@Z
+         23   16 0000EC30 ?NeedKill@GraphicEffect_Impl@Effects@@UEAA_NXZ
+         24   17 00008F20 ?NextStep@GraphicEffect_Impl@Effects@@UEAAXXZ
+         25   18 0002EB70 ?Parse@GraphicEffect_Impl@Effects@@UEAAXAEAVModelParser@Graphics@@AEBV?$wPosition3@M@@PEAVeffectState@4@@Z
+         26   19 00008F20 ?ParseForRender@GraphicEffect_Impl@Effects@@UEAAXAEAVModelParser@Graphics@@@Z
+         27   1A 0002EC20 ?Position@GraphicEffect_Impl@Effects@@UEAAAEBV?$wPosition3@M@@N@Z
+         28   1B 0002ECB0 ?TestVolume@GraphicEffect_Impl@Effects@@UEAA?AW4IntersectionType@@AEBVClipVolume@@@Z
+         29   1C 0001B270 ?beginRenderPass@PSEffects@@YAXXZ
+         30   1D 00008F20 ?changeLocalPosition@GraphicEffect_Impl@Effects@@UEAAXPEBV?$wPosition3@M@@@Z
+         31   1E 00008F20 ?changeLocalPosition@GraphicEffect_Impl@Effects@@UEAAXPEBVVec3f@osg@@@Z
+         32   1F 00037D00 ?collectRenderables@PipeSmokeProvider@Effects@@EEAAXIPEAPEBUCollectionInfo@render@@QEB_NPEAPEAV?$vector@PEAUISceneRenderable@render@@V?$allocator@PEAUISceneRenderable@render@@@ed@@@ed@@AEAUILightProbeSampler@4@@Z
+         33   20 000409F0 ?createLightOmni@ODCSEnvironment2@Effects@@EEAAPEAVOLight@2@AEBVVec3d@osg@@AEBVVec3f@5@M@Z
+         34   21 00040B10 ?createLightSpot@ODCSEnvironment2@Effects@@EEAAPEAVOLight@2@AEBV?$wPosition3@M@@AEBVVec3f@osg@@MMMM@Z
+         35   22 00040C70 ?destroyLight@ODCSEnvironment2@Effects@@EEAAXPEAVOLight@2@@Z
+         36   23 0001B360 ?endRenderPass@PSEffects@@YAXXZ
+         37   24 0001B380 ?getCurrentEffect@PSEffects@@YA?AV?$basic_string@D@ed@@XZ
+         38   25 0001B510 ?getCurrentOffset@PSEffects@@YA?AVVec3f@osg@@XZ
+         39   26 00040E20 ?getModelTime@ODCSEnvironment2@Effects@@EEBANXZ
+         40   27 00040E30 ?getWind@ODCSEnvironment2@Effects@@EEBA?AVVec3f@osg@@AEBVVec3d@4@@Z
+         41   28 00040F50 ?hasFeature@ODCSEnvironment2@Effects@@EEBA_NW4ORenderingFeature@2@@Z
+         42   29 00029480 ?init_effects@Effects@@YAXPEAUIAtmosphereSampler@GraphicsCore@@V?$shared_ptr@VIVFSandbox@edvfs@@@std@@@Z
+         43   2A 00040FA0 ?isOnPause@ODCSEnvironment2@Effects@@EEBA_NXZ
+         44   2B 0003C630 ?loadShipWakeConfig@Effects@@YA?AUShipWakeConfig@1@PEBD@Z
+         45   2C 0001B630 ?preloadEffects@PSEffects@@YAXXZ
+         46   2D 00008F20 ?regLua@Effects@@YAXPEAUlua_State@@@Z
+         47   2E 00029730 ?release_effects@Effects@@YAXXZ
+         48   2F 0002E2A0 ?setIsOnPause@ODCSEnvironment2@Effects@@QEAAX_N@Z
+         49   30 0002E2B0 ?setModelTime@ODCSEnvironment2@Effects@@QEAAXN@Z
+         50   31 0002E310 ?setSceneProxy@ODCSEnvironment2@Effects@@QEAAXPEAVDCSSceneProxy@@@Z
+         51   32 00038630 ?setSmokeDensity@PipeSmokeProviderProxy@Effects@@QEAAXH@Z
+         52   33 00042170 ?setWindVerticalProfiles@ODCSEnvironment2@Effects@@UEAAXIQEAPEBVVec3f@osg@@QEBV34@IQEBM@Z
+         53   34 00008F20 ?showBBSphere@GraphicEffect_Impl@Effects@@IEAAXAEAVModelParser@Graphics@@AEBV?$wPosition3@M@@M@Z
+         54   35 0002ED40 ?undock@GraphicEffect_Impl@Effects@@UEAAXXZ
+         55   36 000425A0 ?updateConnection@ODCSParticleSystem2Proxy@Effects@@QEAA_NN@Z
+         56   37 000428C0 ?updateGraphicReflection@ODCSParticleSystem2Proxy@Effects@@QEAAXN@Z
+         57   38 0001B8D0 ?updateLodFOVcoef@PSEffects@@YAXM@Z
+
+  Summary
+
+        6000 .data
+        4000 .pdata
+       19000 .rdata
+        1000 .reloc
+        1000 .rsrc
+       47000 .text

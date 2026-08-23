@@ -1,0 +1,31 @@
+Microsoft (R) COFF/PE Dumper Version 14.51.36256.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file G:\DCS_OPS_RE\bin\qwindows.dll
+
+File Type: DLL
+
+  Section contains the following exports for qwindows.dll
+
+    00000000 characteristics
+    FFFFFFFF time date stamp
+        0.00 version
+           1 ordinal base
+           2 number of functions
+           2 number of names
+
+    ordinal hint RVA      name
+
+          1    0 0005AFC0 qt_plugin_instance
+          2    1 0005B0D0 qt_plugin_query_metadata
+
+  Summary
+
+        8000 .data
+        E000 .pdata
+        1000 .qtmetad
+       5E000 .rdata
+        2000 .reloc
+        1000 .rsrc
+       EA000 .text

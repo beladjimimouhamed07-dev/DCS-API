@@ -1,0 +1,46 @@
+{
+    "dll": "edWebviewBrowser.dll",
+    "class_count": 2,
+    "classes": {
+        "CEFInit": {
+            "class_name": "CEFInit",
+            "namespace": "ed",
+            "methods": [
+                {
+                    "ordinal": 1,
+                    "rva": 0,
+                    "rva_hex": "0x0",
+                    "name": "??0CEFInit@ed@@QEAA@_N@Z",
+                    "demangled": "public: __cdecl ed::CEFInit::CEFInit(bool)",
+                    "function_name": "CEFInit",
+                    "parameters": "bool",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "ed": {
+            "class_name": "ed",
+            "namespace": null,
+            "methods": [
+                {
+                    "ordinal": 3,
+                    "rva": 2,
+                    "rva_hex": "0x2",
+                    "name": "?getGlobalWebViewAllowList@ed@@YAPEAVWebViewAllowList@1@XZ",
+                    "demangled": "class ed::WebViewAllowList * __cdecl ed::getGlobalWebViewAllowList(void)",
+                    "function_name": "getGlobalWebViewAllowList",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        }
+    }
+}

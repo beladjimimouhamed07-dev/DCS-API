@@ -1,0 +1,13 @@
+Microsoft (R) COFF/PE Dumper Version 14.51.36256.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file G:\DCS_OPS_RE\bin\VRfreeBasicTypesDotNetFramework.dll
+
+File Type: DLL
+
+  Summary
+
+        2000 .reloc
+        2000 .rsrc
+        8000 .text

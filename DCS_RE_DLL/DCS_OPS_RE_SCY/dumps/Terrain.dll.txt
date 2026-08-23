@@ -1,0 +1,155 @@
+Microsoft (R) COFF/PE Dumper Version 14.51.36256.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file G:\DCS_OPS_RE_SCY\bin\Terrain.dll
+
+File Type: DLL
+
+  Section contains the following exports for Terrain.dll
+
+    00000000 characteristics
+    FFFFFFFF time date stamp
+        0.00 version
+           1 ordinal base
+         126 number of functions
+         126 number of names
+
+    ordinal hint RVA      name
+
+          1    0 0000B7E0 ??0lAnimal@@QEAA@XZ
+          2    1 0000C1C0 ??0lArmsStorage@@QEAA@$$QEAV0@@Z
+          3    2 0000C1C0 ??0lArmsStorage@@QEAA@AEBV0@@Z
+          4    3 0000C240 ??0lArmsStorage@@QEAA@XZ
+          5    4 0000EC50 ??0lETL_Cables@@QEAA@AEBV0@@Z
+          6    5 0000EE10 ??0lETL_Cables@@QEAA@XZ
+          7    6 000128B0 ??0lObjWithLights@@QEAA@AEBV0@@Z
+          8    7 000129D0 ??0lObjWithLights@@QEAA@XZ
+          9    8 0001ABB0 ??0lOilTank@@QEAA@AEBV0@@Z
+         10    9 0001AC30 ??0lOilTank@@QEAA@XZ
+         11    A 0001C310 ??0lSite@@QEAA@XZ
+         12    B 00017860 ??0lSiteElement@@QEAA@AEBV0@@Z
+         13    C 0001C320 ??0lSiteElement@@QEAA@PEAVlSite@@@Z
+         14    D 0001C340 ??0lSiteElement@@QEAA@XZ
+         15    E 00017880 ??0lSiteElementBuilding@@QEAA@AEBV0@@Z
+         16    F 0001C360 ??0lSiteElementBuilding@@QEAA@XZ
+         17   10 00017920 ??0lSiteElementTech@@QEAA@AEBV0@@Z
+         18   11 0001C3C0 ??0lSiteElementTech@@QEAA@XZ
+         19   12 0000C280 ??0lStandartStructure@@QEAA@AEBV0@@Z
+         20   13 0001D5D0 ??0lStandartStructure@@QEAA@XZ
+         21   14 0000C2C0 ??0lWarehouseOwner@@QEAA@AEBV0@@Z
+         22   15 0001F040 ??0lWarehouseOwner@@QEAA@XZ
+         23   16 0000B900 ??1lAnimal@@UEAA@XZ
+         24   17 0000C340 ??1lArmsStorage@@UEAA@XZ
+         25   18 0000EFB0 ??1lETL_Cables@@UEAA@XZ
+         26   19 00012A20 ??1lLandHeliport@@UEAA@XZ
+         27   1A 000198A0 ??1lObjWithLights@@UEAA@XZ
+         28   1B 0001AC70 ??1lOilTank@@UEAA@XZ
+         29   1C 0001C420 ??1lSite@@UEAA@XZ
+         30   1D 0001C430 ??1lSiteElement@@UEAA@XZ
+         31   1E 00017AA0 ??1lSiteElementBuilding@@UEAA@XZ
+         32   1F 00017AD0 ??1lSiteElementTech@@UEAA@XZ
+         33   20 0001D640 ??1lStandartStructure@@UEAA@XZ
+         34   21 0001F0A0 ??1lWarehouseOwner@@UEAA@XZ
+         35   22 00017B00 ??4lSiteElement@@QEAAAEAV0@AEBV0@@Z
+         36   23 00026C50 ??_7lAnimal@@6BISceneObject@@@
+         37   24 00026BE8 ??_7lAnimal@@6BModelInstance@Graphics@@@
+         38   25 00026A48 ??_7lAnimal@@6BviObject@@@
+         39   26 00027418 ??_7lArmsStorage@@6BISceneObject@@@
+         40   27 000273B0 ??_7lArmsStorage@@6BModelInstance@Graphics@@@
+         41   28 000271F0 ??_7lArmsStorage@@6BviObject@@@
+         42   29 00028840 ??_7lETL_Cables@@6BISceneObject@@@
+         43   2A 000287D8 ??_7lETL_Cables@@6BModelInstance@Graphics@@@
+         44   2B 00028638 ??_7lETL_Cables@@6BviObject@@@
+         45   2C 00029880 ??_7lObjWithLights@@6BISceneObject@@@
+         46   2D 00029818 ??_7lObjWithLights@@6BModelInstance@Graphics@@@
+         47   2E 00029660 ??_7lObjWithLights@@6BviObject@@@
+         48   2F 00030FF0 ??_7lOilTank@@6BISceneObject@@@
+         49   30 00030F88 ??_7lOilTank@@6BModelInstance@Graphics@@@
+         50   31 00030DC8 ??_7lOilTank@@6BviObject@@@
+         51   32 0002F978 ??_7lSiteElement@@6B@
+         52   33 0002FBE8 ??_7lSiteElementBuilding@@6B@
+         53   34 0002FBA8 ??_7lSiteElementBuilding@@6BISceneObject@@@
+         54   35 0002FB40 ??_7lSiteElementBuilding@@6BModelInstance@Graphics@@@
+         55   36 0002F988 ??_7lSiteElementBuilding@@6BviObject@@@
+         56   37 0002FE40 ??_7lSiteElementTech@@6B@
+         57   38 0002FE00 ??_7lSiteElementTech@@6BISceneObject@@@
+         58   39 0002FD98 ??_7lSiteElementTech@@6BModelInstance@Graphics@@@
+         59   3A 0002FBF8 ??_7lSiteElementTech@@6BviObject@@@
+         60   3B 00026F48 ??_7lStandartStructure@@6BISceneObject@@@
+         61   3C 00026EE0 ??_7lStandartStructure@@6BModelInstance@Graphics@@@
+         62   3D 00026D28 ??_7lStandartStructure@@6BviObject@@@
+         63   3E 000271B0 ??_7lWarehouseOwner@@6BISceneObject@@@
+         64   3F 00027148 ??_7lWarehouseOwner@@6BModelInstance@Graphics@@@
+         65   40 00026F88 ??_7lWarehouseOwner@@6BviObject@@@
+         66   41 0001D6C0 ?AddFire@lStandartStructure@@IEAAXMAEBVVec3f@osg@@_NPEBDM@Z
+         67   42 0000F220 ?AttachPos@lETL_Cables@@QEAAX_NHAEAVVec3f@osg@@@Z
+         68   43 0000F650 ?CableCount@lETL_Cables@@QEAAHXZ
+         69   44 0000F700 ?CableExists@lETL_Cables@@QEAA_NH@Z
+         70   45 0000F760 ?CheckCableShapeIntersection@lETL_Cables@@QEAA_NHAEBVISceneObject@@AEAUwsCollisionData@@@Z
+         71   46 0000FB90 ?CheckGroundIntersection@lETL_Cables@@QEAA_NXZ
+         72   47 0000FFE0 ?CheckShapeIntersection@lETL_Cables@@QEAAHAEBVISceneObject@@_N@Z
+         73   48 0001BB10 ?Close@lShelter@@QEAA_NM@Z
+         74   49 0000C5D0 ?CreateDynamicData@lArmsStorage@@MEAAXXZ
+         75   4A 000100F0 ?CreateDynamicData@lETL_Cables@@MEAAXXZ
+         76   4B 0001DB30 ?CreateDynamicData@lStandartStructure@@MEAAXXZ
+         77   4C 0001AD60 ?CreateFires@lOilTank@@UEAAXXZ
+         78   4D 0001DBB0 ?CreateFires@lStandartStructure@@MEAAXXZ
+         79   4E 00010180 ?CreateGShape@lETL_Cables@@QEAAXXZ
+         80   4F 00019AA0 ?CreateLights@lObjWithLights@@IEAAXXZ
+         81   50 0001DE30 ?CreateSmokeCloud@lStandartStructure@@MEAAXXZ
+         82   51 00010750 ?CreateWire@lETL_Cables@@IEAA_NAEAV?$vector@VVec3f@osg@@V?$allocator@VVec3f@osg@@@ed@@@ed@@H_N@Z
+         83   52 00010A60 ?CutCable@lETL_Cables@@QEAAXH@Z
+         84   53 0000BA50 ?Degrade@lAnimal@@UEAAX_N@Z
+         85   54 0000C650 ?Degrade@lArmsStorage@@MEAAX_N@Z
+         86   55 00019DC0 ?Degrade@lObjWithLights@@UEAAX_N@Z
+         87   56 0001AF10 ?Degrade@lOilTank@@UEAAX_N@Z
+         88   57 0001C4F0 ?Degrade@lSiteElementBuilding@@MEAAX_N@Z
+         89   58 0001C530 ?Degrade@lSiteElementTech@@MEAAX_N@Z
+         90   59 0001E050 ?Degrade@lStandartStructure@@UEAAX_N@Z
+         91   5A 0001F100 ?Degrade@lWarehouseOwner@@UEAAX_N@Z
+         92   5B 00019DF0 ?DestroyLights@lObjWithLights@@IEAAXXZ
+         93   5C 0001E0A0 ?FallDown@lStandartStructure@@UEAA_NXZ
+         94   5D 0001E590 ?GetDrawArguments@lStandartStructure@@UEAAAEBV?$vector@MV?$allocator128@M@ed@@@ed@@XZ
+         95   5E 0001E790 ?GetModel@lStandartStructure@@UEAA?AVModelPtr@Graphics@@XZ
+         96   5F 0000BAC0 ?Init@lAnimal@@UEAAXAEBULandObjectInitData@@@Z
+         97   60 00019F00 ?Init@lObjWithLights@@UEAAXAEBULandObjectInitData@@@Z
+         98   61 0001E8B0 ?IsFallInProgress@lStandartStructure@@QEAA_NXZ
+         99   62 0001BDF0 ?IsOpen@lShelter@@QEBA_NXZ
+        100   63 00010CF0 ?LocalBox@lETL_Cables@@UEAAAEBUgBox@@N@Z
+        101   64 0001BE10 ?Open@lShelter@@QEAA_NM@Z
+        102   65 0001E8D0 ?Position@lStandartStructure@@UEAAAEBV?$wPosition3@M@@N@Z
+        103   66 0001E910 ?PostCollisionProcessing@lStandartStructure@@UEAAXPEAUwsCollisionData@@@Z
+        104   67 00010D00 ?ReinitState@lETL_Cables@@UEAAXXZ
+        105   68 00019F60 ?ReinitState@lObjWithLights@@UEAAXXZ
+        106   69 0001B150 ?ReinitState@lOilTank@@UEAAXXZ
+        107   6A 0001F130 ?ReinitState@lWarehouseOwner@@UEAAXXZ
+        108   6B 0000BF10 ?UpdateSound@lAnimal@@QEAAXMAEAM@Z
+        109   6C 000099C0 ?createGlobalLand@@YAXXZ
+        110   6D 0001C0F0 ?findUniqueLook@lShelter@@QEAAXV?$basic_string_view@DU?$char_traits@D@std@@@std@@0@Z
+        111   6E 0000D020 ?getStoreType@lArmsStorage@@MEBAIXZ
+        112   6F 00008860 ?getStoreType@lOilTank@@UEBAIXZ
+        113   70 00008860 ?getStoreType@lWarehouseOwner@@UEBAIXZ
+        114   71 0000D030 ?getWarehouse@lWarehouseOwner@@QEAAPEAVIwWarehouse@@XZ
+        115   72 0000D030 ?getWarehouse@lWarehouseOwner@@QEBAPEBVIwWarehouse@@XZ
+        116   73 00017EF0 ?get_obj_ptr@lSiteElement@@QEBAPEAXXZ
+        117   74 000189D0 ?instance@lLockOnObjectFactory@@YAPEAVviObjectFactory@@XZ
+        118   75 0000D040 ?instantiateFromSceneObject@lArmsStorage@@SAPEAV1@AEAVISceneObject@@@Z
+        119   76 0001B1F0 ?instantiateFromSceneObject@lOilTank@@SAPEAV1@AEAVISceneObject@@@Z
+        120   77 0000D160 ?lArmsStorageInitRandoms@@YAXI@Z
+        121   78 0001C750 ?notify_death@lSiteElement@@IEAAXXZ
+        122   79 0001A320 ?onStateChanged@lObjWithLights@@MEAAXXZ
+        123   7A 00046688 ?randomEvenly@lStandartStructure@@2VRandomObject@@A
+        124   7B 00011950 ?setLinkedObjects@lETL_Cables@@QEAAXAEBU?$array@I$01@ed@@@Z
+        125   7C 0001C770 ?set_site@lSiteElement@@QEAAXPEAVlSite@@@Z
+        126   7D 0001F160 ?take_missionID@lWarehouseOwner@@UEAAXAEBV?$basic_string@D@ed@@0@Z
+
+  Summary
+
+        6000 .SCY
+        3000 .data
+        3000 .pdata
+       1F000 .rdata
+        2000 .reloc
+        1000 .rsrc
+       24000 .text

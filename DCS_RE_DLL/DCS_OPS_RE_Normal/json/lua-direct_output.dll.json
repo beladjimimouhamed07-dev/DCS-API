@@ -1,0 +1,26 @@
+{
+    "dll": "lua-direct_output.dll",
+    "export_count": 1,
+    "exports": [
+        {
+            "ordinal": 1,
+            "rva": 0,
+            "rva_hex": "0x0",
+            "name": "luaopen_direct_output",
+            "demangled": null,
+            "symbol_type": "unknown",
+            "namespace": null,
+            "class_name": null,
+            "function_name": null,
+            "parameters": null,
+            "const": false,
+            "static": false,
+            "virtual": false,
+            "is_vftable": false,
+            "is_vbtable": false,
+            "is_rtti": false,
+            "demangle_ok": false,
+            "raw_line": "          1    0 00001B50 luaopen_direct_output"
+        }
+    ]
+}

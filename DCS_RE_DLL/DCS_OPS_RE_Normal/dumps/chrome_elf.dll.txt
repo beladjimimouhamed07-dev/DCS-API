@@ -1,0 +1,63 @@
+Microsoft (R) COFF/PE Dumper Version 14.51.36256.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file G:\DCS_OPS_RE\bin\chrome_elf.dll
+
+File Type: DLL
+
+  Section contains the following exports for chrome_elf.dll
+
+    00000000 characteristics
+           0 time date stamp
+        0.00 version
+           0 ordinal base
+          26 number of functions
+          25 number of names
+
+    ordinal hint RVA      name
+
+          1    0 00004130 ClearReportsBetween_ExportThunk
+          2    1 000040C0 CrashForException_ExportThunk
+          3    2 000021F0 DisableHook
+          4    3 00002A80 DrainLog
+          5    4 00004140 DumpHungProcessWithPtype_ExportThunk
+          6    5 00001170 DumpProcessWithoutCrash
+          7    6 00002200 GetApplyHookResult
+          8    7 00003340 GetBlockedModulesCount
+          9    8 00004000 GetCrashReports_ExportThunk
+         10    9 00004120 GetCrashpadDatabasePath_ExportThunk
+         11    A 000569D0 GetHandleVerifier
+         12    B 00003EF0 GetInstallDetailsPayload
+         13    C 00003350 GetUniqueBlockedModulesCount
+         14    D 00001020 GetUserDataDirectoryThunk
+         15    E 000040F0 InjectDumpForHungInput_ExportThunk
+         16    F 00001190 IsBrowserProcess
+         17   10 00036390 IsCrashReportingEnabledImpl
+         18   11 00003860 IsThirdPartyInitialized
+         19   12 00003290 RegisterLogNotification
+         20   13 00003F10 RequestSingleCrashUpload_ExportThunk
+         21   14 00036230 SetCrashKeyValueImpl
+         22   15 00001180 SetMetricsClientId
+         23   16 000040E0 SetUploadConsent_ExportThunk
+         24   17 00001010 SignalChromeElf
+         25   18 00001000 SignalInitializeCrashReporting
+
+  Summary
+
+        1000 .00cfg
+        1000 .crthunk
+       32000 .data
+        3000 .gxfg
+        1000 .oldntma
+        9000 .pdata
+       26000 .rdata
+        2000 .reloc
+        1000 .retplne
+        1000 .rsrc
+       D6000 .text
+        1000 .tls
+        1000 .voltbl
+        1000 CPADinfo
+        1000 _RDATA
+        1000 malloc_h

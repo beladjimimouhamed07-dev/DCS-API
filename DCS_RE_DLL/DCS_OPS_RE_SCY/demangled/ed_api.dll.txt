@@ -1,0 +1,16 @@
+// DCS_OPS_RE: ed_api.dll
+// Generated from dumpbin /exports
+
+[    1]          0x0  bool __cdecl edvfs::CheckAnimationsMountPoint(char const *)
+[    2]          0x1  bool __cdecl edvfs::CheckModelsMountPoint(char const *)
+[    3]          0x2  bool __cdecl edvfs::CheckTexturesMountPoint(char const *)
+[    4]          0x3  class std::shared_ptr<class edvfs::IVFSandbox> __cdecl edvfs::GetAnimationsVFS(void)
+[    5]          0x4  class std::shared_ptr<class edvfs::IVFSandbox> __cdecl edvfs::GetModelsVFS(void)
+[    6]          0x5  class std::shared_ptr<class edvfs::IVFSandbox> __cdecl edvfs::GetShadersVFS(void)
+[    7]          0x6  class std::shared_ptr<class edvfs::IVFSandbox> __cdecl edvfs::GetTexturesVFS(void)
+[    8]          0x7  class std::unique_ptr<class ed::WebViewTexture, struct ed::WebViewTextureDeleter> __cdecl ed::WebViewTexture_create(class std::basic_string_view<char, struct std::char_traits<char>>)
+[    9]          0x8  class std::unique_ptr<class ed::WebView, struct ed::WebViewDeleter> __cdecl ed::WebView_create(class ed::WebViewClient *, struct ed::WebViewSettings const &)
+[   10]          0x9  class std::unique_ptr<class ed::WebWindow, struct std::default_delete<class ed::WebWindow>> __cdecl ed::WebWindow_create(class ed::WebWindowClient *, struct ed::WebWindowSettings const &)
+[   11]          0xA  ED_SounderAPI_v1
+[   12]          0xB  ED_SounderAPI_v2
+[   13]          0xC  initSounderAPI

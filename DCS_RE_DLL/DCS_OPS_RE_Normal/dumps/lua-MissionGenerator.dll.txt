@@ -1,0 +1,29 @@
+Microsoft (R) COFF/PE Dumper Version 14.51.36256.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file G:\DCS_OPS_RE\bin\lua-MissionGenerator.dll
+
+File Type: DLL
+
+  Section contains the following exports for lua-MissionGenerator.dll
+
+    00000000 characteristics
+    FFFFFFFF time date stamp
+        0.00 version
+           1 ordinal base
+           1 number of functions
+           1 number of names
+
+    ordinal hint RVA      name
+
+          1    0 00066780 luaopen_MissionGenerator
+
+  Summary
+
+       20000 .data
+        B000 .pdata
+       2C000 .rdata
+        1000 .reloc
+        1000 .rsrc
+      122000 .text

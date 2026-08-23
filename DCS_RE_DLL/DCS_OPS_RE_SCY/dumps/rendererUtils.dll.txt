@@ -1,0 +1,254 @@
+Microsoft (R) COFF/PE Dumper Version 14.51.36256.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file G:\DCS_OPS_RE_SCY\bin\rendererUtils.dll
+
+File Type: DLL
+
+  Section contains the following exports for rendererUtils.dll
+
+    00000000 characteristics
+    FFFFFFFF time date stamp
+        0.00 version
+           1 ordinal base
+         225 number of functions
+         225 number of names
+
+    ordinal hint RVA      name
+
+          1    0 00009E30 ??0GeometryQuad@render@@QEAA@XZ
+          2    1 0000A670 ??0GeometrySolidBox@render@@QEAA@XZ
+          3    2 0000B8B0 ??0GeometrySolidSphere@render@@QEAA@XZ
+          4    3 0000E740 ??0RenderArc@render@@QEAA@XZ
+          5    4 000108A0 ??0RenderBasis@render@@QEAA@XZ
+          6    5 00011660 ??0RenderBox@render@@QEAA@XZ
+          7    6 0000E740 ??0RenderChecker@render@@QEAA@XZ
+          8    7 00013340 ??0RenderCone@render@@QEAA@XZ
+          9    8 00013CE0 ??0RenderCylinder@render@@QEAA@M@Z
+         10    9 0000E740 ??0RenderEllipse@render@@QEAA@XZ
+         11    A 00017440 ??0RenderLine@render@@QEAA@XZ
+         12    B 0000E740 ??0RenderLineColorPack@render@@QEAA@XZ
+         13    C 00018920 ??0RenderMoveManipulator@render@@QEAA@XZ
+         14    D 0001AC50 ??0RenderMultiPlotter@render@@QEAA@XZ
+         15    E 0001D840 ??0RenderMultilineText@render@@QEAA@XZ
+         16    F 0001E340 ??0RenderOutline@render@@QEAA@XZ
+         17   10 000201E0 ??0RenderPlotter@render@@QEAA@XZ
+         18   11 0000E740 ??0RenderPoints@render@@QEAA@XZ
+         19   12 0000E740 ??0RenderPolyline@render@@QEAA@XZ
+         20   13 00023B90 ??0RenderRect@render@@QEAA@XZ
+         21   14 00018920 ??0RenderScaleManipulator@render@@QEAA@XZ
+         22   15 00025990 ??0RenderSphere@render@@QEAA@MM@Z
+         23   16 00026B40 ??0RenderSpline@render@@QEAA@XZ
+         24   17 00029C60 ??0RenderTexture@render@@QEAA@XZ
+         25   18 0002BA60 ??0RenderTriangles@render@@QEAA@XZ
+         26   19 0002FDB0 ??0ScreenGrabber@render@@QEAA@XZ
+         27   1A 00008560 ??0TextRender2@render@@QEAA@XZ
+         28   1B 00007E60 ??0TextRender@render@@QEAA@XZ
+         29   1C 0002DD10 ??0ViewerSceneHelper@render@@QEAA@XZ
+         30   1D 00009E70 ??1GeometryQuad@render@@QEAA@XZ
+         31   1E 00009E70 ??1GeometrySolidBox@render@@QEAA@XZ
+         32   1F 0000BB10 ??1GeometrySolidSphere@render@@QEAA@XZ
+         33   20 0000E780 ??1RenderArc@render@@QEAA@XZ
+         34   21 000108F0 ??1RenderBasis@render@@QEAA@XZ
+         35   22 000116B0 ??1RenderBox@render@@QEAA@XZ
+         36   23 0000E780 ??1RenderChecker@render@@QEAA@XZ
+         37   24 00013390 ??1RenderCone@render@@QEAA@XZ
+         38   25 00013D40 ??1RenderCylinder@render@@QEAA@XZ
+         39   26 0000E780 ??1RenderEllipse@render@@QEAA@XZ
+         40   27 00017490 ??1RenderLine@render@@QEAA@XZ
+         41   28 0000E780 ??1RenderLineColorPack@render@@QEAA@XZ
+         42   29 00018980 ??1RenderMoveManipulator@render@@QEAA@XZ
+         43   2A 0001B040 ??1RenderMultiPlotter@render@@QEAA@XZ
+         44   2B 0001D870 ??1RenderMultilineText@render@@QEAA@XZ
+         45   2C 0001E4A0 ??1RenderOutline@render@@QEAA@XZ
+         46   2D 00020340 ??1RenderPlotter@render@@QEAA@XZ
+         47   2E 0000E780 ??1RenderPoints@render@@QEAA@XZ
+         48   2F 0000E780 ??1RenderPolyline@render@@QEAA@XZ
+         49   30 00023BE0 ??1RenderRect@render@@QEAA@XZ
+         50   31 00018980 ??1RenderScaleManipulator@render@@QEAA@XZ
+         51   32 000259F0 ??1RenderSphere@render@@QEAA@XZ
+         52   33 00026BB0 ??1RenderSpline@render@@QEAA@XZ
+         53   34 00029E60 ??1RenderTexture@render@@QEAA@XZ
+         54   35 0002BD40 ??1RenderTriangles@render@@QEAA@XZ
+         55   36 0002FDE0 ??1ScreenGrabber@render@@QEAA@XZ
+         56   37 000086F0 ??1TextRender2@render@@QEAA@XZ
+         57   38 00001D90 ??1TextRender@render@@QEAA@XZ
+         58   39 0002DED0 ??1ViewerSceneHelper@render@@QEAA@XZ
+         59   3A 00013E70 ??_FRenderCylinder@render@@QEAAXXZ
+         60   3B 00025A80 ??_FRenderSphere@render@@QEAAXXZ
+         61   3C 0002DF50 ?addAxes@ViewerSceneHelper@render@@QEAAXXZ
+         62   3D 0002E060 ?addBasis@ViewerSceneHelper@render@@QEAAXM@Z
+         63   3E 0002A1B0 ?addDefine@RenderTexture@render@@QEAAXAEBVDefinePair@2@@Z
+         64   3F 0002E070 ?addFloor@ViewerSceneHelper@render@@QEAAXAEBVMatrixf@osg@@@Z
+         65   40 0002E300 ?addFloor@ViewerSceneHelper@render@@QEAAXM@Z
+         66   41 0002E360 ?addGrid@ViewerSceneHelper@render@@QEAAXMMAEBVMatrixf@osg@@@Z
+         67   42 0002E5E0 ?addSunDir@ViewerSceneHelper@render@@QEAAXXZ
+         68   43 00009410 ?bind@GeometryGrid@render@@QEAAXAEAVShader@2@PEAUve_handle_s@2@@Z
+         69   44 00009F10 ?bind@GeometryQuad@render@@QEAAXAEAVShader@2@PEAUve_handle_s@2@@Z
+         70   45 0000A6A0 ?bind@GeometrySolidBox@render@@QEAAXAEAVShader@2@PEAUve_handle_s@2@@Z
+         71   46 0000D790 ?bind@GeometrySolidSphere@render@@QEAAXAEAVShader@2@PEAUve_handle_s@2@@Z
+         72   47 00009490 ?bindStructuredBuffer@GeometryGrid@render@@QEAAXAEAVShader@2@_K@Z
+         73   48 00009FA0 ?bindStructuredBuffer@GeometryQuad@render@@QEAAXAEAVShader@2@_K@Z
+         74   49 0000A710 ?bindStructuredBuffer@GeometrySolidBox@render@@QEAAXAEAVShader@2@_K@Z
+         75   4A 0000D810 ?bindStructuredBuffer@GeometrySolidSphere@render@@QEAAXAEAVShader@2@_K@Z
+         76   4B 000087A0 ?convertToScreenSpace@render@@YA_NAEBVVec3f@osg@@AEBVMatrixd@3@AEAVVec2f@3@@Z
+         77   4C 000094F0 ?discard@GeometryGrid@render@@QEAAXXZ
+         78   4D 0000A010 ?discard@GeometryQuad@render@@QEAAXXZ
+         79   4E 0000A010 ?discard@GeometrySolidBox@render@@QEAAXXZ
+         80   4F 0000D8C0 ?discard@GeometrySolidSphere@render@@QEAAXXZ
+         81   50 0000F2F0 ?discard@RenderArc@render@@QEAAXXZ
+         82   51 00010980 ?discard@RenderBasis@render@@QEAAXXZ
+         83   52 00011790 ?discard@RenderBox@render@@QEAAXXZ
+         84   53 0000F2F0 ?discard@RenderChecker@render@@QEAAXXZ
+         85   54 00013400 ?discard@RenderCone@render@@QEAAXXZ
+         86   55 000140D0 ?discard@RenderCylinder@render@@QEAAXXZ
+         87   56 0000F2F0 ?discard@RenderEllipse@render@@QEAAXXZ
+         88   57 00017520 ?discard@RenderLine@render@@QEAAXXZ
+         89   58 0000F2F0 ?discard@RenderLineColorPack@render@@QEAAXXZ
+         90   59 00018A60 ?discard@RenderMoveManipulator@render@@QEAAXXZ
+         91   5A 0001CEF0 ?discard@RenderMultiPlotter@render@@QEAAXXZ
+         92   5B 0001D8A0 ?discard@RenderMultilineText@render@@QEAAXXZ
+         93   5C 000210D0 ?discard@RenderPlotter@render@@QEAAXXZ
+         94   5D 0000F2F0 ?discard@RenderPoints@render@@QEAAXXZ
+         95   5E 0000F2F0 ?discard@RenderPolyline@render@@QEAAXXZ
+         96   5F 00023C70 ?discard@RenderRect@render@@QEAAXXZ
+         97   60 00018A60 ?discard@RenderScaleManipulator@render@@QEAAXXZ
+         98   61 00025AE0 ?discard@RenderSphere@render@@QEAAXXZ
+         99   62 0000F2F0 ?discard@RenderSpline@render@@QEAAXXZ
+        100   63 0002A330 ?discard@RenderTexture@render@@QEAAXXZ
+        101   64 0002CC40 ?discard@RenderTriangles@render@@QEAAXXZ
+        102   65 00030500 ?discard@ScreenGrabber@render@@QEAAXXZ
+        103   66 00008980 ?discard@TextRender2@render@@QEAAXXZ
+        104   67 00007E80 ?discard@TextRender@render@@QEAAXXZ
+        105   68 00008A10 ?draw@TextRender2@render@@QEAA_NAEBV?$basic_string@D@ed@@AEBVVec2f@osg@@AEBVVec4f@6@W4enTextJustify@2@3M@Z
+        106   69 00008A20 ?draw@TextRender2@render@@QEAA_NAEBV?$basic_string@D@ed@@AEBVVec2i@osg@@AEBVVec4f@6@W4enTextJustify@2@3M@Z
+        107   6A 00008A80 ?draw@TextRender2@render@@QEAA_NAEBV?$basic_string@D@ed@@AEBVVec3f@osg@@AEBVMatrixd@6@AEBVVec4f@6@W4enTextJustify@2@4M@Z
+        108   6B 00008B10 ?draw@TextRender2@render@@QEAA_NPEBDAEBVVec2f@osg@@AEBVVec4f@4@W4enTextJustify@2@3M@Z
+        109   6C 00008CB0 ?draw@TextRender2@render@@QEAA_NPEBDAEBVVec2i@osg@@AEBVVec4f@4@W4enTextJustify@2@3M@Z
+        110   6D 00008D00 ?draw@TextRender2@render@@QEAA_NPEBDAEBVVec3f@osg@@AEBVMatrixd@4@AEBVVec4f@4@W4enTextJustify@2@4M@Z
+        111   6E 00007ED0 ?draw@TextRender@render@@QEAA_NAEBV?$basic_string@D@ed@@AEBVVec4f@osg@@AEBVVec2f@6@W4enTextJustify@2@3@Z
+        112   6F 00007FC0 ?draw@TextRender@render@@QEAA_NAEBV?$basic_string@D@ed@@AEBVVec4f@osg@@AEBVVec3f@6@AEBVMatrixd@6@W4enTextJustify@2@4@Z
+        113   70 0002EE90 ?draw@ViewerSceneHelper@render@@QEAAXAEBVVec3f@osg@@AEBVMatrixf@4@0@Z
+        114   71 0002EEB0 ?draw@ViewerSceneHelper@render@@QEAAXAEBVVec3f@osg@@AEBVMatrixf@4@0PEAUOmniLightInfo@12@H@Z
+        115   72 00013410 ?generateConeSectorMesh@render@@YAXAEAV?$vector@VVec3f@osg@@V?$allocator@VVec3f@osg@@@ed@@@ed@@AEAV?$vector@IV?$allocator@I@ed@@@3@MMMMMMII@Z
+        116   73 0000D960 ?getStructuredBuffer@GeometrySolidSphere@render@@QEAA?AVStructuredBuffer@2@XZ
+        117   74 0001D8D0 ?getTextDims@RenderMultilineText@render@@QEBA?AVVec2f@osg@@AEBV?$basic_string@D@ed@@@Z
+        118   75 00008D90 ?getTextDims@TextRender2@render@@QEBA?AVVec2f@osg@@PEBD@Z
+        119   76 000081A0 ?getTextDims@TextRender@render@@QEAA?AVVec2i@osg@@AEBV?$basic_string@D@ed@@@Z
+        120   77 00030590 ?grab@ScreenGrabber@render@@QEAA_NAEAV?$matrixMN@VVec4ub@osg@@@ed@@@Z
+        121   78 00018DE0 ?hitTest@RenderMoveManipulator@render@@QEAAHAEBVVec3d@osg@@0AEBVMatrixd@4@N@Z
+        122   79 00018DE0 ?hitTest@RenderScaleManipulator@render@@QEAAHAEBVVec3d@osg@@0AEBVMatrixd@4@N@Z
+        123   7A 00009590 ?init@GeometryGrid@render@@QEAAXAEBVVec2i@osg@@AEBVVec2d@4@AEBW4PRIMTYPE_ENUM@2@@Z
+        124   7B 0000A0B0 ?init@GeometryQuad@render@@QEAAXAEBW4PRIMTYPE_ENUM@2@@Z
+        125   7C 0000A770 ?init@GeometrySolidBox@render@@QEAAXXZ
+        126   7D 0000D990 ?init@GeometrySolidSphere@render@@QEAAXHH_N@Z
+        127   7E 0000DAF0 ?init@GeometrySolidSphere@render@@QEAAXW4Type@12@I_N@Z
+        128   7F 0000F350 ?init@RenderArc@render@@IEAAXXZ
+        129   80 00010A30 ?init@RenderBasis@render@@IEAAXXZ
+        130   81 00011870 ?init@RenderBox@render@@IEAAXXZ
+        131   82 00012310 ?init@RenderChecker@render@@IEAAXXZ
+        132   83 000154B0 ?init@RenderEllipse@render@@IEAAXXZ
+        133   84 000175D0 ?init@RenderLine@render@@IEAAXXZ
+        134   85 000184E0 ?init@RenderLineColorPack@render@@IEAAXXZ
+        135   86 00019260 ?init@RenderMoveManipulator@render@@IEAAXXZ
+        136   87 0001D040 ?init@RenderMultiPlotter@render@@QEAA_NHHHMM@Z
+        137   88 0001E790 ?init@RenderOutline@render@@QEAA_NXZ
+        138   89 000211A0 ?init@RenderPlotter@render@@QEAA_NHHMM@Z
+        139   8A 000215B0 ?init@RenderPoints@render@@IEAAXXZ
+        140   8B 00021BD0 ?init@RenderPolyline@render@@IEAAXXZ
+        141   8C 00023D20 ?init@RenderRect@render@@IEAAXXZ
+        142   8D 00025030 ?init@RenderScaleManipulator@render@@IEAAXXZ
+        143   8E 00025B90 ?init@RenderSphere@render@@IEAAXXZ
+        144   8F 00028510 ?init@RenderSpline@render@@IEAAXXZ
+        145   90 0002A3A0 ?init@RenderTexture@render@@IEAAXXZ
+        146   91 0002CCB0 ?init@RenderTriangles@render@@IEAAXXZ
+        147   92 00030BE0 ?init@ScreenGrabber@render@@IEAAXXZ
+        148   93 00004B10 ?instance@IFontStorage@render@@SAAEAV12@XZ
+        149   94 000078C0 ?instance@ITextBuffer@RenderAPI@@SAAEAV12@XZ
+        150   95 00008E00 ?isValid@TextRender2@render@@QEBA_NXZ
+        151   96 0001E860 ?load@RenderOutline@render@@QEAAXAEAV?$vector@UOutline@RenderOutline@render@@V?$allocator@UOutline@RenderOutline@render@@@ed@@@ed@@@Z
+        152   97 000081F0 ?open@TextRender@render@@QEAA_NPEBD0@Z
+        153   98 00008340 ?open@TextRender@render@@QEAA_NPEBD@Z
+        154   99 0001D2E0 ?plot@RenderMultiPlotter@render@@QEAAXHM@Z
+        155   9A 00021210 ?plot@RenderPlotter@render@@QEAAXM@Z
+        156   9B 00009E00 ?primCount@GeometryGrid@render@@QEAAHXZ
+        157   9C 0000A650 ?primCount@GeometryQuad@render@@QEAAHXZ
+        158   9D 0000E430 ?primCount@GeometrySolidSphere@render@@QEAAIXZ
+        159   9E 00009E20 ?primType@GeometryGrid@render@@QEAA?AW4PRIMTYPE_ENUM@2@XZ
+        160   9F 0000A660 ?primType@GeometryQuad@render@@QEAA?AW4PRIMTYPE_ENUM@2@XZ
+        161   A0 0002F620 ?release@ViewerSceneHelper@render@@QEAAXXZ
+        162   A1 0000FD70 ?render@RenderArc@0@QEAA_NIAEBVVec4f@osg@@MIAEBVVec2d@3@1MMM@Z
+        163   A2 000102B0 ?render@RenderArc@0@QEAA_NIAEBVVec4f@osg@@MIAEBVVec3d@3@1MMMAEBVMatrixd@3@2@Z
+        164   A3 00011430 ?render@RenderBasis@0@QEAA_NNAEBVMatrixf@osg@@PEAVVec4f@3@@Z
+        165   A4 00011CB0 ?render@RenderBox@0@QEAA_NAEBV?$BoundingBoxImpl@VVec3d@osg@@@osg@@AEBVMatrixf@3@AEBVVec4f@3@W4RASTER_FILL_MODE@0@_N@Z
+        166   A5 00011F60 ?render@RenderBox@0@QEAA_NAEBV?$BoundingBoxImpl@VVec3f@osg@@@osg@@AEBVMatrixf@3@1AEBVVec4f@3@W4RASTER_FILL_MODE@0@@Z
+        167   A6 000122B0 ?render@RenderBox@0@QEAA_NAEBV?$BoundingBoxImpl@VVec3f@osg@@@osg@@AEBVMatrixf@3@AEBVVec4f@3@W4RASTER_FILL_MODE@0@_N@Z
+        168   A7 000126C0 ?render@RenderChecker@0@QEAA_NAEBVVec2i@osg@@0HAEBVVec4f@3@@Z
+        169   A8 000136C0 ?render@RenderCone@0@QEAA_NAEBVMatrixf@osg@@MMMAEBVVec4f@3@II@Z
+        170   A9 00014390 ?render@RenderCylinder@0@QEAA_NAEBVMatrixf@osg@@MMMMAEBVVec4f@3@@Z
+        171   AA 00015850 ?render@RenderEllipse@0@QEAA_NIAEBVVec4f@osg@@MIAEBVVec2d@3@1M@Z
+        172   AB 00015D80 ?render@RenderEllipse@0@QEAA_NIAEBVVec4f@osg@@MIAEBVVec3d@3@1MAEBVMatrixd@3@2@Z
+        173   AC 00017AC0 ?render@RenderLine@0@QEAA_NPEBVVec2d@osg@@HAEBVVec4f@3@I@Z
+        174   AD 00017C20 ?render@RenderLine@0@QEAA_NPEBVVec2d@osg@@HMAEBVVec4f@3@I@Z
+        175   AE 00017C30 ?render@RenderLine@0@QEAA_NPEBVVec2f@osg@@HAEBVVec4f@3@I@Z
+        176   AF 00017D90 ?render@RenderLine@0@QEAA_NPEBVVec3d@osg@@HAEBVMatrixf@3@AEBVVec4f@3@I_N@Z
+        177   B0 00017C20 ?render@RenderLine@0@QEAA_NPEBVVec3d@osg@@HAEBVMatrixf@3@MAEBVVec4f@3@I@Z
+        178   B1 00017E40 ?render@RenderLine@0@QEAA_NPEBVVec3d@osg@@HPEBIHAEBVMatrixf@3@AEBVVec4f@3@@Z
+        179   B2 00017F30 ?render@RenderLine@0@QEAA_NPEBVVec3f@osg@@HAEBVMatrixf@3@AEBVVec4f@3@I_N@Z
+        180   B3 00017FE0 ?render@RenderLine@0@QEAA_NPEBVVec3f@osg@@HPEBIHAEBVMatrixf@3@AEBVVec4f@3@@Z
+        181   B4 00018630 ?render@RenderLineColorPack@0@QEAA_NPEBVVec4ui@osg@@HAEBVMatrixf@3@@Z
+        182   B5 00019700 ?render@RenderMoveManipulator@0@QEAA_NAEBVMatrixd@osg@@0NQEAVVec4f@3@@Z
+        183   B6 0001D350 ?render@RenderMultiPlotter@0@QEAA_NAEBVVec2i@osg@@0AEBVVec4f@3@AEBV?$vector@VVec4f@osg@@V?$allocator@VVec4f@osg@@@ed@@@ed@@@Z
+        184   B7 0001DA50 ?render@RenderMultilineText@0@QEAA_NAEBV?$basic_string@D@ed@@AEBVVec4f@osg@@1AEBVVec2f@5@W4enTextJustify@0@3M@Z
+        185   B8 0001DF50 ?render@RenderMultilineText@0@QEAA_NAEBV?$basic_string@D@ed@@AEBVVec4f@osg@@1AEBVVec3f@5@AEBVMatrixd@5@W4enTextJustify@0@4M@Z
+        186   B9 0001FF40 ?render@RenderOutline@0@QEAA_NXZ
+        187   BA 00021250 ?render@RenderPlotter@0@QEAA_NAEBVVec2i@osg@@0AEBVVec4f@3@1@Z
+        188   BB 00021820 ?render@RenderPoints@0@QEAA_NPEBVVec3d@osg@@HMAEBVMatrixf@3@AEBVVec4f@3@I@Z
+        189   BC 000218C0 ?render@RenderPoints@0@QEAA_NPEBVVec3f@osg@@HMAEBVMatrixf@3@AEBVVec4f@3@I@Z
+        190   BD 00021F20 ?render@RenderPolyline@0@QEAA_NAEBVMatrixf@osg@@AEBVVec4f@3@I_N@Z
+        191   BE 00022370 ?render@RenderPolyline@0@QEAA_NPEBVVec2d@osg@@HAEBVVec4f@3@I@Z
+        192   BF 00017C20 ?render@RenderPolyline@0@QEAA_NPEBVVec2d@osg@@HMAEBVVec4f@3@I@Z
+        193   C0 00022F20 ?render@RenderPolyline@0@QEAA_NPEBVVec3d@osg@@HAEBVMatrixf@3@AEBVVec4f@3@I_N@Z
+        194   C1 00017C20 ?render@RenderPolyline@0@QEAA_NPEBVVec3d@osg@@HAEBVMatrixf@3@MAEBVVec4f@3@I@Z
+        195   C2 00024890 ?render@RenderRect@0@QEAA_NAEBV?$RectImpl@VVec2i@osg@@@osg@@AEBVVec4f@3@AEBVVec2f@3@M@Z
+        196   C3 000248F0 ?render@RenderRect@0@QEAA_NAEBVVec2f@osg@@0AEBVVec3f@3@@Z
+        197   C4 00024AB0 ?render@RenderRect@0@QEAA_NAEBVVec2f@osg@@0AEBVVec4f@3@0M@Z
+        198   C5 00024FC0 ?render@RenderRect@0@QEAA_NAEBVVec2i@osg@@0AEBVVec4f@3@AEBVVec2f@3@M@Z
+        199   C6 00025490 ?render@RenderScaleManipulator@0@QEAA_NAEBVMatrixd@osg@@0NQEAVVec4f@3@@Z
+        200   C7 00026320 ?render@RenderSphere@0@QEAA_NAEBVMatrixd@osg@@NAEAVTexture@0@@Z
+        201   C8 00026590 ?render@RenderSphere@0@QEAA_NAEBVMatrixf@osg@@MAEBVVec4f@3@W4RASTER_FILL_MODE@0@@Z
+        202   C9 00028920 ?render@RenderSpline@0@QEAA_NPEBVVec3d@osg@@HMAEBVVec4f@3@MI@Z
+        203   CA 000290B0 ?render@RenderSpline@0@QEAA_NPEBVVec4d@osg@@HMAEBVVec4f@3@MIAEBVMatrixd@3@@Z
+        204   CB 0002A850 ?render@RenderTexture@0@QEAA_NAEBVVec2i@osg@@0AEBVTexture@0@HAEBVVec4f@3@M_N@Z
+        205   CC 0002AE70 ?render@RenderTexture@0@QEAA_NAEBVVec3d@osg@@00AEBVMatrixd@3@AEBVVec4f@3@AEBVTexture@0@_N@Z
+        206   CD 0002CDE0 ?render@RenderTriangles@0@QEAA_NPEBVVec2d@osg@@HPEBIHAEBVVec4d@3@H@Z
+        207   CE 0002D1A0 ?render@RenderTriangles@0@QEAA_NPEBVVec3d@osg@@HPEBIHAEBVVec4d@3@AEBVMatrixf@3@H@Z
+        208   CF 0002D3B0 ?render@RenderTriangles@0@QEAA_NPEBVVec3f@osg@@HPEBIHAEBVVec4f@3@AEBVMatrixf@3@H_N@Z
+        209   D0 0002D5B0 ?render@RenderTriangles@0@QEAA_NPEBVVec3f@osg@@PEBVVec2f@3@HPEBIHPEBDAEBVMatrixf@3@HAEBVVec4f@3@_NH@Z
+        210   D1 00008E10 ?render@TextRender2@0@QEAA_NHHAEBVVec2f@osg@@AEBVVec4f@3@W4enTextJustify@0@2M@Z
+        211   D2 00008FE0 ?render@TextRender2@0@QEAA_NHHAEBVVec3f@osg@@AEBVMatrixd@3@AEBVVec4f@3@W4enTextJustify@0@3M@Z
+        212   D3 0002DA80 ?renderInstance@RenderTriangles@render@@QEAA_NHHHAEBVVec4f@osg@@AEBVMatrixf@4@H_NH@Z
+        213   D4 00013860 ?renderSector@RenderCone@render@@QEAA_NAEBVMatrixf@osg@@MMMMAEBVVec4f@4@II@Z
+        214   D5 00013A90 ?renderSector@RenderCone@render@@QEAA_NAEBVMatrixf@osg@@MMMMMMAEBVVec4f@4@II@Z
+        215   D6 00019C00 ?setEnabledAxis@RenderMoveManipulator@render@@QEAAXH@Z
+        216   D7 00019C00 ?setEnabledAxis@RenderScaleManipulator@render@@QEAAXH@Z
+        217   D8 0001E1A0 ?setFont@RenderMultilineText@render@@QEAA_NAEBV?$basic_string@D@ed@@_K@Z
+        218   D9 00009080 ?setFont@TextRender2@render@@QEAA_NAEBV?$basic_string@D@ed@@_K@Z
+        219   DA 00009100 ?setLetterCount@TextRender2@render@@QEAAXH@Z
+        220   DB 0001E1B0 ?setShadowColor@RenderMultilineText@render@@QEAAXAEBVVec4d@osg@@@Z
+        221   DC 000092F0 ?setShadowColor@TextRender2@render@@QEAAXAEBVVec4d@osg@@@Z
+        222   DD 00023740 ?update@RenderPolyline@render@@QEAA_NPEBVVec3d@osg@@H@Z
+        223   DE 0002DC90 ?update@RenderTriangles@render@@QEAA_NPEBVVec3f@osg@@HPEBIH@Z
+        224   DF 00009300 ?update@TextRender2@render@@QEAA_NAEBV?$basic_string@D@ed@@@Z
+        225   E0 00009310 ?update@TextRender2@render@@QEAA_NPEBD@Z
+
+  Summary
+
+       A0000 .SCY
+        1000 .data
+        3000 .pdata
+        E000 .rdata
+        1000 .reloc
+        1000 .rsrc
+       33000 .text

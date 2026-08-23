@@ -1,0 +1,119 @@
+// DCS_OPS_RE: gui_map.dll
+// Generated from dumpbin /exports
+
+[    1]          0x0  public: __cdecl MapDrawObject::MapDrawObject(void)
+[    2]          0x1  public: __cdecl MapDrawObjectIcon::MapDrawObjectIcon(void)
+[    3]          0x2  public: __cdecl MapDrawObjectPolygon::MapDrawObjectPolygon(void)
+[    4]          0x3  public: __cdecl MapDrawObjectPolyline::MapDrawObjectPolyline(void)
+[    5]          0x4  public: __cdecl MapDrawObjectTextBox::MapDrawObjectTextBox(void)
+[    6]          0x5  public: __cdecl gui::MapManager::MapManager(void)
+[    7]          0x6  public: virtual __cdecl MapDrawObject::~MapDrawObject(void)
+[    8]          0x7  public: virtual __cdecl MapDrawObjectIcon::~MapDrawObjectIcon(void)
+[    9]          0x8  public: virtual __cdecl MapDrawObjectPolygon::~MapDrawObjectPolygon(void)
+[   10]          0x9  public: virtual __cdecl MapDrawObjectPolyline::~MapDrawObjectPolyline(void)
+[   11]          0xA  public: virtual __cdecl MapDrawObjectTextBox::~MapDrawObjectTextBox(void)
+[   12]          0xB  public: virtual __cdecl gui::MapManager::~MapManager(void)
+[   13]          0xC  const gui::MapManager::`vftable'
+[   14]          0xD  public: static bool __cdecl Triangulate::Process(class std::span<class osg::Vec2f, -1>, class ed::vector<class osg::Vec2f, class ed::allocator<class osg::Vec2f>> &)
+[   15]          0xE  public: void __cdecl gui::MapManager::addDrawObject(struct lua_State *)
+[   16]          0xF  public: class Entity * __cdecl gui::MapManager::addModel(char const *, class osg::Vec3d const &, class osg::Vec3d const &)
+[   17]         0x10  public: void __cdecl gui::MapManager::addObject2(struct lua_State *)
+[   18]         0x11  public: void __cdecl gui::MapManager::addObjects(struct lua_State *)
+[   19]         0x12  public: void __cdecl gui::MapManager::clearDrawObjects(void)
+[   20]         0x13  public: void __cdecl gui::MapManager::clearObjects2(struct lua_State *)
+[   21]         0x14  public: int __cdecl gui::MapManager::createDrawObject(struct lua_State *)
+[   22]         0x15  protected: void __cdecl gui::MapManager::createLayers_(void)
+[   23]         0x16  public: int __cdecl gui::MapManager::createObject2(struct lua_State *)
+[   24]         0x17  public: void __cdecl gui::MapManager::delModel(class Entity *)
+[   25]         0x18  public: void __cdecl gui::MapManager::deleteDrawObject(struct lua_State *)
+[   26]         0x19  public: void __cdecl gui::MapManager::deleteObject2(struct lua_State *)
+[   27]         0x1A  public: virtual void __cdecl MapDrawObjectPolygon::draw(void) const
+[   28]         0x1B  public: virtual void __cdecl MapDrawObjectPolyline::draw(void) const
+[   29]         0x1C  public: virtual void __cdecl MapDrawObjectTextBox::draw(void) const
+[   30]         0x1D  public: void __cdecl gui::MapManager::findDrawObjects(class osg::Vec2d const &, double, class ed::vector<int, class ed::allocator<int>> &) const
+[   31]         0x1E  public: static class ed::basic_string<char> __cdecl Classifier::findIcon(class std::basic_string_view<char, struct std::char_traits<char>>)
+[   32]         0x1F  public: void __cdecl gui::MapManager::findObjects(class osg::Vec2d const &, double, class ed::vector<int, class ed::allocator<int>> &) const
+[   33]         0x20  public: class osg::Vec2d const & __cdecl gui::MapManager::getCameraPosition(void) const
+[   34]         0x21  public: int __cdecl MapDrawObject::getId(void) const
+[   35]         0x22  public: class ed::basic_string<char> const & __cdecl MapDrawObject::getLayerName(void) const
+[   36]         0x23  public: enum gui::MapManager::MAPMOD __cdecl gui::MapManager::getMapType(void) const
+[   37]         0x24  public: bool __cdecl gui::MapManager::getPointInMap(class osg::Vec2d const &) const
+[   38]         0x25  public: int __cdecl gui::MapManager::getResolution(void)
+[   39]         0x26  public: double __cdecl gui::MapManager::getScale(void) const
+[   40]         0x27  public: class EditorSceneRenderer * __cdecl gui::MapManager::getSceneRenderer(void)
+[   41]         0x28  public: class osg::Vec2d __cdecl gui::MapManager::getSizeInViewport(class osg::Vec2d const &) const
+[   42]         0x29  public: class osg::Vec2d __cdecl gui::MapManager::getViewportPoint(class osg::Vec2d const &) const
+[   43]         0x2A  public: virtual bool __cdecl MapDrawObjectPolygon::hitTest(class osg::Vec2d const &, double) const
+[   44]         0x2B  public: virtual bool __cdecl MapDrawObjectPolyline::hitTest(class osg::Vec2d const &, double) const
+[   45]         0x2C  public: virtual bool __cdecl MapDrawObjectTextBox::hitTest(class osg::Vec2d const &, double) const
+[   46]         0x2D  public: void __cdecl gui::MapManager::initScene(void)
+[   47]         0x2E  public: bool __cdecl gui::MapManager::isLayerVisible(class std::basic_string_view<char, struct std::char_traits<char>>) const
+[   48]         0x2F  public: virtual bool __cdecl MapDrawObject::load(struct lua_State *)
+[   49]         0x30  public: virtual bool __cdecl MapDrawObjectIcon::load(struct lua_State *)
+[   50]         0x31  public: virtual bool __cdecl MapDrawObjectPolygon::load(struct lua_State *)
+[   51]         0x32  public: virtual bool __cdecl MapDrawObjectPolyline::load(struct lua_State *)
+[   52]         0x33  public: virtual bool __cdecl MapDrawObjectTextBox::load(struct lua_State *)
+[   53]         0x34  public: void __cdecl gui::MapManager::loadClassifier(struct lua_State *)
+[   54]         0x35  public: virtual void __cdecl MapDrawObjectPolygon::make(class gui::GraphicCommands *) const
+[   55]         0x36  public: virtual void __cdecl MapDrawObjectPolyline::make(class gui::GraphicCommands *) const
+[   56]         0x37  public: virtual void __cdecl MapDrawObjectTextBox::make(class gui::GraphicCommands *) const
+[   57]         0x38  protected: virtual void __cdecl gui::MapManager::makeParse_(class gui::GraphicCommands *)
+[   58]         0x39  protected: virtual void __cdecl gui::MapManager::make_(class gui::GraphicCommands *) const
+[   59]         0x3A  public: virtual void __cdecl MapDrawObject::onIconsThemeChange(void)
+[   60]         0x3B  public: void __cdecl gui::MapManager::onIconsThemeChange(class ed::basic_string<char> const &)
+[   61]         0x3C  protected: virtual void __cdecl gui::MapManager::onSizeChanged_(class osg::Vec2i const &)
+[   62]         0x3D  public: virtual void __cdecl MapDrawObjectPolygon::redraw(void)
+[   63]         0x3E  public: virtual void __cdecl MapDrawObjectPolyline::redraw(void)
+[   64]         0x3F  public: virtual void __cdecl MapDrawObjectTextBox::redraw(void)
+[   65]         0x40  public: virtual void __cdecl MapDrawObject::redrawOnScale(void)
+[   66]         0x41  public: virtual void __cdecl MapDrawObjectPolygon::redrawOnScale(void)
+[   67]         0x42  public: virtual void __cdecl MapDrawObjectPolyline::redrawOnScale(void)
+[   68]         0x43  protected: virtual void __cdecl gui::MapManager::redraw_(void)
+[   69]         0x44  public: void __cdecl gui::MapManager::removeAllDrawObjects(void)
+[   70]         0x45  public: void __cdecl gui::MapManager::removeDrawObject(struct lua_State *)
+[   71]         0x46  public: void __cdecl gui::MapManager::removeObject2(struct lua_State *)
+[   72]         0x47  public: void __cdecl gui::MapManager::removeObjects(struct lua_State *)
+[   73]         0x48  public: void __cdecl gui::MapManager::resetScene(void)
+[   74]         0x49  public: void __cdecl MapDrawObjectIcon::setAngle(double)
+[   75]         0x4A  public: void __cdecl MapDrawObjectPolygon::setAngle(double)
+[   76]         0x4B  public: void __cdecl MapDrawObjectTextBox::setAngle(double)
+[   77]         0x4C  public: void __cdecl gui::MapManager::setBkgColor(class osg::Vec4f const &)
+[   78]         0x4D  public: void __cdecl MapDrawObjectTextBox::setBorderThickness(int)
+[   79]         0x4E  public: void __cdecl gui::MapManager::setCameraPosition(class osg::Vec2d const &, bool)
+[   80]         0x4F  public: virtual void __cdecl MapDrawObject::setColor(class osg::Vec4f const &)
+[   81]         0x50  public: virtual void __cdecl MapDrawObjectPolygon::setColor(class osg::Vec4f const &)
+[   82]         0x51  public: virtual void __cdecl MapDrawObjectPolyline::setColor(class osg::Vec4f const &)
+[   83]         0x52  public: void __cdecl MapDrawObjectPolygon::setFillColor(class osg::Vec4f const &)
+[   84]         0x53  public: void __cdecl MapDrawObjectTextBox::setFillColor(class osg::Vec4f const &)
+[   85]         0x54  public: void __cdecl MapDrawObjectTextBox::setFont(class ed::basic_string<char> const &, int)
+[   86]         0x55  public: virtual void __cdecl MapDrawObject::setGetViewportPointFunc(class std::function<class osg::Vec2d __cdecl(class osg::Vec2d const &)>)
+[   87]         0x56  public: virtual void __cdecl MapDrawObjectPolygon::setGetViewportPointFunc(class std::function<class osg::Vec2d __cdecl(class osg::Vec2d const &)>)
+[   88]         0x57  public: virtual void __cdecl MapDrawObjectPolyline::setGetViewportPointFunc(class std::function<class osg::Vec2d __cdecl(class osg::Vec2d const &)>)
+[   89]         0x58  public: void __cdecl MapObject::setGetViewportPointFunc(class std::function<class osg::Vec2d __cdecl(class osg::Vec2d const &)>)
+[   90]         0x59  public: virtual void __cdecl MapDrawObject::setGetViewportSizeFunc(class std::function<class osg::Vec2d __cdecl(class osg::Vec2d const &)>)
+[   91]         0x5A  public: virtual void __cdecl MapDrawObjectPolygon::setGetViewportSizeFunc(class std::function<class osg::Vec2d __cdecl(class osg::Vec2d const &)>)
+[   92]         0x5B  public: virtual void __cdecl MapDrawObjectPolyline::setGetViewportSizeFunc(class std::function<class osg::Vec2d __cdecl(class osg::Vec2d const &)>)
+[   93]         0x5C  public: void __cdecl MapObject::setGetViewportSizeFunc(class std::function<class osg::Vec2d __cdecl(class osg::Vec2d const &)>)
+[   94]         0x5D  public: void __cdecl MapDrawObject::setId(int)
+[   95]         0x5E  public: void __cdecl MapDrawObjectIcon::setImage(class ed::basic_string<char> const &)
+[   96]         0x5F  public: void __cdecl MapDrawObject::setLayerName(class ed::basic_string<char> const &)
+[   97]         0x60  public: void __cdecl gui::MapManager::setMapBounds(class osg::RectImpl<class osg::Vec2d> const &)
+[   98]         0x61  public: void __cdecl gui::MapManager::setMapType(enum gui::MapManager::MAPMOD)
+[   99]         0x62  public: void __cdecl MapDrawObjectPolygon::setOutline(int, class ed::basic_string<char> const &, class osg::RectImpl<class osg::Vec2i> const &)
+[  100]         0x63  public: void __cdecl MapDrawObjectPolyline::setOutline(int, class ed::basic_string<char> const &, class osg::RectImpl<class osg::Vec2i> const &)
+[  101]         0x64  public: void __cdecl MapDrawObjectPolygon::setPoints(class ed::vector<class osg::Vec2d, class ed::allocator<class osg::Vec2d>> &&)
+[  102]         0x65  public: void __cdecl MapDrawObjectPolygon::setPoints(class ed::span<class osg::Vec2d, -1>)
+[  103]         0x66  public: void __cdecl MapDrawObjectPolyline::setPoints(class ed::vector<class osg::Vec2d, class ed::allocator<class osg::Vec2d>> &&, bool)
+[  104]         0x67  public: void __cdecl MapDrawObjectPolyline::setPoints(class ed::span<class osg::Vec2d, -1>, bool)
+[  105]         0x68  public: virtual void __cdecl MapDrawObject::setPosition(double, double)
+[  106]         0x69  public: virtual void __cdecl MapDrawObjectPolygon::setPosition(double, double)
+[  107]         0x6A  public: virtual void __cdecl MapDrawObjectPolyline::setPosition(double, double)
+[  108]         0x6B  public: void __cdecl MapDrawObjectIcon::setScale(int)
+[  109]         0x6C  public: void __cdecl gui::MapManager::setScale(double, bool)
+[  110]         0x6D  public: void __cdecl MapDrawObjectTextBox::setText(class ed::basic_string<char> const &)
+[  111]         0x6E  public: void __cdecl gui::MapManager::showLayer(class std::basic_string_view<char, struct std::char_traits<char>>, bool)
+[  112]         0x6F  public: void __cdecl gui::MapManager::updateDrawObject(struct lua_State *)
+[  113]         0x70  protected: void __cdecl gui::MapManager::updateLayers_(void)
+[  114]         0x71  public: void __cdecl gui::MapManager::updateObject2(struct lua_State *)
+[  115]         0x72  public: class osg::Vec2d __cdecl gui::MapManager::widgetToMap(class osg::Vec2d const &) const
+[  116]         0x73  luaopen_gui_map

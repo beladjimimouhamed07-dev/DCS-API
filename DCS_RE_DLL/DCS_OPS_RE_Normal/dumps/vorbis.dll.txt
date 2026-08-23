@@ -1,0 +1,75 @@
+Microsoft (R) COFF/PE Dumper Version 14.51.36256.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file G:\DCS_OPS_RE\bin\vorbis.dll
+
+File Type: DLL
+
+  Section contains the following exports for vorbis.dll
+
+    00000000 characteristics
+    FFFFFFFF time date stamp
+        0.00 version
+           1 ordinal base
+          46 number of functions
+          46 number of names
+
+    ordinal hint RVA      name
+
+          1    0 000269B0 _floor_P
+          2    1 000269D8 _mapping_P
+          3    2 000269C0 _residue_P
+          4    3 00001000 vorbis_analysis
+          5    4 00001EC0 vorbis_analysis_blockout
+          6    5 000021D0 vorbis_analysis_buffer
+          7    6 00009A40 vorbis_analysis_headerout
+          8    7 000022F0 vorbis_analysis_init
+          9    8 00002380 vorbis_analysis_wrote
+         10    9 000010D0 vorbis_bitrate_addblock
+         11    A 000015F0 vorbis_bitrate_flushpacket
+         12    B 000025E0 vorbis_block_clear
+         13    C 00002690 vorbis_block_init
+         14    D 00009DE0 vorbis_comment_add
+         15    E 00009EB0 vorbis_comment_add_tag
+         16    F 0000A050 vorbis_comment_clear
+         17   10 0000A0E0 vorbis_comment_init
+         18   11 0000A0F0 vorbis_comment_query
+         19   12 0000A280 vorbis_comment_query_count
+         20   13 0000A410 vorbis_commentheader_out
+         21   14 00002750 vorbis_dsp_clear
+         22   15 0001AB90 vorbis_encode_ctl
+         23   16 0001C350 vorbis_encode_init
+         24   17 0001C4B0 vorbis_encode_init_vbr
+         25   18 0001D170 vorbis_encode_setup_init
+         26   19 0001DD80 vorbis_encode_setup_managed
+         27   1A 0001E030 vorbis_encode_setup_vbr
+         28   1B 0000A4B0 vorbis_granule_time
+         29   1C 0000A4E0 vorbis_info_blocksize
+         30   1D 0000A500 vorbis_info_clear
+         31   1E 0000A6E0 vorbis_info_init
+         32   1F 0001A270 vorbis_packet_blocksize
+         33   20 0001A2F0 vorbis_synthesis
+         34   21 00002A30 vorbis_synthesis_blockin
+         35   22 0001A470 vorbis_synthesis_halfrate
+         36   23 0001A4A0 vorbis_synthesis_halfrate_p
+         37   24 0000A720 vorbis_synthesis_headerin
+         38   25 0000A970 vorbis_synthesis_idheader
+         39   26 00003490 vorbis_synthesis_init
+         40   27 00003520 vorbis_synthesis_lapout
+         41   28 000038E0 vorbis_synthesis_pcmout
+         42   29 00003960 vorbis_synthesis_read
+         43   2A 00003980 vorbis_synthesis_restart
+         44   2B 0001A4B0 vorbis_synthesis_trackonly
+         45   2C 0000AA40 vorbis_version_string
+         46   2D 000039F0 vorbis_window
+
+  Summary
+
+        1000 .data
+        2000 .pdata
+      102000 .rdata
+        3000 .reloc
+        1000 .rsrc
+       1F000 .text
+        1000 _RDATA

@@ -1,0 +1,249 @@
+Microsoft (R) COFF/PE Dumper Version 14.51.36256.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file G:\DCS_OPS_RE\bin\nvtt.dll
+
+File Type: DLL
+
+  Section contains the following exports for nvtt.dll
+
+    00000000 characteristics
+    FFFFFFFF time date stamp
+        0.00 version
+           1 ordinal base
+         220 number of functions
+         220 number of names
+
+    ordinal hint RVA      name
+
+          1    0 000202D0 ??0CompressionOptions@nvtt@@QEAA@XZ
+          2    1 00019330 ??0Compressor@nvtt@@QEAA@XZ
+          3    2 000217E0 ??0CubeSurface@nvtt@@QEAA@AEBU01@@Z
+          4    3 0002C870 ??0CubeSurface@nvtt@@QEAA@XZ
+          5    4 00020B10 ??0InputOptions@nvtt@@QEAA@XZ
+          6    5 00021280 ??0OutputOptions@nvtt@@QEAA@XZ
+          7    6 000217E0 ??0Surface@nvtt@@QEAA@AEBU01@@Z
+          8    7 00021800 ??0Surface@nvtt@@QEAA@XZ
+          9    8 00020320 ??1CompressionOptions@nvtt@@QEAA@XZ
+         10    9 00019640 ??1Compressor@nvtt@@QEAA@XZ
+         11    A 00021930 ??1CubeSurface@nvtt@@QEAA@XZ
+         12    B 00020BF0 ??1InputOptions@nvtt@@QEAA@XZ
+         13    C 00021320 ??1OutputOptions@nvtt@@QEAA@XZ
+         14    D 00021930 ??1Surface@nvtt@@QEAA@XZ
+         15    E 00021960 ??4CubeSurface@nvtt@@QEAAXAEBU01@@Z
+         16    F 00021960 ??4Surface@nvtt@@QEAAXAEBU01@@Z
+         17   10 00021A50 ?abs@Surface@nvtt@@QEAAXH@Z
+         18   11 00021B90 ?addChannel@Surface@nvtt@@QEAA_NAEBU12@HHM@Z
+         19   12 00021DE0 ?alphaMode@Surface@nvtt@@QEBA?AW4AlphaMode@2@XZ
+         20   13 00021DF0 ?alphaTestCoverage@Surface@nvtt@@QEBAMMH@Z
+         21   14 00021E20 ?angularError@nvtt@@YAMAEBUSurface@1@0@Z
+         22   15 0002D300 ?average@CubeSurface@nvtt@@QEBAMH@Z
+         23   16 00021E40 ?average@Surface@nvtt@@QEBAMHHM@Z
+         24   17 00021FA0 ?binarize@Surface@nvtt@@QEAAXHM_N@Z
+         25   18 00022680 ?blend@Surface@nvtt@@QEAAXMMMMM@Z
+         26   19 00022AC0 ?blockScaleCoCg@Surface@nvtt@@QEAAXHM@Z
+         27   1A 00022FC0 ?buildNextMipmap@Surface@nvtt@@QEAA_NW4MipmapFilter@2@H@Z
+         28   1B 00023070 ?buildNextMipmap@Surface@nvtt@@QEAA_NW4MipmapFilter@2@MPEBMH@Z
+         29   1C 000232B0 ?buildNextMipmapSolidColor@Surface@nvtt@@QEAA_NQEBM@Z
+         30   1D 000233D0 ?canMakeNextMipmap@Surface@nvtt@@QEAA_NH@Z
+         31   1E 00023410 ?canvasSize@Surface@nvtt@@QEAAXHHH@Z
+         32   1F 00023690 ?channel@Surface@nvtt@@QEBAPEBMH@Z
+         33   20 000236B0 ?cieLabError@nvtt@@YAMAEBUSurface@1@0@Z
+         34   21 0002D5C0 ?clamp@CubeSurface@nvtt@@QEAAXHMM@Z
+         35   22 000236D0 ?clamp@Surface@nvtt@@QEAAXHMM@Z
+         36   23 0001A100 ?compress@Compressor@nvtt@@QEBA_NAEBUCubeSurface@2@HAEBUCompressionOptions@2@AEBUOutputOptions@2@@Z
+         37   24 0001A200 ?compress@Compressor@nvtt@@QEBA_NAEBUSurface@2@HHAEBUCompressionOptions@2@AEBUOutputOptions@2@@Z
+         38   25 0001A230 ?compress@Compressor@nvtt@@QEBA_NHHHHHPEBMAEBUCompressionOptions@2@AEBUOutputOptions@2@@Z
+         39   26 000237E0 ?convolve@Surface@nvtt@@QEAAXHHPEAM@Z
+         40   27 00023860 ?copy@Surface@nvtt@@QEAA_NAEBU12@HHHHHHHHH@Z
+         41   28 00023BC0 ?copyChannel@Surface@nvtt@@QEAA_NAEBU12@H@Z
+         42   29 00023BD0 ?copyChannel@Surface@nvtt@@QEAA_NAEBU12@HH@Z
+         43   2A 0002D640 ?cosinePowerFilter@CubeSurface@nvtt@@QEBA?AU12@HMW4EdgeFixup@2@@Z
+         44   2B 0002D810 ?countMipmaps@CubeSurface@nvtt@@QEBAHXZ
+         45   2C 00023C90 ?countMipmaps@Surface@nvtt@@QEBAHH@Z
+         46   2D 00023D30 ?countMipmaps@Surface@nvtt@@QEBAHXZ
+         47   2E 00023E40 ?createCleanMap@Surface@nvtt@@QEBA?AU12@XZ
+         48   2F 00023E60 ?createSubImage@Surface@nvtt@@QEBA?AU12@HHHHHH@Z
+         49   30 00023E40 ?createToksvigMap@Surface@nvtt@@QEBA?AU12@M@Z
+         50   31 00020350 ?d3d9Format@CompressionOptions@nvtt@@QEBAIXZ
+         51   32 000244A0 ?data@Surface@nvtt@@QEBAPEBMXZ
+         52   33 000244B0 ?depth@Surface@nvtt@@QEBAHXZ
+         53   34 00024560 ?diff@nvtt@@YA?AUSurface@1@AEBU21@0M@Z
+         54   35 0002C830 ?edgeLength@CubeSurface@nvtt@@QEBAHXZ
+         55   36 0001AAF0 ?enableCudaAcceleration@Compressor@nvtt@@QEAAX_N@Z
+         56   37 00013830 ?errorString@nvtt@@YAPEBDW4Error@1@@Z
+         57   38 0001ABB0 ?estimateSize@Compressor@nvtt@@QEBAHAEBUCubeSurface@2@HAEBUCompressionOptions@2@@Z
+         58   39 0001AC30 ?estimateSize@Compressor@nvtt@@QEBAHAEBUInputOptions@2@AEBUCompressionOptions@2@@Z
+         59   3A 0001AD00 ?estimateSize@Compressor@nvtt@@QEBAHAEBUSurface@2@HAEBUCompressionOptions@2@@Z
+         60   3B 0001AD80 ?estimateSize@Compressor@nvtt@@QEBAHHHHHAEBUCompressionOptions@2@@Z
+         61   3C 00024770 ?expandNormals@Surface@nvtt@@QEAAXMM@Z
+         62   3D 0002D8F0 ?face@CubeSurface@nvtt@@QEAAAEAUSurface@2@H@Z
+         63   3E 0002D8F0 ?face@CubeSurface@nvtt@@QEBAAEBUSurface@2@H@Z
+         64   3F 0002D900 ?fastResample@CubeSurface@nvtt@@QEBA?AU12@HW4EdgeFixup@2@@Z
+         65   40 000247D0 ?fill@Surface@nvtt@@QEAAXMMMM@Z
+         66   41 00024870 ?flipX@Surface@nvtt@@QEAAXXZ
+         67   42 000248A0 ?flipY@Surface@nvtt@@QEAAXXZ
+         68   43 000248D0 ?flipZ@Surface@nvtt@@QEAAXXZ
+         69   44 0002DBD0 ?fold@CubeSurface@nvtt@@QEAAXAEBUSurface@2@W4CubeLayout@2@@Z
+         70   45 00024900 ?fromLUVW@Surface@nvtt@@QEAAXM@Z
+         71   46 00024960 ?fromLogScale@Surface@nvtt@@QEAAXHM@Z
+         72   47 000249F0 ?fromRGBE@Surface@nvtt@@QEAAXHH@Z
+         73   48 00024BB0 ?fromRGBM@Surface@nvtt@@QEAAXMM@Z
+         74   49 00024D80 ?fromYCoCg@Surface@nvtt@@QEAAXXZ
+         75   4A 000252D0 ?height@Surface@nvtt@@QEBAHXZ
+         76   4B 000252F0 ?histogram@Surface@nvtt@@QEBAXHMMHPEAH@Z
+         77   4C 000253D0 ?histogram@nvtt@@YA?AUSurface@1@AEBU21@HH@Z
+         78   4D 000254C0 ?histogram@nvtt@@YA?AUSurface@1@AEBU21@MMHH@Z
+         79   4E 0002DD30 ?irradianceFilter@CubeSurface@nvtt@@QEBA?AU12@HW4EdgeFixup@2@@Z
+         80   4F 0001AEC0 ?isCudaAccelerationEnabled@Compressor@nvtt@@QEBA_NXZ
+         81   50 00025C50 ?isNormalMap@Surface@nvtt@@QEBA_NXZ
+         82   51 0002E010 ?isNull@CubeSurface@nvtt@@QEBA_NXZ
+         83   52 00025C60 ?isNull@Surface@nvtt@@QEBA_NXZ
+         84   53 0002E020 ?load@CubeSurface@nvtt@@QEAA_NPEBDH@Z
+         85   54 00025C70 ?load@Surface@nvtt@@QEAA_NPEBDPEA_N@Z
+         86   55 00025F60 ?normalizeNormalMap@Surface@nvtt@@QEAAXXZ
+         87   56 0001AED0 ?outputHeader@Compressor@nvtt@@QEBA_NAEBUCubeSurface@2@HAEBUCompressionOptions@2@AEBUOutputOptions@2@@Z
+         88   57 0001AF70 ?outputHeader@Compressor@nvtt@@QEBA_NAEBUSurface@2@HAEBUCompressionOptions@2@AEBUOutputOptions@2@@Z
+         89   58 0001B030 ?outputHeader@Compressor@nvtt@@QEBA_NW4TextureType@2@HHHHH_NAEBUCompressionOptions@2@AEBUOutputOptions@2@@Z
+         90   59 00024770 ?packNormals@Surface@nvtt@@QEAAXMM@Z
+         91   5A 00025FA0 ?premultiplyAlpha@Surface@nvtt@@QEAAXXZ
+         92   5B 0001B860 ?process@Compressor@nvtt@@QEBA_NAEBUInputOptions@2@AEBUCompressionOptions@2@AEBUOutputOptions@2@@Z
+         93   5C 00026230 ?quantize@Surface@nvtt@@QEAAXHH_N0@Z
+         94   5D 0002E230 ?range@CubeSurface@nvtt@@QEBAXHPEAM0@Z
+         95   5E 00026680 ?range@Surface@nvtt@@QEBAXHPEAM0HM@Z
+         96   5F 00026910 ?reconstructNormals@Surface@nvtt@@QEAAXW4NormalTransform@2@@Z
+         97   60 00020590 ?reset@CompressionOptions@nvtt@@QEAAXXZ
+         98   61 00020C10 ?reset@InputOptions@nvtt@@QEAAXXZ
+         99   62 00021480 ?reset@OutputOptions@nvtt@@QEAAXXZ
+        100   63 00020CB0 ?resetTextureLayout@InputOptions@nvtt@@QEAAXXZ
+        101   64 00026DB0 ?resize@Surface@nvtt@@QEAAXHHHW4ResizeFilter@2@@Z
+        102   65 00026E40 ?resize@Surface@nvtt@@QEAAXHHHW4ResizeFilter@2@MPEBM@Z
+        103   66 00027140 ?resize@Surface@nvtt@@QEAAXHW4RoundMode@2@W4ResizeFilter@2@@Z
+        104   67 00027240 ?resize@Surface@nvtt@@QEAAXHW4RoundMode@2@W4ResizeFilter@2@MPEBM@Z
+        105   68 000272E0 ?resize_make_square@Surface@nvtt@@QEAAXHW4RoundMode@2@W4ResizeFilter@2@@Z
+        106   69 00027430 ?rmsAlphaError@nvtt@@YAMAEBUSurface@1@0@Z
+        107   6A 00027450 ?rmsError@nvtt@@YAMAEBUSurface@1@0@Z
+        108   6B 00027470 ?rmsToneMappedError@nvtt@@YAMAEBUSurface@1@0M@Z
+        109   6C 000046C0 ?save@CubeSurface@nvtt@@QEBA_NPEBD@Z
+        110   6D 000275B0 ?save@Surface@nvtt@@QEBA_NPEBD_N1@Z
+        111   6E 000276A0 ?scaleAlphaToCoverage@Surface@nvtt@@QEAAXMMH@Z
+        112   6F 00027710 ?scaleBias@Surface@nvtt@@QEAAXHMM@Z
+        113   70 00020D30 ?setAlphaMode@InputOptions@nvtt@@QEAAXW4AlphaMode@2@@Z
+        114   71 00027810 ?setAlphaMode@Surface@nvtt@@QEAAXW4AlphaMode@2@@Z
+        115   72 00027840 ?setAtlasBorder@Surface@nvtt@@QEAAXHHMMMM@Z
+        116   73 00027C00 ?setBorder@Surface@nvtt@@QEAAXMMMM@Z
+        117   74 00020650 ?setColorWeights@CompressionOptions@nvtt@@QEAAXMMMM@Z
+        118   75 000214D0 ?setContainer@OutputOptions@nvtt@@QEAAXW4Container@2@@Z
+        119   76 00020D40 ?setConvertToNormalMap@InputOptions@nvtt@@QEAAX_N@Z
+        120   77 000214E0 ?setErrorHandler@OutputOptions@nvtt@@QEAAXPEAUErrorHandler@2@@Z
+        121   78 00020670 ?setExternalCompressor@CompressionOptions@nvtt@@QEAAXPEBD@Z
+        122   79 000214F0 ?setFileHandle@OutputOptions@nvtt@@QEAAXPEAX@Z
+        123   7A 000215D0 ?setFileName@OutputOptions@nvtt@@QEAAXPEBD@Z
+        124   7B 000206A0 ?setFormat@CompressionOptions@nvtt@@QEAAXW4Format@2@@Z
+        125   7C 00020D50 ?setFormat@InputOptions@nvtt@@QEAAXW4InputFormat@2@@Z
+        126   7D 00020D60 ?setGamma@InputOptions@nvtt@@QEAAXMM@Z
+        127   7E 00020D80 ?setHeightEvaluation@InputOptions@nvtt@@QEAAXMMMM@Z
+        128   7F 00027F10 ?setImage2D@Surface@nvtt@@QEAA_NW4Format@2@W4Decoder@2@HHPEBX@Z
+        129   80 000289A0 ?setImage@Surface@nvtt@@QEAA_NHHH@Z
+        130   81 00028A50 ?setImage@Surface@nvtt@@QEAA_NW4InputFormat@2@HHHPEBX111@Z
+        131   82 00029360 ?setImage@Surface@nvtt@@QEAA_NW4InputFormat@2@HHHPEBX@Z
+        132   83 00020DA0 ?setKaiserParameters@InputOptions@nvtt@@QEAAXMMM@Z
+        133   84 00020DC0 ?setMaxExtents@InputOptions@nvtt@@QEAAXH@Z
+        134   85 00020DD0 ?setMipmapData@InputOptions@nvtt@@QEAA_NPEBXHHHHH@Z
+        135   86 00020F40 ?setMipmapFilter@InputOptions@nvtt@@QEAAXW4MipmapFilter@2@@Z
+        136   87 00020F50 ?setMipmapGeneration@InputOptions@nvtt@@QEAAX_NH@Z
+        137   88 00020F60 ?setNormalFilter@InputOptions@nvtt@@QEAAXMMMM@Z
+        138   89 00020FB0 ?setNormalMap@InputOptions@nvtt@@QEAAX_N@Z
+        139   8A 00029820 ?setNormalMap@Surface@nvtt@@QEAAX_N@Z
+        140   8B 00020FC0 ?setNormalizeMipmaps@InputOptions@nvtt@@QEAAX_N@Z
+        141   8C 00021710 ?setOutputHandler@OutputOptions@nvtt@@QEAAXPEAUOutputHandler@2@@Z
+        142   8D 00021770 ?setOutputHeader@OutputOptions@nvtt@@QEAAX_N@Z
+        143   8E 000206B0 ?setPitchAlignment@CompressionOptions@nvtt@@QEAAXH@Z
+        144   8F 000206C0 ?setPixelFormat@CompressionOptions@nvtt@@QEAAXEEEE@Z
+        145   90 00020790 ?setPixelFormat@CompressionOptions@nvtt@@QEAAXIIIII@Z
+        146   91 00020A40 ?setPixelType@CompressionOptions@nvtt@@QEAAXW4PixelType@2@@Z
+        147   92 00020A50 ?setQuality@CompressionOptions@nvtt@@QEAAXW4Quality@2@@Z
+        148   93 00020A60 ?setQuantization@CompressionOptions@nvtt@@QEAAX_N00H@Z
+        149   94 00020FD0 ?setRoundMode@InputOptions@nvtt@@QEAAXW4RoundMode@2@@Z
+        150   95 00021780 ?setSrgbFlag@OutputOptions@nvtt@@QEAAX_N@Z
+        151   96 00020B00 ?setTargetDecoder@CompressionOptions@nvtt@@QEAAXW4Decoder@2@@Z
+        152   97 0001B990 ?setTaskDispatcher@Compressor@nvtt@@QEAAXPEAUTaskDispatcher@2@@Z
+        153   98 00020FE0 ?setTextureLayout@InputOptions@nvtt@@QEAAXW4TextureType@2@HHHH@Z
+        154   99 00020A40 ?setUserVersion@OutputOptions@nvtt@@QEAAXH@Z
+        155   9A 000206A0 ?setWrapMode@InputOptions@nvtt@@QEAAXW4WrapMode@2@@Z
+        156   9B 00029850 ?setWrapMode@Surface@nvtt@@QEAAXW4WrapMode@2@@Z
+        157   9C 00029880 ?swizzle@Surface@nvtt@@QEAAXHHHH@Z
+        158   9D 00029910 ?toCleanNormalMap@Surface@nvtt@@QEAAXXZ
+        159   9E 0002E640 ?toGamma@CubeSurface@nvtt@@QEAAXM@Z
+        160   9F 00029AB0 ?toGamma@Surface@nvtt@@QEAAXHM@Z
+        161   A0 00029B50 ?toGamma@Surface@nvtt@@QEAAXM@Z
+        162   A1 00029BE0 ?toGreyScale@Surface@nvtt@@QEAAXMMMM@Z
+        163   A2 00029F70 ?toLM@Surface@nvtt@@QEAAXMM@Z
+        164   A3 0002A3F0 ?toLUVW@Surface@nvtt@@QEAAXM@Z
+        165   A4 0002E6B0 ?toLinear@CubeSurface@nvtt@@QEAAXM@Z
+        166   A5 0002AA70 ?toLinear@Surface@nvtt@@QEAAXHM@Z
+        167   A6 0002AB10 ?toLinear@Surface@nvtt@@QEAAXM@Z
+        168   A7 0002ABA0 ?toLinearFromSrgb@Surface@nvtt@@QEAAXXZ
+        169   A8 0002AD00 ?toLogScale@Surface@nvtt@@QEAAXHM@Z
+        170   A9 0002ADA0 ?toNormalMap@Surface@nvtt@@QEAAXMMMM@Z
+        171   AA 0002AE50 ?toRGBE@Surface@nvtt@@QEAAXHH@Z
+        172   AB 0002B160 ?toRGBM@Surface@nvtt@@QEAAXMM@Z
+        173   AC 0002B4A0 ?toSrgb@Surface@nvtt@@QEAAXXZ
+        174   AD 0002B640 ?toXenonSrgb@Surface@nvtt@@QEAAXXZ
+        175   AE 0002B930 ?toYCoCg@Surface@nvtt@@QEAAXXZ
+        176   AF 0002BB20 ?toneMap@Surface@nvtt@@QEAAXW4ToneMapper@2@PEAM@Z
+        177   B0 0002C230 ?transform@Surface@nvtt@@QEAAXQEBM0000@Z
+        178   B1 0002C390 ?transformNormals@Surface@nvtt@@QEAAXW4NormalTransform@2@@Z
+        179   B2 0002C830 ?type@Surface@nvtt@@QEBA?AW4TextureType@2@XZ
+        180   B3 0002E720 ?unfold@CubeSurface@nvtt@@QEBA?AUSurface@2@W4CubeLayout@2@@Z
+        181   B4 000138B0 ?version@nvtt@@YAIXZ
+        182   B5 0002C840 ?width@Surface@nvtt@@QEBAHXZ
+        183   B6 0002C860 ?wrapMode@Surface@nvtt@@QEBA?AW4WrapMode@2@XZ
+        184   B7 000139B0 nvttCompress
+        185   B8 000139D0 nvttCreateCompressionOptions
+        186   B9 00013A00 nvttCreateCompressor
+        187   BA 00013A30 nvttCreateInputOptions
+        188   BB 00013A60 nvttCreateOutputOptions
+        189   BC 00013AD0 nvttDestroyCompressionOptions
+        190   BD 00013B00 nvttDestroyCompressor
+        191   BE 00013B30 nvttDestroyInputOptions
+        192   BF 00013B60 nvttDestroyOutputOptions
+        193   C0 00013BA0 nvttErrorString
+        194   C1 00013BB0 nvttEstimateSize
+        195   C2 00013BC0 nvttResetInputOptionsTextureLayout
+        196   C3 00013BD0 nvttSetCompressionOptionsColorWeights
+        197   C4 00013BE0 nvttSetCompressionOptionsFormat
+        198   C5 00013BF0 nvttSetCompressionOptionsPixelFormat
+        199   C6 00013C00 nvttSetCompressionOptionsQuality
+        200   C7 00013C10 nvttSetCompressionOptionsQuantization
+        201   C8 00013C30 nvttSetInputOptionsAlphaMode
+        202   C9 00013C40 nvttSetInputOptionsConvertToNormalMap
+        203   CA 00013C50 nvttSetInputOptionsFormat
+        204   CB 00013C60 nvttSetInputOptionsGamma
+        205   CC 00013C70 nvttSetInputOptionsHeightEvaluation
+        206   CD 00013C80 nvttSetInputOptionsKaiserParameters
+        207   CE 00013C90 nvttSetInputOptionsMaxExtents
+        208   CF 00013CA0 nvttSetInputOptionsMipmapData
+        209   D0 00013CD0 nvttSetInputOptionsMipmapFilter
+        210   D1 00013CE0 nvttSetInputOptionsMipmapGeneration
+        211   D2 00013CF0 nvttSetInputOptionsNormalFilter
+        212   D3 00013D00 nvttSetInputOptionsNormalMap
+        213   D4 00013D10 nvttSetInputOptionsNormalizeMipmaps
+        214   D5 00013D20 nvttSetInputOptionsRoundMode
+        215   D6 00013D30 nvttSetInputOptionsTextureLayout
+        216   D7 00013BE0 nvttSetInputOptionsWrapMode
+        217   D8 00013D50 nvttSetOutputOptionsFileName
+        218   D9 00013D60 nvttSetOutputOptionsOutputHandler
+        219   DA 00013D90 nvttSetOutputOptionsOutputHeader
+        220   DB 00013DA0 nvttVersion
+
+  Summary
+
+        C000 .data
+        4000 .pdata
+       11000 .rdata
+        1000 .reloc
+        1000 .rsrc
+       58000 .text
+        1000 _RDATA

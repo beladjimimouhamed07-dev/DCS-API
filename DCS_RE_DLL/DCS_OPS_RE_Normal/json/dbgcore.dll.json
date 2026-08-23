@@ -1,0 +1,46 @@
+{
+    "dll": "dbgcore.dll",
+    "export_count": 2,
+    "exports": [
+        {
+            "ordinal": 1,
+            "rva": 0,
+            "rva_hex": "0x0",
+            "name": "MiniDumpReadDumpStream",
+            "demangled": null,
+            "symbol_type": "unknown",
+            "namespace": null,
+            "class_name": null,
+            "function_name": null,
+            "parameters": null,
+            "const": false,
+            "static": false,
+            "virtual": false,
+            "is_vftable": false,
+            "is_vbtable": false,
+            "is_rtti": false,
+            "demangle_ok": false,
+            "raw_line": "          1    0 00006D70 MiniDumpReadDumpStream"
+        },
+        {
+            "ordinal": 2,
+            "rva": 1,
+            "rva_hex": "0x1",
+            "name": "MiniDumpWriteDump",
+            "demangled": null,
+            "symbol_type": "unknown",
+            "namespace": null,
+            "class_name": null,
+            "function_name": null,
+            "parameters": null,
+            "const": false,
+            "static": false,
+            "virtual": false,
+            "is_vftable": false,
+            "is_vbtable": false,
+            "is_rtti": false,
+            "demangle_ok": false,
+            "raw_line": "          2    1 00006A80 MiniDumpWriteDump"
+        }
+    ]
+}

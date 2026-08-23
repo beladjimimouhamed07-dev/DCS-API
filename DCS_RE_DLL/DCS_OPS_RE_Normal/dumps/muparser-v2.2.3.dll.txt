@@ -1,0 +1,97 @@
+Microsoft (R) COFF/PE Dumper Version 14.51.36256.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file G:\DCS_OPS_RE\bin\muparser-v2.2.3.dll
+
+File Type: DLL
+
+  Section contains the following exports for muparser-v2.2.3.dll
+
+    00000000 characteristics
+    FFFFFFFF time date stamp
+        0.00 version
+           1 ordinal base
+          70 number of functions
+          70 number of names
+
+    ordinal hint RVA      name
+
+          1    0 00023360 mupAddValIdent
+          2    1 00020070 mupClearConst
+          3    2 00020190 mupClearFun
+          4    3 000200C0 mupClearOprt
+          5    4 0001FFA0 mupClearVar
+          6    5 0001FA90 mupCreate
+          7    6 00023480 mupCreateVar
+          8    7 00020F70 mupDefineBulkFun0
+          9    8 00021090 mupDefineBulkFun1
+         10    9 00021AB0 mupDefineBulkFun10
+         11    A 000211B0 mupDefineBulkFun2
+         12    B 000212D0 mupDefineBulkFun3
+         13    C 000213F0 mupDefineBulkFun4
+         14    D 00021510 mupDefineBulkFun5
+         15    E 00021630 mupDefineBulkFun6
+         16    F 00021750 mupDefineBulkFun7
+         17   10 00021870 mupDefineBulkFun8
+         18   11 00021990 mupDefineBulkFun9
+         19   12 00022250 mupDefineBulkVar
+         20   13 00022330 mupDefineConst
+         21   14 00020260 mupDefineFun0
+         22   15 00020390 mupDefineFun1
+         23   16 00020E40 mupDefineFun10
+         24   17 000204C0 mupDefineFun2
+         25   18 000205F0 mupDefineFun3
+         26   19 00020720 mupDefineFun4
+         27   1A 00020850 mupDefineFun5
+         28   1B 00020980 mupDefineFun6
+         29   1C 00020AB0 mupDefineFun7
+         30   1D 00020BE0 mupDefineFun8
+         31   1E 00020D10 mupDefineFun9
+         32   1F 000226F0 mupDefineInfixOprt
+         33   20 00022890 mupDefineInfixOprtChars
+         34   21 00021F30 mupDefineMultFun
+         35   22 00022830 mupDefineNameChars
+         36   23 00022060 mupDefineOprt
+         37   24 00022860 mupDefineOprtChars
+         38   25 000225C0 mupDefinePostfixOprt
+         39   26 00022410 mupDefineStrConst
+         40   27 00021BD0 mupDefineStrFun1
+         41   28 00021CF0 mupDefineStrFun2
+         42   29 00021E10 mupDefineStrFun3
+         43   2A 00022170 mupDefineVar
+         44   2B 000233B0 mupError
+         45   2C 000233C0 mupErrorReset
+         46   2D 0001FCA0 mupEval
+         47   2E 0001FD70 mupEvalBulk
+         48   2F 0001FCF0 mupEvalMulti
+         49   30 000231D0 mupGetConst
+         50   31 00022D00 mupGetConstNum
+         51   32 00023460 mupGetErrorCode
+         52   33 000233E0 mupGetErrorMsg
+         53   34 00023470 mupGetErrorPos
+         54   35 00023420 mupGetErrorToken
+         55   36 00022570 mupGetExpr
+         56   37 00022B70 mupGetExprVar
+         57   38 00022AE0 mupGetExprVarNum
+         58   39 00022950 mupGetVar
+         59   3A 000228C0 mupGetVarNum
+         60   3B 0001FBE0 mupGetVersion
+         61   3C 0001FB50 mupRelease
+         62   3D 000234A0 mupReleaseVar
+         63   3E 0001FED0 mupRemoveVar
+         64   3F 00022DB0 mupResetLocale
+         65   40 00022D90 mupSetArgSep
+         66   41 00022F10 mupSetDecSep
+         67   42 000233D0 mupSetErrorHandler
+         68   43 0001FE00 mupSetExpr
+         69   44 00023070 mupSetThousandsSep
+         70   45 0001FA70 mupSetVarFactory
+
+  Summary
+
+        3000 .data
+        4000 .pdata
+       1A000 .rdata
+        1000 .reloc
+       4D000 .text

@@ -1,0 +1,65 @@
+{
+    "dll": "AVIMaker.dll",
+    "class_count": 2,
+    "classes": {
+        "AVIMaker": {
+            "class_name": "AVIMaker",
+            "namespace": null,
+            "methods": [
+                {
+                    "ordinal": 1,
+                    "rva": 0,
+                    "rva_hex": "0x0",
+                    "name": "??0AVIMaker@@QEAA@AEBV0@@Z",
+                    "demangled": "public: __cdecl AVIMaker::AVIMaker(class AVIMaker const &)",
+                    "function_name": "AVIMaker",
+                    "parameters": "class AVIMaker const &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 2,
+                    "rva": 1,
+                    "rva_hex": "0x1",
+                    "name": "??0AVIMaker@@QEAA@PEBD@Z",
+                    "demangled": "public: __cdecl AVIMaker::AVIMaker(char const *)",
+                    "function_name": "AVIMaker",
+                    "parameters": "char const *",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 3,
+                    "rva": 2,
+                    "rva_hex": "0x2",
+                    "name": "??1AVIMaker@@UEAA@XZ",
+                    "demangled": "public: virtual __cdecl AVIMaker::~AVIMaker(void)",
+                    "function_name": "~AVIMaker",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": true
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "": {
+            "class_name": "",
+            "namespace": null,
+            "methods": [],
+            "vftables": [
+                {
+                    "ordinal": 5,
+                    "rva": 4,
+                    "rva_hex": "0x4",
+                    "name": "??_7AVIMaker@@6B@",
+                    "demangled": "const AVIMaker::`vftable'"
+                }
+            ],
+            "other_symbols": []
+        }
+    }
+}

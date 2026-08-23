@@ -1,0 +1,130 @@
+{
+    "dll": "edterrainCore.dll",
+    "class_count": 2,
+    "classes": {
+        "projection_t": {
+            "class_name": "projection_t",
+            "namespace": "utm_private",
+            "methods": [
+                {
+                    "ordinal": 1,
+                    "rva": 0,
+                    "rva_hex": "0x0",
+                    "name": "??0projection_t@utm_private@@QEAA@XZ",
+                    "demangled": "public: __cdecl utm_private::projection_t::projection_t(void)",
+                    "function_name": "projection_t",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "utm_private": {
+            "class_name": "utm_private",
+            "namespace": null,
+            "methods": [
+                {
+                    "ordinal": 2,
+                    "rva": 1,
+                    "rva_hex": "0x1",
+                    "name": "?ParseConfig@utm_private@@YA_NPEAUlua_State@@AEAUprojection_t@1@@Z",
+                    "demangled": "bool __cdecl utm_private::ParseConfig(struct lua_State *, struct utm_private::projection_t &)",
+                    "function_name": "ParseConfig",
+                    "parameters": "struct lua_State *, struct utm_private::projection_t &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 3,
+                    "rva": 2,
+                    "rva_hex": "0x2",
+                    "name": "?ParseConfig@utm_private@@YA_NPEBDAEAUprojection_t@1@@Z",
+                    "demangled": "bool __cdecl utm_private::ParseConfig(char const *, struct utm_private::projection_t &)",
+                    "function_name": "ParseConfig",
+                    "parameters": "char const *, struct utm_private::projection_t &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 4,
+                    "rva": 3,
+                    "rva_hex": "0x3",
+                    "name": "?fromLatLon@utm_private@@YAXAEBUprojection_t@1@NNAEAN1@Z",
+                    "demangled": "void __cdecl utm_private::fromLatLon(struct utm_private::projection_t const &, double, double, double &, double &)",
+                    "function_name": "fromLatLon",
+                    "parameters": "struct utm_private::projection_t const &, double, double, double &, double &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 5,
+                    "rva": 4,
+                    "rva_hex": "0x4",
+                    "name": "?fromLockonToMGRS@utm_private@@YA?AV?$basic_string@D@ed@@AEBUprojection_t@1@NNH@Z",
+                    "demangled": "class ed::basic_string<char> __cdecl utm_private::fromLockonToMGRS(struct utm_private::projection_t const &, double, double, int)",
+                    "function_name": "fromLockonToMGRS",
+                    "parameters": "struct utm_private::projection_t const &, double, double, int",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 6,
+                    "rva": 5,
+                    "rva_hex": "0x5",
+                    "name": "?fromLockontoUTM@utm_private@@YAXAEBUprojection_t@1@NNAEAN1@Z",
+                    "demangled": "void __cdecl utm_private::fromLockontoUTM(struct utm_private::projection_t const &, double, double, double &, double &)",
+                    "function_name": "fromLockontoUTM",
+                    "parameters": "struct utm_private::projection_t const &, double, double, double &, double &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 7,
+                    "rva": 6,
+                    "rva_hex": "0x6",
+                    "name": "?fromMGRStoLockon@utm_private@@YA_NAEBUprojection_t@1@AEBV?$basic_string@D@ed@@AEAN2@Z",
+                    "demangled": "bool __cdecl utm_private::fromMGRStoLockon(struct utm_private::projection_t const &, class ed::basic_string<char> const &, double &, double &)",
+                    "function_name": "fromMGRStoLockon",
+                    "parameters": "struct utm_private::projection_t const &, class ed::basic_string<char> const &, double &, double &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 8,
+                    "rva": 7,
+                    "rva_hex": "0x7",
+                    "name": "?fromUTMtoLockon@utm_private@@YAXAEBUprojection_t@1@NNAEAN1@Z",
+                    "demangled": "void __cdecl utm_private::fromUTMtoLockon(struct utm_private::projection_t const &, double, double, double &, double &)",
+                    "function_name": "fromUTMtoLockon",
+                    "parameters": "struct utm_private::projection_t const &, double, double, double &, double &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 9,
+                    "rva": 8,
+                    "rva_hex": "0x8",
+                    "name": "?toLatLon@utm_private@@YAXAEBUprojection_t@1@NNAEAN1@Z",
+                    "demangled": "void __cdecl utm_private::toLatLon(struct utm_private::projection_t const &, double, double, double &, double &)",
+                    "function_name": "toLatLon",
+                    "parameters": "struct utm_private::projection_t const &, double, double, double &, double &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        }
+    }
+}

@@ -1,0 +1,52 @@
+// DCS_OPS_RE: renderer.dll
+// Generated from dumpbin /exports
+
+[    1]          0x0  public: __cdecl render::ReloadShadersCallback::ReloadShadersCallback(void)
+[    2]          0x1  public: __cdecl render::ReloadShadersCallback::~ReloadShadersCallback(void)
+[    3]          0x2  public: unsigned __int64 __cdecl ShadersFilesStorage::add(char const *, bool)
+[    4]          0x3  void __cdecl render::addGlobalDefine(class render::DefinePair)
+[    5]          0x4  void __cdecl render::addReloadTexturesCallback(void (__cdecl *)(void))
+[    6]          0x5  void __cdecl render::addShaderCache(char const *, int)
+[    7]          0x6  void __cdecl render::add_on_shutdown_callback(class std::function<void __cdecl(void)> const &)
+[    8]          0x7  public: void __cdecl render::ReloadShadersCallback::call(void) const
+[    9]          0x8  public: enum SHADERS_FILE_STORAGE_CHECK_AND_ADD __cdecl ShadersFilesStorage::checkAndAdd(char const *, class ed::md5 const &, unsigned __int64 &)
+[   10]          0x9  struct RenderAPI::IShader * __cdecl RenderAPI::compileAndLoadShader(char const *, char const *, class render::DefinePair const *, unsigned __int64, class ed::vector<struct RenderAPI::PrecompiledParamDecl, class ed::allocator<struct RenderAPI::PrecompiledParamDecl>> const &, class ed::basic_string<char> *, class ed::vector<unsigned char, class ed::allocator<unsigned char>> *)
+[   11]          0xA  struct RenderAPI::IShader * __cdecl RenderAPI::createEmptyShader(char const *)
+[   12]          0xB  void __cdecl render::disablePeriodicallyResourcesUnloading(void)
+[   13]          0xC  public: void __cdecl render::ReloadShadersCallback::discard(void)
+[   14]          0xD  public: void __cdecl ShadersFilesStorage::dropUpdatedFlags(void)
+[   15]          0xE  void __cdecl render::enablePeriodicallyResourcesUnloading(double)
+[   16]          0xF  void __cdecl render::forceReloadShaders(char const *)
+[   17]         0x10  public: class ed::basic_string<char> __cdecl ShadersFilesStorage::get(unsigned __int64, class ed::md5 &) const
+[   18]         0x11  bool __cdecl render::getFileName(char const *, class ed::basic_string<char> &)
+[   19]         0x12  void __cdecl render::getGlobalDefined(class ed::vector<class render::DefinePair, class ed::allocator<class render::DefinePair>> &)
+[   20]         0x13  class std::shared_ptr<class edvfs::IVFSandbox> __cdecl render::getShadersVFS(void)
+[   21]         0x14  class std::shared_ptr<class edvfs::IVFSandbox> __cdecl render::getTexturesVFS(void)
+[   22]         0x15  void __cdecl render::getUsedShaders(class ed::vector<struct RenderAPI::UsedShader, class ed::allocator<struct RenderAPI::UsedShader>> &)
+[   23]         0x16  public: static class ShadersFilesStorage & __cdecl ShadersFilesStorage::instance(enum SHADERS_FILE_STORAGE_ENUM)
+[   24]         0x17  public: bool __cdecl ShadersFilesStorage::isUpdated(unsigned __int64) const
+[   25]         0x18  void __cdecl render::onReloadTextures(void)
+[   26]         0x19  class std::unique_ptr<class edvfs::IFile, struct edvfs::IFileDeleter> __cdecl render::openFirstOccurrence(char const *)
+[   27]         0x1A  struct RenderAPI::IShader * __cdecl RenderAPI::openFromBlobShader(unsigned char const *, unsigned __int64, char const *, class ed::vector<struct RenderAPI::PrecompiledParamDecl, class ed::allocator<struct RenderAPI::PrecompiledParamDecl>> const &)
+[   28]         0x1B  struct RenderAPI::IShader * __cdecl RenderAPI::openShader(char const *, class ed::vector<class render::DefinePair, class ed::allocator<class render::DefinePair>> const *, class ed::vector<struct RenderAPI::PrecompiledParamDecl, class ed::allocator<struct RenderAPI::PrecompiledParamDecl>> const &, bool, bool, char const *)
+[   29]         0x1C  class RenderAPI::IGpuLowAccess *RenderAPI::pGpuLowAccess
+[   30]         0x1D  struct RenderAPI::IRenderAPI *RenderAPI::pRenderApi
+[   31]         0x1E  struct RenderAPI::IShaderManager *RenderAPI::pShMan
+[   32]         0x1F  struct RenderAPI::IStateManager *RenderAPI::pStateMan
+[   33]         0x20  struct RenderAPI::ITextureManager *RenderAPI::pTexMan
+[   34]         0x21  class render::DefinePair __cdecl render::parseDefine(char const *)
+[   35]         0x22  void __cdecl render::registerReloadShadersCallback(class render::ReloadShadersCallback *)
+[   36]         0x23  bool __cdecl render::reloadShaders(void)
+[   37]         0x24  void __cdecl render::removeGlobalDefine(class render::DefinePair)
+[   38]         0x25  void __cdecl render::removeReloadTexturesCallback(void (__cdecl *)(void))
+[   39]         0x26  void __cdecl render::setGlobalDefined(class ed::vector<class render::DefinePair, class ed::allocator<class render::DefinePair>> const &)
+[   40]         0x27  void __cdecl render::setShadersVFS(class std::shared_ptr<class edvfs::IVFSandbox>)
+[   41]         0x28  void __cdecl render::setTexturesVFS(class std::shared_ptr<class edvfs::IVFSandbox>)
+[   42]         0x29  public: void __cdecl render::ReloadShadersCallback::setupCallback(class std::function<void __cdecl(void)> const &)
+[   43]         0x2A  void __cdecl render::shutdown(void)
+[   44]         0x2B  void __cdecl render::test(char const *)
+[   45]         0x2C  void __cdecl render::texturesGC(void)
+[   46]         0x2D  void __cdecl render::unregisterReloadShadersCallback(class render::ReloadShadersCallback *)
+[   47]         0x2E  public: void __cdecl ShadersFilesStorage::update(void)
+[   48]         0x2F  public: bool __cdecl ShadersFilesStorage::updateSingleFile(unsigned __int64)
+[   49]         0x30  void __cdecl render::waiAllTexturesToLoad(void)

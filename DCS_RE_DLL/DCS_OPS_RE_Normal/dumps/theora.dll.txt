@@ -1,0 +1,82 @@
+Microsoft (R) COFF/PE Dumper Version 14.51.36256.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file G:\DCS_OPS_RE\bin\theora.dll
+
+File Type: DLL
+
+  Section contains the following exports for theora.dll
+
+    00000000 characteristics
+    FFFFFFFF time date stamp
+        0.00 version
+           1 ordinal base
+          54 number of functions
+          54 number of names
+
+    ordinal hint RVA      name
+
+          1    0 0001E7B0 th_comment_add
+          2    1 0001E890 th_comment_add_tag
+          3    2 0001EA00 th_comment_clear
+          4    3 0001EA70 th_comment_init
+          5    4 0001EA80 th_comment_query
+          6    5 0001EBB0 th_comment_query_count
+          7    6 0001CD20 th_decode_alloc
+          8    7 0001CDB0 th_decode_ctl
+          9    8 0001CEB0 th_decode_free
+         10    9 00018AC0 th_decode_headerin
+         11    A 0001CF20 th_decode_packetin
+         12    B 0001D8D0 th_decode_ycbcr_out
+         13    C 0000EEA0 th_encode_alloc
+         14    D 0000EF10 th_encode_ctl
+         15    E 0000F5A0 th_encode_flushheader
+         16    F 0000F620 th_encode_free
+         17   10 0000F650 th_encode_packetout
+         18   11 0000F7D0 th_encode_ycbcr_in
+         19   12 000048A0 th_granule_frame
+         20   13 00004900 th_granule_time
+         21   14 0001ECF0 th_info_clear
+         22   15 0001ED10 th_info_init
+         23   16 00002840 th_packet_isheader
+         24   17 00002860 th_packet_iskeyframe
+         25   18 00018B40 th_setup_free
+         26   19 00002890 th_version_number
+         27   1A 000028A0 th_version_string
+         28   1B 00001110 theora_clear
+         29   1C 000011A0 theora_comment_add
+         30   1D 000011B0 theora_comment_add_tag
+         31   1E 000011C0 theora_comment_clear
+         32   1F 000011D0 theora_comment_init
+         33   20 000011E0 theora_comment_query
+         34   21 000011F0 theora_comment_query_count
+         35   22 00001200 theora_control
+         36   23 000180A0 theora_decode_YUVout
+         37   24 00018150 theora_decode_header
+         38   25 000182B0 theora_decode_init
+         39   26 000183C0 theora_decode_packetin
+         40   27 0000C430 theora_encode_YUVin
+         41   28 0000C4F0 theora_encode_comment
+         42   29 0000C5A0 theora_encode_header
+         43   2A 0000C5F0 theora_encode_init
+         44   2B 0000C710 theora_encode_packetout
+         45   2C 0000C720 theora_encode_tables
+         46   2D 00001220 theora_granule_frame
+         47   2E 00001240 theora_granule_shift
+         48   2F 00001250 theora_granule_time
+         49   30 00001270 theora_info_clear
+         50   31 000012C0 theora_info_init
+         51   32 000012E0 theora_packet_isheader
+         52   33 000012F0 theora_packet_iskeyframe
+         53   34 00001300 theora_version_number
+         54   35 00001310 theora_version_string
+
+  Summary
+
+        1000 .data
+        2000 .pdata
+       13000 .rdata
+        1000 .reloc
+        1000 .rsrc
+       1F000 .text

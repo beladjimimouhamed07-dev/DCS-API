@@ -1,0 +1,149 @@
+// DCS_OPS_RE: Effects2.dll
+// Generated from dumpbin /exports
+
+[    1]          0x0  public: __cdecl FumeFX::BuilderRenderer::BuilderRenderer(class FumeFX::Builder &)
+[    2]          0x1  public: __cdecl Effects::OMesh::OMesh(class Effects::OMesh const &)
+[    3]          0x2  public: __cdecl Effects::OMesh::OMesh(void)
+[    4]          0x3  public: __cdecl Effects::OPSManager::OPSManager(void)
+[    5]          0x4  public: __cdecl Effects::OParticleSystem::OParticleSystem(class Effects::OParticleSystem const &)
+[    6]          0x5  public: __cdecl Effects::OParticleSystem::OParticleSystem(void)
+[    7]          0x6  public: __cdecl Effects::OPrecipitation::OPrecipitation(void)
+[    8]          0x7  public: __cdecl FumeFX::Builder::OpenParams::OpenParams(void)
+[    9]          0x8  public: __cdecl Effects::Rain::Rain(class Effects::Rain const &)
+[   10]          0x9  public: __cdecl Effects::Rain::Rain(void)
+[   11]          0xA  public: __cdecl FumeFX::Builder::Spline::Spline(struct FumeFX::Builder::Spline &&)
+[   12]          0xB  public: __cdecl FumeFX::Builder::Spline::Spline(struct FumeFX::Builder::Spline const &)
+[   13]          0xC  public: __cdecl FumeFX::Builder::Spline::Spline(void)
+[   14]          0xD  public: __cdecl FumeFX::Builder::WeightInfo::WeightInfo(void)
+[   15]          0xE  public: __cdecl FumeFX::Builder::~Builder(void)
+[   16]          0xF  public: __cdecl Effects::OMesh::~OMesh(void)
+[   17]         0x10  public: virtual __cdecl Effects::OPSManager::~OPSManager(void)
+[   18]         0x11  public: virtual __cdecl Effects::OParticleSystem::~OParticleSystem(void)
+[   19]         0x12  public: __cdecl Effects::OPrecipitation::~OPrecipitation(void)
+[   20]         0x13  public: __cdecl Effects::PipeSmokeRenderer::~PipeSmokeRenderer(void)
+[   21]         0x14  public: __cdecl Effects::Rain::~Rain(void)
+[   22]         0x15  public: __cdecl FumeFX::Builder::Spline::~Spline(void)
+[   23]         0x16  public: class Effects::OMesh & __cdecl Effects::OMesh::operator=(class Effects::OMesh const &)
+[   24]         0x17  public: class Effects::OParticleSystem & __cdecl Effects::OParticleSystem::operator=(class Effects::OParticleSystem const &)
+[   25]         0x18  public: class Effects::OPrecipitation & __cdecl Effects::OPrecipitation::operator=(class Effects::OPrecipitation const &)
+[   26]         0x19  public: struct FumeFX::Builder::OpenParams & __cdecl FumeFX::Builder::OpenParams::operator=(struct FumeFX::Builder::OpenParams &&)
+[   27]         0x1A  public: struct FumeFX::Builder::OpenParams & __cdecl FumeFX::Builder::OpenParams::operator=(struct FumeFX::Builder::OpenParams const &)
+[   28]         0x1B  public: class Effects::Rain & __cdecl Effects::Rain::operator=(class Effects::Rain const &)
+[   29]         0x1C  public: struct FumeFX::Builder::Spline & __cdecl FumeFX::Builder::Spline::operator=(struct FumeFX::Builder::Spline &&)
+[   30]         0x1D  public: struct FumeFX::Builder::Spline & __cdecl FumeFX::Builder::Spline::operator=(struct FumeFX::Builder::Spline const &)
+[   31]         0x1E  public: struct FumeFX::Builder::WeightInfo & __cdecl FumeFX::Builder::WeightInfo::operator=(struct FumeFX::Builder::WeightInfo &&)
+[   32]         0x1F  public: struct FumeFX::Builder::WeightInfo & __cdecl FumeFX::Builder::WeightInfo::operator=(struct FumeFX::Builder::WeightInfo const &)
+[   33]         0x20  const Effects::OParticleSystem::`vftable'
+[   34]         0x21  class Effects::OPSManager * __cdecl Effects::GetOPSManager(void)
+[   35]         0x22  private: static int const Effects::Rain::MAX_SPOTS_COUNT
+[   36]         0x23  public: virtual bool __cdecl Effects::OPSManager::addCustomPreset(enum Effects::OEffectEnum::OEffectType, char const *, char const *)
+[   37]         0x24  protected: class Effects::OEffectSource * __cdecl Effects::OParticleSystem::addEmitter(class Effects::OEffectSource *, struct Effects::OPSManager::OEmitterInfo const &)
+[   38]         0x25  public: void __cdecl Effects::OPSManager::addEmitterToCompute(class Effects::OEffectSource *)
+[   39]         0x26  public: void __cdecl FumeFX::Builder::Spline::addKnot(class osg::Vec3f const &, class osg::Vec3f const &, float, float, float, class osg::Vec3f const &)
+[   40]         0x27  public: void __cdecl Effects::PipeSmokeRenderer::addToRender(struct Effects::PipeSmokeObject const &, struct render::ViewportContext const &, class ed::vector<struct render::ISceneRenderable *, class ed::allocator<struct render::ISceneRenderable *>> &, struct render::ILightProbeSampler &, bool)
+[   41]         0x28  public: void * __cdecl Effects::OEffectStorage::alloc(unsigned __int64)
+[   42]         0x29  private: bool __cdecl Effects::Rain::applyAdditionalLighting(struct render::SceneRenderContext const *)
+[   43]         0x2A  char const * __cdecl Effects::OEffectEnum::asStr(unsigned int)
+[   44]         0x2B  char const * __cdecl Effects::OEmitterEnum::asStr(unsigned int)
+[   45]         0x2C  public: void __cdecl Effects::OMesh::bindGeometry(class render::Shader &, struct render::ve_handle_s *, struct render::ve_handle_s *, struct render::ve_handle_s *, struct render::ve_handle_s *) const
+[   46]         0x2D  public: void __cdecl Effects::OMesh::bindTextures(class render::Shader &, unsigned int, unsigned __int64, unsigned __int64 const *, unsigned __int64 const *) const
+[   47]         0x2E  protected: void __cdecl Effects::OParticleSystem::cleanupDeadEmitters(void)
+[   48]         0x2F  private: bool __cdecl Effects::Rain::collectCells(class osg::Vec3d const &, class osg::Vec3f const &, class osg::Matrixf const &)
+[   49]         0x30  public: bool __cdecl Effects::Rain::collectInstances(class osg::Vec3d const &, class osg::Vec3f const &, class osg::Matrixf const &)
+[   50]         0x31  public: virtual void __cdecl Effects::OPSManager::compute(class osg::Vec3f const &)
+[   51]         0x32  protected: void __cdecl Effects::OParticleSystem::deleteEmitter(unsigned int)
+[   52]         0x33  public: void __cdecl Effects::OMesh::draw(class render::Shader &, unsigned int, unsigned int, unsigned int) const
+[   53]         0x34  public: void __cdecl Effects::OPrecipitation::draw(float, float, float, float, struct render::SceneRenderContext const *)
+[   54]         0x35  public: void __cdecl Effects::PipeSmokeRenderer::draw(struct Effects::PipeSmokeRenderer::EffectInstance const &)
+[   55]         0x36  private: void __cdecl Effects::Rain::draw(void)
+[   56]         0x37  public: void __cdecl Effects::Rain::draw(float, float, float, class osg::Vec3d const &, class osg::Vec3f const &, class osg::Matrixf const &, class osg::Matrixf const &, bool)
+[   57]         0x38  public: void __cdecl Effects::Rain::draw(struct render::SceneRenderContext const *, float, float, float)
+[   58]         0x39  public: void __cdecl FumeFX::BuilderRenderer::drawBoundingBox(class render::RenderBox &, class osg::Matrixf const &, class osg::Vec4f const &) const
+[   59]         0x3A  public: void __cdecl FumeFX::BuilderRenderer::drawCachedSmoke(class render::RenderPoints &, unsigned int, class osg::Matrixf const &, class osg::Vec4f const &) const
+[   60]         0x3B  public: void __cdecl FumeFX::BuilderRenderer::drawCachedTemp(class render::RenderPoints &, unsigned int, class osg::Matrixf const &, class osg::Vec4f const &) const
+[   61]         0x3C  public: void __cdecl FumeFX::BuilderRenderer::drawCachedVelocities(class render::RenderLine &, unsigned int, class osg::Matrixf const &, class osg::Vec4f const &) const
+[   62]         0x3D  public: void __cdecl Effects::OPSManager::drawSphere(class osg::Vec3f const &, class osg::Matrixf const &, float, class osg::Vec4f const &) const
+[   63]         0x3E  public: void __cdecl FumeFX::BuilderRenderer::drawSplines(class render::RenderLine &, unsigned int, class ed::vector<struct FumeFX::Builder::Spline, class ed::allocator<struct FumeFX::Builder::Spline>> const &, class osg::Matrixf const &, class osg::Vec4f const &, unsigned int, unsigned int) const
+[   64]         0x3F  class Effects::OEnvironment *Effects::effectEnvironment
+[   65]         0x40  public: void __cdecl FumeFX::Builder::generateGPUData(class ed::vector<struct FumeFX::Builder::Spline, class ed::allocator<struct FumeFX::Builder::Spline>> const &, struct FumeFX::GPUDataInitializer const &, struct FumeFX::GPUDataResult &)
+[   66]         0x41  public: void __cdecl FumeFX::Builder::generateSplines(class ed::vector<struct FumeFX::Builder::Spline, class ed::allocator<struct FumeFX::Builder::Spline>> &, struct FumeFX::GPUDataInitializer const &)
+[   67]         0x42  public: void __cdecl FumeFX::Builder::generateSplinesFromBox(class ed::vector<struct FumeFX::Builder::Spline, class ed::allocator<struct FumeFX::Builder::Spline>> &, unsigned int, class osg::Vec3d const &, class osg::Vec3d const &)
+[   68]         0x43  public: float __cdecl FumeFX::Builder::getAbsoluteSmokeMax(void) const
+[   69]         0x44  public: float __cdecl FumeFX::Builder::getAbsoluteSmokeMin(void) const
+[   70]         0x45  public: float __cdecl FumeFX::Builder::getAbsoluteTempMax(void) const
+[   71]         0x46  public: float __cdecl FumeFX::Builder::getAbsoluteTempMin(void) const
+[   72]         0x47  public: unsigned int __cdecl FumeFX::Builder::getAliveSplinesCountInFrame(unsigned int, class ed::vector<struct FumeFX::Builder::Spline, class ed::allocator<struct FumeFX::Builder::Spline>> const &, unsigned int) const
+[   73]         0x48  public: int __cdecl Effects::OParticleSystem::getBoundingSphereRadius(float &) const
+[   74]         0x49  enum Effects::OEffectEnum::OEffectType __cdecl Effects::OEffectEnum::getByName(class ed::basic_string<char> const &)
+[   75]         0x4A  enum Effects::OEmitterEnum::OEmitterType __cdecl Effects::OEmitterEnum::getByName(char const *)
+[   76]         0x4B  public: struct Effects::OPSManager::OEffectInfo const * __cdecl Effects::OParticleSystem::getEffectInfo(void) const
+[   77]         0x4C  public: virtual unsigned int __cdecl Effects::OPSManager::getEffectPresetId(enum Effects::OEffectEnum::OEffectType, char const *, bool) const
+[   78]         0x4D  public: unsigned int __cdecl Effects::PipeSmokeRenderer::getEffectsCount(void) const
+[   79]         0x4E  public: class Effects::OEnvironment * __cdecl Effects::OPSManager::getEffectsEnvironment(void)
+[   80]         0x4F  public: unsigned int __cdecl Effects::OParticleSystem::getEmittersCount(void) const
+[   81]         0x50  public: unsigned int __cdecl FumeFX::Builder::getFramesCount(void) const
+[   82]         0x51  public: float __cdecl FumeFX::Builder::Spline::getLength(void) const
+[   83]         0x52  public: unsigned int __cdecl FumeFX::Builder::getMaxAliveSplinesCountInFrameRange(unsigned int, unsigned int, class ed::vector<struct FumeFX::Builder::Spline, class ed::allocator<struct FumeFX::Builder::Spline>> const &, unsigned int) const
+[   84]         0x53  public: float __cdecl FumeFX::Builder::Spline::getMaxOpacity(unsigned int &) const
+[   85]         0x54  public: float __cdecl FumeFX::Builder::Spline::getMaxSmoke(unsigned int &) const
+[   86]         0x55  public: float __cdecl FumeFX::Builder::Spline::getMaxTemp(unsigned int &) const
+[   87]         0x56  public: struct Effects::OEmitterParamBlock * __cdecl Effects::OParticleSystem::getOEmitterParamBlock(int)
+[   88]         0x57  public: class osg::Vec3d __cdecl Effects::OParticleSystem::getPos(void) const
+[   89]         0x58  public: unsigned int __cdecl Effects::OParticleSystem::getPresetId(void) const
+[   90]         0x59  public: int __cdecl Effects::OMesh::getPrimitivesCount(void) const
+[   91]         0x5A  public: class osg::Matrixd & __cdecl Effects::OParticleSystem::getTransform(void)
+[   92]         0x5B  public: class osg::Matrixd const & __cdecl Effects::OParticleSystem::getTransform(void) const
+[   93]         0x5C  public: float __cdecl FumeFX::Builder::WeightInfo::getWeight(float) const
+[   94]         0x5D  public: bool __cdecl Effects::OMesh::init(char const *, class std::function<void __cdecl(struct Effects::OMesh::Vertex *, int)>)
+[   95]         0x5E  public: bool __cdecl Effects::OMesh::init(char const **const, unsigned int, class std::function<void __cdecl(struct Effects::OMesh::Vertex *, int)>)
+[   96]         0x5F  public: void __cdecl Effects::OPSManager::init(class std::shared_ptr<class edvfs::IVFSandbox>)
+[   97]         0x60  public: bool __cdecl Effects::OParticleSystem::init(struct Effects::OParticleSystemInitializer const &)
+[   98]         0x61  public: bool __cdecl Effects::OParticleSystem::init(enum Effects::OEffectEnum::OEffectType, unsigned int)
+[   99]         0x62  public: void __cdecl Effects::OPrecipitation::init(void)
+[  100]         0x63  public: bool __cdecl Effects::PipeSmokeRenderer::init(void)
+[  101]         0x64  public: void __cdecl Effects::Rain::init(enum Effects::Rain::PrecipitationType)
+[  102]         0x65  public: static class Effects::PipeSmokeRenderer & __cdecl Effects::PipeSmokeRenderer::instance(void)
+[  103]         0x66  public: bool __cdecl FumeFX::Builder::Spline::isExistOnFrame(unsigned int, unsigned int) const
+[  104]         0x67  public: bool __cdecl Effects::OParticleSystem::isInitialized(void) const
+[  105]         0x68  public: bool __cdecl Effects::PipeSmokeRenderer::isInitialized(void) const
+[  106]         0x69  public: bool __cdecl Effects::OParticleSystem::isStatic(void) const
+[  107]         0x6A  public: bool __cdecl FumeFX::Builder::Spline::isValid(void) const
+[  108]         0x6B  bool __cdecl FumeFX::load(wchar_t const *, struct FumeFX::FXInfo &)
+[  109]         0x6C  bool __cdecl FumeFX::loadGPUData(wchar_t const *, struct FumeFX::GPUData &)
+[  110]         0x6D  bool __cdecl FumeFX::loadSettings(wchar_t const *, struct FumeFX::FXSettings0 &)
+[  111]         0x6E  public: void __cdecl Effects::PipeSmokeRenderer::onParseBegin(void)
+[  112]         0x6F  public: void __cdecl Effects::PipeSmokeRenderer::onParseEnd(void)
+[  113]         0x70  public: bool __cdecl FumeFX::Builder::openFX(wchar_t const *, unsigned int, unsigned int, struct FumeFX::Builder::OpenParams const &)
+[  114]         0x71  public: bool __cdecl Effects::OPSManager::preloadEffectsInfo(void)
+[  115]         0x72  public: void __cdecl FumeFX::Builder::release(void)
+[  116]         0x73  public: void __cdecl Effects::OMesh::release(void)
+[  117]         0x74  protected: void __cdecl Effects::OParticleSystem::release(void)
+[  118]         0x75  public: void __cdecl Effects::OPrecipitation::release(void)
+[  119]         0x76  public: void __cdecl Effects::PipeSmokeRenderer::release(void)
+[  120]         0x77  public: void __cdecl Effects::Rain::release(void)
+[  121]         0x78  protected: void __cdecl Effects::OParticleSystem::releaseEmitters(void)
+[  122]         0x79  void __cdecl Effects::releaseParticleSetCB(void)
+[  123]         0x7A  public: bool __cdecl Effects::OPSManager::reloadEffectInfo(enum Effects::OEffectEnum::OEffectType)
+[  124]         0x7B  public: void __cdecl Effects::OParticleSystem::render(struct render::SceneRenderContext *)
+[  125]         0x7C  public: void __cdecl Effects::OPrecipitation::reset(void)
+[  126]         0x7D  public: void __cdecl Effects::Rain::reset(void)
+[  127]         0x7E  public: void __cdecl Effects::OPSManager::resetEffects(void)
+[  128]         0x7F  public: virtual void __cdecl Effects::OPSManager::resetStatistics(void)
+[  129]         0x80  bool __cdecl FumeFX::save(wchar_t const *, struct FumeFX::GPUData const &, struct FumeFX::FXSettings0 const &)
+[  130]         0x81  bool __cdecl FumeFX::saveGPUData(wchar_t const *, struct FumeFX::GPUData const &)
+[  131]         0x82  bool __cdecl FumeFX::saveSettings(struct _iobuf *, struct FumeFX::FXSettings0 const &)
+[  132]         0x83  bool __cdecl FumeFX::saveSettings(wchar_t const *, struct FumeFX::FXSettings0 const &)
+[  133]         0x84  public: void __cdecl Effects::OPSManager::setEffectsAtmosphereSampler(struct GraphicsCore::IAtmosphereSampler *)
+[  134]         0x85  public: virtual void __cdecl Effects::OPSManager::setEnvironment(class Effects::OEnvironment *)
+[  135]         0x86  public: virtual void __cdecl Effects::OParticleSystem::OEmitterObject::setParam(int, class Effects::EffectParam const &)
+[  136]         0x87  public: void __cdecl Effects::OParticleSystem::setPos(class osg::Vec3d const &)
+[  137]         0x88  public: void __cdecl Effects::OParticleSystem::setScale(float)
+[  138]         0x89  public: void __cdecl Effects::OParticleSystem::setStartPos(class osg::Vec3d const &)
+[  139]         0x8A  public: void __cdecl Effects::OParticleSystem::setTransform(class osg::Matrixd)
+[  140]         0x8B  public: bool __cdecl Effects::OParticleSystem::testClippingVolume(struct render::ClippingVolume const &) const
+[  141]         0x8C  public: virtual void __cdecl Effects::OPSManager::update(void)
+[  142]         0x8D  public: virtual void __cdecl Effects::OParticleSystem::update(double)
+[  143]         0x8E  private: void __cdecl Effects::Rain::update(float, float, float, class osg::Vec3d const &, class osg::Vec3f const &, class osg::Matrixf const &, bool)
+[  144]         0x8F  public: void __cdecl Effects::OPSManager::updatePSystems(double)
+[  145]         0x90  protected: virtual class osg::Vec2f __cdecl WindInterpolator::updateValue(void)
+[  146]         0x91  public: void __cdecl Effects::OPSManager::waitEffectsLoading(void)

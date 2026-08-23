@@ -1,0 +1,244 @@
+Microsoft (R) COFF/PE Dumper Version 14.51.36256.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file G:\DCS_OPS_RE_SCY\bin\VarjoLib.dll
+
+File Type: DLL
+
+  Section contains the following exports for VarjoLib.dll
+
+    00000000 characteristics
+    FFFFFFFF time date stamp
+        0.00 version
+           1 ordinal base
+         215 number of functions
+         215 number of names
+
+    ordinal hint RVA      name
+
+          1    0 000036F0 ?varjo_GetCurrentSwapChainConfig@@YA?AUvarjo_SwapChainConfig@@PEAUvarjo_Session@@@Z
+          2    1 00003510 ?varjo_SessionIsValid@@YAHPEAUvarjo_Session@@@Z
+          3    2 00004670 ?varjo_ShmInit@@YAXPEAUvarjo_Session@@@Z
+          4    3 00004690 ?varjo_ShmShutDown@@YAXPEAUvarjo_Session@@@Z
+          5    4 000046B0 ?varjo_ShmSubmitTextures@@YAXPEAUvarjo_Session@@HPEAUvarjo_ShmView@Varjo@@@Z
+          6    5 00006110 ?varjo_WorldGetVisualMarkerComponent@@YAHPEAUvarjo_World@@_JPEAUvarjo_WorldVisualMarkerComponent@Varjo@@@Z
+          7    6 00006180 ?varjo_WorldSetDynamicMarkerExpirationDuration@@YAXPEAUvarjo_World@@_J@Z
+          8    7 00006150 ?varjo_WorldSetStaticMarkerExpirationDuration@@YAXPEAUvarjo_World@@_J@Z
+          9    8 00005D60 varjo_AcquireSwapChainImage
+         10    9 000016B0 varjo_AllocateEvent
+         11    A 00003B90 varjo_ApplyTransform
+         12    B 00003950 varjo_BeginFrame
+         13    C 00005DD0 varjo_BeginFrameWithLayers
+         14    D 00004090 varjo_ClearError
+         15    E 000041E0 varjo_ClosePropertyAccess
+         16    F 00005860 varjo_ConfigureDataStreams
+         17   10 000037D0 varjo_CreateFrameInfo
+         18   11 00003D50 varjo_CreateOcclusionMesh
+         19   12 00003810 varjo_CreateSubmitInfo
+         20   13 00003D90 varjo_CreateVisibilityMesh
+         21   14 00003DD0 varjo_CreateVisibilityOutlineMesh
+         22   15 00005C50 varjo_D3D11CreateSwapChain
+         23   16 00004010 varjo_D3D11GetLuid
+         24   17 00003560 varjo_D3D11Init
+         25   18 000035B0 varjo_D3D11ShutDown
+         26   19 00006200 varjo_D3D11UpdateVariableRateShadingTexture
+         27   1A 00005CC0 varjo_D3D12CreateSwapChain
+         28   1B 000061B0 varjo_D3D12UpdateVariableRateShadingTexture
+         29   1C 00003980 varjo_EndFrame
+         30   1D 00005DF0 varjo_EndFrameWithLayers
+         31   1E 000039C0 varjo_FrameGetDisplayTime
+         32   1F 000039E0 varjo_FrameGetPose
+         33   20 000016C0 varjo_FreeEvent
+         34   21 000037F0 varjo_FreeFrameInfo
+         35   22 00003E10 varjo_FreeOcclusionMesh
+         36   23 00003830 varjo_FreeSubmitInfo
+         37   24 00005DB0 varjo_FreeSwapChain
+         38   25 00001640 varjo_FromD3D11Texture
+         39   26 00001640 varjo_FromD3D12Texture
+         40   27 00001660 varjo_FromGLTexture
+         41   28 00005C90 varjo_GLCreateSwapChain
+         42   29 00003750 varjo_GLInit
+         43   2A 00003790 varjo_GLShutDown
+         44   2B 00006250 varjo_GLUpdateVariableRateShadingTexture
+         45   2C 000044B0 varjo_GazeInit
+         46   2D 000044D0 varjo_GazeInitWithParameters
+         47   2E 000043A0 varjo_GetAlignedView
+         48   2F 00005800 varjo_GetBufferCPUData
+         49   30 000057A0 varjo_GetBufferGPUData
+         50   31 000056C0 varjo_GetBufferId
+         51   32 00005740 varjo_GetBufferMetadata
+         52   33 00004360 varjo_GetButtonEvent
+         53   34 00005610 varjo_GetCameraExtrinsics
+         54   35 00005570 varjo_GetCameraIntrinsics
+         55   36 00004110 varjo_GetConfig
+         56   37 000037B0 varjo_GetCurrentTime
+         57   38 00005490 varjo_GetDataStreamConfigCount
+         58   39 000054B0 varjo_GetDataStreamConfigs
+         59   3A 000035D0 varjo_GetDefaultSwapChainConfig
+         60   3B 00004030 varjo_GetError
+         61   3C 00004070 varjo_GetErrorDesc
+         62   3D 00004050 varjo_GetErrorDescription
+         63   3E 00005E60 varjo_GetEstimatedFrameDisplayTime
+         64   3F 00003C30 varjo_GetEulerAngles
+         65   40 000062F0 varjo_GetFovTangents
+         66   41 00006350 varjo_GetFoveatedFovTangents
+         67   42 00005ED0 varjo_GetFramePredictedDisplayPeriod
+         68   43 00001370 varjo_GetFullVersion
+         69   44 000016D0 varjo_GetGaze
+         70   45 00001720 varjo_GetGazeArray
+         71   46 00001770 varjo_GetGazeData
+         72   47 000017C0 varjo_GetGazeDataArray
+         73   48 00006400 varjo_GetGraphicsAdapterLuid
+         74   49 00005E20 varjo_GetHMDPose
+         75   4A 00001620 varjo_GetPosition
+         76   4B 00003F00 varjo_GetPropertyBool
+         77   4C 00003E50 varjo_GetPropertyCount
+         78   4D 00003F30 varjo_GetPropertyDouble
+         79   4E 00003F60 varjo_GetPropertyInt
+         80   4F 00003E70 varjo_GetPropertyKey
+         81   50 00003EA0 varjo_GetPropertyName
+         82   51 00003F90 varjo_GetPropertyString
+         83   52 00003FE0 varjo_GetPropertyStringSize
+         84   53 00004200 varjo_GetPropertyValueInt
+         85   54 00003AF0 varjo_GetRelativePoseTransform
+         86   55 000063D0 varjo_GetRenderingGaze
+         87   56 00003660 varjo_GetSupportedTextureFormats
+         88   57 00003730 varjo_GetSwapChainCurrentIndex
+         89   58 00005D00 varjo_GetSwapChainImage
+         90   59 00003610 varjo_GetSwapChainLimits
+         91   5A 00005890 varjo_GetTeleportFrameMetadata
+         92   5B 000062A0 varjo_GetTextureSize
+         93   5C 00003A70 varjo_GetTrackingToLocalTransform
+         94   5D 00001360 varjo_GetVersion
+         95   5E 00001350 varjo_GetVersionString
+         96   5F 000038B0 varjo_GetViewCount
+         97   60 00003CF0 varjo_GetViewDescription
+         98   61 00005EA0 varjo_GetWaitSyncWaitTime
+         99   62 00004430 varjo_HandTrackingGetJoints
+        100   63 00004410 varjo_HandTrackingInit
+        101   64 00003ED0 varjo_HasProperty
+        102   65 00001820 varjo_HookFunction
+        103   66 00004650 varjo_InitGazeCalibrationForFoveatedRendering
+        104   67 000041A0 varjo_InitializePropertyAccess
+        105   68 000034F0 varjo_IsAvailable
+        106   69 00004510 varjo_IsGazeAllowed
+        107   6A 000043F0 varjo_IsHandTrackingAllowed
+        108   6B 000036B0 varjo_IsSwapChainConfigSupported
+        109   6C 00003850 varjo_LayoutDefaultViewports
+        110   6D 000046F0 varjo_Lock
+        111   6E 00005710 varjo_LockDataStreamBuffer
+        112   6F 000040B0 varjo_LogInfo
+        113   70 000049B0 varjo_MRAcquireShaderTexture
+        114   71 00004C50 varjo_MRBeginPointCloudSnapshot
+        115   72 000048C0 varjo_MRD3D11ConfigureShader
+        116   73 00004960 varjo_MRD3D12ConfigureShader
+        117   74 00004D10 varjo_MREndPointCloudSnapshot
+        118   75 00004910 varjo_MRGLConfigureShader
+        119   76 00005AC0 varjo_MRGetCameraPropertyConfigType
+        120   77 00005A50 varjo_MRGetCameraPropertyMode
+        121   78 000059D0 varjo_MRGetCameraPropertyModeCount
+        122   79 00005A00 varjo_MRGetCameraPropertyModes
+        123   7A 00005B70 varjo_MRGetCameraPropertyValue
+        124   7B 00005AF0 varjo_MRGetCameraPropertyValueCount
+        125   7C 00005B20 varjo_MRGetCameraPropertyValues
+        126   7D 00005070 varjo_MRGetChromaKeyConfig
+        127   7E 00005010 varjo_MRGetChromaKeyConfigCount
+        128   7F 00005160 varjo_MRGetChromaKeyConfigEstimatorResult
+        129   80 00005370 varjo_MRGetChromaKeyEstimatorConfig
+        130   81 00005290 varjo_MRGetChromaKeyFilterConfig
+        131   82 00004F30 varjo_MRGetMeshChunkContentsBufferData
+        132   83 00004EA0 varjo_MRGetMeshChunkDescriptions
+        133   84 00004DE0 varjo_MRGetMeshReconstructionConfig
+        134   85 00004D40 varjo_MRGetPointCloudDelta
+        135   86 00004CA0 varjo_MRGetPointCloudSnapshotContent
+        136   87 00004C70 varjo_MRGetPointCloudSnapshotStatus
+        137   88 00004BD0 varjo_MRGetReconstructionConfig
+        138   89 00004AB0 varjo_MRGetSupportedShaderTextureFormatCount
+        139   8A 00004AF0 varjo_MRGetSupportedShaderTextureFormats
+        140   8B 00005990 varjo_MRLockCameraConfig
+        141   8C 00004FD0 varjo_MRLockChromaKeyConfig
+        142   8D 00004EF0 varjo_MRLockMeshChunkContentsBuffer
+        143   8E 00004D80 varjo_MRPopPointCloudDelta
+        144   8F 00004CE0 varjo_MRReleasePointCloudSnapshot
+        145   90 00004A20 varjo_MRReleaseShaderTexture
+        146   91 00005C30 varjo_MRResetCameraProperties
+        147   92 00005C00 varjo_MRResetCameraProperty
+        148   93 000047E0 varjo_MRResetVideoDepthTest
+        149   94 00005A80 varjo_MRSetCameraPropertyMode
+        150   95 00005BC0 varjo_MRSetCameraPropertyValue
+        151   96 00004FA0 varjo_MRSetChromaKey
+        152   97 00005030 varjo_MRSetChromaKeyConfig
+        153   98 00005340 varjo_MRSetChromaKeyEstimatorConfig
+        154   99 00005260 varjo_MRSetChromaKeyFilterConfig
+        155   9A 00005230 varjo_MRSetChromaKeyGlobal
+        156   9B 00005430 varjo_MRSetChromaKeyOverlayFlags
+        157   9C 00005460 varjo_MRSetChromaKeyOverlayIndex
+        158   9D 00004DB0 varjo_MRSetMeshReconstruction
+        159   9E 00004BA0 varjo_MRSetReconstruction
+        160   9F 00004880 varjo_MRSetShader
+        161   A0 000047B0 varjo_MRSetVRViewOffset
+        162   A1 00004780 varjo_MRSetVideoDepthEstimation
+        163   A2 00004800 varjo_MRSetVideoDepthTestMode
+        164   A3 00004840 varjo_MRSetVideoDepthTestRange
+        165   A4 00004750 varjo_MRSetVideoRender
+        166   A5 00005130 varjo_MRStartChromaKeyConfigEstimator
+        167   A6 00005210 varjo_MRStopChromaKeyConfigEstimator
+        168   A7 00004A60 varjo_MRSubmitShaderInputs
+        169   A8 000059B0 varjo_MRUnlockCameraConfig
+        170   A9 00004FF0 varjo_MRUnlockChromaKeyConfig
+        171   AA 00004F70 varjo_MRUnlockMeshChunkContentsBuffer
+        172   AB 000045C0 varjo_PollEvent
+        173   AC 00001380 varjo_RedirectLogPrints
+        174   AD 00005D90 varjo_ReleaseSwapChainImage
+        175   AE 000045F0 varjo_RequestGazeCalibration
+        176   AF 00004610 varjo_RequestGazeCalibrationWithParameters
+        177   B0 00003CB0 varjo_ResetPose
+        178   B1 000040E0 varjo_SendHeartBeat
+        179   B2 00001470 varjo_SessionInit
+        180   B3 00001540 varjo_SessionInitForTeleport
+        181   B4 000015B0 varjo_SessionInitWithLayerId
+        182   B5 00003530 varjo_SessionSetPriority
+        183   B6 000014D0 varjo_SessionShutDown
+        184   B7 00003880 varjo_SetCenteredProjection
+        185   B8 00004160 varjo_SetConfig
+        186   B9 00004240 varjo_SetPropertyValue
+        187   BA 00004590 varjo_SetSessionTransparent
+        188   BB 00004560 varjo_SetSessionVisible
+        189   BC 000054F0 varjo_StartDataStream
+        190   BD 00005540 varjo_StopDataStream
+        191   BE 00004300 varjo_SubscribeToCurrentRunlevel
+        192   BF 00004280 varjo_SubscribeToPropertyChanges
+        193   C0 00003E30 varjo_SyncProperties
+        194   C1 000016A0 varjo_ToD3D11Texture
+        195   C2 00001690 varjo_ToD3D11texture
+        196   C3 000016A0 varjo_ToD3D12Texture
+        197   C4 00004B40 varjo_ToDXGIFormat
+        198   C5 00004B70 varjo_ToGLFormat
+        199   C6 00001680 varjo_ToGLTexture
+        200   C7 00004720 varjo_Unlock
+        201   C8 00005830 varjo_UnlockDataStreamBuffer
+        202   C9 00004330 varjo_UnsubscribeFromCurrentRunlevel
+        203   CA 000042D0 varjo_UnsubscribeFromPropertyChanges
+        204   CB 000038D0 varjo_UpdateClipPlaneDistances
+        205   CC 00004530 varjo_UpdatePose
+        206   CD 00003920 varjo_WaitSync
+        207   CE 00005F20 varjo_WorldDestroy
+        208   CF 00005F60 varjo_WorldGetObjectCount
+        209   D0 00006030 varjo_WorldGetObjectMarkerComponent
+        210   D1 00005F90 varjo_WorldGetObjects
+        211   D2 00005FE0 varjo_WorldGetPoseComponent
+        212   D3 00005EF0 varjo_WorldInit
+        213   D4 000060C0 varjo_WorldSetObjectMarkerFlags
+        214   D5 00006070 varjo_WorldSetObjectMarkerTimeouts
+        215   D6 00005F40 varjo_WorldSync
+
+  Summary
+
+       B4000 .SCY
+        2000 .data
+        2000 .pdata
+        F000 .rdata
+        1000 .reloc
+        1000 .rsrc
+       13000 .text

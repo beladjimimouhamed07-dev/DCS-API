@@ -1,0 +1,92 @@
+Microsoft (R) COFF/PE Dumper Version 14.51.36256.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file G:\DCS_OPS_RE\bin\ogg.dll
+
+File Type: DLL
+
+  Section contains the following exports for ogg.dll
+
+    00000000 characteristics
+    FFFFFFFF time date stamp
+        0.00 version
+           1 ordinal base
+          64 number of functions
+          64 number of names
+
+    ordinal hint RVA      name
+
+          1    0 00001D10 ogg_packet_clear
+          2    1 00001D40 ogg_page_bos
+          3    2 00001D50 ogg_page_checksum_set
+          4    3 00001E20 ogg_page_continued
+          5    4 00001E30 ogg_page_eos
+          6    5 00001E40 ogg_page_granulepos
+          7    6 00001EA0 ogg_page_packets
+          8    7 00001EE0 ogg_page_pageno
+          9    8 00001F10 ogg_page_serialno
+         10    9 00001F40 ogg_page_version
+         11    A 00001F50 ogg_stream_clear
+         12    B 00001FB0 ogg_stream_destroy
+         13    C 00002010 ogg_stream_eos
+         14    D 00002030 ogg_stream_flush
+         15    E 000022C0 ogg_stream_init
+         16    F 00002750 ogg_stream_packetin
+         17   10 00002790 ogg_stream_packetout
+         18   11 000027B0 ogg_stream_packetpeek
+         19   12 000028B0 ogg_stream_pagein
+         20   13 00002C20 ogg_stream_pageout
+         21   14 00002C70 ogg_stream_reset
+         22   15 00002CC0 ogg_stream_reset_serialno
+         23   16 00002D10 ogg_sync_buffer
+         24   17 00002DF0 ogg_sync_clear
+         25   18 00002E20 ogg_sync_destroy
+         26   19 00002E60 ogg_sync_init
+         27   1A 00002E80 ogg_sync_pageout
+         28   1B 00003020 ogg_sync_pageseek
+         29   1C 00003190 ogg_sync_reset
+         30   1D 000031B0 ogg_sync_wrote
+         31   1E 00001000 oggpackB_adv
+         32   1F 00001030 oggpackB_adv1
+         33   20 00001050 oggpackB_bits
+         34   21 00001060 oggpackB_bytes
+         35   22 00001080 oggpackB_get_buffer
+         36   23 00001090 oggpackB_look
+         37   24 00001140 oggpackB_look1
+         38   25 00001170 oggpackB_read
+         39   26 00001270 oggpackB_read1
+         40   27 000012C0 oggpackB_readinit
+         41   28 000012E0 oggpackB_reset
+         42   29 00001300 oggpackB_write
+         43   2A 00001450 oggpackB_writealign
+         44   2B 00001470 oggpackB_writeclear
+         45   2C 000014A0 oggpackB_writecopy
+         46   2D 000014C0 oggpackB_writeinit
+         47   2E 00001500 oggpackB_writetrunc
+         48   2F 00001540 oggpack_adv
+         49   30 00001030 oggpack_adv1
+         50   31 00001050 oggpack_bits
+         51   32 00001060 oggpack_bytes
+         52   33 00001080 oggpack_get_buffer
+         53   34 00001570 oggpack_look
+         54   35 00001640 oggpack_look1
+         55   36 00001660 oggpack_read
+         56   37 00001760 oggpack_read1
+         57   38 000012C0 oggpack_readinit
+         58   39 000012E0 oggpack_reset
+         59   3A 000017A0 oggpack_write
+         60   3B 000018E0 oggpack_writealign
+         61   3C 00001470 oggpack_writeclear
+         62   3D 00001900 oggpack_writecopy
+         63   3E 000014C0 oggpack_writeinit
+         64   3F 00001A50 oggpack_writetrunc
+
+  Summary
+
+        1000 .data
+        1000 .pdata
+        2000 .rdata
+        1000 .reloc
+        1000 .rsrc
+        3000 .text

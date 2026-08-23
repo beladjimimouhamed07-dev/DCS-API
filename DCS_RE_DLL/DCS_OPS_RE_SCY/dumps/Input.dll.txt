@@ -1,0 +1,190 @@
+Microsoft (R) COFF/PE Dumper Version 14.51.36256.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file G:\DCS_OPS_RE_SCY\bin\Input.dll
+
+File Type: DLL
+
+  Section contains the following exports for Input.dll
+
+    00000000 characteristics
+    FFFFFFFF time date stamp
+        0.00 version
+           1 ordinal base
+         161 number of functions
+         161 number of names
+
+    ordinal hint RVA      name
+
+          1    0 0001CD90 ??0CubicInputFilter@@QEAA@AEBV?$vector@NV?$allocator@N@ed@@@ed@@@Z
+          2    1 0001CE20 ??0CubicInputFilter@@QEAA@XZ
+          3    2 00001A90 ??0Input@@AEAA@XZ
+          4    3 00001970 ??0InputAxisAction@@QEAA@HI@Z
+          5    4 00002790 ??0InputDevice@@QEAA@AEBV0@@Z
+          6    5 000027E0 ??0InputDevice@@QEAA@W4InputDeviceTypes@@AEBV?$basic_string@D@ed@@@Z
+          7    6 00002820 ??0InputDeviceAction@@QEAA@XZ
+          8    7 0001D340 ??0InputFilter@@QEAA@XZ
+          9    8 00001980 ??0InputKeyAction@@QEAA@HHH@Z
+         10    9 0001D450 ??0SimpleInputFilter@@QEAA@XZ
+         11    A 00010390 ??1Input@@AEAA@XZ
+         12    B 000028A0 ??1InputDevice@@UEAA@XZ
+         13    C 0001D480 ??1InputFilter@@UEAA@XZ
+         14    D 00001A90 ??4Input@@QEAAAEAV0@AEBV0@@Z
+         15    E 00001AA0 ??4InputAxisAction@@QEAAAEAV0@$$QEAV0@@Z
+         16    F 00001AB0 ??4InputAxisAction@@QEAAAEAV0@AEBV0@@Z
+         17   10 00002A00 ??4InputDevice@@QEAAAEAV0@AEBV0@@Z
+         18   11 00002B40 ??4InputDeviceAction@@QEAAAEAV0@$$QEAV0@@Z
+         19   12 00002B80 ??4InputDeviceAction@@QEAAAEAV0@AEBV0@@Z
+         20   13 00001AC0 ??4InputKeyAction@@QEAAAEAV0@$$QEAV0@@Z
+         21   14 00001B10 ??4InputKeyAction@@QEAAAEAV0@AEBV0@@Z
+         22   15 00002BA0 ??MInputDeviceAction@@QEBA_NAEBV0@@Z
+         23   16 00034A70 ??_7InputDevice@@6B@
+         24   17 00001B40 ??_FInputAxisAction@@QEAAXXZ
+         25   18 00001B50 ??_FInputKeyAction@@QEAAXXZ
+         26   19 00002CB0 ?Absolute@InputDeviceAction@@QEAAAEAV1@_N@Z
+         27   1A 00002CC0 ?DeviceId@InputDeviceAction@@QEAAAEAV1@H@Z
+         28   1B 00002CD0 ?Fake@InputDeviceAction@@QEAAAEAV1@_N@Z
+         29   1C 00002CE0 ?IsKey@InputDeviceAction@@QEAAAEAV1@_N@Z
+         30   1D 00002CF0 ?Order@InputDeviceAction@@QEAAAEAV1@H@Z
+         31   1E 00002D00 ?Source@InputDeviceAction@@QEAAAEAV1@I@Z
+         32   1F 00002D10 ?Time@InputDeviceAction@@QEAAAEAV1@I@Z
+         33   20 00002D20 ?Value@InputDeviceAction@@QEAAAEAV1@H@Z
+         34   21 00002D50 ?acquire@InputDevice@@UEAA_NXZ
+         35   22 00010D40 ?activate@Input@@QEAAXXZ
+         36   23 00010D60 ?addAxisCombo@Input@@QEAAXAEBV?$basic_string@D@ed@@AEBUAxisInfo@@AEBV?$vector@UKeyInfo@@V?$allocator@UKeyInfo@@@ed@@@3@AEBVInputAxisAction@@AEBUInputFilterInfo@@@Z
+         37   24 00010DC0 ?addDeviceChangeCallback@Input@@QEAAXV?$shared_ptr@V?$function@$$A6AXAEBV?$basic_string@D@ed@@_N@Z@std@@@std@@@Z
+         38   25 00010E90 ?addFakeJoystick@Input@@QEAAXAEBV?$basic_string@D@ed@@_N@Z
+         39   26 00010EB0 ?addKeyCombo@Input@@QEAAXAEBV?$basic_string@D@ed@@AEBUKeyInfo@@AEBV?$vector@UKeyInfo@@V?$allocator@UKeyInfo@@@ed@@@3@AEBVInputKeyAction@@@Z
+         40   27 00010ED0 ?addOuterKey@Input@@QEAAXH_N@Z
+         41   28 00010F70 ?addReformer@Input@@QEAAXAEBV?$basic_string@D@ed@@AEBUKeyInfo@@_N@Z
+         42   29 0000C500 ?assumedChannel@ForceFeedback@@QEBAHXZ
+         43   2A 00010F90 ?attachCustomDevice@Input@@QEAAXPEAVInputDevice@@@Z
+         44   2B 0001D7E0 ?build@CubicInputFilter@@QEAAXH@Z
+         45   2C 00010FB0 ?clearInputActions@Input@@QEAAXXZ
+         46   2D 00010FD0 ?clearLayerStack@Input@@QEAAXXZ
+         47   2E 00010FF0 ?clearReformers@Input@@QEAAXAEBV?$basic_string@D@ed@@@Z
+         48   2F 0001E080 ?createInputFilter@@YAPEAVInputFilter@@AEBUInputFilterInfo@@@Z
+         49   30 00011010 ?createLayer@Input@@QEAAXAEBV?$basic_string@D@ed@@@Z
+         50   31 00011030 ?deactivate@Input@@QEAAXXZ
+         51   32 000110E0 ?deleteLayer@Input@@QEAAXAEBV?$basic_string@D@ed@@@Z
+         52   33 00011100 ?detachCustomDevice@Input@@QEAAXPEAVInputDevice@@@Z
+         53   34 00011120 ?dropDefferedActions@Input@@QEAAXXZ
+         54   35 00011140 ?flush@Input@@QEAAXXZ
+         55   36 00003140 ?flush@InputDevice@@UEAAXV?$function@$$A6AXAEBVInputDeviceAction@@@Z@std@@_N@Z
+         56   37 00001E80 ?getAction@InputAxisAction@@QEBAHXZ
+         57   38 000113C0 ?getAxesValueMax@Input@@SAHXZ
+         58   39 000113D0 ?getAxisCommandAssignedToForceFeedbackDevice@Input@@QEAA_NAEBV?$basic_string@D@ed@@H@Z
+         59   3A 00011470 ?getAxisInfo@Input@@QEAA?AV?$basic_string@D@ed@@HH@Z
+         60   3B 00003180 ?getAxisName@InputDevice@@UEBA?AV?$basic_string@D@ed@@H@Z
+         61   3C 00018000 ?getDefaultKeyName@InputDevice@@SA?AV?$basic_string@D@ed@@H@Z
+         62   3D 00011570 ?getDeviceAxes@Input@@QEAA?AV?$vector@HV?$allocator@H@ed@@@ed@@AEBV?$basic_string@D@3@@Z
+         63   3E 000115B0 ?getDeviceDisabled@Input@@QEAA_NAEBV?$basic_string@D@ed@@@Z
+         64   3F 000115D0 ?getDeviceId@Input@@QEAAHAEBV?$basic_string@D@ed@@@Z
+         65   40 000115F0 ?getDeviceKeys@Input@@QEAA?AV?$vector@HV?$allocator@H@ed@@@ed@@AEBV?$basic_string@D@3@@Z
+         66   41 00011630 ?getDeviceNames@Input@@QEAA?AV?$vector@V?$basic_string@D@ed@@V?$allocator@V?$basic_string@D@ed@@@2@@ed@@XZ
+         67   42 00011670 ?getDeviceType@Input@@QEAA?AW4InputDeviceTypes@@AEBV?$basic_string@D@ed@@@Z
+         68   43 000116D0 ?getDevicesForceFeedback@Input@@QEAAPEBV?$vector@PEAVForceFeedback@@V?$allocator@PEAVForceFeedback@@@ed@@@ed@@XZ
+         69   44 00003450 ?getDisabled@InputDevice@@QEBA_NXZ
+         70   45 00001E90 ?getDownAction@InputKeyAction@@QEBAHXZ
+         71   46 000116F0 ?getExtendedTooltipsOn@Input@@QEBA_NXZ
+         72   47 00011700 ?getForceFeedback@Input@@QEAAPEAVForceFeedback@@AEBV?$basic_string@D@ed@@@Z
+         73   48 00003470 ?getForceFeedback@InputDevice@@UEBAPEAVForceFeedback@@XZ
+         74   49 00011720 ?getFullSync@Input@@QEAA_NAEBV?$basic_string@D@ed@@0@Z
+         75   4A 00003480 ?getFullSync@InputDevice@@QEBA_NXZ
+         76   4B 000118B0 ?getGlobalInput@@YAPEAVInput@@XZ
+         77   4C 000118C0 ?getHeadTrackerDllPath@Input@@QEAAAEBV?$basic_string@D@ed@@XZ
+         78   4D 00001ED0 ?getId@InputDevice@@QEBAHXZ
+         79   4E 000118D0 ?getIgnoreUiLayer@Input@@QEAA_NXZ
+         80   4F 000118F0 ?getInputActions@Input@@QEBAAEBV?$vector@VInputAction@@V?$allocator@VInputAction@@@ed@@@ed@@XZ
+         81   50 00011900 ?getKeyInfo@Input@@QEAA?AV?$basic_string@D@ed@@HH@Z
+         82   51 00003180 ?getKeyName@InputDevice@@UEBA?AV?$basic_string@D@ed@@H@Z
+         83   52 00011A00 ?getKeyboardDeviceID@Input@@QEAAHXZ
+         84   53 00001EA0 ?getKeyboardDeviceName@Input@@SAPEBDXZ
+         85   54 00011A90 ?getLayerExists@Input@@QEAA_NAEBV?$basic_string@D@ed@@@Z
+         86   55 00011AB0 ?getLayerStack@Input@@QEAAXAEAV?$vector@V?$basic_string@D@ed@@V?$allocator@V?$basic_string@D@ed@@@2@@ed@@@Z
+         87   56 00011AD0 ?getLoadedLayers@Input@@QEAA?AV?$vector@V?$basic_string@D@ed@@V?$allocator@V?$basic_string@D@ed@@@2@@ed@@XZ
+         88   57 00001EB0 ?getMouseDeviceName@Input@@SAPEBDXZ
+         89   58 00003490 ?getName@InputDevice@@QEBAAEBV?$basic_string@D@ed@@XZ
+         90   59 00011B10 ?getPnPDisabled@Input@@QEBA_NXZ
+         91   5A 00001E80 ?getPressedAction@InputKeyAction@@QEBAHXZ
+         92   5B 00001E90 ?getTargetDevice@InputAxisAction@@QEBAHXZ
+         93   5C 00011B20 ?getTopLayer@Input@@QEAAPEBV?$basic_string@D@ed@@XZ
+         94   5D 000034A0 ?getType@InputDevice@@QEBA?AW4InputDeviceTypes@@XZ
+         95   5E 00011B40 ?getUiLayerCommandKeyboardKeys@Input@@QEAA?AV?$vector@HV?$allocator@H@ed@@@ed@@H@Z
+         96   5F 00011B80 ?getUiLayerHasKeyBinding@Input@@QEAA_NHH@Z
+         97   60 00001EC0 ?getUiLayerName@Input@@SAPEBDXZ
+         98   61 00011BA0 ?getUnitMarker@Input@@QEAAAEBV?$basic_string@D@ed@@XZ
+         99   62 00001ED0 ?getUpAction@InputKeyAction@@QEBAHXZ
+        100   63 00001EE0 ?getValue@InputAxisAction@@QEBANN@Z
+        101   64 00001F10 ?getValueForDown@InputKeyAction@@QEBANXZ
+        102   65 00001F20 ?getValueForPressed@InputKeyAction@@QEBANXZ
+        103   66 00001F30 ?getValueForUp@InputKeyAction@@QEBANXZ
+        104   67 00011BB0 ?handleCtrlBreak@Input@@QEAAX_N@Z
+        105   68 00011BD0 ?handle_WM_INPUT@Input@@QEAAXPEAX@Z
+        106   69 00001F40 ?hasValueForDown@InputKeyAction@@QEBA_NXZ
+        107   6A 00001F50 ?hasValueForPressed@InputKeyAction@@QEBA_NXZ
+        108   6B 00001F60 ?hasValueForUp@InputKeyAction@@QEBA_NXZ
+        109   6C 00011BF0 ?ignoreUiLayer@Input@@QEAAX_N@Z
+        110   6D 00003610 ?initDbg@Input@@AEAAXXZ
+        111   6E 00011C00 ?initialize@Input@@SAXPEAXAEBV?$shared_ptr@V?$function@$$A6AXAEBV?$basic_string@D@ed@@_N@Z@std@@@std@@@Z
+        112   6F 00011E10 ?isHeadTrackerDeviceAttached@Input@@QEBA_NXZ
+        113   70 00011E30 ?lockKeyboardEvents@Input@@QEAAXAEBV?$unordered_set@HU?$hash@H@std@@U?$equal_to@H@2@V?$allocator@H@ed@@@ed@@@Z
+        114   71 00011E50 ?lockMouseEvents@Input@@QEAAXAEBV?$unordered_set@HU?$hash@H@std@@U?$equal_to@H@2@V?$allocator@H@ed@@@ed@@@Z
+        115   72 00011E70 ?onDeviceArrival@Input@@QEAAXXZ
+        116   73 00011F30 ?onDeviceRemove@Input@@QEAAXXZ
+        117   74 0000C9D0 ?playConditionEffect@ForceFeedback@@QEAAXXZ
+        118   75 0000CA50 ?playPeriodicEffect@ForceFeedback@@QEAAXXZ
+        119   76 00011FF0 ?process@Input@@QEAAXXZ
+        120   77 00012140 ?releaseKeyboardKeys_@Input@@AEAAXXZ
+        121   78 00012190 ?releaseMouseKeys_@Input@@AEAAXXZ
+        122   79 000121E0 ?removeAllLayers@Input@@QEAAXXZ
+        123   7A 000122D0 ?removeDefaultLayer@Input@@QEAAXXZ
+        124   7B 00012320 ?removeDeviceChangeCallback@Input@@QEAAXV?$shared_ptr@V?$function@$$A6AXAEBV?$basic_string@D@ed@@_N@Z@std@@@std@@@Z
+        125   7C 00012470 ?removeLayerFromStack@Input@@QEAAXAEBV?$basic_string@D@ed@@@Z
+        126   7D 000124C0 ?removeReformer@Input@@QEAAXAEBV?$basic_string@D@ed@@AEBUKeyInfo@@@Z
+        127   7E 000124E0 ?rescanDevices@Input@@QEAAXXZ
+        128   7F 00001F80 ?setAction@InputAxisAction@@QEAAXH@Z
+        129   80 0000CB00 ?setConditionEffect@ForceFeedback@@QEAAXNNNN@Z
+        130   81 000127A0 ?setDefaultLayer@Input@@QEAAXAEBV?$basic_string@D@ed@@@Z
+        131   82 000127E0 ?setDefaultLayerTop@Input@@QEAAXXZ
+        132   83 00012820 ?setDeviceDisabled@Input@@QEAAXAEBV?$basic_string@D@ed@@_N@Z
+        133   84 000035F0 ?setDisabled@InputDevice@@QEAAX_N@Z
+        134   85 00001F90 ?setDownAction@InputKeyAction@@QEAAXH@Z
+        135   86 00012840 ?setForceFeedback@Input@@QEAAXAEBV?$basic_string@D@ed@@AEBUFFInfo@1@@Z
+        136   87 00012AA0 ?setFullSync@Input@@QEAAXAEBV?$basic_string@D@ed@@0_N@Z
+        137   88 00003600 ?setFullSync@InputDevice@@QEAAX_N@Z
+        138   89 00012C00 ?setHeadTrackerDllPath@Input@@QEAAXAEBV?$basic_string@D@ed@@@Z
+        139   8A 00002080 ?setId@InputDevice@@QEAAXH@Z
+        140   8B 00012C30 ?setLayerStack@Input@@QEAAXAEBV?$vector@V?$basic_string@D@ed@@V?$allocator@V?$basic_string@D@ed@@@2@@ed@@@Z
+        141   8C 0000CCA0 ?setPeriodicEffect@ForceFeedback@@QEAAXNNN@Z
+        142   8D 00012C50 ?setPnPDisabled@Input@@QEAAX_N@Z
+        143   8E 00001F80 ?setPressedAction@InputKeyAction@@QEAAXH@Z
+        144   8F 00001F90 ?setTargetDevice@InputAxisAction@@QEAAXH@Z
+        145   90 00012C60 ?setTopLayer@Input@@QEAAXAEBV?$basic_string@D@ed@@@Z
+        146   91 00012C90 ?setUnitMarker@Input@@QEAAXAEBV?$basic_string@D@ed@@@Z
+        147   92 00002080 ?setUpAction@InputKeyAction@@QEAAXH@Z
+        148   93 00002090 ?setValueForDown@InputKeyAction@@QEAAXN@Z
+        149   94 000020A0 ?setValueForPressed@InputKeyAction@@QEAAXN@Z
+        150   95 000020B0 ?setValueForUp@InputKeyAction@@QEAAXN@Z
+        151   96 0000CD70 ?stopConditionEffect@ForceFeedback@@QEAAXXZ
+        152   97 0000CDF0 ?stopPeriodicEffect@ForceFeedback@@QEAAXXZ
+        153   98 00012D70 ?turnForceFeedbackOff@Input@@QEAAXXZ
+        154   99 00012E40 ?turnForceFeedbackOn@Input@@QEAAXXZ
+        155   9A 00012F10 ?turnLayerForceFeedbackOff_@Input@@AEAA_NAEBV?$basic_string@D@ed@@@Z
+        156   9B 00013120 ?turnLayerForceFeedbackOn_@Input@@AEAA_NAEBV?$basic_string@D@ed@@@Z
+        157   9C 00003610 ?unacquire@InputDevice@@UEAAXXZ
+        158   9D 000133A0 ?uninitialize@Input@@SAXXZ
+        159   9E 00013510 ?unlockKeyboardEvents@Input@@QEAAX_N@Z
+        160   9F 000135F0 ?unlockMouseEvents@Input@@QEAAX_N@Z
+        161   A0 00022BB0 luaopen_Input
+
+  Summary
+
+       1C000 .SCY
+        6000 .data
+        3000 .pdata
+       46000 .rdata
+        3000 .reloc
+        1000 .rsrc
+       33000 .text

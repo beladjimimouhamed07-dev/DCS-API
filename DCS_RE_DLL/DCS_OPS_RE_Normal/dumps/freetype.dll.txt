@@ -1,0 +1,171 @@
+Microsoft (R) COFF/PE Dumper Version 14.51.36256.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file G:\DCS_OPS_RE\bin\freetype.dll
+
+File Type: DLL
+
+  Section contains the following exports for freetype.dll
+
+    00000000 characteristics
+    FFFFFFFF time date stamp
+        0.00 version
+           1 ordinal base
+         143 number of functions
+         143 number of names
+
+    ordinal hint RVA      name
+
+          1    0 0001CD60 FTC_CMapCache_Lookup
+          2    1 0001D010 FTC_CMapCache_New
+          3    2 0001D2E0 FTC_ImageCache_Lookup
+          4    3 0001D5E0 FTC_ImageCache_LookupScaler
+          5    4 0001D940 FTC_ImageCache_New
+          6    5 0001DA60 FTC_Manager_Done
+          7    6 0001DC20 FTC_Manager_LookupFace
+          8    7 0001DCE0 FTC_Manager_LookupSize
+          9    8 0001DE20 FTC_Manager_New
+         10    9 0001DFB0 FTC_Manager_RemoveFaceID
+         11    A 0001E170 FTC_Manager_Reset
+         12    B 0001E550 FTC_Node_Unref
+         13    C 0001E570 FTC_SBitCache_Lookup
+         14    D 0001E8F0 FTC_SBitCache_LookupScaler
+         15    E 0001ECC0 FTC_SBitCache_New
+         16    F 0000A470 FT_Activate_Size
+         17   10 00009AD0 FT_Add_Default_Modules
+         18   11 0000A4A0 FT_Add_Module
+         19   12 0000A7E0 FT_Angle_Diff
+         20   13 0000A850 FT_Atan2
+         21   14 0000A8D0 FT_Attach_File
+         22   15 0000AA20 FT_Attach_Stream
+         23   16 00016610 FT_Bitmap_Convert
+         24   17 00016AD0 FT_Bitmap_Copy
+         25   18 00016CA0 FT_Bitmap_Done
+         26   19 00016D00 FT_Bitmap_Embolden
+         27   1A 00017050 FT_Bitmap_Init
+         28   1B 00017050 FT_Bitmap_New
+         29   1C 0000ACF0 FT_CeilFix
+         30   1D 0000AD00 FT_Cos
+         31   1E 0000AD30 FT_DivFix
+         32   1F 0000ADA0 FT_Done_Face
+         33   20 00009B20 FT_Done_FreeType
+         34   21 00017670 FT_Done_Glyph
+         35   22 0000AF10 FT_Done_Library
+         36   23 0000B0B0 FT_Done_Size
+         37   24 0000B1D0 FT_Face_GetCharVariantIndex
+         38   25 0000B250 FT_Face_GetCharVariantIsDefault
+         39   26 0000B2A0 FT_Face_GetCharsOfVariant
+         40   27 0000B2F0 FT_Face_GetVariantSelectors
+         41   28 0000B330 FT_Face_GetVariantsOfChar
+         42   29 0000B380 FT_Face_Properties
+         43   2A 0000B430 FT_FloorFix
+         44   2B 0000B440 FT_Get_Advance
+         45   2C 0000B510 FT_Get_Advances
+         46   2D 0000B690 FT_Get_CMap_Format
+         47   2E 0000B6F0 FT_Get_CMap_Language_ID
+         48   2F 0000B750 FT_Get_Char_Index
+         49   30 0000B7A0 FT_Get_Charmap_Index
+         50   31 0000B7E0 FT_Get_First_Char
+         51   32 00017D40 FT_Get_Font_Format
+         52   33 000176B0 FT_Get_Glyph
+         53   34 0000B880 FT_Get_Glyph_Name
+         54   35 0000B960 FT_Get_Kerning
+         55   36 0000BB20 FT_Get_Module
+         56   37 0000BC40 FT_Get_Name_Index
+         57   38 0000BCE0 FT_Get_Next_Char
+         58   39 0000BD60 FT_Get_Postscript_Name
+         59   3A 0000BDE0 FT_Get_Renderer
+         60   3B 0000BE10 FT_Get_Sfnt_LangTag
+         61   3C 0000BF80 FT_Get_Sfnt_Name
+         62   3D 0000C100 FT_Get_Sfnt_Name_Count
+         63   3E 0000C120 FT_Get_Sfnt_Table
+         64   3F 0000C180 FT_Get_SubGlyph_Info
+         65   40 0000C1E0 FT_Get_Track_Kerning
+         66   41 0000C260 FT_Get_TrueType_Engine_Type
+         67   42 00017D40 FT_Get_X11_Font_Format
+         68   43 00017080 FT_GlyphSlot_Own_Bitmap
+         69   44 00017820 FT_Glyph_Copy
+         70   45 00017940 FT_Glyph_Get_CBox
+         71   46 000179D0 FT_Glyph_To_Bitmap
+         72   47 00017CB0 FT_Glyph_Transform
+         73   48 00028560 FT_Gzip_Uncompress
+         74   49 00009B60 FT_Init_FreeType
+         75   4A 00017D20 FT_Library_SetLcdFilter
+         76   4B 00017D20 FT_Library_SetLcdFilterWeights
+         77   4C 0000CD90 FT_Library_Version
+         78   4D 0000CDC0 FT_List_Add
+         79   4E 0000CDF0 FT_List_Finalize
+         80   4F 0000CE70 FT_List_Find
+         81   50 0000CEA0 FT_List_Insert
+         82   51 0000CED0 FT_List_Iterate
+         83   52 0000CF40 FT_List_Remove
+         84   53 0000CF70 FT_List_Up
+         85   54 0000CFB0 FT_Load_Char
+         86   55 0000D010 FT_Load_Glyph
+         87   56 0000D600 FT_Load_Sfnt_Table
+         88   57 0000D8B0 FT_Matrix_Invert
+         89   58 0000D970 FT_Matrix_Multiply
+         90   59 0000DC00 FT_MulDiv
+         91   5A 0000DD30 FT_MulFix
+         92   5B 0000DD50 FT_New_Face
+         93   5C 0000DF50 FT_New_Library
+         94   5D 0000DFF0 FT_New_Memory_Face
+         95   5E 0000E040 FT_New_Size
+         96   5F 0000E200 FT_Open_Face
+         97   60 0000E220 FT_Outline_Check
+         98   61 0000E290 FT_Outline_Copy
+         99   62 0000E350 FT_Outline_Decompose
+        100   63 0000E6F0 FT_Outline_Done
+        101   64 0000E7C0 FT_Outline_Done_Internal
+        102   65 0000E870 FT_Outline_Embolden
+        103   66 0000E880 FT_Outline_EmboldenXY
+        104   67 0000ED80 FT_Outline_Get_Bitmap
+        105   68 0000EE90 FT_Outline_Get_CBox
+        106   69 0000EF40 FT_Outline_Get_Orientation
+        107   6A 0000F0D0 FT_Outline_New
+        108   6B 0000F0F0 FT_Outline_New_Internal
+        109   6C 0000F2C0 FT_Outline_Render
+        110   6D 0000F3B0 FT_Outline_Reverse
+        111   6E 0000F490 FT_Outline_Transform
+        112   6F 0000F570 FT_Outline_Translate
+        113   70 0000F5B0 FT_Property_Get
+        114   71 0000F6C0 FT_Property_Set
+        115   72 00010190 FT_Reference_Face
+        116   73 000101B0 FT_Reference_Library
+        117   74 000101D0 FT_Remove_Module
+        118   75 00010270 FT_Render_Glyph
+        119   76 00010740 FT_Request_Size
+        120   77 000108D0 FT_RoundFix
+        121   78 000108F0 FT_Select_Charmap
+        122   79 00010A10 FT_Select_Size
+        123   7A 00010B50 FT_Set_Char_Size
+        124   7B 00010BE0 FT_Set_Charmap
+        125   7C 00010CD0 FT_Set_Debug_Hook
+        126   7D 00009C00 FT_Set_Default_Properties
+        127   7E 00010CF0 FT_Set_Pixel_Sizes
+        128   7F 00010F40 FT_Set_Renderer
+        129   80 00011060 FT_Set_Transform
+        130   81 000110F0 FT_Sfnt_Table_Info
+        131   82 00011180 FT_Sin
+        132   83 00017D20 FT_Stream_OpenBzip2
+        133   84 00028690 FT_Stream_OpenGzip
+        134   85 00028FB0 FT_Stream_OpenLZW
+        135   86 00011F00 FT_Tan
+        136   87 00011FA0 FT_Vector_From_Polar
+        137   88 00011FC0 FT_Vector_Length
+        138   89 00012290 FT_Vector_Polarize
+        139   8A 00012390 FT_Vector_Rotate
+        140   8B 000124E0 FT_Vector_Transform
+        141   8C 00012630 FT_Vector_Unit
+        142   8D 000542C0 TT_New_Context
+        143   8E 00054A90 TT_RunIns
+
+  Summary
+
+        1000 .data
+        7000 .pdata
+       25000 .rdata
+        1000 .reloc
+        1000 .rsrc
+       67000 .text

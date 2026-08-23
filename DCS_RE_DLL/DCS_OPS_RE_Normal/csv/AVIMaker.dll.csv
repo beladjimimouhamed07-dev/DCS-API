@@ -1,0 +1,8 @@
+﻿ordinal,rva,rva_hex,name,demangled,symbol_type,namespace,class_name,function_name,parameters,const,static,virtual,is_vftable,is_vbtable,is_rtti,demangle_ok
+1,0,0x0,??0AVIMaker@@QEAA@AEBV0@@Z,public: __cdecl AVIMaker::AVIMaker(class AVIMaker const &),method,,AVIMaker,AVIMaker,class AVIMaker const &,False,False,False,False,False,False,True
+2,1,0x1,??0AVIMaker@@QEAA@PEBD@Z,public: __cdecl AVIMaker::AVIMaker(char const *),method,,AVIMaker,AVIMaker,char const *,False,False,False,False,False,False,True
+3,2,0x2,??1AVIMaker@@UEAA@XZ,public: virtual __cdecl AVIMaker::~AVIMaker(void),method,,AVIMaker,~AVIMaker,void,False,False,True,False,False,False,True
+4,3,0x3,??4AVIMaker@@QEAAAEAV0@AEBV0@@Z,public: class AVIMaker & __cdecl AVIMaker::operator=(class AVIMaker const &),symbol,,,,,False,False,False,False,False,False,True
+5,4,0x4,??_7AVIMaker@@6B@,const AVIMaker::`vftable',vftable,,,,,False,False,False,True,False,False,True
+6,5,0x5,deinit_graphics_plugin,,unknown,,,,,False,False,False,False,False,False,False
+7,6,0x6,init_graphics_plugin,,unknown,,,,,False,False,False,False,False,False,False

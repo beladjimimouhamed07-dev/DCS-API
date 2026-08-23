@@ -1,0 +1,4 @@
+// DCS_OPS_RE: lua-dxguiWin.dll
+// Generated from dumpbin /exports
+
+[    1]          0x0  luaopen_dxguiWin

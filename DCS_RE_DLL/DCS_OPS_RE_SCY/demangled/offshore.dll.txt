@@ -1,0 +1,621 @@
+// DCS_OPS_RE: offshore.dll
+// Generated from dumpbin /exports
+
+[    1]          0x0  public: __cdecl offshore::History::History(void)
+[    2]          0x1  public: __cdecl offshore::Mesh::Mesh(void)
+[    3]          0x2  public: __cdecl offshore::MeshesTree::MeshTreeNode::MeshTreeNode(struct offshore::Mesh const &)
+[    4]          0x3  public: __cdecl offshore::MeshesTree::MeshTreeNode::MeshTreeNode(void)
+[    5]          0x4  public: __cdecl offshore::Remap::Remap(class ed::vector<int, class ed::allocator<int>> const &)
+[    6]          0x5  public: __cdecl offshore::RoughCutInSplines::RoughCutInSplines(struct offshore::Mesh &, double)
+[    7]          0x6  public: __cdecl offshore::Scene::Scene(bool)
+[    8]          0x7  public: __cdecl offshore::SegmentSpline::SegmentSpline(struct offshore::Spline const &)
+[    9]          0x8  public: __cdecl offshore::SimpleLaplacianDeform::SimpleLaplacianDeform(void)
+[   10]          0x9  public: __cdecl offshore::Spline::Spline(class ed::vector<class osg::Vec3d, class ed::allocator<class osg::Vec3d>> const &)
+[   11]          0xA  public: __cdecl offshore::Spline::Spline(class osg::Vec3d const &, class osg::Vec3d const &)
+[   12]          0xB  public: __cdecl offshore::Spline::Spline(int)
+[   13]          0xC  public: __cdecl offshore::TreeNode::TreeNode(int, int, class ed::basic_string<char> const &, class ed::basic_string<char> const &, int, unsigned __int64)
+[   14]          0xD  public: __cdecl offshore::TreeNode::TreeNode(int, int, char const *, char const *, int, unsigned __int64)
+[   15]          0xE  public: __cdecl offshore::TreeNode::TreeNode(void)
+[   16]          0xF  public: __cdecl offshore::uvSet::uvSet(class ed::basic_string<char> const &, class ed::vector<int, class ed::allocator<int>> const &)
+[   17]         0x10  public: __cdecl offshore::uvSet::uvSet(class ed::basic_string<char> const &, class ed::vector<unsigned int, class ed::allocator<unsigned int>> const &)
+[   18]         0x11  public: __cdecl offshore::uvSet::uvSet(class ed::basic_string<char> const &, class ed::vector<float, class ed::allocator<float>> const &)
+[   19]         0x12  public: __cdecl offshore::uvSet::uvSet(class ed::basic_string<char> const &, class ed::vector<double, class ed::allocator<double>> const &)
+[   20]         0x13  public: __cdecl offshore::uvSet::uvSet(class ed::basic_string<char> const &, class ed::vector<class osg::Vec2d, class ed::allocator<class osg::Vec2d>> const &)
+[   21]         0x14  public: __cdecl offshore::uvSet::uvSet(class ed::basic_string<char> const &, class ed::vector<class osg::Vec2i, class ed::allocator<class osg::Vec2i>> const &)
+[   22]         0x15  public: __cdecl offshore::uvSet::uvSet(class ed::basic_string<char> const &, class ed::vector<class osg::Vec3d, class ed::allocator<class osg::Vec3d>> const &)
+[   23]         0x16  public: __cdecl offshore::uvSet::uvSet(class ed::basic_string<char> const &, class ed::vector<class osg::Vec3i, class ed::allocator<class osg::Vec3i>> const &)
+[   24]         0x17  public: __cdecl offshore::uvSet::uvSet(class ed::basic_string<char> const &, class ed::vector<class osg::Vec4d, class ed::allocator<class osg::Vec4d>> const &)
+[   25]         0x18  public: __cdecl offshore::uvSet::uvSet(class ed::basic_string<char> const &, class ed::vector<class osg::Vec4i, class ed::allocator<class osg::Vec4i>> const &)
+[   26]         0x19  public: __cdecl offshore::History::~History(void)
+[   27]         0x1A  public: virtual __cdecl offshore::History::HistoryPages::~HistoryPages(void)
+[   28]         0x1B  public: __cdecl offshore::MeshesTree::~MeshesTree(void)
+[   29]         0x1C  class io::Stream & __cdecl operator>>(class io::Stream &, struct offshore::AnimationClip &)
+[   30]         0x1D  class io::Stream & __cdecl operator>>(class io::Stream &, struct offshore::AnimationCurve &)
+[   31]         0x1E  class io::Stream & __cdecl operator>>(class io::Stream &, struct offshore::AnimationCurveMatrixd &)
+[   32]         0x1F  class io::Stream & __cdecl operator>>(class io::Stream &, struct offshore::AnimationClip::AnimationParams &)
+[   33]         0x20  class io::Stream & __cdecl operator>>(class io::Stream &, struct offshore::Camera &)
+[   34]         0x21  class io::Stream & __cdecl operator>>(class io::Stream &, struct offshore::Edge32 &)
+[   35]         0x22  class io::Stream & __cdecl operator>>(class io::Stream &, struct offshore::EdgeDataSet &)
+[   36]         0x23  class io::Stream & __cdecl operator>>(class io::Stream &, struct offshore::Error &)
+[   37]         0x24  class io::Stream & __cdecl operator>>(class io::Stream &, struct offshore::Face &)
+[   38]         0x25  class io::Stream & __cdecl operator>>(class io::Stream &, struct offshore::Instance &)
+[   39]         0x26  class io::Stream & __cdecl operator>>(class io::Stream &, struct offshore::SceletonAnimation::Joint &)
+[   40]         0x27  class io::Stream & __cdecl operator>>(class io::Stream &, struct offshore::SkinMesh::Joint &)
+[   41]         0x28  class io::Stream & __cdecl operator>>(class io::Stream &, struct offshore::Light &)
+[   42]         0x29  class io::Stream & __cdecl operator>>(class io::Stream &, struct offshore::Manifold &)
+[   43]         0x2A  class io::Stream & __cdecl operator>>(class io::Stream &, struct offshore::Material &)
+[   44]         0x2B  class io::Stream & __cdecl operator>>(class io::Stream &, struct offshore::Mesh &)
+[   45]         0x2C  class io::Stream & __cdecl operator>>(class io::Stream &, struct offshore::Notification &)
+[   46]         0x2D  class io::Stream & __cdecl operator>>(class io::Stream &, struct offshore::Points &)
+[   47]         0x2E  class io::Stream & __cdecl operator>>(class io::Stream &, struct offshore::Polygon &)
+[   48]         0x2F  class io::Stream & __cdecl operator>>(class io::Stream &, struct offshore::PolygonDataSet &)
+[   49]         0x30  class io::Stream & __cdecl operator>>(class io::Stream &, struct offshore::SkinMesh &)
+[   50]         0x31  class io::Stream & __cdecl operator>>(class io::Stream &, struct offshore::Spline &)
+[   51]         0x32  class io::Stream & __cdecl operator>>(class io::Stream &, struct offshore::Transform &)
+[   52]         0x33  class io::Stream & __cdecl operator>>(class io::Stream &, struct offshore::TreeNode &)
+[   53]         0x34  class io::Stream & __cdecl operator>>(class io::Stream &, struct offshore::Spline::uvSet &)
+[   54]         0x35  class io::Stream & __cdecl operator>>(class io::Stream &, struct offshore::uvSet &)
+[   55]         0x36  bool __cdecl operator>>(class io::Stream &, struct offshore::SceletonAnimation &)
+[   56]         0x37  public: bool __cdecl offshore::Face::operator==(struct offshore::Face const &) const
+[   57]         0x38  public: bool __cdecl offshore::Manifold::operator==(struct offshore::Manifold const &) const
+[   58]         0x39  public: bool __cdecl offshore::Polygon::operator==(struct offshore::Polygon const &) const
+[   59]         0x3A  public: bool __cdecl offshore::Face::operator!=(struct offshore::Face const &) const
+[   60]         0x3B  public: bool __cdecl offshore::Face::operator<(struct offshore::Face const &) const
+[   61]         0x3C  public: bool __cdecl offshore::Manifold::operator<(struct offshore::Manifold const &) const
+[   62]         0x3D  public: bool __cdecl offshore::Polygon::operator<(struct offshore::Polygon const &) const
+[   63]         0x3E  public: void __cdecl offshore::Scene::`default ctor closure'(void)
+[   64]         0x3F  public: void __cdecl offshore::Spline::`default ctor closure'(void)
+[   65]         0x40  public: int __cdecl offshore::Scene::AddExisting(struct offshore::Scene &, int, int)
+[   66]         0x41  public: int __cdecl offshore::Scene::AddMaterial(struct offshore::Material const &)
+[   67]         0x42  public: void __cdecl offshore::Mesh::BuildEdgeList(class std::map<struct offshore::Edge32, class ed::list<int, class ed::allocator<int>>, struct std::less<struct offshore::Edge32>, class ed::allocator<struct std::pair<struct offshore::Edge32 const, class ed::list<int, class ed::allocator<int>>>>> &, class ed::vector<int, class ed::allocator<int>> const *) const
+[   68]         0x43  public: void __cdecl offshore::Mesh::CalculateBariCoord(class ed::vector<int, class ed::allocator<int>> const &, class ed::vector<class osg::Vec3d, class ed::allocator<class osg::Vec3d>> const &, class ed::vector<class ed::vector<double, class ed::allocator<double>>, class ed::allocator<class ed::vector<double, class ed::allocator<double>>>> &)
+[   69]         0x44  public: void __cdecl offshore::Mesh::CalculateBariCoord(class ed::vector<class osg::Vec3d, class ed::allocator<class osg::Vec3d>> const &, class ed::vector<class ed::vector<double, class ed::allocator<double>>, class ed::allocator<class ed::vector<double, class ed::allocator<double>>>> &)
+[   70]         0x45  public: void __cdecl offshore::Scene::Clear(void)
+[   71]         0x46  public: void __cdecl offshore::Scene::Dump(struct _iobuf *, int)
+[   72]         0x47  public: void __cdecl offshore::Spline::Dump(struct _iobuf *)
+[   73]         0x48  public: struct offshore::TreeNode * __cdecl offshore::Scene::FindNodeByName(class ed::basic_string<char> const &)
+[   74]         0x49  public: bool __cdecl offshore::SceletonAnimation::Load(char const *)
+[   75]         0x4A  public: bool __cdecl offshore::Scene::LoadNCheck(class ed::basic_string<char> const &, class osg::BoundingBoxImpl<class osg::Vec3f> *)
+[   76]         0x4B  public: bool __cdecl offshore::Scene::LoadNCheck(char const *, class osg::BoundingBoxImpl<class osg::Vec3f> *)
+[   77]         0x4C  public: struct offshore::TreeNode * __cdecl offshore::Scene::Node(int)
+[   78]         0x4D  public: struct offshore::TreeNode const * __cdecl offshore::Scene::Node(int) const
+[   79]         0x4E  public: class osg::BoundingBoxImpl<class osg::Vec3f> __cdecl offshore::Scene::NodeBoundingBox(int, class osg::Matrixd const &)
+[   80]         0x4F  public: class ed::list<int, class ed::allocator<int>> __cdecl offshore::Scene::NodeChilds(int)
+[   81]         0x50  public: class osg::BoundingBoxImpl<class osg::Vec3f> __cdecl offshore::Scene::NodeChildsBoundingBox(int)
+[   82]         0x51  public: int __cdecl offshore::Scene::NodeChildsCount(int, bool)
+[   83]         0x52  public: void __cdecl offshore::Scene::NodeColor(int, class osg::Vec3f &)
+[   84]         0x53  public: struct offshore::Material * __cdecl offshore::Scene::NodeMaterial(int)
+[   85]         0x54  public: int __cdecl offshore::Scene::NodeMaterialIndex(int)
+[   86]         0x55  public: class ed::basic_string<char> __cdecl offshore::Scene::NodeName(int, bool) const
+[   87]         0x56  public: class boost::container::flat_map<class ed::basic_string<char>, class ed::basic_string<char>, struct std::less<class ed::basic_string<char>>, class ed::allocator<struct std::pair<class ed::basic_string<char>, class ed::basic_string<char>>>> & __cdecl offshore::Scene::NodeParams(int)
+[   88]         0x57  public: int __cdecl offshore::Scene::NodeParent(int) const
+[   89]         0x58  public: struct offshore::TreeNode * __cdecl offshore::Scene::NodeRoot(void)
+[   90]         0x59  public: int __cdecl offshore::Scene::NodeShapeIndex(int) const
+[   91]         0x5A  public: class osg::Matrixd __cdecl offshore::Scene::NodeTransform(int, bool) const
+[   92]         0x5B  public: enum offshore::enType __cdecl offshore::Scene::NodeType(int) const
+[   93]         0x5C  public: class ed::vector<class osg::Vec3d, class ed::allocator<class osg::Vec3d>> * __cdecl offshore::Scene::NodeVerts(int)
+[   94]         0x5D  public: static double __cdecl offshore::Grid2dPartition::OptimalCellSizeForMesh(struct offshore::Mesh const &, int, double, bool)
+[   95]         0x5E  public: struct offshore::Transform * __cdecl offshore::Scene::ParentTransform(int)
+[   96]         0x5F  public: bool __cdecl offshore::Scene::QueryShapesOld(class ed::vector<struct std::pair<class osg::Matrixd, int>, class ed::allocator<struct std::pair<class osg::Matrixd, int>>> &, int, int)
+[   97]         0x60  public: bool __cdecl offshore::SceletonAnimation::Save(char const *)
+[   98]         0x61  public: bool __cdecl offshore::Scene::SaveNCheck(class ed::basic_string<char> const &)
+[   99]         0x62  public: bool __cdecl offshore::Scene::SaveNCheck(char const *)
+[  100]         0x63  public: void __cdecl offshore::Scene::SetNoneNode(int, bool)
+[  101]         0x64  public: bool __cdecl offshore::Polygon::Triangulation(class osg::Vec3d const *)
+[  102]         0x65  public: void __cdecl offshore::Scene::Update(void)
+[  103]         0x66  public: bool __cdecl offshore::Mesh::_append(struct offshore::Mesh const &)
+[  104]         0x67  public: void __cdecl offshore::Polygon::_setSingleFace(int, int, int)
+[  105]         0x68  public: void __cdecl offshore::Polygon::_setSingleQuad(int, int, int, int)
+[  106]         0x69  void __cdecl offshore::adaptiveSubdiv2(struct offshore::Spline const &, struct offshore::Spline &, double, int, class ed::vector<double, class ed::allocator<double>> const *, class ed::vector<double, class ed::allocator<double>> *, class ed::vector<int, class ed::allocator<int>> *, bool)
+[  107]         0x6A  void __cdecl offshore::adaptiveSubdiv(struct offshore::Spline const &, struct offshore::Spline &, double, int, class ed::vector<double, class ed::allocator<double>> const *, class ed::vector<double, class ed::allocator<double>> *, class ed::vector<int, class ed::allocator<int>> *, bool)
+[  108]         0x6B  public: void __cdecl offshore::History::HistoryNodeOp::add(int, struct offshore::TreeNode const &)
+[  109]         0x6C  public: void __cdecl offshore::History::HistoryPages::add(struct offshore::History::IHistoryPage *)
+[  110]         0x6D  public: void __cdecl offshore::History::HistoryTweak::add(struct offshore::Scene &, int)
+[  111]         0x6E  public: void __cdecl offshore::History::HistoryTweak::add(struct offshore::Scene &, int, struct offshore::Mesh const &)
+[  112]         0x6F  public: void __cdecl offshore::History::HistoryTweak::add(struct offshore::Scene &, int, struct offshore::Spline const &)
+[  113]         0x70  public: void __cdecl offshore::History::HistoryTweak::add(int, class osg::Matrixd const &)
+[  114]         0x71  public: struct offshore::Camera & __cdecl offshore::Scene::addCameraNode(class ed::basic_string<char> const &, class ed::basic_string<char> const &, int, struct offshore::Camera const &)
+[  115]         0x72  public: bool __cdecl offshore::SplineBuilder::addEdge(struct offshore::Edge32)
+[  116]         0x73  public: struct offshore::EdgeDataSet * __cdecl offshore::Mesh::addEdgeDataSet(char const *, int)
+[  117]         0x74  public: int __cdecl offshore::Scene::addExisting(struct offshore::Scene &, int, int, class std::map<int, int, struct std::less<int>, class ed::allocator<struct std::pair<int const, int>>> *, bool)
+[  118]         0x75  public: int __cdecl offshore::Scene::addExistingExclusive(struct offshore::Scene &, int, int, class std::map<int, int, struct std::less<int>, class ed::allocator<struct std::pair<int const, int>>> *, bool)
+[  119]         0x76  public: struct offshore::PolygonDataSet * __cdecl offshore::Mesh::addFilledPolygonDataSet(char const *, double)
+[  120]         0x77  public: struct offshore::uvSet * __cdecl offshore::Mesh::addFilledUvSet(char const *, class osg::Vec2d const &)
+[  121]         0x78  public: struct offshore::uvSet * __cdecl offshore::Mesh::addFilledUvSet(char const *, class osg::Vec3d const &)
+[  122]         0x79  public: struct offshore::uvSet * __cdecl offshore::Mesh::addFilledUvSet(char const *, class osg::Vec4d const &)
+[  123]         0x7A  public: struct offshore::uvSet * __cdecl offshore::Mesh::addFilledUvSet(char const *, double)
+[  124]         0x7B  public: void __cdecl offshore::History::addHistoryPage(struct offshore::History::IHistoryPage *)
+[  125]         0x7C  public: struct offshore::Instance & __cdecl offshore::Scene::addInstance(class ed::basic_string<char> const &, class osg::Vec3d const &, float)
+[  126]         0x7D  public: int __cdecl offshore::Scene::addInstanceNode(class ed::basic_string<char> const &, class ed::basic_string<char> const &, int, class ed::basic_string<char> const &)
+[  127]         0x7E  public: int __cdecl offshore::Scene::addInstanceNode(class ed::basic_string<char> const &, class ed::basic_string<char> const &, int, int)
+[  128]         0x7F  public: struct offshore::Light & __cdecl offshore::Scene::addLightNode(class ed::basic_string<char> const &, class ed::basic_string<char> const &, int, struct offshore::Light const &)
+[  129]         0x80  public: int __cdecl offshore::Scene::addMaterial(struct offshore::Material const &)
+[  130]         0x81  public: struct offshore::Mesh & __cdecl offshore::Scene::addMeshNode(class ed::basic_string<char> const &, class ed::basic_string<char> const &, int, struct offshore::Mesh const &, class boost::container::flat_map<class ed::basic_string<char>, class ed::basic_string<char>, struct std::less<class ed::basic_string<char>>, class ed::allocator<struct std::pair<class ed::basic_string<char>, class ed::basic_string<char>>>> const &)
+[  131]         0x82  public: struct offshore::Mesh & __cdecl offshore::Scene::addMeshNode(class ed::basic_string<char> const &, class ed::basic_string<char> const &, int, struct offshore::Mesh const &, class std::map<class ed::basic_string<char>, class ed::basic_string<char>, struct std::less<class ed::basic_string<char>>, class ed::allocator<struct std::pair<class ed::basic_string<char> const, class ed::basic_string<char>>>> const &)
+[  132]         0x83  public: struct offshore::Mesh & __cdecl offshore::Scene::addMeshTransformNode(class ed::basic_string<char> const &, class ed::basic_string<char> const &, int, struct offshore::Mesh const &, class boost::container::flat_map<class ed::basic_string<char>, class ed::basic_string<char>, struct std::less<class ed::basic_string<char>>, class ed::allocator<struct std::pair<class ed::basic_string<char>, class ed::basic_string<char>>>> const &)
+[  133]         0x84  public: struct offshore::Points & __cdecl offshore::Scene::addPointsNode(class ed::basic_string<char> const &, class ed::basic_string<char> const &, int, struct offshore::Points const &)
+[  134]         0x85  public: struct offshore::PolygonDataSet * __cdecl offshore::Mesh::addPolygonDataSet(char const *, int)
+[  135]         0x86  public: int __cdecl offshore::Scene::addRootNode(void)
+[  136]         0x87  public: struct offshore::SkinMesh & __cdecl offshore::Scene::addSkinMeshNode(class ed::basic_string<char> const &, class ed::basic_string<char> const &, int, struct offshore::SkinMesh const &)
+[  137]         0x88  public: struct offshore::Spline & __cdecl offshore::Scene::addSplineNode(class ed::basic_string<char> const &, class ed::basic_string<char> const &, int, struct offshore::Spline const &, class boost::container::flat_map<class ed::basic_string<char>, class ed::basic_string<char>, struct std::less<class ed::basic_string<char>>, class ed::allocator<struct std::pair<class ed::basic_string<char>, class ed::basic_string<char>>>> const &)
+[  138]         0x89  public: struct offshore::Spline & __cdecl offshore::Scene::addSplineNode(class ed::basic_string<char> const &, class ed::basic_string<char> const &, int, struct offshore::Spline const &, class std::map<class ed::basic_string<char>, class ed::basic_string<char>, struct std::less<class ed::basic_string<char>>, class ed::allocator<struct std::pair<class ed::basic_string<char> const, class ed::basic_string<char>>>> const &)
+[  139]         0x8A  public: struct offshore::Spline & __cdecl offshore::Scene::addSplineTransformNode(class ed::basic_string<char> const &, class ed::basic_string<char> const &, int, struct offshore::Spline const &, class boost::container::flat_map<class ed::basic_string<char>, class ed::basic_string<char>, struct std::less<class ed::basic_string<char>>, class ed::allocator<struct std::pair<class ed::basic_string<char>, class ed::basic_string<char>>>> const &)
+[  140]         0x8B  public: int __cdecl offshore::Scene::addTransformNode(class ed::basic_string<char> const &, class ed::basic_string<char> const &, int, class osg::Matrixd const &)
+[  141]         0x8C  public: struct offshore::uvSet * __cdecl offshore::Mesh::addUvSet(class ed::basic_string<char> const &, class ed::vector<int, class ed::allocator<int>> const &)
+[  142]         0x8D  public: struct offshore::uvSet * __cdecl offshore::Mesh::addUvSet(class ed::basic_string<char> const &, class ed::vector<unsigned int, class ed::allocator<unsigned int>> const &)
+[  143]         0x8E  public: struct offshore::uvSet * __cdecl offshore::Mesh::addUvSet(class ed::basic_string<char> const &, class ed::vector<float, class ed::allocator<float>> const &)
+[  144]         0x8F  public: struct offshore::uvSet * __cdecl offshore::Mesh::addUvSet(class ed::basic_string<char> const &, class ed::vector<double, class ed::allocator<double>> const &)
+[  145]         0x90  public: struct offshore::uvSet * __cdecl offshore::Mesh::addUvSet(class ed::basic_string<char> const &, class ed::vector<class osg::Vec2d, class ed::allocator<class osg::Vec2d>> const &)
+[  146]         0x91  public: struct offshore::uvSet * __cdecl offshore::Mesh::addUvSet(class ed::basic_string<char> const &, class ed::vector<class osg::Vec2i, class ed::allocator<class osg::Vec2i>> const &)
+[  147]         0x92  public: struct offshore::uvSet * __cdecl offshore::Mesh::addUvSet(class ed::basic_string<char> const &, class ed::vector<class osg::Vec3d, class ed::allocator<class osg::Vec3d>> const &)
+[  148]         0x93  public: struct offshore::uvSet * __cdecl offshore::Mesh::addUvSet(class ed::basic_string<char> const &, class ed::vector<class osg::Vec3i, class ed::allocator<class osg::Vec3i>> const &)
+[  149]         0x94  public: struct offshore::uvSet * __cdecl offshore::Mesh::addUvSet(class ed::basic_string<char> const &, class ed::vector<class osg::Vec4d, class ed::allocator<class osg::Vec4d>> const &)
+[  150]         0x95  public: struct offshore::uvSet * __cdecl offshore::Mesh::addUvSet(class ed::basic_string<char> const &, class ed::vector<class osg::Vec4i, class ed::allocator<class osg::Vec4i>> const &)
+[  151]         0x96  public: struct offshore::uvSet * __cdecl offshore::Mesh::addUvSet(char const *, int)
+[  152]         0x97  public: struct offshore::Spline::uvSet * __cdecl offshore::Spline::addUvSet(char const *, int, int)
+[  153]         0x98  public: bool __cdecl offshore::Mesh::append(struct offshore::Mesh const &, class ed::vector<class ed::basic_string<char>, class ed::allocator<class ed::basic_string<char>>> const &, class ed::vector<int, class ed::allocator<int>> *, class ed::vector<int, class ed::allocator<int>> *)
+[  154]         0x99  public: void __cdecl offshore::Manifold::appendBoundingRect(class osg::RectImpl<class osg::Vec2d> const &)
+[  155]         0x9A  public: bool __cdecl offshore::Mesh::appendMany(struct offshore::Scene &, class ed::vector<int, class ed::allocator<int>> &, class ed::vector<class ed::basic_string<char>, class ed::allocator<class ed::basic_string<char>>> const &, class ed::vector<struct offshore::Notification, class ed::allocator<struct offshore::Notification>> *)
+[  156]         0x9B  public: int __cdecl offshore::Mesh::appendVertex(struct offshore::Mesh &, int)
+[  157]         0x9C  public: void __cdecl offshore::Mesh::applyManifolds(int, bool)
+[  158]         0x9D  public: void __cdecl offshore::Mesh::assembleFaces(class ed::vector<struct offshore::Face, class ed::allocator<struct offshore::Face>> &) const
+[  159]         0x9E  public: bool __cdecl offshore::Mesh::assembleUniqueVertices(class std::function<void __cdecl(int, int)>)
+[  160]         0x9F  public: class osg::Vec3d __cdecl offshore::Spline::bsplineCurvature(double) const
+[  161]         0xA0  public: class osg::Vec3d __cdecl offshore::Spline::bsplineCurvatureOnSegment(double, class osg::Matrixd const &) const
+[  162]         0xA1  public: class osg::Vec3d __cdecl offshore::Spline::bsplineNormal(double) const
+[  163]         0xA2  public: class osg::Vec3d __cdecl offshore::Spline::bsplinePoint(double) const
+[  164]         0xA3  public: class osg::Vec3d __cdecl offshore::Spline::bsplinePointOnSegment(double, class osg::Matrixd const &) const
+[  165]         0xA4  public: bool __cdecl offshore::Spline::bsplineResolveParam(double &, int &) const
+[  166]         0xA5  public: class osg::Matrixd __cdecl offshore::Spline::bsplineSegmentMatrix(int) const
+[  167]         0xA6  public: class osg::Vec3d __cdecl offshore::Spline::bsplineTangent(double) const
+[  168]         0xA7  public: class osg::Vec3d __cdecl offshore::Spline::bsplineTangentOnSegment(double, class osg::Matrixd const &) const
+[  169]         0xA8  public: void __cdecl offshore::Mesh::buildBordersList2(class ed::list<class ed::vector<int, class ed::allocator<int>>, class ed::allocator<class ed::vector<int, class ed::allocator<int>>>> &, class ed::vector<int, class ed::allocator<int>> const *, class std::function<bool __cdecl(struct offshore::Edge32)> *) const
+[  170]         0xA9  public: void __cdecl offshore::Mesh::buildBordersList(class ed::list<class ed::vector<int, class ed::allocator<int>>, class ed::allocator<class ed::vector<int, class ed::allocator<int>>>> &, class ed::vector<int, class ed::allocator<int>> const *, class std::function<bool __cdecl(struct offshore::Edge32)> *) const
+[  171]         0xAA  public: void __cdecl offshore::Mesh::buildBordersListOld(class ed::list<class ed::vector<int, class ed::allocator<int>>, class ed::allocator<class ed::vector<int, class ed::allocator<int>>>> &, class ed::vector<int, class ed::allocator<int>> const *) const
+[  172]         0xAB  public: void __cdecl offshore::Mesh::buildEdgeList(class std::map<struct offshore::Edge32, class ed::vector<int, class ed::allocator<int>>, struct std::less<struct offshore::Edge32>, class ed::allocator<struct std::pair<struct offshore::Edge32 const, class ed::vector<int, class ed::allocator<int>>>>> &) const
+[  173]         0xAC  public: void __cdecl offshore::Mesh::buildEdgeList(class ed::vector<struct std::pair<struct offshore::Edge32, class ed::vector<int, class ed::allocator<int>>>, class ed::allocator<struct std::pair<struct offshore::Edge32, class ed::vector<int, class ed::allocator<int>>>>> &) const
+[  174]         0xAD  public: void __cdecl offshore::Mesh::buildIsolatedVerts(class ed::set<int, struct std::less<int>, class ed::allocator<int>> &) const
+[  175]         0xAE  public: void __cdecl offshore::Mesh::buildIsolatedVerts(class ed::vector<int, class ed::allocator<int>> &) const
+[  176]         0xAF  public: void __cdecl offshore::Mesh::buildManifoldsForUvSet(struct offshore::uvSet &, bool, double)
+[  177]         0xB0  public: class osg::Vec3d __cdecl offshore::Polygon::buildNormal(class ed::vector<class osg::Vec3d, class ed::allocator<class osg::Vec3d>> const &) const
+[  178]         0xB1  public: void __cdecl offshore::Mesh::buildNormals(bool)
+[  179]         0xB2  public: void __cdecl offshore::Mesh::buildOpenVertexList(class ed::vector<int, class ed::allocator<int>> &, class ed::vector<int, class ed::allocator<int>> const *) const
+[  180]         0xB3  public: void __cdecl offshore::Mesh::buildPolygonNeighbourList(class ed::vector<class ed::list<int, class ed::allocator<int>>, class ed::allocator<class ed::list<int, class ed::allocator<int>>>> &) const
+[  181]         0xB4  public: bool __cdecl offshore::Mesh::buildPolygonNeighbourListByVertices(class ed::vector<class ed::list<int, class ed::allocator<int>>, class ed::allocator<class ed::list<int, class ed::allocator<int>>>> &)
+[  182]         0xB5  public: bool __cdecl offshore::Mesh::buildPolygonNeighbourListByVertices(class ed::vector<class ed::vector<int, class ed::allocator<int>>, class ed::allocator<class ed::vector<int, class ed::allocator<int>>>> &)
+[  183]         0xB6  void __cdecl offshore::buildPolygonQuadTree(class offshore::PolygonQuadTreeBase<struct offshore::Polygon> &, class ed::vector<struct offshore::Polygon, class ed::allocator<struct offshore::Polygon>> const &)
+[  184]         0xB7  public: void __cdecl offshore::Mesh::buildPolygonsOfVerticesList(class ed::vector<class ed::list<int, class ed::allocator<int>>, class ed::allocator<class ed::list<int, class ed::allocator<int>>>> &) const
+[  185]         0xB8  public: void __cdecl offshore::Mesh::buildPolygonsOfVerticesList(class ed::vector<class ed::vector<int, class ed::allocator<int>>, class ed::allocator<class ed::vector<int, class ed::allocator<int>>>> &) const
+[  186]         0xB9  void __cdecl offshore::buildSegmentQuadTree(class ed::SegmentQuadTree &, struct offshore::Mesh &)
+[  187]         0xBA  public: void __cdecl offshore::Mesh::buildTangentSpace(struct offshore::uvSet const &, class ed::vector<class osg::Vec3d, class ed::allocator<class osg::Vec3d>> &, class ed::vector<class osg::Vec3d, class ed::allocator<class osg::Vec3d>> &)
+[  188]         0xBB  public: void __cdecl offshore::Mesh::buildTangentSpace(int, int, struct offshore::uvSet const &, class osg::Vec3d &, class osg::Vec3d &, class osg::Vec3d &) const
+[  189]         0xBC  public: void __cdecl offshore::Mesh::buildVertexList(class ed::vector<int, class ed::allocator<int>> &, class ed::vector<int, class ed::allocator<int>> const &) const
+[  190]         0xBD  class ed::vector<class ed::vector<int, class ed::allocator<int>>, class ed::allocator<class ed::vector<int, class ed::allocator<int>>>> __cdecl offshore::buildVertexPolygonAdjacency(struct offshore::Mesh &)
+[  191]         0xBE  public: void __cdecl offshore::Mesh::buildVertsNeighbourList(class ed::vector<class ed::list<int, class ed::allocator<int>>, class ed::allocator<class ed::list<int, class ed::allocator<int>>>> &) const
+[  192]         0xBF  public: void __cdecl offshore::Mesh::buildVertsNeighbourList(class ed::vector<class ed::vector<int, class ed::allocator<int>>, class ed::allocator<class ed::vector<int, class ed::allocator<int>>>> &) const
+[  193]         0xC0  public: class osg::Vec3d __cdecl offshore::Mesh::calcFaceCentroid(struct offshore::Face &)
+[  194]         0xC1  public: class osg::Vec3d __cdecl offshore::Mesh::calcFaceNormal(struct offshore::Face const &) const
+[  195]         0xC2  public: struct offshore::Manifold __cdecl offshore::Mesh::calcManifoldForUvSet(struct offshore::uvSet const &, double &, bool)
+[  196]         0xC3  public: class osg::Vec3d __cdecl offshore::Mesh::calcPolygonCentroid(struct offshore::Polygon &)
+[  197]         0xC4  public: class osg::Vec3d __cdecl offshore::Mesh::calcPolygonNormal(struct offshore::Polygon const &) const
+[  198]         0xC5  bool __cdecl offshore::cameraCalibration(class ed::vector<class osg::Vec3d, class ed::allocator<class osg::Vec3d>> const &, class ed::vector<class osg::Vec2d, class ed::allocator<class osg::Vec2d>> const &, class osg::Matrixd &, class osg::Matrixd &, double &, class ed::vector<double, class ed::allocator<double>> *)
+[  199]         0xC6  public: class osg::Vec3d __cdecl offshore::Mesh::center(class ed::vector<int, class ed::allocator<int>> &, class osg::Matrixd const &) const
+[  200]         0xC7  public: class osg::Vec3d __cdecl offshore::Mesh::center(class osg::Matrixd const &) const
+[  201]         0xC8  public: class osg::Vec3d __cdecl offshore::Mesh::center(void) const
+[  202]         0xC9  public: class osg::Vec3d __cdecl offshore::Polygon::center(class ed::vector<class osg::Vec3d, class ed::allocator<class osg::Vec3d>> const &, double *) const
+[  203]         0xCA  void __cdecl offshore::changeTail(struct offshore::Spline &, class osg::Vec3d const &, class osg::Vec3d const &, bool, class ed::vector<struct offshore::Notification, class ed::allocator<struct offshore::Notification>> &, double)
+[  204]         0xCB  public: bool __cdecl offshore::Grid2dMask::checkArea(class osg::BoundingBoxImpl<class osg::Vec3f>)
+[  205]         0xCC  public: bool __cdecl offshore::Grid2dMask::checkSegment(class osg::Vec3d, class osg::Vec3d)
+[  206]         0xCD  public: void __cdecl offshore::Scene::cleanUp(void)
+[  207]         0xCE  public: void __cdecl offshore::Scene::clear3dsMaxData(void)
+[  208]         0xCF  public: void __cdecl offshore::History::clear(void)
+[  209]         0xD0  public: void __cdecl offshore::Mesh::clear(void)
+[  210]         0xD1  public: void __cdecl offshore::MeshesTree::clear(void)
+[  211]         0xD2  public: void __cdecl offshore::uvSet::clear(void)
+[  212]         0xD3  public: void __cdecl offshore::Mesh::clearAndFreeMemory(void)
+[  213]         0xD4  public: void __cdecl offshore::Scene::clearAndFreeMemory(void)
+[  214]         0xD5  bool __cdecl offshore::closedSplineToMesh(struct offshore::Spline const &, struct offshore::Mesh &, class ed::vector<struct offshore::Notification, class ed::allocator<struct offshore::Notification>> *)
+[  215]         0xD6  class osg::Vec2d __cdecl offshore::computeUV(class osg::Vec3d const &, int, class ed::vector<class osg::Vec3d, class ed::allocator<class osg::Vec3d>> const &, class ed::vector<struct offshore::Polygon, class ed::allocator<struct offshore::Polygon>> const &, struct offshore::uvSet &)
+[  216]         0xD7  public: void __cdecl offshore::Mesh::connectedSubmeshes(class ed::vector<class ed::vector<int, class ed::allocator<int>>, class ed::allocator<class ed::vector<int, class ed::allocator<int>>>> &) const
+[  217]         0xD8  bool __cdecl offshore::constrainedDelaunayTriangulation(class ed::vector<class osg::Vec3d, class ed::allocator<class osg::Vec3d>> &, class ed::vector<struct offshore::Edge32, class ed::allocator<struct offshore::Edge32>> &, class ed::vector<struct offshore::Face, class ed::allocator<struct offshore::Face>> &, class ed::vector<struct offshore::Notification, class ed::allocator<struct offshore::Notification>> *, class ed::vector<struct offshore::Edge32, class ed::allocator<struct offshore::Edge32>> *)
+[  218]         0xD9  bool __cdecl offshore::constrainedDelaunayTriangulation(class ed::vector<class osg::Vec3d, class ed::allocator<class osg::Vec3d>> &, class ed::vector<struct offshore::Edge32, class ed::allocator<struct offshore::Edge32>> &, class ed::vector<struct offshore::Polygon, class ed::allocator<struct offshore::Polygon>> &, class ed::vector<struct offshore::Notification, class ed::allocator<struct offshore::Notification>> *, class ed::vector<struct offshore::Edge32, class ed::allocator<struct offshore::Edge32>> *)
+[  219]         0xDA  bool __cdecl offshore::constrainedDelaunayTriangulationMerge(class ed::vector<class osg::Vec3d, class ed::allocator<class osg::Vec3d>> const &, class ed::vector<struct offshore::Edge32, class ed::allocator<struct offshore::Edge32>> const &, class ed::vector<struct offshore::Face, class ed::allocator<struct offshore::Face>> &, double, double, class ed::vector<struct offshore::Notification, class ed::allocator<struct offshore::Notification>> *, bool, class ed::set<int, struct std::less<int>, class ed::allocator<int>> *)
+[  220]         0xDB  bool __cdecl offshore::constrainedDelaunayTriangulationMerge(class ed::vector<class osg::Vec3d, class ed::allocator<class osg::Vec3d>> const &, class ed::vector<struct offshore::Edge32, class ed::allocator<struct offshore::Edge32>> const &, class ed::vector<struct offshore::Polygon, class ed::allocator<struct offshore::Polygon>> &, double, double, class ed::vector<struct offshore::Notification, class ed::allocator<struct offshore::Notification>> *, bool, class ed::set<int, struct std::less<int>, class ed::allocator<int>> *)
+[  221]         0xDC  bool __cdecl offshore::contains2d(class ed::vector<class osg::Vec3d, class ed::allocator<class osg::Vec3d>> const &, class osg::Vec3d const &, double)
+[  222]         0xDD  public: int __cdecl offshore::Face::containsEdge(int, int, bool *) const
+[  223]         0xDE  public: int __cdecl offshore::Polygon::containsEdge(int, int, bool *) const
+[  224]         0xDF  public: int __cdecl offshore::Polygon::containsVertex(int) const
+[  225]         0xE0  public: void __cdecl offshore::SegmentSpline::convertToOffshore(struct offshore::Spline &)
+[  226]         0xE1  public: void __cdecl offshore::Mesh::copyMappingFrom(struct offshore::Mesh &, struct offshore::uvSet &, struct offshore::uvSet &, class osg::Matrixd const &)
+[  227]         0xE2  public: void __cdecl offshore::Mesh::copyMappingFrom(struct offshore::Mesh &, class osg::Matrixd const &)
+[  228]         0xE3  public: int __cdecl offshore::Scene::copyMeshNode(struct offshore::Scene &, int, int)
+[  229]         0xE4  public: int __cdecl offshore::Scene::copyNode(struct offshore::Scene &, int, int, class osg::Matrixd const &)
+[  230]         0xE5  public: int __cdecl offshore::Scene::copySplineNode(struct offshore::Scene &, int, int)
+[  231]         0xE6  public: void __cdecl offshore::Mesh::createBox(class osg::BoundingBoxImpl<class osg::Vec3d> const &)
+[  232]         0xE7  public: void __cdecl offshore::Mesh::createBox(class osg::BoundingBoxImpl<class osg::Vec3f> const &)
+[  233]         0xE8  public: void __cdecl offshore::Mesh::createBox(class osg::Vec3d const &, double, double, double)
+[  234]         0xE9  public: void __cdecl offshore::Mesh::createCircle(class osg::Vec3d const &, double, class osg::Vec3d)
+[  235]         0xEA  public: static struct offshore::Mesh __cdecl offshore::Mesh::createEllipsoid(int, double, double, double)
+[  236]         0xEB  public: void __cdecl offshore::Spline::createFromMeshVerts(struct offshore::Mesh const &, class ed::vector<int, class ed::allocator<int>> const &)
+[  237]         0xEC  public: void __cdecl offshore::Mesh::createFrustum(class osg::Matrixf const &, float, float)
+[  238]         0xED  public: void __cdecl offshore::Mesh::createPlane(class osg::Vec3d const &, class osg::Vec3d const &, double)
+[  239]         0xEE  public: void __cdecl offshore::Mesh::createQuad(class osg::Vec3d const &, class osg::Vec3d const &, class osg::Vec3d const &, class osg::Vec3d const &)
+[  240]         0xEF  public: void __cdecl offshore::Spline::createSegment(class osg::Vec3d, class osg::Vec3d)
+[  241]         0xF0  public: struct offshore::Mesh __cdecl offshore::Mesh::createSphere(class osg::Vec3d const &, double)
+[  242]         0xF1  public: static struct offshore::Mesh __cdecl offshore::Mesh::createUnitCube(int)
+[  243]         0xF2  public: static struct offshore::Mesh __cdecl offshore::Mesh::createUnitSphere(int)
+[  244]         0xF3  public: void __cdecl offshore::Spline::cut(struct offshore::Spline &, struct offshore::Spline &, int, class osg::Vec3d const &, double) const
+[  245]         0xF4  public: void __cdecl offshore::Spline::cut(struct offshore::PointOnSpline const &, struct offshore::PointOnSpline const &, struct offshore::Spline &, double) const
+[  246]         0xF5  public: bool __cdecl offshore::Spline::cut(struct offshore::Spline &, struct offshore::Spline &, double, double) const
+[  247]         0xF6  protected: void __cdecl offshore::RoughCutInSplines::cutInConvexPolygon(class ed::vector<class osg::Vec3d, class ed::allocator<class osg::Vec3d>> const &, class ed::vector<int, class ed::allocator<int>> const *, double)
+[  248]         0xF7  public: void __cdecl offshore::RoughCutInSplines::cutInConvexPolygon(class ed::vector<class osg::Vec3d, class ed::allocator<class osg::Vec3d>> const &, class ed::vector<int, class ed::allocator<int>> const &, double)
+[  249]         0xF8  public: void __cdecl offshore::RoughCutInSplines::cutInConvexPolygon(class ed::vector<class osg::Vec3d, class ed::allocator<class osg::Vec3d>> const &, double)
+[  250]         0xF9  public: void __cdecl offshore::RoughCutInSplines::cutInMesh(struct offshore::Mesh const &, double)
+[  251]         0xFA  public: void __cdecl offshore::RoughCutInSplines::cutInSpline(struct offshore::SegmentSpline &)
+[  252]         0xFB  public: void __cdecl offshore::RoughCutInSplines::cutInSpline(struct offshore::Spline const &)
+[  253]         0xFC  public: void __cdecl offshore::RoughCutInSplines::cutInSplines(class ed::vector<struct offshore::SegmentSpline, class ed::allocator<struct offshore::SegmentSpline>> &, class std::function<void __cdecl(int)> *)
+[  254]         0xFD  public: int __cdecl offshore::Spline::cutSegments(class ed::vector<int, class ed::allocator<int>> &, class ed::vector<struct offshore::Spline, class ed::allocator<struct offshore::Spline>> &) const
+[  255]         0xFE  void __cdecl offshore::cutTail(struct offshore::Spline &, class osg::Vec3d const &, bool, class ed::vector<struct offshore::Notification, class ed::allocator<struct offshore::Notification>> &, double)
+[  256]         0xFF  public: void __cdecl offshore::SimpleLaplacianDeform::deform(class ed::vector<class osg::Vec3d, class ed::allocator<class osg::Vec3d>> &, class ed::vector<struct std::pair<int, class osg::Vec3d>, class ed::allocator<struct std::pair<int, class osg::Vec3d>>> const &)
+[  257]        0x100  public: void __cdecl offshore::Mesh::deleteSingularPolygons(double, class ed::vector<int, class ed::allocator<int>> *)
+[  258]        0x101  public: void __cdecl offshore::MeshesTree::MeshTreeNode::deleteTrees(void)
+[  259]        0x102  public: bool __cdecl offshore::Grid2dHierarchicalMask::dirtyCheckArea(class osg::BoundingBoxImpl<class osg::Vec3f>)
+[  260]        0x103  public: bool __cdecl offshore::Grid2dHierarchicalMask::dirtyCheckSegment(class osg::Vec3d, class osg::Vec3d)
+[  261]        0x104  public: double __cdecl offshore::Polygon::distanceToPolygon2d(class osg::Vec3d const &, class ed::vector<class osg::Vec3d, class ed::allocator<class osg::Vec3d>> const &, int &, class osg::Vec3d &, double) const
+[  262]        0x105  public: void __cdecl offshore::SegmentSpline::divide(void)
+[  263]        0x106  void __cdecl offshore::divideEdges(struct offshore::Mesh &, class ed::set<struct offshore::Edge32, struct std::less<struct offshore::Edge32>, class ed::allocator<struct offshore::Edge32>> const &)
+[  264]        0x107  public: void __cdecl offshore::Material::dump(struct _iobuf *)
+[  265]        0x108  public: int __cdecl offshore::Mesh::duplicatePolygon(int)
+[  266]        0x109  public: int __cdecl offshore::Mesh::duplicateVertex(int)
+[  267]        0x10A  public: struct offshore::Edge32 __cdecl offshore::Face::edge(int) const
+[  268]        0x10B  public: struct offshore::Edge32 __cdecl offshore::Polygon::edge(int) const
+[  269]        0x10C  public: int __cdecl offshore::Polygon::edgeCount(void) const
+[  270]        0x10D  public: virtual bool __cdecl offshore::History::HistoryNodeOp::empty(void) const
+[  271]        0x10E  public: virtual bool __cdecl offshore::History::HistoryPages::empty(void) const
+[  272]        0x10F  public: virtual bool __cdecl offshore::History::HistoryTweak::empty(void) const
+[  273]        0x110  public: int __cdecl offshore::Scene::errorCount(void) const
+[  274]        0x111  public: void __cdecl offshore::Mesh::extractIsolatedMeshes(class ed::vector<struct offshore::Mesh, class ed::allocator<struct offshore::Mesh>> &, class ed::set<int, struct std::less<int>, class ed::allocator<int>> *)
+[  275]        0x112  public: void __cdecl offshore::Mesh::extractIsolatedParts(class ed::vector<class ed::vector<int, class ed::allocator<int>>, class ed::allocator<class ed::vector<int, class ed::allocator<int>>>> &, class ed::set<int, struct std::less<int>, class ed::allocator<int>> *) const
+[  276]        0x113  public: void __cdecl offshore::Mesh::extractPolygons2(class ed::vector<int, class ed::allocator<int>> const &, struct offshore::Mesh &, bool, bool, bool, bool, class ed::vector<int, class ed::allocator<int>> *, class std::unordered_map<int, int, struct std::hash<int>, struct std::equal_to<int>, class ed::allocator<struct std::pair<int const, int>>> *, bool, bool) const
+[  277]        0x114  public: void __cdecl offshore::Mesh::extractPolygons(class ed::vector<int, class ed::allocator<int>> const &, struct offshore::Mesh &, bool, bool, bool, bool, class ed::vector<int, class ed::allocator<int>> *, class ed::vector<int, class ed::allocator<int>> *, bool, bool) const
+[  278]        0x115  public: void __cdecl offshore::Mesh::extractPolygons(class ed::vector<unsigned int, class ed::allocator<unsigned int>> const &, struct offshore::Mesh &, bool, bool, bool, bool, class ed::vector<int, class ed::allocator<int>> *, class ed::vector<int, class ed::allocator<int>> *, bool, bool) const
+[  279]        0x116  public: bool __cdecl offshore::Polygon::faceContainsVertex(int, int) const
+[  280]        0x117  public: void __cdecl offshore::Spline::uvSet::fill(double)
+[  281]        0x118  public: void __cdecl offshore::uvSet::fill(class osg::Vec2d const &)
+[  282]        0x119  public: void __cdecl offshore::uvSet::fill(class osg::Vec3d const &)
+[  283]        0x11A  public: void __cdecl offshore::uvSet::fill(double)
+[  284]        0x11B  public: void __cdecl offshore::Mesh::filter(class ed::set<int, struct std::less<int>, class ed::allocator<int>> const &, class ed::vector<int, class ed::allocator<int>> *)
+[  285]        0x11C  public: void __cdecl offshore::Mesh::filter(class ed::vector<unsigned char, class ed::allocator<unsigned char>> const &, class ed::vector<int, class ed::allocator<int>> *)
+[  286]        0x11D  public: void __cdecl offshore::Mesh::filter(class ed::vector<bool, class ed::allocator<bool>> const &, class ed::vector<int, class ed::allocator<int>> *)
+[  287]        0x11E  public: void __cdecl offshore::Mesh::filterVerts(class ed::vector<unsigned char, class ed::allocator<unsigned char>> const &, class ed::vector<int, class ed::allocator<int>> *, class ed::vector<int, class ed::allocator<int>> *)
+[  288]        0x11F  public: class osg::Vec3d __cdecl offshore::Spline::findClosestPoint2d(class osg::Vec3d const &, int &, double &, double &, struct offshore::PointOnSpline *, struct offshore::PointOnSpline *) const
+[  289]        0x120  class osg::Vec3d __cdecl offshore::findClosestPoint2d(class ed::vector<class osg::Vec3d, class ed::allocator<class osg::Vec3d>> const &, class osg::Vec3d const &, int &, double &, double &, struct offshore::PointOnSpline *, struct offshore::PointOnSpline *)
+[  290]        0x121  public: class osg::Vec3d __cdecl offshore::Spline::findClosestPoint(class osg::Vec3d const &, int &, double &, double &) const
+[  291]        0x122  public: int __cdecl offshore::Scene::findInstanceByName(class ed::basic_string<char> const &)
+[  292]        0x123  void __cdecl offshore::findMeshPolyUnderSegments(struct offshore::Mesh &, class ed::vector<struct ed::Segment, class ed::allocator<struct ed::Segment>> const &, class ed::set<unsigned int, struct std::less<unsigned int>, class ed::allocator<unsigned int>> &, double)
+[  293]        0x124  public: int __cdecl offshore::Scene::findNodeByName(class ed::basic_string<char> const &)
+[  294]        0x125  public: int __cdecl offshore::Scene::findNodeByName(class ed::basic_string<char> const &, int, bool, bool) const
+[  295]        0x126  public: int __cdecl offshore::Scene::findNodesByName(class ed::basic_string<char> const &, class ed::vector<int, class ed::allocator<int>> &) const
+[  296]        0x127  public: void __cdecl offshore::Mesh::findPolygonsOfVertex(int, class ed::vector<int, class ed::allocator<int>> &)
+[  297]        0x128  public: int __cdecl offshore::RoughCutInSplines::finish(void)
+[  298]        0x129  public: bool __cdecl offshore::Mesh::flip(struct offshore::Edge32 const &, int, int, struct offshore::Edge32 &)
+[  299]        0x12A  public: bool __cdecl offshore::Mesh::floodFillPolygons(class ed::vector<int, class ed::allocator<int>> &, class std::map<struct offshore::Edge32, class ed::vector<int, class ed::allocator<int>>, struct std::less<struct offshore::Edge32>, class ed::allocator<struct std::pair<struct offshore::Edge32 const, class ed::vector<int, class ed::allocator<int>>>>> const &, class std::function<bool __cdecl(int, int, struct offshore::Edge32 const &)> *, int) const
+[  300]        0x12B  public: bool __cdecl offshore::Mesh::fromUVSpace(class osg::Matrixd const &, struct offshore::uvSet const &, class osg::Matrixd &, struct offshore::PointOnMesh *) const
+[  301]        0x12C  public: double __cdecl offshore::Mesh::getArea2d(class ed::vector<int, class ed::allocator<int>> &) const
+[  302]        0x12D  public: double __cdecl offshore::Mesh::getArea2d(void) const
+[  303]        0x12E  public: double __cdecl offshore::Polygon::getArea2d(class ed::vector<class osg::Vec3d, class ed::allocator<class osg::Vec3d>> const &) const
+[  304]        0x12F  public: double __cdecl offshore::Polygon::getArea3d(class ed::vector<class osg::Vec3d, class ed::allocator<class osg::Vec3d>> const &) const
+[  305]        0x130  public: class osg::BoundingBoxImpl<class osg::Vec3f> __cdecl offshore::Mesh::getBoundingBox(class ed::vector<int, class ed::allocator<int>> const &, class osg::Matrixd const &) const
+[  306]        0x131  public: class osg::BoundingBoxImpl<class osg::Vec3f> __cdecl offshore::Mesh::getBoundingBox(class ed::vector<unsigned int, class ed::allocator<unsigned int>> const &, class osg::Matrixd const &) const
+[  307]        0x132  public: class osg::BoundingBoxImpl<class osg::Vec3f> __cdecl offshore::Mesh::getBoundingBox(class osg::Matrixd const &) const
+[  308]        0x133  public: class osg::BoundingBoxImpl<class osg::Vec3f> __cdecl offshore::Mesh::getBoundingBox(void) const
+[  309]        0x134  public: class osg::BoundingBoxImpl<class osg::Vec3d> __cdecl offshore::Polygon::getBoundingBox(class ed::vector<class osg::Vec3d, class ed::allocator<class osg::Vec3d>> const &) const
+[  310]        0x135  public: class osg::BoundingBoxImpl<class osg::Vec3d> __cdecl offshore::Polygon::getBoundingBox(class ed::vector<class osg::Vec3d, class ed::allocator<class osg::Vec3d>> const &, class osg::Matrixd const &) const
+[  311]        0x136  public: class osg::BoundingBoxImpl<class osg::Vec3f> __cdecl offshore::Scene::getBoundingBox(void)
+[  312]        0x137  public: class osg::BoundingBoxImpl<class osg::Vec3f> __cdecl offshore::Spline::getBoundingBox(class osg::Matrixd const &) const
+[  313]        0x138  public: class osg::BoundingBoxImpl<class osg::Vec3f> __cdecl offshore::Spline::getBoundingBox(void) const
+[  314]        0x139  public: class osg::RectImpl<class osg::Vec2d> __cdecl offshore::Manifold::getBoundingRectForUV(void) const
+[  315]        0x13A  public: static struct offshore::Edge32 __cdecl offshore::Polygon::getCommonEdge(struct offshore::Polygon const &, struct offshore::Polygon const &)
+[  316]        0x13B  public: bool __cdecl offshore::Spline::getCommonEdges(struct offshore::Spline const &, class std::map<int, struct std::pair<int, bool>, struct std::less<int>, class ed::allocator<struct std::pair<int const, struct std::pair<int, bool>>>> &, double) const
+[  317]        0x13C  public: static unsigned int __cdecl offshore::Polygon::getCommonPointsCount(struct offshore::Polygon const &, struct offshore::Polygon const &)
+[  318]        0x13D  public: double * __cdecl offshore::EdgeDataSet::getData(struct offshore::Edge32)
+[  319]        0x13E  public: double const * __cdecl offshore::EdgeDataSet::getData(struct offshore::Edge32) const
+[  320]        0x13F  public: bool __cdecl offshore::EdgeDataSet::getData(struct offshore::Edge32, double &) const
+[  321]        0x140  public: bool __cdecl offshore::EdgeDataSet::getData(struct offshore::Edge32, class osg::Vec2d &) const
+[  322]        0x141  public: bool __cdecl offshore::EdgeDataSet::getData(struct offshore::Edge32, class osg::Vec3d &) const
+[  323]        0x142  public: double * __cdecl offshore::PolygonDataSet::getData(unsigned int)
+[  324]        0x143  public: double const * __cdecl offshore::PolygonDataSet::getData(unsigned int) const
+[  325]        0x144  public: bool __cdecl offshore::PolygonDataSet::getData(unsigned int, double &) const
+[  326]        0x145  public: bool __cdecl offshore::PolygonDataSet::getData(unsigned int, class osg::Vec2d &) const
+[  327]        0x146  public: bool __cdecl offshore::PolygonDataSet::getDataInt(unsigned int, int &) const
+[  328]        0x147  public: class osg::Vec2i __cdecl offshore::Grid2dBase::getDimensions(void)
+[  329]        0x148  void __cdecl offshore::getDistances2d(struct offshore::Spline const &, class ed::vector<double, class ed::allocator<double>> &)
+[  330]        0x149  public: struct offshore::EdgeDataSet * __cdecl offshore::Mesh::getEdgeDataSet(char const *)
+[  331]        0x14A  public: struct offshore::EdgeDataSet const * __cdecl offshore::Mesh::getEdgeDataSet(char const *) const
+[  332]        0x14B  public: void __cdecl offshore::Polygon::getFaceTriangle(struct offshore::Face const &, class ed::vector<class osg::Vec3d, class ed::allocator<class osg::Vec3d>> const &, class osg::Vec3d *const) const
+[  333]        0x14C  public: void __cdecl offshore::Polygon::getFaceTriangle(int, class ed::vector<class osg::Vec3d, class ed::allocator<class osg::Vec3d>> const &, class osg::Vec3d *const) const
+[  334]        0x14D  public: unsigned __int64 __cdecl offshore::Manifold::getHash(void) const
+[  335]        0x14E  public: double __cdecl offshore::Spline::getLenght2d(struct offshore::PointOnSpline const &, struct offshore::PointOnSpline const &) const
+[  336]        0x14F  public: double __cdecl offshore::Spline::getLenght(struct offshore::PointOnSpline const &, struct offshore::PointOnSpline const &) const
+[  337]        0x150  public: double __cdecl offshore::Spline::getLength2d(void) const
+[  338]        0x151  public: double __cdecl offshore::Spline::getLength(void) const
+[  339]        0x152  public: class ed::vector<double, class ed::allocator<double>> __cdecl offshore::Spline::getLengthForAllVerts(void) const
+[  340]        0x153  public: struct offshore::Material * __cdecl offshore::Scene::getMaterial(int)
+[  341]        0x154  public: struct offshore::Material const * __cdecl offshore::Scene::getMaterial(int) const
+[  342]        0x155  unsigned int __cdecl offshore::getMeshCount(struct offshore::Scene &)
+[  343]        0x156  public: int __cdecl offshore::Grid2dPartition::getMinimumMemoryUsedMB(void)
+[  344]        0x157  public: class ed::basic_string<char> __cdecl offshore::Scene::getNodeParam(int, class ed::basic_string<char> const &) const
+[  345]        0x158  public: bool __cdecl offshore::Scene::getNodeParam(int, class ed::basic_string<char> const &, int &) const
+[  346]        0x159  public: bool __cdecl offshore::Scene::getNodeParam(int, class ed::basic_string<char> const &, unsigned int &) const
+[  347]        0x15A  public: bool __cdecl offshore::Scene::getNodeParam(int, class ed::basic_string<char> const &, double &) const
+[  348]        0x15B  public: bool __cdecl offshore::Scene::getNodeParam(int, class ed::basic_string<char> const &, class ed::basic_string<char> &) const
+[  349]        0x15C  public: bool __cdecl offshore::Scene::getNodeParam(int, class ed::basic_string<char> const &, class ed::vector<class ed::basic_string<char>, class ed::allocator<class ed::basic_string<char>>> &) const
+[  350]        0x15D  public: bool __cdecl offshore::Scene::getNodeParam(int, class ed::basic_string<char> const &, class osg::Matrixd &) const
+[  351]        0x15E  public: bool __cdecl offshore::Scene::getNodeParam(int, class ed::basic_string<char> const &, class osg::Vec3d &) const
+[  352]        0x15F  public: bool __cdecl offshore::Scene::getNodeParam(int, class ed::basic_string<char> const &, class osg::Vec4d &) const
+[  353]        0x160  public: bool __cdecl offshore::Scene::getNodeParam(int, class ed::basic_string<char> const &, unsigned __int64 &) const
+[  354]        0x161  public: bool __cdecl offshore::Scene::getNodeParam(int, class ed::basic_string<char> const &, bool &) const
+[  355]        0x162  public: class ed::basic_string<char> __cdecl offshore::Scene::getNodeParamIterateParents(int, class ed::basic_string<char> const &) const
+[  356]        0x163  public: bool __cdecl offshore::Scene::getNodeParamIterateParents(int, class ed::basic_string<char> const &, int &) const
+[  357]        0x164  public: class boost::container::flat_map<class ed::basic_string<char>, class ed::basic_string<char>, struct std::less<class ed::basic_string<char>>, class ed::allocator<struct std::pair<class ed::basic_string<char>, class ed::basic_string<char>>>> const * __cdecl offshore::Scene::getNodeParams(int) const
+[  358]        0x165  public: bool __cdecl offshore::Scene::getNodeParams(int, class boost::container::flat_map<class ed::basic_string<char>, class ed::basic_string<char>, struct std::less<class ed::basic_string<char>>, class ed::allocator<struct std::pair<class ed::basic_string<char>, class ed::basic_string<char>>>> &) const
+[  359]        0x166  public: bool __cdecl offshore::Scene::getNodeParams(int, class std::map<class ed::basic_string<char>, class ed::basic_string<char>, struct std::less<class ed::basic_string<char>>, class ed::allocator<struct std::pair<class ed::basic_string<char> const, class ed::basic_string<char>>>> &) const
+[  360]        0x167  public: class osg::Vec3d __cdecl offshore::Mesh::getNormal(struct offshore::PointOnMesh const &) const
+[  361]        0x168  public: class osg::Vec3d __cdecl offshore::Spline::getNormal(struct offshore::PointOnSpline const &) const
+[  362]        0x169  public: class ed::vector<struct offshore::Edge32, class ed::allocator<struct offshore::Edge32>> __cdecl offshore::Mesh::getOpenEdges(class ed::vector<int, class ed::allocator<int>> const *) const
+[  363]        0x16A  public: class ed::vector<int, class ed::allocator<int>> __cdecl offshore::Mesh::getOpenVerts(class ed::vector<int, class ed::allocator<int>> const *) const
+[  364]        0x16B  public: class ed::basic_string<char> __cdecl offshore::Manifold::getParam(class ed::basic_string<char> const &) const
+[  365]        0x16C  public: bool __cdecl offshore::Manifold::getParam(class ed::basic_string<char> const &, double &) const
+[  366]        0x16D  public: class ed::basic_string<char> __cdecl offshore::Material::getParam(class ed::basic_string<char> const &)
+[  367]        0x16E  public: bool __cdecl offshore::Material::getParam(class ed::basic_string<char> const &, int &)
+[  368]        0x16F  public: bool __cdecl offshore::Material::getParam(class ed::basic_string<char> const &, class ed::basic_string<char> &)
+[  369]        0x170  public: void __cdecl offshore::Material::getParams(class boost::container::flat_map<class ed::basic_string<char>, class ed::basic_string<char>, struct std::less<class ed::basic_string<char>>, class ed::allocator<struct std::pair<class ed::basic_string<char>, class ed::basic_string<char>>>> &) const
+[  370]        0x171  public: void __cdecl offshore::Scene::getParams(class boost::container::flat_map<class ed::basic_string<char>, class ed::basic_string<char>, struct std::less<class ed::basic_string<char>>, class ed::allocator<struct std::pair<class ed::basic_string<char>, class ed::basic_string<char>>>> &) const
+[  371]        0x172  public: void __cdecl offshore::TreeNode::getParams(class boost::container::flat_map<class ed::basic_string<char>, class ed::basic_string<char>, struct std::less<class ed::basic_string<char>>, class ed::allocator<struct std::pair<class ed::basic_string<char>, class ed::basic_string<char>>>> &) const
+[  372]        0x173  public: void __cdecl offshore::TreeNode::getParams(class std::map<class ed::basic_string<char>, class ed::basic_string<char>, struct std::less<class ed::basic_string<char>>, class ed::allocator<struct std::pair<class ed::basic_string<char> const, class ed::basic_string<char>>>> &) const
+[  373]        0x174  public: class osg::Vec3d __cdecl offshore::Mesh::getPoint(struct offshore::PointOnMesh const &) const
+[  374]        0x175  public: class osg::Vec3d __cdecl offshore::Spline::getPoint(struct offshore::PointOnSpline const &) const
+[  375]        0x176  public: double __cdecl offshore::Mesh::getPolyArea2d(int) const
+[  376]        0x177  public: double __cdecl offshore::Mesh::getPolyArea3d(int) const
+[  377]        0x178  public: struct offshore::PolygonDataSet * __cdecl offshore::Mesh::getPolygonDataSet(class ed::basic_string<char> const &)
+[  378]        0x179  public: struct offshore::PolygonDataSet * __cdecl offshore::Mesh::getPolygonDataSet(char const *)
+[  379]        0x17A  public: struct offshore::PolygonDataSet const * __cdecl offshore::Mesh::getPolygonDataSet(class ed::basic_string<char> const &) const
+[  380]        0x17B  public: struct offshore::PolygonDataSet const * __cdecl offshore::Mesh::getPolygonDataSet(char const *) const
+[  381]        0x17C  public: class ed::vector<unsigned int, class ed::allocator<unsigned int>> __cdecl offshore::Mesh::getPolygonsOfEdge(struct offshore::Edge32 const &)
+[  382]        0x17D  public: void __cdecl offshore::Mesh::getPolygonsOfEdge(struct offshore::Edge32 const &, class ed::vector<struct offshore::Mesh::PolygonsOfEdgeResult, class ed::allocator<struct offshore::Mesh::PolygonsOfEdgeResult>> &)
+[  383]        0x17E  public: class osg::RectImpl<class osg::Vec2f> __cdecl offshore::Mesh::getRect(class osg::Matrixd const &) const
+[  384]        0x17F  public: class osg::RectImpl<class osg::Vec2f> __cdecl offshore::Mesh::getRect(void) const
+[  385]        0x180  public: class osg::RectImpl<class osg::Vec2f> __cdecl offshore::Spline::getRect(class osg::Matrixd const &) const
+[  386]        0x181  public: class osg::RectImpl<class osg::Vec2f> __cdecl offshore::Spline::getRect(void) const
+[  387]        0x182  public: struct offshore::TreeNode * __cdecl offshore::Scene::getRootNode(void)
+[  388]        0x183  int __cdecl offshore::getSegmentByDistance(class ed::vector<double, class ed::allocator<double>> const &, double, double)
+[  389]        0x184  public: class ed::vector<class ed::vector<int, class ed::allocator<int>>, class ed::allocator<class ed::vector<int, class ed::allocator<int>>>> __cdecl offshore::SplineBuilder::getSplines(void)
+[  390]        0x185  public: class osg::Vec3d __cdecl offshore::Spline::getTangent(struct offshore::PointOnSpline const &) const
+[  391]        0x186  public: struct offshore::Mesh __cdecl offshore::Mesh::getTemplateMesh(void)
+[  392]        0x187  public: double * __cdecl offshore::Mesh::getUV(struct offshore::PointOnMesh const &, struct offshore::uvSet const *, double *) const
+[  393]        0x188  public: bool __cdecl offshore::uvSet::getUV(int, class osg::Vec2d &) const
+[  394]        0x189  public: bool __cdecl offshore::uvSet::getUV(int, class osg::Vec3d &) const
+[  395]        0x18A  public: bool __cdecl offshore::uvSet::getUV(int, class osg::Vec4d &) const
+[  396]        0x18B  public: struct offshore::uvSet * __cdecl offshore::Mesh::getUvSet(class ed::basic_string<char> const &)
+[  397]        0x18C  public: struct offshore::uvSet * __cdecl offshore::Mesh::getUvSet(char const *)
+[  398]        0x18D  public: struct offshore::uvSet const * __cdecl offshore::Mesh::getUvSet(class ed::basic_string<char> const &) const
+[  399]        0x18E  public: struct offshore::uvSet const * __cdecl offshore::Mesh::getUvSet(char const *) const
+[  400]        0x18F  public: struct offshore::Spline::uvSet * __cdecl offshore::Spline::getUvSet(class ed::basic_string<char> const &)
+[  401]        0x190  public: struct offshore::Spline::uvSet const * __cdecl offshore::Spline::getUvSet(class ed::basic_string<char> const &) const
+[  402]        0x191  public: int __cdecl offshore::Mesh::getUvSetIndex(class ed::basic_string<char> const &) const
+[  403]        0x192  public: int __cdecl offshore::Mesh::getUvSetNumberByName(char const *) const
+[  404]        0x193  public: int __cdecl offshore::Scene::getVertexCount(void)
+[  405]        0x194  public: void __cdecl offshore::Mesh::getVertexTriangles(int, class ed::list<struct offshore::Mesh::VertexTriangle, class ed::allocator<struct offshore::Mesh::VertexTriangle>> &)
+[  406]        0x195  public: bool __cdecl offshore::Mesh::hasSingularPolygons(class ed::vector<struct offshore::Notification, class ed::allocator<struct offshore::Notification>> *) const
+[  407]        0x196  public: bool __cdecl offshore::Grid2dBase::indexByPos(class osg::Vec3d, class osg::Vec2i &)
+[  408]        0x197  public: void __cdecl offshore::Grid2dBase::init(double, class osg::BoundingBoxImpl<class osg::Vec3f>)
+[  409]        0x198  public: void __cdecl offshore::Grid2dHierarchicalMask::init(double, class osg::BoundingBoxImpl<class osg::Vec3f>)
+[  410]        0x199  public: void __cdecl offshore::SimpleLaplacianDeform::init(int, class ed::vector<struct offshore::Edge32, class ed::allocator<struct offshore::Edge32>> const &)
+[  411]        0x19A  public: void __cdecl offshore::Grid2dPartition::initFromMesh(struct offshore::Mesh const &, double, bool)
+[  412]        0x19B  public: void __cdecl offshore::Scene::inplaceInstances(int)
+[  413]        0x19C  public: int __cdecl offshore::MeshesTree::insert(struct offshore::Mesh const &)
+[  414]        0x19D  public: void __cdecl offshore::MeshesTree::MeshTreeNode::insertAwaitingNodes(void)
+[  415]        0x19E  public: void __cdecl offshore::MeshesTree::insertAwaitingNodes(void)
+[  416]        0x19F  public: int __cdecl offshore::Grid2dPartition::insidePolygon(struct offshore::Mesh const &, class osg::Vec3d)
+[  417]        0x1A0  public: bool __cdecl offshore::MeshesTree::MeshTreeNode::intersect(struct offshore::MeshesTree::MeshTreeNode const &, struct offshore::Edge32 &, struct offshore::Edge32 &, bool &, class osg::Vec3d &, double) const
+[  418]        0x1A1  public: bool __cdecl offshore::MeshesTree::MeshTreeNode::intersect(struct offshore::MeshesTree::MeshTreeNode const &, double) const
+[  419]        0x1A2  public: bool __cdecl offshore::MeshesTree::intersect(struct offshore::Mesh const &, double)
+[  420]        0x1A3  public: bool __cdecl offshore::MeshesTree::intersect(struct offshore::MeshesTree::MeshTreeNode const &, double)
+[  421]        0x1A4  public: int __cdecl offshore::Remap::invertRemap(int)
+[  422]        0x1A5  public: void __cdecl offshore::Remap::invertRemapUvset(struct offshore::uvSet &)
+[  423]        0x1A6  public: void __cdecl offshore::uvSet::invertV(void)
+[  424]        0x1A7  public: bool __cdecl offshore::Polygon::isConvex(class ed::vector<class osg::Vec3d, class ed::allocator<class osg::Vec3d>> const &) const
+[  425]        0x1A8  public: bool __cdecl offshore::History::isEmpty(void) const
+[  426]        0x1A9  public: bool __cdecl offshore::Mesh::isEmpty(void) const
+[  427]        0x1AA  public: bool __cdecl offshore::Scene::isEmpty(void) const
+[  428]        0x1AB  public: bool __cdecl offshore::Mesh::isNaN(class ed::vector<struct offshore::Error, class ed::allocator<struct offshore::Error>> &) const
+[  429]        0x1AC  public: bool __cdecl offshore::Scene::isNaN(class ed::vector<struct offshore::Error, class ed::allocator<struct offshore::Error>> &)
+[  430]        0x1AD  public: bool __cdecl offshore::Scene::isNodesMergable(int, int) const
+[  431]        0x1AE  public: bool __cdecl offshore::Polygon::isOrthogonal(class ed::vector<class osg::Vec3d, class ed::allocator<class osg::Vec3d>> const &, class osg::Vec3d const &, double) const
+[  432]        0x1AF  public: bool __cdecl offshore::Mesh::isPointInside(class osg::Vec3d const &, int *, int *, class osg::Vec3d *, class ed::vector<int, class ed::allocator<int>> const *) const
+[  433]        0x1B0  public: bool __cdecl offshore::Polygon::isPointInside(class osg::Vec3d const &, class ed::vector<class osg::Vec3d, class ed::allocator<class osg::Vec3d>> const &, int &, class osg::Vec3d &, double) const
+[  434]        0x1B1  bool __cdecl offshore::isPointInsideMesh(class osg::Vec3d const &, struct offshore::Mesh const &, int &, int &, class osg::Vec3d &, double)
+[  435]        0x1B2  public: bool __cdecl offshore::Polygon::isSingular(class ed::vector<class osg::Vec3d, class ed::allocator<class osg::Vec3d>> const &, double) const
+[  436]        0x1B3  public: bool __cdecl offshore::Polygon::isSingular(void) const
+[  437]        0x1B4  public: bool __cdecl offshore::Mesh::isSingularFace(int, int, int)
+[  438]        0x1B5  public: bool __cdecl offshore::Polygon::isTriangulated(void) const
+[  439]        0x1B6  public: bool __cdecl offshore::Mesh::isValid(class ed::vector<struct offshore::Error, class ed::allocator<struct offshore::Error>> &) const
+[  440]        0x1B7  public: bool __cdecl offshore::Polygon::isValid(void) const
+[  441]        0x1B8  public: bool __cdecl offshore::Grid2dBase::isValidIndex(class osg::Vec2i)
+[  442]        0x1B9  public: bool __cdecl offshore::Mesh::isValidPolygons(void) const
+[  443]        0x1BA  public: bool __cdecl offshore::Scene::load(class ed::basic_string<char> const &, class osg::BoundingBoxImpl<class osg::Vec3f> *)
+[  444]        0x1BB  public: bool __cdecl offshore::Scene::load(char const *, class osg::BoundingBoxImpl<class osg::Vec3f> *)
+[  445]        0x1BC  bool __cdecl offshore::loadConstrainedDelaunayTriangulationInput(class ed::basic_string<char> const &, class ed::vector<class osg::Vec3d, class ed::allocator<class osg::Vec3d>> &, class ed::vector<struct offshore::Edge32, class ed::allocator<struct offshore::Edge32>> &)
+[  446]        0x1BD  public: void __cdecl offshore::Spline::makeStripe(double, double, double, double, class ed::vector<class osg::Vec3d, class ed::allocator<class osg::Vec3d>> &, class ed::vector<class osg::Vec2d, class ed::allocator<class osg::Vec2d>> &, class ed::vector<int, class ed::allocator<int>> &, class ed::vector<int, class ed::allocator<int>> &) const
+[  447]        0x1BE  public: void __cdecl offshore::Grid2dHierarchicalMask::markArea(class osg::BoundingBoxImpl<class osg::Vec3f>)
+[  448]        0x1BF  public: void __cdecl offshore::Grid2dMask::markArea(class osg::BoundingBoxImpl<class osg::Vec3f>)
+[  449]        0x1C0  public: void __cdecl offshore::Grid2dHierarchicalMask::markSegment(class osg::Vec3d, class osg::Vec3d)
+[  450]        0x1C1  public: void __cdecl offshore::Grid2dMask::markSegment(class osg::Vec3d, class osg::Vec3d)
+[  451]        0x1C2  public: bool __cdecl offshore::Mesh::match(struct offshore::Mesh const &, class ed::vector<class ed::basic_string<char>, class ed::allocator<class ed::basic_string<char>>> const &) const
+[  452]        0x1C3  public: static struct offshore::Polygon __cdecl offshore::Polygon::mergePolygons(struct offshore::Polygon const &, struct offshore::Polygon const &, struct offshore::Edge32 const &)
+[  453]        0x1C4  public: static bool __cdecl offshore::Polygon::mergePolygons(struct offshore::Polygon const &, struct offshore::Polygon const &, struct offshore::Polygon &)
+[  454]        0x1C5  bool __cdecl offshore::meshesIntersects(struct offshore::Mesh const &, struct offshore::Mesh const &, double)
+[  455]        0x1C6  bool __cdecl offshore::meshesIntersects(struct offshore::Mesh const &, class osg::Matrixd const &, struct offshore::Mesh const &, class osg::Matrixd const &, double)
+[  456]        0x1C7  public: void __cdecl offshore::Scene::moveChildren(int, int)
+[  457]        0x1C8  public: bool __cdecl offshore::Spline::movePointOnSpline2d(struct offshore::PointOnSpline &, double) const
+[  458]        0x1C9  public: class osg::Vec3d __cdecl offshore::Spline::movePointOnSpline(struct offshore::PointOnSpline &, double) const
+[  459]        0x1CA  public: void __cdecl offshore::Mesh::multiply(class osg::Matrixd const &)
+[  460]        0x1CB  public: void __cdecl offshore::Points::multiply(class osg::Matrixd const &)
+[  461]        0x1CC  public: void __cdecl offshore::Spline::multiply(class osg::Matrixd const &)
+[  462]        0x1CD  public: class osg::Vec3d __cdecl offshore::Polygon::normal(class ed::vector<class osg::Vec3d, class ed::allocator<class osg::Vec3d>> const &) const
+[  463]        0x1CE  public: class osg::Vec3d __cdecl offshore::Spline::normalForVert(int) const
+[  464]        0x1CF  public: bool __cdecl offshore::MeshesTree::MeshTreeNode::pointInsideMesh(class osg::Vec3d const &, double) const
+[  465]        0x1D0  class osg::Vec3d __cdecl offshore::projectPoint(class osg::Vec3d &, class offshore::PolygonQuadTreeBase<struct offshore::Polygon> &)
+[  466]        0x1D1  public: void __cdecl offshore::PolygonDataSet::push_back(double *)
+[  467]        0x1D2  public: bool __cdecl offshore::Spline::uvSet::push_back(double)
+[  468]        0x1D3  public: void __cdecl offshore::uvSet::push_backArray(double const *)
+[  469]        0x1D4  public: bool __cdecl offshore::Scene::query(struct offshore::ISceneQuerySink *, int, bool)
+[  470]        0x1D5  public: void __cdecl offshore::Grid2dBase::queryBoundingBox(class osg::BoundingBoxImpl<class osg::Vec3f>, class std::function<void __cdecl(class osg::Vec2i)>)
+[  471]        0x1D6  public: bool __cdecl offshore::Scene::queryCameras(class ed::vector<struct std::pair<class osg::Matrixd, int>, class ed::allocator<struct std::pair<class osg::Matrixd, int>>> &, int)
+[  472]        0x1D7  private: bool __cdecl offshore::Scene::queryDataGeneral(class ed::vector<struct std::pair<class osg::Matrixd, int>, class ed::allocator<struct std::pair<class osg::Matrixd, int>>> &, enum offshore::enType, int, int)
+[  473]        0x1D8  public: bool __cdecl offshore::Scene::queryLights(class ed::vector<struct std::pair<class osg::Matrixd, int>, class ed::allocator<struct std::pair<class osg::Matrixd, int>>> &, int)
+[  474]        0x1D9  public: bool __cdecl offshore::Scene::queryMeshes(class ed::vector<struct std::pair<class osg::Matrixd, int>, class ed::allocator<struct std::pair<class osg::Matrixd, int>>> &, int)
+[  475]        0x1DA  public: bool __cdecl offshore::Scene::queryPoints(class ed::vector<struct std::pair<class osg::Matrixd, int>, class ed::allocator<struct std::pair<class osg::Matrixd, int>>> &, int)
+[  476]        0x1DB  public: bool __cdecl offshore::Scene::queryShapes(class ed::vector<struct std::pair<class osg::Matrixd, int>, class ed::allocator<struct std::pair<class osg::Matrixd, int>>> &, int)
+[  477]        0x1DC  public: bool __cdecl offshore::Scene::queryShapesInWorldSpace(class ed::vector<int, class ed::allocator<int>> &, int)
+[  478]        0x1DD  public: bool __cdecl offshore::Scene::querySplines(class ed::vector<struct std::pair<class osg::Matrixd, int>, class ed::allocator<struct std::pair<class osg::Matrixd, int>>> &, int)
+[  479]        0x1DE  public: bool __cdecl offshore::Scene::queryTransforms(class ed::vector<struct std::pair<class osg::Matrixd, int>, class ed::allocator<struct std::pair<class osg::Matrixd, int>>> &, int)
+[  480]        0x1DF  public: void __cdecl offshore::History::redo(struct offshore::Scene &, class ed::list<int, class ed::allocator<int>> &)
+[  481]        0x1E0  public: virtual void __cdecl offshore::History::HistoryNodeOp::redo(struct offshore::Scene &, class ed::list<int, class ed::allocator<int>> &)
+[  482]        0x1E1  public: virtual void __cdecl offshore::History::HistoryPages::redo(struct offshore::Scene &, class ed::list<int, class ed::allocator<int>> &)
+[  483]        0x1E2  public: virtual void __cdecl offshore::History::HistoryTweak::redo(struct offshore::Scene &, class ed::list<int, class ed::allocator<int>> &)
+[  484]        0x1E3  void __cdecl offshore::refineDelaunay(struct offshore::Mesh &, class ed::set<struct offshore::Edge32, struct std::less<struct offshore::Edge32>, class ed::allocator<struct offshore::Edge32>> const &)
+[  485]        0x1E4  public: struct offshore::Face __cdecl offshore::Polygon::reindexFace(int) const
+[  486]        0x1E5  public: void __cdecl offshore::Polygon::reindexFace(struct offshore::Face &) const
+[  487]        0x1E6  public: int __cdecl offshore::Remap::remap(int)
+[  488]        0x1E7  public: void __cdecl offshore::Remap::remap(class ed::vector<int, class ed::allocator<int>> &)
+[  489]        0x1E8  public: void __cdecl offshore::Remap::remapUvset(struct offshore::uvSet &)
+[  490]        0x1E9  public: static void __cdecl offshore::Remap::remapUvset(struct offshore::uvSet &, class std::map<int, int, struct std::less<int>, class ed::allocator<struct std::pair<int const, int>>> &)
+[  491]        0x1EA  public: void __cdecl offshore::TreeNode::removeChild(int)
+[  492]        0x1EB  public: void __cdecl offshore::Mesh::removeDublicatedPolygons(class ed::vector<int, class ed::allocator<int>> *)
+[  493]        0x1EC  public: bool __cdecl offshore::Mesh::removeEdges(class ed::vector<struct offshore::Edge32, class ed::allocator<struct offshore::Edge32>> const &, class ed::vector<class ed::compact_vector<int, 2>, class ed::allocator<class ed::compact_vector<int, 2>>> *)
+[  494]        0x1ED  public: int __cdecl offshore::Mesh::removeIsolatedVerts(class std::map<int, int, struct std::less<int>, class ed::allocator<struct std::pair<int const, int>>> *, class std::map<int, int, struct std::less<int>, class ed::allocator<struct std::pair<int const, int>>> *)
+[  495]        0x1EE  public: void __cdecl offshore::Scene::removeNodeParam(int, class ed::basic_string<char> const &)
+[  496]        0x1EF  void __cdecl offshore::removePolygons(struct offshore::Mesh &, class ed::vector<unsigned char, class ed::allocator<unsigned char>> const &)
+[  497]        0x1F0  void __cdecl offshore::removePolygons(struct offshore::uvSet &, class ed::vector<unsigned char, class ed::allocator<unsigned char>> const &)
+[  498]        0x1F1  public: bool __cdecl offshore::Polygon::removeSingularFaces(class ed::vector<class osg::Vec3d, class ed::allocator<class osg::Vec3d>> const &, class ed::compact_vector<unsigned int, 8> *)
+[  499]        0x1F2  public: int __cdecl offshore::Spline::removeSingularSegments(void)
+[  500]        0x1F3  public: void __cdecl offshore::Mesh::removeUnusedData(void)
+[  501]        0x1F4  public: void __cdecl offshore::Mesh::removeUvSet(char const *)
+[  502]        0x1F5  public: void __cdecl offshore::MeshesTree::reserve(unsigned __int64)
+[  503]        0x1F6  public: void __cdecl offshore::Spline::uvSet::reserve(int)
+[  504]        0x1F7  public: void __cdecl offshore::Spline::uvSet::resize(int)
+[  505]        0x1F8  public: void __cdecl offshore::Spline::uvSet::resize(int, double)
+[  506]        0x1F9  public: void __cdecl offshore::uvSet::resize(unsigned int, class osg::Vec2d const &)
+[  507]        0x1FA  public: void __cdecl offshore::uvSet::resize(unsigned int, class osg::Vec3d const &)
+[  508]        0x1FB  public: void __cdecl offshore::uvSet::resize(unsigned int, class osg::Vec4d const &)
+[  509]        0x1FC  public: void __cdecl offshore::Polygon::reverse(void)
+[  510]        0x1FD  public: void __cdecl offshore::Spline::reverse(void)
+[  511]        0x1FE  public: void __cdecl offshore::Mesh::reversePolygons(void)
+[  512]        0x1FF  public: void __cdecl offshore::Polygon::rotate(int)
+[  513]        0x200  void __cdecl offshore::roughCutInSpline(struct offshore::Mesh &, class ed::vector<struct offshore::SegmentSpline, class ed::allocator<struct offshore::SegmentSpline>> &, class ed::vector<unsigned char, class ed::allocator<unsigned char>> &, double, class std::function<void __cdecl(int)> *)
+[  514]        0x201  void __cdecl offshore::roughCutInSpline(struct offshore::Mesh &, class ed::vector<struct offshore::Spline, class ed::allocator<struct offshore::Spline>> &, double, class std::function<void __cdecl(int)> *)
+[  515]        0x202  void __cdecl offshore::ruppertRefine(struct offshore::Mesh &, class ed::set<struct offshore::Edge32, struct std::less<struct offshore::Edge32>, class ed::allocator<struct offshore::Edge32>> const &, class std::function<double __cdecl(struct offshore::TriangleInfo &)> &, class std::function<double __cdecl(struct offshore::EdgeInfo &)> &)
+[  516]        0x203  void __cdecl offshore::ruppertRefine(struct offshore::Mesh &, class ed::set<struct offshore::Edge32, struct std::less<struct offshore::Edge32>, class ed::allocator<struct offshore::Edge32>> const &, double, double)
+[  517]        0x204  public: bool __cdecl offshore::Mesh::save(class ed::basic_string<char> const &, class ed::basic_string<char> const &) const
+[  518]        0x205  public: bool __cdecl offshore::Mesh::save(char const *, char const *) const
+[  519]        0x206  public: bool __cdecl offshore::Scene::save(class ed::basic_string<char> const &)
+[  520]        0x207  public: bool __cdecl offshore::Scene::save(char const *)
+[  521]        0x208  bool __cdecl offshore::saveConstrainedDelaunayTriangulationInput(class ed::basic_string<char> const &, class ed::vector<class osg::Vec3d, class ed::allocator<class osg::Vec3d>> const &, class ed::vector<struct offshore::Edge32, class ed::allocator<struct offshore::Edge32>> const &)
+[  522]        0x209  public: bool __cdecl offshore::Mesh::segIntersection2D(class osg::Vec3d const &, class osg::Vec3d const &, class ed::vector<class osg::Vec3d, class ed::allocator<class osg::Vec3d>> &, double) const
+[  523]        0x20A  public: bool __cdecl offshore::Mesh::segIntersection(class osg::Vec3d const &, class osg::Vec3d const &, class ed::vector<struct offshore::PointOnMesh, class ed::allocator<struct offshore::PointOnMesh>> &, double) const
+[  524]        0x20B  public: bool __cdecl offshore::Mesh::segIntersection(class osg::Vec3d const &, class osg::Vec3d const &, class ed::vector<class osg::Vec3d, class ed::allocator<class osg::Vec3d>> &, double) const
+[  525]        0x20C  public: bool __cdecl offshore::Polygon::segIntersection(class osg::Vec3d const &, class osg::Vec3d const &, class ed::vector<class osg::Vec3d, class ed::allocator<class osg::Vec3d>> const &, class osg::Matrixd *, class ed::vector<class osg::Vec3d, class ed::allocator<class osg::Vec3d>> *, class ed::vector<class osg::Vec4d, class ed::allocator<class osg::Vec4d>> *, double) const
+[  526]        0x20D  public: void __cdecl offshore::MeshesTree::select(class osg::RectImpl<class osg::Vec2f> const &, class ed::vector<int, class ed::allocator<int>> &)
+[  527]        0x20E  public: void __cdecl offshore::MeshesTree::MeshTreeNode::selectOpenEdges(class osg::RectImpl<class osg::Vec2f> const &, class ed::vector<int, class ed::allocator<int>> &) const
+[  528]        0x20F  public: void __cdecl offshore::MeshesTree::MeshTreeNode::selectPolygons(class osg::RectImpl<class osg::Vec2f> const &, class ed::vector<int, class ed::allocator<int>> &) const
+[  529]        0x210  bool __cdecl offshore::selfIntersects(struct offshore::Spline const &, class ed::vector<class osg::Vec3d, class ed::allocator<class osg::Vec3d>> &, double)
+[  530]        0x211  public: void __cdecl offshore::Scene::serialize(class io::Stream &, class osg::BoundingBoxImpl<class osg::Vec3f> *)
+[  531]        0x212  public: bool __cdecl offshore::EdgeDataSet::setData(struct offshore::Edge32, class osg::Vec2d const &)
+[  532]        0x213  public: bool __cdecl offshore::EdgeDataSet::setData(struct offshore::Edge32, class osg::Vec3d const &)
+[  533]        0x214  public: bool __cdecl offshore::EdgeDataSet::setData(struct offshore::Edge32, double)
+[  534]        0x215  public: bool __cdecl offshore::EdgeDataSet::setData(struct offshore::Edge32, double const *)
+[  535]        0x216  public: bool __cdecl offshore::PolygonDataSet::setData(unsigned int, class osg::Vec2d const &)
+[  536]        0x217  public: bool __cdecl offshore::PolygonDataSet::setData(unsigned int, double)
+[  537]        0x218  public: bool __cdecl offshore::PolygonDataSet::setData(unsigned int, double *)
+[  538]        0x219  public: bool __cdecl offshore::PolygonDataSet::setDataInt(unsigned int, int)
+[  539]        0x21A  public: void __cdecl offshore::Material::setEmptyParam(class ed::basic_string<char> const &, class ed::basic_string<char> const &)
+[  540]        0x21B  public: void __cdecl offshore::Scene::setNodeEmptyParam(int, class ed::basic_string<char> const &, class ed::basic_string<char> const &)
+[  541]        0x21C  public: void __cdecl offshore::Scene::setNodeEmptyParam(int, class ed::basic_string<char> const &, int)
+[  542]        0x21D  public: void __cdecl offshore::Scene::setNodeEmptyParam(int, class ed::basic_string<char> const &, double)
+[  543]        0x21E  public: void __cdecl offshore::Scene::setNodeMaterial(int, int)
+[  544]        0x21F  public: void __cdecl offshore::Scene::setNodeName(int, class ed::basic_string<char> const &)
+[  545]        0x220  public: void __cdecl offshore::Scene::setNodeParam(int, class ed::basic_string<char> const &, class ed::basic_string<char> const &)
+[  546]        0x221  public: void __cdecl offshore::Scene::setNodeParam(int, class ed::basic_string<char> const &, class ed::vector<class ed::basic_string<char>, class ed::allocator<class ed::basic_string<char>>> const &)
+[  547]        0x222  public: void __cdecl offshore::Scene::setNodeParam(int, class ed::basic_string<char> const &, class osg::Vec3d const &)
+[  548]        0x223  public: void __cdecl offshore::Scene::setNodeParam(int, class ed::basic_string<char> const &, class osg::Vec4d const &)
+[  549]        0x224  public: void __cdecl offshore::Scene::setNodeParam(int, class ed::basic_string<char> const &, int)
+[  550]        0x225  public: void __cdecl offshore::Scene::setNodeParam(int, class ed::basic_string<char> const &, unsigned int)
+[  551]        0x226  public: void __cdecl offshore::Scene::setNodeParam(int, class ed::basic_string<char> const &, double)
+[  552]        0x227  public: void __cdecl offshore::Scene::setNodeParam(int, class ed::basic_string<char> const &, unsigned __int64)
+[  553]        0x228  public: void __cdecl offshore::Scene::setNodeParams(int, class boost::container::flat_map<class ed::basic_string<char>, class ed::basic_string<char>, struct std::less<class ed::basic_string<char>>, class ed::allocator<struct std::pair<class ed::basic_string<char>, class ed::basic_string<char>>>> const &)
+[  554]        0x229  public: void __cdecl offshore::Scene::setNodeParams(int, class std::map<class ed::basic_string<char>, class ed::basic_string<char>, struct std::less<class ed::basic_string<char>>, class ed::allocator<struct std::pair<class ed::basic_string<char> const, class ed::basic_string<char>>>> const &)
+[  555]        0x22A  public: void __cdecl offshore::Scene::setNodeTransform(int, class osg::Matrixd const &)
+[  556]        0x22B  public: void __cdecl offshore::Scene::setNoneIrrelevantNodes(int)
+[  557]        0x22C  public: void __cdecl offshore::Manifold::setParam(class ed::basic_string<char> const &, class ed::basic_string<char> const &)
+[  558]        0x22D  public: void __cdecl offshore::Manifold::setParam(class ed::basic_string<char> const &, double const &)
+[  559]        0x22E  public: void __cdecl offshore::Material::setParam(class ed::basic_string<char> const &, class ed::basic_string<char> const &)
+[  560]        0x22F  public: void __cdecl offshore::Material::setParam(class ed::basic_string<char> const &, int)
+[  561]        0x230  public: void __cdecl offshore::Material::setParams(class boost::container::flat_map<class ed::basic_string<char>, class ed::basic_string<char>, struct std::less<class ed::basic_string<char>>, class ed::allocator<struct std::pair<class ed::basic_string<char>, class ed::basic_string<char>>>> const &)
+[  562]        0x231  public: void __cdecl offshore::Scene::setParams(class boost::container::flat_map<class ed::basic_string<char>, class ed::basic_string<char>, struct std::less<class ed::basic_string<char>>, class ed::allocator<struct std::pair<class ed::basic_string<char>, class ed::basic_string<char>>>> const &)
+[  563]        0x232  public: void __cdecl offshore::TreeNode::setParams(class boost::container::flat_map<class ed::basic_string<char>, class ed::basic_string<char>, struct std::less<class ed::basic_string<char>>, class ed::allocator<struct std::pair<class ed::basic_string<char>, class ed::basic_string<char>>>> const &)
+[  564]        0x233  public: void __cdecl offshore::TreeNode::setParams(class std::map<class ed::basic_string<char>, class ed::basic_string<char>, struct std::less<class ed::basic_string<char>>, class ed::allocator<struct std::pair<class ed::basic_string<char> const, class ed::basic_string<char>>>> const &)
+[  565]        0x234  public: bool __cdecl offshore::Scene::setParent(int, int)
+[  566]        0x235  public: void __cdecl offshore::Mesh::setSingleBox(class osg::BoundingBoxImpl<class osg::Vec3f> const &)
+[  567]        0x236  public: void __cdecl offshore::Mesh::setSinglePolygon(struct offshore::Polygon const &, class ed::vector<class osg::Vec3d, class ed::allocator<class osg::Vec3d>> const &)
+[  568]        0x237  public: void __cdecl offshore::Mesh::setSinglePolygon(class ed::vector<class osg::Vec3d, class ed::allocator<class osg::Vec3d>> const &)
+[  569]        0x238  public: void __cdecl offshore::Mesh::setSinglePolygon(class ed::vector<class osg::Vec3d, class ed::allocator<class osg::Vec3d>> const &, class ed::vector<class osg::Vec2d, class ed::allocator<class osg::Vec2d>> const &)
+[  570]        0x239  public: bool __cdecl offshore::Spline::uvSet::setUV(int, class osg::Vec2d const &)
+[  571]        0x23A  public: bool __cdecl offshore::Spline::uvSet::setUV(int, class osg::Vec3d const &)
+[  572]        0x23B  public: bool __cdecl offshore::Spline::uvSet::setUV(int, class osg::Vec4d const &)
+[  573]        0x23C  public: bool __cdecl offshore::Spline::uvSet::setUV(int, double)
+[  574]        0x23D  public: bool __cdecl offshore::uvSet::setUV(int, int const &)
+[  575]        0x23E  public: bool __cdecl offshore::uvSet::setUV(int, unsigned int const &)
+[  576]        0x23F  public: bool __cdecl offshore::uvSet::setUV(int, float const &)
+[  577]        0x240  public: bool __cdecl offshore::uvSet::setUV(int, double const &)
+[  578]        0x241  public: bool __cdecl offshore::uvSet::setUV(int, class osg::Vec2d const &)
+[  579]        0x242  public: bool __cdecl offshore::uvSet::setUV(int, class osg::Vec2i const &)
+[  580]        0x243  public: bool __cdecl offshore::uvSet::setUV(int, class osg::Vec3d const &)
+[  581]        0x244  public: bool __cdecl offshore::uvSet::setUV(int, class osg::Vec3i const &)
+[  582]        0x245  public: bool __cdecl offshore::uvSet::setUV(int, class osg::Vec4d const &)
+[  583]        0x246  public: bool __cdecl offshore::uvSet::setUV(int, class osg::Vec4i const &)
+[  584]        0x247  public: bool __cdecl offshore::Spline::uvSet::setUVarray(int, double *)
+[  585]        0x248  public: bool __cdecl offshore::uvSet::setUVarray(int, double *)
+[  586]        0x249  public: void __cdecl offshore::Spline::smooth(void)
+[  587]        0x24A  public: void __cdecl offshore::Face::sort(void)
+[  588]        0x24B  public: bool __cdecl offshore::Mesh::sortPolygonsOfVert(int, class ed::list<int, class ed::allocator<int>> const &, class ed::vector<int, class ed::allocator<int>> &, class ed::vector<int, class ed::allocator<int>> *, bool) const
+[  589]        0x24C  public: static struct offshore::Face __cdecl offshore::Face::sorted(unsigned int, unsigned int, unsigned int)
+[  590]        0x24D  public: void __cdecl offshore::Spline::subdiv(int, struct offshore::Spline &) const
+[  591]        0x24E  public: void __cdecl offshore::Mesh::subdivEdges(class ed::vector<struct offshore::Edge32, class ed::allocator<struct offshore::Edge32>> const &, class ed::vector<struct offshore::Edge32, class ed::allocator<struct offshore::Edge32>> *)
+[  592]        0x24F  public: void __cdecl offshore::Mesh::subdivLinear(void)
+[  593]        0x250  public: void __cdecl offshore::Mesh::subdivLinear(unsigned __int64)
+[  594]        0x251  public: void __cdecl offshore::Mesh::swap(struct offshore::Mesh &)
+[  595]        0x252  public: void __cdecl offshore::Scene::swap(struct offshore::Scene &)
+[  596]        0x253  public: class osg::Vec3d __cdecl offshore::Spline::tangent(int) const
+[  597]        0x254  public: class osg::Vec3d __cdecl offshore::Spline::tangent(int, class osg::Matrixd const &) const
+[  598]        0x255  public: class osg::Vec3d __cdecl offshore::Spline::tangentForVert(int) const
+[  599]        0x256  public: bool __cdecl offshore::Mesh::toUVSpace(class osg::Matrixd const &, struct offshore::uvSet const &, class osg::Matrixd &) const
+[  600]        0x257  public: void __cdecl offshore::uvSet::transform(class osg::Matrixd const &)
+[  601]        0x258  public: int __cdecl offshore::Mesh::triCount(void) const
+[  602]        0x259  public: bool __cdecl offshore::Polygon::triangulate(class ed::vector<class osg::Vec3d, class ed::allocator<class osg::Vec3d>> const &)
+[  603]        0x25A  public: void __cdecl offshore::Mesh::triangulateAllPoly(class ed::vector<int, class ed::allocator<int>> *)
+[  604]        0x25B  bool __cdecl offshore::triangulatePolygon(class ed::vector<class osg::Vec3d, class ed::allocator<class osg::Vec3d>> &, class ed::vector<int, class ed::allocator<int>> &, class ed::compact_vector<struct offshore::Face, 1> &, class ed::vector<struct offshore::Notification, class ed::allocator<struct offshore::Notification>> *)
+[  605]        0x25C  bool __cdecl offshore::triangulatePolygon(class ed::vector<class osg::Vec3d, class ed::allocator<class osg::Vec3d>> &, class ed::vector<int, class ed::allocator<int>> &, class ed::vector<struct offshore::Polygon, class ed::allocator<struct offshore::Polygon>> &, class ed::vector<struct offshore::Notification, class ed::allocator<struct offshore::Notification>> *)
+[  606]        0x25D  public: void __cdecl offshore::Scene::tryConvertAnsiCodePageToUtf8(void)
+[  607]        0x25E  public: char const * __cdecl offshore::Light::typeString(void) const
+[  608]        0x25F  public: void __cdecl offshore::History::undo(struct offshore::Scene &, class ed::list<int, class ed::allocator<int>> &)
+[  609]        0x260  void __cdecl offshore::vectorizeIntMatrix(class ed::matrixMN<signed char> &, class ed::vector<struct offshore::Spline, class ed::allocator<struct offshore::Spline>> &, bool, class std::function<void __cdecl(struct offshore::Scene &, class ed::basic_string<char>)> *)
+[  610]        0x261  public: int __cdecl offshore::Polygon::vertCount(void) const
+[  611]        0x262  public: int __cdecl offshore::Scene::warningCount(void) const
+[  612]        0x263  public: void __cdecl offshore::Mesh::weld(double, double)
+[  613]        0x264  void __cdecl offshore::weldAndSnap(class ed::vector<struct offshore::Mesh *, class ed::allocator<struct offshore::Mesh *>> &, double, double, double, class ed::vector<struct offshore::Error, class ed::allocator<struct offshore::Error>> &, bool, bool)
+[  614]        0x265  void __cdecl offshore::weldAndSnap(class ed::vector<struct offshore::Spline *, class ed::allocator<struct offshore::Spline *>> &, double, double, double, class ed::vector<struct offshore::Error, class ed::allocator<struct offshore::Error>> &, bool, bool)
+[  615]        0x266  public: void __cdecl offshore::Mesh::weldBorders(double, double, class std::map<int, int, struct std::less<int>, class ed::allocator<struct std::pair<int const, int>>> *)
+[  616]        0x267  public: void __cdecl offshore::Mesh::weldExcludeBorders(double, double, class std::map<int, int, struct std::less<int>, class ed::allocator<struct std::pair<int const, int>>> *)
+[  617]        0x268  public: void __cdecl offshore::Mesh::weldOnly(double, double)
+[  618]        0x269  cameraCalibration

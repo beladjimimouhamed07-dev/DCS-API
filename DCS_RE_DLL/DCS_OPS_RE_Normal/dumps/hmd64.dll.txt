@@ -1,0 +1,189 @@
+Microsoft (R) COFF/PE Dumper Version 14.51.36256.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file G:\DCS_OPS_RE\bin\hmd64.dll
+
+File Type: DLL
+
+  Section contains the following exports for hmd64.dll
+
+    00000000 characteristics
+    FFFFFFFF time date stamp
+        0.00 version
+           1 ordinal base
+         161 number of functions
+         161 number of names
+
+    ordinal hint RVA      name
+
+          1    0 00041DF0 VRG_API_INIT_INFO
+          2    1 00027440 attachDeviceNM
+          3    2 00027290 attachHMDGfxDevice
+          4    3 00027550 cancelHMDEyeTrackingCalibration
+          5    4 000272F0 drawHMDImage
+          6    5 000272E0 drawHMDImageLR
+          7    6 00027220 enumHMDPositionTracker
+          8    7 00027310 freeHMDDevice
+          9    8 00027390 freeHMDDevices
+         10    9 00027270 getDXProjectionMatricesLH
+         11    A 00027400 getFocus
+         12    B 00027260 getGLProjectionMatrices
+         13    C 000271F0 getHMDDeviceCount
+         14    D 00027330 getHMDEyeCameraImage
+         15    E 00027330 getHMDEyeTrackingResult
+         16    F 000274B0 getHMDIPD
+         17   10 000273B0 getHMDIPDScreenPos
+         18   11 000272D0 getHMDIPDinM
+         19   12 000273A0 getHMDMonitors
+         20   13 000273C0 getHMDPosition
+         21   14 000272A0 getHMDPositionOrientation
+         22   15 00027500 getHMDPositionOrientationInternal
+         23   16 000273D0 getHMDQuaternion
+         24   17 00027250 getHMDRawProjectionFrustum
+         25   18 00027280 getHMDResolutionFramerate
+         26   19 000273E0 getHMDScreenRealOrthoCenter
+         27   1A 00027540 getRawProjection
+         28   1B 00027190 getSteamVRControllerData
+         29   1C 000271A0 getSteamVRControllers
+         30   1D 00027530 getTimeWarp
+         31   1E 000271B0 getVersion
+         32   1F 00027430 getWindowParameters
+         33   20 00027420 getfFocus
+         34   21 00027590 hideHMDEyeCamCalPoint
+         35   22 000271E0 initHMDDevice
+         36   23 00027210 initHMDPositionTracker
+         37   24 00027330 initRecordHMDEyeCameraImage
+         38   25 000275C0 injectHMDExternalTracking
+         39   26 000275B0 isHMDEyeCameraCalibrating
+         40   27 00027490 isRenderer
+         41   28 000274E0 isVRgDirectMode
+         42   29 00027230 resetHMDIMU
+         43   2A 000271D0 resolveErrorCode
+         44   2B 00027380 setCallbackError
+         45   2C 00027370 setCallbackIMU
+         46   2D 000274C0 setCallbackIPD
+         47   2E 000273F0 setCallbackIPDScreenPos
+         48   2F 00027360 setCallbackIPDinM
+         49   30 00027410 setFocus
+         50   31 00027320 setHMDAsyncTimeWarp
+         51   32 00027340 setHMDEyeCameraImageCallback
+         52   33 00027330 setHMDEyeCameraRecordPose
+         53   34 00027340 setHMDEyeTrackingResultCallback
+         54   35 00027200 setHMDIMU
+         55   36 000274F0 setHMDIPD
+         56   37 000272B0 setHMDIPDinM
+         57   38 00027300 setHMDMenu
+         58   39 00027240 setHMDPositionCalibration
+         59   3A 000274A0 setHMDTracking
+         60   3B 000272C0 setHMDautoIPD
+         61   3C 00027510 setHmdTimeWarp
+         62   3D 00027520 setTimeWarp
+         63   3E 00027470 setUnity
+         64   3F 00027480 setUnreal
+         65   40 000274D0 setVRgDirectMode
+         66   41 000275D0 set_compensation
+         67   42 00027570 showHMDEyeCamCalPoint
+         68   43 000275A0 showHMDEyeCamCalResult
+         69   44 00027450 shutdownHmd
+         70   45 00027460 shutdownHmdNM
+         71   46 00027560 startHMDEyeCameraCalibration
+         72   47 00027350 startHMDEyeTrackingCalibration
+         73   48 00027340 stopRecordHMDEyeCameraImage
+         74   49 00016270 vrgAcquireCameraImage
+         75   4A 00015E90 vrgAttachGraphicsDevice
+         76   4B 00015EB0 vrgBeginFrame
+         77   4C 00016130 vrgCalibrateEyeTracking
+         78   4D 000167F0 vrgCalibrateIMU
+         79   4E 000160F0 vrgCalibrateImu
+         80   4F 000167D0 vrgCalibrateTrackingSystem
+         81   50 00015E70 vrgControllerTriggerHapticPulse
+         82   51 000163B0 vrgCreateSwapChain
+         83   52 00016490 vrgCreateSwapChainDX12
+         84   53 000164B0 vrgCreateSwapChainDX12ClearValue
+         85   54 000163D0 vrgDestroySwapChain
+         86   55 00015F70 vrgEndFrame
+         87   56 000161F0 vrgEnumerateCameraProfiles
+         88   57 00015DB0 vrgEnumerateControllers
+         89   58 00015D70 vrgEnumerateDevices
+         90   59 00015D90 vrgEnumerateTrackingSystems
+         91   5A 0001B830 vrgFreeApi
+         92   5B 00016230 vrgFreeCamera
+         93   5C 00015FB0 vrgFreeDevice
+         94   5D 00016010 vrgGetBool
+         95   5E 00016310 vrgGetCameraRunning
+         96   5F 00015E50 vrgGetControllerData
+         97   60 00015D50 vrgGetErrorMessage
+         98   61 00016730 vrgGetEyeRotation
+         99   62 00016050 vrgGetFloat
+        100   63 000160D0 vrgGetFov
+        101   64 00016330 vrgGetHandData
+        102   65 00016350 vrgGetHandRelativeData
+        103   66 00016090 vrgGetInt
+        104   67 00016550 vrgGetInternalApi
+        105   68 00016570 vrgGetInternalApi_1
+        106   69 00016590 vrgGetInternalApi_2
+        107   6A 000165B0 vrgGetInternalApi_3
+        108   6B 000165D0 vrgGetInternalApi_4
+        109   6C 000165F0 vrgGetInternalApi_5
+        110   6D 00016610 vrgGetInternalApi_6
+        111   6E 00016630 vrgGetInternalApi_7
+        112   6F 00016650 vrgGetInternalApi_8
+        113   70 00016670 vrgGetInternalApi_9
+        114   71 000161B0 vrgGetMrVisibleMarkers
+        115   72 000167B0 vrgGetPose
+        116   73 00015DD0 vrgGetPoseEx
+        117   74 00016750 vrgGetPupillaryDistance
+        118   75 000166D0 vrgGetRawProjectionFrustum
+        119   76 00016790 vrgGetRawProjectionFrustumDetail
+        120   77 000166B0 vrgGetResolutionAndFramerate
+        121   78 000160B0 vrgGetString
+        122   79 00016710 vrgGetTargetDetailResolution
+        123   7A 000166F0 vrgGetTargetResolution
+        124   7B 0001AF60 vrgInitApi
+        125   7C 00016210 vrgInitCamera
+        126   7D 00016250 vrgInitCameraImageType
+        127   7E 00015F90 vrgInitDevice
+        128   7F 00015E30 vrgInitTrackingSystem
+        129   80 000162B0 vrgIsNewCameraImageAvailable
+        130   81 00016110 vrgRegisterEyePoseCallback
+        131   82 00016290 vrgReleaseCameraImage
+        132   83 00015E10 vrgResetTrackingSystemOrigin
+        133   84 00015FD0 vrgRunAutoInterpupillaryDistance
+        134   85 00015FF0 vrgSetBool
+        135   86 00016390 vrgSetDepthMapping
+        136   87 00016370 vrgSetExternalTrackingPose
+        137   88 00016030 vrgSetFloat
+        138   89 00016070 vrgSetInt
+        139   8A 000161D0 vrgSetMrMarkerType
+        140   8B 00016190 vrgSetMrOverlayMasking
+        141   8C 00016170 vrgSetMrOverlayMode
+        142   8D 00016150 vrgSetMrOverlayVisible
+        143   8E 00016770 vrgSetPupillaryDistance
+        144   8F 00015DF0 vrgSetTrackingSystemOrigin
+        145   90 00016690 vrgShowStandaloneSettings
+        146   91 000162D0 vrgStartCamera
+        147   92 000162F0 vrgStopCamera
+        148   93 00015F50 vrgSubmitFrameClipPlanes
+        149   94 00015EF0 vrgSubmitFrameCoordinates
+        150   95 00015F30 vrgSubmitFrameFov
+        151   96 00015ED0 vrgSubmitFrameLayer
+        152   97 00015F10 vrgSubmitFramePose
+        153   98 000163F0 vrgSwapChainCurrentIndex
+        154   99 00016410 vrgSwapChainCurrentIndexEx
+        155   9A 00016510 vrgSwapChainCurrentIndexVulkan
+        156   9B 00016430 vrgSwapChainGetTexture
+        157   9C 00016470 vrgSwapChainGetTextureDX11
+        158   9D 000164D0 vrgSwapChainGetTextureDX12
+        159   9E 00016530 vrgSwapChainGetTextureVulkan
+        160   9F 00016450 vrgVrsTextureUpdate
+        161   A0 000164F0 vrgVrsTextureUpdateDX12
+
+  Summary
+
+        4000 .data
+        4000 .pdata
+       12000 .rdata
+        1000 .reloc
+        1000 .rsrc
+       3D000 .text

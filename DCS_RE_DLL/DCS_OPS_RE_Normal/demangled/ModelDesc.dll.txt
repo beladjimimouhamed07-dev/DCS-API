@@ -1,0 +1,88 @@
+// DCS_OPS_RE: ModelDesc.dll
+// Generated from dumpbin /exports
+
+[    1]          0x0  public: __cdecl model::ExtMemAllocator::ExtMemAllocator(void)
+[    2]          0x1  public: __cdecl model::InstanceData::InstanceData(struct model::InstanceData const &)
+[    3]          0x2  public: __cdecl model::InstanceData::InstanceData(void)
+[    4]          0x3  public: virtual __cdecl model::ExtMemAllocator::~ExtMemAllocator(void)
+[    5]          0x4  public: __cdecl model::InstanceData::~InstanceData(void)
+[    6]          0x5  public: struct model::InstanceData & __cdecl model::InstanceData::operator=(struct model::InstanceData const &)
+[    7]          0x6  public: void __cdecl model::InstanceData::alloc(unsigned int, unsigned int)
+[    8]          0x7  public: virtual void __cdecl model::LightNode::apply(class ed::vector<float, class ed::allocator128<float>> const &) const
+[    9]          0x8  public: void __cdecl model::RootNode::calcDefShellSkinNormals(struct model::InstanceData const &) const
+[   10]          0x9  public: int __cdecl model::PropertiesSet::calcNumberOfUsedTextures(void) const
+[   11]          0xA  public: void __cdecl model::RootNode::calculateTransforms(struct model::InstanceData &, class ed::span<float const, -1>) const
+[   12]          0xB  public: virtual bool __cdecl model::Node::checkAnimation(void) const
+[   13]          0xC  public: void __cdecl model::InstanceData::clear(void)
+[   14]          0xD  public: virtual void __cdecl model::ExtMemAllocator::clearTempAllocations(void)
+[   15]          0xE  public: void __cdecl model::RootNode::destroy(void)
+[   16]          0xF  public: void __cdecl model::RootNode::enumerateSegments(class osg::Matrixd const &, struct model::InstanceData const &, class std::function<void __cdecl(char const *, class osg::Vec3f const &, class osg::Vec3f const &)> const &) const
+[   17]         0x10  public: bool __cdecl model::RootNode::findCloseParts2(class osg::Matrixd const &, struct model::InstanceData const &, class osg::Vec3f const &, class ClipVolume const *, class std::function<void __cdecl(char const *, float, class osg::Vec3d const &)> const &) const
+[   18]         0x11  public: bool __cdecl model::RootNode::findCloseParts(class osg::Matrixd const &, struct model::InstanceData const &, class osg::Vec3f const &, class ClipVolume const *, class std::function<void __cdecl(char const *, float)> const &) const
+[   19]         0x12  public: class model::AnimatedProperties const & __cdecl model::BaseMaterial::getAnimatedUniforms(void) const
+[   20]         0x13  public: virtual class osg::BoundingBoxImpl<class osg::Vec3f> const & __cdecl model::FakeOmniLightsNode::getBBox(unsigned int) const
+[   21]         0x14  public: unsigned __int64 __cdecl model::RootNode::getCollisionSegmentId(char const *) const
+[   22]         0x15  public: char const * __cdecl model::RootNode::getCollisionSegmentName(unsigned __int64) const
+[   23]         0x16  public: class osg::BoundingBoxImpl<class osg::Vec3f> __cdecl model::RootNode::getCollisionShellBoundingBox(unsigned __int64, struct model::InstanceData const &) const
+[   24]         0x17  public: unsigned __int64 __cdecl model::RootNode::getCollisionShellId(char const *) const
+[   25]         0x18  public: char const * __cdecl model::RootNode::getCollisionShellName(unsigned __int64) const
+[   26]         0x19  public: class model::Connector * __cdecl model::RootNode::getConnectorByName(char const *)
+[   27]         0x1A  public: virtual class model::Node const * __cdecl model::FakeOmniLightsNode::getControlNode(unsigned int) const
+[   28]         0x1B  public: virtual class model::Node const * __cdecl model::FakeSpotLightsNode::getControlNode(unsigned int) const
+[   29]         0x1C  public: unsigned int __cdecl model::RenderNode::getDamageHandle(unsigned int) const
+[   30]         0x1D  public: virtual void __cdecl model::AnimatedFakeOmniLightsNode::getHandles(unsigned int *) const
+[   31]         0x1E  public: virtual void __cdecl model::AnimatedFakeSpotLightsNode::getHandles(unsigned int *) const
+[   32]         0x1F  public: struct model::FakeOmniLight const * __cdecl model::FakeOmniLightsNode::getLights(void) const
+[   33]         0x20  public: virtual char const * __cdecl model::Connector::getName(void) const
+[   34]         0x21  public: char const * __cdecl model::LightNode::getName(void) const
+[   35]         0x22  public: virtual unsigned int __cdecl model::FakeOmniLightsNode::getNumControlNodes(void) const
+[   36]         0x23  public: virtual unsigned int __cdecl model::FakeSpotLightsNode::getNumControlNodes(void) const
+[   37]         0x24  public: unsigned int __cdecl model::FakeOmniLightsNode::getNumLights(void) const
+[   38]         0x25  public: unsigned int __cdecl model::AnimatedProperties::getNumProperties(void) const
+[   39]         0x26  public: unsigned int __cdecl model::Properties::getNumProperties(void) const
+[   40]         0x27  public: unsigned int __cdecl model::FakeOmniLightsNode::getNumTriangles(void) const
+[   41]         0x28  public: unsigned int __cdecl model::FakeSpotLightsNode::getNumTriangles(void) const
+[   42]         0x29  public: unsigned int __cdecl model::VertexFormat::getOffset(unsigned int) const
+[   43]         0x2A  public: virtual class osg::Matrixd __cdecl model::Connector::getPosition(class osg::Matrixd const &, class ed::vector<float, class ed::allocator128<float>> const &) const
+[   44]         0x2B  public: virtual void __cdecl model::Connector::getPosition(class osg::Matrixd const &, class ed::vector<float, class ed::allocator128<float>> const &, class osg::Matrixd &) const
+[   45]         0x2C  public: virtual class osg::Matrixd __cdecl model::LightNode::getPosition(class osg::Matrixd const &, class ed::vector<float, class ed::allocator128<float>> const &) const
+[   46]         0x2D  public: virtual void __cdecl model::LightNode::getPosition(class osg::Matrixd const &, class ed::vector<float, class ed::allocator128<float>> const &, class osg::Matrixd &) const
+[   47]         0x2E  public: virtual bool __cdecl model::Connector::getProperty(char const *, class ed::vector<float, class ed::allocator128<float>> const &, unsigned int &) const
+[   48]         0x2F  public: virtual bool __cdecl model::Connector::getProperty(char const *, class ed::vector<float, class ed::allocator128<float>> const &, float &) const
+[   49]         0x30  public: virtual bool __cdecl model::Connector::getProperty(char const *, class ed::vector<float, class ed::allocator128<float>> const &, class osg::Vec2f &) const
+[   50]         0x31  public: virtual bool __cdecl model::Connector::getProperty(char const *, class ed::vector<float, class ed::allocator128<float>> const &, class osg::Vec3f &) const
+[   51]         0x32  public: virtual bool __cdecl model::Connector::getProperty(char const *, class ed::vector<float, class ed::allocator128<float>> const &, class osg::Vec4f &) const
+[   52]         0x33  public: virtual bool __cdecl model::Connector::getProperty(char const *, char **) const
+[   53]         0x34  public: struct model::Texture2dProperties & __cdecl model::PropertiesSet::getTexture(unsigned int)
+[   54]         0x35  public: struct model::Texture2dProperties const & __cdecl model::PropertiesSet::getTexture(unsigned int) const
+[   55]         0x36  public: void __cdecl model::RootNode::getTexturesNames(class ed::unordered_set<class ed::basic_string<char>, struct std::hash<class ed::basic_string<char>>, struct std::equal_to<class ed::basic_string<char>>, class ed::allocator<class ed::basic_string<char>>> &) const
+[   56]         0x37  public: void __cdecl model::RootNode::getTexturesTexCoords(int, class std::unordered_map<class ed::basic_string<char>, class ed::vector<class osg::Vec3f, class ed::allocator<class osg::Vec3f>>, struct std::hash<class ed::basic_string<char>>, struct std::equal_to<class ed::basic_string<char>>, class ed::allocator<struct std::pair<class ed::basic_string<char> const, class ed::vector<class osg::Vec3f, class ed::allocator<class osg::Vec3f>>>>> &) const
+[   57]         0x38  public: class model::Properties const & __cdecl model::BaseMaterial::getUniforms(void) const
+[   58]         0x39  public: unsigned int __cdecl model::RootNode::getUsedArgs(unsigned int *) const
+[   59]         0x3A  public: unsigned int __cdecl model::BaseNode::getVersion(void) const
+[   60]         0x3B  public: unsigned int __cdecl model::VertexFormat::getVertexSize(void) const
+[   61]         0x3C  public: class ed::vector<unsigned int, class ed::allocator<unsigned int>> const & __cdecl model::RootNode::getVisArgs(void) const
+[   62]         0x3D  public: virtual bool __cdecl model::Connector::getVisibility(class ed::vector<float, class ed::allocator128<float>> const &) const
+[   63]         0x3E  public: virtual bool __cdecl model::LightNode::getVisibility(class ed::vector<float, class ed::allocator128<float>> const &) const
+[   64]         0x3F  public: bool __cdecl model::Node::hasAnimation(void) const
+[   65]         0x40  public: class std::tuple<class ed::vector<float, class ed::allocator<float>>, class ed::vector<unsigned int, class ed::allocator<unsigned int>>, struct model::VertexFormat> __cdecl model::ShellNode::intersect(struct osg::OrientedBoundingBoxImpl<class osg::Vec3d> const &, struct model::InstanceData const &) const
+[   66]         0x41  public: bool __cdecl model::ShellNode::intersect(class osg::Vec3f const &, class osg::Vec3f const &, struct model::InstanceData const &, float &, class osg::Vec3f &) const
+[   67]         0x42  public: bool __cdecl model::ShellNode::intersectAnim(class osg::Vec3f const &, class osg::Vec3f const &, struct model::InstanceData const &, float &, class osg::Vec3f &) const
+[   68]         0x43  public: bool __cdecl model::ShellNode::intersectCone(class osg::Matrixd const &, class osg::Matrixd const &, float, float, float, float, struct model::InstanceData const &, class osg::Vec3d &, float &, float &, float &) const
+[   69]         0x44  public: bool __cdecl model::ShellNode::intersectStat(class osg::Vec3f const &, class osg::Vec3f const &, struct model::InstanceData const &, float &, class osg::Vec3f &) const
+[   70]         0x45  public: virtual void __cdecl model::AnimatedFakeOmniLightsNode::load(class io::IBinaryFileR &, class model::IAllocator &, char *, unsigned int)
+[   71]         0x46  public: virtual void __cdecl model::AnimatedFakeSpotLightsNode::load(class io::IBinaryFileR &, class model::IAllocator &, char *, unsigned int)
+[   72]         0x47  public: virtual void __cdecl model::FakeOmniLightsNode::load(class io::IBinaryFileR &, class model::IAllocator &, char *, unsigned int)
+[   73]         0x48  public: void __cdecl model::LazyIndices::loadData(class io::IBinaryFileR &, unsigned char *) const
+[   74]         0x49  public: void __cdecl model::LazyVertices::loadData(class io::IBinaryFileR &, unsigned char *) const
+[   75]         0x4A  public: static class model::RootNode * __cdecl model::RootNode::open(class io::IBinaryFileR &, class model::IAllocator *, struct model::ModelOptions const *)
+[   76]         0x4B  public: class osg::Matrixfa __cdecl model::ShellSkinNode::processHitPos(class ed::span<class osg::Matrixfa const, -1>, int)
+[   77]         0x4C  public: void __cdecl model::ShellSkinNode::processVerts(class ed::span<class osg::Matrixfa const, -1>, struct model::SkinData &)
+[   78]         0x4D  public: void __cdecl model::RootNode::shoot(class osg::Vec3f const &, class osg::Vec3f const &, struct model::InstanceData const &, struct model::Nearest &) const
+[   79]         0x4E  public: bool __cdecl model::RootNode::testSegmentWithBox(class osg::Vec3f const &, class osg::Vec3f const &) const
+[   80]         0x4F  public: bool __cdecl model::RootNode::testWithBBox(class osg::BoundingBoxImpl<class osg::Vec3f> const &, class std::function<void __cdecl(unsigned int, double)> const &) const
+[   81]         0x50  public: void __cdecl model::RootNode::testWithCone(class osg::Matrixd const &, class osg::Matrixd const &, float, float, float, float, struct model::InstanceData const &, class boost::container::small_vector_base<struct model::CollisionConeData, class ed::allocator<struct model::CollisionConeData>, void> &)
+[   82]         0x51  public: bool __cdecl model::RootNode::testWithModel(class osg::Matrixd const &, struct model::InstanceData const &, class model::RootNode &, class osg::Matrixd const &, struct model::InstanceData const &, class std::function<bool __cdecl(char const *, char const *, class osg::Vec3d const &, class osg::Vec3d const &, float, class osg::Vec3f const &)> const &) const
+[   83]         0x52  public: bool __cdecl model::RootNode::testWithModel(class osg::Matrixd const &, struct model::InstanceData const &, class model::IModel &, class osg::Matrixd const &, class model::IModelParams const *, class std::function<bool __cdecl(char const *, char const *, class osg::Vec3d const &, class osg::Vec3d const &, float, class osg::Vec3f const &)> const &) const
+[   84]         0x53  public: void __cdecl model::RootNode::testWithSegment(class osg::Vec3f const &, class osg::Vec3f const &, struct model::InstanceData const &, class boost::container::small_vector_base<struct model::CollisionData, class ed::allocator<struct model::CollisionData>, void> &) const
+[   85]         0x54  public: bool __cdecl model::Texture2dProperties::valid(void) const

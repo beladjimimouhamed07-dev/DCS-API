@@ -1,0 +1,1190 @@
+{
+    "dll": "ModelDesc.dll",
+    "class_count": 22,
+    "classes": {
+        "ExtMemAllocator": {
+            "class_name": "ExtMemAllocator",
+            "namespace": "model",
+            "methods": [
+                {
+                    "ordinal": 1,
+                    "rva": 0,
+                    "rva_hex": "0x0",
+                    "name": "??0ExtMemAllocator@model@@QEAA@XZ",
+                    "demangled": "public: __cdecl model::ExtMemAllocator::ExtMemAllocator(void)",
+                    "function_name": "ExtMemAllocator",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 4,
+                    "rva": 3,
+                    "rva_hex": "0x3",
+                    "name": "??1ExtMemAllocator@model@@UEAA@XZ",
+                    "demangled": "public: virtual __cdecl model::ExtMemAllocator::~ExtMemAllocator(void)",
+                    "function_name": "~ExtMemAllocator",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": true
+                },
+                {
+                    "ordinal": 14,
+                    "rva": 13,
+                    "rva_hex": "0xD",
+                    "name": "?clearTempAllocations@ExtMemAllocator@model@@UEAAXXZ",
+                    "demangled": "public: virtual void __cdecl model::ExtMemAllocator::clearTempAllocations(void)",
+                    "function_name": "clearTempAllocations",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": true
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "InstanceData": {
+            "class_name": "InstanceData",
+            "namespace": "model",
+            "methods": [
+                {
+                    "ordinal": 2,
+                    "rva": 1,
+                    "rva_hex": "0x1",
+                    "name": "??0InstanceData@model@@QEAA@AEBU01@@Z",
+                    "demangled": "public: __cdecl model::InstanceData::InstanceData(struct model::InstanceData const &)",
+                    "function_name": "InstanceData",
+                    "parameters": "struct model::InstanceData const &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 3,
+                    "rva": 2,
+                    "rva_hex": "0x2",
+                    "name": "??0InstanceData@model@@QEAA@XZ",
+                    "demangled": "public: __cdecl model::InstanceData::InstanceData(void)",
+                    "function_name": "InstanceData",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 5,
+                    "rva": 4,
+                    "rva_hex": "0x4",
+                    "name": "??1InstanceData@model@@QEAA@XZ",
+                    "demangled": "public: __cdecl model::InstanceData::~InstanceData(void)",
+                    "function_name": "~InstanceData",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 7,
+                    "rva": 6,
+                    "rva_hex": "0x6",
+                    "name": "?alloc@InstanceData@model@@QEAAXII@Z",
+                    "demangled": "public: void __cdecl model::InstanceData::alloc(unsigned int, unsigned int)",
+                    "function_name": "alloc",
+                    "parameters": "unsigned int, unsigned int",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 13,
+                    "rva": 12,
+                    "rva_hex": "0xC",
+                    "name": "?clear@InstanceData@model@@QEAAXXZ",
+                    "demangled": "public: void __cdecl model::InstanceData::clear(void)",
+                    "function_name": "clear",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "LightNode": {
+            "class_name": "LightNode",
+            "namespace": "model",
+            "methods": [
+                {
+                    "ordinal": 8,
+                    "rva": 7,
+                    "rva_hex": "0x7",
+                    "name": "?apply@LightNode@model@@UEBAXAEBV?$vector@MV?$allocator128@M@ed@@@ed@@@Z",
+                    "demangled": "public: virtual void __cdecl model::LightNode::apply(class ed::vector<float, class ed::allocator128<float>> const &) const",
+                    "function_name": "apply",
+                    "parameters": "class ed::vector<float, class ed::allocator128<float>> const &",
+                    "const": true,
+                    "static": false,
+                    "virtual": true
+                },
+                {
+                    "ordinal": 34,
+                    "rva": 33,
+                    "rva_hex": "0x21",
+                    "name": "?getName@LightNode@model@@QEBAPEBDXZ",
+                    "demangled": "public: char const * __cdecl model::LightNode::getName(void) const",
+                    "function_name": "getName",
+                    "parameters": "void",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 45,
+                    "rva": 44,
+                    "rva_hex": "0x2C",
+                    "name": "?getPosition@LightNode@model@@UEBA?AVMatrixd@osg@@AEBV34@AEBV?$vector@MV?$allocator128@M@ed@@@ed@@@Z",
+                    "demangled": "public: virtual class osg::Matrixd __cdecl model::LightNode::getPosition(class osg::Matrixd const &, class ed::vector<float, class ed::allocator128<float>> const &) const",
+                    "function_name": "getPosition",
+                    "parameters": "class osg::Matrixd const &, class ed::vector<float, class ed::allocator128<float>> const &",
+                    "const": true,
+                    "static": false,
+                    "virtual": true
+                },
+                {
+                    "ordinal": 46,
+                    "rva": 45,
+                    "rva_hex": "0x2D",
+                    "name": "?getPosition@LightNode@model@@UEBAXAEBVMatrixd@osg@@AEBV?$vector@MV?$allocator128@M@ed@@@ed@@AEAV34@@Z",
+                    "demangled": "public: virtual void __cdecl model::LightNode::getPosition(class osg::Matrixd const &, class ed::vector<float, class ed::allocator128<float>> const &, class osg::Matrixd &) const",
+                    "function_name": "getPosition",
+                    "parameters": "class osg::Matrixd const &, class ed::vector<float, class ed::allocator128<float>> const &, class osg::Matrixd &",
+                    "const": true,
+                    "static": false,
+                    "virtual": true
+                },
+                {
+                    "ordinal": 63,
+                    "rva": 62,
+                    "rva_hex": "0x3E",
+                    "name": "?getVisibility@LightNode@model@@UEBA_NAEBV?$vector@MV?$allocator128@M@ed@@@ed@@@Z",
+                    "demangled": "public: virtual bool __cdecl model::LightNode::getVisibility(class ed::vector<float, class ed::allocator128<float>> const &) const",
+                    "function_name": "getVisibility",
+                    "parameters": "class ed::vector<float, class ed::allocator128<float>> const &",
+                    "const": true,
+                    "static": false,
+                    "virtual": true
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "RootNode": {
+            "class_name": "RootNode",
+            "namespace": "model",
+            "methods": [
+                {
+                    "ordinal": 9,
+                    "rva": 8,
+                    "rva_hex": "0x8",
+                    "name": "?calcDefShellSkinNormals@RootNode@model@@QEBAXAEBUInstanceData@2@@Z",
+                    "demangled": "public: void __cdecl model::RootNode::calcDefShellSkinNormals(struct model::InstanceData const &) const",
+                    "function_name": "calcDefShellSkinNormals",
+                    "parameters": "struct model::InstanceData const &",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 11,
+                    "rva": 10,
+                    "rva_hex": "0xA",
+                    "name": "?calculateTransforms@RootNode@model@@QEBAXAEAUInstanceData@2@V?$span@$$CBM$0?0@ed@@@Z",
+                    "demangled": "public: void __cdecl model::RootNode::calculateTransforms(struct model::InstanceData &, class ed::span<float const, -1>) const",
+                    "function_name": "calculateTransforms",
+                    "parameters": "struct model::InstanceData &, class ed::span<float const, -1>",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 15,
+                    "rva": 14,
+                    "rva_hex": "0xE",
+                    "name": "?destroy@RootNode@model@@QEAAXXZ",
+                    "demangled": "public: void __cdecl model::RootNode::destroy(void)",
+                    "function_name": "destroy",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 16,
+                    "rva": 15,
+                    "rva_hex": "0xF",
+                    "name": "?enumerateSegments@RootNode@model@@QEBAXAEBVMatrixd@osg@@AEBUInstanceData@2@AEBV?$function@$$A6AXPEBDAEBVVec3f@osg@@1@Z@std@@@Z",
+                    "demangled": "public: void __cdecl model::RootNode::enumerateSegments(class osg::Matrixd const &, struct model::InstanceData const &, class std::function<void __cdecl(char const *, class osg::Vec3f const &, class osg::Vec3f const &)> const &) const",
+                    "function_name": "enumerateSegments",
+                    "parameters": "class osg::Matrixd const &, struct model::InstanceData const &, class std::function<void __cdecl(char const *, class osg::Vec3f const &, class osg::Vec3f const &)> const &",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 17,
+                    "rva": 16,
+                    "rva_hex": "0x10",
+                    "name": "?findCloseParts2@RootNode@model@@QEBA_NAEBVMatrixd@osg@@AEBUInstanceData@2@AEBVVec3f@4@PEBVClipVolume@@AEBV?$function@$$A6AXPEBDMAEBVVec3d@osg@@@Z@std@@@Z",
+                    "demangled": "public: bool __cdecl model::RootNode::findCloseParts2(class osg::Matrixd const &, struct model::InstanceData const &, class osg::Vec3f const &, class ClipVolume const *, class std::function<void __cdecl(char const *, float, class osg::Vec3d const &)> const &) const",
+                    "function_name": "findCloseParts2",
+                    "parameters": "class osg::Matrixd const &, struct model::InstanceData const &, class osg::Vec3f const &, class ClipVolume const *, class std::function<void __cdecl(char const *, float, class osg::Vec3d const &)> const &",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 18,
+                    "rva": 17,
+                    "rva_hex": "0x11",
+                    "name": "?findCloseParts@RootNode@model@@QEBA_NAEBVMatrixd@osg@@AEBUInstanceData@2@AEBVVec3f@4@PEBVClipVolume@@AEBV?$function@$$A6AXPEBDM@Z@std@@@Z",
+                    "demangled": "public: bool __cdecl model::RootNode::findCloseParts(class osg::Matrixd const &, struct model::InstanceData const &, class osg::Vec3f const &, class ClipVolume const *, class std::function<void __cdecl(char const *, float)> const &) const",
+                    "function_name": "findCloseParts",
+                    "parameters": "class osg::Matrixd const &, struct model::InstanceData const &, class osg::Vec3f const &, class ClipVolume const *, class std::function<void __cdecl(char const *, float)> const &",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 21,
+                    "rva": 20,
+                    "rva_hex": "0x14",
+                    "name": "?getCollisionSegmentId@RootNode@model@@QEBA_KPEBD@Z",
+                    "demangled": "public: unsigned __int64 __cdecl model::RootNode::getCollisionSegmentId(char const *) const",
+                    "function_name": "getCollisionSegmentId",
+                    "parameters": "char const *",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 22,
+                    "rva": 21,
+                    "rva_hex": "0x15",
+                    "name": "?getCollisionSegmentName@RootNode@model@@QEBAPEBD_K@Z",
+                    "demangled": "public: char const * __cdecl model::RootNode::getCollisionSegmentName(unsigned __int64) const",
+                    "function_name": "getCollisionSegmentName",
+                    "parameters": "unsigned __int64",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 23,
+                    "rva": 22,
+                    "rva_hex": "0x16",
+                    "name": "?getCollisionShellBoundingBox@RootNode@model@@QEBA?AV?$BoundingBoxImpl@VVec3f@osg@@@osg@@_KAEBUInstanceData@2@@Z",
+                    "demangled": "public: class osg::BoundingBoxImpl<class osg::Vec3f> __cdecl model::RootNode::getCollisionShellBoundingBox(unsigned __int64, struct model::InstanceData const &) const",
+                    "function_name": "getCollisionShellBoundingBox",
+                    "parameters": "unsigned __int64, struct model::InstanceData const &",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 24,
+                    "rva": 23,
+                    "rva_hex": "0x17",
+                    "name": "?getCollisionShellId@RootNode@model@@QEBA_KPEBD@Z",
+                    "demangled": "public: unsigned __int64 __cdecl model::RootNode::getCollisionShellId(char const *) const",
+                    "function_name": "getCollisionShellId",
+                    "parameters": "char const *",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 25,
+                    "rva": 24,
+                    "rva_hex": "0x18",
+                    "name": "?getCollisionShellName@RootNode@model@@QEBAPEBD_K@Z",
+                    "demangled": "public: char const * __cdecl model::RootNode::getCollisionShellName(unsigned __int64) const",
+                    "function_name": "getCollisionShellName",
+                    "parameters": "unsigned __int64",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 26,
+                    "rva": 25,
+                    "rva_hex": "0x19",
+                    "name": "?getConnectorByName@RootNode@model@@QEAAPEAVConnector@2@PEBD@Z",
+                    "demangled": "public: class model::Connector * __cdecl model::RootNode::getConnectorByName(char const *)",
+                    "function_name": "getConnectorByName",
+                    "parameters": "char const *",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 55,
+                    "rva": 54,
+                    "rva_hex": "0x36",
+                    "name": "?getTexturesNames@RootNode@model@@QEBAXAEAV?$unordered_set@V?$basic_string@D@ed@@U?$hash@V?$basic_string@D@ed@@@std@@U?$equal_to@V?$basic_string@D@ed@@@4@V?$allocator@V?$basic_string@D@ed@@@2@@ed@@@Z",
+                    "demangled": "public: void __cdecl model::RootNode::getTexturesNames(class ed::unordered_set<class ed::basic_string<char>, struct std::hash<class ed::basic_string<char>>, struct std::equal_to<class ed::basic_string<char>>, class ed::allocator<class ed::basic_string<char>>> &) const",
+                    "function_name": "getTexturesNames",
+                    "parameters": "class ed::unordered_set<class ed::basic_string<char>, struct std::hash<class ed::basic_string<char>>, struct std::equal_to<class ed::basic_string<char>>, class ed::allocator<class ed::basic_string<char>>> &",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 56,
+                    "rva": 55,
+                    "rva_hex": "0x37",
+                    "name": "?getTexturesTexCoords@RootNode@model@@QEBAXHAEAV?$unordered_map@V?$basic_string@D@ed@@V?$vector@VVec3f@osg@@V?$allocator@VVec3f@osg@@@ed@@@2@U?$hash@V?$basic_string@D@ed@@@std@@U?$equal_to@V?$basic_string@D@ed@@@5@V?$allocator@U?$pair@$$CBV?$basic_string@D@ed@@V?$vector@VVec3f@osg@@V?$allocator@VVec3f@osg@@@ed@@@2@@std@@@2@@std@@@Z",
+                    "demangled": "public: void __cdecl model::RootNode::getTexturesTexCoords(int, class std::unordered_map<class ed::basic_string<char>, class ed::vector<class osg::Vec3f, class ed::allocator<class osg::Vec3f>>, struct std::hash<class ed::basic_string<char>>, struct std::equal_to<class ed::basic_string<char>>, class ed::allocator<struct std::pair<class ed::basic_string<char> const, class ed::vector<class osg::Vec3f, class ed::allocator<class osg::Vec3f>>>>> &) const",
+                    "function_name": "getTexturesTexCoords",
+                    "parameters": "int, class std::unordered_map<class ed::basic_string<char>, class ed::vector<class osg::Vec3f, class ed::allocator<class osg::Vec3f>>, struct std::hash<class ed::basic_string<char>>, struct std::equal_to<class ed::basic_string<char>>, class ed::allocator<struct std::pair<class ed::basic_string<char> const, class ed::vector<class osg::Vec3f, class ed::allocator<class osg::Vec3f>>>>> &",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 58,
+                    "rva": 57,
+                    "rva_hex": "0x39",
+                    "name": "?getUsedArgs@RootNode@model@@QEBAIPEAI@Z",
+                    "demangled": "public: unsigned int __cdecl model::RootNode::getUsedArgs(unsigned int *) const",
+                    "function_name": "getUsedArgs",
+                    "parameters": "unsigned int *",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 61,
+                    "rva": 60,
+                    "rva_hex": "0x3C",
+                    "name": "?getVisArgs@RootNode@model@@QEBAAEBV?$vector@IV?$allocator@I@ed@@@ed@@XZ",
+                    "demangled": "public: class ed::vector<unsigned int, class ed::allocator<unsigned int>> const & __cdecl model::RootNode::getVisArgs(void) const",
+                    "function_name": "getVisArgs",
+                    "parameters": "void",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 75,
+                    "rva": 74,
+                    "rva_hex": "0x4A",
+                    "name": "?open@RootNode@model@@SAPEAV12@AEAVIBinaryFileR@io@@PEAVIAllocator@2@PEBUModelOptions@2@@Z",
+                    "demangled": "public: static class model::RootNode * __cdecl model::RootNode::open(class io::IBinaryFileR &, class model::IAllocator *, struct model::ModelOptions const *)",
+                    "function_name": "open",
+                    "parameters": "class io::IBinaryFileR &, class model::IAllocator *, struct model::ModelOptions const *",
+                    "const": false,
+                    "static": true,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 78,
+                    "rva": 77,
+                    "rva_hex": "0x4D",
+                    "name": "?shoot@RootNode@model@@QEBAXAEBVVec3f@osg@@0AEBUInstanceData@2@AEAUNearest@2@@Z",
+                    "demangled": "public: void __cdecl model::RootNode::shoot(class osg::Vec3f const &, class osg::Vec3f const &, struct model::InstanceData const &, struct model::Nearest &) const",
+                    "function_name": "shoot",
+                    "parameters": "class osg::Vec3f const &, class osg::Vec3f const &, struct model::InstanceData const &, struct model::Nearest &",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 79,
+                    "rva": 78,
+                    "rva_hex": "0x4E",
+                    "name": "?testSegmentWithBox@RootNode@model@@QEBA_NAEBVVec3f@osg@@0@Z",
+                    "demangled": "public: bool __cdecl model::RootNode::testSegmentWithBox(class osg::Vec3f const &, class osg::Vec3f const &) const",
+                    "function_name": "testSegmentWithBox",
+                    "parameters": "class osg::Vec3f const &, class osg::Vec3f const &",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 80,
+                    "rva": 79,
+                    "rva_hex": "0x4F",
+                    "name": "?testWithBBox@RootNode@model@@QEBA_NAEBV?$BoundingBoxImpl@VVec3f@osg@@@osg@@AEBV?$function@$$A6AXIN@Z@std@@@Z",
+                    "demangled": "public: bool __cdecl model::RootNode::testWithBBox(class osg::BoundingBoxImpl<class osg::Vec3f> const &, class std::function<void __cdecl(unsigned int, double)> const &) const",
+                    "function_name": "testWithBBox",
+                    "parameters": "class osg::BoundingBoxImpl<class osg::Vec3f> const &, class std::function<void __cdecl(unsigned int, double)> const &",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 81,
+                    "rva": 80,
+                    "rva_hex": "0x50",
+                    "name": "?testWithCone@RootNode@model@@QEAAXAEBVMatrixd@osg@@0MMMMAEBUInstanceData@2@AEAV?$small_vector_base@UCollisionConeData@model@@V?$allocator@UCollisionConeData@model@@@ed@@X@container@boost@@@Z",
+                    "demangled": "public: void __cdecl model::RootNode::testWithCone(class osg::Matrixd const &, class osg::Matrixd const &, float, float, float, float, struct model::InstanceData const &, class boost::container::small_vector_base<struct model::CollisionConeData, class ed::allocator<struct model::CollisionConeData>, void> &)",
+                    "function_name": "testWithCone",
+                    "parameters": "class osg::Matrixd const &, class osg::Matrixd const &, float, float, float, float, struct model::InstanceData const &, class boost::container::small_vector_base<struct model::CollisionConeData, class ed::allocator<struct model::CollisionConeData>, void> &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 82,
+                    "rva": 81,
+                    "rva_hex": "0x51",
+                    "name": "?testWithModel@RootNode@model@@QEBA_NAEBVMatrixd@osg@@AEBUInstanceData@2@AEAV12@01AEBV?$function@$$A6A_NPEBD0AEBVVec3d@osg@@1MAEBVVec3f@2@@Z@std@@@Z",
+                    "demangled": "public: bool __cdecl model::RootNode::testWithModel(class osg::Matrixd const &, struct model::InstanceData const &, class model::RootNode &, class osg::Matrixd const &, struct model::InstanceData const &, class std::function<bool __cdecl(char const *, char const *, class osg::Vec3d const &, class osg::Vec3d const &, float, class osg::Vec3f const &)> const &) const",
+                    "function_name": "testWithModel",
+                    "parameters": "class osg::Matrixd const &, struct model::InstanceData const &, class model::RootNode &, class osg::Matrixd const &, struct model::InstanceData const &, class std::function<bool __cdecl(char const *, char const *, class osg::Vec3d const &, class osg::Vec3d const &, float, class osg::Vec3f const &)> const &",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 83,
+                    "rva": 82,
+                    "rva_hex": "0x52",
+                    "name": "?testWithModel@RootNode@model@@QEBA_NAEBVMatrixd@osg@@AEBUInstanceData@2@AEAVIModel@2@0PEBVIModelParams@2@AEBV?$function@$$A6A_NPEBD0AEBVVec3d@osg@@1MAEBVVec3f@2@@Z@std@@@Z",
+                    "demangled": "public: bool __cdecl model::RootNode::testWithModel(class osg::Matrixd const &, struct model::InstanceData const &, class model::IModel &, class osg::Matrixd const &, class model::IModelParams const *, class std::function<bool __cdecl(char const *, char const *, class osg::Vec3d const &, class osg::Vec3d const &, float, class osg::Vec3f const &)> const &) const",
+                    "function_name": "testWithModel",
+                    "parameters": "class osg::Matrixd const &, struct model::InstanceData const &, class model::IModel &, class osg::Matrixd const &, class model::IModelParams const *, class std::function<bool __cdecl(char const *, char const *, class osg::Vec3d const &, class osg::Vec3d const &, float, class osg::Vec3f const &)> const &",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 84,
+                    "rva": 83,
+                    "rva_hex": "0x53",
+                    "name": "?testWithSegment@RootNode@model@@QEBAXAEBVVec3f@osg@@0AEBUInstanceData@2@AEAV?$small_vector_base@UCollisionData@model@@V?$allocator@UCollisionData@model@@@ed@@X@container@boost@@@Z",
+                    "demangled": "public: void __cdecl model::RootNode::testWithSegment(class osg::Vec3f const &, class osg::Vec3f const &, struct model::InstanceData const &, class boost::container::small_vector_base<struct model::CollisionData, class ed::allocator<struct model::CollisionData>, void> &) const",
+                    "function_name": "testWithSegment",
+                    "parameters": "class osg::Vec3f const &, class osg::Vec3f const &, struct model::InstanceData const &, class boost::container::small_vector_base<struct model::CollisionData, class ed::allocator<struct model::CollisionData>, void> &",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "PropertiesSet": {
+            "class_name": "PropertiesSet",
+            "namespace": "model",
+            "methods": [
+                {
+                    "ordinal": 10,
+                    "rva": 9,
+                    "rva_hex": "0x9",
+                    "name": "?calcNumberOfUsedTextures@PropertiesSet@model@@QEBAHXZ",
+                    "demangled": "public: int __cdecl model::PropertiesSet::calcNumberOfUsedTextures(void) const",
+                    "function_name": "calcNumberOfUsedTextures",
+                    "parameters": "void",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 53,
+                    "rva": 52,
+                    "rva_hex": "0x34",
+                    "name": "?getTexture@PropertiesSet@model@@QEAAAEAUTexture2dProperties@2@I@Z",
+                    "demangled": "public: struct model::Texture2dProperties & __cdecl model::PropertiesSet::getTexture(unsigned int)",
+                    "function_name": "getTexture",
+                    "parameters": "unsigned int",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 54,
+                    "rva": 53,
+                    "rva_hex": "0x35",
+                    "name": "?getTexture@PropertiesSet@model@@QEBAAEBUTexture2dProperties@2@I@Z",
+                    "demangled": "public: struct model::Texture2dProperties const & __cdecl model::PropertiesSet::getTexture(unsigned int) const",
+                    "function_name": "getTexture",
+                    "parameters": "unsigned int",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "Node": {
+            "class_name": "Node",
+            "namespace": "model",
+            "methods": [
+                {
+                    "ordinal": 12,
+                    "rva": 11,
+                    "rva_hex": "0xB",
+                    "name": "?checkAnimation@Node@model@@UEBA_NXZ",
+                    "demangled": "public: virtual bool __cdecl model::Node::checkAnimation(void) const",
+                    "function_name": "checkAnimation",
+                    "parameters": "void",
+                    "const": true,
+                    "static": false,
+                    "virtual": true
+                },
+                {
+                    "ordinal": 64,
+                    "rva": 63,
+                    "rva_hex": "0x3F",
+                    "name": "?hasAnimation@Node@model@@QEBA_NXZ",
+                    "demangled": "public: bool __cdecl model::Node::hasAnimation(void) const",
+                    "function_name": "hasAnimation",
+                    "parameters": "void",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "BaseMaterial": {
+            "class_name": "BaseMaterial",
+            "namespace": "model",
+            "methods": [
+                {
+                    "ordinal": 19,
+                    "rva": 18,
+                    "rva_hex": "0x12",
+                    "name": "?getAnimatedUniforms@BaseMaterial@model@@QEBAAEBVAnimatedProperties@2@XZ",
+                    "demangled": "public: class model::AnimatedProperties const & __cdecl model::BaseMaterial::getAnimatedUniforms(void) const",
+                    "function_name": "getAnimatedUniforms",
+                    "parameters": "void",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 57,
+                    "rva": 56,
+                    "rva_hex": "0x38",
+                    "name": "?getUniforms@BaseMaterial@model@@QEBAAEBVProperties@2@XZ",
+                    "demangled": "public: class model::Properties const & __cdecl model::BaseMaterial::getUniforms(void) const",
+                    "function_name": "getUniforms",
+                    "parameters": "void",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "FakeOmniLightsNode": {
+            "class_name": "FakeOmniLightsNode",
+            "namespace": "model",
+            "methods": [
+                {
+                    "ordinal": 20,
+                    "rva": 19,
+                    "rva_hex": "0x13",
+                    "name": "?getBBox@FakeOmniLightsNode@model@@UEBAAEBV?$BoundingBoxImpl@VVec3f@osg@@@osg@@I@Z",
+                    "demangled": "public: virtual class osg::BoundingBoxImpl<class osg::Vec3f> const & __cdecl model::FakeOmniLightsNode::getBBox(unsigned int) const",
+                    "function_name": "getBBox",
+                    "parameters": "unsigned int",
+                    "const": true,
+                    "static": false,
+                    "virtual": true
+                },
+                {
+                    "ordinal": 27,
+                    "rva": 26,
+                    "rva_hex": "0x1A",
+                    "name": "?getControlNode@FakeOmniLightsNode@model@@UEBAPEBVNode@2@I@Z",
+                    "demangled": "public: virtual class model::Node const * __cdecl model::FakeOmniLightsNode::getControlNode(unsigned int) const",
+                    "function_name": "getControlNode",
+                    "parameters": "unsigned int",
+                    "const": true,
+                    "static": false,
+                    "virtual": true
+                },
+                {
+                    "ordinal": 32,
+                    "rva": 31,
+                    "rva_hex": "0x1F",
+                    "name": "?getLights@FakeOmniLightsNode@model@@QEBAPEBUFakeOmniLight@2@XZ",
+                    "demangled": "public: struct model::FakeOmniLight const * __cdecl model::FakeOmniLightsNode::getLights(void) const",
+                    "function_name": "getLights",
+                    "parameters": "void",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 35,
+                    "rva": 34,
+                    "rva_hex": "0x22",
+                    "name": "?getNumControlNodes@FakeOmniLightsNode@model@@UEBAIXZ",
+                    "demangled": "public: virtual unsigned int __cdecl model::FakeOmniLightsNode::getNumControlNodes(void) const",
+                    "function_name": "getNumControlNodes",
+                    "parameters": "void",
+                    "const": true,
+                    "static": false,
+                    "virtual": true
+                },
+                {
+                    "ordinal": 37,
+                    "rva": 36,
+                    "rva_hex": "0x24",
+                    "name": "?getNumLights@FakeOmniLightsNode@model@@QEBAIXZ",
+                    "demangled": "public: unsigned int __cdecl model::FakeOmniLightsNode::getNumLights(void) const",
+                    "function_name": "getNumLights",
+                    "parameters": "void",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 40,
+                    "rva": 39,
+                    "rva_hex": "0x27",
+                    "name": "?getNumTriangles@FakeOmniLightsNode@model@@QEBAIXZ",
+                    "demangled": "public: unsigned int __cdecl model::FakeOmniLightsNode::getNumTriangles(void) const",
+                    "function_name": "getNumTriangles",
+                    "parameters": "void",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 72,
+                    "rva": 71,
+                    "rva_hex": "0x47",
+                    "name": "?load@FakeOmniLightsNode@model@@UEAAXAEAVIBinaryFileR@io@@AEAVIAllocator@2@PEADI@Z",
+                    "demangled": "public: virtual void __cdecl model::FakeOmniLightsNode::load(class io::IBinaryFileR &, class model::IAllocator &, char *, unsigned int)",
+                    "function_name": "load",
+                    "parameters": "class io::IBinaryFileR &, class model::IAllocator &, char *, unsigned int",
+                    "const": false,
+                    "static": false,
+                    "virtual": true
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "FakeSpotLightsNode": {
+            "class_name": "FakeSpotLightsNode",
+            "namespace": "model",
+            "methods": [
+                {
+                    "ordinal": 28,
+                    "rva": 27,
+                    "rva_hex": "0x1B",
+                    "name": "?getControlNode@FakeSpotLightsNode@model@@UEBAPEBVNode@2@I@Z",
+                    "demangled": "public: virtual class model::Node const * __cdecl model::FakeSpotLightsNode::getControlNode(unsigned int) const",
+                    "function_name": "getControlNode",
+                    "parameters": "unsigned int",
+                    "const": true,
+                    "static": false,
+                    "virtual": true
+                },
+                {
+                    "ordinal": 36,
+                    "rva": 35,
+                    "rva_hex": "0x23",
+                    "name": "?getNumControlNodes@FakeSpotLightsNode@model@@UEBAIXZ",
+                    "demangled": "public: virtual unsigned int __cdecl model::FakeSpotLightsNode::getNumControlNodes(void) const",
+                    "function_name": "getNumControlNodes",
+                    "parameters": "void",
+                    "const": true,
+                    "static": false,
+                    "virtual": true
+                },
+                {
+                    "ordinal": 41,
+                    "rva": 40,
+                    "rva_hex": "0x28",
+                    "name": "?getNumTriangles@FakeSpotLightsNode@model@@QEBAIXZ",
+                    "demangled": "public: unsigned int __cdecl model::FakeSpotLightsNode::getNumTriangles(void) const",
+                    "function_name": "getNumTriangles",
+                    "parameters": "void",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "RenderNode": {
+            "class_name": "RenderNode",
+            "namespace": "model",
+            "methods": [
+                {
+                    "ordinal": 29,
+                    "rva": 28,
+                    "rva_hex": "0x1C",
+                    "name": "?getDamageHandle@RenderNode@model@@QEBAII@Z",
+                    "demangled": "public: unsigned int __cdecl model::RenderNode::getDamageHandle(unsigned int) const",
+                    "function_name": "getDamageHandle",
+                    "parameters": "unsigned int",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "AnimatedFakeOmniLightsNode": {
+            "class_name": "AnimatedFakeOmniLightsNode",
+            "namespace": "model",
+            "methods": [
+                {
+                    "ordinal": 30,
+                    "rva": 29,
+                    "rva_hex": "0x1D",
+                    "name": "?getHandles@AnimatedFakeOmniLightsNode@model@@UEBAXPEAI@Z",
+                    "demangled": "public: virtual void __cdecl model::AnimatedFakeOmniLightsNode::getHandles(unsigned int *) const",
+                    "function_name": "getHandles",
+                    "parameters": "unsigned int *",
+                    "const": true,
+                    "static": false,
+                    "virtual": true
+                },
+                {
+                    "ordinal": 70,
+                    "rva": 69,
+                    "rva_hex": "0x45",
+                    "name": "?load@AnimatedFakeOmniLightsNode@model@@UEAAXAEAVIBinaryFileR@io@@AEAVIAllocator@2@PEADI@Z",
+                    "demangled": "public: virtual void __cdecl model::AnimatedFakeOmniLightsNode::load(class io::IBinaryFileR &, class model::IAllocator &, char *, unsigned int)",
+                    "function_name": "load",
+                    "parameters": "class io::IBinaryFileR &, class model::IAllocator &, char *, unsigned int",
+                    "const": false,
+                    "static": false,
+                    "virtual": true
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "AnimatedFakeSpotLightsNode": {
+            "class_name": "AnimatedFakeSpotLightsNode",
+            "namespace": "model",
+            "methods": [
+                {
+                    "ordinal": 31,
+                    "rva": 30,
+                    "rva_hex": "0x1E",
+                    "name": "?getHandles@AnimatedFakeSpotLightsNode@model@@UEBAXPEAI@Z",
+                    "demangled": "public: virtual void __cdecl model::AnimatedFakeSpotLightsNode::getHandles(unsigned int *) const",
+                    "function_name": "getHandles",
+                    "parameters": "unsigned int *",
+                    "const": true,
+                    "static": false,
+                    "virtual": true
+                },
+                {
+                    "ordinal": 71,
+                    "rva": 70,
+                    "rva_hex": "0x46",
+                    "name": "?load@AnimatedFakeSpotLightsNode@model@@UEAAXAEAVIBinaryFileR@io@@AEAVIAllocator@2@PEADI@Z",
+                    "demangled": "public: virtual void __cdecl model::AnimatedFakeSpotLightsNode::load(class io::IBinaryFileR &, class model::IAllocator &, char *, unsigned int)",
+                    "function_name": "load",
+                    "parameters": "class io::IBinaryFileR &, class model::IAllocator &, char *, unsigned int",
+                    "const": false,
+                    "static": false,
+                    "virtual": true
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "Connector": {
+            "class_name": "Connector",
+            "namespace": "model",
+            "methods": [
+                {
+                    "ordinal": 33,
+                    "rva": 32,
+                    "rva_hex": "0x20",
+                    "name": "?getName@Connector@model@@UEBAPEBDXZ",
+                    "demangled": "public: virtual char const * __cdecl model::Connector::getName(void) const",
+                    "function_name": "getName",
+                    "parameters": "void",
+                    "const": true,
+                    "static": false,
+                    "virtual": true
+                },
+                {
+                    "ordinal": 43,
+                    "rva": 42,
+                    "rva_hex": "0x2A",
+                    "name": "?getPosition@Connector@model@@UEBA?AVMatrixd@osg@@AEBV34@AEBV?$vector@MV?$allocator128@M@ed@@@ed@@@Z",
+                    "demangled": "public: virtual class osg::Matrixd __cdecl model::Connector::getPosition(class osg::Matrixd const &, class ed::vector<float, class ed::allocator128<float>> const &) const",
+                    "function_name": "getPosition",
+                    "parameters": "class osg::Matrixd const &, class ed::vector<float, class ed::allocator128<float>> const &",
+                    "const": true,
+                    "static": false,
+                    "virtual": true
+                },
+                {
+                    "ordinal": 44,
+                    "rva": 43,
+                    "rva_hex": "0x2B",
+                    "name": "?getPosition@Connector@model@@UEBAXAEBVMatrixd@osg@@AEBV?$vector@MV?$allocator128@M@ed@@@ed@@AEAV34@@Z",
+                    "demangled": "public: virtual void __cdecl model::Connector::getPosition(class osg::Matrixd const &, class ed::vector<float, class ed::allocator128<float>> const &, class osg::Matrixd &) const",
+                    "function_name": "getPosition",
+                    "parameters": "class osg::Matrixd const &, class ed::vector<float, class ed::allocator128<float>> const &, class osg::Matrixd &",
+                    "const": true,
+                    "static": false,
+                    "virtual": true
+                },
+                {
+                    "ordinal": 47,
+                    "rva": 46,
+                    "rva_hex": "0x2E",
+                    "name": "?getProperty@Connector@model@@UEBA_NPEBDAEBV?$vector@MV?$allocator128@M@ed@@@ed@@AEAI@Z",
+                    "demangled": "public: virtual bool __cdecl model::Connector::getProperty(char const *, class ed::vector<float, class ed::allocator128<float>> const &, unsigned int &) const",
+                    "function_name": "getProperty",
+                    "parameters": "char const *, class ed::vector<float, class ed::allocator128<float>> const &, unsigned int &",
+                    "const": true,
+                    "static": false,
+                    "virtual": true
+                },
+                {
+                    "ordinal": 48,
+                    "rva": 47,
+                    "rva_hex": "0x2F",
+                    "name": "?getProperty@Connector@model@@UEBA_NPEBDAEBV?$vector@MV?$allocator128@M@ed@@@ed@@AEAM@Z",
+                    "demangled": "public: virtual bool __cdecl model::Connector::getProperty(char const *, class ed::vector<float, class ed::allocator128<float>> const &, float &) const",
+                    "function_name": "getProperty",
+                    "parameters": "char const *, class ed::vector<float, class ed::allocator128<float>> const &, float &",
+                    "const": true,
+                    "static": false,
+                    "virtual": true
+                },
+                {
+                    "ordinal": 49,
+                    "rva": 48,
+                    "rva_hex": "0x30",
+                    "name": "?getProperty@Connector@model@@UEBA_NPEBDAEBV?$vector@MV?$allocator128@M@ed@@@ed@@AEAVVec2f@osg@@@Z",
+                    "demangled": "public: virtual bool __cdecl model::Connector::getProperty(char const *, class ed::vector<float, class ed::allocator128<float>> const &, class osg::Vec2f &) const",
+                    "function_name": "getProperty",
+                    "parameters": "char const *, class ed::vector<float, class ed::allocator128<float>> const &, class osg::Vec2f &",
+                    "const": true,
+                    "static": false,
+                    "virtual": true
+                },
+                {
+                    "ordinal": 50,
+                    "rva": 49,
+                    "rva_hex": "0x31",
+                    "name": "?getProperty@Connector@model@@UEBA_NPEBDAEBV?$vector@MV?$allocator128@M@ed@@@ed@@AEAVVec3f@osg@@@Z",
+                    "demangled": "public: virtual bool __cdecl model::Connector::getProperty(char const *, class ed::vector<float, class ed::allocator128<float>> const &, class osg::Vec3f &) const",
+                    "function_name": "getProperty",
+                    "parameters": "char const *, class ed::vector<float, class ed::allocator128<float>> const &, class osg::Vec3f &",
+                    "const": true,
+                    "static": false,
+                    "virtual": true
+                },
+                {
+                    "ordinal": 51,
+                    "rva": 50,
+                    "rva_hex": "0x32",
+                    "name": "?getProperty@Connector@model@@UEBA_NPEBDAEBV?$vector@MV?$allocator128@M@ed@@@ed@@AEAVVec4f@osg@@@Z",
+                    "demangled": "public: virtual bool __cdecl model::Connector::getProperty(char const *, class ed::vector<float, class ed::allocator128<float>> const &, class osg::Vec4f &) const",
+                    "function_name": "getProperty",
+                    "parameters": "char const *, class ed::vector<float, class ed::allocator128<float>> const &, class osg::Vec4f &",
+                    "const": true,
+                    "static": false,
+                    "virtual": true
+                },
+                {
+                    "ordinal": 52,
+                    "rva": 51,
+                    "rva_hex": "0x33",
+                    "name": "?getProperty@Connector@model@@UEBA_NPEBDPEAPEAD@Z",
+                    "demangled": "public: virtual bool __cdecl model::Connector::getProperty(char const *, char **) const",
+                    "function_name": "getProperty",
+                    "parameters": "char const *, char **",
+                    "const": true,
+                    "static": false,
+                    "virtual": true
+                },
+                {
+                    "ordinal": 62,
+                    "rva": 61,
+                    "rva_hex": "0x3D",
+                    "name": "?getVisibility@Connector@model@@UEBA_NAEBV?$vector@MV?$allocator128@M@ed@@@ed@@@Z",
+                    "demangled": "public: virtual bool __cdecl model::Connector::getVisibility(class ed::vector<float, class ed::allocator128<float>> const &) const",
+                    "function_name": "getVisibility",
+                    "parameters": "class ed::vector<float, class ed::allocator128<float>> const &",
+                    "const": true,
+                    "static": false,
+                    "virtual": true
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "AnimatedProperties": {
+            "class_name": "AnimatedProperties",
+            "namespace": "model",
+            "methods": [
+                {
+                    "ordinal": 38,
+                    "rva": 37,
+                    "rva_hex": "0x25",
+                    "name": "?getNumProperties@AnimatedProperties@model@@QEBAIXZ",
+                    "demangled": "public: unsigned int __cdecl model::AnimatedProperties::getNumProperties(void) const",
+                    "function_name": "getNumProperties",
+                    "parameters": "void",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "Properties": {
+            "class_name": "Properties",
+            "namespace": "model",
+            "methods": [
+                {
+                    "ordinal": 39,
+                    "rva": 38,
+                    "rva_hex": "0x26",
+                    "name": "?getNumProperties@Properties@model@@QEBAIXZ",
+                    "demangled": "public: unsigned int __cdecl model::Properties::getNumProperties(void) const",
+                    "function_name": "getNumProperties",
+                    "parameters": "void",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "VertexFormat": {
+            "class_name": "VertexFormat",
+            "namespace": "model",
+            "methods": [
+                {
+                    "ordinal": 42,
+                    "rva": 41,
+                    "rva_hex": "0x29",
+                    "name": "?getOffset@VertexFormat@model@@QEBAII@Z",
+                    "demangled": "public: unsigned int __cdecl model::VertexFormat::getOffset(unsigned int) const",
+                    "function_name": "getOffset",
+                    "parameters": "unsigned int",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 60,
+                    "rva": 59,
+                    "rva_hex": "0x3B",
+                    "name": "?getVertexSize@VertexFormat@model@@QEBAIXZ",
+                    "demangled": "public: unsigned int __cdecl model::VertexFormat::getVertexSize(void) const",
+                    "function_name": "getVertexSize",
+                    "parameters": "void",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "BaseNode": {
+            "class_name": "BaseNode",
+            "namespace": "model",
+            "methods": [
+                {
+                    "ordinal": 59,
+                    "rva": 58,
+                    "rva_hex": "0x3A",
+                    "name": "?getVersion@BaseNode@model@@QEBAIXZ",
+                    "demangled": "public: unsigned int __cdecl model::BaseNode::getVersion(void) const",
+                    "function_name": "getVersion",
+                    "parameters": "void",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "ShellNode": {
+            "class_name": "ShellNode",
+            "namespace": "model",
+            "methods": [
+                {
+                    "ordinal": 65,
+                    "rva": 64,
+                    "rva_hex": "0x40",
+                    "name": "?intersect@ShellNode@model@@QEBA?AV?$tuple@V?$vector@MV?$allocator@M@ed@@@ed@@V?$vector@IV?$allocator@I@ed@@@2@UVertexFormat@model@@@std@@AEBU?$OrientedBoundingBoxImpl@VVec3d@osg@@@osg@@AEBUInstanceData@2@@Z",
+                    "demangled": "public: class std::tuple<class ed::vector<float, class ed::allocator<float>>, class ed::vector<unsigned int, class ed::allocator<unsigned int>>, struct model::VertexFormat> __cdecl model::ShellNode::intersect(struct osg::OrientedBoundingBoxImpl<class osg::Vec3d> const &, struct model::InstanceData const &) const",
+                    "function_name": "intersect",
+                    "parameters": "struct osg::OrientedBoundingBoxImpl<class osg::Vec3d> const &, struct model::InstanceData const &",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 66,
+                    "rva": 65,
+                    "rva_hex": "0x41",
+                    "name": "?intersect@ShellNode@model@@QEBA_NAEBVVec3f@osg@@0AEBUInstanceData@2@AEAMAEAV34@@Z",
+                    "demangled": "public: bool __cdecl model::ShellNode::intersect(class osg::Vec3f const &, class osg::Vec3f const &, struct model::InstanceData const &, float &, class osg::Vec3f &) const",
+                    "function_name": "intersect",
+                    "parameters": "class osg::Vec3f const &, class osg::Vec3f const &, struct model::InstanceData const &, float &, class osg::Vec3f &",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 67,
+                    "rva": 66,
+                    "rva_hex": "0x42",
+                    "name": "?intersectAnim@ShellNode@model@@QEBA_NAEBVVec3f@osg@@0AEBUInstanceData@2@AEAMAEAV34@@Z",
+                    "demangled": "public: bool __cdecl model::ShellNode::intersectAnim(class osg::Vec3f const &, class osg::Vec3f const &, struct model::InstanceData const &, float &, class osg::Vec3f &) const",
+                    "function_name": "intersectAnim",
+                    "parameters": "class osg::Vec3f const &, class osg::Vec3f const &, struct model::InstanceData const &, float &, class osg::Vec3f &",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 68,
+                    "rva": 67,
+                    "rva_hex": "0x43",
+                    "name": "?intersectCone@ShellNode@model@@QEBA_NAEBVMatrixd@osg@@0MMMMAEBUInstanceData@2@AEAVVec3d@4@AEAM33@Z",
+                    "demangled": "public: bool __cdecl model::ShellNode::intersectCone(class osg::Matrixd const &, class osg::Matrixd const &, float, float, float, float, struct model::InstanceData const &, class osg::Vec3d &, float &, float &, float &) const",
+                    "function_name": "intersectCone",
+                    "parameters": "class osg::Matrixd const &, class osg::Matrixd const &, float, float, float, float, struct model::InstanceData const &, class osg::Vec3d &, float &, float &, float &",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 69,
+                    "rva": 68,
+                    "rva_hex": "0x44",
+                    "name": "?intersectStat@ShellNode@model@@QEBA_NAEBVVec3f@osg@@0AEBUInstanceData@2@AEAMAEAV34@@Z",
+                    "demangled": "public: bool __cdecl model::ShellNode::intersectStat(class osg::Vec3f const &, class osg::Vec3f const &, struct model::InstanceData const &, float &, class osg::Vec3f &) const",
+                    "function_name": "intersectStat",
+                    "parameters": "class osg::Vec3f const &, class osg::Vec3f const &, struct model::InstanceData const &, float &, class osg::Vec3f &",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "LazyIndices": {
+            "class_name": "LazyIndices",
+            "namespace": "model",
+            "methods": [
+                {
+                    "ordinal": 73,
+                    "rva": 72,
+                    "rva_hex": "0x48",
+                    "name": "?loadData@LazyIndices@model@@QEBAXAEAVIBinaryFileR@io@@PEAE@Z",
+                    "demangled": "public: void __cdecl model::LazyIndices::loadData(class io::IBinaryFileR &, unsigned char *) const",
+                    "function_name": "loadData",
+                    "parameters": "class io::IBinaryFileR &, unsigned char *",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "LazyVertices": {
+            "class_name": "LazyVertices",
+            "namespace": "model",
+            "methods": [
+                {
+                    "ordinal": 74,
+                    "rva": 73,
+                    "rva_hex": "0x49",
+                    "name": "?loadData@LazyVertices@model@@QEBAXAEAVIBinaryFileR@io@@PEAE@Z",
+                    "demangled": "public: void __cdecl model::LazyVertices::loadData(class io::IBinaryFileR &, unsigned char *) const",
+                    "function_name": "loadData",
+                    "parameters": "class io::IBinaryFileR &, unsigned char *",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "ShellSkinNode": {
+            "class_name": "ShellSkinNode",
+            "namespace": "model",
+            "methods": [
+                {
+                    "ordinal": 76,
+                    "rva": 75,
+                    "rva_hex": "0x4B",
+                    "name": "?processHitPos@ShellSkinNode@model@@QEAA?AVMatrixfa@osg@@V?$span@$$CBVMatrixfa@osg@@$0?0@ed@@H@Z",
+                    "demangled": "public: class osg::Matrixfa __cdecl model::ShellSkinNode::processHitPos(class ed::span<class osg::Matrixfa const, -1>, int)",
+                    "function_name": "processHitPos",
+                    "parameters": "class ed::span<class osg::Matrixfa const, -1>, int",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 77,
+                    "rva": 76,
+                    "rva_hex": "0x4C",
+                    "name": "?processVerts@ShellSkinNode@model@@QEAAXV?$span@$$CBVMatrixfa@osg@@$0?0@ed@@AEAUSkinData@2@@Z",
+                    "demangled": "public: void __cdecl model::ShellSkinNode::processVerts(class ed::span<class osg::Matrixfa const, -1>, struct model::SkinData &)",
+                    "function_name": "processVerts",
+                    "parameters": "class ed::span<class osg::Matrixfa const, -1>, struct model::SkinData &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "Texture2dProperties": {
+            "class_name": "Texture2dProperties",
+            "namespace": "model",
+            "methods": [
+                {
+                    "ordinal": 85,
+                    "rva": 84,
+                    "rva_hex": "0x54",
+                    "name": "?valid@Texture2dProperties@model@@QEBA_NXZ",
+                    "demangled": "public: bool __cdecl model::Texture2dProperties::valid(void) const",
+                    "function_name": "valid",
+                    "parameters": "void",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        }
+    }
+}

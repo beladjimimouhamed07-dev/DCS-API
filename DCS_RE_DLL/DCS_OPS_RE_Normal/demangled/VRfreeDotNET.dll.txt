@@ -1,0 +1,3 @@
+// DCS_OPS_RE: VRfreeDotNET.dll
+// Generated from dumpbin /exports
+

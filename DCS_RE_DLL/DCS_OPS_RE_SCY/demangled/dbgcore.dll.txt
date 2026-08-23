@@ -1,0 +1,5 @@
+// DCS_OPS_RE: dbgcore.dll
+// Generated from dumpbin /exports
+
+[    1]          0x0  MiniDumpReadDumpStream
+[    2]          0x1  MiniDumpWriteDump

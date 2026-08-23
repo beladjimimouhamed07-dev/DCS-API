@@ -1,0 +1,255 @@
+// DCS_OPS_RE: FW190Base.dll
+// Generated from dumpbin /exports
+
+[    1]          0x0  public: __cdecl EagleFM::FW190::FW190BrakesSystem::FW190BrakesSystem(class EagleFM::FW190::FW190BrakesSystem &&)
+[    2]          0x1  public: __cdecl EagleFM::FW190::FW190BrakesSystem::FW190BrakesSystem(class EagleFM::FW190::FW190BrakesSystem const &)
+[    3]          0x2  public: __cdecl EagleFM::FW190::FW190BrakesSystem::FW190BrakesSystem(class EagleFM::AerodyneFM *)
+[    4]          0x3  public: __cdecl EagleFM::FW190::FW190ControlSystem::FW190ControlSystem(class EagleFM::FW190::FW190ControlSystem &&)
+[    5]          0x4  public: __cdecl EagleFM::FW190::FW190ControlSystem::FW190ControlSystem(class EagleFM::FW190::FW190ControlSystem const &)
+[    6]          0x5  public: __cdecl EagleFM::FW190::FW190ControlSystem::FW190ControlSystem(void)
+[    7]          0x6  public: __cdecl EagleFM::FW190::FW190ElectricSystem::FW190ElectricSystem(class PropertyTable_<double> &, class EagleFM::AerodyneFM *)
+[    8]          0x7  public: __cdecl EagleFM::FW190::FW190ElectricSystem::FW190ElectricSystem(class EagleFM::FW190::FW190ElectricSystem const &)
+[    9]          0x8  public: __cdecl EagleFM::FW190::FW190FM::FW190FM(class IwoLA *)
+[   10]          0x9  public: __cdecl EagleFM::FW190::FW190FuelSystem::FW190FuelSystem(class EagleFM::DynamicBody &, class EagleFM::Elec::Wire *, class EagleFM::Sensor **, class PropertyTable_<double> &, class EagleFM::AerodyneFM *, double)
+[   11]          0xA  public: __cdecl EagleFM::FW190::FW190FuelSystem::FW190FuelSystem(class EagleFM::FW190::FW190FuelSystem const &)
+[   12]          0xB  public: __cdecl EagleFM::FW190::FW190OxygenSystem::FW190OxygenSystem(class EagleFM::FW190::FW190OxygenSystem const &)
+[   13]          0xC  public: __cdecl EagleFM::FW190::FW190OxygenSystem::FW190OxygenSystem(class EagleFM::DynamicBody *, class EagleFM::Sensor **, class PropertyTable_<double> &, class EagleFM::AerodyneFM *)
+[   14]          0xD  public: __cdecl EagleFM::FW190::FW190SensorsSystem::FW190SensorsSystem(class EagleFM::FW190::FW190SensorsSystem const &)
+[   15]          0xE  public: __cdecl EagleFM::FW190::FW190SensorsSystem::FW190SensorsSystem(class EagleFM::DynamicBody *, class EagleFM::Elec::Wire *)
+[   16]          0xF  public: __cdecl EagleFM::FW190::FlapCenterAD::FlapCenterAD(class EagleFM::FW190::FlapCenterAD &&)
+[   17]         0x10  public: __cdecl EagleFM::FW190::FlapCenterAD::FlapCenterAD(class EagleFM::FW190::FlapCenterAD const &)
+[   18]         0x11  public: __cdecl EagleFM::FW190::FlapCenterAD::FlapCenterAD(double)
+[   19]         0x12  public: __cdecl EagleFM::FW190::FlapInAD::FlapInAD(class EagleFM::FW190::FlapInAD &&)
+[   20]         0x13  public: __cdecl EagleFM::FW190::FlapInAD::FlapInAD(class EagleFM::FW190::FlapInAD const &)
+[   21]         0x14  public: __cdecl EagleFM::FW190::FlapInAD::FlapInAD(double)
+[   22]         0x15  public: __cdecl EagleFM::FW190::Gear::Gear(class EagleFM::FW190::Gear const &)
+[   23]         0x16  public: __cdecl EagleFM::FW190::Gear::Gear(class EagleFM::AerodyneFM *, struct EagleFM::FW190::Gear::GearsInParam &, struct EagleFM::FW190::Gear::GearsInParam &, class EagleFM::Elec::Wire *, class PropertyTable_<double> &)
+[   24]         0x17  public: virtual __cdecl EagleFM::FW190::FW190BrakesSystem::~FW190BrakesSystem(void)
+[   25]         0x18  public: virtual __cdecl EagleFM::FW190::FW190ControlSystem::~FW190ControlSystem(void)
+[   26]         0x19  public: virtual __cdecl EagleFM::FW190::FW190ElectricSystem::~FW190ElectricSystem(void)
+[   27]         0x1A  public: virtual __cdecl EagleFM::FW190::FW190FM::~FW190FM(void)
+[   28]         0x1B  public: virtual __cdecl EagleFM::FW190::FW190FuelSystem::~FW190FuelSystem(void)
+[   29]         0x1C  public: virtual __cdecl EagleFM::FW190::FW190OxygenSystem::~FW190OxygenSystem(void)
+[   30]         0x1D  public: virtual __cdecl EagleFM::FW190::FW190SensorsSystem::~FW190SensorsSystem(void)
+[   31]         0x1E  public: virtual __cdecl EagleFM::FW190::FlapCenterAD::~FlapCenterAD(void)
+[   32]         0x1F  public: virtual __cdecl EagleFM::FW190::FlapInAD::~FlapInAD(void)
+[   33]         0x20  public: virtual __cdecl EagleFM::FW190::Gear::~Gear(void)
+[   34]         0x21  public: class EagleFM::FW190::FW190BrakesSystem & __cdecl EagleFM::FW190::FW190BrakesSystem::operator=(class EagleFM::FW190::FW190BrakesSystem &&)
+[   35]         0x22  public: class EagleFM::FW190::FW190BrakesSystem & __cdecl EagleFM::FW190::FW190BrakesSystem::operator=(class EagleFM::FW190::FW190BrakesSystem const &)
+[   36]         0x23  public: class EagleFM::FW190::FW190ControlSystem & __cdecl EagleFM::FW190::FW190ControlSystem::operator=(class EagleFM::FW190::FW190ControlSystem &&)
+[   37]         0x24  public: class EagleFM::FW190::FW190ControlSystem & __cdecl EagleFM::FW190::FW190ControlSystem::operator=(class EagleFM::FW190::FW190ControlSystem const &)
+[   38]         0x25  public: class EagleFM::FW190::FW190ElectricSystem & __cdecl EagleFM::FW190::FW190ElectricSystem::operator=(class EagleFM::FW190::FW190ElectricSystem const &)
+[   39]         0x26  public: class EagleFM::FW190::Options::FW190Options & __cdecl EagleFM::FW190::Options::FW190Options::operator=(class EagleFM::FW190::Options::FW190Options &&)
+[   40]         0x27  public: class EagleFM::FW190::Options::FW190Options & __cdecl EagleFM::FW190::Options::FW190Options::operator=(class EagleFM::FW190::Options::FW190Options const &)
+[   41]         0x28  public: class EagleFM::FW190::FW190OxygenSystem & __cdecl EagleFM::FW190::FW190OxygenSystem::operator=(class EagleFM::FW190::FW190OxygenSystem const &)
+[   42]         0x29  public: class EagleFM::FW190::FW190SensorsSystem & __cdecl EagleFM::FW190::FW190SensorsSystem::operator=(class EagleFM::FW190::FW190SensorsSystem const &)
+[   43]         0x2A  public: class EagleFM::FW190::FlapCenterAD & __cdecl EagleFM::FW190::FlapCenterAD::operator=(class EagleFM::FW190::FlapCenterAD &&)
+[   44]         0x2B  public: class EagleFM::FW190::FlapCenterAD & __cdecl EagleFM::FW190::FlapCenterAD::operator=(class EagleFM::FW190::FlapCenterAD const &)
+[   45]         0x2C  public: class EagleFM::FW190::FlapInAD & __cdecl EagleFM::FW190::FlapInAD::operator=(class EagleFM::FW190::FlapInAD &&)
+[   46]         0x2D  public: class EagleFM::FW190::FlapInAD & __cdecl EagleFM::FW190::FlapInAD::operator=(class EagleFM::FW190::FlapInAD const &)
+[   47]         0x2E  public: class EagleFM::FW190::Gear & __cdecl EagleFM::FW190::Gear::operator=(class EagleFM::FW190::Gear const &)
+[   48]         0x2F  const EagleFM::FW190::FW190BrakesSystem::`vftable'{for `EagleFM::Breakable'}
+[   49]         0x30  const EagleFM::FW190::FW190BrakesSystem::`vftable'{for `Optimizable'}
+[   50]         0x31  const EagleFM::FW190::FW190BrakesSystem::`vftable'{for `EagleFM::Startable'}
+[   51]         0x32  const EagleFM::FW190::FW190ControlSystem::`vftable'
+[   52]         0x33  const EagleFM::FW190::FW190ElectricSystem::`vftable'{for `EagleFM::Breakable'}
+[   53]         0x34  const EagleFM::FW190::FW190ElectricSystem::`vftable'{for `Optimizable'}
+[   54]         0x35  const EagleFM::FW190::FW190ElectricSystem::`vftable'{for `EagleFM::Startable'}
+[   55]         0x36  const EagleFM::FW190::FW190FM::`vftable'
+[   56]         0x37  const EagleFM::FW190::FW190FuelSystem::`vftable'{for `EagleFM::Breakable'}
+[   57]         0x38  const EagleFM::FW190::FW190FuelSystem::`vftable'{for `Optimizable'}
+[   58]         0x39  const EagleFM::FW190::FW190FuelSystem::`vftable'{for `EagleFM::Startable'}
+[   59]         0x3A  const EagleFM::FW190::FW190OxygenSystem::`vftable'{for `EagleFM::Breakable'}
+[   60]         0x3B  const EagleFM::FW190::FW190OxygenSystem::`vftable'{for `Optimizable'}
+[   61]         0x3C  const EagleFM::FW190::FW190OxygenSystem::`vftable'{for `EagleFM::Startable'}
+[   62]         0x3D  const EagleFM::FW190::FW190SensorsSystem::`vftable'{for `Optimizable'}
+[   63]         0x3E  const EagleFM::FW190::FW190SensorsSystem::`vftable'{for `EagleFM::SensorsSystem'}
+[   64]         0x3F  const EagleFM::FW190::FlapCenterAD::`vftable'
+[   65]         0x40  const EagleFM::FW190::FlapInAD::`vftable'
+[   66]         0x41  const EagleFM::FW190::Gear::`vftable'
+[   67]         0x42  public: void __cdecl EagleFM::FW190::FlapCenterAD::`default ctor closure'(void)
+[   68]         0x43  public: void __cdecl EagleFM::FW190::FlapInAD::`default ctor closure'(void)
+[   69]         0x44  public: static double EagleFM::FW190::Options::FW190Options::AileronMax_
+[   70]         0x45  public: static double EagleFM::FW190::Options::FW190Options::AileronMin_
+[   71]         0x46  public: static double EagleFM::FW190::Options::FW190Options::ElevatorDownRelSt_
+[   72]         0x47  public: static double EagleFM::FW190::Options::FW190Options::ElevatorDown_
+[   73]         0x48  public: static double EagleFM::FW190::Options::FW190Options::ElevatorUpRelSt_
+[   74]         0x49  public: static double EagleFM::FW190::Options::FW190Options::ElevatorUp_
+[   75]         0x4A  public: void __cdecl EagleFM::FW190::FW190ElectricSystem::OnCockpitLoad(void)
+[   76]         0x4B  public: virtual bool __cdecl EagleFM::FW190::FW190FM::addFuel(double)
+[   77]         0x4C  public: void __cdecl EagleFM::FW190::Gear::applyForces(void)
+[   78]         0x4D  public: virtual void __cdecl EagleFM::FW190::FW190FM::arcadeSimulate(double)
+[   79]         0x4E  double EagleFM::FW190::Options::bearing_Kadd1
+[   80]         0x4F  public: virtual void __cdecl EagleFM::FW190::FlapCenterAD::calcAerodynamics(double *, double, double, double, double, class Math::Vector<3, double>, class Math::Vector<3, double> *, class Math::Vector<3, double> *, class Math::Vector<3, double> *, double *, double *)
+[   81]         0x50  public: virtual void __cdecl EagleFM::FW190::FlapInAD::calcAerodynamics(double *, double, double, double, double, class Math::Vector<3, double>, class Math::Vector<3, double> *, class Math::Vector<3, double> *, class Math::Vector<3, double> *, double *, double *)
+[   82]         0x51  protected: void __cdecl EagleFM::FW190::FW190FM::calcPayloadDrag(void)
+[   83]         0x52  private: virtual void __cdecl EagleFM::FW190::FW190BrakesSystem::doSimulate(void)
+[   84]         0x53  public: virtual void __cdecl EagleFM::FW190::FW190ElectricSystem::doSimulate(void)
+[   85]         0x54  public: virtual void __cdecl EagleFM::FW190::FW190FuelSystem::doSimulate(void)
+[   86]         0x55  public: virtual void __cdecl EagleFM::FW190::FW190OxygenSystem::doSimulate(void)
+[   87]         0x56  public: virtual void __cdecl EagleFM::FW190::FW190SensorsSystem::doSimulate(void)
+[   88]         0x57  private: void __cdecl EagleFM::FW190::Gear::extending_retraction(void)
+[   89]         0x58  public: void __cdecl EagleFM::FW190::FW190FuelSystem::fuel_depletion(void)
+[   90]         0x59  public: virtual bool __cdecl EagleFM::FW190::FW190FM::getAirRush(int, class osg::Vec3d const &, struct WorldGeneral::VRHeadsetAudibilitySetup::EarAirRush &) const
+[   91]         0x5A  public: virtual bool __cdecl EagleFM::FW190::FW190FM::getAnyData(class ed::basic_string<char> const &, void *) const
+[   92]         0x5B  public: virtual double __cdecl EagleFM::FW190::FW190SensorsSystem::getAtmoPressureHg(void) const
+[   93]         0x5C  public: enum stored_liquid_type __cdecl EagleFM::FW190::FW190FuelSystem::getAuxTankFuelType(void)
+[   94]         0x5D  public: virtual double __cdecl EagleFM::FW190::FW190FM::getBoostMixt(void) const
+[   95]         0x5E  public: double __cdecl EagleFM::FW190::FW190FuelSystem::getBoostMixt(void) const
+[   96]         0x5F  public: class EagleFM::HydraulicBrakeCylinder * __cdecl EagleFM::FW190::FW190BrakesSystem::getBrakeCylinder(unsigned int)
+[   97]         0x60  public: virtual void __cdecl EagleFM::FW190::FW190FM::getConsumablesList(class ed::vector<enum WorldGeneral::StockpileResources, class ed::allocator<enum WorldGeneral::StockpileResources>> *) const
+[   98]         0x61  public: bool __cdecl EagleFM::FW190::FW190ControlSystem::getControlLock(void) const
+[   99]         0x62  public: virtual class EagleFM::ControlSystem * __cdecl EagleFM::FW190::FW190FM::getControlSystem(void)
+[  100]         0x63  public: class EagleFM::Elec::Battery & __cdecl EagleFM::FW190::FW190ElectricSystem::getDC_Battery(void)
+[  101]         0x64  public: class EagleFM::Elec::CalcNode & __cdecl EagleFM::FW190::FW190ElectricSystem::getDC_Bus_calcNode(void)
+[  102]         0x65  public: class EagleFM::Elec::ElecMachine_wShunt * __cdecl EagleFM::FW190::FW190ElectricSystem::getDC_Generator(void)
+[  103]         0x66  public: class EagleFM::Elec::ElectricGearDrive & __cdecl EagleFM::FW190::Gear::getDrive(unsigned int)
+[  104]         0x67  public: bool __cdecl EagleFM::FW190::FW190FuelSystem::getElectricPumpActive(void) const
+[  105]         0x68  public: virtual class EagleFM::ElectricSystem * __cdecl EagleFM::FW190::FW190FM::getElectricSystem(void)
+[  106]         0x69  public: virtual double __cdecl EagleFM::FW190::FW190FM::getEngineParam(enum EagleFM::EngineIDs, int) const
+[  107]         0x6A  public: virtual double __cdecl EagleFM::FW190::FW190FM::getEngineRelativeRPM(enum EagleFM::EngineIDs, bool) const
+[  108]         0x6B  public: virtual double __cdecl EagleFM::FW190::FW190FM::getEngineRelativeThrust(enum EagleFM::EngineIDs) const
+[  109]         0x6C  public: class EagleFM::Elec::Wire & __cdecl EagleFM::FW190::FW190ElectricSystem::getEngineSystemWire(int)
+[  110]         0x6D  public: virtual double __cdecl EagleFM::FW190::FW190FM::getExternalFuel(void) const
+[  111]         0x6E  public: double __cdecl EagleFM::FW190::FW190FuelSystem::getExternalFuel(void) const
+[  112]         0x6F  public: virtual double __cdecl EagleFM::FW190::FW190FM::getFlowVelocity(int) const
+[  113]         0x70  public: class EagleFM::Elec::Wire & __cdecl EagleFM::FW190::FW190ElectricSystem::getFuelSystemWire(int)
+[  114]         0x71  public: virtual double __cdecl EagleFM::FW190::FW190FM::getFuselageControlState(enum WorldGeneral::FuselageControlSurfaces) const
+[  115]         0x72  public: class EagleFM::FW190::Gear * __cdecl EagleFM::FW190::FW190FM::getGear(void)
+[  116]         0x73  public: virtual double __cdecl EagleFM::FW190::FW190FM::getGearPostState(int) const
+[  117]         0x74  public: class EagleFM::Elec::Wire & __cdecl EagleFM::FW190::FW190ElectricSystem::getGearWires(int)
+[  118]         0x75  public: virtual double __cdecl EagleFM::FW190::FW190FM::getInternalFuel(void) const
+[  119]         0x76  public: double __cdecl EagleFM::FW190::FW190FuelSystem::getInternalFuel(void) const
+[  120]         0x77  public: bool __cdecl EagleFM::FW190::FW190SensorsSystem::getIsDamaged(void) const
+[  121]         0x78  public: class EagleFM::GearPost * __cdecl EagleFM::FW190::Gear::getLeftGearPost(void)
+[  122]         0x79  protected: virtual double __cdecl EagleFM::FW190::FW190FM::getLoadMoment(void) const
+[  123]         0x7A  public: int __cdecl EagleFM::FW190::FW190ControlSystem::getMagnetosState(void) const
+[  124]         0x7B  public: virtual double __cdecl EagleFM::FW190::FW190FM::getNoseGearPostYaw(void) const
+[  125]         0x7C  private: virtual float __cdecl EagleFM::FW190::FW190OxygenSystem::getOxygenConsumption(float) const
+[  126]         0x7D  public: virtual class EagleFM::BaseOxygenSystem * __cdecl EagleFM::FW190::FW190FM::getOxygenSystem(void)
+[  127]         0x7E  public: virtual double __cdecl EagleFM::FW190::FW190FM::getRefuelFlow(bool, double *) const
+[  128]         0x7F  public: double __cdecl EagleFM::FW190::FW190FuelSystem::getRefuelFlow(double *) const
+[  129]         0x80  public: class EagleFM::GearPost * __cdecl EagleFM::FW190::Gear::getRightGearPost(void)
+[  130]         0x81  public: virtual bool __cdecl EagleFM::FW190::FW190FM::getSectorAudibility(int, float, class osg::Vec3d const &, struct WorldGeneral::VRHeadsetAudibilitySetup &) const
+[  131]         0x82  public: virtual double __cdecl EagleFM::FW190::FW190SensorsSystem::getSensorOutput(int) const
+[  132]         0x83  public: class EagleFM::Elec::Wire & __cdecl EagleFM::FW190::FW190ElectricSystem::getSensorSystemWire(int)
+[  133]         0x84  public: class EagleFM::Sensor ** __cdecl EagleFM::FW190::FW190SensorsSystem::getSensors(void)
+[  134]         0x85  public: virtual class EagleFM::SensorsSystem * __cdecl EagleFM::FW190::FW190FM::getSensorsSystem(void)
+[  135]         0x86  public: virtual double __cdecl EagleFM::FW190::FW190FM::getStabilizerControlState(enum WorldGeneral::StabilizerControlSurfaces) const
+[  136]         0x87  public: class EagleFM::Elec::ElecMachine_wShunt * __cdecl EagleFM::FW190::FW190ElectricSystem::getStarter(void)
+[  137]         0x88  public: virtual double __cdecl EagleFM::FW190::FW190FM::getStrutCompression(int) const
+[  138]         0x89  public: virtual double __cdecl EagleFM::FW190::FW190FM::getSurfaceNormalGearCoeff(int) const
+[  139]         0x8A  public: virtual double __cdecl EagleFM::FW190::FW190FM::getTailControlState(enum WorldGeneral::KeelControlSurfaces) const
+[  140]         0x8B  public: class EagleFM::GearPost * __cdecl EagleFM::FW190::Gear::getTailGearPost(void)
+[  141]         0x8C  public: virtual double __cdecl EagleFM::FW190::FW190ControlSystem::getThrottlePos(int) const
+[  142]         0x8D  public: virtual double __cdecl EagleFM::FW190::FW190ControlSystem::getWheelBrakePos(int) const
+[  143]         0x8E  public: bool __cdecl EagleFM::FW190::Gear::getWheelChocks(void)
+[  144]         0x8F  public: virtual double __cdecl EagleFM::FW190::FW190FM::getWheelRotationPhase(int) const
+[  145]         0x90  public: virtual double __cdecl EagleFM::FW190::FW190FM::getWingControlState(enum WorldGeneral::WingControlSurfaces) const
+[  146]         0x91  public: class EagleFM::Elec::Wire & __cdecl EagleFM::FW190::FW190ElectricSystem::get_28V_Bus(void)
+[  147]         0x92  public: class EagleFM::FW190::FW190FlapsDrive * __cdecl EagleFM::FW190::FW190ElectricSystem::get_l_flap_drive(void)
+[  148]         0x93  public: class EagleFM::Elec::ElectricGearDrive * __cdecl EagleFM::FW190::FW190ElectricSystem::get_l_gear_drive(void)
+[  149]         0x94  public: class EagleFM::Elec::ElecMachine_wShunt * __cdecl EagleFM::FW190::FW190ElectricSystem::get_motor(enum EagleFM::FW190::FW190_Electric_Motors_enum)
+[  150]         0x95  public: class EagleFM::FW190::FW190FlapsDrive * __cdecl EagleFM::FW190::FW190ElectricSystem::get_r_flap_drive(void)
+[  151]         0x96  public: class EagleFM::Elec::ElectricGearDrive * __cdecl EagleFM::FW190::FW190ElectricSystem::get_r_gear_drive(void)
+[  152]         0x97  public: class EagleFM::Elec::ElectricDrive * __cdecl EagleFM::FW190::FW190ElectricSystem::get_trimmer_drive(void)
+[  153]         0x98  public: static void __cdecl EagleFM::FW190::Options::FW190Options::init(class Lua::Config &)
+[  154]         0x99  public: virtual void __cdecl EagleFM::FW190::FW190BrakesSystem::initAirStart(void)
+[  155]         0x9A  public: void __cdecl EagleFM::FW190::FW190ControlSystem::initAirStart(void)
+[  156]         0x9B  public: virtual void __cdecl EagleFM::FW190::FW190FM::initAirStart(class Math::Vector<3, double> const &, class Math::Vector<3, double> const &, float, float, float)
+[  157]         0x9C  public: virtual void __cdecl EagleFM::FW190::FW190FuelSystem::initAirStart(void)
+[  158]         0x9D  public: virtual void __cdecl EagleFM::FW190::FW190OxygenSystem::initAirStart(void)
+[  159]         0x9E  public: void __cdecl EagleFM::FW190::Gear::initAirStart(void)
+[  160]         0x9F  public: void __cdecl EagleFM::FW190::FW190ControlSystem::initColdStart(void)
+[  161]         0xA0  public: virtual void __cdecl EagleFM::FW190::FW190FM::initColdStart(class Math::Vector<3, double> const &, float, float, class Math::Vector<3, double> const &)
+[  162]         0xA1  public: virtual void __cdecl EagleFM::FW190::FW190FuelSystem::initColdStart(void)
+[  163]         0xA2  public: virtual void __cdecl EagleFM::FW190::FW190OxygenSystem::initColdStart(void)
+[  164]         0xA3  public: void __cdecl EagleFM::FW190::Gear::initColdStart(void)
+[  165]         0xA4  public: virtual void __cdecl EagleFM::FW190::FW190BrakesSystem::initHotStart(void)
+[  166]         0xA5  public: void __cdecl EagleFM::FW190::FW190ControlSystem::initHotStart(void)
+[  167]         0xA6  public: virtual void __cdecl EagleFM::FW190::FW190FM::initHotStart(class Math::Vector<3, double> const &, float, float, class Math::Vector<3, double> const &)
+[  168]         0xA7  public: virtual void __cdecl EagleFM::FW190::FW190FuelSystem::initHotStart(void)
+[  169]         0xA8  public: virtual void __cdecl EagleFM::FW190::FW190OxygenSystem::initHotStart(void)
+[  170]         0xA9  public: void __cdecl EagleFM::FW190::Gear::initHotStart(void)
+[  171]         0xAA  protected: void __cdecl EagleFM::FW190::FW190FM::initMotor(class EagleFM::PistonEngine *)
+[  172]         0xAB  public: void __cdecl EagleFM::FW190::FW190FuelSystem::initMotor(class EagleFM::PistonEngine *)
+[  173]         0xAC  public: virtual void __cdecl EagleFM::FW190::FW190ElectricSystem::initPreStart(void)
+[  174]         0xAD  public: virtual void __cdecl EagleFM::FW190::FW190FM::initPreStart(void)
+[  175]         0xAE  public: virtual void __cdecl EagleFM::FW190::FW190FuelSystem::initPreStart(void)
+[  176]         0xAF  public: virtual void __cdecl EagleFM::FW190::FW190ElectricSystem::initSources(void)
+[  177]         0xB0  bool __cdecl EagleFM::FW190::initialize(void)
+[  178]         0xB1  public: void __cdecl EagleFM::FW190::FW190OxygenSystem::initialize(void)
+[  179]         0xB2  public: virtual bool __cdecl EagleFM::FW190::FW190OxygenSystem::isDamaged(void) const
+[  180]         0xB3  public: virtual bool __cdecl EagleFM::FW190::FW190FM::isSystemsDamaged(void) const
+[  181]         0xB4  public: void __cdecl EagleFM::FW190::FW190ElectricSystem::onBatteryFailure(struct lwl::CSignalInfo const *)
+[  182]         0xB5  public: void __cdecl EagleFM::FW190::FW190ElectricSystem::onGeneratorFailure(struct lwl::CSignalInfo const *)
+[  183]         0xB6  public: void __cdecl EagleFM::FW190::FW190ElectricSystem::onStarterFailure(struct lwl::CSignalInfo const *)
+[  184]         0xB7  public: static class EagleFM::BaseOptions::PropellerOptions EagleFM::FW190::Options::FW190Options::p_o_
+[  185]         0xB8  public: virtual void __cdecl EagleFM::FW190::FW190ElectricSystem::repair(void)
+[  186]         0xB9  public: virtual void __cdecl EagleFM::FW190::FW190FM::repair(void)
+[  187]         0xBA  public: virtual void __cdecl EagleFM::FW190::FW190FuelSystem::repair(void)
+[  188]         0xBB  public: virtual void __cdecl EagleFM::FW190::FW190OxygenSystem::repair(void)
+[  189]         0xBC  public: void __cdecl EagleFM::FW190::FW190SensorsSystem::repair(void)
+[  190]         0xBD  public: virtual void __cdecl EagleFM::FW190::Gear::repair(void)
+[  191]         0xBE  class EagleFM::ControlSurfaceAD *EagleFM::FW190::sAileronCenterAD
+[  192]         0xBF  class EagleFM::ControlSurfaceAD *EagleFM::FW190::sAileronOutAD
+[  193]         0xC0  class EagleFM::PlaneAD *EagleFM::FW190::sBladeCntAD
+[  194]         0xC1  class EagleFM::PlaneAD *EagleFM::FW190::sBladeInAD
+[  195]         0xC2  class EagleFM::PlaneAD *EagleFM::FW190::sBladeOutAD
+[  196]         0xC3  class EagleFM::ControlSurfaceAD *EagleFM::FW190::sElevatorAD
+[  197]         0xC4  class EagleFM::FW190::FlapCenterAD *EagleFM::FW190::sFlapCenterAD
+[  198]         0xC5  class EagleFM::FW190::FlapInAD *EagleFM::FW190::sFlapInAD
+[  199]         0xC6  class EagleFM::FigureOfRevolutionsAD *EagleFM::FW190::sFuselageAD
+[  200]         0xC7  class EagleFM::GearPostAD *EagleFM::FW190::sMainGearAD
+[  201]         0xC8  class EagleFM::ControlSurfaceAD *EagleFM::FW190::sRudderAD
+[  202]         0xC9  class EagleFM::PlaneAD *EagleFM::FW190::sStabilizerAD
+[  203]         0xCA  class EagleFM::SymmetricPlaneAD *EagleFM::FW190::sTailAD
+[  204]         0xCB  class EagleFM::GearPostAD *EagleFM::FW190::sTailGearAD
+[  205]         0xCC  public: virtual void __cdecl EagleFM::FW190::FW190FM::setAnyData(class ed::basic_string<char> const &, void *)
+[  206]         0xCD  public: virtual void __cdecl EagleFM::FW190::FW190FM::setArcadeFlight(bool)
+[  207]         0xCE  public: virtual void __cdecl EagleFM::FW190::FW190SensorsSystem::setAtmoPressureHg(double)
+[  208]         0xCF  public: virtual void __cdecl EagleFM::FW190::FW190FM::setBoostMixt(double)
+[  209]         0xD0  public: void __cdecl EagleFM::FW190::FW190FuelSystem::setBoostMixt(double)
+[  210]         0xD1  public: virtual void __cdecl EagleFM::FW190::FW190FM::setCellIF(int, float, float)
+[  211]         0xD2  public: virtual void __cdecl EagleFM::FW190::FW190ControlSystem::setControlAxisDir(enum ControlAxisDir, bool)
+[  212]         0xD3  private: void __cdecl EagleFM::FW190::FW190ControlSystem::setControlSyrfacesAngles(void)
+[  213]         0xD4  private: bool __cdecl EagleFM::FW190::FW190OxygenSystem::setCylinderDamage(char)
+[  214]         0xD5  public: void __cdecl EagleFM::FW190::FW190SensorsSystem::setDamagePito(double)
+[  215]         0xD6  public: void __cdecl EagleFM::FW190::FW190ControlSystem::setEmergencyPower(bool)
+[  216]         0xD7  public: virtual void __cdecl EagleFM::FW190::FW190ControlSystem::setEngineStop(bool, int)
+[  217]         0xD8  public: void __cdecl EagleFM::FW190::FW190ElectricSystem::setExternalPowerOnOff(bool)
+[  218]         0xD9  public: virtual void __cdecl EagleFM::FW190::FW190FM::setFuel(double)
+[  219]         0xDA  public: virtual void __cdecl EagleFM::FW190::FW190FM::setGearContact(int, double, double, class Math::Vector<3, double> const &, class Math::Vector<3, double> const &, class Math::Vector<3, double> const &, int, double)
+[  220]         0xDB  public: virtual void __cdecl EagleFM::FW190::FW190FM::setImmortal(bool)
+[  221]         0xDC  public: void __cdecl EagleFM::FW190::Gear::setImmortal(bool)
+[  222]         0xDD  public: void __cdecl EagleFM::FW190::FW190FuelSystem::setInsideFuel(double)
+[  223]         0xDE  public: virtual void __cdecl EagleFM::FW190::FW190ControlSystem::setJoystickFFB(bool)
+[  224]         0xDF  public: void __cdecl EagleFM::FW190::FW190FuelSystem::setMW50TankContentsType(enum stored_liquid_type)
+[  225]         0xE0  public: void __cdecl EagleFM::FW190::FW190ElectricSystem::setMotorOmega(double)
+[  226]         0xE1  public: virtual void __cdecl EagleFM::FW190::FW190FM::setPayload(int, struct EagleFM::Payload const &)
+[  227]         0xE2  public: void __cdecl EagleFM::FW190::FW190FuelSystem::setPayloadFuel(double, class Math::Vector<3, double>)
+[  228]         0xE3  public: virtual void __cdecl EagleFM::FW190::FW190FM::setRefuelFlow(bool, double)
+[  229]         0xE4  public: void __cdecl EagleFM::FW190::FW190FuelSystem::setRefuelFlow(double)
+[  230]         0xE5  public: virtual void __cdecl EagleFM::FW190::FW190FM::setRigidContact(class ed::basic_string<char> const &, int, double, double, class Math::Vector<3, double> const &, class Math::Vector<3, double> const &, class Math::Vector<3, double> const &, int, double)
+[  231]         0xE6  public: void __cdecl EagleFM::FW190::FW190FuelSystem::setSensors(void)
+[  232]         0xE7  private: void __cdecl EagleFM::FW190::FW190OxygenSystem::setSensors(void)
+[  233]         0xE8  public: virtual void __cdecl EagleFM::FW190::FW190ControlSystem::setThrottle(double, enum EagleFM::EngineIDs)
+[  234]         0xE9  public: virtual void __cdecl EagleFM::FW190::FW190ControlSystem::setThrottleDir(int, int)
+[  235]         0xEA  public: virtual void __cdecl EagleFM::FW190::FW190FM::setUnderlyingSurface(class Math::Vector<3, double> const &, class Math::Vector<3, double> const &)
+[  236]         0xEB  public: void __cdecl EagleFM::FW190::FW190SensorsSystem::setUnderlyingSurface(class Math::Vector<3, double> const &, class Math::Vector<3, double> const &)
+[  237]         0xEC  public: virtual void __cdecl EagleFM::FW190::FW190FM::setUnlimitedFuel(bool)
+[  238]         0xED  public: void __cdecl EagleFM::FW190::FW190FuelSystem::setUnlimitedFuel(bool)
+[  239]         0xEE  public: virtual void __cdecl EagleFM::FW190::FW190ControlSystem::setWheelBrake(double, int)
+[  240]         0xEF  public: virtual void __cdecl EagleFM::FW190::FW190ControlSystem::setWheelBrake(bool, int)
+[  241]         0xF0  public: void __cdecl EagleFM::FW190::Gear::setWheelChocks(bool)
+[  242]         0xF1  public: void __cdecl EagleFM::FW190::FW190ControlSystem::simulate(double)
+[  243]         0xF2  public: virtual void __cdecl EagleFM::FW190::FW190FM::simulate(double)
+[  244]         0xF3  public: void __cdecl EagleFM::FW190::Gear::simulate(double)
+[  245]         0xF4  public: virtual bool __cdecl EagleFM::FW190::FW190ElectricSystem::startFailure(enum WorldGeneral::Failures, class ed::basic_string<char> const &)
+[  246]         0xF5  public: virtual bool __cdecl EagleFM::FW190::FW190FM::startFailure(enum WorldGeneral::Failures, class ed::basic_string<char> const &)
+[  247]         0xF6  public: virtual bool __cdecl EagleFM::FW190::FW190FuelSystem::startFailure(enum WorldGeneral::Failures, class ed::basic_string<char> const &)
+[  248]         0xF7  public: virtual bool __cdecl EagleFM::FW190::FW190OxygenSystem::startFailure(enum WorldGeneral::Failures, class ed::basic_string<char> const &)
+[  249]         0xF8  public: virtual bool __cdecl EagleFM::FW190::Gear::startFailure(enum WorldGeneral::Failures, class ed::basic_string<char> const &)
+[  250]         0xF9  public: void __cdecl EagleFM::FW190::FW190ControlSystem::surfaceControlLock(bool, float)
+[  251]         0xFA  void __cdecl EagleFM::FW190::uninitialize(void)
+[  252]         0xFB  public: void __cdecl EagleFM::FW190::FW190FuelSystem::updateFuelMasses(void)

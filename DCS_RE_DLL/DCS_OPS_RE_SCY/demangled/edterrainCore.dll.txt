@@ -1,0 +1,12 @@
+// DCS_OPS_RE: edterrainCore.dll
+// Generated from dumpbin /exports
+
+[    1]          0x0  public: __cdecl utm_private::projection_t::projection_t(void)
+[    2]          0x1  bool __cdecl utm_private::ParseConfig(struct lua_State *, struct utm_private::projection_t &)
+[    3]          0x2  bool __cdecl utm_private::ParseConfig(char const *, struct utm_private::projection_t &)
+[    4]          0x3  void __cdecl utm_private::fromLatLon(struct utm_private::projection_t const &, double, double, double &, double &)
+[    5]          0x4  class ed::basic_string<char> __cdecl utm_private::fromLockonToMGRS(struct utm_private::projection_t const &, double, double, int)
+[    6]          0x5  void __cdecl utm_private::fromLockontoUTM(struct utm_private::projection_t const &, double, double, double &, double &)
+[    7]          0x6  bool __cdecl utm_private::fromMGRStoLockon(struct utm_private::projection_t const &, class ed::basic_string<char> const &, double &, double &)
+[    8]          0x7  void __cdecl utm_private::fromUTMtoLockon(struct utm_private::projection_t const &, double, double, double &, double &)
+[    9]          0x8  void __cdecl utm_private::toLatLon(struct utm_private::projection_t const &, double, double, double &, double &)

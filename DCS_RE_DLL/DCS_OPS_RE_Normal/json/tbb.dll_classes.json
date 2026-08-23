@@ -1,0 +1,3105 @@
+{
+    "dll": "tbb.dll",
+    "class_count": 46,
+    "classes": {
+        "concurrent_queue_base": {
+            "class_name": "concurrent_queue_base",
+            "namespace": "tbb::internal",
+            "methods": [
+                {
+                    "ordinal": 1,
+                    "rva": 0,
+                    "rva_hex": "0x0",
+                    "name": "??0concurrent_queue_base@internal@tbb@@IEAA@_K@Z",
+                    "demangled": "protected: __cdecl tbb::internal::concurrent_queue_base::concurrent_queue_base(unsigned __int64)",
+                    "function_name": "concurrent_queue_base",
+                    "parameters": "unsigned __int64",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 8,
+                    "rva": 7,
+                    "rva_hex": "0x7",
+                    "name": "??1concurrent_queue_base@internal@tbb@@MEAA@XZ",
+                    "demangled": "protected: virtual __cdecl tbb::internal::concurrent_queue_base::~concurrent_queue_base(void)",
+                    "function_name": "~concurrent_queue_base",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": true
+                },
+                {
+                    "ordinal": 125,
+                    "rva": 124,
+                    "rva_hex": "0x7C",
+                    "name": "?internal_pop@concurrent_queue_base@internal@tbb@@IEAAXPEAX@Z",
+                    "demangled": "protected: void __cdecl tbb::internal::concurrent_queue_base::internal_pop(void *)",
+                    "function_name": "internal_pop",
+                    "parameters": "void *",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 127,
+                    "rva": 126,
+                    "rva_hex": "0x7E",
+                    "name": "?internal_pop_if_present@concurrent_queue_base@internal@tbb@@IEAA_NPEAX@Z",
+                    "demangled": "protected: bool __cdecl tbb::internal::concurrent_queue_base::internal_pop_if_present(void *)",
+                    "function_name": "internal_pop_if_present",
+                    "parameters": "void *",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 129,
+                    "rva": 128,
+                    "rva_hex": "0x80",
+                    "name": "?internal_push@concurrent_queue_base@internal@tbb@@IEAAXPEBX@Z",
+                    "demangled": "protected: void __cdecl tbb::internal::concurrent_queue_base::internal_push(void const *)",
+                    "function_name": "internal_push",
+                    "parameters": "void const *",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 133,
+                    "rva": 132,
+                    "rva_hex": "0x84",
+                    "name": "?internal_push_if_not_full@concurrent_queue_base@internal@tbb@@IEAA_NPEBX@Z",
+                    "demangled": "protected: bool __cdecl tbb::internal::concurrent_queue_base::internal_push_if_not_full(void const *)",
+                    "function_name": "internal_push_if_not_full",
+                    "parameters": "void const *",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 148,
+                    "rva": 147,
+                    "rva_hex": "0x93",
+                    "name": "?internal_set_capacity@concurrent_queue_base@internal@tbb@@IEAAX_J_K@Z",
+                    "demangled": "protected: void __cdecl tbb::internal::concurrent_queue_base::internal_set_capacity(__int64, unsigned __int64)",
+                    "function_name": "internal_set_capacity",
+                    "parameters": "__int64, unsigned __int64",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 151,
+                    "rva": 150,
+                    "rva_hex": "0x96",
+                    "name": "?internal_size@concurrent_queue_base@internal@tbb@@IEBA_JXZ",
+                    "demangled": "protected: __int64 __cdecl tbb::internal::concurrent_queue_base::internal_size(void) const",
+                    "function_name": "internal_size",
+                    "parameters": "void",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "concurrent_queue_base_v3": {
+            "class_name": "concurrent_queue_base_v3",
+            "namespace": "tbb::internal",
+            "methods": [
+                {
+                    "ordinal": 2,
+                    "rva": 1,
+                    "rva_hex": "0x1",
+                    "name": "??0concurrent_queue_base_v3@internal@tbb@@IEAA@_K@Z",
+                    "demangled": "protected: __cdecl tbb::internal::concurrent_queue_base_v3::concurrent_queue_base_v3(unsigned __int64)",
+                    "function_name": "concurrent_queue_base_v3",
+                    "parameters": "unsigned __int64",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 9,
+                    "rva": 8,
+                    "rva_hex": "0x8",
+                    "name": "??1concurrent_queue_base_v3@internal@tbb@@MEAA@XZ",
+                    "demangled": "protected: virtual __cdecl tbb::internal::concurrent_queue_base_v3::~concurrent_queue_base_v3(void)",
+                    "function_name": "~concurrent_queue_base_v3",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": true
+                },
+                {
+                    "ordinal": 34,
+                    "rva": 33,
+                    "rva_hex": "0x21",
+                    "name": "?assign@concurrent_queue_base_v3@internal@tbb@@IEAAXAEBV123@@Z",
+                    "demangled": "protected: void __cdecl tbb::internal::concurrent_queue_base_v3::assign(class tbb::internal::concurrent_queue_base_v3 const &)",
+                    "function_name": "assign",
+                    "parameters": "class tbb::internal::concurrent_queue_base_v3 const &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 63,
+                    "rva": 62,
+                    "rva_hex": "0x3E",
+                    "name": "?internal_abort@concurrent_queue_base_v3@internal@tbb@@IEAAXXZ",
+                    "demangled": "protected: void __cdecl tbb::internal::concurrent_queue_base_v3::internal_abort(void)",
+                    "function_name": "internal_abort",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 111,
+                    "rva": 110,
+                    "rva_hex": "0x6E",
+                    "name": "?internal_empty@concurrent_queue_base_v3@internal@tbb@@IEBA_NXZ",
+                    "demangled": "protected: bool __cdecl tbb::internal::concurrent_queue_base_v3::internal_empty(void) const",
+                    "function_name": "internal_empty",
+                    "parameters": "void",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 114,
+                    "rva": 113,
+                    "rva_hex": "0x71",
+                    "name": "?internal_finish_clear@concurrent_queue_base_v3@internal@tbb@@IEAAXXZ",
+                    "demangled": "protected: void __cdecl tbb::internal::concurrent_queue_base_v3::internal_finish_clear(void)",
+                    "function_name": "internal_finish_clear",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 126,
+                    "rva": 125,
+                    "rva_hex": "0x7D",
+                    "name": "?internal_pop@concurrent_queue_base_v3@internal@tbb@@IEAAXPEAX@Z",
+                    "demangled": "protected: void __cdecl tbb::internal::concurrent_queue_base_v3::internal_pop(void *)",
+                    "function_name": "internal_pop",
+                    "parameters": "void *",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 128,
+                    "rva": 127,
+                    "rva_hex": "0x7F",
+                    "name": "?internal_pop_if_present@concurrent_queue_base_v3@internal@tbb@@IEAA_NPEAX@Z",
+                    "demangled": "protected: bool __cdecl tbb::internal::concurrent_queue_base_v3::internal_pop_if_present(void *)",
+                    "function_name": "internal_pop_if_present",
+                    "parameters": "void *",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 130,
+                    "rva": 129,
+                    "rva_hex": "0x81",
+                    "name": "?internal_push@concurrent_queue_base_v3@internal@tbb@@IEAAXPEBX@Z",
+                    "demangled": "protected: void __cdecl tbb::internal::concurrent_queue_base_v3::internal_push(void const *)",
+                    "function_name": "internal_push",
+                    "parameters": "void const *",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 134,
+                    "rva": 133,
+                    "rva_hex": "0x85",
+                    "name": "?internal_push_if_not_full@concurrent_queue_base_v3@internal@tbb@@IEAA_NPEBX@Z",
+                    "demangled": "protected: bool __cdecl tbb::internal::concurrent_queue_base_v3::internal_push_if_not_full(void const *)",
+                    "function_name": "internal_push_if_not_full",
+                    "parameters": "void const *",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 149,
+                    "rva": 148,
+                    "rva_hex": "0x94",
+                    "name": "?internal_set_capacity@concurrent_queue_base_v3@internal@tbb@@IEAAX_J_K@Z",
+                    "demangled": "protected: void __cdecl tbb::internal::concurrent_queue_base_v3::internal_set_capacity(__int64, unsigned __int64)",
+                    "function_name": "internal_set_capacity",
+                    "parameters": "__int64, unsigned __int64",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 152,
+                    "rva": 151,
+                    "rva_hex": "0x97",
+                    "name": "?internal_size@concurrent_queue_base_v3@internal@tbb@@IEBA_JXZ",
+                    "demangled": "protected: __int64 __cdecl tbb::internal::concurrent_queue_base_v3::internal_size(void) const",
+                    "function_name": "internal_size",
+                    "parameters": "void",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 156,
+                    "rva": 155,
+                    "rva_hex": "0x9B",
+                    "name": "?internal_throw_exception@concurrent_queue_base_v3@internal@tbb@@IEBAXXZ",
+                    "demangled": "protected: void __cdecl tbb::internal::concurrent_queue_base_v3::internal_throw_exception(void) const",
+                    "function_name": "internal_throw_exception",
+                    "parameters": "void",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "concurrent_queue_iterator_base": {
+            "class_name": "concurrent_queue_iterator_base",
+            "namespace": "tbb::internal",
+            "methods": [
+                {
+                    "ordinal": 3,
+                    "rva": 2,
+                    "rva_hex": "0x2",
+                    "name": "??0concurrent_queue_iterator_base@internal@tbb@@IEAA@AEBVconcurrent_queue_base@12@@Z",
+                    "demangled": "protected: __cdecl tbb::internal::concurrent_queue_iterator_base::concurrent_queue_iterator_base(class tbb::internal::concurrent_queue_base const &)",
+                    "function_name": "concurrent_queue_iterator_base",
+                    "parameters": "class tbb::internal::concurrent_queue_base const &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 10,
+                    "rva": 9,
+                    "rva_hex": "0x9",
+                    "name": "??1concurrent_queue_iterator_base@internal@tbb@@IEAA@XZ",
+                    "demangled": "protected: __cdecl tbb::internal::concurrent_queue_iterator_base::~concurrent_queue_iterator_base(void)",
+                    "function_name": "~concurrent_queue_iterator_base",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 24,
+                    "rva": 23,
+                    "rva_hex": "0x17",
+                    "name": "?advance@concurrent_queue_iterator_base@internal@tbb@@IEAAXXZ",
+                    "demangled": "protected: void __cdecl tbb::internal::concurrent_queue_iterator_base::advance(void)",
+                    "function_name": "advance",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 35,
+                    "rva": 34,
+                    "rva_hex": "0x22",
+                    "name": "?assign@concurrent_queue_iterator_base@internal@tbb@@IEAAXAEBV123@@Z",
+                    "demangled": "protected: void __cdecl tbb::internal::concurrent_queue_iterator_base::assign(class tbb::internal::concurrent_queue_iterator_base const &)",
+                    "function_name": "assign",
+                    "parameters": "class tbb::internal::concurrent_queue_iterator_base const &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "concurrent_queue_iterator_base_v3": {
+            "class_name": "concurrent_queue_iterator_base_v3",
+            "namespace": "tbb::internal",
+            "methods": [
+                {
+                    "ordinal": 4,
+                    "rva": 3,
+                    "rva_hex": "0x3",
+                    "name": "??0concurrent_queue_iterator_base_v3@internal@tbb@@IEAA@AEBVconcurrent_queue_base_v3@12@@Z",
+                    "demangled": "protected: __cdecl tbb::internal::concurrent_queue_iterator_base_v3::concurrent_queue_iterator_base_v3(class tbb::internal::concurrent_queue_base_v3 const &)",
+                    "function_name": "concurrent_queue_iterator_base_v3",
+                    "parameters": "class tbb::internal::concurrent_queue_base_v3 const &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 5,
+                    "rva": 4,
+                    "rva_hex": "0x4",
+                    "name": "??0concurrent_queue_iterator_base_v3@internal@tbb@@IEAA@AEBVconcurrent_queue_base_v3@12@_K@Z",
+                    "demangled": "protected: __cdecl tbb::internal::concurrent_queue_iterator_base_v3::concurrent_queue_iterator_base_v3(class tbb::internal::concurrent_queue_base_v3 const &, unsigned __int64)",
+                    "function_name": "concurrent_queue_iterator_base_v3",
+                    "parameters": "class tbb::internal::concurrent_queue_base_v3 const &, unsigned __int64",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 11,
+                    "rva": 10,
+                    "rva_hex": "0xA",
+                    "name": "??1concurrent_queue_iterator_base_v3@internal@tbb@@IEAA@XZ",
+                    "demangled": "protected: __cdecl tbb::internal::concurrent_queue_iterator_base_v3::~concurrent_queue_iterator_base_v3(void)",
+                    "function_name": "~concurrent_queue_iterator_base_v3",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 25,
+                    "rva": 24,
+                    "rva_hex": "0x18",
+                    "name": "?advance@concurrent_queue_iterator_base_v3@internal@tbb@@IEAAXXZ",
+                    "demangled": "protected: void __cdecl tbb::internal::concurrent_queue_iterator_base_v3::advance(void)",
+                    "function_name": "advance",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 36,
+                    "rva": 35,
+                    "rva_hex": "0x23",
+                    "name": "?assign@concurrent_queue_iterator_base_v3@internal@tbb@@IEAAXAEBV123@@Z",
+                    "demangled": "protected: void __cdecl tbb::internal::concurrent_queue_iterator_base_v3::assign(class tbb::internal::concurrent_queue_iterator_base_v3 const &)",
+                    "function_name": "assign",
+                    "parameters": "class tbb::internal::concurrent_queue_iterator_base_v3 const &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "pipeline": {
+            "class_name": "pipeline",
+            "namespace": "tbb",
+            "methods": [
+                {
+                    "ordinal": 6,
+                    "rva": 5,
+                    "rva_hex": "0x5",
+                    "name": "??0pipeline@tbb@@QEAA@XZ",
+                    "demangled": "public: __cdecl tbb::pipeline::pipeline(void)",
+                    "function_name": "pipeline",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 14,
+                    "rva": 13,
+                    "rva_hex": "0xD",
+                    "name": "??1pipeline@tbb@@UEAA@XZ",
+                    "demangled": "public: virtual __cdecl tbb::pipeline::~pipeline(void)",
+                    "function_name": "~pipeline",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": true
+                },
+                {
+                    "ordinal": 23,
+                    "rva": 22,
+                    "rva_hex": "0x16",
+                    "name": "?add_filter@pipeline@tbb@@QEAAXAEAVfilter@2@@Z",
+                    "demangled": "public: void __cdecl tbb::pipeline::add_filter(class tbb::filter &)",
+                    "function_name": "add_filter",
+                    "parameters": "class tbb::filter &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 42,
+                    "rva": 41,
+                    "rva_hex": "0x29",
+                    "name": "?clear@pipeline@tbb@@QEAAXXZ",
+                    "demangled": "public: void __cdecl tbb::pipeline::clear(void)",
+                    "function_name": "clear",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 62,
+                    "rva": 61,
+                    "rva_hex": "0x3D",
+                    "name": "?inject_token@pipeline@tbb@@AEAAXAEAVtask@2@@Z",
+                    "demangled": "private: void __cdecl tbb::pipeline::inject_token(class tbb::task &)",
+                    "function_name": "inject_token",
+                    "parameters": "class tbb::task &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 201,
+                    "rva": 200,
+                    "rva_hex": "0xC8",
+                    "name": "?run@pipeline@tbb@@QEAAX_K@Z",
+                    "demangled": "public: void __cdecl tbb::pipeline::run(unsigned __int64)",
+                    "function_name": "run",
+                    "parameters": "unsigned __int64",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 202,
+                    "rva": 201,
+                    "rva_hex": "0xC9",
+                    "name": "?run@pipeline@tbb@@QEAAX_KAEAVtask_group_context@2@@Z",
+                    "demangled": "public: void __cdecl tbb::pipeline::run(unsigned __int64, class tbb::task_group_context &)",
+                    "function_name": "run",
+                    "parameters": "unsigned __int64, class tbb::task_group_context &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "captured_exception": {
+            "class_name": "captured_exception",
+            "namespace": "tbb",
+            "methods": [
+                {
+                    "ordinal": 7,
+                    "rva": 6,
+                    "rva_hex": "0x6",
+                    "name": "??1captured_exception@tbb@@UEAA@XZ",
+                    "demangled": "public: virtual __cdecl tbb::captured_exception::~captured_exception(void)",
+                    "function_name": "~captured_exception",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": true
+                },
+                {
+                    "ordinal": 41,
+                    "rva": 40,
+                    "rva_hex": "0x28",
+                    "name": "?clear@captured_exception@tbb@@QEAAXXZ",
+                    "demangled": "public: void __cdecl tbb::captured_exception::clear(void)",
+                    "function_name": "clear",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 45,
+                    "rva": 44,
+                    "rva_hex": "0x2C",
+                    "name": "?destroy@captured_exception@tbb@@UEAAXXZ",
+                    "demangled": "public: virtual void __cdecl tbb::captured_exception::destroy(void)",
+                    "function_name": "destroy",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": true
+                },
+                {
+                    "ordinal": 188,
+                    "rva": 187,
+                    "rva_hex": "0xBB",
+                    "name": "?move@captured_exception@tbb@@UEAAPEAV12@XZ",
+                    "demangled": "public: virtual class tbb::captured_exception * __cdecl tbb::captured_exception::move(void)",
+                    "function_name": "move",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": true
+                },
+                {
+                    "ordinal": 191,
+                    "rva": 190,
+                    "rva_hex": "0xBE",
+                    "name": "?name@captured_exception@tbb@@UEBAPEBDXZ",
+                    "demangled": "public: virtual char const * __cdecl tbb::captured_exception::name(void) const",
+                    "function_name": "name",
+                    "parameters": "void",
+                    "const": true,
+                    "static": false,
+                    "virtual": true
+                },
+                {
+                    "ordinal": 205,
+                    "rva": 204,
+                    "rva_hex": "0xCC",
+                    "name": "?set@captured_exception@tbb@@QEAAXPEBD0@Z",
+                    "demangled": "public: void __cdecl tbb::captured_exception::set(char const *, char const *)",
+                    "function_name": "set",
+                    "parameters": "char const *, char const *",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 224,
+                    "rva": 223,
+                    "rva_hex": "0xDF",
+                    "name": "?what@captured_exception@tbb@@UEBAPEBDXZ",
+                    "demangled": "public: virtual char const * __cdecl tbb::captured_exception::what(void) const",
+                    "function_name": "what",
+                    "parameters": "void",
+                    "const": true,
+                    "static": false,
+                    "virtual": true
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "concurrent_vector_base_v3": {
+            "class_name": "concurrent_vector_base_v3",
+            "namespace": "tbb::internal",
+            "methods": [
+                {
+                    "ordinal": 12,
+                    "rva": 11,
+                    "rva_hex": "0xB",
+                    "name": "??1concurrent_vector_base_v3@internal@tbb@@IEAA@XZ",
+                    "demangled": "protected: __cdecl tbb::internal::concurrent_vector_base_v3::~concurrent_vector_base_v3(void)",
+                    "function_name": "~concurrent_vector_base_v3",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 74,
+                    "rva": 73,
+                    "rva_hex": "0x49",
+                    "name": "?internal_assign@concurrent_vector_base_v3@internal@tbb@@IEAAXAEBV123@_KP6AXPEAX1@ZP6AX2PEBX1@Z5@Z",
+                    "demangled": "protected: void __cdecl tbb::internal::concurrent_vector_base_v3::internal_assign(class tbb::internal::concurrent_vector_base_v3 const &, unsigned __int64, void (__cdecl *)(void *, unsigned __int64), void (__cdecl *)(void *, void const *, unsigned __int64), void (__cdecl *)(void *, void const *, unsigned __int64))",
+                    "function_name": "internal_assign",
+                    "parameters": "class tbb::internal::concurrent_vector_base_v3 const &, unsigned __int64, void (__cdecl *)(void *, unsigned __int64), void (__cdecl *)(void *, void const *, unsigned __int64), void (__cdecl *)(void *, void const *, unsigned __int64)",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 78,
+                    "rva": 77,
+                    "rva_hex": "0x4D",
+                    "name": "?internal_capacity@concurrent_vector_base_v3@internal@tbb@@IEBA_KXZ",
+                    "demangled": "protected: unsigned __int64 __cdecl tbb::internal::concurrent_vector_base_v3::internal_capacity(void) const",
+                    "function_name": "internal_capacity",
+                    "parameters": "void",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 80,
+                    "rva": 79,
+                    "rva_hex": "0x4F",
+                    "name": "?internal_clear@concurrent_vector_base_v3@internal@tbb@@IEAA_KP6AXPEAX_K@Z@Z",
+                    "demangled": "protected: unsigned __int64 __cdecl tbb::internal::concurrent_vector_base_v3::internal_clear(void (__cdecl *)(void *, unsigned __int64))",
+                    "function_name": "internal_clear",
+                    "parameters": "void (__cdecl *)(void *, unsigned __int64)",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 81,
+                    "rva": 80,
+                    "rva_hex": "0x50",
+                    "name": "?internal_compact@concurrent_vector_base_v3@internal@tbb@@IEAAPEAX_KPEAXP6AX10@ZP6AX1PEBX0@Z@Z",
+                    "demangled": "protected: void * __cdecl tbb::internal::concurrent_vector_base_v3::internal_compact(unsigned __int64, void *, void (__cdecl *)(void *, unsigned __int64), void (__cdecl *)(void *, void const *, unsigned __int64))",
+                    "function_name": "internal_compact",
+                    "parameters": "unsigned __int64, void *, void (__cdecl *)(void *, unsigned __int64), void (__cdecl *)(void *, void const *, unsigned __int64)",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 97,
+                    "rva": 96,
+                    "rva_hex": "0x60",
+                    "name": "?internal_copy@concurrent_vector_base_v3@internal@tbb@@IEAAXAEBV123@_KP6AXPEAXPEBX1@Z@Z",
+                    "demangled": "protected: void __cdecl tbb::internal::concurrent_vector_base_v3::internal_copy(class tbb::internal::concurrent_vector_base_v3 const &, unsigned __int64, void (__cdecl *)(void *, void const *, unsigned __int64))",
+                    "function_name": "internal_copy",
+                    "parameters": "class tbb::internal::concurrent_vector_base_v3 const &, unsigned __int64, void (__cdecl *)(void *, void const *, unsigned __int64)",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 116,
+                    "rva": 115,
+                    "rva_hex": "0x73",
+                    "name": "?internal_grow_by@concurrent_vector_base_v3@internal@tbb@@IEAA_K_K0P6AXPEAXPEBX0@Z2@Z",
+                    "demangled": "protected: unsigned __int64 __cdecl tbb::internal::concurrent_vector_base_v3::internal_grow_by(unsigned __int64, unsigned __int64, void (__cdecl *)(void *, void const *, unsigned __int64), void const *)",
+                    "function_name": "internal_grow_by",
+                    "parameters": "unsigned __int64, unsigned __int64, void (__cdecl *)(void *, void const *, unsigned __int64), void const *",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 119,
+                    "rva": 118,
+                    "rva_hex": "0x76",
+                    "name": "?internal_grow_to_at_least@concurrent_vector_base_v3@internal@tbb@@IEAAX_K0P6AXPEAXPEBX0@Z2@Z",
+                    "demangled": "protected: void __cdecl tbb::internal::concurrent_vector_base_v3::internal_grow_to_at_least(unsigned __int64, unsigned __int64, void (__cdecl *)(void *, void const *, unsigned __int64), void const *)",
+                    "function_name": "internal_grow_to_at_least",
+                    "parameters": "unsigned __int64, unsigned __int64, void (__cdecl *)(void *, void const *, unsigned __int64), void const *",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 120,
+                    "rva": 119,
+                    "rva_hex": "0x77",
+                    "name": "?internal_grow_to_at_least_with_result@concurrent_vector_base_v3@internal@tbb@@IEAA_K_K0P6AXPEAXPEBX0@Z2@Z",
+                    "demangled": "protected: unsigned __int64 __cdecl tbb::internal::concurrent_vector_base_v3::internal_grow_to_at_least_with_result(unsigned __int64, unsigned __int64, void (__cdecl *)(void *, void const *, unsigned __int64), void const *)",
+                    "function_name": "internal_grow_to_at_least_with_result",
+                    "parameters": "unsigned __int64, unsigned __int64, void (__cdecl *)(void *, void const *, unsigned __int64), void const *",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 132,
+                    "rva": 131,
+                    "rva_hex": "0x83",
+                    "name": "?internal_push_back@concurrent_vector_base_v3@internal@tbb@@IEAAPEAX_KAEA_K@Z",
+                    "demangled": "protected: void * __cdecl tbb::internal::concurrent_vector_base_v3::internal_push_back(unsigned __int64, unsigned __int64 &)",
+                    "function_name": "internal_push_back",
+                    "parameters": "unsigned __int64, unsigned __int64 &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 146,
+                    "rva": 145,
+                    "rva_hex": "0x91",
+                    "name": "?internal_reserve@concurrent_vector_base_v3@internal@tbb@@IEAAX_K00@Z",
+                    "demangled": "protected: void __cdecl tbb::internal::concurrent_vector_base_v3::internal_reserve(unsigned __int64, unsigned __int64, unsigned __int64)",
+                    "function_name": "internal_reserve",
+                    "parameters": "unsigned __int64, unsigned __int64, unsigned __int64",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 147,
+                    "rva": 146,
+                    "rva_hex": "0x92",
+                    "name": "?internal_resize@concurrent_vector_base_v3@internal@tbb@@IEAAX_K00PEBXP6AXPEAX0@ZP6AX210@Z@Z",
+                    "demangled": "protected: void __cdecl tbb::internal::concurrent_vector_base_v3::internal_resize(unsigned __int64, unsigned __int64, unsigned __int64, void const *, void (__cdecl *)(void *, unsigned __int64), void (__cdecl *)(void *, void const *, unsigned __int64))",
+                    "function_name": "internal_resize",
+                    "parameters": "unsigned __int64, unsigned __int64, unsigned __int64, void const *, void (__cdecl *)(void *, unsigned __int64), void (__cdecl *)(void *, void const *, unsigned __int64)",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 154,
+                    "rva": 153,
+                    "rva_hex": "0x99",
+                    "name": "?internal_swap@concurrent_vector_base_v3@internal@tbb@@IEAAXAEAV123@@Z",
+                    "demangled": "protected: void __cdecl tbb::internal::concurrent_vector_base_v3::internal_swap(class tbb::internal::concurrent_vector_base_v3 &)",
+                    "function_name": "internal_swap",
+                    "parameters": "class tbb::internal::concurrent_vector_base_v3 &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 157,
+                    "rva": 156,
+                    "rva_hex": "0x9C",
+                    "name": "?internal_throw_exception@concurrent_vector_base_v3@internal@tbb@@IEBAX_K@Z",
+                    "demangled": "protected: void __cdecl tbb::internal::concurrent_vector_base_v3::internal_throw_exception(unsigned __int64) const",
+                    "function_name": "internal_throw_exception",
+                    "parameters": "unsigned __int64",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "filter": {
+            "class_name": "filter",
+            "namespace": "tbb",
+            "methods": [
+                {
+                    "ordinal": 13,
+                    "rva": 12,
+                    "rva_hex": "0xC",
+                    "name": "??1filter@tbb@@UEAA@XZ",
+                    "demangled": "public: virtual __cdecl tbb::filter::~filter(void)",
+                    "function_name": "~filter",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": true
+                },
+                {
+                    "ordinal": 207,
+                    "rva": 206,
+                    "rva_hex": "0xCE",
+                    "name": "?set_end_of_input@filter@tbb@@IEAAXXZ",
+                    "demangled": "protected: void __cdecl tbb::filter::set_end_of_input(void)",
+                    "function_name": "set_end_of_input",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "task_group_context": {
+            "class_name": "task_group_context",
+            "namespace": "tbb",
+            "methods": [
+                {
+                    "ordinal": 15,
+                    "rva": 14,
+                    "rva_hex": "0xE",
+                    "name": "??1task_group_context@tbb@@QEAA@XZ",
+                    "demangled": "public: __cdecl tbb::task_group_context::~task_group_context(void)",
+                    "function_name": "~task_group_context",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 38,
+                    "rva": 37,
+                    "rva_hex": "0x25",
+                    "name": "?cancel_group_execution@task_group_context@tbb@@QEAA_NXZ",
+                    "demangled": "public: bool __cdecl tbb::task_group_context::cancel_group_execution(void)",
+                    "function_name": "cancel_group_execution",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 39,
+                    "rva": 38,
+                    "rva_hex": "0x26",
+                    "name": "?capture_fp_settings@task_group_context@tbb@@QEAAXXZ",
+                    "demangled": "public: void __cdecl tbb::task_group_context::capture_fp_settings(void)",
+                    "function_name": "capture_fp_settings",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 59,
+                    "rva": 58,
+                    "rva_hex": "0x3A",
+                    "name": "?init@task_group_context@tbb@@IEAAXXZ",
+                    "demangled": "protected: void __cdecl tbb::task_group_context::init(void)",
+                    "function_name": "init",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 170,
+                    "rva": 169,
+                    "rva_hex": "0xA9",
+                    "name": "?is_group_execution_cancelled@task_group_context@tbb@@QEBA_NXZ",
+                    "demangled": "public: bool __cdecl tbb::task_group_context::is_group_execution_cancelled(void) const",
+                    "function_name": "is_group_execution_cancelled",
+                    "parameters": "void",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 194,
+                    "rva": 193,
+                    "rva_hex": "0xC1",
+                    "name": "?priority@task_group_context@tbb@@QEBA?AW4priority_t@2@XZ",
+                    "demangled": "public: enum tbb::priority_t __cdecl tbb::task_group_context::priority(void) const",
+                    "function_name": "priority",
+                    "parameters": "void",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 196,
+                    "rva": 195,
+                    "rva_hex": "0xC3",
+                    "name": "?register_pending_exception@task_group_context@tbb@@QEAAXXZ",
+                    "demangled": "public: void __cdecl tbb::task_group_context::register_pending_exception(void)",
+                    "function_name": "register_pending_exception",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 199,
+                    "rva": 198,
+                    "rva_hex": "0xC6",
+                    "name": "?reset@task_group_context@tbb@@QEAAXXZ",
+                    "demangled": "public: void __cdecl tbb::task_group_context::reset(void)",
+                    "function_name": "reset",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 208,
+                    "rva": 207,
+                    "rva_hex": "0xCF",
+                    "name": "?set_priority@task_group_context@tbb@@QEAAXW4priority_t@2@@Z",
+                    "demangled": "public: void __cdecl tbb::task_group_context::set_priority(enum tbb::priority_t)",
+                    "function_name": "set_priority",
+                    "parameters": "enum tbb::priority_t",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "internal": {
+            "class_name": "internal",
+            "namespace": "tbb",
+            "methods": [
+                {
+                    "ordinal": 17,
+                    "rva": 16,
+                    "rva_hex": "0x10",
+                    "name": "?NFS_Allocate@internal@tbb@@YAPEAX_K0PEAX@Z",
+                    "demangled": "void * __cdecl tbb::internal::NFS_Allocate(unsigned __int64, unsigned __int64, void *)",
+                    "function_name": "NFS_Allocate",
+                    "parameters": "unsigned __int64, unsigned __int64, void *",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 18,
+                    "rva": 17,
+                    "rva_hex": "0x11",
+                    "name": "?NFS_Free@internal@tbb@@YAXPEAX@Z",
+                    "demangled": "void __cdecl tbb::internal::NFS_Free(void *)",
+                    "function_name": "NFS_Free",
+                    "parameters": "void *",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 19,
+                    "rva": 18,
+                    "rva_hex": "0x12",
+                    "name": "?NFS_GetLineSize@internal@tbb@@YA_KXZ",
+                    "demangled": "unsigned __int64 __cdecl tbb::internal::NFS_GetLineSize(void)",
+                    "function_name": "NFS_GetLineSize",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 31,
+                    "rva": 30,
+                    "rva_hex": "0x1E",
+                    "name": "?allocate_closure_v3@internal@tbb@@YAPEAX_K@Z",
+                    "demangled": "void * __cdecl tbb::internal::allocate_closure_v3(unsigned __int64)",
+                    "function_name": "allocate_closure_v3",
+                    "parameters": "unsigned __int64",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 32,
+                    "rva": 31,
+                    "rva_hex": "0x1F",
+                    "name": "?allocate_via_handler_v3@internal@tbb@@YAPEAX_K@Z",
+                    "demangled": "void * __cdecl tbb::internal::allocate_via_handler_v3(unsigned __int64)",
+                    "function_name": "allocate_via_handler_v3",
+                    "parameters": "unsigned __int64",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 37,
+                    "rva": 36,
+                    "rva_hex": "0x24",
+                    "name": "?call_itt_notify_v5@internal@tbb@@YAXHPEAX@Z",
+                    "demangled": "void __cdecl tbb::internal::call_itt_notify_v5(int, void *)",
+                    "function_name": "call_itt_notify_v5",
+                    "parameters": "int, void *",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 43,
+                    "rva": 42,
+                    "rva_hex": "0x2A",
+                    "name": "?deallocate_via_handler_v3@internal@tbb@@YAXPEAX@Z",
+                    "demangled": "void __cdecl tbb::internal::deallocate_via_handler_v3(void *)",
+                    "function_name": "deallocate_via_handler_v3",
+                    "parameters": "void *",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 55,
+                    "rva": 54,
+                    "rva_hex": "0x36",
+                    "name": "?free_closure_v3@internal@tbb@@YAXPEAX@Z",
+                    "demangled": "void __cdecl tbb::internal::free_closure_v3(void *)",
+                    "function_name": "free_closure_v3",
+                    "parameters": "void *",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 56,
+                    "rva": 55,
+                    "rva_hex": "0x37",
+                    "name": "?get_initial_auto_partitioner_divisor@internal@tbb@@YA_KXZ",
+                    "demangled": "unsigned __int64 __cdecl tbb::internal::get_initial_auto_partitioner_divisor(void)",
+                    "function_name": "get_initial_auto_partitioner_divisor",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 57,
+                    "rva": 56,
+                    "rva_hex": "0x38",
+                    "name": "?handle_perror@internal@tbb@@YAXHPEBD@Z",
+                    "demangled": "void __cdecl tbb::internal::handle_perror(int, char const *)",
+                    "function_name": "handle_perror",
+                    "parameters": "int, char const *",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 82,
+                    "rva": 81,
+                    "rva_hex": "0x51",
+                    "name": "?internal_condition_variable_notify_all@internal@interface5@tbb@@YAXAEATcondvar_impl_t@123@@Z",
+                    "demangled": "void __cdecl tbb::interface5::internal::internal_condition_variable_notify_all(union tbb::interface5::internal::condvar_impl_t &)",
+                    "function_name": "internal_condition_variable_notify_all",
+                    "parameters": "union tbb::interface5::internal::condvar_impl_t &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 83,
+                    "rva": 82,
+                    "rva_hex": "0x52",
+                    "name": "?internal_condition_variable_notify_one@internal@interface5@tbb@@YAXAEATcondvar_impl_t@123@@Z",
+                    "demangled": "void __cdecl tbb::interface5::internal::internal_condition_variable_notify_one(union tbb::interface5::internal::condvar_impl_t &)",
+                    "function_name": "internal_condition_variable_notify_one",
+                    "parameters": "union tbb::interface5::internal::condvar_impl_t &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 84,
+                    "rva": 83,
+                    "rva_hex": "0x53",
+                    "name": "?internal_condition_variable_wait@internal@interface5@tbb@@YA_NAEATcondvar_impl_t@123@PEAVmutex@3@PEBVinterval_t@tick_count@3@@Z",
+                    "demangled": "bool __cdecl tbb::interface5::internal::internal_condition_variable_wait(union tbb::interface5::internal::condvar_impl_t &, class tbb::mutex *, class tbb::tick_count::interval_t const *)",
+                    "function_name": "internal_condition_variable_wait",
+                    "parameters": "union tbb::interface5::internal::condvar_impl_t &, class tbb::mutex *, class tbb::tick_count::interval_t const *",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 107,
+                    "rva": 106,
+                    "rva_hex": "0x6A",
+                    "name": "?internal_destroy_condition_variable@internal@interface5@tbb@@YAXAEATcondvar_impl_t@123@@Z",
+                    "demangled": "void __cdecl tbb::interface5::internal::internal_destroy_condition_variable(union tbb::interface5::internal::condvar_impl_t &)",
+                    "function_name": "internal_destroy_condition_variable",
+                    "parameters": "union tbb::interface5::internal::condvar_impl_t &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 122,
+                    "rva": 121,
+                    "rva_hex": "0x79",
+                    "name": "?internal_initialize_condition_variable@internal@interface5@tbb@@YAXAEATcondvar_impl_t@123@@Z",
+                    "demangled": "void __cdecl tbb::interface5::internal::internal_initialize_condition_variable(union tbb::interface5::internal::condvar_impl_t &)",
+                    "function_name": "internal_initialize_condition_variable",
+                    "parameters": "union tbb::interface5::internal::condvar_impl_t &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 171,
+                    "rva": 170,
+                    "rva_hex": "0xAA",
+                    "name": "?is_malloc_used_v3@internal@tbb@@YA_NXZ",
+                    "demangled": "bool __cdecl tbb::internal::is_malloc_used_v3(void)",
+                    "function_name": "is_malloc_used_v3",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 173,
+                    "rva": 172,
+                    "rva_hex": "0xAC",
+                    "name": "?isolate_within_arena@internal@interface7@tbb@@YAXAEAVdelegate_base@123@_J@Z",
+                    "demangled": "void __cdecl tbb::interface7::internal::isolate_within_arena(class tbb::interface7::internal::delegate_base &, __int64)",
+                    "function_name": "isolate_within_arena",
+                    "parameters": "class tbb::interface7::internal::delegate_base &, __int64",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 174,
+                    "rva": 173,
+                    "rva_hex": "0xAD",
+                    "name": "?itt_load_pointer_v3@internal@tbb@@YAPEAXPEBX@Z",
+                    "demangled": "void * __cdecl tbb::internal::itt_load_pointer_v3(void const *)",
+                    "function_name": "itt_load_pointer_v3",
+                    "parameters": "void const *",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 175,
+                    "rva": 174,
+                    "rva_hex": "0xAE",
+                    "name": "?itt_load_pointer_with_acquire_v3@internal@tbb@@YAPEAXPEBX@Z",
+                    "demangled": "void * __cdecl tbb::internal::itt_load_pointer_with_acquire_v3(void const *)",
+                    "function_name": "itt_load_pointer_with_acquire_v3",
+                    "parameters": "void const *",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 176,
+                    "rva": 175,
+                    "rva_hex": "0xAF",
+                    "name": "?itt_make_task_group_v7@internal@tbb@@YAXW4itt_domain_enum@12@PEAX_K12W4string_index@12@@Z",
+                    "demangled": "void __cdecl tbb::internal::itt_make_task_group_v7(enum tbb::internal::itt_domain_enum, void *, unsigned __int64, void *, unsigned __int64, enum tbb::internal::string_index)",
+                    "function_name": "itt_make_task_group_v7",
+                    "parameters": "enum tbb::internal::itt_domain_enum, void *, unsigned __int64, void *, unsigned __int64, enum tbb::internal::string_index",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 177,
+                    "rva": 176,
+                    "rva_hex": "0xB0",
+                    "name": "?itt_metadata_str_add_v7@internal@tbb@@YAXW4itt_domain_enum@12@PEAX_KW4string_index@12@PEBD@Z",
+                    "demangled": "void __cdecl tbb::internal::itt_metadata_str_add_v7(enum tbb::internal::itt_domain_enum, void *, unsigned __int64, enum tbb::internal::string_index, char const *)",
+                    "function_name": "itt_metadata_str_add_v7",
+                    "parameters": "enum tbb::internal::itt_domain_enum, void *, unsigned __int64, enum tbb::internal::string_index, char const *",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 178,
+                    "rva": 177,
+                    "rva_hex": "0xB1",
+                    "name": "?itt_region_begin_v9@internal@tbb@@YAXW4itt_domain_enum@12@PEAX_K12W4string_index@12@@Z",
+                    "demangled": "void __cdecl tbb::internal::itt_region_begin_v9(enum tbb::internal::itt_domain_enum, void *, unsigned __int64, void *, unsigned __int64, enum tbb::internal::string_index)",
+                    "function_name": "itt_region_begin_v9",
+                    "parameters": "enum tbb::internal::itt_domain_enum, void *, unsigned __int64, void *, unsigned __int64, enum tbb::internal::string_index",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 179,
+                    "rva": 178,
+                    "rva_hex": "0xB2",
+                    "name": "?itt_region_end_v9@internal@tbb@@YAXW4itt_domain_enum@12@PEAX_K@Z",
+                    "demangled": "void __cdecl tbb::internal::itt_region_end_v9(enum tbb::internal::itt_domain_enum, void *, unsigned __int64)",
+                    "function_name": "itt_region_end_v9",
+                    "parameters": "enum tbb::internal::itt_domain_enum, void *, unsigned __int64",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 180,
+                    "rva": 179,
+                    "rva_hex": "0xB3",
+                    "name": "?itt_relation_add_v7@internal@tbb@@YAXW4itt_domain_enum@12@PEAX_KW4itt_relation@12@12@Z",
+                    "demangled": "void __cdecl tbb::internal::itt_relation_add_v7(enum tbb::internal::itt_domain_enum, void *, unsigned __int64, enum tbb::internal::itt_relation, void *, unsigned __int64)",
+                    "function_name": "itt_relation_add_v7",
+                    "parameters": "enum tbb::internal::itt_domain_enum, void *, unsigned __int64, enum tbb::internal::itt_relation, void *, unsigned __int64",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 181,
+                    "rva": 180,
+                    "rva_hex": "0xB4",
+                    "name": "?itt_set_sync_name_v3@internal@tbb@@YAXPEAXPEB_W@Z",
+                    "demangled": "void __cdecl tbb::internal::itt_set_sync_name_v3(void *, wchar_t const *)",
+                    "function_name": "itt_set_sync_name_v3",
+                    "parameters": "void *, wchar_t const *",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 182,
+                    "rva": 181,
+                    "rva_hex": "0xB5",
+                    "name": "?itt_store_pointer_with_release_v3@internal@tbb@@YAXPEAX0@Z",
+                    "demangled": "void __cdecl tbb::internal::itt_store_pointer_with_release_v3(void *, void *)",
+                    "function_name": "itt_store_pointer_with_release_v3",
+                    "parameters": "void *, void *",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 183,
+                    "rva": 182,
+                    "rva_hex": "0xB6",
+                    "name": "?itt_task_begin_v7@internal@tbb@@YAXW4itt_domain_enum@12@PEAX_K12W4string_index@12@@Z",
+                    "demangled": "void __cdecl tbb::internal::itt_task_begin_v7(enum tbb::internal::itt_domain_enum, void *, unsigned __int64, void *, unsigned __int64, enum tbb::internal::string_index)",
+                    "function_name": "itt_task_begin_v7",
+                    "parameters": "enum tbb::internal::itt_domain_enum, void *, unsigned __int64, void *, unsigned __int64, enum tbb::internal::string_index",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 184,
+                    "rva": 183,
+                    "rva_hex": "0xB7",
+                    "name": "?itt_task_end_v7@internal@tbb@@YAXW4itt_domain_enum@12@@Z",
+                    "demangled": "void __cdecl tbb::internal::itt_task_end_v7(enum tbb::internal::itt_domain_enum)",
+                    "function_name": "itt_task_end_v7",
+                    "parameters": "enum tbb::internal::itt_domain_enum",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 190,
+                    "rva": 189,
+                    "rva_hex": "0xBD",
+                    "name": "?move_v3@internal@tbb@@YAXAEAVtbb_thread_v3@12@0@Z",
+                    "demangled": "void __cdecl tbb::internal::move_v3(class tbb::internal::tbb_thread_v3 &, class tbb::internal::tbb_thread_v3 &)",
+                    "function_name": "move_v3",
+                    "parameters": "class tbb::internal::tbb_thread_v3 &, class tbb::internal::tbb_thread_v3 &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 203,
+                    "rva": 202,
+                    "rva_hex": "0xCA",
+                    "name": "?runtime_warning@internal@tbb@@YAXPEBDZZ",
+                    "demangled": "void __cdecl tbb::internal::runtime_warning(char const *, ...)",
+                    "function_name": "runtime_warning",
+                    "parameters": "char const *, ...",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 211,
+                    "rva": 210,
+                    "rva_hex": "0xD2",
+                    "name": "?thread_get_id_v3@internal@tbb@@YA?AVid@tbb_thread_v3@12@XZ",
+                    "demangled": "class tbb::internal::tbb_thread_v3::id __cdecl tbb::internal::thread_get_id_v3(void)",
+                    "function_name": "thread_get_id_v3",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 212,
+                    "rva": 211,
+                    "rva_hex": "0xD3",
+                    "name": "?thread_sleep_v3@internal@tbb@@YAXAEBVinterval_t@tick_count@2@@Z",
+                    "demangled": "void __cdecl tbb::internal::thread_sleep_v3(class tbb::tick_count::interval_t const &)",
+                    "function_name": "thread_sleep_v3",
+                    "parameters": "class tbb::tick_count::interval_t const &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 213,
+                    "rva": 212,
+                    "rva_hex": "0xD4",
+                    "name": "?thread_yield_v3@internal@tbb@@YAXXZ",
+                    "demangled": "void __cdecl tbb::internal::thread_yield_v3(void)",
+                    "function_name": "thread_yield_v3",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 214,
+                    "rva": 213,
+                    "rva_hex": "0xD5",
+                    "name": "?throw_bad_last_alloc_exception_v4@internal@tbb@@YAXXZ",
+                    "demangled": "void __cdecl tbb::internal::throw_bad_last_alloc_exception_v4(void)",
+                    "function_name": "throw_bad_last_alloc_exception_v4",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 215,
+                    "rva": 214,
+                    "rva_hex": "0xD6",
+                    "name": "?throw_exception_v4@internal@tbb@@YAXW4exception_id@12@@Z",
+                    "demangled": "void __cdecl tbb::internal::throw_exception_v4(enum tbb::internal::exception_id)",
+                    "function_name": "throw_exception_v4",
+                    "parameters": "enum tbb::internal::exception_id",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "scoped_lock": {
+            "class_name": "scoped_lock",
+            "namespace": "tbb::queuing_mutex",
+            "methods": [
+                {
+                    "ordinal": 20,
+                    "rva": 19,
+                    "rva_hex": "0x13",
+                    "name": "?acquire@scoped_lock@queuing_mutex@tbb@@QEAAXAEAV23@@Z",
+                    "demangled": "public: void __cdecl tbb::queuing_mutex::scoped_lock::acquire(class tbb::queuing_mutex &)",
+                    "function_name": "acquire",
+                    "parameters": "class tbb::queuing_mutex &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 21,
+                    "rva": 20,
+                    "rva_hex": "0x14",
+                    "name": "?acquire@scoped_lock@queuing_rw_mutex@tbb@@QEAAXAEAV23@_N@Z",
+                    "demangled": "public: void __cdecl tbb::queuing_rw_mutex::scoped_lock::acquire(class tbb::queuing_rw_mutex &, bool)",
+                    "function_name": "acquire",
+                    "parameters": "class tbb::queuing_rw_mutex &, bool",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 49,
+                    "rva": 48,
+                    "rva_hex": "0x30",
+                    "name": "?downgrade_to_reader@scoped_lock@queuing_rw_mutex@tbb@@QEAA_NXZ",
+                    "demangled": "public: bool __cdecl tbb::queuing_rw_mutex::scoped_lock::downgrade_to_reader(void)",
+                    "function_name": "downgrade_to_reader",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 64,
+                    "rva": 63,
+                    "rva_hex": "0x3F",
+                    "name": "?internal_acquire@scoped_lock@mutex@tbb@@AEAAXAEAV23@@Z",
+                    "demangled": "private: void __cdecl tbb::mutex::scoped_lock::internal_acquire(class tbb::mutex &)",
+                    "function_name": "internal_acquire",
+                    "parameters": "class tbb::mutex &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 65,
+                    "rva": 64,
+                    "rva_hex": "0x40",
+                    "name": "?internal_acquire@scoped_lock@recursive_mutex@tbb@@AEAAXAEAV23@@Z",
+                    "demangled": "private: void __cdecl tbb::recursive_mutex::scoped_lock::internal_acquire(class tbb::recursive_mutex &)",
+                    "function_name": "internal_acquire",
+                    "parameters": "class tbb::recursive_mutex &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 66,
+                    "rva": 65,
+                    "rva_hex": "0x41",
+                    "name": "?internal_acquire@scoped_lock@spin_mutex@tbb@@AEAAXAEAV23@@Z",
+                    "demangled": "private: void __cdecl tbb::spin_mutex::scoped_lock::internal_acquire(class tbb::spin_mutex &)",
+                    "function_name": "internal_acquire",
+                    "parameters": "class tbb::spin_mutex &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 91,
+                    "rva": 90,
+                    "rva_hex": "0x5A",
+                    "name": "?internal_construct@scoped_lock@reader_writer_lock@interface5@tbb@@AEAAXAEAV234@@Z",
+                    "demangled": "private: void __cdecl tbb::interface5::reader_writer_lock::scoped_lock::internal_construct(class tbb::interface5::reader_writer_lock &)",
+                    "function_name": "internal_construct",
+                    "parameters": "class tbb::interface5::reader_writer_lock &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 105,
+                    "rva": 104,
+                    "rva_hex": "0x68",
+                    "name": "?internal_destroy@scoped_lock@reader_writer_lock@interface5@tbb@@AEAAXXZ",
+                    "demangled": "private: void __cdecl tbb::interface5::reader_writer_lock::scoped_lock::internal_destroy(void)",
+                    "function_name": "internal_destroy",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 137,
+                    "rva": 136,
+                    "rva_hex": "0x88",
+                    "name": "?internal_release@scoped_lock@mutex@tbb@@AEAAXXZ",
+                    "demangled": "private: void __cdecl tbb::mutex::scoped_lock::internal_release(void)",
+                    "function_name": "internal_release",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 138,
+                    "rva": 137,
+                    "rva_hex": "0x89",
+                    "name": "?internal_release@scoped_lock@recursive_mutex@tbb@@AEAAXXZ",
+                    "demangled": "private: void __cdecl tbb::recursive_mutex::scoped_lock::internal_release(void)",
+                    "function_name": "internal_release",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 139,
+                    "rva": 138,
+                    "rva_hex": "0x8A",
+                    "name": "?internal_release@scoped_lock@spin_mutex@tbb@@AEAAXXZ",
+                    "demangled": "private: void __cdecl tbb::spin_mutex::scoped_lock::internal_release(void)",
+                    "function_name": "internal_release",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 158,
+                    "rva": 157,
+                    "rva_hex": "0x9D",
+                    "name": "?internal_try_acquire@scoped_lock@mutex@tbb@@AEAA_NAEAV23@@Z",
+                    "demangled": "private: bool __cdecl tbb::mutex::scoped_lock::internal_try_acquire(class tbb::mutex &)",
+                    "function_name": "internal_try_acquire",
+                    "parameters": "class tbb::mutex &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 159,
+                    "rva": 158,
+                    "rva_hex": "0x9E",
+                    "name": "?internal_try_acquire@scoped_lock@recursive_mutex@tbb@@AEAA_NAEAV23@@Z",
+                    "demangled": "private: bool __cdecl tbb::recursive_mutex::scoped_lock::internal_try_acquire(class tbb::recursive_mutex &)",
+                    "function_name": "internal_try_acquire",
+                    "parameters": "class tbb::recursive_mutex &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 160,
+                    "rva": 159,
+                    "rva_hex": "0x9F",
+                    "name": "?internal_try_acquire@scoped_lock@spin_mutex@tbb@@AEAA_NAEAV23@@Z",
+                    "demangled": "private: bool __cdecl tbb::spin_mutex::scoped_lock::internal_try_acquire(class tbb::spin_mutex &)",
+                    "function_name": "internal_try_acquire",
+                    "parameters": "class tbb::spin_mutex &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 197,
+                    "rva": 196,
+                    "rva_hex": "0xC4",
+                    "name": "?release@scoped_lock@queuing_mutex@tbb@@QEAAXXZ",
+                    "demangled": "public: void __cdecl tbb::queuing_mutex::scoped_lock::release(void)",
+                    "function_name": "release",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 198,
+                    "rva": 197,
+                    "rva_hex": "0xC5",
+                    "name": "?release@scoped_lock@queuing_rw_mutex@tbb@@QEAAXXZ",
+                    "demangled": "public: void __cdecl tbb::queuing_rw_mutex::scoped_lock::release(void)",
+                    "function_name": "release",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 216,
+                    "rva": 215,
+                    "rva_hex": "0xD7",
+                    "name": "?try_acquire@scoped_lock@queuing_mutex@tbb@@QEAA_NAEAV23@@Z",
+                    "demangled": "public: bool __cdecl tbb::queuing_mutex::scoped_lock::try_acquire(class tbb::queuing_mutex &)",
+                    "function_name": "try_acquire",
+                    "parameters": "class tbb::queuing_mutex &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 217,
+                    "rva": 216,
+                    "rva_hex": "0xD8",
+                    "name": "?try_acquire@scoped_lock@queuing_rw_mutex@tbb@@QEAA_NAEAV23@_N@Z",
+                    "demangled": "public: bool __cdecl tbb::queuing_rw_mutex::scoped_lock::try_acquire(class tbb::queuing_rw_mutex &, bool)",
+                    "function_name": "try_acquire",
+                    "parameters": "class tbb::queuing_rw_mutex &, bool",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 222,
+                    "rva": 221,
+                    "rva_hex": "0xDD",
+                    "name": "?upgrade_to_writer@scoped_lock@queuing_rw_mutex@tbb@@QEAA_NXZ",
+                    "demangled": "public: bool __cdecl tbb::queuing_rw_mutex::scoped_lock::upgrade_to_writer(void)",
+                    "function_name": "upgrade_to_writer",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "global_control": {
+            "class_name": "global_control",
+            "namespace": "tbb::interface9",
+            "methods": [
+                {
+                    "ordinal": 22,
+                    "rva": 21,
+                    "rva_hex": "0x15",
+                    "name": "?active_value@global_control@interface9@tbb@@CA_KH@Z",
+                    "demangled": "private: static unsigned __int64 __cdecl tbb::interface9::global_control::active_value(int)",
+                    "function_name": "active_value",
+                    "parameters": "int",
+                    "const": false,
+                    "static": true,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 98,
+                    "rva": 97,
+                    "rva_hex": "0x61",
+                    "name": "?internal_create@global_control@interface9@tbb@@AEAAXXZ",
+                    "demangled": "private: void __cdecl tbb::interface9::global_control::internal_create(void)",
+                    "function_name": "internal_create",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 101,
+                    "rva": 100,
+                    "rva_hex": "0x64",
+                    "name": "?internal_destroy@global_control@interface9@tbb@@AEAAXXZ",
+                    "demangled": "private: void __cdecl tbb::interface9::global_control::internal_destroy(void)",
+                    "function_name": "internal_destroy",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "allocate_additional_child_of_proxy": {
+            "class_name": "allocate_additional_child_of_proxy",
+            "namespace": "tbb::internal",
+            "methods": [
+                {
+                    "ordinal": 26,
+                    "rva": 25,
+                    "rva_hex": "0x19",
+                    "name": "?allocate@allocate_additional_child_of_proxy@internal@tbb@@QEBAAEAVtask@3@_K@Z",
+                    "demangled": "public: class tbb::task & __cdecl tbb::internal::allocate_additional_child_of_proxy::allocate(unsigned __int64) const",
+                    "function_name": "allocate",
+                    "parameters": "unsigned __int64",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 50,
+                    "rva": 49,
+                    "rva_hex": "0x31",
+                    "name": "?free@allocate_additional_child_of_proxy@internal@tbb@@QEBAXAEAVtask@3@@Z",
+                    "demangled": "public: void __cdecl tbb::internal::allocate_additional_child_of_proxy::free(class tbb::task &) const",
+                    "function_name": "free",
+                    "parameters": "class tbb::task &",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "allocate_child_proxy": {
+            "class_name": "allocate_child_proxy",
+            "namespace": "tbb::internal",
+            "methods": [
+                {
+                    "ordinal": 27,
+                    "rva": 26,
+                    "rva_hex": "0x1A",
+                    "name": "?allocate@allocate_child_proxy@internal@tbb@@QEBAAEAVtask@3@_K@Z",
+                    "demangled": "public: class tbb::task & __cdecl tbb::internal::allocate_child_proxy::allocate(unsigned __int64) const",
+                    "function_name": "allocate",
+                    "parameters": "unsigned __int64",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 51,
+                    "rva": 50,
+                    "rva_hex": "0x32",
+                    "name": "?free@allocate_child_proxy@internal@tbb@@QEBAXAEAVtask@3@@Z",
+                    "demangled": "public: void __cdecl tbb::internal::allocate_child_proxy::free(class tbb::task &) const",
+                    "function_name": "free",
+                    "parameters": "class tbb::task &",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "allocate_continuation_proxy": {
+            "class_name": "allocate_continuation_proxy",
+            "namespace": "tbb::internal",
+            "methods": [
+                {
+                    "ordinal": 28,
+                    "rva": 27,
+                    "rva_hex": "0x1B",
+                    "name": "?allocate@allocate_continuation_proxy@internal@tbb@@QEBAAEAVtask@3@_K@Z",
+                    "demangled": "public: class tbb::task & __cdecl tbb::internal::allocate_continuation_proxy::allocate(unsigned __int64) const",
+                    "function_name": "allocate",
+                    "parameters": "unsigned __int64",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 52,
+                    "rva": 51,
+                    "rva_hex": "0x33",
+                    "name": "?free@allocate_continuation_proxy@internal@tbb@@QEBAXAEAVtask@3@@Z",
+                    "demangled": "public: void __cdecl tbb::internal::allocate_continuation_proxy::free(class tbb::task &) const",
+                    "function_name": "free",
+                    "parameters": "class tbb::task &",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "allocate_root_proxy": {
+            "class_name": "allocate_root_proxy",
+            "namespace": "tbb::internal",
+            "methods": [
+                {
+                    "ordinal": 29,
+                    "rva": 28,
+                    "rva_hex": "0x1C",
+                    "name": "?allocate@allocate_root_proxy@internal@tbb@@SAAEAVtask@3@_K@Z",
+                    "demangled": "public: static class tbb::task & __cdecl tbb::internal::allocate_root_proxy::allocate(unsigned __int64)",
+                    "function_name": "allocate",
+                    "parameters": "unsigned __int64",
+                    "const": false,
+                    "static": true,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 53,
+                    "rva": 52,
+                    "rva_hex": "0x34",
+                    "name": "?free@allocate_root_proxy@internal@tbb@@SAXAEAVtask@3@@Z",
+                    "demangled": "public: static void __cdecl tbb::internal::allocate_root_proxy::free(class tbb::task &)",
+                    "function_name": "free",
+                    "parameters": "class tbb::task &",
+                    "const": false,
+                    "static": true,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "allocate_root_with_context_proxy": {
+            "class_name": "allocate_root_with_context_proxy",
+            "namespace": "tbb::internal",
+            "methods": [
+                {
+                    "ordinal": 30,
+                    "rva": 29,
+                    "rva_hex": "0x1D",
+                    "name": "?allocate@allocate_root_with_context_proxy@internal@tbb@@QEBAAEAVtask@3@_K@Z",
+                    "demangled": "public: class tbb::task & __cdecl tbb::internal::allocate_root_with_context_proxy::allocate(unsigned __int64) const",
+                    "function_name": "allocate",
+                    "parameters": "unsigned __int64",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 54,
+                    "rva": 53,
+                    "rva_hex": "0x35",
+                    "name": "?free@allocate_root_with_context_proxy@internal@tbb@@QEBAXAEAVtask@3@@Z",
+                    "demangled": "public: void __cdecl tbb::internal::allocate_root_with_context_proxy::free(class tbb::task &) const",
+                    "function_name": "free",
+                    "parameters": "class tbb::task &",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "tbb": {
+            "class_name": "tbb",
+            "namespace": null,
+            "methods": [
+                {
+                    "ordinal": 33,
+                    "rva": 32,
+                    "rva_hex": "0x20",
+                    "name": "?assertion_failure@tbb@@YAXPEBDH00@Z",
+                    "demangled": "void __cdecl tbb::assertion_failure(char const *, int, char const *, char const *)",
+                    "function_name": "assertion_failure",
+                    "parameters": "char const *, int, char const *, char const *",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 206,
+                    "rva": 205,
+                    "rva_hex": "0xCD",
+                    "name": "?set_assertion_handler@tbb@@YAP6AXPEBDH00@ZP6AX0H00@Z@Z",
+                    "demangled": "void (__cdecl * __cdecl tbb::set_assertion_handler(void (__cdecl *)(char const *, int, char const *, char const *)))(char const *, int, char const *, char const *)",
+                    "function_name": "set_assertion_handler",
+                    "parameters": "void (__cdecl *)(char const *, int, char const *, char const *)))(char const *, int, char const *, char const *",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "task": {
+            "class_name": "task",
+            "namespace": "tbb",
+            "methods": [
+                {
+                    "ordinal": 40,
+                    "rva": 39,
+                    "rva_hex": "0x27",
+                    "name": "?change_group@task@tbb@@QEAAXAEAVtask_group_context@2@@Z",
+                    "demangled": "public: void __cdecl tbb::task::change_group(class tbb::task_group_context &)",
+                    "function_name": "change_group",
+                    "parameters": "class tbb::task_group_context &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 46,
+                    "rva": 45,
+                    "rva_hex": "0x2D",
+                    "name": "?destroy@task@tbb@@QEAAXAEAV12@@Z",
+                    "demangled": "public: void __cdecl tbb::task::destroy(class tbb::task &)",
+                    "function_name": "destroy",
+                    "parameters": "class tbb::task &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 100,
+                    "rva": 99,
+                    "rva_hex": "0x63",
+                    "name": "?internal_decrement_ref_count@task@tbb@@AEAA_JXZ",
+                    "demangled": "private: __int64 __cdecl tbb::task::internal_decrement_ref_count(void)",
+                    "function_name": "internal_decrement_ref_count",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 150,
+                    "rva": 149,
+                    "rva_hex": "0x95",
+                    "name": "?internal_set_ref_count@task@tbb@@AEAAXH@Z",
+                    "demangled": "private: void __cdecl tbb::task::internal_set_ref_count(int)",
+                    "function_name": "internal_set_ref_count",
+                    "parameters": "int",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 172,
+                    "rva": 171,
+                    "rva_hex": "0xAB",
+                    "name": "?is_owned_by_current_thread@task@tbb@@QEBA_NXZ",
+                    "demangled": "public: bool __cdecl tbb::task::is_owned_by_current_thread(void) const",
+                    "function_name": "is_owned_by_current_thread",
+                    "parameters": "void",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 192,
+                    "rva": 191,
+                    "rva_hex": "0xBF",
+                    "name": "?note_affinity@task@tbb@@UEAAXG@Z",
+                    "demangled": "public: virtual void __cdecl tbb::task::note_affinity(unsigned short)",
+                    "function_name": "note_affinity",
+                    "parameters": "unsigned short",
+                    "const": false,
+                    "static": false,
+                    "virtual": true
+                },
+                {
+                    "ordinal": 204,
+                    "rva": 203,
+                    "rva_hex": "0xCB",
+                    "name": "?self@task@tbb@@SAAEAV12@XZ",
+                    "demangled": "public: static class tbb::task & __cdecl tbb::task::self(void)",
+                    "function_name": "self",
+                    "parameters": "void",
+                    "const": false,
+                    "static": true,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 209,
+                    "rva": 208,
+                    "rva_hex": "0xD0",
+                    "name": "?spawn_and_wait_for_all@task@tbb@@QEAAXAEAVtask_list@2@@Z",
+                    "demangled": "public: void __cdecl tbb::task::spawn_and_wait_for_all(class tbb::task_list &)",
+                    "function_name": "spawn_and_wait_for_all",
+                    "parameters": "class tbb::task_list &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "task_scheduler_init": {
+            "class_name": "task_scheduler_init",
+            "namespace": "tbb",
+            "methods": [
+                {
+                    "ordinal": 44,
+                    "rva": 43,
+                    "rva_hex": "0x2B",
+                    "name": "?default_num_threads@task_scheduler_init@tbb@@SAHXZ",
+                    "demangled": "public: static int __cdecl tbb::task_scheduler_init::default_num_threads(void)",
+                    "function_name": "default_num_threads",
+                    "parameters": "void",
+                    "const": false,
+                    "static": true,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 60,
+                    "rva": 59,
+                    "rva_hex": "0x3B",
+                    "name": "?initialize@task_scheduler_init@tbb@@QEAAXH@Z",
+                    "demangled": "public: void __cdecl tbb::task_scheduler_init::initialize(int)",
+                    "function_name": "initialize",
+                    "parameters": "int",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 61,
+                    "rva": 60,
+                    "rva_hex": "0x3C",
+                    "name": "?initialize@task_scheduler_init@tbb@@QEAAXH_K@Z",
+                    "demangled": "public: void __cdecl tbb::task_scheduler_init::initialize(int, unsigned __int64)",
+                    "function_name": "initialize",
+                    "parameters": "int, unsigned __int64",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 76,
+                    "rva": 75,
+                    "rva_hex": "0x4B",
+                    "name": "?internal_blocking_terminate@task_scheduler_init@tbb@@AEAA_N_N@Z",
+                    "demangled": "private: bool __cdecl tbb::task_scheduler_init::internal_blocking_terminate(bool)",
+                    "function_name": "internal_blocking_terminate",
+                    "parameters": "bool",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 210,
+                    "rva": 209,
+                    "rva_hex": "0xD1",
+                    "name": "?terminate@task_scheduler_init@tbb@@QEAAXXZ",
+                    "demangled": "public: void __cdecl tbb::task_scheduler_init::terminate(void)",
+                    "function_name": "terminate",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "task_base": {
+            "class_name": "task_base",
+            "namespace": "tbb::interface5::internal",
+            "methods": [
+                {
+                    "ordinal": 47,
+                    "rva": 46,
+                    "rva_hex": "0x2E",
+                    "name": "?destroy@task_base@internal@interface5@tbb@@SAXAEAVtask@4@@Z",
+                    "demangled": "public: static void __cdecl tbb::interface5::internal::task_base::destroy(class tbb::task &)",
+                    "function_name": "destroy",
+                    "parameters": "class tbb::task &",
+                    "const": false,
+                    "static": true,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "tbb_thread_v3": {
+            "class_name": "tbb_thread_v3",
+            "namespace": "tbb::internal",
+            "methods": [
+                {
+                    "ordinal": 48,
+                    "rva": 47,
+                    "rva_hex": "0x2F",
+                    "name": "?detach@tbb_thread_v3@internal@tbb@@QEAAXXZ",
+                    "demangled": "public: void __cdecl tbb::internal::tbb_thread_v3::detach(void)",
+                    "function_name": "detach",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 58,
+                    "rva": 57,
+                    "rva_hex": "0x39",
+                    "name": "?hardware_concurrency@tbb_thread_v3@internal@tbb@@SAIXZ",
+                    "demangled": "public: static unsigned int __cdecl tbb::internal::tbb_thread_v3::hardware_concurrency(void)",
+                    "function_name": "hardware_concurrency",
+                    "parameters": "void",
+                    "const": false,
+                    "static": true,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 153,
+                    "rva": 152,
+                    "rva_hex": "0x98",
+                    "name": "?internal_start@tbb_thread_v3@internal@tbb@@AEAAXP6AIPEAX@Z0@Z",
+                    "demangled": "private: void __cdecl tbb::internal::tbb_thread_v3::internal_start(unsigned int (__cdecl *)(void *), void *)",
+                    "function_name": "internal_start",
+                    "parameters": "unsigned int (__cdecl *)(void *), void *",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 185,
+                    "rva": 184,
+                    "rva_hex": "0xB8",
+                    "name": "?join@tbb_thread_v3@internal@tbb@@QEAAXXZ",
+                    "demangled": "public: void __cdecl tbb::internal::tbb_thread_v3::join(void)",
+                    "function_name": "join",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "spin_rw_mutex": {
+            "class_name": "spin_rw_mutex",
+            "namespace": "tbb",
+            "methods": [
+                {
+                    "ordinal": 67,
+                    "rva": 66,
+                    "rva_hex": "0x42",
+                    "name": "?internal_acquire_reader@spin_rw_mutex@tbb@@CAXPEAV12@@Z",
+                    "demangled": "private: static void __cdecl tbb::spin_rw_mutex::internal_acquire_reader(class tbb::spin_rw_mutex *)",
+                    "function_name": "internal_acquire_reader",
+                    "parameters": "class tbb::spin_rw_mutex *",
+                    "const": false,
+                    "static": true,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 70,
+                    "rva": 69,
+                    "rva_hex": "0x45",
+                    "name": "?internal_acquire_writer@spin_rw_mutex@tbb@@CA_NPEAV12@@Z",
+                    "demangled": "private: static bool __cdecl tbb::spin_rw_mutex::internal_acquire_writer(class tbb::spin_rw_mutex *)",
+                    "function_name": "internal_acquire_writer",
+                    "parameters": "class tbb::spin_rw_mutex *",
+                    "const": false,
+                    "static": true,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 108,
+                    "rva": 107,
+                    "rva_hex": "0x6B",
+                    "name": "?internal_downgrade@spin_rw_mutex@tbb@@CAXPEAV12@@Z",
+                    "demangled": "private: static void __cdecl tbb::spin_rw_mutex::internal_downgrade(class tbb::spin_rw_mutex *)",
+                    "function_name": "internal_downgrade",
+                    "parameters": "class tbb::spin_rw_mutex *",
+                    "const": false,
+                    "static": true,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 123,
+                    "rva": 122,
+                    "rva_hex": "0x7A",
+                    "name": "?internal_itt_releasing@spin_rw_mutex@tbb@@CAXPEAV12@@Z",
+                    "demangled": "private: static void __cdecl tbb::spin_rw_mutex::internal_itt_releasing(class tbb::spin_rw_mutex *)",
+                    "function_name": "internal_itt_releasing",
+                    "parameters": "class tbb::spin_rw_mutex *",
+                    "const": false,
+                    "static": true,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 141,
+                    "rva": 140,
+                    "rva_hex": "0x8C",
+                    "name": "?internal_release_reader@spin_rw_mutex@tbb@@CAXPEAV12@@Z",
+                    "demangled": "private: static void __cdecl tbb::spin_rw_mutex::internal_release_reader(class tbb::spin_rw_mutex *)",
+                    "function_name": "internal_release_reader",
+                    "parameters": "class tbb::spin_rw_mutex *",
+                    "const": false,
+                    "static": true,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 143,
+                    "rva": 142,
+                    "rva_hex": "0x8E",
+                    "name": "?internal_release_writer@spin_rw_mutex@tbb@@CAXPEAV12@@Z",
+                    "demangled": "private: static void __cdecl tbb::spin_rw_mutex::internal_release_writer(class tbb::spin_rw_mutex *)",
+                    "function_name": "internal_release_writer",
+                    "parameters": "class tbb::spin_rw_mutex *",
+                    "const": false,
+                    "static": true,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 161,
+                    "rva": 160,
+                    "rva_hex": "0xA0",
+                    "name": "?internal_try_acquire_reader@spin_rw_mutex@tbb@@CA_NPEAV12@@Z",
+                    "demangled": "private: static bool __cdecl tbb::spin_rw_mutex::internal_try_acquire_reader(class tbb::spin_rw_mutex *)",
+                    "function_name": "internal_try_acquire_reader",
+                    "parameters": "class tbb::spin_rw_mutex *",
+                    "const": false,
+                    "static": true,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 163,
+                    "rva": 162,
+                    "rva_hex": "0xA2",
+                    "name": "?internal_try_acquire_writer@spin_rw_mutex@tbb@@CA_NPEAV12@@Z",
+                    "demangled": "private: static bool __cdecl tbb::spin_rw_mutex::internal_try_acquire_writer(class tbb::spin_rw_mutex *)",
+                    "function_name": "internal_try_acquire_writer",
+                    "parameters": "class tbb::spin_rw_mutex *",
+                    "const": false,
+                    "static": true,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 166,
+                    "rva": 165,
+                    "rva_hex": "0xA5",
+                    "name": "?internal_upgrade@spin_rw_mutex@tbb@@CA_NPEAV12@@Z",
+                    "demangled": "private: static bool __cdecl tbb::spin_rw_mutex::internal_upgrade(class tbb::spin_rw_mutex *)",
+                    "function_name": "internal_upgrade",
+                    "parameters": "class tbb::spin_rw_mutex *",
+                    "const": false,
+                    "static": true,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "spin_rw_mutex_v3": {
+            "class_name": "spin_rw_mutex_v3",
+            "namespace": "tbb",
+            "methods": [
+                {
+                    "ordinal": 68,
+                    "rva": 67,
+                    "rva_hex": "0x43",
+                    "name": "?internal_acquire_reader@spin_rw_mutex_v3@tbb@@AEAAXXZ",
+                    "demangled": "private: void __cdecl tbb::spin_rw_mutex_v3::internal_acquire_reader(void)",
+                    "function_name": "internal_acquire_reader",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 71,
+                    "rva": 70,
+                    "rva_hex": "0x46",
+                    "name": "?internal_acquire_writer@spin_rw_mutex_v3@tbb@@AEAA_NXZ",
+                    "demangled": "private: bool __cdecl tbb::spin_rw_mutex_v3::internal_acquire_writer(void)",
+                    "function_name": "internal_acquire_writer",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 94,
+                    "rva": 93,
+                    "rva_hex": "0x5D",
+                    "name": "?internal_construct@spin_rw_mutex_v3@tbb@@AEAAXXZ",
+                    "demangled": "private: void __cdecl tbb::spin_rw_mutex_v3::internal_construct(void)",
+                    "function_name": "internal_construct",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 109,
+                    "rva": 108,
+                    "rva_hex": "0x6C",
+                    "name": "?internal_downgrade@spin_rw_mutex_v3@tbb@@AEAAXXZ",
+                    "demangled": "private: void __cdecl tbb::spin_rw_mutex_v3::internal_downgrade(void)",
+                    "function_name": "internal_downgrade",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 142,
+                    "rva": 141,
+                    "rva_hex": "0x8D",
+                    "name": "?internal_release_reader@spin_rw_mutex_v3@tbb@@AEAAXXZ",
+                    "demangled": "private: void __cdecl tbb::spin_rw_mutex_v3::internal_release_reader(void)",
+                    "function_name": "internal_release_reader",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 144,
+                    "rva": 143,
+                    "rva_hex": "0x8F",
+                    "name": "?internal_release_writer@spin_rw_mutex_v3@tbb@@AEAAXXZ",
+                    "demangled": "private: void __cdecl tbb::spin_rw_mutex_v3::internal_release_writer(void)",
+                    "function_name": "internal_release_writer",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 162,
+                    "rva": 161,
+                    "rva_hex": "0xA1",
+                    "name": "?internal_try_acquire_reader@spin_rw_mutex_v3@tbb@@AEAA_NXZ",
+                    "demangled": "private: bool __cdecl tbb::spin_rw_mutex_v3::internal_try_acquire_reader(void)",
+                    "function_name": "internal_try_acquire_reader",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 164,
+                    "rva": 163,
+                    "rva_hex": "0xA3",
+                    "name": "?internal_try_acquire_writer@spin_rw_mutex_v3@tbb@@AEAA_NXZ",
+                    "demangled": "private: bool __cdecl tbb::spin_rw_mutex_v3::internal_try_acquire_writer(void)",
+                    "function_name": "internal_try_acquire_writer",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 167,
+                    "rva": 166,
+                    "rva_hex": "0xA6",
+                    "name": "?internal_upgrade@spin_rw_mutex_v3@tbb@@AEAA_NXZ",
+                    "demangled": "private: bool __cdecl tbb::spin_rw_mutex_v3::internal_upgrade(void)",
+                    "function_name": "internal_upgrade",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "x86_rtm_rw_mutex": {
+            "class_name": "x86_rtm_rw_mutex",
+            "namespace": "tbb::interface8::internal",
+            "methods": [
+                {
+                    "ordinal": 69,
+                    "rva": 68,
+                    "rva_hex": "0x44",
+                    "name": "?internal_acquire_reader@x86_rtm_rw_mutex@internal@interface8@tbb@@AEAAXAEAVscoped_lock@1234@_N@Z",
+                    "demangled": "private: void __cdecl tbb::interface8::internal::x86_rtm_rw_mutex::internal_acquire_reader(class tbb::interface8::internal::x86_rtm_rw_mutex::scoped_lock &, bool)",
+                    "function_name": "internal_acquire_reader",
+                    "parameters": "class tbb::interface8::internal::x86_rtm_rw_mutex::scoped_lock &, bool",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 72,
+                    "rva": 71,
+                    "rva_hex": "0x47",
+                    "name": "?internal_acquire_writer@x86_rtm_rw_mutex@internal@interface8@tbb@@AEAAXAEAVscoped_lock@1234@_N@Z",
+                    "demangled": "private: void __cdecl tbb::interface8::internal::x86_rtm_rw_mutex::internal_acquire_writer(class tbb::interface8::internal::x86_rtm_rw_mutex::scoped_lock &, bool)",
+                    "function_name": "internal_acquire_writer",
+                    "parameters": "class tbb::interface8::internal::x86_rtm_rw_mutex::scoped_lock &, bool",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 95,
+                    "rva": 94,
+                    "rva_hex": "0x5E",
+                    "name": "?internal_construct@x86_rtm_rw_mutex@internal@interface8@tbb@@AEAAXXZ",
+                    "demangled": "private: void __cdecl tbb::interface8::internal::x86_rtm_rw_mutex::internal_construct(void)",
+                    "function_name": "internal_construct",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 110,
+                    "rva": 109,
+                    "rva_hex": "0x6D",
+                    "name": "?internal_downgrade@x86_rtm_rw_mutex@internal@interface8@tbb@@AEAA_NAEAVscoped_lock@1234@@Z",
+                    "demangled": "private: bool __cdecl tbb::interface8::internal::x86_rtm_rw_mutex::internal_downgrade(class tbb::interface8::internal::x86_rtm_rw_mutex::scoped_lock &)",
+                    "function_name": "internal_downgrade",
+                    "parameters": "class tbb::interface8::internal::x86_rtm_rw_mutex::scoped_lock &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 140,
+                    "rva": 139,
+                    "rva_hex": "0x8B",
+                    "name": "?internal_release@x86_rtm_rw_mutex@internal@interface8@tbb@@AEAAXAEAVscoped_lock@1234@@Z",
+                    "demangled": "private: void __cdecl tbb::interface8::internal::x86_rtm_rw_mutex::internal_release(class tbb::interface8::internal::x86_rtm_rw_mutex::scoped_lock &)",
+                    "function_name": "internal_release",
+                    "parameters": "class tbb::interface8::internal::x86_rtm_rw_mutex::scoped_lock &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 165,
+                    "rva": 164,
+                    "rva_hex": "0xA4",
+                    "name": "?internal_try_acquire_writer@x86_rtm_rw_mutex@internal@interface8@tbb@@AEAA_NAEAVscoped_lock@1234@@Z",
+                    "demangled": "private: bool __cdecl tbb::interface8::internal::x86_rtm_rw_mutex::internal_try_acquire_writer(class tbb::interface8::internal::x86_rtm_rw_mutex::scoped_lock &)",
+                    "function_name": "internal_try_acquire_writer",
+                    "parameters": "class tbb::interface8::internal::x86_rtm_rw_mutex::scoped_lock &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 168,
+                    "rva": 167,
+                    "rva_hex": "0xA7",
+                    "name": "?internal_upgrade@x86_rtm_rw_mutex@internal@interface8@tbb@@AEAA_NAEAVscoped_lock@1234@@Z",
+                    "demangled": "private: bool __cdecl tbb::interface8::internal::x86_rtm_rw_mutex::internal_upgrade(class tbb::interface8::internal::x86_rtm_rw_mutex::scoped_lock &)",
+                    "function_name": "internal_upgrade",
+                    "parameters": "class tbb::interface8::internal::x86_rtm_rw_mutex::scoped_lock &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "concurrent_vector_base": {
+            "class_name": "concurrent_vector_base",
+            "namespace": "tbb::internal",
+            "methods": [
+                {
+                    "ordinal": 73,
+                    "rva": 72,
+                    "rva_hex": "0x48",
+                    "name": "?internal_assign@concurrent_vector_base@internal@tbb@@IEAAXAEBV123@_KP6AXPEAX1@ZP6AX2PEBX1@Z5@Z",
+                    "demangled": "protected: void __cdecl tbb::internal::concurrent_vector_base::internal_assign(class tbb::internal::concurrent_vector_base const &, unsigned __int64, void (__cdecl *)(void *, unsigned __int64), void (__cdecl *)(void *, void const *, unsigned __int64), void (__cdecl *)(void *, void const *, unsigned __int64))",
+                    "function_name": "internal_assign",
+                    "parameters": "class tbb::internal::concurrent_vector_base const &, unsigned __int64, void (__cdecl *)(void *, unsigned __int64), void (__cdecl *)(void *, void const *, unsigned __int64), void (__cdecl *)(void *, void const *, unsigned __int64)",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 77,
+                    "rva": 76,
+                    "rva_hex": "0x4C",
+                    "name": "?internal_capacity@concurrent_vector_base@internal@tbb@@IEBA_KXZ",
+                    "demangled": "protected: unsigned __int64 __cdecl tbb::internal::concurrent_vector_base::internal_capacity(void) const",
+                    "function_name": "internal_capacity",
+                    "parameters": "void",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 79,
+                    "rva": 78,
+                    "rva_hex": "0x4E",
+                    "name": "?internal_clear@concurrent_vector_base@internal@tbb@@IEAAXP6AXPEAX_K@Z_N@Z",
+                    "demangled": "protected: void __cdecl tbb::internal::concurrent_vector_base::internal_clear(void (__cdecl *)(void *, unsigned __int64), bool)",
+                    "function_name": "internal_clear",
+                    "parameters": "void (__cdecl *)(void *, unsigned __int64), bool",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 96,
+                    "rva": 95,
+                    "rva_hex": "0x5F",
+                    "name": "?internal_copy@concurrent_vector_base@internal@tbb@@IEAAXAEBV123@_KP6AXPEAXPEBX1@Z@Z",
+                    "demangled": "protected: void __cdecl tbb::internal::concurrent_vector_base::internal_copy(class tbb::internal::concurrent_vector_base const &, unsigned __int64, void (__cdecl *)(void *, void const *, unsigned __int64))",
+                    "function_name": "internal_copy",
+                    "parameters": "class tbb::internal::concurrent_vector_base const &, unsigned __int64, void (__cdecl *)(void *, void const *, unsigned __int64)",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 115,
+                    "rva": 114,
+                    "rva_hex": "0x72",
+                    "name": "?internal_grow_by@concurrent_vector_base@internal@tbb@@IEAA_K_K0P6AXPEAX0@Z@Z",
+                    "demangled": "protected: unsigned __int64 __cdecl tbb::internal::concurrent_vector_base::internal_grow_by(unsigned __int64, unsigned __int64, void (__cdecl *)(void *, unsigned __int64))",
+                    "function_name": "internal_grow_by",
+                    "parameters": "unsigned __int64, unsigned __int64, void (__cdecl *)(void *, unsigned __int64)",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 118,
+                    "rva": 117,
+                    "rva_hex": "0x75",
+                    "name": "?internal_grow_to_at_least@concurrent_vector_base@internal@tbb@@IEAAX_K0P6AXPEAX0@Z@Z",
+                    "demangled": "protected: void __cdecl tbb::internal::concurrent_vector_base::internal_grow_to_at_least(unsigned __int64, unsigned __int64, void (__cdecl *)(void *, unsigned __int64))",
+                    "function_name": "internal_grow_to_at_least",
+                    "parameters": "unsigned __int64, unsigned __int64, void (__cdecl *)(void *, unsigned __int64)",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 131,
+                    "rva": 130,
+                    "rva_hex": "0x82",
+                    "name": "?internal_push_back@concurrent_vector_base@internal@tbb@@IEAAPEAX_KAEA_K@Z",
+                    "demangled": "protected: void * __cdecl tbb::internal::concurrent_vector_base::internal_push_back(unsigned __int64, unsigned __int64 &)",
+                    "function_name": "internal_push_back",
+                    "parameters": "unsigned __int64, unsigned __int64 &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 145,
+                    "rva": 144,
+                    "rva_hex": "0x90",
+                    "name": "?internal_reserve@concurrent_vector_base@internal@tbb@@IEAAX_K00@Z",
+                    "demangled": "protected: void __cdecl tbb::internal::concurrent_vector_base::internal_reserve(unsigned __int64, unsigned __int64, unsigned __int64)",
+                    "function_name": "internal_reserve",
+                    "parameters": "unsigned __int64, unsigned __int64, unsigned __int64",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "task_arena_base": {
+            "class_name": "task_arena_base",
+            "namespace": "tbb::interface7::internal",
+            "methods": [
+                {
+                    "ordinal": 75,
+                    "rva": 74,
+                    "rva_hex": "0x4A",
+                    "name": "?internal_attach@task_arena_base@internal@interface7@tbb@@IEAAXXZ",
+                    "demangled": "protected: void __cdecl tbb::interface7::internal::task_arena_base::internal_attach(void)",
+                    "function_name": "internal_attach",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 99,
+                    "rva": 98,
+                    "rva_hex": "0x62",
+                    "name": "?internal_current_slot@task_arena_base@internal@interface7@tbb@@KAHXZ",
+                    "demangled": "protected: static int __cdecl tbb::interface7::internal::task_arena_base::internal_current_slot(void)",
+                    "function_name": "internal_current_slot",
+                    "parameters": "void",
+                    "const": false,
+                    "static": true,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 112,
+                    "rva": 111,
+                    "rva_hex": "0x6F",
+                    "name": "?internal_enqueue@task_arena_base@internal@interface7@tbb@@IEBAXAEAVtask@4@_J@Z",
+                    "demangled": "protected: void __cdecl tbb::interface7::internal::task_arena_base::internal_enqueue(class tbb::task &, __int64) const",
+                    "function_name": "internal_enqueue",
+                    "parameters": "class tbb::task &, __int64",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 113,
+                    "rva": 112,
+                    "rva_hex": "0x70",
+                    "name": "?internal_execute@task_arena_base@internal@interface7@tbb@@IEBAXAEAVdelegate_base@234@@Z",
+                    "demangled": "protected: void __cdecl tbb::interface7::internal::task_arena_base::internal_execute(class tbb::interface7::internal::delegate_base &) const",
+                    "function_name": "internal_execute",
+                    "parameters": "class tbb::interface7::internal::delegate_base &",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 121,
+                    "rva": 120,
+                    "rva_hex": "0x78",
+                    "name": "?internal_initialize@task_arena_base@internal@interface7@tbb@@IEAAXXZ",
+                    "demangled": "protected: void __cdecl tbb::interface7::internal::task_arena_base::internal_initialize(void)",
+                    "function_name": "internal_initialize",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 124,
+                    "rva": 123,
+                    "rva_hex": "0x7B",
+                    "name": "?internal_max_concurrency@task_arena_base@internal@interface7@tbb@@KAHPEBVtask_arena@34@@Z",
+                    "demangled": "protected: static int __cdecl tbb::interface7::internal::task_arena_base::internal_max_concurrency(class tbb::interface7::task_arena const *)",
+                    "function_name": "internal_max_concurrency",
+                    "parameters": "class tbb::interface7::task_arena const *",
+                    "const": false,
+                    "static": true,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 155,
+                    "rva": 154,
+                    "rva_hex": "0x9A",
+                    "name": "?internal_terminate@task_arena_base@internal@interface7@tbb@@IEAAXXZ",
+                    "demangled": "protected: void __cdecl tbb::interface7::internal::task_arena_base::internal_terminate(void)",
+                    "function_name": "internal_terminate",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 169,
+                    "rva": 168,
+                    "rva_hex": "0xA8",
+                    "name": "?internal_wait@task_arena_base@internal@interface7@tbb@@IEBAXXZ",
+                    "demangled": "protected: void __cdecl tbb::interface7::internal::task_arena_base::internal_wait(void) const",
+                    "function_name": "internal_wait",
+                    "parameters": "void",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "critical_section_v4": {
+            "class_name": "critical_section_v4",
+            "namespace": "tbb::internal",
+            "methods": [
+                {
+                    "ordinal": 85,
+                    "rva": 84,
+                    "rva_hex": "0x54",
+                    "name": "?internal_construct@critical_section_v4@internal@tbb@@QEAAXXZ",
+                    "demangled": "public: void __cdecl tbb::internal::critical_section_v4::internal_construct(void)",
+                    "function_name": "internal_construct",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "mutex": {
+            "class_name": "mutex",
+            "namespace": "tbb",
+            "methods": [
+                {
+                    "ordinal": 86,
+                    "rva": 85,
+                    "rva_hex": "0x55",
+                    "name": "?internal_construct@mutex@tbb@@AEAAXXZ",
+                    "demangled": "private: void __cdecl tbb::mutex::internal_construct(void)",
+                    "function_name": "internal_construct",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 102,
+                    "rva": 101,
+                    "rva_hex": "0x65",
+                    "name": "?internal_destroy@mutex@tbb@@AEAAXXZ",
+                    "demangled": "private: void __cdecl tbb::mutex::internal_destroy(void)",
+                    "function_name": "internal_destroy",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "queuing_mutex": {
+            "class_name": "queuing_mutex",
+            "namespace": "tbb",
+            "methods": [
+                {
+                    "ordinal": 87,
+                    "rva": 86,
+                    "rva_hex": "0x56",
+                    "name": "?internal_construct@queuing_mutex@tbb@@QEAAXXZ",
+                    "demangled": "public: void __cdecl tbb::queuing_mutex::internal_construct(void)",
+                    "function_name": "internal_construct",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "queuing_rw_mutex": {
+            "class_name": "queuing_rw_mutex",
+            "namespace": "tbb",
+            "methods": [
+                {
+                    "ordinal": 88,
+                    "rva": 87,
+                    "rva_hex": "0x57",
+                    "name": "?internal_construct@queuing_rw_mutex@tbb@@QEAAXXZ",
+                    "demangled": "public: void __cdecl tbb::queuing_rw_mutex::internal_construct(void)",
+                    "function_name": "internal_construct",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "reader_writer_lock": {
+            "class_name": "reader_writer_lock",
+            "namespace": "tbb::interface5",
+            "methods": [
+                {
+                    "ordinal": 89,
+                    "rva": 88,
+                    "rva_hex": "0x58",
+                    "name": "?internal_construct@reader_writer_lock@interface5@tbb@@AEAAXXZ",
+                    "demangled": "private: void __cdecl tbb::interface5::reader_writer_lock::internal_construct(void)",
+                    "function_name": "internal_construct",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 103,
+                    "rva": 102,
+                    "rva_hex": "0x66",
+                    "name": "?internal_destroy@reader_writer_lock@interface5@tbb@@AEAAXXZ",
+                    "demangled": "private: void __cdecl tbb::interface5::reader_writer_lock::internal_destroy(void)",
+                    "function_name": "internal_destroy",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 186,
+                    "rva": 185,
+                    "rva_hex": "0xB9",
+                    "name": "?lock@reader_writer_lock@interface5@tbb@@QEAAXXZ",
+                    "demangled": "public: void __cdecl tbb::interface5::reader_writer_lock::lock(void)",
+                    "function_name": "lock",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 187,
+                    "rva": 186,
+                    "rva_hex": "0xBA",
+                    "name": "?lock_read@reader_writer_lock@interface5@tbb@@QEAAXXZ",
+                    "demangled": "public: void __cdecl tbb::interface5::reader_writer_lock::lock_read(void)",
+                    "function_name": "lock_read",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 218,
+                    "rva": 217,
+                    "rva_hex": "0xD9",
+                    "name": "?try_lock@reader_writer_lock@interface5@tbb@@QEAA_NXZ",
+                    "demangled": "public: bool __cdecl tbb::interface5::reader_writer_lock::try_lock(void)",
+                    "function_name": "try_lock",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 219,
+                    "rva": 218,
+                    "rva_hex": "0xDA",
+                    "name": "?try_lock_read@reader_writer_lock@interface5@tbb@@QEAA_NXZ",
+                    "demangled": "public: bool __cdecl tbb::interface5::reader_writer_lock::try_lock_read(void)",
+                    "function_name": "try_lock_read",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 221,
+                    "rva": 220,
+                    "rva_hex": "0xDC",
+                    "name": "?unlock@reader_writer_lock@interface5@tbb@@QEAAXXZ",
+                    "demangled": "public: void __cdecl tbb::interface5::reader_writer_lock::unlock(void)",
+                    "function_name": "unlock",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "recursive_mutex": {
+            "class_name": "recursive_mutex",
+            "namespace": "tbb",
+            "methods": [
+                {
+                    "ordinal": 90,
+                    "rva": 89,
+                    "rva_hex": "0x59",
+                    "name": "?internal_construct@recursive_mutex@tbb@@AEAAXXZ",
+                    "demangled": "private: void __cdecl tbb::recursive_mutex::internal_construct(void)",
+                    "function_name": "internal_construct",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 104,
+                    "rva": 103,
+                    "rva_hex": "0x67",
+                    "name": "?internal_destroy@recursive_mutex@tbb@@AEAAXXZ",
+                    "demangled": "private: void __cdecl tbb::recursive_mutex::internal_destroy(void)",
+                    "function_name": "internal_destroy",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "scoped_lock_read": {
+            "class_name": "scoped_lock_read",
+            "namespace": "tbb::interface5::reader_writer_lock",
+            "methods": [
+                {
+                    "ordinal": 92,
+                    "rva": 91,
+                    "rva_hex": "0x5B",
+                    "name": "?internal_construct@scoped_lock_read@reader_writer_lock@interface5@tbb@@AEAAXAEAV234@@Z",
+                    "demangled": "private: void __cdecl tbb::interface5::reader_writer_lock::scoped_lock_read::internal_construct(class tbb::interface5::reader_writer_lock &)",
+                    "function_name": "internal_construct",
+                    "parameters": "class tbb::interface5::reader_writer_lock &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 106,
+                    "rva": 105,
+                    "rva_hex": "0x69",
+                    "name": "?internal_destroy@scoped_lock_read@reader_writer_lock@interface5@tbb@@AEAAXXZ",
+                    "demangled": "private: void __cdecl tbb::interface5::reader_writer_lock::scoped_lock_read::internal_destroy(void)",
+                    "function_name": "internal_destroy",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "spin_mutex": {
+            "class_name": "spin_mutex",
+            "namespace": "tbb",
+            "methods": [
+                {
+                    "ordinal": 93,
+                    "rva": 92,
+                    "rva_hex": "0x5C",
+                    "name": "?internal_construct@spin_mutex@tbb@@QEAAXXZ",
+                    "demangled": "public: void __cdecl tbb::spin_mutex::internal_construct(void)",
+                    "function_name": "internal_construct",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "hash_map_segment_base": {
+            "class_name": "hash_map_segment_base",
+            "namespace": "tbb::internal",
+            "methods": [
+                {
+                    "ordinal": 117,
+                    "rva": 116,
+                    "rva_hex": "0x74",
+                    "name": "?internal_grow_predicate@hash_map_segment_base@internal@tbb@@QEBA_NXZ",
+                    "demangled": "public: bool __cdecl tbb::internal::hash_map_segment_base::internal_grow_predicate(void) const",
+                    "function_name": "internal_grow_predicate",
+                    "parameters": "void",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "concurrent_queue_base_v8": {
+            "class_name": "concurrent_queue_base_v8",
+            "namespace": "tbb::internal",
+            "methods": [
+                {
+                    "ordinal": 135,
+                    "rva": 134,
+                    "rva_hex": "0x86",
+                    "name": "?internal_push_move@concurrent_queue_base_v8@internal@tbb@@IEAAXPEBX@Z",
+                    "demangled": "protected: void __cdecl tbb::internal::concurrent_queue_base_v8::internal_push_move(void const *)",
+                    "function_name": "internal_push_move",
+                    "parameters": "void const *",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 136,
+                    "rva": 135,
+                    "rva_hex": "0x87",
+                    "name": "?internal_push_move_if_not_full@concurrent_queue_base_v8@internal@tbb@@IEAA_NPEBX@Z",
+                    "demangled": "protected: bool __cdecl tbb::internal::concurrent_queue_base_v8::internal_push_move_if_not_full(void const *)",
+                    "function_name": "internal_push_move_if_not_full",
+                    "parameters": "void const *",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 189,
+                    "rva": 188,
+                    "rva_hex": "0xBC",
+                    "name": "?move_content@concurrent_queue_base_v8@internal@tbb@@IEAAXAEAV123@@Z",
+                    "demangled": "protected: void __cdecl tbb::internal::concurrent_queue_base_v8::move_content(class tbb::internal::concurrent_queue_base_v8 &)",
+                    "function_name": "move_content",
+                    "parameters": "class tbb::internal::concurrent_queue_base_v8 &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "task_scheduler_observer_v3": {
+            "class_name": "task_scheduler_observer_v3",
+            "namespace": "tbb::internal",
+            "methods": [
+                {
+                    "ordinal": 193,
+                    "rva": 192,
+                    "rva_hex": "0xC0",
+                    "name": "?observe@task_scheduler_observer_v3@internal@tbb@@QEAAX_N@Z",
+                    "demangled": "public: void __cdecl tbb::internal::task_scheduler_observer_v3::observe(bool)",
+                    "function_name": "observe",
+                    "parameters": "bool",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "thread_bound_filter": {
+            "class_name": "thread_bound_filter",
+            "namespace": "tbb",
+            "methods": [
+                {
+                    "ordinal": 195,
+                    "rva": 194,
+                    "rva_hex": "0xC2",
+                    "name": "?process_item@thread_bound_filter@tbb@@QEAA?AW4result_type@12@XZ",
+                    "demangled": "public: enum tbb::thread_bound_filter::result_type __cdecl tbb::thread_bound_filter::process_item(void)",
+                    "function_name": "process_item",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 220,
+                    "rva": 219,
+                    "rva_hex": "0xDB",
+                    "name": "?try_process_item@thread_bound_filter@tbb@@QEAA?AW4result_type@12@XZ",
+                    "demangled": "public: enum tbb::thread_bound_filter::result_type __cdecl tbb::thread_bound_filter::try_process_item(void)",
+                    "function_name": "try_process_item",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "affinity_partitioner_base_v3": {
+            "class_name": "affinity_partitioner_base_v3",
+            "namespace": "tbb::internal",
+            "methods": [
+                {
+                    "ordinal": 200,
+                    "rva": 199,
+                    "rva_hex": "0xC7",
+                    "name": "?resize@affinity_partitioner_base_v3@internal@tbb@@AEAAXI@Z",
+                    "demangled": "private: void __cdecl tbb::internal::affinity_partitioner_base_v3::resize(unsigned int)",
+                    "function_name": "resize",
+                    "parameters": "unsigned int",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "bad_last_alloc": {
+            "class_name": "bad_last_alloc",
+            "namespace": "tbb",
+            "methods": [
+                {
+                    "ordinal": 223,
+                    "rva": 222,
+                    "rva_hex": "0xDE",
+                    "name": "?what@bad_last_alloc@tbb@@UEBAPEBDXZ",
+                    "demangled": "public: virtual char const * __cdecl tbb::bad_last_alloc::what(void) const",
+                    "function_name": "what",
+                    "parameters": "void",
+                    "const": true,
+                    "static": false,
+                    "virtual": true
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "improper_lock": {
+            "class_name": "improper_lock",
+            "namespace": "tbb",
+            "methods": [
+                {
+                    "ordinal": 225,
+                    "rva": 224,
+                    "rva_hex": "0xE0",
+                    "name": "?what@improper_lock@tbb@@UEBAPEBDXZ",
+                    "demangled": "public: virtual char const * __cdecl tbb::improper_lock::what(void) const",
+                    "function_name": "what",
+                    "parameters": "void",
+                    "const": true,
+                    "static": false,
+                    "virtual": true
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "invalid_multiple_scheduling": {
+            "class_name": "invalid_multiple_scheduling",
+            "namespace": "tbb",
+            "methods": [
+                {
+                    "ordinal": 226,
+                    "rva": 225,
+                    "rva_hex": "0xE1",
+                    "name": "?what@invalid_multiple_scheduling@tbb@@UEBAPEBDXZ",
+                    "demangled": "public: virtual char const * __cdecl tbb::invalid_multiple_scheduling::what(void) const",
+                    "function_name": "what",
+                    "parameters": "void",
+                    "const": true,
+                    "static": false,
+                    "virtual": true
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "missing_wait": {
+            "class_name": "missing_wait",
+            "namespace": "tbb",
+            "methods": [
+                {
+                    "ordinal": 227,
+                    "rva": 226,
+                    "rva_hex": "0xE2",
+                    "name": "?what@missing_wait@tbb@@UEBAPEBDXZ",
+                    "demangled": "public: virtual char const * __cdecl tbb::missing_wait::what(void) const",
+                    "function_name": "what",
+                    "parameters": "void",
+                    "const": true,
+                    "static": false,
+                    "virtual": true
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "user_abort": {
+            "class_name": "user_abort",
+            "namespace": "tbb",
+            "methods": [
+                {
+                    "ordinal": 228,
+                    "rva": 227,
+                    "rva_hex": "0xE3",
+                    "name": "?what@user_abort@tbb@@UEBAPEBDXZ",
+                    "demangled": "public: virtual char const * __cdecl tbb::user_abort::what(void) const",
+                    "function_name": "what",
+                    "parameters": "void",
+                    "const": true,
+                    "static": false,
+                    "virtual": true
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "": {
+            "class_name": "",
+            "namespace": null,
+            "methods": [],
+            "vftables": [
+                {
+                    "ordinal": 16,
+                    "rva": 15,
+                    "rva_hex": "0xF",
+                    "name": "??_7pipeline@tbb@@6B@",
+                    "demangled": "const tbb::pipeline::`vftable'"
+                }
+            ],
+            "other_symbols": []
+        }
+    }
+}

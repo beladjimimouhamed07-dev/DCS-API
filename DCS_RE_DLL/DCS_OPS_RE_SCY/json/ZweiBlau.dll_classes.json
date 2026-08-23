@@ -1,0 +1,125 @@
+{
+    "dll": "ZweiBlau.dll",
+    "class_count": 2,
+    "classes": {
+        "CloudShadows": {
+            "class_name": "CloudShadows",
+            "namespace": "cld",
+            "methods": [
+                {
+                    "ordinal": 1,
+                    "rva": 0,
+                    "rva_hex": "0x0",
+                    "name": "??0CloudShadows@cld@@QEAA@$$QEAV01@@Z",
+                    "demangled": "public: __cdecl cld::CloudShadows::CloudShadows(class cld::CloudShadows &&)",
+                    "function_name": "CloudShadows",
+                    "parameters": "class cld::CloudShadows &&",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 2,
+                    "rva": 1,
+                    "rva_hex": "0x1",
+                    "name": "??0CloudShadows@cld@@QEAA@XZ",
+                    "demangled": "public: __cdecl cld::CloudShadows::CloudShadows(void)",
+                    "function_name": "CloudShadows",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 3,
+                    "rva": 2,
+                    "rva_hex": "0x2",
+                    "name": "??1CloudShadows@cld@@UEAA@XZ",
+                    "demangled": "public: virtual __cdecl cld::CloudShadows::~CloudShadows(void)",
+                    "function_name": "~CloudShadows",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": true
+                },
+                {
+                    "ordinal": 6,
+                    "rva": 5,
+                    "rva_hex": "0x5",
+                    "name": "?OnUpdate@CloudShadows@cld@@EEAAXXZ",
+                    "demangled": "private: virtual void __cdecl cld::CloudShadows::OnUpdate(void)",
+                    "function_name": "OnUpdate",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": true
+                },
+                {
+                    "ordinal": 7,
+                    "rva": 6,
+                    "rva_hex": "0x6",
+                    "name": "?collect@CloudShadows@cld@@AEAAIPEAVVec4d@osg@@AEBV34@AEAVVec3d@4@PEAPEAVviObject@@K@Z",
+                    "demangled": "private: unsigned int __cdecl cld::CloudShadows::collect(class osg::Vec4d *, class osg::Vec4d const &, class osg::Vec3d &, class viObject **, unsigned long)",
+                    "function_name": "collect",
+                    "parameters": "class osg::Vec4d *, class osg::Vec4d const &, class osg::Vec3d &, class viObject **, unsigned long",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 8,
+                    "rva": 7,
+                    "rva_hex": "0x7",
+                    "name": "?collect@CloudShadows@cld@@AEAAIPEAVVec4d@osg@@PEAPEAVviObject@@K@Z",
+                    "demangled": "private: unsigned int __cdecl cld::CloudShadows::collect(class osg::Vec4d *, class viObject **, unsigned long)",
+                    "function_name": "collect",
+                    "parameters": "class osg::Vec4d *, class viObject **, unsigned long",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 9,
+                    "rva": 8,
+                    "rva_hex": "0x8",
+                    "name": "?init@CloudShadows@cld@@QEAAXXZ",
+                    "demangled": "public: void __cdecl cld::CloudShadows::init(void)",
+                    "function_name": "init",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 10,
+                    "rva": 9,
+                    "rva_hex": "0x9",
+                    "name": "?makeShadow@CloudShadows@cld@@QEAAXAEBVVec3f@osg@@@Z",
+                    "demangled": "public: void __cdecl cld::CloudShadows::makeShadow(class osg::Vec3f const &)",
+                    "function_name": "makeShadow",
+                    "parameters": "class osg::Vec3f const &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "": {
+            "class_name": "",
+            "namespace": null,
+            "methods": [],
+            "vftables": [
+                {
+                    "ordinal": 5,
+                    "rva": 4,
+                    "rva_hex": "0x4",
+                    "name": "??_7CloudShadows@cld@@6B@",
+                    "demangled": "const cld::CloudShadows::`vftable'"
+                }
+            ],
+            "other_symbols": []
+        }
+    }
+}

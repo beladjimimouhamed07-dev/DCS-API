@@ -1,0 +1,16 @@
+// DCS_OPS_RE: IngameOverlay.dll
+// Generated from dumpbin /exports
+
+[    1]          0x0  class ICurrentThreatChart * __cdecl getCurrentThreatChart(void)
+[    2]          0x1  class IIngameOverlay * __cdecl getIngameOverlay(void)
+[    3]          0x2  class IMissionScore * __cdecl getMissionScore(void)
+[    4]          0x3  class IScoreStatistics * __cdecl getScoreStatistics(void)
+[    5]          0x4  void __cdecl releaseCurrentThreatChart(void)
+[    6]          0x5  void __cdecl releaseIngameOverlay(void)
+[    7]          0x6  void __cdecl releaseMissionScore(void)
+[    8]          0x7  void __cdecl releaseScoreStatistics(void)
+[    9]          0x8  class ICurrentThreatChart * __cdecl requestCurrentThreatChart(void)
+[   10]          0x9  class IIngameOverlay * __cdecl requestIngameOverlay(void)
+[   11]          0xA  class IMissionScore * __cdecl requestMissionScore(void)
+[   12]          0xB  class IScoreStatistics * __cdecl requestScoreStatistics(void)
+[   13]          0xC  luaopen_IngameOverlay

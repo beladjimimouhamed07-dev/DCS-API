@@ -1,0 +1,92 @@
+﻿ordinal,rva,rva_hex,name,demangled,symbol_type,namespace,class_name,function_name,parameters,const,static,virtual,is_vftable,is_vbtable,is_rtti,demangle_ok
+1,0,0x0,??0AlmanacGPS@@QEAA@XZ,public: __cdecl AlmanacGPS::AlmanacGPS(void),method,,AlmanacGPS,AlmanacGPS,void,False,False,False,False,False,False,True
+2,1,0x1,??0SatelliteStorage@@QEAA@XZ,public: __cdecl SatelliteStorage::SatelliteStorage(void),method,,SatelliteStorage,SatelliteStorage,void,False,False,False,False,False,False,True
+3,2,0x2,??0Space@@QEAA@AEBV0@@Z,public: __cdecl Space::Space(class Space const &),method,,Space,Space,class Space const &,False,False,False,False,False,False,True
+4,3,0x3,??0Space@@QEAA@XZ,public: __cdecl Space::Space(void),method,,Space,Space,void,False,False,False,False,False,False,True
+5,4,0x4,??0waSatellite@@QEAA@AEBV0@@Z,public: __cdecl waSatellite::waSatellite(class waSatellite const &),method,,waSatellite,waSatellite,class waSatellite const &,False,False,False,False,False,False,True
+6,5,0x5,??0waSatellite@@QEAA@HE@Z,"public: __cdecl waSatellite::waSatellite(int, unsigned char)",method,,waSatellite,waSatellite,"int, unsigned char",False,False,False,False,False,False,True
+7,6,0x6,??0waSatellite@@QEAA@HEPEBD@Z,"public: __cdecl waSatellite::waSatellite(int, unsigned char, char const *)",method,,waSatellite,waSatellite,"int, unsigned char, char const *",False,False,False,False,False,False,True
+8,7,0x7,??0waSatellite@@QEAA@XZ,public: __cdecl waSatellite::waSatellite(void),method,,waSatellite,waSatellite,void,False,False,False,False,False,False,True
+9,8,0x8,??1SatelliteStorage@@QEAA@XZ,public: __cdecl SatelliteStorage::~SatelliteStorage(void),method,,SatelliteStorage,~SatelliteStorage,void,False,False,False,False,False,False,True
+10,9,0x9,??1Space@@UEAA@XZ,public: virtual __cdecl Space::~Space(void),method,,Space,~Space,void,False,False,True,False,False,False,True
+11,10,0xA,??1waSatellite@@UEAA@XZ,public: virtual __cdecl waSatellite::~waSatellite(void),method,,waSatellite,~waSatellite,void,False,False,True,False,False,False,True
+12,11,0xB,??4AlmanacGPS@@QEAAAEAU0@$$QEAU0@@Z,public: struct AlmanacGPS & __cdecl AlmanacGPS::operator=(struct AlmanacGPS &&),symbol,,,,,False,False,False,False,False,False,True
+13,12,0xC,??4AlmanacGPS@@QEAAAEAU0@AEBU0@@Z,public: struct AlmanacGPS & __cdecl AlmanacGPS::operator=(struct AlmanacGPS const &),symbol,,,,,False,False,False,False,False,False,True
+14,13,0xD,??4Space@@QEAAAEAV0@AEBV0@@Z,public: class Space & __cdecl Space::operator=(class Space const &),symbol,,,,,False,False,False,False,False,False,True
+15,14,0xE,??4waSatellite@@QEAAAEAV0@AEBV0@@Z,public: class waSatellite & __cdecl waSatellite::operator=(class waSatellite const &),symbol,,,,,False,False,False,False,False,False,True
+16,15,0xF,??_7Space@@6BIwaMoon@@@,const Space::`vftable'{for `IwaMoon'},vftable,,,,,False,False,False,True,False,False,True
+17,16,0x10,??_7Space@@6BIwaSun@@@,const Space::`vftable'{for `IwaSun'},vftable,,,,,False,False,False,True,False,False,True
+18,17,0x11,??_7waSatellite@@6B@,const waSatellite::`vftable',vftable,,,,,False,False,False,True,False,False,True
+19,18,0x12,?GPS_TIME_ZERO@waSatellite@@0NB,private: static double const waSatellite::GPS_TIME_ZERO,symbol,,,,,False,False,False,False,False,False,True
+20,19,0x13,?GetSize@waSatellite@@QEAAMXZ,public: float __cdecl waSatellite::GetSize(void),method,,waSatellite,GetSize,void,False,False,False,False,False,False,True
+21,20,0x14,?Get_Sun_Zenit@Space@@UEAAMXZ,public: virtual float __cdecl Space::Get_Sun_Zenit(void),method,,Space,Get_Sun_Zenit,void,False,False,True,False,False,False,True
+22,21,0x15,?Init@SatelliteStorage@@QEAAXXZ,public: void __cdecl SatelliteStorage::Init(void),method,,SatelliteStorage,Init,void,False,False,False,False,False,False,True
+23,22,0x16,?LocalBox@waSatellite@@UEAAAEBUgBox@@N@Z,public: virtual struct gBox const & __cdecl waSatellite::LocalBox(double),method,,waSatellite,LocalBox,double,False,False,True,False,False,False,True
+24,23,0x17,?Position@waSatellite@@UEAAAEBV?$wPosition3@M@@N@Z,public: virtual class wPosition3<float> const & __cdecl waSatellite::Position(double),method,,waSatellite,Position,double,False,False,True,False,False,False,True
+25,24,0x18,?azimuthElevation@Space@@IEAAXNNAEAN0@Z,"protected: void __cdecl Space::azimuthElevation(double, double, double &, double &)",method,,Space,azimuthElevation,"double, double, double &, double &",False,False,False,False,False,False,True
+26,25,0x19,?azimuthElevationForLatLon@Space@@IEBAXNNNNAEAN0@Z,"protected: void __cdecl Space::azimuthElevationForLatLon(double, double, double, double, double &, double &) const",method,,Space,azimuthElevationForLatLon,"double, double, double, double, double &, double &",True,False,False,False,False,False,True
+27,26,0x1A,?calcPosition@waSatellite@@QEBA?AVVec3d@osg@@N@Z,public: class osg::Vec3d __cdecl waSatellite::calcPosition(double) const,method,,waSatellite,calcPosition,double,True,False,False,False,False,False,True
+28,27,0x1B,?calcPosition@waSatellite@@SA?AVVec3d@osg@@AEBUAlmanacGPS@@N@Z,"public: static class osg::Vec3d __cdecl waSatellite::calcPosition(struct AlmanacGPS const &, double)",method,,waSatellite,calcPosition,"struct AlmanacGPS const &, double",False,True,False,False,False,False,True
+29,28,0x1C,?calcVelocity@waSatellite@@QEBA?AVVec3d@osg@@NN@Z,"public: class osg::Vec3d __cdecl waSatellite::calcVelocity(double, double) const",method,,waSatellite,calcVelocity,"double, double",True,False,False,False,False,False,True
+30,29,0x1D,?calcVelocity@waSatellite@@SA?AVVec3d@osg@@AEBUAlmanacGPS@@NN@Z,"public: static class osg::Vec3d __cdecl waSatellite::calcVelocity(struct AlmanacGPS const &, double, double)",method,,waSatellite,calcVelocity,"struct AlmanacGPS const &, double, double",False,True,False,False,False,False,True
+31,30,0x1E,?clear@SatelliteStorage@@QEAAXXZ,public: void __cdecl SatelliteStorage::clear(void),method,,SatelliteStorage,clear,void,False,False,False,False,False,False,True
+32,31,0x1F,?createSatellite@SatelliteStorage@@QEAAPEAVwaSatellite@@HE@Z,"public: class waSatellite * __cdecl SatelliteStorage::createSatellite(int, unsigned char)",method,,SatelliteStorage,createSatellite,"int, unsigned char",False,False,False,False,False,False,True
+33,32,0x20,?done@Space@@SAXXZ,public: static void __cdecl Space::done(void),method,,Space,done,void,False,True,False,False,False,False,True
+34,33,0x21,?getAlmanac@waSatellite@@QEBAAEBUAlmanacGPS@@XZ,public: struct AlmanacGPS const & __cdecl waSatellite::getAlmanac(void) const,method,,waSatellite,getAlmanac,void,True,False,False,False,False,False,True
+35,34,0x22,?getD@Space@@IEAANXZ,protected: double __cdecl Space::getD(void),method,,Space,getD,void,False,False,False,False,False,False,True
+36,35,0x23,?getDateTime@Space@@QEAAXAEAN00000@Z,"public: void __cdecl Space::getDateTime(double &, double &, double &, double &, double &, double &)",method,,Space,getDateTime,"double &, double &, double &, double &, double &, double &",False,False,False,False,False,False,True
+37,36,0x24,?getDir@Space@@QEBA?AVVec3f@osg@@NN@Z,"public: class osg::Vec3f __cdecl Space::getDir(double, double) const",method,,Space,getDir,"double, double",True,False,False,False,False,False,True
+38,37,0x25,?getGlonassCommitDate@waSatellite@@SA?BNXZ,public: static double const __cdecl waSatellite::getGlonassCommitDate(void),method,,waSatellite,getGlonassCommitDate,void,False,True,False,False,False,False,True
+39,38,0x26,?getGpsCommitDate@waSatellite@@SA?BNXZ,public: static double const __cdecl waSatellite::getGpsCommitDate(void),method,,waSatellite,getGpsCommitDate,void,False,True,False,False,False,False,True
+40,39,0x27,?getInstance@Space@@SAPEAV1@XZ,public: static class Space * __cdecl Space::getInstance(void),method,,Space,getInstance,void,False,True,False,False,False,False,True
+41,40,0x28,?getLatLon@Space@@QEAAXAEAN0@Z,"public: void __cdecl Space::getLatLon(double &, double &)",method,,Space,getLatLon,"double &, double &",False,False,False,False,False,False,True
+42,41,0x29,?getMoon@Space@@QEAAXAEAN0@Z,"public: void __cdecl Space::getMoon(double &, double &)",method,,Space,getMoon,"double &, double &",False,False,False,False,False,False,True
+43,42,0x2A,?getMoon@Space@@QEAAXAEAV?$wPosition3@M@@@Z,public: void __cdecl Space::getMoon(class wPosition3<float> &),method,,Space,getMoon,class wPosition3<float> &,False,False,False,False,False,False,True
+44,43,0x2B,?getMoonPhaseVisibility@Space@@UEAAMXZ,public: virtual float __cdecl Space::getMoonPhaseVisibility(void),method,,Space,getMoonPhaseVisibility,void,False,False,True,False,False,False,True
+45,44,0x2C,?getMoonZenithCos@Space@@UEAAMXZ,public: virtual float __cdecl Space::getMoonZenithCos(void),method,,Space,getMoonZenithCos,void,False,False,True,False,False,False,True
+46,45,0x2D,?getOrbitalElements@Space@@IEBA?AUOrbitalElements@1@W4PlanetID@1@@Z,protected: struct Space::OrbitalElements __cdecl Space::getOrbitalElements(enum Space::PlanetID) const,method,,Space,getOrbitalElements,enum Space::PlanetID,True,False,False,False,False,False,True
+47,46,0x2E,?getPlanet@Space@@QEAA?AVVec3f@osg@@W4PlanetID@1@AEAN@Z,"public: class osg::Vec3f __cdecl Space::getPlanet(enum Space::PlanetID, double &)",method,,Space,getPlanet,"enum Space::PlanetID, double &",False,False,False,False,False,False,True
+48,47,0x2F,?getPlanet@Space@@QEAAXW4PlanetID@1@AEAN11@Z,"public: void __cdecl Space::getPlanet(enum Space::PlanetID, double &, double &, double &)",method,,Space,getPlanet,"enum Space::PlanetID, double &, double &, double &",False,False,False,False,False,False,True
+49,48,0x30,?getSatellite@SatelliteStorage@@QEAAPEAVwaSatellite@@HE@Z,"public: class waSatellite * __cdecl SatelliteStorage::getSatellite(int, unsigned char)",method,,SatelliteStorage,getSatellite,"int, unsigned char",False,False,False,False,False,False,True
+50,49,0x31,?getStar@Space@@QEAA?AVVec3f@osg@@H@Z,public: class osg::Vec3f __cdecl Space::getStar(int),method,,Space,getStar,int,False,False,False,False,False,False,True
+51,50,0x32,?getStar@Space@@QEAAXHAEAN00@Z,"public: void __cdecl Space::getStar(int, double &, double &, double &)",method,,Space,getStar,"int, double &, double &, double &",False,False,False,False,False,False,True
+52,51,0x33,?getStars@Space@@QEAAXAEAV?$vector@VVec4f@osg@@V?$allocator@VVec4f@osg@@@ed@@@ed@@NNN@Z,"public: void __cdecl Space::getStars(class ed::vector<class osg::Vec4f, class ed::allocator<class osg::Vec4f>> &, double, double, double)",method,,Space,getStars,"class ed::vector<class osg::Vec4f, class ed::allocator<class osg::Vec4f>> &, double, double, double",False,False,False,False,False,False,True
+53,52,0x34,?getStarsList@Space@@QEAA?AV?$vector@UStarData@Space@@V?$allocator@UStarData@Space@@@ed@@@ed@@XZ,"public: class ed::vector<struct Space::StarData, class ed::allocator<struct Space::StarData>> __cdecl Space::getStarsList(void)",method,,Space,getStarsList,void,False,False,False,False,False,False,True
+54,53,0x35,?getSummerTimeDelta@Space@@QEAAMXZ,public: float __cdecl Space::getSummerTimeDelta(void),method,,Space,getSummerTimeDelta,void,False,False,False,False,False,False,True
+55,54,0x36,?getSun@Space@@QEAAXAEAN0@Z,"public: void __cdecl Space::getSun(double &, double &)",method,,Space,getSun,"double &, double &",False,False,False,False,False,False,True
+56,55,0x37,?getSun@Space@@QEAAXAEAV?$wPosition3@M@@@Z,public: void __cdecl Space::getSun(class wPosition3<float> &),method,,Space,getSun,class wPosition3<float> &,False,False,False,False,False,False,True
+57,56,0x38,?getSunVector@Space@@QEAA?AVVec3f@osg@@XZ,public: class osg::Vec3f __cdecl Space::getSunVector(void),method,,Space,getSunVector,void,False,False,False,False,False,False,True
+58,57,0x39,?getSunVector@Space@@UEAAXAEAM00@Z,"public: virtual void __cdecl Space::getSunVector(float &, float &, float &)",method,,Space,getSunVector,"float &, float &, float &",False,False,True,False,False,False,True
+59,58,0x3A,?getSunZenithAngleD@Space@@QEAANXZ,public: double __cdecl Space::getSunZenithAngleD(void),method,,Space,getSunZenithAngleD,void,False,False,False,False,False,False,True
+60,59,0x3B,?getSunZenithAngleR@Space@@QEAANXZ,public: double __cdecl Space::getSunZenithAngleR(void),method,,Space,getSunZenithAngleR,void,False,False,False,False,False,False,True
+61,60,0x3C,?getSunZenithCos@Space@@UEAAMXZ,public: virtual float __cdecl Space::getSunZenithCos(void),method,,Space,getSunZenithCos,void,False,False,True,False,False,False,True
+62,61,0x3D,?getSunriseSunsetSecond@Space@@QEAA_NAEAN0NNNN@Z,"public: bool __cdecl Space::getSunriseSunsetSecond(double &, double &, double, double, double, double)",method,,Space,getSunriseSunsetSecond,"double &, double &, double, double, double, double",False,False,False,False,False,False,True
+63,62,0x3E,?getSystem@waSatellite@@QEBAEXZ,public: unsigned char __cdecl waSatellite::getSystem(void) const,method,,waSatellite,getSystem,void,True,False,False,False,False,False,True
+64,63,0x3F,?getTimeShift@Space@@QEAANXZ,public: double __cdecl Space::getTimeShift(void),method,,Space,getTimeShift,void,False,False,False,False,False,False,True
+65,64,0x40,?getUTime@Space@@IEBANXZ,protected: double __cdecl Space::getUTime(void) const,method,,Space,getUTime,void,True,False,False,False,False,False,True
+66,65,0x41,?getWGS84Position@waSatellite@@QEBAAEBVVec3d@osg@@XZ,public: class osg::Vec3d const & __cdecl waSatellite::getWGS84Position(void) const,method,,waSatellite,getWGS84Position,void,True,False,False,False,False,False,True
+67,66,0x42,?getWGS84Velocity@waSatellite@@QEBAAEBVVec3d@osg@@XZ,public: class osg::Vec3d const & __cdecl waSatellite::getWGS84Velocity(void) const,method,,waSatellite,getWGS84Velocity,void,True,False,False,False,False,False,True
+68,67,0x43,?getWinterTimeDelta@Space@@QEAAMXZ,public: float __cdecl Space::getWinterTimeDelta(void),method,,Space,getWinterTimeDelta,void,False,False,False,False,False,False,True
+69,68,0x44,?get_number@waSatellite@@QEBAHXZ,public: int __cdecl waSatellite::get_number(void) const,method,,waSatellite,get_number,void,True,False,False,False,False,False,True
+70,69,0x45,?init@Space@@SAXXZ,public: static void __cdecl Space::init(void),method,,Space,init,void,False,True,False,False,False,False,True
+71,70,0x46,?initialized@Space@@SA_NXZ,public: static bool __cdecl Space::initialized(void),method,,Space,initialized,void,False,True,False,False,False,False,True
+72,71,0x47,?notifySatelliteDeath@SatelliteStorage@@QEAAXPEAVwaSatellite@@@Z,public: void __cdecl SatelliteStorage::notifySatelliteDeath(class waSatellite *),method,,SatelliteStorage,notifySatelliteDeath,class waSatellite *,False,False,False,False,False,False,True
+73,72,0x48,?setAlmanac@waSatellite@@QEAAXUAlmanacGPS@@@Z,public: void __cdecl waSatellite::setAlmanac(struct AlmanacGPS),method,,waSatellite,setAlmanac,struct AlmanacGPS,False,False,False,False,False,False,True
+74,73,0x49,?setGreenwichDateTime@Space@@QEAAXNNNNNN@Z,"public: void __cdecl Space::setGreenwichDateTime(double, double, double, double, double, double)",method,,Space,setGreenwichDateTime,"double, double, double, double, double, double",False,False,False,False,False,False,True
+75,74,0x4A,?setGreenwichDateTimeNoUpdate@Space@@QEAAXNNNNNN@Z,"public: void __cdecl Space::setGreenwichDateTimeNoUpdate(double, double, double, double, double, double)",method,,Space,setGreenwichDateTimeNoUpdate,"double, double, double, double, double, double",False,False,False,False,False,False,True
+76,75,0x4B,?setLatLon@Space@@QEAAXNN@Z,"public: void __cdecl Space::setLatLon(double, double)",method,,Space,setLatLon,"double, double",False,False,False,False,False,False,True
+77,76,0x4C,?setPosition@waSatellite@@QEAAXAEBVVec3d@osg@@@Z,public: void __cdecl waSatellite::setPosition(class osg::Vec3d const &),method,,waSatellite,setPosition,class osg::Vec3d const &,False,False,False,False,False,False,True
+78,77,0x4D,?setSystem@waSatellite@@QEAAXE@Z,public: void __cdecl waSatellite::setSystem(unsigned char),method,,waSatellite,setSystem,unsigned char,False,False,False,False,False,False,True
+79,78,0x4E,?setVelocity@waSatellite@@QEAAXAEBVVec3d@osg@@@Z,public: void __cdecl waSatellite::setVelocity(class osg::Vec3d const &),method,,waSatellite,setVelocity,class osg::Vec3d const &,False,False,False,False,False,False,True
+80,79,0x4F,?set_number@waSatellite@@QEAAXH@Z,public: void __cdecl waSatellite::set_number(int),method,,waSatellite,set_number,int,False,False,False,False,False,False,True
+81,80,0x50,?siderialTime@Space@@QEBANXZ,public: double __cdecl Space::siderialTime(void) const,method,,Space,siderialTime,void,True,False,False,False,False,False,True
+82,81,0x51,?solarTime@Space@@QEBANXZ,public: double __cdecl Space::solarTime(void) const,method,,Space,solarTime,void,True,False,False,False,False,False,True
+83,82,0x52,?theSatelliteStorage@@3VSatelliteStorage@@A,class SatelliteStorage theSatelliteStorage,symbol,,,,,False,False,False,False,False,False,True
+84,83,0x53,?update2@waSatellite@@QEAAXNN@Z,"public: void __cdecl waSatellite::update2(double, double)",method,,waSatellite,update2,"double, double",False,False,False,False,False,False,True
+85,84,0x54,?update@Space@@IEAAXXZ,protected: void __cdecl Space::update(void),method,,Space,update,void,False,False,False,False,False,False,True
+86,85,0x55,?update@waSatellite@@QEAAXN@Z,public: void __cdecl waSatellite::update(double),method,,waSatellite,update,double,False,False,False,False,False,False,True
+87,86,0x56,?updateSatellitesPos@SatelliteStorage@@QEAAXN@Z,public: void __cdecl SatelliteStorage::updateSatellitesPos(double),method,,SatelliteStorage,updateSatellitesPos,double,False,False,False,False,False,False,True
+88,87,0x57,?updateSatellitesPos@SatelliteStorage@@QEAAXXZ,public: void __cdecl SatelliteStorage::updateSatellitesPos(void),method,,SatelliteStorage,updateSatellitesPos,void,False,False,False,False,False,False,True
+89,88,0x58,?updateSpace@@YAXPEAVSpace@@AEBVVec3d@osg@@N@Z,"void __cdecl updateSpace(class Space *, class osg::Vec3d const &, double)",function,,,updateSpace,"class Space *, class osg::Vec3d const &, double",False,False,False,False,False,False,True
+90,89,0x59,?updateSpace@@YAXPEAVSpace@@NNN@Z,"void __cdecl updateSpace(class Space *, double, double, double)",function,,,updateSpace,"class Space *, double, double, double",False,False,False,False,False,False,True
+91,90,0x5A,?updateTimeShift@Space@@QEAAXXZ,public: void __cdecl Space::updateTimeShift(void),method,,Space,updateTimeShift,void,False,False,False,False,False,False,True

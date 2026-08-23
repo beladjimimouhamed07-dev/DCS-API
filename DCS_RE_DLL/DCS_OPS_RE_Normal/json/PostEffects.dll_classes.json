@@ -1,0 +1,439 @@
+{
+    "dll": "PostEffects.dll",
+    "class_count": 5,
+    "classes": {
+        "FSR_HDR": {
+            "class_name": "FSR_HDR",
+            "namespace": "render",
+            "methods": [
+                {
+                    "ordinal": 1,
+                    "rva": 0,
+                    "rva_hex": "0x0",
+                    "name": "??0FSR_HDR@render@@QEAA@$$QEAV01@@Z",
+                    "demangled": "public: __cdecl render::FSR_HDR::FSR_HDR(class render::FSR_HDR &&)",
+                    "function_name": "FSR_HDR",
+                    "parameters": "class render::FSR_HDR &&",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 2,
+                    "rva": 1,
+                    "rva_hex": "0x1",
+                    "name": "??0FSR_HDR@render@@QEAA@AEBV01@@Z",
+                    "demangled": "public: __cdecl render::FSR_HDR::FSR_HDR(class render::FSR_HDR const &)",
+                    "function_name": "FSR_HDR",
+                    "parameters": "class render::FSR_HDR const &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 3,
+                    "rva": 2,
+                    "rva_hex": "0x2",
+                    "name": "??0FSR_HDR@render@@QEAA@XZ",
+                    "demangled": "public: __cdecl render::FSR_HDR::FSR_HDR(void)",
+                    "function_name": "FSR_HDR",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 10,
+                    "rva": 9,
+                    "rva_hex": "0x9",
+                    "name": "??1FSR_HDR@render@@QEAA@XZ",
+                    "demangled": "public: __cdecl render::FSR_HDR::~FSR_HDR(void)",
+                    "function_name": "~FSR_HDR",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 40,
+                    "rva": 39,
+                    "rva_hex": "0x27",
+                    "name": "?upscale@FSR_HDR@render@@QEAAXVTexture@2@AEBVVec2i@osg@@01@Z",
+                    "demangled": "public: void __cdecl render::FSR_HDR::upscale(class render::Texture, class osg::Vec2i const &, class render::Texture, class osg::Vec2i const &)",
+                    "function_name": "upscale",
+                    "parameters": "class render::Texture, class osg::Vec2i const &, class render::Texture, class osg::Vec2i const &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "PostEffect": {
+            "class_name": "PostEffect",
+            "namespace": "PostEffects",
+            "methods": [
+                {
+                    "ordinal": 4,
+                    "rva": 3,
+                    "rva_hex": "0x3",
+                    "name": "??0PostEffect@PostEffects@@QEAA@AEBV01@@Z",
+                    "demangled": "public: __cdecl PostEffects::PostEffect::PostEffect(class PostEffects::PostEffect const &)",
+                    "function_name": "PostEffect",
+                    "parameters": "class PostEffects::PostEffect const &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 5,
+                    "rva": 4,
+                    "rva_hex": "0x4",
+                    "name": "??0PostEffect@PostEffects@@QEAA@XZ",
+                    "demangled": "public: __cdecl PostEffects::PostEffect::PostEffect(void)",
+                    "function_name": "PostEffect",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 11,
+                    "rva": 10,
+                    "rva_hex": "0xA",
+                    "name": "??1PostEffect@PostEffects@@UEAA@XZ",
+                    "demangled": "public: virtual __cdecl PostEffects::PostEffect::~PostEffect(void)",
+                    "function_name": "~PostEffect",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": true
+                },
+                {
+                    "ordinal": 24,
+                    "rva": 23,
+                    "rva_hex": "0x17",
+                    "name": "?apply@PostEffect@PostEffects@@QEAAXVTexture@render@@0AEBV?$initializer_list@VTexture@render@@@std@@PEBVVec4f@osg@@@Z",
+                    "demangled": "public: void __cdecl PostEffects::PostEffect::apply(class render::Texture, class render::Texture, class std::initializer_list<class render::Texture> const &, class osg::Vec4f const *)",
+                    "function_name": "apply",
+                    "parameters": "class render::Texture, class render::Texture, class std::initializer_list<class render::Texture> const &, class osg::Vec4f const *",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 25,
+                    "rva": 24,
+                    "rva_hex": "0x18",
+                    "name": "?apply@PostEffect@PostEffects@@QEAAXVTexture@render@@PEBVVec4f@osg@@@Z",
+                    "demangled": "public: void __cdecl PostEffects::PostEffect::apply(class render::Texture, class osg::Vec4f const *)",
+                    "function_name": "apply",
+                    "parameters": "class render::Texture, class osg::Vec4f const *",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 26,
+                    "rva": 25,
+                    "rva_hex": "0x19",
+                    "name": "?apply@PostEffect@PostEffects@@UEAAXAEBUSceneRenderContext@render@@VTexture@4@1AEBV?$initializer_list@VTexture@render@@@std@@PEBVVec4f@osg@@@Z",
+                    "demangled": "public: virtual void __cdecl PostEffects::PostEffect::apply(struct render::SceneRenderContext const &, class render::Texture, class render::Texture, class std::initializer_list<class render::Texture> const &, class osg::Vec4f const *)",
+                    "function_name": "apply",
+                    "parameters": "struct render::SceneRenderContext const &, class render::Texture, class render::Texture, class std::initializer_list<class render::Texture> const &, class osg::Vec4f const *",
+                    "const": false,
+                    "static": false,
+                    "virtual": true
+                },
+                {
+                    "ordinal": 27,
+                    "rva": 26,
+                    "rva_hex": "0x1A",
+                    "name": "?build@PostEffect@PostEffects@@SAPEAV12@W4PostEffectType@2@@Z",
+                    "demangled": "public: static class PostEffects::PostEffect * __cdecl PostEffects::PostEffect::build(enum PostEffects::PostEffectType)",
+                    "function_name": "build",
+                    "parameters": "enum PostEffects::PostEffectType",
+                    "const": false,
+                    "static": true,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 38,
+                    "rva": 37,
+                    "rva_hex": "0x25",
+                    "name": "?setParams@PostEffect@PostEffects@@QEAAXHZZ",
+                    "demangled": "public: void __cdecl PostEffects::PostEffect::setParams(int, ...)",
+                    "function_name": "setParams",
+                    "parameters": "int, ...",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "PostEffectBase": {
+            "class_name": "PostEffectBase",
+            "namespace": "PostEffects",
+            "methods": [
+                {
+                    "ordinal": 6,
+                    "rva": 5,
+                    "rva_hex": "0x5",
+                    "name": "??0PostEffectBase@PostEffects@@QEAA@AEBV01@@Z",
+                    "demangled": "public: __cdecl PostEffects::PostEffectBase::PostEffectBase(class PostEffects::PostEffectBase const &)",
+                    "function_name": "PostEffectBase",
+                    "parameters": "class PostEffects::PostEffectBase const &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 7,
+                    "rva": 6,
+                    "rva_hex": "0x6",
+                    "name": "??0PostEffectBase@PostEffects@@QEAA@XZ",
+                    "demangled": "public: __cdecl PostEffects::PostEffectBase::PostEffectBase(void)",
+                    "function_name": "PostEffectBase",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 12,
+                    "rva": 11,
+                    "rva_hex": "0xB",
+                    "name": "??1PostEffectBase@PostEffects@@UEAA@XZ",
+                    "demangled": "public: virtual __cdecl PostEffects::PostEffectBase::~PostEffectBase(void)",
+                    "function_name": "~PostEffectBase",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": true
+                },
+                {
+                    "ordinal": 22,
+                    "rva": 21,
+                    "rva_hex": "0x15",
+                    "name": "?addMSAAShaderDefine@PostEffectBase@PostEffects@@IEAA_NAEBVTexture@render@@AEAV?$vector@VDefinePair@render@@V?$allocator@VDefinePair@render@@@ed@@@ed@@@Z",
+                    "demangled": "protected: bool __cdecl PostEffects::PostEffectBase::addMSAAShaderDefine(class render::Texture const &, class ed::vector<class render::DefinePair, class ed::allocator<class render::DefinePair>> &)",
+                    "function_name": "addMSAAShaderDefine",
+                    "parameters": "class render::Texture const &, class ed::vector<class render::DefinePair, class ed::allocator<class render::DefinePair>> &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 23,
+                    "rva": 22,
+                    "rva_hex": "0x16",
+                    "name": "?addMSAAShaderDefine@PostEffectBase@PostEffects@@IEAA_NW4MSAA_ENUM@render@@AEAV?$vector@VDefinePair@render@@V?$allocator@VDefinePair@render@@@ed@@@ed@@@Z",
+                    "demangled": "protected: bool __cdecl PostEffects::PostEffectBase::addMSAAShaderDefine(enum render::MSAA_ENUM, class ed::vector<class render::DefinePair, class ed::allocator<class render::DefinePair>> &)",
+                    "function_name": "addMSAAShaderDefine",
+                    "parameters": "enum render::MSAA_ENUM, class ed::vector<class render::DefinePair, class ed::allocator<class render::DefinePair>> &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 28,
+                    "rva": 27,
+                    "rva_hex": "0x1B",
+                    "name": "?build@PostEffectBase@PostEffects@@SAPEAVPostEffect@2@W4PostEffectType@2@@Z",
+                    "demangled": "public: static class PostEffects::PostEffect * __cdecl PostEffects::PostEffectBase::build(enum PostEffects::PostEffectType)",
+                    "function_name": "build",
+                    "parameters": "enum PostEffects::PostEffectType",
+                    "const": false,
+                    "static": true,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 30,
+                    "rva": 29,
+                    "rva_hex": "0x1D",
+                    "name": "?buildFrameBuffer@PostEffectBase@PostEffects@@IEAAXAEAVFrameBuffer@render@@PEBDHHW4FMT_ENUM@4@@Z",
+                    "demangled": "protected: void __cdecl PostEffects::PostEffectBase::buildFrameBuffer(class render::FrameBuffer &, char const *, int, int, enum render::FMT_ENUM)",
+                    "function_name": "buildFrameBuffer",
+                    "parameters": "class render::FrameBuffer &, char const *, int, int, enum render::FMT_ENUM",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 33,
+                    "rva": 32,
+                    "rva_hex": "0x20",
+                    "name": "?drawQuad@PostEffectBase@PostEffects@@IEAAXPEAVShader@render@@H@Z",
+                    "demangled": "protected: void __cdecl PostEffects::PostEffectBase::drawQuad(class render::Shader *, int)",
+                    "function_name": "drawQuad",
+                    "parameters": "class render::Shader *, int",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 34,
+                    "rva": 33,
+                    "rva_hex": "0x21",
+                    "name": "?enable@PostEffectBase@PostEffects@@UEAAX_N@Z",
+                    "demangled": "public: virtual void __cdecl PostEffects::PostEffectBase::enable(bool)",
+                    "function_name": "enable",
+                    "parameters": "bool",
+                    "const": false,
+                    "static": false,
+                    "virtual": true
+                },
+                {
+                    "ordinal": 35,
+                    "rva": 34,
+                    "rva_hex": "0x22",
+                    "name": "?init@PostEffectBase@PostEffects@@UEAAXAEBUInitializer@2@@Z",
+                    "demangled": "public: virtual void __cdecl PostEffects::PostEffectBase::init(struct PostEffects::Initializer const &)",
+                    "function_name": "init",
+                    "parameters": "struct PostEffects::Initializer const &",
+                    "const": false,
+                    "static": false,
+                    "virtual": true
+                },
+                {
+                    "ordinal": 36,
+                    "rva": 35,
+                    "rva_hex": "0x23",
+                    "name": "?isEnabled@PostEffectBase@PostEffects@@UEAA_NXZ",
+                    "demangled": "public: virtual bool __cdecl PostEffects::PostEffectBase::isEnabled(void)",
+                    "function_name": "isEnabled",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": true
+                },
+                {
+                    "ordinal": 37,
+                    "rva": 36,
+                    "rva_hex": "0x24",
+                    "name": "?release@PostEffectBase@PostEffects@@UEAAXXZ",
+                    "demangled": "public: virtual void __cdecl PostEffects::PostEffectBase::release(void)",
+                    "function_name": "release",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": true
+                },
+                {
+                    "ordinal": 39,
+                    "rva": 38,
+                    "rva_hex": "0x26",
+                    "name": "?setParamsList@PostEffectBase@PostEffects@@MEAAXHAEAPEAD@Z",
+                    "demangled": "protected: virtual void __cdecl PostEffects::PostEffectBase::setParamsList(int, char *&)",
+                    "function_name": "setParamsList",
+                    "parameters": "int, char *&",
+                    "const": false,
+                    "static": false,
+                    "virtual": true
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "PostEffectPipeline": {
+            "class_name": "PostEffectPipeline",
+            "namespace": "PostEffects",
+            "methods": [
+                {
+                    "ordinal": 8,
+                    "rva": 7,
+                    "rva_hex": "0x7",
+                    "name": "??0PostEffectPipeline@PostEffects@@QEAA@AEBV01@@Z",
+                    "demangled": "public: __cdecl PostEffects::PostEffectPipeline::PostEffectPipeline(class PostEffects::PostEffectPipeline const &)",
+                    "function_name": "PostEffectPipeline",
+                    "parameters": "class PostEffects::PostEffectPipeline const &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 9,
+                    "rva": 8,
+                    "rva_hex": "0x8",
+                    "name": "??0PostEffectPipeline@PostEffects@@QEAA@XZ",
+                    "demangled": "public: __cdecl PostEffects::PostEffectPipeline::PostEffectPipeline(void)",
+                    "function_name": "PostEffectPipeline",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 13,
+                    "rva": 12,
+                    "rva_hex": "0xC",
+                    "name": "??1PostEffectPipeline@PostEffects@@UEAA@XZ",
+                    "demangled": "public: virtual __cdecl PostEffects::PostEffectPipeline::~PostEffectPipeline(void)",
+                    "function_name": "~PostEffectPipeline",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": true
+                },
+                {
+                    "ordinal": 29,
+                    "rva": 28,
+                    "rva_hex": "0x1C",
+                    "name": "?build@PostEffectPipeline@PostEffects@@SAPEAV12@XZ",
+                    "demangled": "public: static class PostEffects::PostEffectPipeline * __cdecl PostEffects::PostEffectPipeline::build(void)",
+                    "function_name": "build",
+                    "parameters": "void",
+                    "const": false,
+                    "static": true,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 32,
+                    "rva": 31,
+                    "rva_hex": "0x1F",
+                    "name": "?copyToRenderTarget@PostEffectPipeline@PostEffects@@QEAAXVTexture@render@@AEBVVec4i@osg@@PEBVVec4f@6@_NW4MSAA_ENUM@4@@Z",
+                    "demangled": "public: void __cdecl PostEffects::PostEffectPipeline::copyToRenderTarget(class render::Texture, class osg::Vec4i const &, class osg::Vec4f const *, bool, enum render::MSAA_ENUM)",
+                    "function_name": "copyToRenderTarget",
+                    "parameters": "class render::Texture, class osg::Vec4i const &, class osg::Vec4f const *, bool, enum render::MSAA_ENUM",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "": {
+            "class_name": "",
+            "namespace": null,
+            "methods": [],
+            "vftables": [
+                {
+                    "ordinal": 19,
+                    "rva": 18,
+                    "rva_hex": "0x12",
+                    "name": "??_7PostEffect@PostEffects@@6B@",
+                    "demangled": "const PostEffects::PostEffect::`vftable'"
+                },
+                {
+                    "ordinal": 20,
+                    "rva": 19,
+                    "rva_hex": "0x13",
+                    "name": "??_7PostEffectBase@PostEffects@@6B@",
+                    "demangled": "const PostEffects::PostEffectBase::`vftable'"
+                },
+                {
+                    "ordinal": 21,
+                    "rva": 20,
+                    "rva_hex": "0x14",
+                    "name": "??_7PostEffectPipeline@PostEffects@@6B@",
+                    "demangled": "const PostEffects::PostEffectPipeline::`vftable'"
+                }
+            ],
+            "other_symbols": []
+        }
+    }
+}

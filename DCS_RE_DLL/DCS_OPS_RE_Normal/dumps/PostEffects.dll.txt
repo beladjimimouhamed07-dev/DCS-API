@@ -1,0 +1,68 @@
+Microsoft (R) COFF/PE Dumper Version 14.51.36256.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file G:\DCS_OPS_RE\bin\PostEffects.dll
+
+File Type: DLL
+
+  Section contains the following exports for PostEffects.dll
+
+    00000000 characteristics
+    FFFFFFFF time date stamp
+        0.00 version
+           1 ordinal base
+          40 number of functions
+          40 number of names
+
+    ordinal hint RVA      name
+
+          1    0 000013A0 ??0FSR_HDR@render@@QEAA@$$QEAV01@@Z
+          2    1 000013D0 ??0FSR_HDR@render@@QEAA@AEBV01@@Z
+          3    2 00001400 ??0FSR_HDR@render@@QEAA@XZ
+          4    3 000014C0 ??0PostEffect@PostEffects@@QEAA@AEBV01@@Z
+          5    4 000014C0 ??0PostEffect@PostEffects@@QEAA@XZ
+          6    5 000014D0 ??0PostEffectBase@PostEffects@@QEAA@AEBV01@@Z
+          7    6 00001500 ??0PostEffectBase@PostEffects@@QEAA@XZ
+          8    7 00001520 ??0PostEffectPipeline@PostEffects@@QEAA@AEBV01@@Z
+          9    8 00001520 ??0PostEffectPipeline@PostEffects@@QEAA@XZ
+         10    9 000016B0 ??1FSR_HDR@render@@QEAA@XZ
+         11    A 00001750 ??1PostEffect@PostEffects@@UEAA@XZ
+         12    B 000084D0 ??1PostEffectBase@PostEffects@@UEAA@XZ
+         13    C 00001750 ??1PostEffectPipeline@PostEffects@@UEAA@XZ
+         14    D 000018F0 ??4FSR_HDR@render@@QEAAAEAV01@$$QEAV01@@Z
+         15    E 00001910 ??4FSR_HDR@render@@QEAAAEAV01@AEBV01@@Z
+         16    F 000019A0 ??4PostEffect@PostEffects@@QEAAAEAV01@AEBV01@@Z
+         17   10 000019B0 ??4PostEffectBase@PostEffects@@QEAAAEAV01@AEBV01@@Z
+         18   11 000019A0 ??4PostEffectPipeline@PostEffects@@QEAAAEAV01@AEBV01@@Z
+         19   12 000164C8 ??_7PostEffect@PostEffects@@6B@
+         20   13 00016558 ??_7PostEffectBase@PostEffects@@6B@
+         21   14 00016510 ??_7PostEffectPipeline@PostEffects@@6B@
+         22   15 00008E20 ?addMSAAShaderDefine@PostEffectBase@PostEffects@@IEAA_NAEBVTexture@render@@AEAV?$vector@VDefinePair@render@@V?$allocator@VDefinePair@render@@@ed@@@ed@@@Z
+         23   16 00008E70 ?addMSAAShaderDefine@PostEffectBase@PostEffects@@IEAA_NW4MSAA_ENUM@render@@AEAV?$vector@VDefinePair@render@@V?$allocator@VDefinePair@render@@@ed@@@ed@@@Z
+         24   17 00012420 ?apply@PostEffect@PostEffects@@QEAAXVTexture@render@@0AEBV?$initializer_list@VTexture@render@@@std@@PEBVVec4f@osg@@@Z
+         25   18 00012580 ?apply@PostEffect@PostEffects@@QEAAXVTexture@render@@PEBVVec4f@osg@@@Z
+         26   19 00002530 ?apply@PostEffect@PostEffects@@UEAAXAEBUSceneRenderContext@render@@VTexture@4@1AEBV?$initializer_list@VTexture@render@@@std@@PEBVVec4f@osg@@@Z
+         27   1A 00012670 ?build@PostEffect@PostEffects@@SAPEAV12@W4PostEffectType@2@@Z
+         28   1B 0000A0B0 ?build@PostEffectBase@PostEffects@@SAPEAVPostEffect@2@W4PostEffectType@2@@Z
+         29   1C 00012680 ?build@PostEffectPipeline@PostEffects@@SAPEAV12@XZ
+         30   1D 0000A0D0 ?buildFrameBuffer@PostEffectBase@PostEffects@@IEAAXAEAVFrameBuffer@render@@PEBDHHW4FMT_ENUM@4@@Z
+         31   1E 0004C410 ?builders@PostEffectBase@PostEffects@@0PAP6APEAVPostEffect@2@XZA
+         32   1F 000126B0 ?copyToRenderTarget@PostEffectPipeline@PostEffects@@QEAAXVTexture@render@@AEBVVec4i@osg@@PEBVVec4f@6@_NW4MSAA_ENUM@4@@Z
+         33   20 0000ABA0 ?drawQuad@PostEffectBase@PostEffects@@IEAAXPEAVShader@render@@H@Z
+         34   21 000026B0 ?enable@PostEffectBase@PostEffects@@UEAAX_N@Z
+         35   22 0000B010 ?init@PostEffectBase@PostEffects@@UEAAXAEBUInitializer@2@@Z
+         36   23 00002890 ?isEnabled@PostEffectBase@PostEffects@@UEAA_NXZ
+         37   24 0000B0B0 ?release@PostEffectBase@PostEffects@@UEAAXXZ
+         38   25 000127B0 ?setParams@PostEffect@PostEffects@@QEAAXHZZ
+         39   26 00001750 ?setParamsList@PostEffectBase@PostEffects@@MEAAXHAEAPEAD@Z
+         40   27 00002FD0 ?upscale@FSR_HDR@render@@QEAAXVTexture@2@AEBVVec2i@osg@@01@Z
+
+  Summary
+
+        2000 .data
+        1000 .pdata
+       35000 .rdata
+        1000 .reloc
+        1000 .rsrc
+       15000 .text

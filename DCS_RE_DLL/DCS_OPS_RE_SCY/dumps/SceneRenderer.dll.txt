@@ -1,0 +1,67 @@
+Microsoft (R) COFF/PE Dumper Version 14.51.36256.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file G:\DCS_OPS_RE_SCY\bin\SceneRenderer.dll
+
+File Type: DLL
+
+  Section contains the following exports for SceneRenderer.dll
+
+    00000000 characteristics
+    FFFFFFFF time date stamp
+        0.00 version
+           1 ordinal base
+          38 number of functions
+          38 number of names
+
+    ordinal hint RVA      name
+
+          1    0 00005960 ??0BRDFRenderer@@QEAA@XZ
+          2    1 0001AC50 ??0DCSSceneRenderer@@QEAA@XZ
+          3    2 00008C30 ??1BRDFRenderer@@UEAA@XZ
+          4    3 0001BF80 ??1DCSSceneRenderer@@QEAA@XZ
+          5    4 0001E500 ?addAuxViewport@DCSSceneRenderer@@QEAAXAEBUSceneViewportInitializer@render@@PEBD@Z
+          6    5 0000CC20 ?bakeBRDF@BRDFRenderer@@QEAAXAEBUBRDFDesc@1@AEBUISceneObjectsProvider@render@@I@Z
+          7    6 0000D190 ?bakeRenderGraph@BRDFRenderer@@QEAAXAEBUBakeParams@RenderGraph@render@@@Z
+          8    7 0001EC50 ?bakeRenderGraph@DCSSceneRenderer@@QEAAXAEBUBakeParams@RenderGraph@render@@@Z
+          9    8 0001F000 ?buildDemoSceneRenderGraph@DCSSceneRenderer@@QEAAXPEAXAEBUDCSDemoSceneFrameDesc@@PEBVVec3d@osg@@@Z
+         10    9 0000E230 ?buildRenderGraph@BRDFRenderer@@QEAAXAEBUBRDFDesc@1@AEBVVec3f@osg@@V?$span@$$CBUViewSample@BRDFRenderer@@$0?0@ed@@@Z
+         11    A 0001F7A0 ?buildRenderGraph@DCSSceneRenderer@@QEAAXAEBUDCSFrameDesc@@@Z
+         12    B 00024650 ?buildRenderGraphWithAuxColorBuffersOnly@DCSSceneRenderer@@QEAAXAEBUDCSFrameDesc@@@Z
+         13    C 00025320 ?createDemoSceneModule@DCSSceneRenderer@@QEAAPEAXPEBD@Z
+         14    D 000253B0 ?deleteDemoSceneModule@DCSSceneRenderer@@QEAAXPEAX@Z
+         15    E 00025B20 ?getDemoSceneRenderGraphData@DCSSceneRenderer@@QEAAPEAUDCSRenderGraphData@@PEAX@Z
+         16    F 00025B30 ?getStatistics@DCSSceneRenderer@@QEBAXAEAUDCSSceneRendererStatistics@@@Z
+         17   10 00010EF0 ?init@BRDFRenderer@@QEAAXAEBUInitializer@1@@Z
+         18   11 00025F00 ?init@DCSSceneRenderer@@QEAAXAEBUInitializer@1@@Z
+         19   12 00012340 ?lightsPrePass@BRDFRenderer@@QEAAXXZ
+         20   13 00029000 ?lightsPrePass@DCSSceneRenderer@@QEAAXXZ
+         21   14 000290A0 ?onCockpitChanged@DCSSceneRenderer@@QEAAXAEBUCockpitConfig@enlight@@@Z
+         22   15 000128D0 ?onWaterUpdated@BRDFRenderer@@QEAAXAEBUDCSWaterSettings@@@Z
+         23   16 00029150 ?onWaterUpdated@DCSSceneRenderer@@QEAAXAEBUDCSWaterSettings@@@Z
+         24   17 00029220 ?prepareRenderGraph@DCSSceneRenderer@@QEAAXAEBUDCSFrameDesc@@AEBUISceneObjectsProvider@render@@PEAVTaskQueue@ed@@IAEBUBakeParams@RenderGraph@4@@Z
+         25   18 00029580 ?removeAuxViewport@DCSSceneRenderer@@QEAAXPEBD@Z
+         26   19 000138D0 ?renderBakedRenderGraph@BRDFRenderer@@QEAAXAEBURenderParams@RenderGraph@render@@@Z
+         27   1A 000296E0 ?renderBakedRenderGraph@DCSSceneRenderer@@QEAAXAEBURenderParams@RenderGraph@render@@@Z
+         28   1B 00029750 ?requestCloudDensitySamples@DCSSceneRenderer@@QEAAXV?$span@$$CBVVec3f@osg@@$0?0@ed@@V?$span@M$0?0@3@@Z
+         29   1C 00013B60 ?resetRenderGraph@BRDFRenderer@@QEAAXXZ
+         30   1D 00029790 ?resetRenderGraph@DCSSceneRenderer@@QEAAXXZ
+         31   1E 00029900 ?resizeMFDViewport@DCSSceneRenderer@@QEAAXIVVec2i@osg@@@Z
+         32   1F 00014780 ?setDbgView@BRDFRenderer@@QEAAXAEBVMatrixd@osg@@AEBVVec3f@3@@Z
+         33   20 000299B0 ?setMirrorViewports@DCSSceneRenderer@@QEAAXV?$span@$$CBUSceneViewportInitializer@render@@$0?0@ed@@@Z
+         34   21 00029B10 ?setSeed@DCSSceneRenderer@@QEAAXI@Z
+         35   22 00014810 ?setTarget@BRDFRenderer@@QEAAXAEBVVec3d@osg@@M@Z
+         36   23 00014880 ?setTerrainRenderer@BRDFRenderer@@QEAAXPEAUITerrainRenderer@TerrainModule@render@@@Z
+         37   24 00029B30 ?setTerrainRenderer@DCSSceneRenderer@@QEAAXPEAUITerrainRenderer@TerrainModule@render@@@Z
+         38   25 00029BD0 ?updateAuxViewport@DCSSceneRenderer@@QEAAXAEBUSceneViewportInitializer@render@@PEBD@Z
+
+  Summary
+
+       B1000 .SCY
+        8000 .data
+        3000 .pdata
+       14000 .rdata
+        1000 .reloc
+        1000 .rsrc
+       4E000 .text

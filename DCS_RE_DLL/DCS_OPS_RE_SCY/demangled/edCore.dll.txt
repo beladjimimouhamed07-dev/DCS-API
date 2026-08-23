@@ -1,0 +1,1210 @@
+// DCS_OPS_RE: edCore.dll
+// Generated from dumpbin /exports
+
+[    1]          0x0  void __cdecl Math::add<2, float>(class Math::Matrix<2, float> &, class Math::Matrix<2, float> const &, class Math::Matrix<2, float> const &)
+[    2]          0x1  void __cdecl Math::add<2, double>(class Math::Matrix<2, double> &, class Math::Matrix<2, double> const &, class Math::Matrix<2, double> const &)
+[    3]          0x2  void __cdecl Math::add<3, float>(class Math::Matrix<3, float> &, class Math::Matrix<3, float> const &, class Math::Matrix<3, float> const &)
+[    4]          0x3  void __cdecl Math::add<3, double>(class Math::Matrix<3, double> &, class Math::Matrix<3, double> const &, class Math::Matrix<3, double> const &)
+[    5]          0x4  void __cdecl Math::add<4, float>(class Math::Matrix<4, float> &, class Math::Matrix<4, float> const &, class Math::Matrix<4, float> const &)
+[    6]          0x5  void __cdecl Math::add<4, double>(class Math::Matrix<4, double> &, class Math::Matrix<4, double> const &, class Math::Matrix<4, double> const &)
+[    7]          0x6  float __cdecl Math::determinant<float>(class Math::Matrix<2, float> const &)
+[    8]          0x7  float __cdecl Math::determinant<float>(class Math::Matrix<3, float> const &)
+[    9]          0x8  float __cdecl Math::determinant<float>(class Math::Matrix<4, float> const &)
+[   10]          0x9  double __cdecl Math::determinant<double>(class Math::Matrix<2, double> const &)
+[   11]          0xA  double __cdecl Math::determinant<double>(class Math::Matrix<3, double> const &)
+[   12]          0xB  double __cdecl Math::determinant<double>(class Math::Matrix<4, double> const &)
+[   13]          0xC  void __cdecl Math::invert<2, float>(class Math::Matrix<2, float> &, class Math::Matrix<2, float> const &)
+[   14]          0xD  void __cdecl Math::invert<2, double>(class Math::Matrix<2, double> &, class Math::Matrix<2, double> const &)
+[   15]          0xE  void __cdecl Math::invert<3, float>(class Math::Matrix<3, float> &, class Math::Matrix<3, float> const &)
+[   16]          0xF  void __cdecl Math::invert<3, double>(class Math::Matrix<3, double> &, class Math::Matrix<3, double> const &)
+[   17]         0x10  void __cdecl Math::invert<4, float>(class Math::Matrix<4, float> &, class Math::Matrix<4, float> const &)
+[   18]         0x11  void __cdecl Math::invert<4, double>(class Math::Matrix<4, double> &, class Math::Matrix<4, double> const &)
+[   19]         0x12  void __cdecl Math::invertOrtho<2, float>(class Math::Matrix<2, float> &, class Math::Matrix<2, float> const &)
+[   20]         0x13  void __cdecl Math::invertOrtho<2, double>(class Math::Matrix<2, double> &, class Math::Matrix<2, double> const &)
+[   21]         0x14  void __cdecl Math::invertOrtho<3, float>(class Math::Matrix<3, float> &, class Math::Matrix<3, float> const &)
+[   22]         0x15  void __cdecl Math::invertOrtho<3, double>(class Math::Matrix<3, double> &, class Math::Matrix<3, double> const &)
+[   23]         0x16  void __cdecl Math::invertOrtho<4, float>(class Math::Matrix<4, float> &, class Math::Matrix<4, float> const &)
+[   24]         0x17  void __cdecl Math::invertOrtho<4, double>(class Math::Matrix<4, double> &, class Math::Matrix<4, double> const &)
+[   25]         0x18  void __cdecl Math::multiply<2, float>(class Math::Matrix<2, float> &, class Math::Matrix<2, float> const &, class Math::Matrix<2, float> const &)
+[   26]         0x19  void __cdecl Math::multiply<2, double>(class Math::Matrix<2, double> &, class Math::Matrix<2, double> const &, class Math::Matrix<2, double> const &)
+[   27]         0x1A  void __cdecl Math::multiply<3, float>(class Math::Matrix<3, float> &, class Math::Matrix<3, float> const &, class Math::Matrix<3, float> const &)
+[   28]         0x1B  void __cdecl Math::multiply<3, double>(class Math::Matrix<3, double> &, class Math::Matrix<3, double> const &, class Math::Matrix<3, double> const &)
+[   29]         0x1C  void __cdecl Math::multiply<4, float>(class Math::Matrix<4, float> &, class Math::Matrix<4, float> const &, class Math::Matrix<4, float> const &)
+[   30]         0x1D  void __cdecl Math::multiply<4, double>(class Math::Matrix<4, double> &, class Math::Matrix<4, double> const &, class Math::Matrix<4, double> const &)
+[   31]         0x1E  struct Math::Rotation3<float> __cdecl Math::slerp<float>(struct Math::Rotation3<float> const &, struct Math::Rotation3<float> const &, float)
+[   32]         0x1F  struct Math::Rotation3<double> __cdecl Math::slerp<double>(struct Math::Rotation3<double> const &, struct Math::Rotation3<double> const &, double)
+[   33]         0x20  void __cdecl Math::subtract<2, float>(class Math::Matrix<2, float> &, class Math::Matrix<2, float> const &, class Math::Matrix<2, float> const &)
+[   34]         0x21  void __cdecl Math::subtract<2, double>(class Math::Matrix<2, double> &, class Math::Matrix<2, double> const &, class Math::Matrix<2, double> const &)
+[   35]         0x22  void __cdecl Math::subtract<3, float>(class Math::Matrix<3, float> &, class Math::Matrix<3, float> const &, class Math::Matrix<3, float> const &)
+[   36]         0x23  void __cdecl Math::subtract<3, double>(class Math::Matrix<3, double> &, class Math::Matrix<3, double> const &, class Math::Matrix<3, double> const &)
+[   37]         0x24  void __cdecl Math::subtract<4, float>(class Math::Matrix<4, float> &, class Math::Matrix<4, float> const &, class Math::Matrix<4, float> const &)
+[   38]         0x25  void __cdecl Math::subtract<4, double>(class Math::Matrix<4, double> &, class Math::Matrix<4, double> const &, class Math::Matrix<4, double> const &)
+[   39]         0x26  float __cdecl Math::trace<2, float>(class Math::Matrix<2, float> const &)
+[   40]         0x27  double __cdecl Math::trace<2, double>(class Math::Matrix<2, double> const &)
+[   41]         0x28  float __cdecl Math::trace<3, float>(class Math::Matrix<3, float> const &)
+[   42]         0x29  double __cdecl Math::trace<3, double>(class Math::Matrix<3, double> const &)
+[   43]         0x2A  float __cdecl Math::trace<4, float>(class Math::Matrix<4, float> const &)
+[   44]         0x2B  double __cdecl Math::trace<4, double>(class Math::Matrix<4, double> const &)
+[   45]         0x2C  void __cdecl Math::transpose<2, float>(class Math::Matrix<2, float> &, class Math::Matrix<2, float> const &)
+[   46]         0x2D  void __cdecl Math::transpose<2, double>(class Math::Matrix<2, double> &, class Math::Matrix<2, double> const &)
+[   47]         0x2E  void __cdecl Math::transpose<3, float>(class Math::Matrix<3, float> &, class Math::Matrix<3, float> const &)
+[   48]         0x2F  void __cdecl Math::transpose<3, double>(class Math::Matrix<3, double> &, class Math::Matrix<3, double> const &)
+[   49]         0x30  void __cdecl Math::transpose<4, float>(class Math::Matrix<4, float> &, class Math::Matrix<4, float> const &)
+[   50]         0x31  void __cdecl Math::transpose<4, double>(class Math::Matrix<4, double> &, class Math::Matrix<4, double> const &)
+[   51]         0x32  protected: __cdecl Common::FakeUnknown<class Common::Identifiable>::FakeUnknown<class Common::Identifiable>(void)
+[   52]         0x33  public: __cdecl Common::FakeUnknown<class Common::Identifiable>::FakeUnknown<class Common::Identifiable>(class Common::FakeUnknown<class Common::Identifiable> const &)
+[   53]         0x34  public: __cdecl TFrameMemoryHeap<1>::TFrameMemoryHeap<1>(unsigned __int64, unsigned __int64)
+[   54]         0x35  public: __cdecl TFrameMemoryHeap<0>::TFrameMemoryHeap<0>(unsigned __int64, unsigned __int64)
+[   55]         0x36  protected: __cdecl Common::Unknown<class Common::Identifiable>::Unknown<class Common::Identifiable>(void)
+[   56]         0x37  public: __cdecl Common::Unknown<class Common::Identifiable>::Unknown<class Common::Identifiable>(class Common::Unknown<class Common::Identifiable> const &)
+[   57]         0x38  public: __cdecl edvfs::BinaryFile::BinaryFile(class edvfs::IFile *)
+[   58]         0x39  public: __cdecl ed::BlockPool::BlockPool(unsigned __int64, unsigned __int64, char const *, unsigned __int64)
+[   59]         0x3A  public: __cdecl ed::BufferView::BufferView(unsigned char *, unsigned __int64)
+[   60]         0x3B  public: __cdecl ed::BufferView::BufferView(class ed::SharedBuffer *, unsigned __int64, unsigned __int64)
+[   61]         0x3C  public: __cdecl ed::BufferView::BufferView(void)
+[   62]         0x3D  public: __cdecl edvfs::BufferedWriter::BufferedWriter(class edvfs::IFile *)
+[   63]         0x3E  public: __cdecl Mail::ByteReader::ByteReader(class ed::Ptr<class Mail::Chunk, struct ed::DefaultDeleter> const &)
+[   64]         0x3F  public: __cdecl Mail::ByteReader::ByteReader(void)
+[   65]         0x40  public: __cdecl Mail::ByteWriter::ByteWriter(void)
+[   66]         0x41  private: __cdecl Lua::CheckedLoader::CheckedLoader(void)
+[   67]         0x42  public: __cdecl Lua::Config::Config(struct lua_State *, int)
+[   68]         0x43  public: __cdecl ed::ConsoleArgs::ConsoleArgs(class ed::ConsoleArgs &&)
+[   69]         0x44  public: __cdecl ed::ConsoleArgs::ConsoleArgs(class ed::ConsoleArgs const &)
+[   70]         0x45  public: __cdecl ed::ConsoleArgs::ConsoleArgs(class ed::basic_string<char> const &, class ed::basic_string<char> const &, class ed::basic_string<char> const &)
+[   71]         0x46  public: __cdecl ed::ConsoleArgs::ConsoleArgs(class ed::basic_string<char> const &, class ed::basic_string<char> const &)
+[   72]         0x47  public: __cdecl ed::ConsoleArgs::ConsoleArgs(class ed::basic_string<char> const &)
+[   73]         0x48  public: __cdecl ed::ConsoleArgs::ConsoleArgs(class ed::vector<class ed::basic_string<char>, class ed::allocator<class ed::basic_string<char>>> const &)
+[   74]         0x49  public: __cdecl ed::ConsoleArgs::ConsoleArgs(int, char **const)
+[   75]         0x4A  public: __cdecl ed::ConsoleArgs::ConsoleArgs(void)
+[   76]         0x4B  public: __cdecl ed::ConstBufferView::ConstBufferView(unsigned char const *, unsigned __int64)
+[   77]         0x4C  public: __cdecl ed::ConstBufferView::ConstBufferView(class edvfs::IBuffer const *, unsigned __int64, unsigned __int64)
+[   78]         0x4D  public: __cdecl ed::ConstBufferView::ConstBufferView(void)
+[   79]         0x4E  public: __cdecl Common::FSM::Descriptor::Descriptor(class Common::FSM::Descriptor &&)
+[   80]         0x4F  public: __cdecl Common::FSM::Descriptor::Descriptor(class Common::FSM::Descriptor const &)
+[   81]         0x50  public: __cdecl Common::FSM::Descriptor::Descriptor(void)
+[   82]         0x51  public: __cdecl ed::SQLite3::Error::Error(int)
+[   83]         0x52  public: __cdecl FPS_Controller::FPS_Controller(void)
+[   84]         0x53  public: __cdecl Common::FSM::FSM(class Common::FSM &&)
+[   85]         0x54  public: __cdecl Common::FSM::FSM(class Common::FSM const &)
+[   86]         0x55  public: __cdecl Common::FSM::FSM(char const *)
+[   87]         0x56  public: __cdecl Common::FSM::FSM(char const *, class Common::FSM::Descriptor *, class Common::FSM::SymbolRecepient *)
+[   88]         0x57  public: __cdecl io::FileStream::FileStream(class io::FileStream const &)
+[   89]         0x58  public: __cdecl io::FileStream::FileStream(class io::File *, enum io::Stream::Mode, unsigned __int64, unsigned int)
+[   90]         0x59  public: __cdecl io::FileStream::FileStream(char const *, enum io::Stream::Mode, unsigned int)
+[   91]         0x5A  public: __cdecl io::FileStream::FileStream(void)
+[   92]         0x5B  protected: __cdecl edvfs::IDriver::IDriver(unsigned __int64, char const *, char const *, char const *, char const *)
+[   93]         0x5C  public: __cdecl Math::IIR_Filter::IIR_Filter(class Math::IIR_Filter const &)
+[   94]         0x5D  public: __cdecl Math::IIR_Filter::IIR_Filter(void)
+[   95]         0x5E  public: __cdecl Math::IIR_FilterCoefficients::IIR_FilterCoefficients(double, double, double, double, double)
+[   96]         0x5F  public: __cdecl Math::IIR_FilterCoefficients::IIR_FilterCoefficients(void)
+[   97]         0x60  public: __cdecl ed::IThreadPolicy::IThreadPolicy(struct ed::IThreadPolicy const &)
+[   98]         0x61  public: __cdecl ed::IThreadPolicy::IThreadPolicy(void)
+[   99]         0x62  public: __cdecl Common::Identifier::Identifier(class ed::basic_string<char> const &)
+[  100]         0x63  public: __cdecl Common::Identifier::Identifier(char const *)
+[  101]         0x64  public: __cdecl Common::Identifier::Identifier(void)
+[  102]         0x65  public: __cdecl ed::core::InitBackTrace::InitBackTrace(char const *, void (__cdecl *)(struct CrashInfo), char const *, int)
+[  103]         0x66  public: __cdecl ed::core::InitEDVFS::InitEDVFS(bool (__cdecl *)(char const *, void *), void *)
+[  104]         0x67  public: __cdecl ed::core::InitLog::InitLog(char const *, char const *, int, int)
+[  105]         0x68  public: __cdecl ed::core::InitLua::InitLua(void)
+[  106]         0x69  public: __cdecl ed::core::InitLuaAPI::InitLuaAPI(void)
+[  107]         0x6A  public: __cdecl ed::core::InitTaskManager::InitTaskManager(unsigned __int64, bool)
+[  108]         0x6B  public: __cdecl ed::core::InitVFS::InitVFS(char const *, char const *)
+[  109]         0x6C  public: __cdecl ed::Initializer::Initializer(void)
+[  110]         0x6D  public: __cdecl LinkBase::LinkBase(class LinkBase const &)
+[  111]         0x6E  public: __cdecl LinkBase::LinkBase(void)
+[  112]         0x6F  public: __cdecl io::MemBinaryFileR::MemBinaryFileR(class io::MemBinaryFileR &&)
+[  113]         0x70  public: __cdecl io::MemBinaryFileR::MemBinaryFileR(char const *, class edvfs::IVFSandbox *)
+[  114]         0x71  public: __cdecl io::MmfStream::MmfStream(class io::File *, enum io::Stream::Mode, unsigned __int64, unsigned int)
+[  115]         0x72  public: __cdecl io::MmfStream::MmfStream(char const *, enum io::Stream::Mode, unsigned int)
+[  116]         0x73  public: __cdecl io::MmfStream::MmfStream(void)
+[  117]         0x74  public: __cdecl NoiseGen::NoiseGen(unsigned int)
+[  118]         0x75  public: __cdecl NoiseGen::NoiseGen(void)
+[  119]         0x76  public: __cdecl OWTOS::OWTOS(bool, double, double)
+[  120]         0x77  public: __cdecl ed::Random::Random(unsigned long)
+[  121]         0x78  public: __cdecl ed::Random::Random(int *const, int)
+[  122]         0x79  public: __cdecl ed::Random::Random(void)
+[  123]         0x7A  public: __cdecl RandomManager::RandomManager(void)
+[  124]         0x7B  public: __cdecl RandomObject::RandomObject(class RandomObject const &)
+[  125]         0x7C  public: __cdecl RandomObject::RandomObject(class ed::vector<float, class ed::allocator<float>> const &, unsigned int, unsigned int)
+[  126]         0x7D  public: __cdecl RandomObject::RandomObject(unsigned int, unsigned int)
+[  127]         0x7E  public: __cdecl RandomObject::RandomObject(void)
+[  128]         0x7F  public: __cdecl RandomizerManager::RandomizerManager(void)
+[  129]         0x80  public: __cdecl Mail::Reader::Reader(struct Mail::VarNil const &)
+[  130]         0x81  public: __cdecl Mail::Reader::Reader(class Mail::Message const &)
+[  131]         0x82  public: __cdecl Mail::Reader::Reader(void)
+[  132]         0x83  public: __cdecl Lua::Serializer::Serializer(char const *)
+[  133]         0x84  public: __cdecl SimplexNoise::SimplexNoise(void)
+[  134]         0x85  public: __cdecl ed::StringsCache::StringsCache(class ed::StringsCache &&)
+[  135]         0x86  public: __cdecl ed::StringsCache::StringsCache(char const *, unsigned __int64)
+[  136]         0x87  public: __cdecl ed::StringsCache::StringsCache(unsigned __int64)
+[  137]         0x88  public: __cdecl ed::StringsCacheFast::StringsCacheFast(unsigned __int64, unsigned __int64, unsigned __int64)
+[  138]         0x89  public: __cdecl ed::StringsCacheWithIndices::StringsCacheWithIndices(class ed::StringsCacheWithIndices &&)
+[  139]         0x8A  public: __cdecl ed::StringsCacheWithIndices::StringsCacheWithIndices(char const *, unsigned __int64)
+[  140]         0x8B  public: __cdecl ed::StringsCacheWithIndices::StringsCacheWithIndices(unsigned __int64)
+[  141]         0x8C  public: __cdecl ed::SyncTask::SyncTask(class std::function<void __cdecl(void)> &&, class ed::Ptr<class ed::SharedGroupBarrier, struct ed::SharedGroupBarrier::Deleter> &&, char const *)
+[  142]         0x8D  public: __cdecl ed::SyncTask::SyncTask(void (__cdecl *)(void *), void *, class ed::Ptr<class ed::SharedGroupBarrier, struct ed::SharedGroupBarrier::Deleter> &&, char const *)
+[  143]         0x8E  public: __cdecl ed::SyncTaskQueue::SyncTaskQueue(void)
+[  144]         0x8F  public: __cdecl TWTOS::TWTOS(bool, double, double, double)
+[  145]         0x90  public: __cdecl CoreUtils::TempFilesManager::TempFilesManager(class CoreUtils::TempFilesManager const &)
+[  146]         0x91  public: __cdecl CoreUtils::TempFilesManager::TempFilesManager(void)
+[  147]         0x92  public: __cdecl Common::FSM::Transition::Transition(unsigned int, unsigned int, enum Common::FSM::StackOperation)
+[  148]         0x93  public: __cdecl Common::FSM::Transition::Transition(void)
+[  149]         0x94  public: __cdecl Mail::Writer::Writer(class Mail::Message const &)
+[  150]         0x95  public: __cdecl ed::ZoneAlloc::ZoneAlloc(unsigned __int64, unsigned __int64, bool)
+[  151]         0x96  public: __cdecl b2DynamicTree::b2DynamicTree(void)
+[  152]         0x97  public: __cdecl ed::md5::md5(unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char)
+[  153]         0x98  public: __cdecl ed::md5::md5(void const *, unsigned __int64)
+[  154]         0x99  public: __cdecl ed::md5::md5(class std::basic_string_view<char, struct std::char_traits<char>>)
+[  155]         0x9A  public: __cdecl ed::md5::md5(class ed::span<unsigned char const, 16>)
+[  156]         0x9B  public: __cdecl ed::md5::md5(void)
+[  157]         0x9C  public: __cdecl ed::mutex::mutex(class ed::mutex const &)
+[  158]         0x9D  public: __cdecl ed::mutex::mutex(unsigned int)
+[  159]         0x9E  public: __cdecl ed::semaphore::semaphore(int)
+[  160]         0x9F  public: __cdecl ed::signal::signal(class ed::signal &&)
+[  161]         0xA0  public: __cdecl ed::signal::signal(bool)
+[  162]         0xA1  public: __cdecl ed::thread::thread(class std::function<void __cdecl(void)>, struct ed::thread::ThreadInfo const &, char const *)
+[  163]         0xA2  public: __cdecl ed::thread::thread(class std::function<void __cdecl(void)>, char const *)
+[  164]         0xA3  public: __cdecl ed::thread::thread(class std::function<void __cdecl(void)>, enum ed::thread::Priority, unsigned __int64, char const *)
+[  165]         0xA4  public: __cdecl ed::thread::thread(class std::function<void __cdecl(void)>, unsigned __int64, char const *)
+[  166]         0xA5  public: __cdecl ed::thread::thread(void)
+[  167]         0xA6  protected: virtual __cdecl Common::FakeUnknown<class Common::Identifiable>::~FakeUnknown<class Common::Identifiable>(void)
+[  168]         0xA7  public: __cdecl TFrameMemoryHeap<1>::~TFrameMemoryHeap<1>(void)
+[  169]         0xA8  public: __cdecl TFrameMemoryHeap<0>::~TFrameMemoryHeap<0>(void)
+[  170]         0xA9  protected: virtual __cdecl Common::Unknown<class Common::Identifiable>::~Unknown<class Common::Identifiable>(void)
+[  171]         0xAA  public: virtual __cdecl edvfs::BinaryFile::~BinaryFile(void)
+[  172]         0xAB  public: __cdecl ed::BlockPool::~BlockPool(void)
+[  173]         0xAC  public: virtual __cdecl ed::BufferView::~BufferView(void)
+[  174]         0xAD  public: __cdecl Mail::ByteReader::~ByteReader(void)
+[  175]         0xAE  public: __cdecl Mail::ByteWriter::~ByteWriter(void)
+[  176]         0xAF  private: __cdecl Lua::CheckedLoader::~CheckedLoader(void)
+[  177]         0xB0  public: __cdecl Lua::Config::~Config(void)
+[  178]         0xB1  public: __cdecl ed::ConsoleArgs::~ConsoleArgs(void)
+[  179]         0xB2  public: virtual __cdecl ed::ConstBufferView::~ConstBufferView(void)
+[  180]         0xB3  public: virtual __cdecl ed::DCSThreadManager::~DCSThreadManager(void)
+[  181]         0xB4  public: __cdecl Common::FSM::Descriptor::~Descriptor(void)
+[  182]         0xB5  public: __cdecl FPS_Controller::~FPS_Controller(void)
+[  183]         0xB6  public: __cdecl Common::FSM::~FSM(void)
+[  184]         0xB7  public: virtual __cdecl Common::Factory::~Factory(void)
+[  185]         0xB8  public: virtual __cdecl io::FileStream::~FileStream(void)
+[  186]         0xB9  public: virtual __cdecl Math::IIR_Filter::~IIR_Filter(void)
+[  187]         0xBA  public: virtual __cdecl ed::IThreadPolicy::~IThreadPolicy(void)
+[  188]         0xBB  public: virtual __cdecl edvfs::IVFSandbox::~IVFSandbox(void)
+[  189]         0xBC  public: virtual __cdecl ed::core::InitBackTrace::~InitBackTrace(void)
+[  190]         0xBD  public: virtual __cdecl ed::core::InitEDVFS::~InitEDVFS(void)
+[  191]         0xBE  public: virtual __cdecl ed::core::InitLog::~InitLog(void)
+[  192]         0xBF  public: virtual __cdecl ed::core::InitLua::~InitLua(void)
+[  193]         0xC0  public: virtual __cdecl ed::core::InitLuaAPI::~InitLuaAPI(void)
+[  194]         0xC1  public: virtual __cdecl ed::core::InitTaskManager::~InitTaskManager(void)
+[  195]         0xC2  public: virtual __cdecl ed::core::InitVFS::~InitVFS(void)
+[  196]         0xC3  public: __cdecl ed::Initializer::~Initializer(void)
+[  197]         0xC4  public: __cdecl LinkBase::~LinkBase(void)
+[  198]         0xC5  public: virtual __cdecl io::MemBinaryFileR::~MemBinaryFileR(void)
+[  199]         0xC6  public: virtual __cdecl io::MmfStream::~MmfStream(void)
+[  200]         0xC7  public: __cdecl NoiseGen::~NoiseGen(void)
+[  201]         0xC8  public: virtual __cdecl Common::Printer::~Printer(void)
+[  202]         0xC9  public: __cdecl ed::Random::~Random(void)
+[  203]         0xCA  public: virtual __cdecl RandomManager::~RandomManager(void)
+[  204]         0xCB  public: virtual __cdecl RandomObject::~RandomObject(void)
+[  205]         0xCC  public: __cdecl RandomizerManager::~RandomizerManager(void)
+[  206]         0xCD  public: virtual __cdecl Mail::Reader::~Reader(void)
+[  207]         0xCE  public: __cdecl Lua::Serializer::~Serializer(void)
+[  208]         0xCF  public: __cdecl ed::Stopwatch::~Stopwatch(void)
+[  209]         0xD0  public: virtual __cdecl Mail::Stream::~Stream(void)
+[  210]         0xD1  public: __cdecl ed::SyncTask::~SyncTask(void)
+[  211]         0xD2  public: __cdecl ed::SyncTaskQueue::~SyncTaskQueue(void)
+[  212]         0xD3  public: __cdecl CoreUtils::TempFilesManager::~TempFilesManager(void)
+[  213]         0xD4  public: virtual __cdecl Mail::Writer::~Writer(void)
+[  214]         0xD5  public: __cdecl ed::ZoneAlloc::~ZoneAlloc(void)
+[  215]         0xD6  public: __cdecl b2DynamicTree::~b2DynamicTree(void)
+[  216]         0xD7  public: __cdecl ed::mutex::~mutex(void)
+[  217]         0xD8  public: __cdecl ed::semaphore::~semaphore(void)
+[  218]         0xD9  public: __cdecl ed::signal::~signal(void)
+[  219]         0xDA  public: class Common::FakeUnknown<class Common::Identifiable> & __cdecl Common::FakeUnknown<class Common::Identifiable>::operator=(class Common::FakeUnknown<class Common::Identifiable> const &)
+[  220]         0xDB  public: class TFrameMemoryHeap<0> & __cdecl TFrameMemoryHeap<0>::operator=(class TFrameMemoryHeap<0> const &)
+[  221]         0xDC  public: class Common::Unknown<class Common::Identifiable> & __cdecl Common::Unknown<class Common::Identifiable>::operator=(class Common::Unknown<class Common::Identifiable> const &)
+[  222]         0xDD  public: class edvfs::BinaryFile & __cdecl edvfs::BinaryFile::operator=(class edvfs::IFile *)
+[  223]         0xDE  public: class Lua::CheckedLoader & __cdecl Lua::CheckedLoader::operator=(class Lua::CheckedLoader const &)
+[  224]         0xDF  public: class ed::ConsoleArgs & __cdecl ed::ConsoleArgs::operator=(class ed::ConsoleArgs &&)
+[  225]         0xE0  public: class ed::ConsoleArgs & __cdecl ed::ConsoleArgs::operator=(class ed::ConsoleArgs const &)
+[  226]         0xE1  public: class Common::FSM::Descriptor & __cdecl Common::FSM::Descriptor::operator=(class Common::FSM::Descriptor &&)
+[  227]         0xE2  public: class Common::FSM::Descriptor & __cdecl Common::FSM::Descriptor::operator=(class Common::FSM::Descriptor const &)
+[  228]         0xE3  public: class Common::FSM & __cdecl Common::FSM::operator=(class Common::FSM &&)
+[  229]         0xE4  public: class Common::FSM & __cdecl Common::FSM::operator=(class Common::FSM const &)
+[  230]         0xE5  public: class Math::IIR_Filter & __cdecl Math::IIR_Filter::operator=(class Math::IIR_Filter const &)
+[  231]         0xE6  public: class Math::IIR_FilterCoefficients & __cdecl Math::IIR_FilterCoefficients::operator=(class Math::IIR_FilterCoefficients const &)
+[  232]         0xE7  public: struct ed::IThreadPolicy & __cdecl ed::IThreadPolicy::operator=(struct ed::IThreadPolicy const &)
+[  233]         0xE8  public: class LinkBase & __cdecl LinkBase::operator=(class LinkBase const &)
+[  234]         0xE9  public: class io::MemBinaryFileR & __cdecl io::MemBinaryFileR::operator=(class io::MemBinaryFileR &&)
+[  235]         0xEA  public: class ed::Random & __cdecl ed::Random::operator=(class ed::Random const &)
+[  236]         0xEB  public: class RandomObject & __cdecl RandomObject::operator=(class RandomObject const &)
+[  237]         0xEC  public: class ed::StringsCache & __cdecl ed::StringsCache::operator=(class ed::StringsCache &&)
+[  238]         0xED  public: class ed::StringsCacheWithIndices & __cdecl ed::StringsCacheWithIndices::operator=(class ed::StringsCacheWithIndices &&)
+[  239]         0xEE  public: class CoreUtils::TempFilesManager & __cdecl CoreUtils::TempFilesManager::operator=(class CoreUtils::TempFilesManager const &)
+[  240]         0xEF  public: class b2DynamicTree & __cdecl b2DynamicTree::operator=(class b2DynamicTree const &)
+[  241]         0xF0  public: class ed::signal & __cdecl ed::signal::operator=(class ed::signal &&)
+[  242]         0xF1  class io::Stream & __cdecl operator>>(class io::Stream &, signed char &)
+[  243]         0xF2  class io::Stream & __cdecl operator>>(class io::Stream &, char &)
+[  244]         0xF3  class io::Stream & __cdecl operator>>(class io::Stream &, unsigned char &)
+[  245]         0xF4  class io::Stream & __cdecl operator>>(class io::Stream &, short &)
+[  246]         0xF5  class io::Stream & __cdecl operator>>(class io::Stream &, unsigned short &)
+[  247]         0xF6  class io::Stream & __cdecl operator>>(class io::Stream &, int &)
+[  248]         0xF7  class io::Stream & __cdecl operator>>(class io::Stream &, unsigned int &)
+[  249]         0xF8  class io::Stream & __cdecl operator>>(class io::Stream &, float &)
+[  250]         0xF9  class io::Stream & __cdecl operator>>(class io::Stream &, double &)
+[  251]         0xFA  class io::Stream & __cdecl operator>>(class io::Stream &, __int64 &)
+[  252]         0xFB  class io::Stream & __cdecl operator>>(class io::Stream &, unsigned __int64 &)
+[  253]         0xFC  class io::Stream & __cdecl operator>>(class io::Stream &, bool &)
+[  254]         0xFD  class Mail::Stream & __cdecl Mail::operator>>(class Mail::Stream &, class ed::basic_string<char> &)
+[  255]         0xFE  class VFS::File & __cdecl VFS::operator>>(class VFS::File &, class ed::basic_string<char> &)
+[  256]         0xFF  public: class ed::basic_string<char> __cdecl ed::ConsoleArgs::operator[](class ed::basic_string<char> const &) const
+[  257]        0x100  public: class ed::basic_string<char> __cdecl ed::ConsoleArgs::operator[](int) const
+[  258]        0x101  public: virtual bool __cdecl edvfs::BinaryFile::operator bool(void) const
+[  259]        0x102  public: virtual bool __cdecl io::MemBinaryFileR::operator bool(void) const
+[  260]        0x103  public: void __cdecl ed::SharedGroupBarrier::Deleter::operator()(class ed::SharedGroupBarrier *) const
+[  261]        0x104  const Common::FakeUnknown<class Common::Identifiable>::`vftable'
+[  262]        0x105  const Common::Unknown<class Common::Identifiable>::`vftable'
+[  263]        0x106  const Math::IIR_Filter::`vftable'
+[  264]        0x107  const ed::IThreadPolicy::`vftable'
+[  265]        0x108  const RandomObject::`vftable'
+[  266]        0x109  public: void __cdecl TFrameMemoryHeap<1>::`default ctor closure'(void)
+[  267]        0x10A  public: void __cdecl TFrameMemoryHeap<0>::`default ctor closure'(void)
+[  268]        0x10B  public: void __cdecl ed::core::InitTaskManager::`default ctor closure'(void)
+[  269]        0x10C  public: void __cdecl ed::StringsCacheFast::`default ctor closure'(void)
+[  270]        0x10D  public: void __cdecl ed::mutex::`default ctor closure'(void)
+[  271]        0x10E  public: static unsigned int const Common::FSM::ANY_STATE
+[  272]        0x10F  private: int __cdecl b2DynamicTree::AllocateNode(void)
+[  273]        0x110  private: int __cdecl b2DynamicTree::Balance(int)
+[  274]        0x111  public: bool __cdecl io::FileStream::Close(void)
+[  275]        0x112  public: bool __cdecl io::MmfStream::Close(void)
+[  276]        0x113  private: int __cdecl b2DynamicTree::ComputeHeight(int) const
+[  277]        0x114  private: int __cdecl b2DynamicTree::ComputeHeight(void) const
+[  278]        0x115  public: int __cdecl b2DynamicTree::CreateProxy(class osg::BoundingBoxImpl<class osg::Vec3f> const &, struct b2TreeNode::UserData const &)
+[  279]        0x116  public: void __cdecl b2DynamicTree::DestroyProxy(int)
+[  280]        0x117  bool __cdecl ED_gettext_parse(class std::span<unsigned char const, -1>, class std::function<void __cdecl(class std::basic_string_view<char, struct std::char_traits<char>>, class std::basic_string_view<char, struct std::char_traits<char>>)>)
+[  281]        0x118  int __cdecl ED_lua_load(struct lua_State *, char const * (__cdecl *)(struct lua_State *, void *, unsigned __int64 *), void *, char const *)
+[  282]        0x119  private: virtual void __cdecl Common::FakeUnknown<class Common::Identifiable>::FinalRelease(void)
+[  283]        0x11A  private: virtual void __cdecl Common::Unknown<class Common::Identifiable>::FinalRelease(void)
+[  284]        0x11B  private: void __cdecl b2DynamicTree::FreeNode(int)
+[  285]        0x11C  void __cdecl Math::Gauss(int, double *, double *)
+[  286]        0x11D  public: float __cdecl b2DynamicTree::GetAreaRatio(void) const
+[  287]        0x11E  public: class osg::BoundingBoxImpl<class osg::Vec3f> const & __cdecl b2DynamicTree::GetFatAABB(int) const
+[  288]        0x11F  public: int __cdecl b2DynamicTree::GetHeight(void) const
+[  289]        0x120  public: int __cdecl b2DynamicTree::GetMaxBalance(void) const
+[  290]        0x121  public: struct b2TreeNode::UserData & __cdecl b2DynamicTree::GetUserData(int) const
+[  291]        0x122  unsigned int HEAP_VECTOR_INDEX_CHECK
+[  292]        0x123  private: void __cdecl b2DynamicTree::InsertLeaf(int)
+[  293]        0x124  public: bool __cdecl b2DynamicTree::MoveProxy(int, class osg::BoundingBoxImpl<class osg::Vec3f> const &, class osg::Vec3f const &)
+[  294]        0x125  public: static unsigned int const Common::FSM::NEW_STATE
+[  295]        0x126  public: static unsigned int const Common::FSM::NO_STATE
+[  296]        0x127  public: static unsigned int const Common::FSM::NO_SYMBOL
+[  297]        0x128  public: float __cdecl NoiseGen::Noise1(float, int) const
+[  298]        0x129  public: float __cdecl NoiseGen::Noise2(float *const, int) const
+[  299]        0x12A  public: float __cdecl NoiseGen::Noise3(float *const, int) const
+[  300]        0x12B  public: bool __cdecl io::FileStream::Open(char const *, enum io::Stream::Mode, unsigned int)
+[  301]        0x12C  public: bool __cdecl io::MmfStream::Open(char const *, enum io::Stream::Mode, unsigned int)
+[  302]        0x12D  public: static unsigned int const Common::FSM::PREVIOUS_STATE
+[  303]        0x12E  public: float __cdecl NoiseGen::PerlinNoise1D(float, float, float, int) const
+[  304]        0x12F  public: float __cdecl NoiseGen::PerlinNoise2D(float, float, float, float, int) const
+[  305]        0x130  public: float __cdecl NoiseGen::PerlinNoise3D(float, float, float, float, float, int) const
+[  306]        0x131  public: void __cdecl b2DynamicTree::RebuildBottomUp(void)
+[  307]        0x132  private: void __cdecl b2DynamicTree::RemoveLeaf(int)
+[  308]        0x133  public: void __cdecl LinkHost::ResetLinks(void)
+[  309]        0x134  protected: void __cdecl LinkBase::Set(class LinkHost *)
+[  310]        0x135  public: void __cdecl b2DynamicTree::ShiftOrigin(class osg::Vec3f const &)
+[  311]        0x136  public: void __cdecl FPS_Controller::StartFrame(bool)
+[  312]        0x137  char const * __cdecl VFS_get_write_subdir_edge(char const *)
+[  313]        0x138  bool __cdecl ed::VFS_secure_init(char const *, char const *, class ed::VFS_SecurityHook *)
+[  314]        0x139  public: void __cdecl b2DynamicTree::Validate(void) const
+[  315]        0x13A  private: void __cdecl b2DynamicTree::ValidateMetrics(int) const
+[  316]        0x13B  private: void __cdecl b2DynamicTree::ValidateStructure(int) const
+[  317]        0x13C  public: static class ed::thread::id __cdecl ed::thread::_get_current_thread_id(void)
+[  318]        0x13D  int ed::_lockfree_iterations_to_yield
+[  319]        0x13E  private: static void __cdecl ed::JsonWriter::_yajl_print_callback(void *, char const *, unsigned __int64)
+[  320]        0x13F  public: unsigned __int64 __cdecl ed::StringsCacheWithIndices::add2(char const *)
+[  321]        0x140  public: void __cdecl Mail::ByteReader::add(class ed::Ptr<class Mail::Chunk, struct ed::DefaultDeleter> const &)
+[  322]        0x141  public: void __cdecl RandomManager::add(class ed::vector<float, class ed::allocator<float>> const *)
+[  323]        0x142  public: void __cdecl RandomizerManager::add(class GenerativeRandomizer *)
+[  324]        0x143  public: char const * __cdecl ed::StringsCache::add(char const *)
+[  325]        0x144  public: char const * __cdecl ed::StringsCacheWithIndices::add(char const *)
+[  326]        0x145  public: void __cdecl Lua::CheckedLoader::addCheckedFile(char const *, int)
+[  327]        0x146  class ed::basic_string<char> __cdecl ed::addExtension(class std::basic_string_view<char, struct std::char_traits<char>>, class std::basic_string_view<char, struct std::char_traits<char>>)
+[  328]        0x147  protected: void __cdecl Common::FactoryManager::addFactory(class Common::Factory *)
+[  329]        0x148  public: void __cdecl Common::FSM::Descriptor::addFinishState(unsigned int)
+[  330]        0x149  public: void __cdecl Common::Factory::addIdentifier(class Common::Identifier const &)
+[  331]        0x14A  protected: void __cdecl Common::FSM::Descriptor::addOnEnterOutputSymbol(unsigned int, unsigned int)
+[  332]        0x14B  protected: void __cdecl Common::FSM::Descriptor::addOnExitOutputSymbol(unsigned int, unsigned int)
+[  333]        0x14C  private: char const * __cdecl ed::StringsCacheFast::addStringToCache(class std::basic_string_view<char, struct std::char_traits<char>>)
+[  334]        0x14D  public: void __cdecl CoreUtils::TempFilesManager::addTempFile(class ed::basic_string<char> const &)
+[  335]        0x14E  protected: void __cdecl Common::FSM::Descriptor::addTransition(unsigned int, unsigned int, unsigned int, unsigned int, enum Common::FSM::StackOperation)
+[  336]        0x14F  struct ed::timer_id * __cdecl ed::add_timer(double, class std::function<bool __cdecl(void)>, enum ed::TimerDestination)
+[  337]        0x150  public: bool __cdecl ed::thread::alive(void)
+[  338]        0x151  public: void * __cdecl ed::BlockPool::alloc(void)
+[  339]        0x152  public: class ed::basic_string<char> & __cdecl ed::basic_string<char>::appendf(char const *, ...)
+[  340]        0x153  public: class ed::basic_string<wchar_t> & __cdecl ed::basic_string<wchar_t>::appendf(wchar_t const *, ...)
+[  341]        0x154  public: struct ed::ThreadsGroupInfo __cdecl ed::IThreadPolicy::applyPolicyToThisThread(enum ed::ThreadWorkload)
+[  342]        0x155  public: void __cdecl edvfs::IDriver::aquireMount(void)
+[  343]        0x156  public: static unsigned int __cdecl ed::thread::available_hardware_concurrency(void)
+[  344]        0x157  public: void __cdecl ed::SyncTaskQueue::barrier(void)
+[  345]        0x158  class ed::basic_string<char> __cdecl ed::basename(class ed::basic_string<char> const &)
+[  346]        0x159  char const * __cdecl ed::basename(char const *)
+[  347]        0x15A  public: class ed::SQLite3::Cursor & __cdecl ed::SQLite3::Cursor::bind(int, struct std::pair<void const *, unsigned __int64> const &)
+[  348]        0x15B  public: class ed::SQLite3::Cursor & __cdecl ed::SQLite3::Cursor::bind(int, int)
+[  349]        0x15C  public: class ed::SQLite3::Cursor & __cdecl ed::SQLite3::Cursor::bind(int, double)
+[  350]        0x15D  public: class ed::SQLite3::Cursor & __cdecl ed::SQLite3::Cursor::bind(int, class std::basic_string_view<char, struct std::char_traits<char>>)
+[  351]        0x15E  public: class ed::SQLite3::Cursor & __cdecl ed::SQLite3::Cursor::bind(int, class ed::SQLite3::Null)
+[  352]        0x15F  public: class ed::SQLite3::Cursor & __cdecl ed::SQLite3::Cursor::bind(int, __int64)
+[  353]        0x160  public: void __cdecl ed::md5::calc(void const *, unsigned __int64)
+[  354]        0x161  void __cdecl ed::RenderingThread::callFunction(class std::function<void __cdecl(void)> const &, char const *)
+[  355]        0x162  void __cdecl ed::RenderingThread::callFunctionWithSync(class std::function<void __cdecl(void)> const &, char const *)
+[  356]        0x163  private: bool __cdecl Lua::Config::call_func(char const *, class ed::basic_string<char> *, int, int)
+[  357]        0x164  private: void __cdecl Lua::Config::call_log(char const *, char const *) const
+[  358]        0x165  public: int __cdecl ed::SQLite3::Database::changes(void)
+[  359]        0x166  public: void __cdecl Common::FSM::checkSymbolsQueue(void)
+[  360]        0x167  unsigned int __cdecl edvfs::check_edcz_version(class edvfs::IBuffer const &, unsigned __int64 &, char const *const)
+[  361]        0x168  public: void __cdecl Math::IIR_Filter::cleanNearestCascade(void)
+[  362]        0x169  public: void __cdecl ed::BlockPool::clear(void)
+[  363]        0x16A  public: void __cdecl Common::FSM::Descriptor::clear(void)
+[  364]        0x16B  public: void __cdecl ed::StringsCache::clear(void)
+[  365]        0x16C  public: void __cdecl ed::StringsCacheFast::clear(void)
+[  366]        0x16D  public: void __cdecl ed::StringsCacheWithIndices::clear(void)
+[  367]        0x16E  public: void __cdecl ed::ZoneAlloc::clear(void)
+[  368]        0x16F  public: void __cdecl ed::md5::clear(void)
+[  369]        0x170  public: static void __cdecl ed::IThreadPolicy::clearProvider(void)
+[  370]        0x171  public: void __cdecl ed::SQLite3::Database::close(void)
+[  371]        0x172  public: virtual void __cdecl edvfs::FSMappedFile::close(void)
+[  372]        0x173  public: class ed::SQLite3::Cursor & __cdecl ed::SQLite3::Cursor::column(int, int &)
+[  373]        0x174  public: class ed::SQLite3::Cursor & __cdecl ed::SQLite3::Cursor::column(int, double &)
+[  374]        0x175  public: class ed::SQLite3::Cursor & __cdecl ed::SQLite3::Cursor::column(int, class ed::Ptr<class edvfs::IBuffer, struct edvfs::IBuffer::Deleter> &)
+[  375]        0x176  public: class ed::SQLite3::Cursor & __cdecl ed::SQLite3::Cursor::column(int, class ed::basic_string<char> &)
+[  376]        0x177  public: class ed::SQLite3::Cursor & __cdecl ed::SQLite3::Cursor::column(int, __int64 &)
+[  377]        0x178  public: class ed::SQLite3::Cursor & __cdecl ed::SQLite3::Cursor::column(int, class std::function<void __cdecl(void const *, unsigned __int64)>)
+[  378]        0x179  void __cdecl edvfs::compact(void)
+[  379]        0x17A  class ed::basic_string<char> __cdecl ed::completeWithSlash(class std::basic_string_view<char, struct std::char_traits<char>>)
+[  380]        0x17B  public: void __cdecl Lua::Config::create(int)
+[  381]        0x17C  public: void __cdecl Lua::Config::create(char const *)
+[  382]        0x17D  public: static class edvfs::IDriver * __cdecl edvfs::EDCZDriver::create(unsigned __int64, char const *, char const *, char const *, char const *, char *, unsigned __int64, bool &)
+[  383]        0x17E  public: static class edvfs::IDriver * __cdecl edvfs::FSDriver::create(unsigned __int64, char const *, char const *, char const *, char const *, char *, unsigned __int64, bool &)
+[  384]        0x17F  public: static class edvfs::FSMappedFile * __cdecl edvfs::FSMappedFile::create(class ed::Ptr<class edvfs::MappedFileBuffer, struct edvfs::IBuffer::Deleter> &&, char const *, char const *, class edvfs::Metadata const *, struct std::atomic<unsigned __int64> *)
+[  385]        0x180  public: static class ed::Ptr<class edvfs::MappedFileBuffer, struct edvfs::IBuffer::Deleter> __cdecl edvfs::MappedFileBuffer::create(void *, void *, unsigned __int64)
+[  386]        0x181  public: static class ed::Ptr<class edvfs::MemBuffer, struct edvfs::IBuffer::Deleter> __cdecl edvfs::MemBuffer::create(unsigned char const *, unsigned __int64)
+[  387]        0x182  public: static class ed::Ptr<class edvfs::MemBuffer, struct edvfs::IBuffer::Deleter> __cdecl edvfs::MemBuffer::create(void)
+[  388]        0x183  public: static class ed::Ptr<class edvfs::MemBuffer, struct edvfs::IBuffer::Deleter> __cdecl edvfs::MemBuffer::create(unsigned __int64)
+[  389]        0x184  public: static class ed::Ptr<class ed::SharedBuffer, struct edvfs::IBuffer::Deleter> __cdecl ed::SharedBuffer::create(unsigned __int64)
+[  390]        0x185  public: static class ed::Ptr<class ed::SharedGroupBarrier, struct ed::SharedGroupBarrier::Deleter> __cdecl ed::SharedGroupBarrier::create(char const *)
+[  391]        0x186  public: static class ed::SyncTask * __cdecl ed::SyncTask::create(class std::function<void __cdecl(void)> &&, class ed::Ptr<class ed::SharedGroupBarrier, struct ed::SharedGroupBarrier::Deleter> &&, char const *)
+[  392]        0x187  public: static class ed::SyncTask * __cdecl ed::SyncTask::create(void (__cdecl *)(void *), void *, class ed::Ptr<class ed::SharedGroupBarrier, struct ed::SharedGroupBarrier::Deleter> &&, char const *)
+[  393]        0x188  public: static class ed::Ptr<class ed::TaskQueue, struct ed::TaskQueueDeleter> __cdecl ed::TaskQueue::create(char const *, unsigned int, struct ed::thread::ThreadInfo const *const)
+[  394]        0x189  public: static class ed::Ptr<class ed::TaskQueue, struct ed::TaskQueueDeleter> __cdecl ed::TaskQueue::create(char const *, unsigned int, struct ed::thread::ThreadInfo const *const, bool)
+[  395]        0x18A  public: static class ed::Ptr<class ed::TaskQueue, struct ed::TaskQueueDeleter> __cdecl ed::TaskQueue::create(char const *, unsigned int, enum ed::thread::Priority)
+[  396]        0x18B  public: static class edvfs::IDriver * __cdecl edvfs::ZDriver::create(unsigned __int64, char const *, char const *, char const *, char const *, char *, unsigned __int64, bool &)
+[  397]        0x18C  public: class ed::vector<float, class ed::allocator<float>> const * __cdecl RandomManager::createCustom(class ed::vector<float, class ed::allocator<float>> const *, float (__cdecl *)(float))
+[  398]        0x18D  public: virtual class Common::Identifiable * __cdecl Common::FactoryManager::createInstance(class Common::Identifier const &)
+[  399]        0x18E  public: void __cdecl Math::IIR_Filter::createNextCascade(class Math::IIR_Filter const &)
+[  400]        0x18F  public: void __cdecl Math::IIR_Filter::createNextCascade(class Math::IIR_FilterCoefficients const &)
+[  401]        0x190  public: class ed::vector<float, class ed::allocator<float>> const * __cdecl RandomManager::createNormal(class ed::vector<float, class ed::allocator<float>> const *)
+[  402]        0x191  public: class ed::vector<float, class ed::allocator<float>> const * __cdecl RandomManager::createUniform(unsigned int, unsigned int, unsigned int, float)
+[  403]        0x192  protected: void __cdecl TFrameMemoryHeap<1>::create_pool(unsigned __int64)
+[  404]        0x193  protected: void __cdecl TFrameMemoryHeap<0>::create_pool(unsigned __int64)
+[  405]        0x194  public: void __cdecl Lua::Config::create_raw(char const *)
+[  406]        0x195  public: static class std::unique_ptr<class edvfs::IVFSandbox, struct std::default_delete<class edvfs::IVFSandbox>> __cdecl edvfs::IVFSandbox::create_read_only(void)
+[  407]        0x196  public: static class std::unique_ptr<class edvfs::IVFSandbox, struct std::default_delete<class edvfs::IVFSandbox>> __cdecl edvfs::IVFSandbox::create_with_write_dir(char const *)
+[  408]        0x197  char const * __cdecl ed::current_exception_stack_trace(void)
+[  409]        0x198  public: virtual class ed::Ptr<class edvfs::IBuffer, struct edvfs::IBuffer::Deleter> __cdecl edvfs::FSMappedFile::data(void)
+[  410]        0x199  public: bool __cdecl ed::ConsoleArgs::defined(class ed::basic_string<char> const &) const
+[  411]        0x19A  public: void __cdecl ed::Initializer::deinit(void)
+[  412]        0x19B  void __cdecl edvfs::deinit(void)
+[  413]        0x19C  void __cdecl ed::deinit_task_manager(void)
+[  414]        0x19D  bool __cdecl edvfs::delete_on_fs(class std::basic_string_view<char, struct std::char_traits<char>>)
+[  415]        0x19E  public: void __cdecl ed::SyncTask::destroy(void)
+[  416]        0x19F  public: virtual void __cdecl Common::FactoryManager::destroyInstance(class Common::Identifiable *)
+[  417]        0x1A0  private: void __cdecl ed::thread::detach(void)
+[  418]        0x1A1  class ed::basic_string<char> __cdecl ed::dirname(class ed::basic_string<char> const &)
+[  419]        0x1A2  class ed::basic_string<wchar_t> __cdecl ed::dirname(class ed::basic_string<wchar_t> const &)
+[  420]        0x1A3  public: bool __cdecl Lua::Config::dobuffer(void const *, unsigned __int64, class ed::basic_string<char> *)
+[  421]        0x1A4  public: bool __cdecl Lua::Config::dofile(char const *)
+[  422]        0x1A5  public: bool __cdecl Lua::Config::dostring2(char const *, class ed::basic_string<char> &)
+[  423]        0x1A6  public: bool __cdecl Lua::Config::dostring(char const *)
+[  424]        0x1A7  public: class ed::vector<char, class ed::allocator<char>> __cdecl ed::BaseStringsCache::dump(void) const
+[  425]        0x1A8  public: void __cdecl ed::ConsoleArgs::dump(void) const
+[  426]        0x1A9  void __cdecl ed::dumpThreads(class ed::JsonWriter &)
+[  427]        0x1AA  public: bool __cdecl ed::SyncTaskQueue::empty(void) const
+[  428]        0x1AB  public: class ed::Ptr<class Mail::Chunk, struct ed::DefaultDeleter> __cdecl Mail::ByteWriter::end(void)
+[  429]        0x1AC  private: void __cdecl Common::FSM::enterToState_(unsigned int)
+[  430]        0x1AD  void __cdecl edvfs::enumerate(char const *, void (__cdecl *)(void *, char const *, char const *, enum edvfs::FileType), void *)
+[  431]        0x1AE  void __cdecl edvfs::enumerate_drivers(void (__cdecl *)(class edvfs::IDriver const &, void *), void *)
+[  432]        0x1AF  int __cdecl edvfs::enumerate_on_fs(class std::basic_string_view<char, struct std::char_traits<char>>, void (__cdecl *)(void *, class std::basic_string_view<char, struct std::char_traits<char>>, class std::basic_string_view<char, struct std::char_traits<char>>, struct edvfs::FindStat const &), void *)
+[  433]        0x1B0  void __cdecl edvfs::enumerate_sources(void (__cdecl *)(char const *, char const *, void *), void *)
+[  434]        0x1B1  public: static int __cdecl Lua::Config::errorFunc(struct lua_State *)
+[  435]        0x1B2  void __cdecl ed::escapeRegex(class ed::basic_string<char> &)
+[  436]        0x1B3  public: void __cdecl ed::SQLite3::Database::exec(class std::basic_string_view<char, struct std::char_traits<char>>)
+[  437]        0x1B4  bool __cdecl edvfs::exists(char const *)
+[  438]        0x1B5  void __cdecl Mail::exit(void)
+[  439]        0x1B6  private: void __cdecl Common::FSM::exitFromState_(void)
+[  440]        0x1B7  private: void __cdecl ed::JsonWriter::exit_gzip(void)
+[  441]        0x1B8  class ed::basic_string<char> __cdecl ed::extractExtension(class std::basic_string_view<char, struct std::char_traits<char>>)
+[  442]        0x1B9  class ed::basic_string<char> __cdecl ed::extractFileName(class std::basic_string_view<char, struct std::char_traits<char>>)
+[  443]        0x1BA  class ed::basic_string<char> __cdecl ed::extractFileNameNoExt(class std::basic_string_view<char, struct std::char_traits<char>>)
+[  444]        0x1BB  class ed::basic_string<char> __cdecl ed::extractFolder(class std::basic_string_view<char, struct std::char_traits<char>>)
+[  445]        0x1BC  class ed::basic_string<wchar_t> __cdecl ed::extractFolder(class std::basic_string_view<wchar_t, struct std::char_traits<wchar_t>>)
+[  446]        0x1BD  class ed::basic_string<char> __cdecl ed::extractPrefix(class std::basic_string_view<char, struct std::char_traits<char>>, class std::basic_string_view<char, struct std::char_traits<char>>)
+[  447]        0x1BE  class std::basic_string_view<char, struct std::char_traits<char>> __cdecl edvfs::extract_edcz_string(class ed::vector<char, class ed::allocator<char>> const &, unsigned __int64, unsigned __int64)
+[  448]        0x1BF  void __cdecl ed::fatal_out_of_memory(char const *, unsigned __int64)
+[  449]        0x1C0  public: void __cdecl ed::SQLite3::Cursor::finalize(void)
+[  450]        0x1C1  class ed::vector<class ed::basic_string<char>, class ed::allocator<class ed::basic_string<char>>> __cdecl VFS::find_files(char const *, char const *, int)
+[  451]        0x1C2  public: bool __cdecl ed::StringsCache::find_or_add(char const *)
+[  452]        0x1C3  public: void __cdecl Lua::CallTiming::finish(void)
+[  453]        0x1C4  public: class ed::basic_string<char> __cdecl ed::JsonWriter::finish(void)
+[  454]        0x1C5  unsigned short __cdecl Math::float2half(float)
+[  455]        0x1C6  public: void __cdecl io::FileStream::flush(void)
+[  456]        0x1C7  private: void __cdecl Mail::Writer::flush(void)
+[  457]        0x1C8  public: class ed::basic_string<char> & __cdecl ed::basic_string<char>::format(char const *, ...)
+[  458]        0x1C9  public: class ed::basic_string<wchar_t> & __cdecl ed::basic_string<wchar_t>::format(wchar_t const *, ...)
+[  459]        0x1CA  class FrameMemoryHeapMT frame_heap
+[  460]        0x1CB  public: void __cdecl ed::BlockPool::free(void *)
+[  461]        0x1CC  public: void __cdecl TFrameMemoryHeap<1>::free_memory(void *, unsigned __int64)
+[  462]        0x1CD  public: void __cdecl TFrameMemoryHeap<0>::free_memory(void *, unsigned __int64)
+[  463]        0x1CE  public: void __cdecl Math::Rotation3<float>::fromMatrix(class Math::Matrix<3, float> const &)
+[  464]        0x1CF  public: void __cdecl Math::Rotation3<double>::fromMatrix(class Math::Matrix<3, double> const &)
+[  465]        0x1D0  struct ed::utf8_result __cdecl ed::from_utf8(class std::span<wchar_t, -1>, class std::basic_string_view<char, struct std::char_traits<char>>, bool)
+[  466]        0x1D1  public: double __cdecl ed::Random::genDouble(double)
+[  467]        0x1D2  public: double __cdecl ed::Random::genDouble(double, double)
+[  468]        0x1D3  public: long __cdecl ed::Random::genInt31(void)
+[  469]        0x1D4  public: unsigned long __cdecl ed::Random::genInt32(void)
+[  470]        0x1D5  public: int __cdecl ed::Random::genInt(int)
+[  471]        0x1D6  public: int __cdecl ed::Random::genInt(int, int)
+[  472]        0x1D7  public: double __cdecl ed::Random::genReal(void)
+[  473]        0x1D8  unsigned __int64 __cdecl ed::gen_id(void)
+[  474]        0x1D9  public: void __cdecl Lua::Config::get(int)
+[  475]        0x1DA  public: void __cdecl Lua::Config::get(char const *)
+[  476]        0x1DB  public: struct std::pair<class std::basic_string_view<char, struct std::char_traits<char>>, double> __cdecl edvfs::EDCZMetadataDouble::get(class ed::vector<char, class ed::allocator<char>> const &) const
+[  477]        0x1DC  public: struct std::pair<class std::basic_string_view<char, struct std::char_traits<char>>, __int64> __cdecl edvfs::EDCZMetadataInt::get(class ed::vector<char, class ed::allocator<char>> const &) const
+[  478]        0x1DD  public: struct std::pair<class std::basic_string_view<char, struct std::char_traits<char>>, class std::basic_string_view<char, struct std::char_traits<char>>> __cdecl edvfs::EDCZMetadataString::get(class ed::vector<char, class ed::allocator<char>> const &) const
+[  479]        0x1DE  public: float __cdecl RandomObject::get(void)
+[  480]        0x1DF  public: float __cdecl RandomObject::get(unsigned int) const
+[  481]        0x1E0  public: unsigned int __cdecl Mail::Reader::get(unsigned char)
+[  482]        0x1E1  public: char const * __cdecl ed::StringsCacheWithIndices::get(unsigned __int64) const
+[  483]        0x1E2  public: class ed::vector<class ed::basic_string<char>, class ed::allocator<class ed::basic_string<char>>> __cdecl ed::ConsoleArgs::getAllValues(class ed::basic_string<char> const &) const
+[  484]        0x1E3  public: class ed::vector<class ed::basic_string<char>, class ed::allocator<class ed::basic_string<char>>> __cdecl ed::ConsoleArgs::getAllValues(void) const
+[  485]        0x1E4  public: void __cdecl Math::Rotation3<float>::getAngleAxis(float &, class Math::Vector<3, float> &) const
+[  486]        0x1E5  public: void __cdecl Math::Rotation3<double>::getAngleAxis(double &, class Math::Vector<3, double> &) const
+[  487]        0x1E6  public: void __cdecl Math::Rotation3<float>::getBasis(float *, float *, float *) const
+[  488]        0x1E7  public: void __cdecl Math::Rotation3<double>::getBasis(double *, double *, double *) const
+[  489]        0x1E8  class ed::basic_string<char> __cdecl getClipboardText(void)
+[  490]        0x1E9  struct ed::CoreConfig const & __cdecl ed::getCoreConfig(void)
+[  491]        0x1EA  public: class ed::Ptr<class Mail::Chunk, struct ed::DefaultDeleter> __cdecl Mail::ByteReader::getData(unsigned __int64)
+[  492]        0x1EB  public: unsigned __int64 __cdecl Mail::ByteReader::getData(void *, unsigned __int64)
+[  493]        0x1EC  public: char const * __cdecl ed::SyncTask::getDebugName(void) const
+[  494]        0x1ED  public: class Common::FSM::Descriptor const * __cdecl Common::FSM::getDescriptor(void) const
+[  495]        0x1EE  public: void * __cdecl TFrameMemoryHeap<1>::getFrame(void)
+[  496]        0x1EF  public: void * __cdecl TFrameMemoryHeap<0>::getFrame(void)
+[  497]        0x1F0  class ed::basic_string<char> __cdecl VFS::getHome(void)
+[  498]        0x1F1  private: unsigned int __cdecl Common::FSM::Descriptor::getInitialState(void) const
+[  499]        0x1F2  public: int __cdecl Mail::ByteReader::getInt(unsigned __int64)
+[  500]        0x1F3  char const * __cdecl getLanguage(void)
+[  501]        0x1F4  void __cdecl getLocalizedFileName(char const *, char *, int, char const *)
+[  502]        0x1F5  void __cdecl getLocalizedFolderName(char const *, char *, int)
+[  503]        0x1F6  class ed::basic_string<char> __cdecl ed::getMemUsage(void)
+[  504]        0x1F7  public: virtual bool __cdecl edvfs::FSMappedFile::getMetadata(char const *, double &) const
+[  505]        0x1F8  public: virtual bool __cdecl edvfs::FSMappedFile::getMetadata(char const *, __int64 &) const
+[  506]        0x1F9  public: virtual bool __cdecl edvfs::FSMappedFile::getMetadata(char const *, char const **) const
+[  507]        0x1FA  public: static bool __cdecl edvfs::Metadata::getMetadata(class edvfs::Metadata const *, char const *, double &)
+[  508]        0x1FB  public: static bool __cdecl edvfs::Metadata::getMetadata(class edvfs::Metadata const *, char const *, __int64 &)
+[  509]        0x1FC  public: static bool __cdecl edvfs::Metadata::getMetadata(class edvfs::Metadata const *, char const *, char const **)
+[  510]        0x1FD  public: virtual enum io::Stream::Mode __cdecl io::FileStream::getMode(void)
+[  511]        0x1FE  public: virtual char const * __cdecl edvfs::BinaryFile::getName(void) const
+[  512]        0x1FF  public: virtual char const * __cdecl io::MemBinaryFileR::getName(void) const
+[  513]        0x200  public: virtual unsigned __int64 __cdecl edvfs::BinaryFile::getOffset(void) const
+[  514]        0x201  public: virtual unsigned __int64 __cdecl io::MemBinaryFileR::getOffset(void) const
+[  515]        0x202  public: unsigned int __cdecl RandomObject::getOffset(void) const
+[  516]        0x203  public: void __cdecl ed::ConsoleArgs::getOptionalDouble(class ed::basic_string<char> const &, double &) const
+[  517]        0x204  public: void __cdecl ed::ConsoleArgs::getOptionalDouble(class ed::basic_string<char> const &, double &, double) const
+[  518]        0x205  public: void __cdecl ed::ConsoleArgs::getOptionalInt(class ed::basic_string<char> const &, int &) const
+[  519]        0x206  public: void __cdecl ed::ConsoleArgs::getOptionalInt(class ed::basic_string<char> const &, int &, int) const
+[  520]        0x207  public: void __cdecl ed::ConsoleArgs::getOptionalString(class ed::basic_string<char> const &, class ed::basic_string<char> &) const
+[  521]        0x208  public: double const __cdecl Math::IIR_Filter::getOutput(void) const
+[  522]        0x209  public: unsigned int __cdecl ed::SyncTaskQueue::getPoolSize(void) const
+[  523]        0x20A  public: virtual void * __cdecl ed::DynamicLibrary::getProcAddress(char const *)
+[  524]        0x20B  void __cdecl ed::processor::getProcessorInfo(struct ed::processor::PROCESSOR_INFO &, bool)
+[  525]        0x20C  void __cdecl getRegistry(class Common::FactoryManager **)
+[  526]        0x20D  public: class ed::Ptr<class Mail::Chunk, struct ed::DefaultDeleter> __cdecl Mail::ByteReader::getRemainingData(void)
+[  527]        0x20E  public: unsigned int __cdecl Common::FSM::getState(void) const
+[  528]        0x20F  enum ed::TaskManagerMode __cdecl ed::getTaskManagerMode(void)
+[  529]        0x210  public: static class ed::basic_string<char> __cdecl CoreUtils::TempFilesManager::getTempFileName(class ed::basic_string<char> const &, class ed::basic_string<char> const &)
+[  530]        0x211  private: struct Common::FSM::Transition const * __cdecl Common::FSM::Descriptor::getTransition(unsigned int) const
+[  531]        0x212  private: struct Common::FSM::Transition const * __cdecl Common::FSM::Descriptor::getTransition(unsigned int, unsigned int) const
+[  532]        0x213  private: class ed::vector<struct Common::FSM::Transition, class ed::allocator<struct Common::FSM::Transition>> const * __cdecl Common::FSM::Descriptor::getTransitions(unsigned int) const
+[  533]        0x214  public: unsigned int __cdecl RandomObject::getType(void) const
+[  534]        0x215  public: void __cdecl Math::Rotation3<float>::getYawPitchRoll(float &, float &, float &) const
+[  535]        0x216  public: void __cdecl Math::Rotation3<double>::getYawPitchRoll(double &, double &, double &) const
+[  536]        0x217  char const * __cdecl ed::get_app_branch(void)
+[  537]        0x218  class ed::basic_string<char> __cdecl ed::get_app_filename(void)
+[  538]        0x219  char const * __cdecl ed::get_app_name(void)
+[  539]        0x21A  unsigned int __cdecl ed::get_app_pid(void)
+[  540]        0x21B  char const * __cdecl ed::get_app_revision(void)
+[  541]        0x21C  unsigned __int64 __cdecl ed::get_app_version(void)
+[  542]        0x21D  class std::basic_string_view<char, struct std::char_traits<char>> __cdecl edvfs::get_base_dir(void)
+[  543]        0x21E  char const * __cdecl ed::get_build_number(void)
+[  544]        0x21F  protected: struct TFrameMemoryHeap<1>::free_chunk * __cdecl TFrameMemoryHeap<1>::get_chunk(void *, unsigned __int64)
+[  545]        0x220  protected: struct TFrameMemoryHeap<0>::free_chunk * __cdecl TFrameMemoryHeap<0>::get_chunk(void *, unsigned __int64)
+[  546]        0x221  public: class ed::basic_string<char> const & __cdecl ed::JsonWriter::get_contents(void) const
+[  547]        0x222  protected: void * __cdecl TFrameMemoryHeap<1>::get_from_pool(unsigned __int64)
+[  548]        0x223  protected: void * __cdecl TFrameMemoryHeap<0>::get_from_pool(unsigned __int64)
+[  549]        0x224  public: class ed::thread::id __cdecl ed::thread::get_id(void) const
+[  550]        0x225  public: unsigned __int64 __cdecl TFrameMemoryHeap<1>::get_max_memory(void)
+[  551]        0x226  public: unsigned __int64 __cdecl TFrameMemoryHeap<0>::get_max_memory(void)
+[  552]        0x227  public: void * __cdecl TFrameMemoryHeap<1>::get_memory(unsigned __int64)
+[  553]        0x228  public: void * __cdecl TFrameMemoryHeap<0>::get_memory(unsigned __int64)
+[  554]        0x229  class ed::basic_string<char> __cdecl ed::get_os_strerror(int)
+[  555]        0x22A  bool __cdecl edvfs::get_real_dir(char const *, void (__cdecl *)(char const *, void *), void *)
+[  556]        0x22B  char const * __cdecl ed::get_renderer_revision(void)
+[  557]        0x22C  char const * __cdecl ed::get_terrain_revision(void)
+[  558]        0x22D  class std::basic_string_view<char, struct std::char_traits<char>> __cdecl edvfs::get_write_dir(void)
+[  559]        0x22E  struct lua_State *globalConfig
+[  560]        0x22F  class Common::FactoryManager *Common::globalFactoryManager
+[  561]        0x230  class FPS_Controller *globalFpsController
+[  562]        0x231  class Mail::Server *globalMail
+[  563]        0x232  class RandomManager * __cdecl globalRandomManager(void)
+[  564]        0x233  float __cdecl Math::half2float(unsigned short)
+[  565]        0x234  public: static unsigned int __cdecl ed::thread::hardware_concurrency(void)
+[  566]        0x235  bool __cdecl ed::hasPrefix(class std::basic_string_view<char, struct std::char_traits<char>>, class std::basic_string_view<char, struct std::char_traits<char>>, bool)
+[  567]        0x236  bool __cdecl ed::hasSuffix(class std::basic_string_view<char, struct std::char_traits<char>>, class std::basic_string_view<char, struct std::char_traits<char>>, bool)
+[  568]        0x237  protected: static unsigned __int64 __cdecl TFrameMemoryHeap<1>::heapWatch(int, char *, unsigned __int64, void *)
+[  569]        0x238  protected: static unsigned __int64 __cdecl TFrameMemoryHeap<0>::heapWatch(int, char *, unsigned __int64, void *)
+[  570]        0x239  class ed::basic_string<char> __cdecl ed::iconv_utf8_from_acp(class ed::basic_string<char> const &)
+[  571]        0x23A  class ed::basic_string<char> __cdecl ed::iconv_utf8_from_wchar(class std::basic_string_view<wchar_t, struct std::char_traits<wchar_t>>)
+[  572]        0x23B  class ed::basic_string<char> __cdecl ed::iconv_utf8_to_oem(class ed::basic_string<char> const &)
+[  573]        0x23C  class ed::basic_string<wchar_t> __cdecl ed::iconv_utf8_to_wchar(class std::basic_string_view<char, struct std::char_traits<char>>)
+[  574]        0x23D  int __cdecl ed::iconv_utf8_to_wchar(char const *, wchar_t *, unsigned int)
+[  575]        0x23E  int __cdecl ed::iconv_utf8_to_wchar(char const *, wchar_t *, unsigned __int64)
+[  576]        0x23F  void __cdecl ed::iconv_utf8_to_wchar(char const *, class ed::basic_string<wchar_t> &)
+[  577]        0x240  class ed::basic_string<wchar_t> __cdecl ed::iconv_wchar_from_acp(class ed::basic_string<char> const &)
+[  578]        0x241  public: static class Math::Position<2, float, int> Math::Position<2, float, int>::id
+[  579]        0x242  public: static class Math::Position<2, float, float> Math::Position<2, float, float>::id
+[  580]        0x243  public: static class Math::Position<2, float, double> Math::Position<2, float, double>::id
+[  581]        0x244  public: static class Math::Position<3, float, int> Math::Position<3, float, int>::id
+[  582]        0x245  public: static class Math::Position<3, float, float> Math::Position<3, float, float>::id
+[  583]        0x246  public: static class Math::Position<3, float, double> Math::Position<3, float, double>::id
+[  584]        0x247  public: unsigned __int64 __cdecl edvfs::IDriver::id(void) const
+[  585]        0x248  public: bool __cdecl Common::FSM::inFinishState(void) const
+[  586]        0x249  public: bool __cdecl Common::FSM::inInitialState(void) const
+[  587]        0x24A  bool __cdecl ed::inMainThread(void)
+[  588]        0x24B  bool __cdecl ed::RenderingThread::inRenderThread(void)
+[  589]        0x24C  public: int __cdecl ed::ConsoleArgs::indexOf(class ed::basic_string<char> const &) const
+[  590]        0x24D  public: bool __cdecl Mail::ByteReader::init(class ed::Ptr<class Mail::Chunk, struct ed::DefaultDeleter> const &)
+[  591]        0x24E  private: void __cdecl ed::ConsoleArgs::init(void)
+[  592]        0x24F  public: static void __cdecl ed::DCSThreadManager::init(bool, unsigned __int64)
+[  593]        0x250  public: void __cdecl Common::FSM::init(class Common::FSM::Descriptor *, class Common::FSM::SymbolRecepient *)
+[  594]        0x251  public: void __cdecl Math::IIR_Filter::init(class Math::IIR_FilterCoefficients const &)
+[  595]        0x252  public: virtual void __cdecl ed::core::InitBackTrace::init(void)
+[  596]        0x253  public: virtual void __cdecl ed::core::InitEDVFS::init(void)
+[  597]        0x254  public: virtual void __cdecl ed::core::InitLog::init(void)
+[  598]        0x255  public: virtual void __cdecl ed::core::InitLua::init(void)
+[  599]        0x256  public: virtual void __cdecl ed::core::InitLuaAPI::init(void)
+[  600]        0x257  public: virtual void __cdecl ed::core::InitTaskManager::init(void)
+[  601]        0x258  public: virtual void __cdecl ed::core::InitVFS::init(void)
+[  602]        0x259  public: class ed::Initializer & __cdecl ed::Initializer::init(class ed::IInitObj *)
+[  603]        0x25A  void __cdecl Mail::init(void)
+[  604]        0x25B  public: void __cdecl RandomObject::init(unsigned int, unsigned int)
+[  605]        0x25C  private: void __cdecl Mail::Reader::init(void)
+[  606]        0x25D  public: void __cdecl SimplexNoise::init(void)
+[  607]        0x25E  private: void __cdecl ed::UserNotification::init(char const *)
+[  608]        0x25F  void __cdecl edvfs::init(bool (__cdecl *)(char const *, void *), void *)
+[  609]        0x260  public: void __cdecl Math::IIR_Filter::initBPF(double, double, double, double)
+[  610]        0x261  public: void __cdecl Math::IIR_Filter::initBPFFromState(class Lua::Config &, char const *, double)
+[  611]        0x262  public: void __cdecl Math::IIR_Filter::initFromState(class Lua::Config &, char const *)
+[  612]        0x263  private: void __cdecl Math::IIR_Filter::initHPF_LPF(bool, double, double, double, double, double, bool)
+[  613]        0x264  public: void __cdecl Math::IIR_Filter::initHPF_LPF(bool, double, double, double, double, double)
+[  614]        0x265  public: void __cdecl Math::IIR_Filter::initHPF_LPFFromState(class Lua::Config &, char const *, double)
+[  615]        0x266  public: void __cdecl Math::IIR_Filter::initHPF_LPFbyPrototype(bool, int, enum Math::IIR_FilterPrototypes, double, double, double, double)
+[  616]        0x267  public: void __cdecl Math::IIR_Filter::initHPF_LPFbyPrototypeFromState(class Lua::Config &, char const *, double)
+[  617]        0x268  void __cdecl initI18n(void)
+[  618]        0x269  private: void __cdecl ed::Random::initLong(unsigned long)
+[  619]        0x26A  private: void __cdecl ed::JsonWriter::init_gzip(void)
+[  620]        0x26B  void __cdecl ed::init_task_manager(void)
+[  621]        0x26C  public: static class Lua::CheckedLoader * __cdecl Lua::CheckedLoader::instance(void)
+[  622]        0x26D  public: static class ed::FactoryManager & __cdecl ed::FactoryManager::instance(void)
+[  623]        0x26E  public: static struct ed::IThreadPolicy * __cdecl ed::IThreadPolicy::instance(void)
+[  624]        0x26F  public: struct Math::Rotation3<float> & __cdecl Math::Rotation3<float>::invert(void)
+[  625]        0x270  public: struct Math::Rotation3<double> & __cdecl Math::Rotation3<double>::invert(void)
+[  626]        0x271  public: struct Math::Rotation3<float> __cdecl Math::Rotation3<float>::inverted(void) const
+[  627]        0x272  public: struct Math::Rotation3<double> __cdecl Math::Rotation3<double>::inverted(void) const
+[  628]        0x273  bool __cdecl ed::RenderingThread::isActive(void)
+[  629]        0x274  bool __cdecl ed::syntax_highlight::Lua::isBuiltin(class std::basic_string_view<wchar_t, struct std::char_traits<wchar_t>>)
+[  630]        0x275  private: bool __cdecl Common::FSM::Descriptor::isFinishState(unsigned int) const
+[  631]        0x276  public: bool __cdecl Common::FSM::Descriptor::isInitializied(void) const
+[  632]        0x277  bool __cdecl ed::syntax_highlight::Lua::isKeyword(class std::basic_string_view<wchar_t, struct std::char_traits<wchar_t>>)
+[  633]        0x278  public: static bool __cdecl edvfs::Metadata::isValueExist(char const *, class std::unordered_map<class ed::basic_string<char>, struct edvfs::Value, struct std::hash<class ed::basic_string<char>>, struct std::equal_to<class ed::basic_string<char>>, class ed::allocator<struct std::pair<class ed::basic_string<char> const, struct edvfs::Value>>> const &)
+[  634]        0x279  public: bool __cdecl Lua::Config::iterate_pop(unsigned char *)
+[  635]        0x27A  public: bool __cdecl Lua::Config::iterate_pop(unsigned short *)
+[  636]        0x27B  public: bool __cdecl Lua::Config::iterate_pop(int *)
+[  637]        0x27C  public: bool __cdecl Lua::Config::iterate_pop(unsigned int *)
+[  638]        0x27D  public: bool __cdecl Lua::Config::iterate_pop(unsigned long *)
+[  639]        0x27E  public: bool __cdecl Lua::Config::iterate_pop(float *)
+[  640]        0x27F  public: bool __cdecl Lua::Config::iterate_pop(double *)
+[  641]        0x280  public: bool __cdecl Lua::Config::iterate_pop(void **)
+[  642]        0x281  public: bool __cdecl Lua::Config::iterate_pop(class ed::basic_string<char> *)
+[  643]        0x282  public: bool __cdecl Lua::Config::iterate_pop(bool *)
+[  644]        0x283  public: void __cdecl ed::thread::join(void)
+[  645]        0x284  public: bool __cdecl ed::thread::joinable(void)
+[  646]        0x285  void __cdecl ed::json2lua(struct lua_State *, struct yajl_val_s *)
+[  647]        0x286  public: __int64 __cdecl ed::SQLite3::Database::last_insert_rowid(void)
+[  648]        0x287  public: bool __cdecl Lua::Config::load2(char const *, class ed::basic_string<char> &)
+[  649]        0x288  public: bool __cdecl Lua::Config::load(char const *)
+[  650]        0x289  public: void __cdecl Common::FSM::Descriptor::load(void)
+[  651]        0x28A  public: bool __cdecl ed::DynamicLibrary::load(class ed::basic_string<char> const &)
+[  652]        0x28B  void __cdecl ed::loadCoreConfigFromFile(char const *)
+[  653]        0x28C  public: void __cdecl Lua::CheckedLoader::loadFile(struct lua_State *, char const *, char const *)
+[  654]        0x28D  bool __cdecl ed::loadFilePackage(char const *, class std::function<void __cdecl(char const *, void const *, unsigned __int64)>)
+[  655]        0x28E  bool __cdecl ed::loadFilePackage(void const *, unsigned __int64, class std::function<void __cdecl(char const *, void const *, unsigned __int64)>)
+[  656]        0x28F  public: bool __cdecl Lua::Config::load_buffer(char const *, unsigned __int64, char const *)
+[  657]        0x290  void __cdecl edvfs::load_edcz_file_list(class edvfs::IBuffer const &, unsigned __int64, char const *, class ed::vector<struct edvfs::EDCZFileName, class ed::allocator<struct edvfs::EDCZFileName>> &, class ed::vector<unsigned __int64, class ed::allocator<unsigned __int64>> &, class ed::vector<struct edvfs::EDCZFileName, class ed::allocator<struct edvfs::EDCZFileName>> &, class ed::vector<struct edvfs::EDCZFileInfo, class ed::allocator<struct edvfs::EDCZFileInfo>> &, class ed::vector<class edvfs::Metadata, class ed::allocator<class edvfs::Metadata>> &, class ed::vector<struct ed::array<unsigned char, 32>, class ed::allocator<struct ed::array<unsigned char, 32>>> &, class ed::vector<char, class ed::allocator<char>> &, class ed::vector<signed char, class ed::allocator<signed char>> &)
+[  658]        0x291  public: void __cdecl ed::mutex::lock(void)
+[  659]        0x292  class ed::basic_string<char> __cdecl ed::lua2json(struct lua_State *, int)
+[  660]        0x293  void __cdecl ed::lua2json(struct yajl_gen_t *, struct lua_State *, int)
+[  661]        0x294  class ed::basic_string<char> __cdecl luaDumpNumTable(struct lua_State *, int, unsigned int, char const **, int)
+[  662]        0x295  class ed::basic_string<char> __cdecl luaDumpStack(struct lua_State *, int)
+[  663]        0x296  void __cdecl ed::luaDumpStack(struct lua_State *)
+[  664]        0x297  class ed::basic_string<char> __cdecl luaDumpTable(struct lua_State *, char const *, unsigned int, char const **, int)
+[  665]        0x298  int __cdecl ed::luaPrint(struct lua_State *)
+[  666]        0x299  void __cdecl luaPushValues(struct lua_State *, struct lua_State *, int, int, int)
+[  667]        0x29A  void __cdecl ed::makeWildcardForRegex(class ed::basic_string<char> &)
+[  668]        0x29B  class ed::basic_string<char> __cdecl ed::make_error_string(class ed::basic_string<char> const &, int, class ed::basic_string<char> const &)
+[  669]        0x29C  bool __cdecl ed::make_main_thread_tasks(double)
+[  670]        0x29D  class ed::basic_string<char> __cdecl ed::make_path(class ed::basic_string<char> const &, class ed::basic_string<char> const &)
+[  671]        0x29E  bool __cdecl ed::make_render_thread_tasks(double)
+[  672]        0x29F  class ed::basic_string<char> __cdecl edvfs::make_write_dirs(class std::basic_string_view<char, struct std::char_traits<char>>)
+[  673]        0x2A0  public: bool __cdecl edvfs::MappedFileBuffer::map(void)
+[  674]        0x2A1  void * __cdecl Mail::mem_alloc(enum Mail::AllocType, unsigned __int64)
+[  675]        0x2A2  void __cdecl Mail::mem_free(enum Mail::AllocType, void *)
+[  676]        0x2A3  public: void __cdecl Mail::Stats::merge(struct Mail::Stats const &)
+[  677]        0x2A4  bool __cdecl edvfs::mkdir_on_fs(class std::basic_string_view<char, struct std::char_traits<char>>)
+[  678]        0x2A5  bool __cdecl edvfs::mkdir_on_fs(class std::basic_string_view<char, struct std::char_traits<char>>, bool)
+[  679]        0x2A6  void __cdecl mmfMemoryBlockPrefetch(unsigned char const *, unsigned __int64)
+[  680]        0x2A7  void __cdecl mmfMemoryBlockPreload(unsigned char const *, unsigned __int64)
+[  681]        0x2A8  unsigned __int64 __cdecl edvfs::mount(char const *, char const *, bool, char const *, bool)
+[  682]        0x2A9  public: char const * __cdecl edvfs::IDriver::mountPoint(void) const
+[  683]        0x2AA  protected: void __cdecl TFrameMemoryHeap<1>::move_left(struct TFrameMemoryHeap<1>::free_chunk *)
+[  684]        0x2AB  protected: void __cdecl TFrameMemoryHeap<0>::move_left(struct TFrameMemoryHeap<0>::free_chunk *)
+[  685]        0x2AC  protected: void __cdecl TFrameMemoryHeap<1>::move_right(struct TFrameMemoryHeap<1>::free_chunk *)
+[  686]        0x2AD  protected: void __cdecl TFrameMemoryHeap<0>::move_right(struct TFrameMemoryHeap<0>::free_chunk *)
+[  687]        0x2AE  public: virtual char const * __cdecl edvfs::FSMappedFile::name(void) const
+[  688]        0x2AF  public: virtual char const * __cdecl ed::core::InitBackTrace::name(void) const
+[  689]        0x2B0  public: virtual char const * __cdecl ed::core::InitEDVFS::name(void) const
+[  690]        0x2B1  public: virtual char const * __cdecl ed::core::InitLog::name(void) const
+[  691]        0x2B2  public: virtual char const * __cdecl ed::core::InitLua::name(void) const
+[  692]        0x2B3  public: virtual char const * __cdecl ed::core::InitLuaAPI::name(void) const
+[  693]        0x2B4  public: virtual char const * __cdecl ed::core::InitTaskManager::name(void) const
+[  694]        0x2B5  public: virtual char const * __cdecl ed::core::InitVFS::name(void) const
+[  695]        0x2B6  public: char const * __cdecl ed::thread::name(void) const
+[  696]        0x2B7  public: virtual wchar_t const * __cdecl ed::DynamicLibrary::nativeName(void)
+[  697]        0x2B8  public: class ed::basic_string<char> __cdecl CoreUtils::TempFilesManager::newTempFile(class ed::basic_string<char> const &, class ed::basic_string<char> const &)
+[  698]        0x2B9  private: unsigned char * __cdecl ed::ZoneAlloc::new_block(unsigned __int64)
+[  699]        0x2BA  public: unsigned int __cdecl RandomizerManager::nextGenerativeSeed(void)
+[  700]        0x2BB  public: double __cdecl SimplexNoise::noise2D(double, double)
+[  701]        0x2BC  public: struct Math::Rotation3<float> & __cdecl Math::Rotation3<float>::normalize(void)
+[  702]        0x2BD  public: struct Math::Rotation3<double> & __cdecl Math::Rotation3<double>::normalize(void)
+[  703]        0x2BE  int __cdecl ed::normalizePath(class std::basic_string_view<char, struct std::char_traits<char>>, char *, unsigned int, bool)
+[  704]        0x2BF  void __cdecl ed::normalizePath(class std::basic_string_view<char, struct std::char_traits<char>>, class ed::basic_string<char> &, bool)
+[  705]        0x2C0  void __cdecl ed::normalizeShortPath(class std::basic_string_view<char, struct std::char_traits<char>>, bool, class ed::basic_short_string_base<char, struct std::char_traits<char>, class ed::allocator<char>> &)
+[  706]        0x2C1  public: struct Math::Rotation3<float> __cdecl Math::Rotation3<float>::normalized(void) const
+[  707]        0x2C2  public: struct Math::Rotation3<double> __cdecl Math::Rotation3<double>::normalized(void) const
+[  708]        0x2C3  protected: void __cdecl Common::FSM::onSymbol(unsigned int)
+[  709]        0x2C4  protected: void __cdecl Common::FSM::onSymbolDelayed(unsigned int)
+[  710]        0x2C5  private: void __cdecl Common::FSM::onSymbol_(unsigned int)
+[  711]        0x2C6  public: bool __cdecl Lua::Config::open(int)
+[  712]        0x2C7  public: bool __cdecl Lua::Config::open(char const *)
+[  713]        0x2C8  public: void __cdecl ed::SQLite3::Database::open(char const *)
+[  714]        0x2C9  public: static class io::File * __cdecl io::File::open(class ed::basic_string<char> const &, enum io::File::Mode)
+[  715]        0x2CA  public: static class io::File * __cdecl io::File::open(char const *, enum io::File::Mode)
+[  716]        0x2CB  class edvfs::IFile * __cdecl edvfs::open(char const *, enum edvfs::OpenMode, bool)
+[  717]        0x2CC  class edvfs::IFile * __cdecl edvfs::open_from_fs(char const *, enum edvfs::OpenMode, bool)
+[  718]        0x2CD  class ed::Ptr<class edvfs::MappedFileBuffer, struct edvfs::IBuffer::Deleter> __cdecl edvfs::open_mapped_buffer(char const *, bool &)
+[  719]        0x2CE  class edvfs::IFile * __cdecl edvfs::open_mapped_file(char const *, char const *, char const *, class edvfs::Metadata const *, struct std::atomic<unsigned __int64> *)
+[  720]        0x2CF  public: bool __cdecl Lua::Config::open_raw(char const *)
+[  721]        0x2D0  public: char const * __cdecl edvfs::IDriver::originalSource(void) const
+[  722]        0x2D1  int __cdecl ed::os_open_uri(class ed::basic_string<char> const &)
+[  723]        0x2D2  public: static bool __cdecl edvfs::Metadata::parseMetafile(char const *, class std::unordered_map<class ed::basic_string<char>, class edvfs::Metadata, struct std::hash<class ed::basic_string<char>>, struct std::equal_to<class ed::basic_string<char>>, class ed::allocator<struct std::pair<class ed::basic_string<char> const, class edvfs::Metadata>>> &)
+[  724]        0x2D3  class ed::basic_string<char> __cdecl ed::path_getext(class ed::basic_string<char> const &)
+[  725]        0x2D4  unsigned int __cdecl ed::path_hash32(class ed::basic_string<char> const &)
+[  726]        0x2D5  class ed::basic_string<char> __cdecl ed::path_join(class ed::vector<class ed::basic_string<char>, class ed::allocator<class ed::basic_string<char>>> const &)
+[  727]        0x2D6  class ed::basic_string<char> __cdecl ed::path_noext(class ed::basic_string<char> const &)
+[  728]        0x2D7  class ed::basic_string<char> __cdecl ed::path_normcase(class ed::basic_string<char>)
+[  729]        0x2D8  bool __cdecl ed::path_split(class ed::basic_string<char>, class ed::vector<class ed::basic_string<char>, class ed::allocator<class ed::basic_string<char>>> &)
+[  730]        0x2D9  class ed::basic_string<char> __cdecl ed::path_unify(class ed::basic_string<char> const &)
+[  731]        0x2DA  public: bool __cdecl Lua::Config::pop(unsigned char *)
+[  732]        0x2DB  public: bool __cdecl Lua::Config::pop(unsigned short *)
+[  733]        0x2DC  public: bool __cdecl Lua::Config::pop(int *)
+[  734]        0x2DD  public: bool __cdecl Lua::Config::pop(unsigned int *)
+[  735]        0x2DE  public: bool __cdecl Lua::Config::pop(unsigned long *)
+[  736]        0x2DF  public: bool __cdecl Lua::Config::pop(float *)
+[  737]        0x2E0  public: bool __cdecl Lua::Config::pop(double *)
+[  738]        0x2E1  public: bool __cdecl Lua::Config::pop(void **)
+[  739]        0x2E2  public: bool __cdecl Lua::Config::pop(class ed::basic_string<char> *)
+[  740]        0x2E3  public: bool __cdecl Lua::Config::pop(class ed::vector<float, class ed::allocator<float>> *)
+[  741]        0x2E4  public: bool __cdecl Lua::Config::pop(class osg::Vec2d *)
+[  742]        0x2E5  public: bool __cdecl Lua::Config::pop(class osg::Vec2f *)
+[  743]        0x2E6  public: bool __cdecl Lua::Config::pop(class osg::Vec3d *)
+[  744]        0x2E7  public: bool __cdecl Lua::Config::pop(class osg::Vec3f *)
+[  745]        0x2E8  public: bool __cdecl Lua::Config::pop(class osg::Vec4d *)
+[  746]        0x2E9  public: bool __cdecl Lua::Config::pop(class osg::Vec4f *)
+[  747]        0x2EA  public: bool __cdecl Lua::Config::pop(class osg::Vec4ub *)
+[  748]        0x2EB  public: bool __cdecl Lua::Config::pop(unsigned __int64 *)
+[  749]        0x2EC  public: bool __cdecl Lua::Config::pop(bool *)
+[  750]        0x2ED  public: void __cdecl ed::ConsoleArgs::pop(void)
+[  751]        0x2EE  public: void __cdecl ed::semaphore::post(void)
+[  752]        0x2EF  double __cdecl Math::pow(double, double)
+[  753]        0x2F0  private: void __cdecl Mail::ByteWriter::prepare(void)
+[  754]        0x2F1  public: void __cdecl ed::SQLite3::Cursor::prepare(class ed::SQLite3::Database &, class std::basic_string_view<char, struct std::char_traits<char>>)
+[  755]        0x2F2  public: class ed::basic_string<char> __cdecl ed::Stopwatch::prettyText(bool) const
+[  756]        0x2F3  class ed::basic_string<char> __cdecl ed::printSize(unsigned __int64)
+[  757]        0x2F4  public: void __cdecl Lua::Config::printTraceback(void)
+[  758]        0x2F5  void __cdecl Lua::printTraceback(struct lua_State *)
+[  759]        0x2F6  public: class ed::basic_string<char> __cdecl Lua::Config::printTracebackToString(void)
+[  760]        0x2F7  class ed::basic_string<char> __cdecl Lua::printTracebackToString(struct lua_State *)
+[  761]        0x2F8  public: double __cdecl ed::SyncTaskQueue::proceed(double)
+[  762]        0x2F9  void __cdecl ed::push_background_task(class std::function<void __cdecl(void)> &&, class ed::Ptr<class ed::SharedGroupBarrier, struct ed::SharedGroupBarrier::Deleter>, char const *)
+[  763]        0x2FA  void __cdecl ed::push_background_task(class std::function<void __cdecl(void)> const &, class ed::Ptr<class ed::SharedGroupBarrier, struct ed::SharedGroupBarrier::Deleter>, char const *)
+[  764]        0x2FB  void __cdecl ed::push_background_task(void (__cdecl *)(void *), void *, class ed::Ptr<class ed::SharedGroupBarrier, struct ed::SharedGroupBarrier::Deleter>, char const *)
+[  765]        0x2FC  void __cdecl ed::push_main_thread_task(class std::function<void __cdecl(void)> &&, class ed::Ptr<class ed::SharedGroupBarrier, struct ed::SharedGroupBarrier::Deleter>, char const *)
+[  766]        0x2FD  void __cdecl ed::push_main_thread_task(class std::function<void __cdecl(void)> const &, class ed::Ptr<class ed::SharedGroupBarrier, struct ed::SharedGroupBarrier::Deleter>, char const *)
+[  767]        0x2FE  void __cdecl ed::push_main_thread_task(void (__cdecl *)(void *), void *, class ed::Ptr<class ed::SharedGroupBarrier, struct ed::SharedGroupBarrier::Deleter>, char const *)
+[  768]        0x2FF  void __cdecl ed::push_pooled_task(class std::function<void __cdecl(void)> &&, class ed::Ptr<class ed::SharedGroupBarrier, struct ed::SharedGroupBarrier::Deleter>, char const *)
+[  769]        0x300  void __cdecl ed::push_pooled_task(class std::function<void __cdecl(void)> const &, class ed::Ptr<class ed::SharedGroupBarrier, struct ed::SharedGroupBarrier::Deleter>, char const *)
+[  770]        0x301  void __cdecl ed::push_pooled_task(void (__cdecl *)(void *), void *, class ed::Ptr<class ed::SharedGroupBarrier, struct ed::SharedGroupBarrier::Deleter>, char const *)
+[  771]        0x302  void __cdecl ed::push_render_thread_task(class std::function<void __cdecl(void)> &&, class ed::Ptr<class ed::SharedGroupBarrier, struct ed::SharedGroupBarrier::Deleter>, char const *)
+[  772]        0x303  void __cdecl ed::push_render_thread_task(class std::function<void __cdecl(void)> const &, class ed::Ptr<class ed::SharedGroupBarrier, struct ed::SharedGroupBarrier::Deleter>, char const *)
+[  773]        0x304  void __cdecl ed::push_render_thread_task(void (__cdecl *)(void *), void *, class ed::Ptr<class ed::SharedGroupBarrier, struct ed::SharedGroupBarrier::Deleter>, char const *)
+[  774]        0x305  public: void __cdecl ed::SyncTaskQueue::push_task(class std::function<void __cdecl(void)> &&, class ed::Ptr<class ed::SharedGroupBarrier, struct ed::SharedGroupBarrier::Deleter> &&, char const *)
+[  775]        0x306  public: void __cdecl ed::SyncTaskQueue::push_task(void (__cdecl *)(void *), void *, class ed::Ptr<class ed::SharedGroupBarrier, struct ed::SharedGroupBarrier::Deleter> &&, char const *)
+[  776]        0x307  void __cdecl ed::push_urgent_task(class std::function<void __cdecl(void)> &&, class ed::Ptr<class ed::SharedGroupBarrier, struct ed::SharedGroupBarrier::Deleter>, char const *)
+[  777]        0x308  void __cdecl ed::push_urgent_task(class std::function<void __cdecl(void)> const &, class ed::Ptr<class ed::SharedGroupBarrier, struct ed::SharedGroupBarrier::Deleter>, char const *)
+[  778]        0x309  void __cdecl ed::push_urgent_task(void (__cdecl *)(void *), void *, class ed::Ptr<class ed::SharedGroupBarrier, struct ed::SharedGroupBarrier::Deleter>, char const *)
+[  779]        0x30A  public: void __cdecl Mail::Writer::put(unsigned int, unsigned char)
+[  780]        0x30B  public: class Mail::ByteWriter & __cdecl Mail::ByteWriter::putData(void const *, unsigned __int64)
+[  781]        0x30C  public: class Mail::ByteWriter & __cdecl Mail::ByteWriter::putInt(int, unsigned __int64)
+[  782]        0x30D  public: void * __cdecl TFrameMemoryHeap<1>::quick_get_memory(unsigned __int64)
+[  783]        0x30E  public: void * __cdecl TFrameMemoryHeap<0>::quick_get_memory(unsigned __int64)
+[  784]        0x30F  protected: class ed::Ptr<class Mail::Chunk, struct ed::DefaultDeleter> __cdecl Mail::Chunk::rafter(unsigned __int64) const
+[  785]        0x310  protected: class ed::Ptr<class Mail::Chunk, struct ed::DefaultDeleter> __cdecl Mail::Chunk::rbefore(unsigned __int64) const
+[  786]        0x311  protected: unsigned int __cdecl Mail::Chunk::rcount(void) const
+[  787]        0x312  public: virtual unsigned __int64 __cdecl edvfs::BinaryFile::read(void *, unsigned __int64)
+[  788]        0x313  public: virtual unsigned __int64 __cdecl edvfs::FSMappedFile::read(void *, unsigned __int64)
+[  789]        0x314  public: virtual unsigned __int64 __cdecl io::MemBinaryFileR::read(void *, unsigned __int64)
+[  790]        0x315  public: class osg::BoundingBoxImpl<class osg::Vec3f> __cdecl io::IBinaryFileR::readBoundingBoxf(void)
+[  791]        0x316  public: virtual char const * __cdecl edvfs::BinaryFile::readCachedString(void)
+[  792]        0x317  public: virtual char const * __cdecl io::MemBinaryFileR::readCachedString(void)
+[  793]        0x318  public: double __cdecl io::IBinaryFileR::readDouble(void)
+[  794]        0x319  public: double __cdecl Mail::Reader::readFixed(int)
+[  795]        0x31A  public: double __cdecl Mail::Reader::readFixed(int, int)
+[  796]        0x31B  public: float __cdecl io::IBinaryFileR::readFloat(void)
+[  797]        0x31C  public: float __cdecl Mail::Reader::readHalf(void)
+[  798]        0x31D  public: class osg::Matrixd __cdecl io::IBinaryFileR::readMatrixd(void)
+[  799]        0x31E  public: class osg::Matrixf __cdecl io::IBinaryFileR::readMatrixf(void)
+[  800]        0x31F  public: class osg::Quatd __cdecl io::IBinaryFileR::readQuatd(void)
+[  801]        0x320  public: class osg::Quatf __cdecl io::IBinaryFileR::readQuatf(void)
+[  802]        0x321  public: unsigned short __cdecl io::IBinaryFileR::readUint16(void)
+[  803]        0x322  public: unsigned int __cdecl io::IBinaryFileR::readUint32(void)
+[  804]        0x323  public: unsigned __int64 __cdecl io::IBinaryFileR::readUint64(void)
+[  805]        0x324  public: unsigned char __cdecl io::IBinaryFileR::readUint8(void)
+[  806]        0x325  public: class osg::Vec2d __cdecl io::IBinaryFileR::readVec2d(void)
+[  807]        0x326  public: class osg::Vec2f __cdecl io::IBinaryFileR::readVec2f(void)
+[  808]        0x327  public: class osg::Vec3d __cdecl io::IBinaryFileR::readVec3d(void)
+[  809]        0x328  public: class osg::Vec3f __cdecl io::IBinaryFileR::readVec3f(void)
+[  810]        0x329  public: class osg::Vec4d __cdecl io::IBinaryFileR::readVec4d(void)
+[  811]        0x32A  public: class osg::Vec4f __cdecl io::IBinaryFileR::readVec4f(void)
+[  812]        0x32B  struct edvfs::EDCZCryptoHeader __cdecl edvfs::read_edcz_crypto_header(class edvfs::IBuffer const &, unsigned __int64 &)
+[  813]        0x32C  bool __cdecl VFS::read_file(char const *, class ed::Ptr<class ed::SharedBuffer, struct edvfs::IBuffer::Deleter> &)
+[  814]        0x32D  class ed::Ptr<class edvfs::IBuffer, struct edvfs::IBuffer::Deleter> __cdecl edvfs::read_file(char const *, bool)
+[  815]        0x32E  public: class ed::Ptr<class ed::SharedBuffer, struct edvfs::IBuffer::Deleter> __cdecl VFS::File::readall(void)
+[  816]        0x32F  public: bool __cdecl VFS::File::readall(class ed::Ptr<class ed::SharedBuffer, struct edvfs::IBuffer::Deleter> &)
+[  817]        0x330  public: bool __cdecl VFS::File::readall(class ed::basic_string<char> &)
+[  818]        0x331  public: void __cdecl VFS::File::readshortstring(class ed::basic_short_string_base<char, struct std::char_traits<char>, class ed::allocator<char>> &)
+[  819]        0x332  public: class ed::basic_string<char> __cdecl VFS::File::readstring(void)
+[  820]        0x333  public: static unsigned __int64 __cdecl io::FileStream::recommenededBufferSize(enum io::Stream::Mode, unsigned int, unsigned __int64)
+[  821]        0x334  public: virtual void __cdecl Common::Printer::reg(void)
+[  822]        0x335  public: struct ed::ThreadsGroupInfo __cdecl ed::IThreadPolicy::registerThreadsGroup(enum ed::ThreadWorkload, unsigned int, struct ed::thread::ThreadInfo const &)
+[  823]        0x336  void __cdecl edvfs::register_driver_factory(class edvfs::IDriver * (__cdecl *)(unsigned __int64, char const *, char const *, char const *, char const *, char *, unsigned __int64, bool &), bool)
+[  824]        0x337  class Common::FactoryManager *registry
+[  825]        0x338  public: __int64 __cdecl edvfs::IDriver::releaseMount(void)
+[  826]        0x339  public: void __cdecl TFrameMemoryHeap<1>::release_memory(void)
+[  827]        0x33A  public: void __cdecl TFrameMemoryHeap<0>::release_memory(void)
+[  828]        0x33B  void __cdecl edvfs::remount(class ed::basic_string<char> (__cdecl *const)(char const *, void *), void *)
+[  829]        0x33C  public: void __cdecl RandomManager::remove(class ed::vector<float, class ed::allocator<float>> const *)
+[  830]        0x33D  public: void __cdecl RandomizerManager::remove(class GenerativeRandomizer *)
+[  831]        0x33E  class ed::basic_string<char> __cdecl ed::removeExtension(class std::basic_string_view<char, struct std::char_traits<char>>)
+[  832]        0x33F  public: void __cdecl Common::FactoryManager::removeFactory(class Common::Factory *)
+[  833]        0x340  public: void __cdecl Common::Factory::removeIdentifier(class Common::Identifier const &)
+[  834]        0x341  public: void __cdecl ed::ConsoleArgs::removeKey(class ed::basic_string<char> const &)
+[  835]        0x342  class ed::basic_string<char> __cdecl ed::removePrefix(class std::basic_string_view<char, struct std::char_traits<char>>, class std::basic_string_view<char, struct std::char_traits<char>>)
+[  836]        0x343  class ed::basic_string<char> __cdecl ed::removeSlashFromBegin(class std::basic_string_view<char, struct std::char_traits<char>>)
+[  837]        0x344  void __cdecl ed::removeSlashFromBeginShort(class ed::basic_short_string_base<char, struct std::char_traits<char>, class ed::allocator<char>> &)
+[  838]        0x345  class ed::basic_string<char> __cdecl ed::removeSlashFromEnd(class std::basic_string_view<char, struct std::char_traits<char>>)
+[  839]        0x346  void __cdecl ed::removeSlashFromEndShort(class ed::basic_short_string_base<char, struct std::char_traits<char>, class ed::allocator<char>> &)
+[  840]        0x347  class ed::basic_string<char> __cdecl ed::removeWhiteSpaces(class std::basic_string_view<char, struct std::char_traits<char>>)
+[  841]        0x348  public: void __cdecl CoreUtils::TempFilesManager::remove_and_clear(void)
+[  842]        0x349  protected: struct TFrameMemoryHeap<1>::free_chunk * __cdecl TFrameMemoryHeap<1>::remove_chunk(struct TFrameMemoryHeap<1>::free_chunk *)
+[  843]        0x34A  protected: struct TFrameMemoryHeap<0>::free_chunk * __cdecl TFrameMemoryHeap<0>::remove_chunk(struct TFrameMemoryHeap<0>::free_chunk *)
+[  844]        0x34B  void __cdecl ed::remove_timer(struct ed::timer_id *)
+[  845]        0x34C  bool __cdecl edvfs::rename_on_fs(class std::basic_string_view<char, struct std::char_traits<char>>, class std::basic_string_view<char, struct std::char_traits<char>>)
+[  846]        0x34D  char const * __cdecl ed::replaceAll(char *, char, char)
+[  847]        0x34E  public: class ed::basic_string<char> & __cdecl ed::basic_string<char>::replace_all(class ed::basic_string<char> const &, class ed::basic_string<char> const &)
+[  848]        0x34F  public: class ed::basic_string<char> & __cdecl ed::basic_string<char>::replace_all(class ed::basic_string<char> const &, char const *)
+[  849]        0x350  public: class ed::basic_string<char> & __cdecl ed::basic_string<char>::replace_all(char, char)
+[  850]        0x351  public: class ed::basic_string<char> & __cdecl ed::basic_string<char>::replace_all(char const *, char const *)
+[  851]        0x352  public: class ed::basic_string<char> & __cdecl ed::basic_string<char>::replace_all(char const *, class ed::basic_string<char> const &)
+[  852]        0x353  public: class ed::basic_string<wchar_t> & __cdecl ed::basic_string<wchar_t>::replace_all(class ed::basic_string<wchar_t> const &, class ed::basic_string<wchar_t> const &)
+[  853]        0x354  public: class ed::basic_string<wchar_t> & __cdecl ed::basic_string<wchar_t>::replace_all(class ed::basic_string<wchar_t> const &, wchar_t const *)
+[  854]        0x355  public: class ed::basic_string<wchar_t> & __cdecl ed::basic_string<wchar_t>::replace_all(wchar_t const *, wchar_t const *)
+[  855]        0x356  public: class ed::basic_string<wchar_t> & __cdecl ed::basic_string<wchar_t>::replace_all(wchar_t const *, class ed::basic_string<wchar_t> const &)
+[  856]        0x357  public: class ed::basic_string<wchar_t> & __cdecl ed::basic_string<wchar_t>::replace_all(wchar_t, wchar_t)
+[  857]        0x358  public: void __cdecl ed::StringsCacheFast::reserve(unsigned __int64)
+[  858]        0x359  public: void __cdecl ed::SQLite3::Cursor::reset(void)
+[  859]        0x35A  public: void __cdecl Common::FSM::reset(void)
+[  860]        0x35B  public: void __cdecl ed::JsonWriter::reset(enum ed::JsonWriter::OutputFormat)
+[  861]        0x35C  public: void __cdecl OWTOS::reset(double)
+[  862]        0x35D  public: void __cdecl Mail::Stats::reset(void)
+[  863]        0x35E  public: void __cdecl TWTOS::reset(bool, double)
+[  864]        0x35F  public: void __cdecl ed::signal::reset(void)
+[  865]        0x360  public: void __cdecl TFrameMemoryHeap<1>::reset_memory(void)
+[  866]        0x361  public: void __cdecl TFrameMemoryHeap<0>::reset_memory(void)
+[  867]        0x362  protected: void __cdecl Mail::Chunk::rlink(class ed::Ptr<class Mail::Chunk, struct ed::DefaultDeleter> const &)
+[  868]        0x363  bool __cdecl edvfs::rmdir_on_fs(class std::basic_string_view<char, struct std::char_traits<char>>)
+[  869]        0x364  class Math::Vector<3, double> __cdecl Math::roundDec(class Math::Vector<3, double> const &, int)
+[  870]        0x365  double __cdecl Math::roundDec(double, int)
+[  871]        0x366  protected: unsigned __int64 __cdecl Mail::Chunk::rsize(void) const
+[  872]        0x367  protected: class ed::Ptr<class Mail::Chunk, struct ed::DefaultDeleter> __cdecl Mail::Chunk::rtail(void)
+[  873]        0x368  public: void __cdecl ed::SyncTask::run(void)
+[  874]        0x369  int __cdecl ed::run_process(class ed::vector<class ed::basic_string<char>, class ed::allocator<class ed::basic_string<char>>> const &, char const *, bool)
+[  875]        0x36A  int __cdecl ed::run_process(char const *, char const *, char const *, bool)
+[  876]        0x36B  public: virtual void __cdecl edvfs::BinaryFile::seek(unsigned __int64)
+[  877]        0x36C  public: virtual bool __cdecl edvfs::FSMappedFile::seek(unsigned __int64)
+[  878]        0x36D  public: virtual void __cdecl io::MemBinaryFileR::seek(unsigned __int64)
+[  879]        0x36E  private: void __cdecl Common::FSM::sendOutputSymbol_(unsigned int)
+[  880]        0x36F  public: void __cdecl Lua::Serializer::serialize(struct lua_State *, class ed::basic_string<char> const &)
+[  881]        0x370  public: virtual void __cdecl io::MmfStream::serializeOffset(unsigned __int64 &)
+[  882]        0x371  public: class Math::Matrix<2, float> & __cdecl Math::Matrix<2, float>::set(float)
+[  883]        0x372  public: class Math::Matrix<2, double> & __cdecl Math::Matrix<2, double>::set(double)
+[  884]        0x373  public: class Math::Matrix<3, float> & __cdecl Math::Matrix<3, float>::set(float)
+[  885]        0x374  public: class Math::Matrix<3, double> & __cdecl Math::Matrix<3, double>::set(double)
+[  886]        0x375  public: class Math::Matrix<4, float> & __cdecl Math::Matrix<4, float>::set(float)
+[  887]        0x376  public: class Math::Matrix<4, double> & __cdecl Math::Matrix<4, double>::set(double)
+[  888]        0x377  public: void __cdecl Lua::Config::set(int)
+[  889]        0x378  public: void __cdecl Lua::Config::set(char const *)
+[  890]        0x379  public: void __cdecl ed::signal::set(void)
+[  891]        0x37A  void __cdecl ed::this_thread::set(struct ed::thread::ThreadInfo const &)
+[  892]        0x37B  public: struct Math::Rotation3<float> & __cdecl Math::Rotation3<float>::setAngleAxis(float, class Math::Vector<3, float> const &)
+[  893]        0x37C  public: struct Math::Rotation3<double> & __cdecl Math::Rotation3<double>::setAngleAxis(double, class Math::Vector<3, double> const &)
+[  894]        0x37D  void __cdecl ed::RenderingThread::setAvailability(bool, class ed::thread::id, class std::function<void __cdecl(bool)>)
+[  895]        0x37E  public: void __cdecl io::FileStream::setBufferSize(unsigned int, unsigned __int64)
+[  896]        0x37F  void __cdecl setClipboardText(class ed::basic_string<char> const &)
+[  897]        0x380  public: struct Math::Rotation3<float> & __cdecl Math::Rotation3<float>::setEulerAngles(enum Math::RotationOrder, class Math::Vector<3, float> const &)
+[  898]        0x381  public: struct Math::Rotation3<double> & __cdecl Math::Rotation3<double>::setEulerAngles(enum Math::RotationOrder, class Math::Vector<3, double> const &)
+[  899]        0x382  public: void __cdecl edvfs::BaseFileInfo::setFileName(class std::basic_string_view<char, struct std::char_traits<char>>, class std::basic_string_view<char, struct std::char_traits<char>>, enum edvfs::FileType)
+[  900]        0x383  public: void __cdecl TFrameMemoryHeap<1>::setFrame(void *)
+[  901]        0x384  public: void __cdecl TFrameMemoryHeap<0>::setFrame(void *)
+[  902]        0x385  public: struct Math::Rotation3<float> & __cdecl Math::Rotation3<float>::setFromTo(class Math::Vector<3, float> const &, class Math::Vector<3, float> const &)
+[  903]        0x386  public: struct Math::Rotation3<double> & __cdecl Math::Rotation3<double>::setFromTo(class Math::Vector<3, double> const &, class Math::Vector<3, double> const &)
+[  904]        0x387  public: void __cdecl RandomizerManager::setGenerativeSeed(unsigned int)
+[  905]        0x388  public: static void __cdecl Common::Printer::setGlobalManager(class Common::Printer::Manager *)
+[  906]        0x389  public: void __cdecl Common::FSM::Descriptor::setInitialState(unsigned int)
+[  907]        0x38A  public: void __cdecl Common::FSM::Descriptor::setInitializied(void)
+[  908]        0x38B  void __cdecl setLanguage(char const *)
+[  909]        0x38C  public: void __cdecl RandomObject::setOffset(unsigned int)
+[  910]        0x38D  protected: static void __cdecl ed::IThreadPolicy::setProvider(class std::unique_ptr<struct ed::IThreadPolicy, struct std::default_delete<struct ed::IThreadPolicy>> &&)
+[  911]        0x38E  void __cdecl ed::setTaskManagerMode(enum ed::TaskManagerMode)
+[  912]        0x38F  private: void __cdecl ed::DCSThreadManager::setTimerResolution(int)
+[  913]        0x390  public: void __cdecl RandomObject::setType(unsigned int)
+[  914]        0x391  void __cdecl edvfs::setVFS(class std::shared_ptr<class edvfs::IVFSandbox>, class std::shared_ptr<class edvfs::IVFSandbox>, class std::shared_ptr<class edvfs::IVFSandbox>, class std::shared_ptr<class edvfs::IVFSandbox>)
+[  915]        0x392  public: struct Math::Rotation3<float> & __cdecl Math::Rotation3<float>::setYawPitchRoll(float, float, float)
+[  916]        0x393  public: struct Math::Rotation3<double> & __cdecl Math::Rotation3<double>::setYawPitchRoll(double, double, double)
+[  917]        0x394  private: void __cdecl ed::thread::set_affinity(unsigned __int64)
+[  918]        0x395  void __cdecl ed::this_thread::set_affinity_mask(unsigned __int64)
+[  919]        0x396  void __cdecl ed::set_app_branch(char const *)
+[  920]        0x397  void __cdecl ed::set_app_name(char const *)
+[  921]        0x398  void __cdecl ed::set_app_revision(char const *)
+[  922]        0x399  void __cdecl ed::set_build_number(char const *)
+[  923]        0x39A  void __cdecl ed::core::set_crash_report_mode(enum CrashInfo::Mode)
+[  924]        0x39B  void __cdecl ed::core::set_crash_report_pdb_path(char const *)
+[  925]        0x39C  void __cdecl ed::this_thread::set_ideal_core(unsigned char)
+[  926]        0x39D  private: void __cdecl ed::thread::set_ideal_core(signed char)
+[  927]        0x39E  void __cdecl edvfs::set_mapped_file_min_size(unsigned __int64)
+[  928]        0x39F  void __cdecl ed::this_thread::set_memory_priority(enum ed::thread::MemoryPriority)
+[  929]        0x3A0  private: void __cdecl ed::thread::set_memory_priority(enum ed::thread::MemoryPriority)
+[  930]        0x3A1  void __cdecl ed::this_thread::set_name(char const *)
+[  931]        0x3A2  private: void __cdecl ed::thread::set_priority(enum ed::thread::Priority)
+[  932]        0x3A3  void __cdecl ed::set_renderer_revision(char const *)
+[  933]        0x3A4  void __cdecl ed::set_terrain_revision(char const *)
+[  934]        0x3A5  void __cdecl ed::this_thread::set_throttling(enum ed::thread::Throttling)
+[  935]        0x3A6  private: void __cdecl ed::thread::set_throttling(enum ed::thread::Throttling)
+[  936]        0x3A7  public: __int64 __cdecl TFrameMemoryHeap<1>::size(void) const
+[  937]        0x3A8  public: __int64 __cdecl TFrameMemoryHeap<0>::size(void) const
+[  938]        0x3A9  public: unsigned __int64 __cdecl ed::ConsoleArgs::size(void) const
+[  939]        0x3AA  public: virtual unsigned __int64 __cdecl edvfs::FSMappedFile::size(void)
+[  940]        0x3AB  void __cdecl ed::this_thread::sleep(double)
+[  941]        0x3AC  public: char const * __cdecl edvfs::IDriver::source(void) const
+[  942]        0x3AD  class ed::vector<class ed::basic_string<char>, class ed::allocator<class ed::basic_string<char>>> __cdecl ed::splitString(class std::basic_string_view<char, struct std::char_traits<char>>, class std::basic_string_view<char, struct std::char_traits<char>>, bool)
+[  943]        0x3AE  class ed::vector<class ed::basic_string<wchar_t>, class ed::allocator<class ed::basic_string<wchar_t>>> __cdecl ed::splitString(class std::basic_string_view<wchar_t, struct std::char_traits<wchar_t>>, class std::basic_string_view<wchar_t, struct std::char_traits<wchar_t>>, bool)
+[  944]        0x3AF  class ed::vector<struct std::pair<bool, class ed::basic_string<char>>, class ed::allocator<struct std::pair<bool, class ed::basic_string<char>>>> __cdecl ed::splitStringAndDelims(class std::basic_string_view<char, struct std::char_traits<char>>, class std::basic_string_view<char, struct std::char_traits<char>>)
+[  945]        0x3B0  public: virtual char const * __cdecl edvfs::FSMappedFile::src_name(void) const
+[  946]        0x3B1  bool __cdecl edvfs::stat(char const *, struct edvfs::Stat &)
+[  947]        0x3B2  public: bool __cdecl ed::SQLite3::Cursor::step(void)
+[  948]        0x3B3  public: class ed::basic_string<char> __cdecl ed::md5::str(void) const
+[  949]        0x3B4  public: virtual void __cdecl io::FileStream::stream(void *, unsigned int)
+[  950]        0x3B5  protected: virtual void __cdecl Mail::Reader::stream(void *, int)
+[  951]        0x3B6  protected: virtual void __cdecl Mail::Writer::stream(void *, int)
+[  952]        0x3B7  public: virtual void __cdecl io::FileStream::streamString(char const *&)
+[  953]        0x3B8  public: virtual void __cdecl io::MmfStream::streamString(char const *&)
+[  954]        0x3B9  public: virtual void __cdecl io::MmfStream::streamsecondary(void **, unsigned __int64, class io::File *&, unsigned __int64 &)
+[  955]        0x3BA  public: virtual void __cdecl io::Stream::streamsecondary(void **, unsigned __int64, class io::File *&, unsigned __int64 &)
+[  956]        0x3BB  class ed::basic_string<char> __cdecl ed::string_format(char const *, ...)
+[  957]        0x3BC  class ed::basic_string<wchar_t> __cdecl ed::string_format(wchar_t const *, ...)
+[  958]        0x3BD  public: class ed::BufferView __cdecl ed::SharedBuffer::sub_view(unsigned __int64, unsigned __int64)
+[  959]        0x3BE  public: class ed::ConstBufferView __cdecl ed::SharedBuffer::sub_view(unsigned __int64, unsigned __int64) const
+[  960]        0x3BF  public: bool __cdecl Common::FSM::symbolsQueueIsEmpty(void) const
+[  961]        0x3C0  public: char const * __cdecl edvfs::IDriver::tag(void) const
+[  962]        0x3C1  class boost::lockfree::queue<struct ed::TasksHistoryItem, struct boost::lockfree::fixed_sized<0>> tasks_history
+[  963]        0x3C2  public: virtual unsigned __int64 __cdecl edvfs::FSMappedFile::tell(void)
+[  964]        0x3C3  public: void __cdecl ed::thread::terminate(void)
+[  965]        0x3C4  void __cdecl ed::this_thread_enable_exception_stack_trace(bool)
+[  966]        0x3C5  void __cdecl ed::this_thread_suspend_exception_stack_trace(bool)
+[  967]        0x3C6  public: static double Lua::CallTiming::threshold
+[  968]        0x3C7  public: bool __cdecl Lua::Config::tmpload(char const *, bool)
+[  969]        0x3C8  public: bool __cdecl Lua::Config::tmpload_buf(char const *, unsigned __int64, bool)
+[  970]        0x3C9  class ed::basic_string<char> __cdecl ed::toLower(class std::basic_string_view<char, struct std::char_traits<char>>)
+[  971]        0x3CA  void __cdecl ed::toLower(class ed::basic_string<wchar_t> &)
+[  972]        0x3CB  void __cdecl ed::toLowerShort(class std::basic_string_view<char, struct std::char_traits<char>>, class ed::basic_short_string_base<char, struct std::char_traits<char>, class ed::allocator<char>> &)
+[  973]        0x3CC  class ed::basic_string<char> __cdecl ed::toUpper(class std::basic_string_view<char, struct std::char_traits<char>>)
+[  974]        0x3CD  void __cdecl ed::toUpper(class ed::basic_string<wchar_t> &)
+[  975]        0x3CE  void __cdecl ed::toUpperShort(class std::basic_string_view<char, struct std::char_traits<char>>, class ed::basic_short_string_base<char, struct std::char_traits<char>, class ed::allocator<char>> &)
+[  976]        0x3CF  class ed::basic_string<char> __cdecl Lua::to_string(struct lua_State *, int, unsigned int)
+[  977]        0x3D0  class ed::basic_string<char> __cdecl ed::to_string(class osg::Vec2d const &)
+[  978]        0x3D1  class ed::basic_string<char> __cdecl ed::to_string(class osg::Vec2f const &)
+[  979]        0x3D2  class ed::basic_string<char> __cdecl ed::to_string(class osg::Vec2i const &)
+[  980]        0x3D3  class ed::basic_string<char> __cdecl ed::to_string(class osg::Vec3d const &)
+[  981]        0x3D4  class ed::basic_string<char> __cdecl ed::to_string(class osg::Vec3f const &)
+[  982]        0x3D5  class ed::basic_string<char> __cdecl ed::to_string(class osg::Vec3i const &)
+[  983]        0x3D6  class ed::basic_string<char> __cdecl ed::to_string(class osg::Vec4d const &)
+[  984]        0x3D7  class ed::basic_string<char> __cdecl ed::to_string(class osg::Vec4f const &)
+[  985]        0x3D8  class ed::basic_string<char> __cdecl ed::to_string(class osg::Vec4i const &)
+[  986]        0x3D9  class ed::basic_string<char> __cdecl ed::to_string(class osg::Vec4ui const &)
+[  987]        0x3DA  class ed::basic_string<char> __cdecl Lua::to_string_compact(struct lua_State *, int, unsigned int)
+[  988]        0x3DB  struct ed::utf8_result __cdecl ed::to_utf8(class std::span<char, -1>, class std::basic_string_view<wchar_t, struct std::char_traits<wchar_t>>)
+[  989]        0x3DC  unsigned short __cdecl ed::towlower(unsigned short)
+[  990]        0x3DD  unsigned short __cdecl ed::towupper(unsigned short)
+[  991]        0x3DE  class ed::basic_string<char> __cdecl ed::trim(class std::basic_string_view<char, struct std::char_traits<char>>)
+[  992]        0x3DF  public: bool __cdecl Lua::CheckedLoader::tryLoadFile(struct lua_State *, char const *, char const *)
+[  993]        0x3E0  public: void * __cdecl ed::BlockPool::try_alloc(void)
+[  994]        0x3E1  public: bool __cdecl ed::SQLite3::Database::try_create_table(class std::basic_string_view<char, struct std::char_traits<char>>, class std::basic_string_view<char, struct std::char_traits<char>>)
+[  995]        0x3E2  public: bool __cdecl ed::mutex::try_lock(void)
+[  996]        0x3E3  public: bool __cdecl ed::semaphore::try_wait(void)
+[  997]        0x3E4  public: bool __cdecl ed::signal::try_wait(void)
+[  998]        0x3E5  bool __cdecl ed::try_wait_all_pools(double)
+[  999]        0x3E6  public: bool __cdecl ed::signal::try_wait_for(double)
+[ 1000]        0x3E7  class ed::basic_string<char> __cdecl ed::uni2mbstr(unsigned int)
+[ 1001]        0x3E8  public: void __cdecl Common::FSM::uninit(void)
+[ 1002]        0x3E9  public: void __cdecl ed::DynamicLibrary::unload(void)
+[ 1003]        0x3EA  public: void __cdecl ed::mutex::unlock(void)
+[ 1004]        0x3EB  public: void __cdecl edvfs::MappedFileBuffer::unmap(void)
+[ 1005]        0x3EC  bool __cdecl edvfs::unmount(unsigned __int64)
+[ 1006]        0x3ED  bool __cdecl edvfs::unmount_by_source(char const *)
+[ 1007]        0x3EE  bool __cdecl edvfs::unmount_by_tag(char const *)
+[ 1008]        0x3EF  public: virtual void __cdecl Common::Printer::unreg(void)
+[ 1009]        0x3F0  void __cdecl edvfs::unregister_driver_factory(class edvfs::IDriver * (__cdecl *)(unsigned __int64, char const *, char const *, char const *, char const *, char *, unsigned __int64, bool &))
+[ 1010]        0x3F1  public: void __cdecl Lua::Config::unset(char const *)
+[ 1011]        0x3F2  public: void __cdecl Math::IIR_Filter::update(double)
+[ 1012]        0x3F3  public: bool __cdecl OWTOS::update(bool, double)
+[ 1013]        0x3F4  public: void __cdecl Mail::Stats::update(unsigned __int64, double, bool, double)
+[ 1014]        0x3F5  public: bool __cdecl TWTOS::update(bool, double)
+[ 1015]        0x3F6  void __cdecl ed::processor::updateProcessorInfo(struct ed::processor::PROCESSOR_INFO &)
+[ 1016]        0x3F7  class ed::basic_string<char> __cdecl ed::utf8_substr(char const *, unsigned __int64, unsigned __int64)
+[ 1017]        0x3F8  public: bool __cdecl Common::FSM::valid(void) const
+[ 1018]        0x3F9  struct ed::utf8_result __cdecl ed::validate_utf8(class std::basic_string_view<char, struct std::char_traits<char>>, bool)
+[ 1019]        0x3FA  public: unsigned __int64 __cdecl ed::basic_string<char>::vappendf(char const *, char *)
+[ 1020]        0x3FB  public: unsigned __int64 __cdecl ed::basic_string<wchar_t>::vappendf(wchar_t const *, char *)
+[ 1021]        0x3FC  public: void __cdecl ed::semaphore::wait(void)
+[ 1022]        0x3FD  public: void __cdecl ed::signal::wait(void)
+[ 1023]        0x3FE  void __cdecl ed::wait_all_pools(void)
+[ 1024]        0x3FF  public: void __cdecl ed::semaphore::wait_for(double)
+[ 1025]        0x400  void __cdecl ed::wait_for_barrier(class ed::Ptr<class ed::SharedGroupBarrier, struct ed::SharedGroupBarrier::Deleter>)
+[ 1026]        0x401  void __cdecl ed::walk_utf8(class std::basic_string_view<char, struct std::char_traits<char>>, class std::function<void __cdecl(class std::span<wchar_t, -1>, struct ed::utf8_result)>)
+[ 1027]        0x402  bool __cdecl ed::walk_utf8_cancellable(class std::basic_string_view<char, struct std::char_traits<char>>, class std::function<bool __cdecl(class std::span<wchar_t, -1>, struct ed::utf8_result)>)
+[ 1028]        0x403  public: virtual unsigned __int64 __cdecl edvfs::FSMappedFile::write(void const *, unsigned __int64)
+[ 1029]        0x404  public: void __cdecl io::IBinaryFileW::writeBoundingBoxf(class osg::BoundingBoxImpl<class osg::Vec3f> const &)
+[ 1030]        0x405  public: void __cdecl io::IBinaryFileW::writeDouble(double)
+[ 1031]        0x406  public: void __cdecl Mail::Writer::writeFixed(double, int)
+[ 1032]        0x407  public: void __cdecl Mail::Writer::writeFixed(double, int, int)
+[ 1033]        0x408  public: void __cdecl io::IBinaryFileW::writeFloat(float)
+[ 1034]        0x409  public: void __cdecl Mail::Writer::writeHalf(float)
+[ 1035]        0x40A  public: void __cdecl io::IBinaryFileW::writeMatrixd(class osg::Matrixd const &)
+[ 1036]        0x40B  public: void __cdecl io::IBinaryFileW::writeMatrixf(class osg::Matrixf const &)
+[ 1037]        0x40C  public: void __cdecl io::IBinaryFileW::writeQuatd(class osg::Quatd const &)
+[ 1038]        0x40D  public: void __cdecl io::IBinaryFileW::writeQuatf(class osg::Quatf const &)
+[ 1039]        0x40E  public: virtual void __cdecl io::IBinaryFileW::writeSTLString(class ed::basic_string<char> const &)
+[ 1040]        0x40F  public: void __cdecl io::IBinaryFileW::writeUint16(unsigned short)
+[ 1041]        0x410  public: void __cdecl io::IBinaryFileW::writeUint32(unsigned int)
+[ 1042]        0x411  public: void __cdecl io::IBinaryFileW::writeUint64(unsigned __int64)
+[ 1043]        0x412  public: void __cdecl io::IBinaryFileW::writeUint8(unsigned char)
+[ 1044]        0x413  public: void __cdecl io::IBinaryFileW::writeVec2d(class osg::Vec2d const &)
+[ 1045]        0x414  public: void __cdecl io::IBinaryFileW::writeVec2f(class osg::Vec2f const &)
+[ 1046]        0x415  public: void __cdecl io::IBinaryFileW::writeVec3d(class osg::Vec3d const &)
+[ 1047]        0x416  public: void __cdecl io::IBinaryFileW::writeVec3f(class osg::Vec3f const &)
+[ 1048]        0x417  public: void __cdecl io::IBinaryFileW::writeVec4d(class osg::Vec4d const &)
+[ 1049]        0x418  public: void __cdecl io::IBinaryFileW::writeVec4f(class osg::Vec4f const &)
+[ 1050]        0x419  bool __cdecl edvfs::write_file(char const *, void const *, unsigned __int64, bool)
+[ 1051]        0x41A  public: void __cdecl VFS::File::writestring(char const *)
+[ 1052]        0x41B  void __cdecl ed::this_thread::yield(void)
+[ 1053]        0x41C  ED_end_lua_usage_calculation
+[ 1054]        0x41D  ED_get_app_version
+[ 1055]        0x41E  ED_get_cpu_architecture
+[ 1056]        0x41F  ED_get_full_version
+[ 1057]        0x420  ED_get_module_version
+[ 1058]        0x421  ED_get_os_version
+[ 1059]        0x422  ED_get_seconds
+[ 1060]        0x423  ED_get_tick_rate
+[ 1061]        0x424  ED_get_ticks
+[ 1062]        0x425  ED_get_time
+[ 1063]        0x426  ED_gettext_attach
+[ 1064]        0x427  ED_gettext_detach
+[ 1065]        0x428  ED_gettext_exit
+[ 1066]        0x429  ED_gettext_init
+[ 1067]        0x42A  ED_gettext_translate
+[ 1068]        0x42B  ED_hash_data
+[ 1069]        0x42C  ED_hash_string
+[ 1070]        0x42D  ED_hash_uint32
+[ 1071]        0x42E  ED_hash_uint64
+[ 1072]        0x42F  ED_lua_close
+[ 1073]        0x430  ED_lua_copyindex
+[ 1074]        0x431  ED_lua_exit
+[ 1075]        0x432  ED_lua_get_stats
+[ 1076]        0x433  ED_lua_getsandbox
+[ 1077]        0x434  ED_lua_init
+[ 1078]        0x435  ED_lua_loadfile
+[ 1079]        0x436  ED_lua_open
+[ 1080]        0x437  ED_lua_open_restricted
+[ 1081]        0x438  ED_lua_openlibs
+[ 1082]        0x439  ED_lua_pcall
+[ 1083]        0x43A  ED_lua_register_lib
+[ 1084]        0x43B  ED_lua_sandbox_canread
+[ 1085]        0x43C  ED_lua_sandbox_canwrite
+[ 1086]        0x43D  ED_lua_sandbox_error
+[ 1087]        0x43E  ED_lua_setsandbox
+[ 1088]        0x43F  ED_lua_unregister_lib
+[ 1089]        0x440  ED_luaopen_base
+[ 1090]        0x441  ED_luaopen_debug
+[ 1091]        0x442  ED_luaopen_io
+[ 1092]        0x443  ED_luaopen_log
+[ 1093]        0x444  ED_luaopen_os
+[ 1094]        0x445  ED_luaopen_package
+[ 1095]        0x446  ED_start_lua_usage_calculation
+[ 1096]        0x447  ED_vsnprintf
+[ 1097]        0x448  ED_vsnwprintf
+[ 1098]        0x449  GetExceptionString
+[ 1099]        0x44A  SYS_argc
+[ 1100]        0x44B  SYS_argv
+[ 1101]        0x44C  SYS_bindir
+[ 1102]        0x44D  SYS_cmdline
+[ 1103]        0x44E  SYS_getCpuCores
+[ 1104]        0x44F  SYS_getSystemMemoryInfo
+[ 1105]        0x450  SYS_getenv
+[ 1106]        0x451  SYS_putenv
+[ 1107]        0x452  UTF8_getc
+[ 1108]        0x453  UTF8_getc2
+[ 1109]        0x454  UTF8_isValid
+[ 1110]        0x455  UTF8_putc
+[ 1111]        0x456  UTF8_putc2
+[ 1112]        0x457  UTF8_strlen
+[ 1113]        0x458  UTF8_strlenEx
+[ 1114]        0x459  VFS_add_location
+[ 1115]        0x45A  VFS_close
+[ 1116]        0x45B  VFS_copy
+[ 1117]        0x45C  VFS_del_location
+[ 1118]        0x45D  VFS_exists
+[ 1119]        0x45E  VFS_exit
+[ 1120]        0x45F  VFS_filetype
+[ 1121]        0x460  VFS_get_appdatadir
+[ 1122]        0x461  VFS_get_basedir
+[ 1123]        0x462  VFS_get_file_md5
+[ 1124]        0x463  VFS_get_file_size
+[ 1125]        0x464  VFS_get_file_stat
+[ 1126]        0x465  VFS_get_filepath
+[ 1127]        0x466  VFS_get_locations
+[ 1128]        0x467  VFS_get_mbint
+[ 1129]        0x468  VFS_get_mod_time
+[ 1130]        0x469  VFS_get_string
+[ 1131]        0x46A  VFS_get_tempdir
+[ 1132]        0x46B  VFS_get_uint16
+[ 1133]        0x46C  VFS_get_uint32
+[ 1134]        0x46D  VFS_get_uint64
+[ 1135]        0x46E  VFS_get_uint8
+[ 1136]        0x46F  VFS_get_write_dir_edge
+[ 1137]        0x470  VFS_get_writedir
+[ 1138]        0x471  VFS_get_writedir_short
+[ 1139]        0x472  VFS_get_writedir_short_w
+[ 1140]        0x473  VFS_getsize
+[ 1141]        0x474  VFS_init
+[ 1142]        0x475  VFS_is_initialized
+[ 1143]        0x476  VFS_isdir
+[ 1144]        0x477  VFS_mkdir
+[ 1145]        0x478  VFS_open_append
+[ 1146]        0x479  VFS_open_read
+[ 1147]        0x47A  VFS_open_write
+[ 1148]        0x47B  VFS_path_contains
+[ 1149]        0x47C  VFS_path_getreal
+[ 1150]        0x47D  VFS_path_join
+[ 1151]        0x47E  VFS_path_normalize
+[ 1152]        0x47F  VFS_path_normcase
+[ 1153]        0x480  VFS_path_split
+[ 1154]        0x481  VFS_put_mbint
+[ 1155]        0x482  VFS_put_string
+[ 1156]        0x483  VFS_put_uint16
+[ 1157]        0x484  VFS_put_uint32
+[ 1158]        0x485  VFS_put_uint64
+[ 1159]        0x486  VFS_put_uint8
+[ 1160]        0x487  VFS_read
+[ 1161]        0x488  VFS_readdir
+[ 1162]        0x489  VFS_remove
+[ 1163]        0x48A  VFS_seek
+[ 1164]        0x48B  VFS_tell
+[ 1165]        0x48C  VFS_write
+[ 1166]        0x48D  bt_call_prev_filter
+[ 1167]        0x48E  bt_call_user_callback
+[ 1168]        0x48F  bt_fini
+[ 1169]        0x490  bt_get_log_name
+[ 1170]        0x491  bt_init
+[ 1171]        0x492  bt_set_user_callback
+[ 1172]        0x493  bt_timestamp
+[ 1173]        0x494  bt_write_dump
+[ 1174]        0x495  dlclose
+[ 1175]        0x496  dlerror
+[ 1176]        0x497  dlopen
+[ 1177]        0x498  dlsym
+[ 1178]        0x499  ed_create_pool
+[ 1179]        0x49A  ed_destroy_pool
+[ 1180]        0x49B  ed_log
+[ 1181]        0x49C  ed_log_backup
+[ 1182]        0x49D  ed_log_dir
+[ 1183]        0x49E  ed_log_exit
+[ 1184]        0x49F  ed_log_get_mainlog
+[ 1185]        0x4A0  ed_log_hook_format
+[ 1186]        0x4A1  ed_log_hook_install
+[ 1187]        0x4A2  ed_log_hook_remove
+[ 1188]        0x4A3  ed_log_is_active
+[ 1189]        0x4A4  ed_log_level_to_string
+[ 1190]        0x4A5  ed_log_reset
+[ 1191]        0x4A6  ed_log_set_alert_level
+[ 1192]        0x4A7  ed_log_set_alert_window_callback
+[ 1193]        0x4A8  ed_log_set_extra_info_callback
+[ 1194]        0x4A9  ed_log_set_output
+[ 1195]        0x4AA  ed_log_set_output_rules
+[ 1196]        0x4AB  ed_log_start
+[ 1197]        0x4AC  ed_log_stop
+[ 1198]        0x4AD  ed_pool_allocated_size
+[ 1199]        0x4AE  ed_pool_calloc
+[ 1200]        0x4AF  ed_pool_free
+[ 1201]        0x4B0  ed_pool_malloc
+[ 1202]        0x4B1  ed_pool_num_allocations
+[ 1203]        0x4B2  ed_pool_realloc
+[ 1204]        0x4B3  ed_utf8_getc
+[ 1205]        0x4B4  ed_utf8_putc
+[ 1206]        0x4B5  ed_vlogf
+[ 1207]        0x4B6  luaopen_i_18n

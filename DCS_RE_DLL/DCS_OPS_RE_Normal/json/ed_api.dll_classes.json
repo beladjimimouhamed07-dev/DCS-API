@@ -1,0 +1,142 @@
+{
+    "dll": "ed_api.dll",
+    "class_count": 2,
+    "classes": {
+        "edvfs": {
+            "class_name": "edvfs",
+            "namespace": null,
+            "methods": [
+                {
+                    "ordinal": 1,
+                    "rva": 0,
+                    "rva_hex": "0x0",
+                    "name": "?CheckAnimationsMountPoint@edvfs@@YA_NPEBD@Z",
+                    "demangled": "bool __cdecl edvfs::CheckAnimationsMountPoint(char const *)",
+                    "function_name": "CheckAnimationsMountPoint",
+                    "parameters": "char const *",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 2,
+                    "rva": 1,
+                    "rva_hex": "0x1",
+                    "name": "?CheckModelsMountPoint@edvfs@@YA_NPEBD@Z",
+                    "demangled": "bool __cdecl edvfs::CheckModelsMountPoint(char const *)",
+                    "function_name": "CheckModelsMountPoint",
+                    "parameters": "char const *",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 3,
+                    "rva": 2,
+                    "rva_hex": "0x2",
+                    "name": "?CheckTexturesMountPoint@edvfs@@YA_NPEBD@Z",
+                    "demangled": "bool __cdecl edvfs::CheckTexturesMountPoint(char const *)",
+                    "function_name": "CheckTexturesMountPoint",
+                    "parameters": "char const *",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 4,
+                    "rva": 3,
+                    "rva_hex": "0x3",
+                    "name": "?GetAnimationsVFS@edvfs@@YA?AV?$shared_ptr@VIVFSandbox@edvfs@@@std@@XZ",
+                    "demangled": "class std::shared_ptr<class edvfs::IVFSandbox> __cdecl edvfs::GetAnimationsVFS(void)",
+                    "function_name": "GetAnimationsVFS",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 5,
+                    "rva": 4,
+                    "rva_hex": "0x4",
+                    "name": "?GetModelsVFS@edvfs@@YA?AV?$shared_ptr@VIVFSandbox@edvfs@@@std@@XZ",
+                    "demangled": "class std::shared_ptr<class edvfs::IVFSandbox> __cdecl edvfs::GetModelsVFS(void)",
+                    "function_name": "GetModelsVFS",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 6,
+                    "rva": 5,
+                    "rva_hex": "0x5",
+                    "name": "?GetShadersVFS@edvfs@@YA?AV?$shared_ptr@VIVFSandbox@edvfs@@@std@@XZ",
+                    "demangled": "class std::shared_ptr<class edvfs::IVFSandbox> __cdecl edvfs::GetShadersVFS(void)",
+                    "function_name": "GetShadersVFS",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 7,
+                    "rva": 6,
+                    "rva_hex": "0x6",
+                    "name": "?GetTexturesVFS@edvfs@@YA?AV?$shared_ptr@VIVFSandbox@edvfs@@@std@@XZ",
+                    "demangled": "class std::shared_ptr<class edvfs::IVFSandbox> __cdecl edvfs::GetTexturesVFS(void)",
+                    "function_name": "GetTexturesVFS",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "ed": {
+            "class_name": "ed",
+            "namespace": null,
+            "methods": [
+                {
+                    "ordinal": 8,
+                    "rva": 7,
+                    "rva_hex": "0x7",
+                    "name": "?WebViewTexture_create@ed@@YA?AV?$unique_ptr@VWebViewTexture@ed@@UWebViewTextureDeleter@2@@std@@V?$basic_string_view@DU?$char_traits@D@std@@@3@@Z",
+                    "demangled": "class std::unique_ptr<class ed::WebViewTexture, struct ed::WebViewTextureDeleter> __cdecl ed::WebViewTexture_create(class std::basic_string_view<char, struct std::char_traits<char>>)",
+                    "function_name": "WebViewTexture_create",
+                    "parameters": "class std::basic_string_view<char, struct std::char_traits<char>>",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 9,
+                    "rva": 8,
+                    "rva_hex": "0x8",
+                    "name": "?WebView_create@ed@@YA?AV?$unique_ptr@VWebView@ed@@UWebViewDeleter@2@@std@@PEAVWebViewClient@1@AEBUWebViewSettings@1@@Z",
+                    "demangled": "class std::unique_ptr<class ed::WebView, struct ed::WebViewDeleter> __cdecl ed::WebView_create(class ed::WebViewClient *, struct ed::WebViewSettings const &)",
+                    "function_name": "WebView_create",
+                    "parameters": "class ed::WebViewClient *, struct ed::WebViewSettings const &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 10,
+                    "rva": 9,
+                    "rva_hex": "0x9",
+                    "name": "?WebWindow_create@ed@@YA?AV?$unique_ptr@VWebWindow@ed@@U?$default_delete@VWebWindow@ed@@@std@@@std@@PEAVWebWindowClient@1@AEBUWebWindowSettings@1@@Z",
+                    "demangled": "class std::unique_ptr<class ed::WebWindow, struct std::default_delete<class ed::WebWindow>> __cdecl ed::WebWindow_create(class ed::WebWindowClient *, struct ed::WebWindowSettings const &)",
+                    "function_name": "WebWindow_create",
+                    "parameters": "class ed::WebWindowClient *, struct ed::WebWindowSettings const &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        }
+    }
+}

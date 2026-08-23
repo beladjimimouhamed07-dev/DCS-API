@@ -1,0 +1,52 @@
+Microsoft (R) COFF/PE Dumper Version 14.51.36256.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file G:\DCS_OPS_RE_SCY\bin\openvr_api.dll
+
+File Type: DLL
+
+  Section contains the following exports for openvr_api.dll
+
+    00000000 characteristics
+    FFFFFFFF time date stamp
+        0.00 version
+           1 ordinal base
+          23 number of functions
+          23 number of names
+
+    ordinal hint RVA      name
+
+          1    0 000011F0 LiquidVR
+          2    1 00001220 VRCompositorSystemInternal
+          3    2 00001250 VRControlPanel
+          4    3 00001280 VRDashboardManager
+          5    4 000012B0 VROculusDirect
+          6    5 000012E0 VROverlayView
+          7    6 00001310 VRPaths
+          8    7 00001340 VRRenderModelsInternal
+          9    8 00001370 VRSceneGraph
+         10    9 000013A0 VRTrackedCameraInternal
+         11    A 000013D0 VRVirtualDisplay
+         12    B 00001900 VR_GetGenericInterface
+         13    C 00001980 VR_GetInitToken
+         14    D 00001990 VR_GetStringForHmdError
+         15    E 00001990 VR_GetVRInitErrorAsEnglishDescription
+         16    F 000019F0 VR_GetVRInitErrorAsSymbol
+         17   10 00001A50 VR_InitInternal
+         18   11 00001A60 VR_InitInternal2
+         19   12 00001B10 VR_IsHmdPresent
+         20   13 00001BB0 VR_IsInterfaceVersionValid
+         21   14 00001C10 VR_IsRuntimeInstalled
+         22   15 00001DE0 VR_RuntimePath
+         23   16 00001F50 VR_ShutdownInternal
+
+  Summary
+
+       B2000 .SCY
+        5000 .data
+        6000 .pdata
+       22000 .rdata
+        2000 .reloc
+        B000 .rsrc
+       5B000 .text

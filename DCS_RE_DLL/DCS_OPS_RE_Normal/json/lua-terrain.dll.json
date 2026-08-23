@@ -1,0 +1,46 @@
+{
+    "dll": "lua-terrain.dll",
+    "export_count": 2,
+    "exports": [
+        {
+            "ordinal": 1,
+            "rva": 0,
+            "rva_hex": "0x0",
+            "name": "?regMissionScripting@LuaTerrain@@YAXAEAVConfig@Lua@@@Z",
+            "demangled": "void __cdecl LuaTerrain::regMissionScripting(class Lua::Config &)",
+            "symbol_type": "method",
+            "namespace": null,
+            "class_name": "LuaTerrain",
+            "function_name": "regMissionScripting",
+            "parameters": "class Lua::Config &",
+            "const": false,
+            "static": false,
+            "virtual": false,
+            "is_vftable": false,
+            "is_vbtable": false,
+            "is_rtti": false,
+            "demangle_ok": true,
+            "raw_line": "          1    0 000076D0 ?regMissionScripting@LuaTerrain@@YAXAEAVConfig@Lua@@@Z"
+        },
+        {
+            "ordinal": 2,
+            "rva": 1,
+            "rva_hex": "0x1",
+            "name": "luaopen_terrain",
+            "demangled": null,
+            "symbol_type": "unknown",
+            "namespace": null,
+            "class_name": null,
+            "function_name": null,
+            "parameters": null,
+            "const": false,
+            "static": false,
+            "virtual": false,
+            "is_vftable": false,
+            "is_vbtable": false,
+            "is_rtti": false,
+            "demangle_ok": false,
+            "raw_line": "          2    1 00007750 luaopen_terrain"
+        }
+    ]
+}

@@ -1,0 +1,182 @@
+Microsoft (R) COFF/PE Dumper Version 14.51.36256.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file G:\DCS_OPS_RE\bin\dx11backend.dll
+
+File Type: DLL
+
+  Section contains the following exports for dx11backend.dll
+
+    00000000 characteristics
+    FFFFFFFF time date stamp
+        0.00 version
+           1 ordinal base
+         154 number of functions
+         154 number of names
+
+    ordinal hint RVA      name
+
+          1    0 000126A0 ??0DX11Renderer@RenderAPI@@QEAA@XZ
+          2    1 00012A90 ??1DX11Renderer@RenderAPI@@AEAA@XZ
+          3    2 000B2A60 ??_7DX11Renderer@RenderAPI@@6B@
+          4    3 00013020 ?bakeFrameBuffer@DX11Renderer@RenderAPI@@AEAAXPEAVDX11FrameBuffer@2@@Z
+          5    4 00005010 ?beginDebugEvent@DX11Renderer@RenderAPI@@UEAAXPEB_W@Z
+          6    5 000131E0 ?beginFrame@DX11Renderer@RenderAPI@@UEAAXXZ
+          7    6 00013210 ?bindResource@DX11Renderer@RenderAPI@@UEAAXIPEAUITexture@2@@Z
+          8    7 00013220 ?bindResource@DX11Renderer@RenderAPI@@UEAAXIPEBUIConstantBuffer@2@@Z
+          9    8 00013230 ?bindResource@DX11Renderer@RenderAPI@@UEAAXIPEBUIStructuredBuffer@2@@Z
+         10    9 00013210 ?bindResourceAsStencil@DX11Renderer@RenderAPI@@UEAAXIPEAUITexture@2@@Z
+         11    A 00013320 ?clearColor@DX11Renderer@RenderAPI@@UEAAXPEBVVec4f@osg@@H@Z
+         12    B 00013610 ?clearDepth@DX11Renderer@RenderAPI@@UEAAXM@Z
+         13    C 00013720 ?clearFrameBuffer@DX11Renderer@RenderAPI@@UEAAXAEBVVec4f@osg@@MI@Z
+         14    D 00013780 ?clearStencil@DX11Renderer@RenderAPI@@UEAAXI@Z
+         15    E 00013880 ?clearUAV@DX11Renderer@RenderAPI@@UEAA_NPEAUITexture@2@AEBVVec4f@osg@@@Z
+         16    F 000138C0 ?clearUAV@DX11Renderer@RenderAPI@@UEAA_NPEAUITexture@2@AEBVVec4ui@osg@@@Z
+         17   10 000138E0 ?compute@DX11Renderer@RenderAPI@@UEAAXHPEAUIShader@2@HHH@Z
+         18   11 00013A80 ?computeIndirect@DX11Renderer@RenderAPI@@UEAAXHPEAUIShader@2@PEAUIBuffer@2@I@Z
+         19   12 00013C00 ?copyBuffer@DX11Renderer@RenderAPI@@UEAAXPEBUIBuffer@2@0@Z
+         20   13 00013C20 ?copyBuffer@DX11Renderer@RenderAPI@@UEAAXPEBUIBuffer@2@0HHH@Z
+         21   14 00013C00 ?copyStructuredBuffer@DX11Renderer@RenderAPI@@UEAAXPEBUIStructuredBuffer@2@0@Z
+         22   15 00013C20 ?copyStructuredBuffer@DX11Renderer@RenderAPI@@UEAAXPEBUIStructuredBuffer@2@0HHH@Z
+         23   16 00013C50 ?copyStructuredToConstantBuffer@DX11Renderer@RenderAPI@@UEAAXPEBUIStructuredBuffer@2@PEBUIConstantBuffer@2@@Z
+         24   17 00013C70 ?copySubresourceRegion@DX11Renderer@RenderAPI@@IEAAXHPEAUID3D11Buffer@@0HHH@Z
+         25   18 00013D20 ?copyTexture@DX11Renderer@RenderAPI@@UEAA_NPEAUITexture@2@HPEBVVec4i@osg@@0H1@Z
+         26   19 00014120 ?createBuffer@DX11Renderer@RenderAPI@@UEAA?AV?$Ptr@UIBuffer@RenderAPI@@UDeleter@12@@ed@@W4FMT_ENUM@render@@HW4BUFFERUSAGE_ENUM@6@IPEBXPEBD@Z
+         27   1A 000141D0 ?createConstantBuffer@DX11Renderer@RenderAPI@@UEAA?AV?$Ptr@UIConstantBuffer@RenderAPI@@UDeleter@12@@ed@@HW4BUFFERUSAGE_ENUM@render@@PEBDPEBX@Z
+         28   1B 000142B0 ?createFrameBuffer@DX11Renderer@RenderAPI@@UEAAPEAUIFrameBuffer@2@QEBUTextureOrDesc@2@IPEBU42@@Z
+         29   1C 000144D0 ?createFrameBuffer@DX11Renderer@RenderAPI@@UEAAPEAUIFrameBuffer@2@QEBV?$Ptr@UITexture@RenderAPI@@UDeleter@12@@ed@@IV45@@Z
+         30   1D 00014590 ?createIndexBuffer@DX11Renderer@RenderAPI@@UEAA?AV?$Ptr@UIIndexBuffer@RenderAPI@@UDeleter@12@@ed@@HHW4PRIMTYPE_ENUM@render@@W4BUFFERUSAGE_ENUM@6@IPEBDPEBX@Z
+         31   1E 00014650 ?createRenderTarget@DX11Renderer@RenderAPI@@UEAA?AV?$Ptr@UITexture@RenderAPI@@UDeleter@12@@ed@@AEBUTextureDescBackend@2@PEBD@Z
+         32   1F 00014670 ?createStructuredBuffer@DX11Renderer@RenderAPI@@UEAA?AV?$Ptr@UIStructuredBuffer@RenderAPI@@UDeleter@12@@ed@@HHW4BUFFERUSAGE_ENUM@render@@IPEBXHPEBD@Z
+         33   20 00014770 ?createVertexBuffer@DX11Renderer@RenderAPI@@UEAA?AV?$Ptr@UIVertexBuffer@RenderAPI@@UDeleter@12@@ed@@HPEAW4ELEMENTTYPE_ENUM@render@@HW4BUFFERUSAGE_ENUM@6@IPEBDPEBX@Z
+         34   21 000050E0 ?dev@DX11Renderer@RenderAPI@@UEAAPEAXXZ
+         35   22 000050F0 ?devCtx@DX11Renderer@RenderAPI@@UEAAPEAXXZ
+         36   23 00014870 ?draw@DX11Renderer@RenderAPI@@UEAAXHPEAUIShader@2@W4PRIMTYPE_ENUM@render@@HHHPEBD@Z
+         37   24 00014D30 ?drawIndirect@DX11Renderer@RenderAPI@@UEAAXHPEAUIShader@2@W4PRIMTYPE_ENUM@render@@PEAUIBuffer@2@HPEBD@Z
+         38   25 000150B0 ?drawMultIndirect@DX11Renderer@RenderAPI@@UEAAXHPEAUIShader@2@W4PRIMTYPE_ENUM@render@@PEAUIBuffer@2@P6AHHPEAX@Z3PEBD@Z
+         39   26 00015440 ?drawWithOffset@DX11Renderer@RenderAPI@@UEAAXHPEAUIShader@2@W4PRIMTYPE_ENUM@render@@HHH@Z
+         40   27 00005010 ?emitBarrier@DX11Renderer@RenderAPI@@UEAAXAEBUBarrierInfo2@render@@@Z
+         41   28 00005010 ?endDebugEvent@DX11Renderer@RenderAPI@@UEAAXXZ
+         42   29 00015670 ?endFrame@DX11Renderer@RenderAPI@@UEAA_NXZ
+         43   2A 00015860 ?enumModes@DX11Renderer@RenderAPI@@UEAAHPEAUModeInfo@2@H@Z
+         44   2B 00015870 ?flush@DX11Renderer@RenderAPI@@UEAAXXZ
+         45   2C 00005010 ?forceDrawRoutine@DX11Renderer@RenderAPI@@UEAAXH@Z
+         46   2D 00015880 ?forceFlipPrimitiveWinding@DX11Renderer@RenderAPI@@UEAAX_N@Z
+         47   2E 000158C0 ?forceWireFrame@DX11Renderer@RenderAPI@@UEAAX_N@Z
+         48   2F 000158F0 ?freeStringMem@DX11Renderer@RenderAPI@@UEAAXPEBD@Z
+         49   30 00015900 ?getAdapterDesc@DX11Renderer@RenderAPI@@AEAA_NPEAUID3D11Device@@PEAUDXGI_ADAPTER_DESC@@@Z
+         50   31 000159D0 ?getAdapterInfo@DX11Renderer@RenderAPI@@UEAA_NAEAUAdapterInfo@2@@Z
+         51   32 00005100 ?getBackendName@DX11Renderer@RenderAPI@@UEBAPEBDXZ
+         52   33 00005110 ?getBufferManager@DX11Renderer@RenderAPI@@QEAAPEAVDX11BufferManager@2@XZ
+         53   34 00015B70 ?getCapability@DX11Renderer@RenderAPI@@UEAAHW4CAPABILITY_ENUM@render@@@Z
+         54   35 00015C50 ?getCoreCount@DX11Renderer@RenderAPI@@UEBAHXZ
+         55   36 00015C60 ?getCoreIdx@DX11Renderer@RenderAPI@@UEBAHXZ
+         56   37 00015C70 ?getCurrentColorBuffer@DX11Renderer@RenderAPI@@UEAA?AV?$Ptr@UITexture@RenderAPI@@UDeleter@12@@ed@@H@Z
+         57   38 00015CF0 ?getCurrentDepthStencilBuffer@DX11Renderer@RenderAPI@@UEAA?AV?$Ptr@UITexture@RenderAPI@@UDeleter@12@@ed@@XZ
+         58   39 00015D60 ?getCurrentFrameBuffer@DX11Renderer@RenderAPI@@UEAAPEAUIFrameBuffer@2@XZ
+         59   3A 000050E0 ?getDevice@DX11Renderer@RenderAPI@@QEAAPEAUID3D11Device@@XZ
+         60   3B 000050F0 ?getDeviceContext@DX11Renderer@RenderAPI@@QEAAPEAUID3D11DeviceContext@@XZ
+         61   3C 00015DB0 ?getDeviceFactory@DX11Renderer@RenderAPI@@AEAAPEAUIDXGIFactory@@PEAUID3D11Device@@@Z
+         62   3D 000160D0 ?getGpuQuery@DX11Renderer@RenderAPI@@UEAAAEAVIGpuQuery@render@@XZ
+         63   3E 000160E0 ?getHMD@DX11Renderer@RenderAPI@@UEAAPEAUIHMDRenderAPI@2@XZ
+         64   3F 000160F0 ?getNGX@DX11Renderer@RenderAPI@@UEAAPEAUINGX_API@2@XZ
+         65   40 00016110 ?getRenderOption@DX11Renderer@RenderAPI@@AEAA_NAEBURenderConfig@render@@PEBDPEAV?$basic_string@D@ed@@@Z
+         66   41 00016260 ?getRenderTarget@DX11Renderer@RenderAPI@@UEAA?AV?$Ptr@UITexture@RenderAPI@@UDeleter@12@@ed@@PEBD@Z
+         67   42 000162B0 ?getRenderTargetInternal@DX11Renderer@RenderAPI@@AEAA?AV?$Ptr@UITexture@RenderAPI@@UDeleter@12@@ed@@PEBD@Z
+         68   43 00016470 ?getResourcesList@DX11Renderer@RenderAPI@@UEAAPEBDXZ
+         69   44 00016890 ?getShaderManager@DX11Renderer@RenderAPI@@UEAAPEAUIShaderManager@2@XZ
+         70   45 000168A0 ?getShaderResourcesCount@DX11Renderer@RenderAPI@@QEBAIW4enShaderType@2@@Z
+         71   46 00005150 ?getSlotBinder@DX11Renderer@RenderAPI@@QEBAPEBVDX11SlotBinder@2@XZ
+         72   47 000168B0 ?getStateManager@DX11Renderer@RenderAPI@@UEAAPEAUIStateManager@2@XZ
+         73   48 000168C0 ?getStatistic@DX11Renderer@RenderAPI@@UEAAPEBDPEBD@Z
+         74   49 00016F90 ?getStatistics@DX11Renderer@RenderAPI@@UEAAAEAVIStatistics@render@@XZ
+         75   4A 00016FA0 ?getTargetDims@DX11Renderer@RenderAPI@@UEAA?AVVec2i@osg@@XZ
+         76   4B 00016FF0 ?getTextureManager@DX11Renderer@RenderAPI@@UEAAPEAUITextureManager@2@XZ
+         77   4C 00017000 ?getVSyncMode@DX11Renderer@RenderAPI@@UEAAHXZ
+         78   4D 00017010 ?getViewportDims@DX11Renderer@RenderAPI@@UEAA?AVVec2i@osg@@XZ
+         79   4E 00017070 ?getViewportPos@DX11Renderer@RenderAPI@@UEAA?AVVec2i@osg@@XZ
+         80   4F 000170D0 ?init@DX11Renderer@RenderAPI@@UEAA_NAEBURenderConfig@render@@@Z
+         81   50 00017CF0 ?initDevice2@DX11Renderer@RenderAPI@@AEAAJHH_NHHHPEAUHWND__@@W4MSAA_ENUM@render@@0@Z
+         82   51 00018150 ?initDevice@DX11Renderer@RenderAPI@@AEAAJW4D3D_DRIVER_TYPE@@HH_NHHPEAUHWND__@@W4MSAA_ENUM@render@@1@Z
+         83   52 000186F0 ?initializeScreenFrameBuffer@DX11Renderer@RenderAPI@@AEAA_NHH_N@Z
+         84   53 00018B60 ?interframeResourceSync@DX11Renderer@RenderAPI@@UEAAX_N@Z
+         85   54 00005190 ?isDump@DX11Renderer@RenderAPI@@QEAA_NW4enDumpTypes@2@@Z
+         86   55 00018B70 ?isRenderTargetExists@DX11Renderer@RenderAPI@@UEAA_NPEBD@Z
+         87   56 00018BD0 ?popFrameBuffer@DX11Renderer@RenderAPI@@UEAA_NXZ
+         88   57 00018D60 ?popScissor@DX11Renderer@RenderAPI@@UEAAXXZ
+         89   58 00018E20 ?popStreamOutput@DX11Renderer@RenderAPI@@UEAA_NXZ
+         90   59 00018E60 ?popViewport@DX11Renderer@RenderAPI@@UEAAXXZ
+         91   5A 00018F00 ?printLeaks@DX11Renderer@RenderAPI@@IEAAXXZ
+         92   5B 00019580 ?pushFrameBuffer@DX11Renderer@RenderAPI@@UEAA_NIQEBURenderTargetBindInfo@2@U32@@Z
+         93   5C 00019690 ?pushFrameBuffer@DX11Renderer@RenderAPI@@UEAA_NPEAUIFrameBuffer@2@HH@Z
+         94   5D 00019770 ?pushScissor@DX11Renderer@RenderAPI@@UEAAXHHHH@Z
+         95   5E 00019890 ?pushStreamOutput@DX11Renderer@RenderAPI@@UEAA_NPEAUIVertexBuffer@2@@Z
+         96   5F 000198D0 ?pushViewport@DX11Renderer@RenderAPI@@UEAAXHHHHMM_N@Z
+         97   60 00005250 ?queryCommandStreamRenderer@DX11Renderer@RenderAPI@@UEAAPEAUICommandStreamRenderer@2@XZ
+         98   61 00019A00 ?resetSlots@DX11Renderer@RenderAPI@@QEAAXW4enShaderType@2@@Z
+         99   62 00019EF0 ?resetSlotsSRV@DX11Renderer@RenderAPI@@QEAAXW4enShaderType@2@@Z
+        100   63 00019FE0 ?resize@DX11Renderer@RenderAPI@@UEAA_NHH_N@Z
+        101   64 0001A590 ?setCSUnorderedAccessViews@DX11Renderer@RenderAPI@@QEAAXIIPEBQEAUID3D11UnorderedAccessView@@PEBI@Z
+        102   65 0001A5D0 ?setDebugEvents@DX11Renderer@RenderAPI@@QEAAX_N@Z
+        103   66 0001A640 ?setFrameBuffer@DX11Renderer@RenderAPI@@AEAAXPEAVDX11FrameBuffer@2@HH@Z
+        104   67 0001A990 ?setFullscreen@DX11Renderer@RenderAPI@@UEAAX_N@Z
+        105   68 0001A9C0 ?setIndices@DX11Renderer@RenderAPI@@UEAA_NPEAUIShader@2@PEAUIIndexBuffer@2@@Z
+        106   69 0001AA10 ?setNewFrameBuffer@DX11Renderer@RenderAPI@@AEAAXPEAVDX11FrameBuffer@2@@Z
+        107   6A 0001AB40 ?setOMRenderTargetsAndUnorderedAccessViews@DX11Renderer@RenderAPI@@QEAAXIPEBQEAUID3D11RenderTargetView@@PEAUID3D11DepthStencilView@@IIPEBQEAUID3D11UnorderedAccessView@@PEBI@Z
+        108   6B 00005010 ?setRenderGraphResourceTracking@DX11Renderer@RenderAPI@@UEAAX_N@Z
+        109   6C 0001AB80 ?setShader@DX11Renderer@RenderAPI@@UEAAHPEAUIShader@2@_K@Z
+        110   6D 0001AC20 ?setShaderResources@DX11Renderer@RenderAPI@@QEAAXW4enShaderType@2@P8ID3D11DeviceContext@@EAAXIIPEBQEAUID3D11ShaderResourceView@@@ZII1@Z
+        111   6E 0001AD10 ?setVertexBuffers@DX11Renderer@RenderAPI@@IEAAXPEAVDX11Shader@2@AEAVDX11ShaderTechnique@2@H@Z
+        112   6F 0001AE50 ?setupSlotBinder@DX11Renderer@RenderAPI@@UEAAXHH@Z
+        113   70 0001AE60 ?shutdown@DX11Renderer@RenderAPI@@UEAAXXZ
+        114   71 0001B260 ?strToPtr@DX11Renderer@RenderAPI@@IEAAPEBDAEBV?$basic_string@D@ed@@@Z
+        115   72 00005260 ?tesselatorIsActive@DX11Renderer@RenderAPI@@QEBA_NXZ
+        116   73 0001B2C0 ?test@DX11Renderer@RenderAPI@@UEAAXPEBD@Z
+        117   74 00005010 ?trackResourceByRenderGraph@DX11Renderer@RenderAPI@@UEAAXPEAUIBuffer@2@@Z
+        118   75 00005010 ?trackResourceByRenderGraph@DX11Renderer@RenderAPI@@UEAAXPEAUIConstantBuffer@2@@Z
+        119   76 00005010 ?trackResourceByRenderGraph@DX11Renderer@RenderAPI@@UEAAXPEAUIStructuredBuffer@2@@Z
+        120   77 00005010 ?trackResourceByRenderGraph@DX11Renderer@RenderAPI@@UEAAXPEAUITexture@2@@Z
+        121   78 0001B420 ?turnOffSpecificWarnings@DX11Renderer@RenderAPI@@AEAAXXZ
+        122   79 0001B4C0 ?unbindResource@DX11Renderer@RenderAPI@@UEAAXIW4RESOURCE_TYPE_ENUM@render@@@Z
+        123   7A 000053A0 ?useTesselatorStage@DX11Renderer@RenderAPI@@QEAAX_N@Z
+        124   7B 0001B4D0 ?waitForIdle@DX11Renderer@RenderAPI@@UEAAXXZ
+        125   7C 000A6190 NVSDK_NGX_D3D11_AllocateParameters
+        126   7D 000A61F0 NVSDK_NGX_D3D11_CreateFeature
+        127   7E 000A6270 NVSDK_NGX_D3D11_DestroyParameters
+        128   7F 000A62D0 NVSDK_NGX_D3D11_EvaluateFeature
+        129   80 000A6340 NVSDK_NGX_D3D11_EvaluateFeature_C
+        130   81 000A6380 NVSDK_NGX_D3D11_GetCapabilityParameters
+        131   82 000A63E0 NVSDK_NGX_D3D11_GetFeatureRequirements
+        132   83 000A64C0 NVSDK_NGX_D3D11_GetParameters
+        133   84 000A6510 NVSDK_NGX_D3D11_GetScratchBufferSize
+        134   85 000A6680 NVSDK_NGX_D3D11_ReleaseFeature
+        135   86 000A66D0 NVSDK_NGX_D3D11_Shutdown
+        136   87 000A66E0 NVSDK_NGX_D3D11_Shutdown1
+        137   88 000A5200 NVSDK_NGX_Parameter_GetD
+        138   89 000A5260 NVSDK_NGX_Parameter_GetD3d11Resource
+        139   8A 000A52C0 NVSDK_NGX_Parameter_GetD3d12Resource
+        140   8B 000A5320 NVSDK_NGX_Parameter_GetF
+        141   8C 000A5380 NVSDK_NGX_Parameter_GetI
+        142   8D 000A53E0 NVSDK_NGX_Parameter_GetUI
+        143   8E 000A5440 NVSDK_NGX_Parameter_GetULL
+        144   8F 000A54A0 NVSDK_NGX_Parameter_GetVoidPointer
+        145   90 000A5500 NVSDK_NGX_Parameter_SetD
+        146   91 000A5550 NVSDK_NGX_Parameter_SetD3d11Resource
+        147   92 000A55B0 NVSDK_NGX_Parameter_SetD3d12Resource
+        148   93 000A5610 NVSDK_NGX_Parameter_SetF
+        149   94 000A5660 NVSDK_NGX_Parameter_SetI
+        150   95 000A56C0 NVSDK_NGX_Parameter_SetUI
+        151   96 000A5720 NVSDK_NGX_Parameter_SetULL
+        152   97 000A5780 NVSDK_NGX_Parameter_SetVoidPointer
+        153   98 000A9E00 NVSDK_NGX_UpdateFeature
+        154   99 0001B590 createRenderer
+
+  Summary
+
+       70000 .data
+        8000 .pdata
+       6D000 .rdata
+        3000 .reloc
+        1000 .rsrc
+       AF000 .text

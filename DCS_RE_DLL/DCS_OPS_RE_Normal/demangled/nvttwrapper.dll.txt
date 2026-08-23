@@ -1,0 +1,5 @@
+// DCS_OPS_RE: nvttwrapper.dll
+// Generated from dumpbin /exports
+
+[    1]          0x0  dxtVolumeCompress
+[    2]          0x1  dxtcompress

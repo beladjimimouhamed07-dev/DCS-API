@@ -1,0 +1,223 @@
+// DCS_OPS_RE: nvtt.dll
+// Generated from dumpbin /exports
+
+[    1]          0x0  public: __cdecl nvtt::CompressionOptions::CompressionOptions(void)
+[    2]          0x1  public: __cdecl nvtt::Compressor::Compressor(void)
+[    3]          0x2  public: __cdecl nvtt::CubeSurface::CubeSurface(struct nvtt::CubeSurface const &)
+[    4]          0x3  public: __cdecl nvtt::CubeSurface::CubeSurface(void)
+[    5]          0x4  public: __cdecl nvtt::InputOptions::InputOptions(void)
+[    6]          0x5  public: __cdecl nvtt::OutputOptions::OutputOptions(void)
+[    7]          0x6  public: __cdecl nvtt::Surface::Surface(struct nvtt::Surface const &)
+[    8]          0x7  public: __cdecl nvtt::Surface::Surface(void)
+[    9]          0x8  public: __cdecl nvtt::CompressionOptions::~CompressionOptions(void)
+[   10]          0x9  public: __cdecl nvtt::Compressor::~Compressor(void)
+[   11]          0xA  public: __cdecl nvtt::CubeSurface::~CubeSurface(void)
+[   12]          0xB  public: __cdecl nvtt::InputOptions::~InputOptions(void)
+[   13]          0xC  public: __cdecl nvtt::OutputOptions::~OutputOptions(void)
+[   14]          0xD  public: __cdecl nvtt::Surface::~Surface(void)
+[   15]          0xE  public: void __cdecl nvtt::CubeSurface::operator=(struct nvtt::CubeSurface const &)
+[   16]          0xF  public: void __cdecl nvtt::Surface::operator=(struct nvtt::Surface const &)
+[   17]         0x10  public: void __cdecl nvtt::Surface::abs(int)
+[   18]         0x11  public: bool __cdecl nvtt::Surface::addChannel(struct nvtt::Surface const &, int, int, float)
+[   19]         0x12  public: enum nvtt::AlphaMode __cdecl nvtt::Surface::alphaMode(void) const
+[   20]         0x13  public: float __cdecl nvtt::Surface::alphaTestCoverage(float, int) const
+[   21]         0x14  float __cdecl nvtt::angularError(struct nvtt::Surface const &, struct nvtt::Surface const &)
+[   22]         0x15  public: float __cdecl nvtt::CubeSurface::average(int) const
+[   23]         0x16  public: float __cdecl nvtt::Surface::average(int, int, float) const
+[   24]         0x17  public: void __cdecl nvtt::Surface::binarize(int, float, bool)
+[   25]         0x18  public: void __cdecl nvtt::Surface::blend(float, float, float, float, float)
+[   26]         0x19  public: void __cdecl nvtt::Surface::blockScaleCoCg(int, float)
+[   27]         0x1A  public: bool __cdecl nvtt::Surface::buildNextMipmap(enum nvtt::MipmapFilter, int)
+[   28]         0x1B  public: bool __cdecl nvtt::Surface::buildNextMipmap(enum nvtt::MipmapFilter, float, float const *, int)
+[   29]         0x1C  public: bool __cdecl nvtt::Surface::buildNextMipmapSolidColor(float const *const)
+[   30]         0x1D  public: bool __cdecl nvtt::Surface::canMakeNextMipmap(int)
+[   31]         0x1E  public: void __cdecl nvtt::Surface::canvasSize(int, int, int)
+[   32]         0x1F  public: float const * __cdecl nvtt::Surface::channel(int) const
+[   33]         0x20  float __cdecl nvtt::cieLabError(struct nvtt::Surface const &, struct nvtt::Surface const &)
+[   34]         0x21  public: void __cdecl nvtt::CubeSurface::clamp(int, float, float)
+[   35]         0x22  public: void __cdecl nvtt::Surface::clamp(int, float, float)
+[   36]         0x23  public: bool __cdecl nvtt::Compressor::compress(struct nvtt::CubeSurface const &, int, struct nvtt::CompressionOptions const &, struct nvtt::OutputOptions const &) const
+[   37]         0x24  public: bool __cdecl nvtt::Compressor::compress(struct nvtt::Surface const &, int, int, struct nvtt::CompressionOptions const &, struct nvtt::OutputOptions const &) const
+[   38]         0x25  public: bool __cdecl nvtt::Compressor::compress(int, int, int, int, int, float const *, struct nvtt::CompressionOptions const &, struct nvtt::OutputOptions const &) const
+[   39]         0x26  public: void __cdecl nvtt::Surface::convolve(int, int, float *)
+[   40]         0x27  public: bool __cdecl nvtt::Surface::copy(struct nvtt::Surface const &, int, int, int, int, int, int, int, int, int)
+[   41]         0x28  public: bool __cdecl nvtt::Surface::copyChannel(struct nvtt::Surface const &, int)
+[   42]         0x29  public: bool __cdecl nvtt::Surface::copyChannel(struct nvtt::Surface const &, int, int)
+[   43]         0x2A  public: struct nvtt::CubeSurface __cdecl nvtt::CubeSurface::cosinePowerFilter(int, float, enum nvtt::EdgeFixup) const
+[   44]         0x2B  public: int __cdecl nvtt::CubeSurface::countMipmaps(void) const
+[   45]         0x2C  public: int __cdecl nvtt::Surface::countMipmaps(int) const
+[   46]         0x2D  public: int __cdecl nvtt::Surface::countMipmaps(void) const
+[   47]         0x2E  public: struct nvtt::Surface __cdecl nvtt::Surface::createCleanMap(void) const
+[   48]         0x2F  public: struct nvtt::Surface __cdecl nvtt::Surface::createSubImage(int, int, int, int, int, int) const
+[   49]         0x30  public: struct nvtt::Surface __cdecl nvtt::Surface::createToksvigMap(float) const
+[   50]         0x31  public: unsigned int __cdecl nvtt::CompressionOptions::d3d9Format(void) const
+[   51]         0x32  public: float const * __cdecl nvtt::Surface::data(void) const
+[   52]         0x33  public: int __cdecl nvtt::Surface::depth(void) const
+[   53]         0x34  struct nvtt::Surface __cdecl nvtt::diff(struct nvtt::Surface const &, struct nvtt::Surface const &, float)
+[   54]         0x35  public: int __cdecl nvtt::CubeSurface::edgeLength(void) const
+[   55]         0x36  public: void __cdecl nvtt::Compressor::enableCudaAcceleration(bool)
+[   56]         0x37  char const * __cdecl nvtt::errorString(enum nvtt::Error)
+[   57]         0x38  public: int __cdecl nvtt::Compressor::estimateSize(struct nvtt::CubeSurface const &, int, struct nvtt::CompressionOptions const &) const
+[   58]         0x39  public: int __cdecl nvtt::Compressor::estimateSize(struct nvtt::InputOptions const &, struct nvtt::CompressionOptions const &) const
+[   59]         0x3A  public: int __cdecl nvtt::Compressor::estimateSize(struct nvtt::Surface const &, int, struct nvtt::CompressionOptions const &) const
+[   60]         0x3B  public: int __cdecl nvtt::Compressor::estimateSize(int, int, int, int, struct nvtt::CompressionOptions const &) const
+[   61]         0x3C  public: void __cdecl nvtt::Surface::expandNormals(float, float)
+[   62]         0x3D  public: struct nvtt::Surface & __cdecl nvtt::CubeSurface::face(int)
+[   63]         0x3E  public: struct nvtt::Surface const & __cdecl nvtt::CubeSurface::face(int) const
+[   64]         0x3F  public: struct nvtt::CubeSurface __cdecl nvtt::CubeSurface::fastResample(int, enum nvtt::EdgeFixup) const
+[   65]         0x40  public: void __cdecl nvtt::Surface::fill(float, float, float, float)
+[   66]         0x41  public: void __cdecl nvtt::Surface::flipX(void)
+[   67]         0x42  public: void __cdecl nvtt::Surface::flipY(void)
+[   68]         0x43  public: void __cdecl nvtt::Surface::flipZ(void)
+[   69]         0x44  public: void __cdecl nvtt::CubeSurface::fold(struct nvtt::Surface const &, enum nvtt::CubeLayout)
+[   70]         0x45  public: void __cdecl nvtt::Surface::fromLUVW(float)
+[   71]         0x46  public: void __cdecl nvtt::Surface::fromLogScale(int, float)
+[   72]         0x47  public: void __cdecl nvtt::Surface::fromRGBE(int, int)
+[   73]         0x48  public: void __cdecl nvtt::Surface::fromRGBM(float, float)
+[   74]         0x49  public: void __cdecl nvtt::Surface::fromYCoCg(void)
+[   75]         0x4A  public: int __cdecl nvtt::Surface::height(void) const
+[   76]         0x4B  public: void __cdecl nvtt::Surface::histogram(int, float, float, int, int *) const
+[   77]         0x4C  struct nvtt::Surface __cdecl nvtt::histogram(struct nvtt::Surface const &, int, int)
+[   78]         0x4D  struct nvtt::Surface __cdecl nvtt::histogram(struct nvtt::Surface const &, float, float, int, int)
+[   79]         0x4E  public: struct nvtt::CubeSurface __cdecl nvtt::CubeSurface::irradianceFilter(int, enum nvtt::EdgeFixup) const
+[   80]         0x4F  public: bool __cdecl nvtt::Compressor::isCudaAccelerationEnabled(void) const
+[   81]         0x50  public: bool __cdecl nvtt::Surface::isNormalMap(void) const
+[   82]         0x51  public: bool __cdecl nvtt::CubeSurface::isNull(void) const
+[   83]         0x52  public: bool __cdecl nvtt::Surface::isNull(void) const
+[   84]         0x53  public: bool __cdecl nvtt::CubeSurface::load(char const *, int)
+[   85]         0x54  public: bool __cdecl nvtt::Surface::load(char const *, bool *)
+[   86]         0x55  public: void __cdecl nvtt::Surface::normalizeNormalMap(void)
+[   87]         0x56  public: bool __cdecl nvtt::Compressor::outputHeader(struct nvtt::CubeSurface const &, int, struct nvtt::CompressionOptions const &, struct nvtt::OutputOptions const &) const
+[   88]         0x57  public: bool __cdecl nvtt::Compressor::outputHeader(struct nvtt::Surface const &, int, struct nvtt::CompressionOptions const &, struct nvtt::OutputOptions const &) const
+[   89]         0x58  public: bool __cdecl nvtt::Compressor::outputHeader(enum nvtt::TextureType, int, int, int, int, int, bool, struct nvtt::CompressionOptions const &, struct nvtt::OutputOptions const &) const
+[   90]         0x59  public: void __cdecl nvtt::Surface::packNormals(float, float)
+[   91]         0x5A  public: void __cdecl nvtt::Surface::premultiplyAlpha(void)
+[   92]         0x5B  public: bool __cdecl nvtt::Compressor::process(struct nvtt::InputOptions const &, struct nvtt::CompressionOptions const &, struct nvtt::OutputOptions const &) const
+[   93]         0x5C  public: void __cdecl nvtt::Surface::quantize(int, int, bool, bool)
+[   94]         0x5D  public: void __cdecl nvtt::CubeSurface::range(int, float *, float *) const
+[   95]         0x5E  public: void __cdecl nvtt::Surface::range(int, float *, float *, int, float) const
+[   96]         0x5F  public: void __cdecl nvtt::Surface::reconstructNormals(enum nvtt::NormalTransform)
+[   97]         0x60  public: void __cdecl nvtt::CompressionOptions::reset(void)
+[   98]         0x61  public: void __cdecl nvtt::InputOptions::reset(void)
+[   99]         0x62  public: void __cdecl nvtt::OutputOptions::reset(void)
+[  100]         0x63  public: void __cdecl nvtt::InputOptions::resetTextureLayout(void)
+[  101]         0x64  public: void __cdecl nvtt::Surface::resize(int, int, int, enum nvtt::ResizeFilter)
+[  102]         0x65  public: void __cdecl nvtt::Surface::resize(int, int, int, enum nvtt::ResizeFilter, float, float const *)
+[  103]         0x66  public: void __cdecl nvtt::Surface::resize(int, enum nvtt::RoundMode, enum nvtt::ResizeFilter)
+[  104]         0x67  public: void __cdecl nvtt::Surface::resize(int, enum nvtt::RoundMode, enum nvtt::ResizeFilter, float, float const *)
+[  105]         0x68  public: void __cdecl nvtt::Surface::resize_make_square(int, enum nvtt::RoundMode, enum nvtt::ResizeFilter)
+[  106]         0x69  float __cdecl nvtt::rmsAlphaError(struct nvtt::Surface const &, struct nvtt::Surface const &)
+[  107]         0x6A  float __cdecl nvtt::rmsError(struct nvtt::Surface const &, struct nvtt::Surface const &)
+[  108]         0x6B  float __cdecl nvtt::rmsToneMappedError(struct nvtt::Surface const &, struct nvtt::Surface const &, float)
+[  109]         0x6C  public: bool __cdecl nvtt::CubeSurface::save(char const *) const
+[  110]         0x6D  public: bool __cdecl nvtt::Surface::save(char const *, bool, bool) const
+[  111]         0x6E  public: void __cdecl nvtt::Surface::scaleAlphaToCoverage(float, float, int)
+[  112]         0x6F  public: void __cdecl nvtt::Surface::scaleBias(int, float, float)
+[  113]         0x70  public: void __cdecl nvtt::InputOptions::setAlphaMode(enum nvtt::AlphaMode)
+[  114]         0x71  public: void __cdecl nvtt::Surface::setAlphaMode(enum nvtt::AlphaMode)
+[  115]         0x72  public: void __cdecl nvtt::Surface::setAtlasBorder(int, int, float, float, float, float)
+[  116]         0x73  public: void __cdecl nvtt::Surface::setBorder(float, float, float, float)
+[  117]         0x74  public: void __cdecl nvtt::CompressionOptions::setColorWeights(float, float, float, float)
+[  118]         0x75  public: void __cdecl nvtt::OutputOptions::setContainer(enum nvtt::Container)
+[  119]         0x76  public: void __cdecl nvtt::InputOptions::setConvertToNormalMap(bool)
+[  120]         0x77  public: void __cdecl nvtt::OutputOptions::setErrorHandler(struct nvtt::ErrorHandler *)
+[  121]         0x78  public: void __cdecl nvtt::CompressionOptions::setExternalCompressor(char const *)
+[  122]         0x79  public: void __cdecl nvtt::OutputOptions::setFileHandle(void *)
+[  123]         0x7A  public: void __cdecl nvtt::OutputOptions::setFileName(char const *)
+[  124]         0x7B  public: void __cdecl nvtt::CompressionOptions::setFormat(enum nvtt::Format)
+[  125]         0x7C  public: void __cdecl nvtt::InputOptions::setFormat(enum nvtt::InputFormat)
+[  126]         0x7D  public: void __cdecl nvtt::InputOptions::setGamma(float, float)
+[  127]         0x7E  public: void __cdecl nvtt::InputOptions::setHeightEvaluation(float, float, float, float)
+[  128]         0x7F  public: bool __cdecl nvtt::Surface::setImage2D(enum nvtt::Format, enum nvtt::Decoder, int, int, void const *)
+[  129]         0x80  public: bool __cdecl nvtt::Surface::setImage(int, int, int)
+[  130]         0x81  public: bool __cdecl nvtt::Surface::setImage(enum nvtt::InputFormat, int, int, int, void const *, void const *, void const *, void const *)
+[  131]         0x82  public: bool __cdecl nvtt::Surface::setImage(enum nvtt::InputFormat, int, int, int, void const *)
+[  132]         0x83  public: void __cdecl nvtt::InputOptions::setKaiserParameters(float, float, float)
+[  133]         0x84  public: void __cdecl nvtt::InputOptions::setMaxExtents(int)
+[  134]         0x85  public: bool __cdecl nvtt::InputOptions::setMipmapData(void const *, int, int, int, int, int)
+[  135]         0x86  public: void __cdecl nvtt::InputOptions::setMipmapFilter(enum nvtt::MipmapFilter)
+[  136]         0x87  public: void __cdecl nvtt::InputOptions::setMipmapGeneration(bool, int)
+[  137]         0x88  public: void __cdecl nvtt::InputOptions::setNormalFilter(float, float, float, float)
+[  138]         0x89  public: void __cdecl nvtt::InputOptions::setNormalMap(bool)
+[  139]         0x8A  public: void __cdecl nvtt::Surface::setNormalMap(bool)
+[  140]         0x8B  public: void __cdecl nvtt::InputOptions::setNormalizeMipmaps(bool)
+[  141]         0x8C  public: void __cdecl nvtt::OutputOptions::setOutputHandler(struct nvtt::OutputHandler *)
+[  142]         0x8D  public: void __cdecl nvtt::OutputOptions::setOutputHeader(bool)
+[  143]         0x8E  public: void __cdecl nvtt::CompressionOptions::setPitchAlignment(int)
+[  144]         0x8F  public: void __cdecl nvtt::CompressionOptions::setPixelFormat(unsigned char, unsigned char, unsigned char, unsigned char)
+[  145]         0x90  public: void __cdecl nvtt::CompressionOptions::setPixelFormat(unsigned int, unsigned int, unsigned int, unsigned int, unsigned int)
+[  146]         0x91  public: void __cdecl nvtt::CompressionOptions::setPixelType(enum nvtt::PixelType)
+[  147]         0x92  public: void __cdecl nvtt::CompressionOptions::setQuality(enum nvtt::Quality)
+[  148]         0x93  public: void __cdecl nvtt::CompressionOptions::setQuantization(bool, bool, bool, int)
+[  149]         0x94  public: void __cdecl nvtt::InputOptions::setRoundMode(enum nvtt::RoundMode)
+[  150]         0x95  public: void __cdecl nvtt::OutputOptions::setSrgbFlag(bool)
+[  151]         0x96  public: void __cdecl nvtt::CompressionOptions::setTargetDecoder(enum nvtt::Decoder)
+[  152]         0x97  public: void __cdecl nvtt::Compressor::setTaskDispatcher(struct nvtt::TaskDispatcher *)
+[  153]         0x98  public: void __cdecl nvtt::InputOptions::setTextureLayout(enum nvtt::TextureType, int, int, int, int)
+[  154]         0x99  public: void __cdecl nvtt::OutputOptions::setUserVersion(int)
+[  155]         0x9A  public: void __cdecl nvtt::InputOptions::setWrapMode(enum nvtt::WrapMode)
+[  156]         0x9B  public: void __cdecl nvtt::Surface::setWrapMode(enum nvtt::WrapMode)
+[  157]         0x9C  public: void __cdecl nvtt::Surface::swizzle(int, int, int, int)
+[  158]         0x9D  public: void __cdecl nvtt::Surface::toCleanNormalMap(void)
+[  159]         0x9E  public: void __cdecl nvtt::CubeSurface::toGamma(float)
+[  160]         0x9F  public: void __cdecl nvtt::Surface::toGamma(int, float)
+[  161]         0xA0  public: void __cdecl nvtt::Surface::toGamma(float)
+[  162]         0xA1  public: void __cdecl nvtt::Surface::toGreyScale(float, float, float, float)
+[  163]         0xA2  public: void __cdecl nvtt::Surface::toLM(float, float)
+[  164]         0xA3  public: void __cdecl nvtt::Surface::toLUVW(float)
+[  165]         0xA4  public: void __cdecl nvtt::CubeSurface::toLinear(float)
+[  166]         0xA5  public: void __cdecl nvtt::Surface::toLinear(int, float)
+[  167]         0xA6  public: void __cdecl nvtt::Surface::toLinear(float)
+[  168]         0xA7  public: void __cdecl nvtt::Surface::toLinearFromSrgb(void)
+[  169]         0xA8  public: void __cdecl nvtt::Surface::toLogScale(int, float)
+[  170]         0xA9  public: void __cdecl nvtt::Surface::toNormalMap(float, float, float, float)
+[  171]         0xAA  public: void __cdecl nvtt::Surface::toRGBE(int, int)
+[  172]         0xAB  public: void __cdecl nvtt::Surface::toRGBM(float, float)
+[  173]         0xAC  public: void __cdecl nvtt::Surface::toSrgb(void)
+[  174]         0xAD  public: void __cdecl nvtt::Surface::toXenonSrgb(void)
+[  175]         0xAE  public: void __cdecl nvtt::Surface::toYCoCg(void)
+[  176]         0xAF  public: void __cdecl nvtt::Surface::toneMap(enum nvtt::ToneMapper, float *)
+[  177]         0xB0  public: void __cdecl nvtt::Surface::transform(float const *const, float const *const, float const *const, float const *const, float const *const)
+[  178]         0xB1  public: void __cdecl nvtt::Surface::transformNormals(enum nvtt::NormalTransform)
+[  179]         0xB2  public: enum nvtt::TextureType __cdecl nvtt::Surface::type(void) const
+[  180]         0xB3  public: struct nvtt::Surface __cdecl nvtt::CubeSurface::unfold(enum nvtt::CubeLayout) const
+[  181]         0xB4  unsigned int __cdecl nvtt::version(void)
+[  182]         0xB5  public: int __cdecl nvtt::Surface::width(void) const
+[  183]         0xB6  public: enum nvtt::WrapMode __cdecl nvtt::Surface::wrapMode(void) const
+[  184]         0xB7  nvttCompress
+[  185]         0xB8  nvttCreateCompressionOptions
+[  186]         0xB9  nvttCreateCompressor
+[  187]         0xBA  nvttCreateInputOptions
+[  188]         0xBB  nvttCreateOutputOptions
+[  189]         0xBC  nvttDestroyCompressionOptions
+[  190]         0xBD  nvttDestroyCompressor
+[  191]         0xBE  nvttDestroyInputOptions
+[  192]         0xBF  nvttDestroyOutputOptions
+[  193]         0xC0  nvttErrorString
+[  194]         0xC1  nvttEstimateSize
+[  195]         0xC2  nvttResetInputOptionsTextureLayout
+[  196]         0xC3  nvttSetCompressionOptionsColorWeights
+[  197]         0xC4  nvttSetCompressionOptionsFormat
+[  198]         0xC5  nvttSetCompressionOptionsPixelFormat
+[  199]         0xC6  nvttSetCompressionOptionsQuality
+[  200]         0xC7  nvttSetCompressionOptionsQuantization
+[  201]         0xC8  nvttSetInputOptionsAlphaMode
+[  202]         0xC9  nvttSetInputOptionsConvertToNormalMap
+[  203]         0xCA  nvttSetInputOptionsFormat
+[  204]         0xCB  nvttSetInputOptionsGamma
+[  205]         0xCC  nvttSetInputOptionsHeightEvaluation
+[  206]         0xCD  nvttSetInputOptionsKaiserParameters
+[  207]         0xCE  nvttSetInputOptionsMaxExtents
+[  208]         0xCF  nvttSetInputOptionsMipmapData
+[  209]         0xD0  nvttSetInputOptionsMipmapFilter
+[  210]         0xD1  nvttSetInputOptionsMipmapGeneration
+[  211]         0xD2  nvttSetInputOptionsNormalFilter
+[  212]         0xD3  nvttSetInputOptionsNormalMap
+[  213]         0xD4  nvttSetInputOptionsNormalizeMipmaps
+[  214]         0xD5  nvttSetInputOptionsRoundMode
+[  215]         0xD6  nvttSetInputOptionsTextureLayout
+[  216]         0xD7  nvttSetInputOptionsWrapMode
+[  217]         0xD8  nvttSetOutputOptionsFileName
+[  218]         0xD9  nvttSetOutputOptionsOutputHandler
+[  219]         0xDA  nvttSetOutputOptionsOutputHeader
+[  220]         0xDB  nvttVersion

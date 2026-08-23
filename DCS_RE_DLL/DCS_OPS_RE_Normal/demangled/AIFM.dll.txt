@@ -1,0 +1,358 @@
+// DCS_OPS_RE: AIFM.dll
+// Generated from dumpbin /exports
+
+[    1]          0x0  public: __cdecl EagleFM::AIFM::AIAerodyneFM::AIAerodyneFM(class EagleFM::AIFM::AIAerodyneFM const &)
+[    2]          0x1  public: __cdecl EagleFM::AIFM::AIAerodyneFM::AIAerodyneFM(double)
+[    3]          0x2  public: __cdecl EagleFM::AIFM::AIAerodyneFM::AIAerodyneFM(class IwoLA *, class EagleFM::AIFM::AIAerodyneInit const &, double)
+[    4]          0x3  public: __cdecl EagleFM::AIFM::AIAerodyneInit::AIAerodyneInit(void)
+[    5]          0x4  public: __cdecl EagleFM::AIFM::AIGearPost::AIGearPost(class EagleFM::AIFM::AIGearPost const &)
+[    6]          0x5  public: __cdecl EagleFM::AIFM::AIGearPost::AIGearPost(class EagleFM::DynamicBody *)
+[    7]          0x6  public: __cdecl EagleFM::AIFM::AIGearPost::AIGearPost(class EagleFM::DynamicBody *, struct EagleFM::AIFM::AIGearPostInit const &)
+[    8]          0x7  public: __cdecl EagleFM::AIFM::AIGearPostInit::AIGearPostInit(void)
+[    9]          0x8  public: __cdecl EagleFM::AIFM::AIHAirplane::AIHAirplane(class EagleFM::AIFM::AIHAirplane &&)
+[   10]          0x9  public: __cdecl EagleFM::AIFM::AIHAirplane::AIHAirplane(class EagleFM::AIFM::AIHAirplane const &)
+[   11]          0xA  public: __cdecl EagleFM::AIFM::AIHAirplane::AIHAirplane(class EagleFM::DynamicBody *)
+[   12]          0xB  public: __cdecl EagleFM::AIFM::AIHAirplane::AIHAirplane(class EagleFM::DynamicBody *, class EagleFM::AIFM::AIHAirplaneInit const &)
+[   13]          0xC  public: __cdecl EagleFM::AIFM::AIHAirplaneInit::AIHAirplaneInit(void)
+[   14]          0xD  public: __cdecl EagleFM::AIFM::AIHelicopterFM::AIHelicopterFM(class EagleFM::AIFM::AIHelicopterFM const &)
+[   15]          0xE  public: __cdecl EagleFM::AIFM::AIHelicopterFM::AIHelicopterFM(class IwoLA *, class EagleFM::AIFM::AIHelicopterInit const &)
+[   16]          0xF  public: __cdecl EagleFM::AIFM::AIHelicopterFM::AIHelicopterFM(void)
+[   17]         0x10  public: __cdecl EagleFM::AIFM::AIHelicopterInit::AIHelicopterInit(void)
+[   18]         0x11  public: __cdecl EagleFM::AIFM::AIPlaneEngine::AIPlaneEngine(class EagleFM::AIFM::AIPlaneEngine &&)
+[   19]         0x12  public: __cdecl EagleFM::AIFM::AIPlaneEngine::AIPlaneEngine(class EagleFM::AIFM::AIPlaneEngine const &)
+[   20]         0x13  public: __cdecl EagleFM::AIFM::AIPlaneEngine::AIPlaneEngine(class EagleFM::AIFM::AIPlaneFM const &)
+[   21]         0x14  public: __cdecl EagleFM::AIFM::AIPlaneFM::AIPlaneFM(class IwoLA *, class EagleFM::AIFM::AIPlaneInit const &)
+[   22]         0x15  public: __cdecl EagleFM::AIFM::AIPlaneFM::AIPlaneFM(void)
+[   23]         0x16  public: __cdecl EagleFM::AIFM::AIPlaneInit::AIPlaneInit(void)
+[   24]         0x17  public: __cdecl EagleFM::AIFM::AIRotor::AIRotor(class EagleFM::AIFM::AIRotor &&)
+[   25]         0x18  public: __cdecl EagleFM::AIFM::AIRotor::AIRotor(class EagleFM::AIFM::AIRotor const &)
+[   26]         0x19  public: __cdecl EagleFM::AIFM::AIRotor::AIRotor(class EagleFM::DynamicBody *)
+[   27]         0x1A  public: __cdecl EagleFM::AIFM::AIRotor::AIRotor(class EagleFM::DynamicBody *, class EagleFM::AIFM::AIRotorInit const &)
+[   28]         0x1B  public: __cdecl EagleFM::AIFM::AIRotorInit::AIRotorInit(void)
+[   29]         0x1C  public: __cdecl EagleFM::AIFM::AITurboshaft::AITurboshaft(class EagleFM::AIFM::AITurboshaft &&)
+[   30]         0x1D  public: __cdecl EagleFM::AIFM::AITurboshaft::AITurboshaft(class EagleFM::AIFM::AITurboshaft const &)
+[   31]         0x1E  public: __cdecl EagleFM::AIFM::AITurboshaft::AITurboshaft(class EagleFM::DynamicBody *)
+[   32]         0x1F  public: __cdecl EagleFM::AIFM::AITurboshaft::AITurboshaft(class EagleFM::DynamicBody *, class EagleFM::AIFM::AITurboshaftInit const &)
+[   33]         0x20  public: __cdecl EagleFM::AIFM::AITurboshaftInit::AITurboshaftInit(void)
+[   34]         0x21  public: virtual __cdecl EagleFM::AIFM::AIAerodyneFM::~AIAerodyneFM(void)
+[   35]         0x22  public: virtual __cdecl EagleFM::AIFM::AIGearPost::~AIGearPost(void)
+[   36]         0x23  public: virtual __cdecl EagleFM::AIFM::AIHAirplane::~AIHAirplane(void)
+[   37]         0x24  public: virtual __cdecl EagleFM::AIFM::AIHelicopterFM::~AIHelicopterFM(void)
+[   38]         0x25  public: __cdecl EagleFM::AIFM::AIPlaneEngine::~AIPlaneEngine(void)
+[   39]         0x26  public: virtual __cdecl EagleFM::AIFM::AIPlaneFM::~AIPlaneFM(void)
+[   40]         0x27  public: virtual __cdecl EagleFM::AIFM::AIRotor::~AIRotor(void)
+[   41]         0x28  public: virtual __cdecl EagleFM::AIFM::AITurboshaft::~AITurboshaft(void)
+[   42]         0x29  public: class EagleFM::AIFM::AIAerodyneFM & __cdecl EagleFM::AIFM::AIAerodyneFM::operator=(class EagleFM::AIFM::AIAerodyneFM const &)
+[   43]         0x2A  public: class EagleFM::AIFM::AIAerodyneInit & __cdecl EagleFM::AIFM::AIAerodyneInit::operator=(class EagleFM::AIFM::AIAerodyneInit &&)
+[   44]         0x2B  public: class EagleFM::AIFM::AIAerodyneInit & __cdecl EagleFM::AIFM::AIAerodyneInit::operator=(class EagleFM::AIFM::AIAerodyneInit const &)
+[   45]         0x2C  public: class EagleFM::AIFM::AIGearPost & __cdecl EagleFM::AIFM::AIGearPost::operator=(class EagleFM::AIFM::AIGearPost const &)
+[   46]         0x2D  public: struct EagleFM::AIFM::AIGearPostInit & __cdecl EagleFM::AIFM::AIGearPostInit::operator=(struct EagleFM::AIFM::AIGearPostInit &&)
+[   47]         0x2E  public: struct EagleFM::AIFM::AIGearPostInit & __cdecl EagleFM::AIFM::AIGearPostInit::operator=(struct EagleFM::AIFM::AIGearPostInit const &)
+[   48]         0x2F  public: class EagleFM::AIFM::AIHAirplane & __cdecl EagleFM::AIFM::AIHAirplane::operator=(class EagleFM::AIFM::AIHAirplane &&)
+[   49]         0x30  public: class EagleFM::AIFM::AIHAirplane & __cdecl EagleFM::AIFM::AIHAirplane::operator=(class EagleFM::AIFM::AIHAirplane const &)
+[   50]         0x31  public: class EagleFM::AIFM::AIHAirplaneInit & __cdecl EagleFM::AIFM::AIHAirplaneInit::operator=(class EagleFM::AIFM::AIHAirplaneInit &&)
+[   51]         0x32  public: class EagleFM::AIFM::AIHAirplaneInit & __cdecl EagleFM::AIFM::AIHAirplaneInit::operator=(class EagleFM::AIFM::AIHAirplaneInit const &)
+[   52]         0x33  public: class EagleFM::AIFM::AIHelicopterFM & __cdecl EagleFM::AIFM::AIHelicopterFM::operator=(class EagleFM::AIFM::AIHelicopterFM const &)
+[   53]         0x34  public: class EagleFM::AIFM::AIHelicopterInit & __cdecl EagleFM::AIFM::AIHelicopterInit::operator=(class EagleFM::AIFM::AIHelicopterInit &&)
+[   54]         0x35  public: class EagleFM::AIFM::AIHelicopterInit & __cdecl EagleFM::AIFM::AIHelicopterInit::operator=(class EagleFM::AIFM::AIHelicopterInit const &)
+[   55]         0x36  public: class EagleFM::AIFM::AIPlaneInit & __cdecl EagleFM::AIFM::AIPlaneInit::operator=(class EagleFM::AIFM::AIPlaneInit &&)
+[   56]         0x37  public: class EagleFM::AIFM::AIPlaneInit & __cdecl EagleFM::AIFM::AIPlaneInit::operator=(class EagleFM::AIFM::AIPlaneInit const &)
+[   57]         0x38  public: class EagleFM::AIFM::AIRotor & __cdecl EagleFM::AIFM::AIRotor::operator=(class EagleFM::AIFM::AIRotor &&)
+[   58]         0x39  public: class EagleFM::AIFM::AIRotor & __cdecl EagleFM::AIFM::AIRotor::operator=(class EagleFM::AIFM::AIRotor const &)
+[   59]         0x3A  public: class EagleFM::AIFM::AIRotorInit & __cdecl EagleFM::AIFM::AIRotorInit::operator=(class EagleFM::AIFM::AIRotorInit &&)
+[   60]         0x3B  public: class EagleFM::AIFM::AIRotorInit & __cdecl EagleFM::AIFM::AIRotorInit::operator=(class EagleFM::AIFM::AIRotorInit const &)
+[   61]         0x3C  public: class EagleFM::AIFM::AITurboshaft & __cdecl EagleFM::AIFM::AITurboshaft::operator=(class EagleFM::AIFM::AITurboshaft &&)
+[   62]         0x3D  public: class EagleFM::AIFM::AITurboshaft & __cdecl EagleFM::AIFM::AITurboshaft::operator=(class EagleFM::AIFM::AITurboshaft const &)
+[   63]         0x3E  public: class EagleFM::AIFM::AITurboshaftInit & __cdecl EagleFM::AIFM::AITurboshaftInit::operator=(class EagleFM::AIFM::AITurboshaftInit &&)
+[   64]         0x3F  public: class EagleFM::AIFM::AITurboshaftInit & __cdecl EagleFM::AIFM::AITurboshaftInit::operator=(class EagleFM::AIFM::AITurboshaftInit const &)
+[   65]         0x40  const EagleFM::AIFM::AIAerodyneFM::`vftable'
+[   66]         0x41  const EagleFM::AIFM::AIGearPost::`vftable'
+[   67]         0x42  const EagleFM::AIFM::AIHAirplane::`vftable'
+[   68]         0x43  const EagleFM::AIFM::AIHelicopterFM::`vftable'
+[   69]         0x44  const EagleFM::AIFM::AIPlaneFM::`vftable'
+[   70]         0x45  const EagleFM::AIFM::AIRotor::`vftable'
+[   71]         0x46  const EagleFM::AIFM::AITurboshaft::`vftable'
+[   72]         0x47  public: void __cdecl EagleFM::AIFM::AIAerodyneFM::`default ctor closure'(void)
+[   73]         0x48  private: static double EagleFM::AIFM::AIGearPost::KGane
+[   74]         0x49  private: static double EagleFM::AIFM::AIGearPost::KdStop
+[   75]         0x4A  private: static double EagleFM::AIFM::AIGearPost::KvStop
+[   76]         0x4B  private: static double EagleFM::AIFM::AIGearPost::Limit
+[   77]         0x4C  private: bool __cdecl EagleFM::AIFM::AIPlaneFM::add_local_force_component(double &, double &, double &, double &, double &, double &)
+[   78]         0x4D  private: bool __cdecl EagleFM::AIFM::AIPlaneFM::add_local_moment_component(double &, double &, double &)
+[   79]         0x4E  public: void __cdecl EagleFM::AIFM::AIPlaneEngine::add_nozzle(struct EngineNozzlePos const &)
+[   80]         0x4F  private: void __cdecl EagleFM::AIFM::AIPlaneFM::aerodynamics(double)
+[   81]         0x50  public: void __cdecl EagleFM::AIFM::AIHAirplane::applyForce(void)
+[   82]         0x51  public: void __cdecl EagleFM::AIFM::AIGearPost::applyForces(void)
+[   83]         0x52  private: void __cdecl EagleFM::AIFM::AIPlaneFM::break_chute(double)
+[   84]         0x53  public: class Math::Vector<3, double> __cdecl EagleFM::AIFM::AIAerodyneFM::calcGFactor(void)
+[   85]         0x54  private: double __cdecl EagleFM::AIFM::AIRotor::calcRotorInductiveSpeed(double)
+[   86]         0x55  private: double __cdecl EagleFM::AIFM::AIRotor::calcRotorThrust(double, double &)
+[   87]         0x56  public: double __cdecl EagleFM::AIFM::AIPlaneFM::calculate_AoA_cFromFy_c(double) const
+[   88]         0x57  public: double __cdecl EagleFM::AIFM::AIPlaneFM::calculate_Omega_Y_cFrom_AoS_dot_c(double, class Eigen::Matrix<double, 3, 1, 0, 3, 1>) const
+[   89]         0x58  public: double __cdecl EagleFM::AIFM::AIPlaneFM::calculate_Omega_Z_cFrom_AoA_dot_c(double, class Eigen::Matrix<double, 3, 1, 0, 3, 1>) const
+[   90]         0x59  private: double __cdecl EagleFM::AIFM::AIGearPost::compute_wheel_force(double)
+[   91]         0x5A  public: void __cdecl EagleFM::AIFM::AIPlaneFM::continuePathFollowing(void)
+[   92]         0x5B  private: void __cdecl EagleFM::AIFM::AIPlaneFM::controlPlane(double)
+[   93]         0x5C  public: void __cdecl EagleFM::AIFM::AIHAirplane::damageStabArea(bool)
+[   94]         0x5D  public: void __cdecl EagleFM::AIFM::AIHAirplane::damageTailFinArea(void)
+[   95]         0x5E  private: void __cdecl EagleFM::AIFM::AIHelicopterFM::doSetStartupSequencePhase(unsigned char)
+[   96]         0x5F  protected: virtual void __cdecl EagleFM::AIFM::AIAerodyneFM::doSimulate(void)
+[   97]         0x60  private: virtual void __cdecl EagleFM::AIFM::AIHAirplane::doSimulate(void)
+[   98]         0x61  protected: virtual void __cdecl EagleFM::AIFM::AIHelicopterFM::doSimulate(void)
+[   99]         0x62  protected: virtual void __cdecl EagleFM::AIFM::AIPlaneFM::doSimulate(void)
+[  100]         0x63  private: virtual void __cdecl EagleFM::AIFM::AIRotor::doSimulate(void)
+[  101]         0x64  protected: virtual void __cdecl EagleFM::AIFM::AITurboshaft::doSimulate(void)
+[  102]         0x65  public: struct SFM_info const & __cdecl EagleFM::AIFM::AIPlaneFM::fm_descriptor(void) const
+[  103]         0x66  public: struct EagleFM::AIFM::AIGearPostInit __cdecl EagleFM::AIFM::AIGearPost::getAIGearPostState(void) const
+[  104]         0x67  public: double __cdecl EagleFM::AIFM::AIHelicopterFM::getAPU_RPM_Delay(void) const
+[  105]         0x68  public: class Math::Vector<3, double> __cdecl EagleFM::AIFM::AIAerodyneFM::getAcceleration_w(void) const
+[  106]         0x69  public: int __cdecl EagleFM::AIFM::AIRotor::getBladesNum(void) const
+[  107]         0x6A  public: double __cdecl EagleFM::AIFM::AIAerodyneFM::getCommonAoA(void)
+[  108]         0x6B  public: double __cdecl EagleFM::AIFM::AIAerodyneFM::getCommonAoS(void)
+[  109]         0x6C  public: bool __cdecl EagleFM::AIFM::AIGearPost::getContactFlag(void) const
+[  110]         0x6D  public: double __cdecl EagleFM::AIFM::AIRotor::getDiam(void) const
+[  111]         0x6E  public: class EagleFM::DynamicBody const * __cdecl EagleFM::AIFM::AIAerodyneFM::getDynamicBody(void) const
+[  112]         0x6F  public: virtual bool __cdecl EagleFM::AIFM::AIHelicopterFM::getElecPower(void) const
+[  113]         0x70  public: virtual double __cdecl EagleFM::AIFM::AIAerodyneFM::getEngineRelativeRPM(int) const
+[  114]         0x71  public: virtual double __cdecl EagleFM::AIFM::AIHelicopterFM::getEngineRelativeRPM(int) const
+[  115]         0x72  public: unsigned int __cdecl EagleFM::AIFM::AIHelicopterFM::getEnginesNum(void) const
+[  116]         0x73  public: unsigned int __cdecl EagleFM::AIFM::AIHelicopterFM::getEnginesSafeNum(void) const
+[  117]         0x74  public: bool __cdecl EagleFM::AIFM::AIAerodyneFM::getExploded(void) const
+[  118]         0x75  public: virtual double __cdecl EagleFM::AIFM::AIHelicopterFM::getFlowVelocity(void) const
+[  119]         0x76  public: double __cdecl EagleFM::AIFM::AIRotor::getFlowVelocity(void) const
+[  120]         0x77  public: class Math::Vector<3, double> __cdecl EagleFM::AIFM::AIGearPost::getForce_l(void) const
+[  121]         0x78  public: enum EagleFM::AIFM::AIFreezeState __cdecl EagleFM::AIFM::AIAerodyneFM::getFreeze(void) const
+[  122]         0x79  public: virtual double __cdecl EagleFM::AIFM::AIAerodyneFM::getFuel(void) const
+[  123]         0x7A  public: double __cdecl EagleFM::AIFM::AITurboshaft::getFuelFlow(void) const
+[  124]         0x7B  public: virtual double __cdecl EagleFM::AIFM::AIAerodyneFM::getGearPostRelativeYaw(int) const
+[  125]         0x7C  public: double __cdecl EagleFM::AIFM::AIAerodyneFM::getHAGL(void) const
+[  126]         0x7D  public: double __cdecl EagleFM::AIFM::AIGearPost::getHAGLGear(void) const
+[  127]         0x7E  public: bool __cdecl EagleFM::AIFM::AIAerodyneFM::getLandedState(void) const
+[  128]         0x7F  public: enum EagleFM::AustereFM::Propulsion::EngineOperationalModes __cdecl EagleFM::AIFM::AITurboshaft::getMode(void) const
+[  129]         0x80  public: double __cdecl EagleFM::AIFM::AIGearPost::getNoseWheelJacobian(void) const
+[  130]         0x81  public: double __cdecl EagleFM::AIFM::AIRotor::getOmega(void) const
+[  131]         0x82  public: short __cdecl EagleFM::AIFM::AIRotor::getOmegaSign(void) const
+[  132]         0x83  public: class Math::Matrix<3, float> __cdecl EagleFM::AIFM::AIAerodyneFM::getOrientation(void) const
+[  133]         0x84  public: double __cdecl EagleFM::AIFM::AIPlaneFM::getParam(unsigned int) const
+[  134]         0x85  public: double __cdecl EagleFM::AIFM::AIAerodyneFM::getPitch(void) const
+[  135]         0x86  public: class Math::Vector<3, double> __cdecl EagleFM::AIFM::AIGearPost::getPos_l(void) const
+[  136]         0x87  public: class Math::Vector<3, double> __cdecl EagleFM::AIFM::AIAerodyneFM::getPosition(void) const
+[  137]         0x88  public: double __cdecl EagleFM::AIFM::AITurboshaft::getPower(void) const
+[  138]         0x89  public: double __cdecl EagleFM::AIFM::AIRotor::getRelativeRPM(void) const
+[  139]         0x8A  public: double __cdecl EagleFM::AIFM::AITurboshaft::getRelativeRPM(void) const
+[  140]         0x8B  public: float __cdecl EagleFM::AIFM::AIGearPost::getRelativeYaw(void) const
+[  141]         0x8C  public: double __cdecl EagleFM::AIFM::AIAerodyneFM::getRoll(void) const
+[  142]         0x8D  public: class Math::Vector<3, double> __cdecl EagleFM::AIFM::AIAerodyneFM::getRotateSpeed_l(void) const
+[  143]         0x8E  public: class Math::Vector<3, double> __cdecl EagleFM::AIFM::AIAerodyneFM::getRotateSpeed_w(void) const
+[  144]         0x8F  public: bool __cdecl EagleFM::AIFM::AIHelicopterFM::getRotorFixed(void) const
+[  145]         0x90  public: double __cdecl EagleFM::AIFM::AIHelicopterFM::getRotorIF(void) const
+[  146]         0x91  public: virtual double __cdecl EagleFM::AIFM::AIHelicopterFM::getRotorPhase(void) const
+[  147]         0x92  public: virtual double __cdecl EagleFM::AIFM::AIHelicopterFM::getRotorRPM(void) const
+[  148]         0x93  public: virtual double __cdecl EagleFM::AIFM::AIHelicopterFM::getRotorRelativeRPM(void) const
+[  149]         0x94  public: double __cdecl EagleFM::AIFM::AIAerodyneFM::getRudderPos(void) const
+[  150]         0x95  public: int __cdecl EagleFM::AIFM::AIPlaneFM::getStatus(void)
+[  151]         0x96  public: double __cdecl EagleFM::AIFM::AIAerodyneFM::getStickXPos(void) const
+[  152]         0x97  public: double __cdecl EagleFM::AIFM::AIAerodyneFM::getStickZPos(void) const
+[  153]         0x98  public: virtual double __cdecl EagleFM::AIFM::AIAerodyneFM::getStrutCompression(int) const
+[  154]         0x99  public: double __cdecl EagleFM::AIFM::AIGearPost::getStrutCompression(void) const
+[  155]         0x9A  public: class Math::Vector<3, double> __cdecl EagleFM::AIFM::AIGearPost::getStrutPos(void) const
+[  156]         0x9B  public: bool __cdecl EagleFM::AIFM::AIHelicopterFM::getTailBroken(void) const
+[  157]         0x9C  public: class Math::Vector<3, double> __cdecl EagleFM::AIFM::AIHAirplane::getTailPos_l(void) const
+[  158]         0x9D  public: virtual double __cdecl EagleFM::AIFM::AIHelicopterFM::getTailRotorRelativeRPM(void) const
+[  159]         0x9E  public: double __cdecl EagleFM::AIFM::AIAerodyneFM::getThrottlePos(void) const
+[  160]         0x9F  public: double __cdecl EagleFM::AIFM::AIRotor::getThrust(void) const
+[  161]         0xA0  public: class Math::Vector<3, double> __cdecl EagleFM::AIFM::AIAerodyneFM::getTimePosition(void) const
+[  162]         0xA1  public: class Math::Vector<3, double> __cdecl EagleFM::AIFM::AIAerodyneFM::getVelocity_l(void) const
+[  163]         0xA2  public: class Math::Vector<3, double> __cdecl EagleFM::AIFM::AIAerodyneFM::getVelocity_w(void) const
+[  164]         0xA3  public: double __cdecl EagleFM::AIFM::AIGearPost::getWheelRadius(void) const
+[  165]         0xA4  public: virtual double __cdecl EagleFM::AIFM::AIAerodyneFM::getWheelRotationPhase(int) const
+[  166]         0xA5  public: double __cdecl EagleFM::AIFM::AIGearPost::getWheelRotationPhase(void) const
+[  167]         0xA6  public: class Math::Vector<3, double> __cdecl EagleFM::AIFM::AIHAirplane::getWind_l(void) const
+[  168]         0xA7  public: double __cdecl EagleFM::AIFM::AIAerodyneFM::getYaw(void) const
+[  169]         0xA8  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_AoA(void) const
+[  170]         0xA9  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_AoA_dop(void) const
+[  171]         0xAA  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_AoS(void) const
+[  172]         0xAB  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_Bpol4(void) const
+[  173]         0xAC  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_Bpol(void) const
+[  174]         0xAD  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_CY2(void) const
+[  175]         0xAE  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_Cx(void) const
+[  176]         0xAF  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_Cy(void) const
+[  177]         0xB0  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_Cy_max(void) const
+[  178]         0xB1  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_Cyal(void) const
+[  179]         0xB2  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_FPA(void) const
+[  180]         0xB3  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_F_D(void) const
+[  181]         0xB4  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_F_L(void) const
+[  182]         0xB5  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_Fy_max(void) const
+[  183]         0xB6  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_Fy_min(void) const
+[  184]         0xB7  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_J_B(void) const
+[  185]         0xB8  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_MoI(void) const
+[  186]         0xB9  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_Nobj(void) const
+[  187]         0xBA  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_Nx(void) const
+[  188]         0xBB  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_Ny(void) const
+[  189]         0xBC  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_Ny_c(void) const
+[  190]         0xBD  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_Ny_max(void) const
+[  191]         0xBE  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_Ny_min(void) const
+[  192]         0xBF  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_Nz(void) const
+[  193]         0xC0  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_Omx_max(void) const
+[  194]         0xC1  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_V_air(void) const
+[  195]         0xC2  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_V_air_c(void) const
+[  196]         0xC3  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_V_ground(void) const
+[  197]         0xC4  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_V_ground_c(void) const
+[  198]         0xC5  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_V_wcs(void) const
+[  199]         0xC6  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_W_u(void) const
+[  200]         0xC7  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_W_v(void) const
+[  201]         0xC8  public: bool __cdecl EagleFM::AIFM::AIPlaneEngine::get_afterburner_flag(void) const
+[  202]         0xC9  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_afterburner_flag(unsigned int) const
+[  203]         0xCA  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_aim_c(void) const
+[  204]         0xCB  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_air_brake(void) const
+[  205]         0xCC  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_atmoshpere(void) const
+[  206]         0xCD  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_chi(void) const
+[  207]         0xCE  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_chi_c(void) const
+[  208]         0xCF  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_control_manager(void) const
+[  209]         0xD0  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_cx_0(void) const
+[  210]         0xD1  public: struct Aircraft_Descriptor const & __cdecl EagleFM::AIFM::AIPlaneFM::get_descriptor(void) const
+[  211]         0xD2  public: struct force_component const & __cdecl EagleFM::AIFM::AIPlaneEngine::get_drag(void) const
+[  212]         0xD3  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_dt(void) const
+[  213]         0xD4  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_du_max(void) const
+[  214]         0xD5  private: class EagleFM::AIFM::AIPlaneEngine * __cdecl EagleFM::AIFM::AIPlaneFM::get_engine(unsigned int) const
+[  215]         0xD6  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_engine_relative_rpm(unsigned int) const
+[  216]         0xD7  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_engine_throttle(unsigned int) const
+[  217]         0xD8  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_engines(void) const
+[  218]         0xD9  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_fl_point(void) const
+[  219]         0xDA  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_fpa_c(void) const
+[  220]         0xDB  public: float __cdecl EagleFM::AIFM::AIPlaneEngine::get_fuel_rate(void) const
+[  221]         0xDC  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_gamma(void) const
+[  222]         0xDD  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_gear_pos_w(void) const
+[  223]         0xDE  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_ground_aim(void) const
+[  224]         0xDF  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_ground_pro_climb_min(void) const
+[  225]         0xE0  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_ground_shoot(void) const
+[  226]         0xE1  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_h_c(void) const
+[  227]         0xE2  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_harl(class osg::Vec3d const &) const
+[  228]         0xE3  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_iowner(void) const
+[  229]         0xE4  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_j_y_n_w(void) const
+[  230]         0xE5  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_keep_vel_req(void) const
+[  231]         0xE6  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_leader_n_r(void) const
+[  232]         0xE7  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_leader_task(void) const
+[  233]         0xE8  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_main_gears_contact(void) const
+[  234]         0xE9  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_mass(void) const
+[  235]         0xEA  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_n_r(void) const
+[  236]         0xEB  public: double const __cdecl EagleFM::AIFM::AIPlaneFM::get_nose_gear_psi(void) const
+[  237]         0xEC  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_nose_wheel_pos_l(void) const
+[  238]         0xED  public: class ed::vector<struct EagleFM::AIFM::AIPlaneEngine::nozzle, class ed::allocator<struct EagleFM::AIFM::AIPlaneEngine::nozzle>> const & __cdecl EagleFM::AIFM::AIPlaneEngine::get_nozzles(void) const
+[  239]         0xEE  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_omega(void) const
+[  240]         0xEF  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_omega_dot(void) const
+[  241]         0xF0  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_omega_w(void) const
+[  242]         0xF1  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_omega_x_c(void) const
+[  243]         0xF2  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_omega_y_c(void) const
+[  244]         0xF3  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_omega_z_c(void) const
+[  245]         0xF4  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_orientation(void) const
+[  246]         0xF5  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_orientation_T(void) const
+[  247]         0xF6  public: float __cdecl EagleFM::AIFM::AIPlaneEngine::get_pf(void) const
+[  248]         0xF7  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_phi(void) const
+[  249]         0xF8  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_phi_c(void) const
+[  250]         0xF9  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_pilot_head_pos(void) const
+[  251]         0xFA  public: float __cdecl EagleFM::AIFM::AIPlaneEngine::get_pm(void) const
+[  252]         0xFB  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_position(void) const
+[  253]         0xFC  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_psi(void) const
+[  254]         0xFD  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_q(void) const
+[  255]         0xFE  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_quaternion_inv(void) const
+[  256]         0xFF  public: float __cdecl EagleFM::AIFM::AIPlaneEngine::get_relative_rpm(void) const
+[  257]        0x100  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_rho(void) const
+[  258]        0x101  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_rs_enable(void) const
+[  259]        0x102  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_sau_flight(void) const
+[  260]        0x103  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_support_gears_contact(void) const
+[  261]        0x104  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_theta(void) const
+[  262]        0x105  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_theta_c(void) const
+[  263]        0x106  public: float __cdecl EagleFM::AIFM::AIPlaneEngine::get_throttle(void) const
+[  264]        0x107  public: float __cdecl EagleFM::AIFM::AIPlaneEngine::get_thrust(void) const
+[  265]        0x108  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_turn_value(void) const
+[  266]        0x109  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_u_0(void) const
+[  267]        0x10A  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_u_d(void) const
+[  268]        0x10B  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_u_max(void) const
+[  269]        0x10C  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_u_min(void) const
+[  270]        0x10D  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_velocity(void) const
+[  271]        0x10E  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_velocity_bcs(void) const
+[  272]        0x10F  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_wind_l(void) const
+[  273]        0x110  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_wind_w(void) const
+[  274]        0x111  public: __cdecl EagleFM::AIFM::AIPlaneFM::get_z_l(void) const
+[  275]        0x112  public: void __cdecl EagleFM::AIFM::AIAerodyneFM::init(class IwoLA *, class EagleFM::AIFM::AIAerodyneInit const &)
+[  276]        0x113  public: void __cdecl EagleFM::AIFM::AIGearPost::init(struct EagleFM::AIFM::AIGearPostInit const &)
+[  277]        0x114  public: void __cdecl EagleFM::AIFM::AIHAirplane::init(class EagleFM::AIFM::AIHAirplaneInit const &)
+[  278]        0x115  public: void __cdecl EagleFM::AIFM::AIHelicopterFM::init(class IwoLA *, class EagleFM::AustereFM::Propulsion::AustereEngine **, class EagleFM::AIFM::AIHelicopterInit const &)
+[  279]        0x116  public: void __cdecl EagleFM::AIFM::AIPlaneFM::init(class IwoLA *, class EagleFM::AIFM::AIPlaneInit const &)
+[  280]        0x117  public: void __cdecl EagleFM::AIFM::AIRotor::init(class EagleFM::AIFM::AIRotorInit const &)
+[  281]        0x118  public: void __cdecl EagleFM::AIFM::AITurboshaft::init(class IwoLA *, int, class EagleFM::AustereFM::Propulsion::AustereEngine *, class EagleFM::AIFM::AITurboshaftInit const &)
+[  282]        0x119  public: virtual void __cdecl EagleFM::AIFM::AIAerodyneFM::initAirStart(class Math::Vector<3, double> const &, class Math::Vector<3, double> const &, float, float, float)
+[  283]        0x11A  public: virtual void __cdecl EagleFM::AIFM::AIHelicopterFM::initAirStart(class Math::Vector<3, double> const &, class Math::Vector<3, double> const &, float, float, float)
+[  284]        0x11B  public: virtual void __cdecl EagleFM::AIFM::AIPlaneFM::initAirStart(class Math::Vector<3, double> const &, class Math::Vector<3, double> const &, float, float, float)
+[  285]        0x11C  public: virtual void __cdecl EagleFM::AIFM::AIAerodyneFM::initColdStart(class Math::Vector<3, double> const &, float, class Math::Vector<3, double> const &)
+[  286]        0x11D  public: virtual void __cdecl EagleFM::AIFM::AIHelicopterFM::initColdStart(class Math::Vector<3, double> const &, float, class Math::Vector<3, double> const &)
+[  287]        0x11E  public: virtual void __cdecl EagleFM::AIFM::AIPlaneFM::initColdStart(class Math::Vector<3, double> const &, float, float, class Math::Vector<3, double> const &)
+[  288]        0x11F  public: virtual void __cdecl EagleFM::AIFM::AIAerodyneFM::initHotStart(class Math::Vector<3, double> const &, float, class Math::Vector<3, double> const &)
+[  289]        0x120  public: virtual void __cdecl EagleFM::AIFM::AIHelicopterFM::initHotStart(class Math::Vector<3, double> const &, float, class Math::Vector<3, double> const &)
+[  290]        0x121  public: virtual void __cdecl EagleFM::AIFM::AIPlaneFM::initHotStart(class Math::Vector<3, double> const &, float, float, class Math::Vector<3, double> const &)
+[  291]        0x122  public: void __cdecl EagleFM::AIFM::AIPlaneEngine::init_hot_start(void)
+[  292]        0x123  public: void __cdecl EagleFM::AIFM::AIPlaneFM::interruptPathFollowing(enum wConst)
+[  293]        0x124  public: bool __cdecl EagleFM::AIFM::AIAerodyneFM::isGroundMobility(void) const
+[  294]        0x125  private: class osg::Vec3d __cdecl EagleFM::AIFM::AIPlaneFM::moments(double)
+[  295]        0x126  private: void __cdecl EagleFM::AIFM::AIPlaneFM::prepare_for_simulation(void)
+[  296]        0x127  protected: virtual void __cdecl EagleFM::AIFM::AIAerodyneFM::selectModelTimeStep(void)
+[  297]        0x128  protected: virtual void __cdecl EagleFM::AIFM::AIPlaneFM::selectModelTimeStep(void)
+[  298]        0x129  public: void __cdecl EagleFM::AIFM::AIPlaneFM::setAirTarget(class MovingObject *)
+[  299]        0x12A  public: void __cdecl EagleFM::AIFM::AIPlaneFM::setArrival(class wAirdrome *)
+[  300]        0x12B  public: virtual void __cdecl EagleFM::AIFM::AIAerodyneFM::setCellIF(int, float, float)
+[  301]        0x12C  public: virtual void __cdecl EagleFM::AIFM::AIHelicopterFM::setCellIF(int, float, float)
+[  302]        0x12D  public: void __cdecl EagleFM::AIFM::AIPlaneFM::setCircleOrbit(void)
+[  303]        0x12E  public: void __cdecl EagleFM::AIFM::AIPlaneFM::setCollisionAvoidance(bool)
+[  304]        0x12F  protected: void __cdecl EagleFM::AIFM::AIPlaneFM::setCommand(int, float)
+[  305]        0x130  public: void __cdecl EagleFM::AIFM::AIPlaneFM::setControlVector(class std::array<float, 35> const &)
+[  306]        0x131  protected: void __cdecl EagleFM::AIFM::AIHelicopterFM::setEnginesPitchControls(float)
+[  307]        0x132  protected: void __cdecl EagleFM::AIFM::AIHelicopterFM::setEnginesTertiaryControls(float)
+[  308]        0x133  protected: void __cdecl EagleFM::AIFM::AIHelicopterFM::setEnginesThrustControls(float)
+[  309]        0x134  protected: void __cdecl EagleFM::AIFM::AIHelicopterFM::setEnginesVelocityControls(float)
+[  310]        0x135  public: void __cdecl EagleFM::AIFM::AIPlaneFM::setFollowDirection(void)
+[  311]        0x136  public: void __cdecl EagleFM::AIFM::AIPlaneFM::setFollowLeader(class MovingObject *)
+[  312]        0x137  public: void __cdecl EagleFM::AIFM::AIAerodyneFM::setFreeze(enum EagleFM::AIFM::AIFreezeState)
+[  313]        0x138  public: void __cdecl EagleFM::AIFM::AIAerodyneFM::setFuel(double)
+[  314]        0x139  public: void __cdecl EagleFM::AIFM::AIPlaneFM::setHolding(void)
+[  315]        0x13A  public: void __cdecl EagleFM::AIFM::AIPlaneFM::setLanding(class wAirdrome *)
+[  316]        0x13B  public: void __cdecl EagleFM::AIFM::AITurboshaft::setMode(enum EagleFM::AustereFM::Propulsion::EngineOperationalModes)
+[  317]        0x13C  public: void __cdecl EagleFM::AIFM::AIPlaneFM::setN_obj(int)
+[  318]        0x13D  public: virtual void __cdecl EagleFM::AIFM::AIAerodyneFM::setNormal_w(class Math::Vector<3, double> const &)
+[  319]        0x13E  public: void __cdecl EagleFM::AIFM::AIPlaneFM::setPath(void)
+[  320]        0x13F  public: void __cdecl EagleFM::AIFM::AIAerodyneFM::setPayload(double, class Math::Vector<3, double> const &)
+[  321]        0x140  public: void __cdecl EagleFM::AIFM::AIAerodyneFM::setPositionState(class Math::Vector<3, double> const &, class Math::Vector<3, double> const &, float, float, float)
+[  322]        0x141  public: void __cdecl EagleFM::AIFM::AIGearPost::setRelativeYaw(float)
+[  323]        0x142  public: void __cdecl EagleFM::AIFM::AIHelicopterFM::setRotorFixed(bool)
+[  324]        0x143  public: void __cdecl EagleFM::AIFM::AIAerodyneFM::setRudder(double)
+[  325]        0x144  public: void __cdecl EagleFM::AIFM::AIGearPost::setSelfAttitude(bool)
+[  326]        0x145  public: void __cdecl EagleFM::AIFM::AIAerodyneFM::setStickX(double)
+[  327]        0x146  public: void __cdecl EagleFM::AIFM::AIAerodyneFM::setStickZ(double)
+[  328]        0x147  public: virtual void __cdecl EagleFM::AIFM::AIAerodyneFM::setSurfacePoint_w(class Math::Vector<3, double> const &)
+[  329]        0x148  public: virtual void __cdecl EagleFM::AIFM::AIAerodyneFM::setSurfaceProp(double, class Math::Vector<3, double>, class Math::Vector<3, double>, class Math::Vector<3, double>, float, float)
+[  330]        0x149  public: virtual void __cdecl EagleFM::AIFM::AIHelicopterFM::setSurfaceProp(double, class Math::Vector<3, double>, class Math::Vector<3, double>, class Math::Vector<3, double>, float, float)
+[  331]        0x14A  public: virtual void __cdecl EagleFM::AIFM::AIPlaneFM::setSurfaceProp(double, class Math::Vector<3, double>, class Math::Vector<3, double>, class Math::Vector<3, double>, float, float)
+[  332]        0x14B  public: void __cdecl EagleFM::AIFM::AIPlaneFM::setTakeoff(class wAirdrome *)
+[  333]        0x14C  public: void __cdecl EagleFM::AIFM::AIRotor::setTandem(bool)
+[  334]        0x14D  public: void __cdecl EagleFM::AIFM::AIPlaneFM::setTaxi(class wAirdrome *, class edterrain::IRoute *, enum wAirbase::E_RWdirPurpose)
+[  335]        0x14E  public: void __cdecl EagleFM::AIFM::AIAerodyneFM::setThrottle(double)
+[  336]        0x14F  public: void __cdecl EagleFM::AIFM::AIPlaneFM::setWaiting(void)
+[  337]        0x150  public: void __cdecl EagleFM::AIFM::AIPlaneFM::setWaitingForWingmen(void)
+[  338]        0x151  public: void __cdecl EagleFM::AIFM::AIAerodyneFM::setWheelBrakeOnOff(bool)
+[  339]        0x152  public: void __cdecl EagleFM::AIFM::AIGearPost::setYawLim(float)
+[  340]        0x153  private: void __cdecl EagleFM::AIFM::AIPlaneFM::set_atmosphere(double, double, double, double, double)
+[  341]        0x154  private: void __cdecl EagleFM::AIFM::AIPlaneFM::set_current_state(double, double, double, double, double, double)
+[  342]        0x155  private: void __cdecl EagleFM::AIFM::AIPlaneFM::set_current_state_body_axis(double, double, double, double, double, double, double, double, double, double, double)
+[  343]        0x156  public: void __cdecl EagleFM::AIFM::AIPlaneEngine::set_status(enum EagleFM::AIFM::AIPlaneEngine::engine_status_)
+[  344]        0x157  public: void __cdecl EagleFM::AIFM::AIPlaneEngine::set_throttle(double)
+[  345]        0x158  public: virtual void __cdecl EagleFM::AIFM::AIAerodyneFM::shutDown(void)
+[  346]        0x159  public: virtual void __cdecl EagleFM::AIFM::AIHelicopterFM::shutDown(void)
+[  347]        0x15A  public: virtual void __cdecl EagleFM::AIFM::AIGearPost::simulate(double)
+[  348]        0x15B  public: void __cdecl EagleFM::AIFM::AIPlaneEngine::simulate(float)
+[  349]        0x15C  public: virtual void __cdecl EagleFM::AIFM::AIPlaneFM::start(void)
+[  350]        0x15D  public: virtual void __cdecl EagleFM::AIFM::AIAerodyneFM::startUp(void)
+[  351]        0x15E  public: virtual void __cdecl EagleFM::AIFM::AIHelicopterFM::startUp(void)
+[  352]        0x15F  public: virtual void __cdecl EagleFM::AIFM::AIAerodyneFM::stop(void)
+[  353]        0x160  public: virtual void __cdecl EagleFM::AIFM::AIHelicopterFM::stop(void)
+[  354]        0x161  public: virtual void __cdecl EagleFM::AIFM::AIPlaneFM::stop(void)
+[  355]        0x162  private: void __cdecl EagleFM::AIFM::AIPlaneFM::thrust(double)

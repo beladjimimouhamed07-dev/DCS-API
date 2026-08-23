@@ -1,0 +1,56 @@
+Microsoft (R) COFF/PE Dumper Version 14.51.36256.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file G:\DCS_OPS_RE\bin\JConfigurator.dll
+
+File Type: DLL
+
+  Section contains the following exports for JConfigurator.dll
+
+    00000000 characteristics
+    FFFFFFFF time date stamp
+        0.00 version
+           1 ordinal base
+          28 number of functions
+          28 number of names
+
+    ordinal hint RVA      name
+
+          1    0 00007570 ?forceShutdown@jconf@@YAXXZ
+          2    1 00007580 ?getDumps@jconf@@YA?AV?$basic_string@D@ed@@PEAPEBD@Z
+          3    2 000075B0 ?getIntParameter@jconf@@YAHPEBDH@Z
+          4    3 00007720 ?registerBackendStatCallback@jconf@@YAXP6A?AV?$basic_string@D@ed@@XZ@Z
+          5    4 00007730 ?registerBool@jconf@@YAXPEBDV?$tuple@V?$function@$$A6A_NXZ@std@@V?$function@$$A6AX_N@Z@2@@std@@W4RunInThread@1@@Z
+          6    5 000078F0 ?registerColor@jconf@@YAXPEBDAEAVVec3f@osg@@W4RunInThread@1@@Z
+          7    6 00007940 ?registerColor@jconf@@YAXPEBDV?$tuple@V?$function@$$A6A?AVVec3f@osg@@XZ@std@@V?$function@$$A6AXAEBVVec3f@osg@@@Z@2@@std@@W4RunInThread@1@@Z
+          8    7 00007B00 ?registerCommon@jconf@@YAXPEBDAEBV?$vector@V?$basic_string@D@ed@@V?$allocator@V?$basic_string@D@ed@@@2@@ed@@@Z
+          9    8 00007C30 ?registerDouble@jconf@@YAXPEBDNNV?$tuple@V?$function@$$A6ANXZ@std@@V?$function@$$A6AXN@Z@2@@std@@W4RunInThread@1@@Z
+         10    9 00007E10 ?registerDropDownList@jconf@@YAXPEBDAEBV?$vector@V?$basic_string@D@ed@@V?$allocator@V?$basic_string@D@ed@@@2@@ed@@V?$function@$$A6AXI@Z@std@@IW4RunInThread@1@@Z
+         11    A 00008000 ?registerDropDownList@jconf@@YAXPEBDPEAPEBDIV?$function@$$A6AXI@Z@std@@IW4RunInThread@1@@Z
+         12    B 00008320 ?registerDump@jconf@@YAXPEBDV?$function@$$A6AXAEAVJsonWriter@ed@@@Z@std@@@Z
+         13    C 000083D0 ?registerEndpoint@jconf@@YAXPEBDV?$function@$$A6AXAEAVJsonWriter@ed@@@Z@std@@@Z
+         14    D 00008480 ?registerFileSelector@jconf@@YAXPEBD0V?$function@$$A6AXPEBDPEBC_K@Z@std@@W4RunInThread@1@@Z
+         15    E 00008600 ?registerFloat3@jconf@@YAXPEBDAEAVVec3f@osg@@W4RunInThread@1@@Z
+         16    F 00008650 ?registerFloat3@jconf@@YAXPEBDV?$tuple@V?$function@$$A6A?AVVec3f@osg@@XZ@std@@V?$function@$$A6AXAEBVVec3f@osg@@@Z@2@@std@@W4RunInThread@1@@Z
+         17   10 00008810 ?registerFloat@jconf@@YAXPEBDMMV?$tuple@V?$function@$$A6AMXZ@std@@V?$function@$$A6AXM@Z@2@@std@@W4RunInThread@1@@Z
+         18   11 000089F0 ?registerFunc@jconf@@YAXPEBDV?$function@$$A6AXXZ@std@@W4RunInThread@1@@Z
+         19   12 00008B60 ?registerInt@jconf@@YAXPEBDV?$tuple@V?$function@$$A6AHXZ@std@@V?$function@$$A6AXH@Z@2@@std@@W4RunInThread@1@@Z
+         20   13 00008D20 ?registerStaticText@jconf@@YAXPEBDV?$function@$$A6A?AV?$basic_string@D@ed@@XZ@std@@@Z
+         21   14 00008E90 ?registerTextEdit@jconf@@YAXPEBD0V?$function@$$A6AXPEBD@Z@std@@W4RunInThread@1@@Z
+         22   15 000091F0 ?setIntParameter@jconf@@YAXPEBDH@Z
+         23   16 00009390 ?setRenderThreadId@jconf@@YAXAEBVid@thread@ed@@@Z
+         24   17 000091F0 ?toggleFunc@jconf@@YAXPEBD@Z
+         25   18 00009630 ?unregister@jconf@@YAXPEBD@Z
+         26   19 00009660 ?unregisterBackendStatCallback@jconf@@YAXXZ
+         27   1A 00009670 ?unregisterDump@jconf@@YAXPEBD@Z
+         28   1B 00009680 ?unregisterEndpoint@jconf@@YAXPEBD@Z
+
+  Summary
+
+        4000 .data
+        3000 .pdata
+       14000 .rdata
+        1000 .reloc
+        1000 .rsrc
+       2B000 .text

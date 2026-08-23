@@ -1,0 +1,110 @@
+Microsoft (R) COFF/PE Dumper Version 14.51.36256.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file G:\DCS_OPS_RE\bin\zlib1.dll
+
+File Type: DLL
+
+  Section contains the following exports for zlib1.dll
+
+    00000000 characteristics
+    FFFFFFFF time date stamp
+        0.00 version
+           1 ordinal base
+          82 number of functions
+          82 number of names
+
+    ordinal hint RVA      name
+
+          1    0 00001B50 adler32
+          2    1 00001B60 adler32_combine
+          3    2 00001C50 adler32_z
+          4    3 00001C60 compress
+          5    4 00001C80 compress2
+          6    5 00001D80 compressBound
+          7    6 00001DA0 crc32
+          8    7 00001DE0 crc32_combine
+          9    8 00001E50 crc32_combine_gen
+         10    9 00001E60 crc32_combine_op
+         11    A 00001DC0 crc32_z
+         12    B 00002040 deflate
+         13    C 000028C0 deflateBound
+         14    D 00002A30 deflateCopy
+         15    E 00002C80 deflateEnd
+         16    F 00002D10 deflateGetDictionary
+         17   10 00003010 deflateInit2_
+         18   11 00003030 deflateInit_
+         19   12 00003080 deflateParams
+         20   13 000031E0 deflatePending
+         21   14 00003250 deflatePrime
+         22   15 00003380 deflateReset
+         23   16 00003480 deflateResetKeep
+         24   17 00003560 deflateSetDictionary
+         25   18 00003720 deflateSetHeader
+         26   19 00003770 deflateTune
+         27   1A 00001DD0 get_crc_table
+         28   1B 00011E80 gzbuffer
+         29   1C 00011EC0 gzclearerr
+         30   1D 00011F20 gzclose
+         31   1E 00012C90 gzclose_r
+         32   1F 000137A0 gzclose_w
+         33   20 00012D40 gzdirect
+         34   21 00011F40 gzdopen
+         35   22 00011FD0 gzeof
+         36   23 00011FF0 gzerror
+         37   24 00013870 gzflush
+         38   25 00012D80 gzfread
+         39   26 000138E0 gzfwrite
+         40   27 00012E00 gzgetc
+         41   28 00012E80 gzgetc_
+         42   29 00012EF0 gzgets
+         43   2A 00012040 gzoffset
+         44   2B 000120B0 gzopen
+         45   2C 000120C0 gzopen_w
+         46   2D 00013960 gzprintf
+         47   2E 00013990 gzputc
+         48   2F 00013A60 gzputs
+         49   30 00013020 gzread
+         50   31 000120D0 gzrewind
+         51   32 00012130 gzseek
+         52   33 00013AF0 gzsetparams
+         53   34 00012330 gztell
+         54   35 00013090 gzungetc
+         55   36 00013C00 gzvprintf
+         56   37 00013D90 gzwrite
+         57   38 00007380 inflate
+         58   39 00005F30 inflateBack
+         59   3A 00006F00 inflateBackEnd
+         60   3B 00006F30 inflateBackInit_
+         61   3C 00008D30 inflateCodesUsed
+         62   3D 00008D60 inflateCopy
+         63   3E 00008F10 inflateEnd
+         64   3F 00008F90 inflateGetDictionary
+         65   40 00009050 inflateGetHeader
+         66   41 00009340 inflateInit2_
+         67   42 00009360 inflateInit_
+         68   43 00009380 inflateMark
+         69   44 00009420 inflatePrime
+         70   45 000094C0 inflateReset
+         71   46 00009510 inflateReset2
+         72   47 000095F0 inflateResetKeep
+         73   48 000096D0 inflateSetDictionary
+         74   49 000097C0 inflateSync
+         75   4A 000099F0 inflateSyncPoint
+         76   4B 00009A50 inflateUndermine
+         77   4C 00009AB0 inflateValidate
+         78   4D 0000C040 uncompress
+         79   4E 0000C060 uncompress2
+         80   4F 0000C1C0 zError
+         81   50 0000C220 zlibCompileFlags
+         82   51 0000C230 zlibVersion
+
+  Summary
+
+        1000 .data
+        1000 .pdata
+        8000 .rdata
+        1000 .reloc
+        1000 .rsrc
+       14000 .text

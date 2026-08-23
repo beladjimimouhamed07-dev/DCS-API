@@ -1,0 +1,778 @@
+{
+    "dll": "edterrainExtra4.dll",
+    "class_count": 9,
+    "classes": {
+        "BmpFile": {
+            "class_name": "BmpFile",
+            "namespace": "edtex",
+            "methods": [
+                {
+                    "ordinal": 1,
+                    "rva": 0,
+                    "rva_hex": "0x0",
+                    "name": "??0BmpFile@edtex@@QEAA@AEBV01@@Z",
+                    "demangled": "public: __cdecl edtex::BmpFile::BmpFile(class edtex::BmpFile const &)",
+                    "function_name": "BmpFile",
+                    "parameters": "class edtex::BmpFile const &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 2,
+                    "rva": 1,
+                    "rva_hex": "0x1",
+                    "name": "??0BmpFile@edtex@@QEAA@XZ",
+                    "demangled": "public: __cdecl edtex::BmpFile::BmpFile(void)",
+                    "function_name": "BmpFile",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 10,
+                    "rva": 9,
+                    "rva_hex": "0x9",
+                    "name": "??1BmpFile@edtex@@UEAA@XZ",
+                    "demangled": "public: virtual __cdecl edtex::BmpFile::~BmpFile(void)",
+                    "function_name": "~BmpFile",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": true
+                },
+                {
+                    "ordinal": 31,
+                    "rva": 30,
+                    "rva_hex": "0x1E",
+                    "name": "?doClose@BmpFile@edtex@@MEAAXXZ",
+                    "demangled": "protected: virtual void __cdecl edtex::BmpFile::doClose(void)",
+                    "function_name": "doClose",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": true
+                },
+                {
+                    "ordinal": 34,
+                    "rva": 33,
+                    "rva_hex": "0x21",
+                    "name": "?doLoadTexture@BmpFile@edtex@@MEAA_NPEAUITextureAccesor@texture@2@@Z",
+                    "demangled": "protected: virtual bool __cdecl edtex::BmpFile::doLoadTexture(struct edtex::texture::ITextureAccesor *)",
+                    "function_name": "doLoadTexture",
+                    "parameters": "struct edtex::texture::ITextureAccesor *",
+                    "const": false,
+                    "static": false,
+                    "virtual": true
+                },
+                {
+                    "ordinal": 37,
+                    "rva": 36,
+                    "rva_hex": "0x24",
+                    "name": "?doSaveTexture@BmpFile@edtex@@MEAA_NPEAUITextureAccesor@texture@2@@Z",
+                    "demangled": "protected: virtual bool __cdecl edtex::BmpFile::doSaveTexture(struct edtex::texture::ITextureAccesor *)",
+                    "function_name": "doSaveTexture",
+                    "parameters": "struct edtex::texture::ITextureAccesor *",
+                    "const": false,
+                    "static": false,
+                    "virtual": true
+                },
+                {
+                    "ordinal": 57,
+                    "rva": 56,
+                    "rva_hex": "0x38",
+                    "name": "?openRead@BmpFile@edtex@@MEAA_NPEBD@Z",
+                    "demangled": "protected: virtual bool __cdecl edtex::BmpFile::openRead(char const *)",
+                    "function_name": "openRead",
+                    "parameters": "char const *",
+                    "const": false,
+                    "static": false,
+                    "virtual": true
+                },
+                {
+                    "ordinal": 60,
+                    "rva": 59,
+                    "rva_hex": "0x3B",
+                    "name": "?openWrite@BmpFile@edtex@@MEAA_NPEBD@Z",
+                    "demangled": "protected: virtual bool __cdecl edtex::BmpFile::openWrite(char const *)",
+                    "function_name": "openWrite",
+                    "parameters": "char const *",
+                    "const": false,
+                    "static": false,
+                    "virtual": true
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "ElevationSpatialFile": {
+            "class_name": "ElevationSpatialFile",
+            "namespace": "edtex",
+            "methods": [
+                {
+                    "ordinal": 3,
+                    "rva": 2,
+                    "rva_hex": "0x2",
+                    "name": "??0ElevationSpatialFile@edtex@@QEAA@XZ",
+                    "demangled": "public: __cdecl edtex::ElevationSpatialFile::ElevationSpatialFile(void)",
+                    "function_name": "ElevationSpatialFile",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 11,
+                    "rva": 10,
+                    "rva_hex": "0xA",
+                    "name": "??1ElevationSpatialFile@edtex@@QEAA@XZ",
+                    "demangled": "public: __cdecl edtex::ElevationSpatialFile::~ElevationSpatialFile(void)",
+                    "function_name": "~ElevationSpatialFile",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 25,
+                    "rva": 24,
+                    "rva_hex": "0x18",
+                    "name": "?addElevationMap@ElevationSpatialFile@edtex@@QEAA_NAEBV?$basic_string@D@ed@@AEBUprojection_t@utm_private@@AEBV?$BoundingBoxImpl@VVec3d@osg@@@osg@@@Z",
+                    "demangled": "public: bool __cdecl edtex::ElevationSpatialFile::addElevationMap(class ed::basic_string<char> const &, struct utm_private::projection_t const &, class osg::BoundingBoxImpl<class osg::Vec3d> const &)",
+                    "function_name": "addElevationMap",
+                    "parameters": "class ed::basic_string<char> const &, struct utm_private::projection_t const &, class osg::BoundingBoxImpl<class osg::Vec3d> const &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 27,
+                    "rva": 26,
+                    "rva_hex": "0x1A",
+                    "name": "?addSeabedMap@ElevationSpatialFile@edtex@@QEAA_NAEBV?$basic_string@D@ed@@AEBUprojection_t@utm_private@@AEBV?$BoundingBoxImpl@VVec3d@osg@@@osg@@@Z",
+                    "demangled": "public: bool __cdecl edtex::ElevationSpatialFile::addSeabedMap(class ed::basic_string<char> const &, struct utm_private::projection_t const &, class osg::BoundingBoxImpl<class osg::Vec3d> const &)",
+                    "function_name": "addSeabedMap",
+                    "parameters": "class ed::basic_string<char> const &, struct utm_private::projection_t const &, class osg::BoundingBoxImpl<class osg::Vec3d> const &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 28,
+                    "rva": 27,
+                    "rva_hex": "0x1B",
+                    "name": "?addSurfaceTypeMesh@ElevationSpatialFile@edtex@@QEAA_NAEBUMesh@offshore@@$$QEAV?$mmfMatrixMN@H@ed@@AEBV?$vector@HV?$allocator@H@ed@@@6@@Z",
+                    "demangled": "public: bool __cdecl edtex::ElevationSpatialFile::addSurfaceTypeMesh(struct offshore::Mesh const &, class ed::mmfMatrixMN<int> &&, class ed::vector<int, class ed::allocator<int>> const &)",
+                    "function_name": "addSurfaceTypeMesh",
+                    "parameters": "struct offshore::Mesh const &, class ed::mmfMatrixMN<int> &&, class ed::vector<int, class ed::allocator<int>> const &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 40,
+                    "rva": 39,
+                    "rva_hex": "0x27",
+                    "name": "?dump@ElevationSpatialFile@edtex@@QEBAXAEAV?$matrixMN@VVec4f@osg@@@ed@@@Z",
+                    "demangled": "public: void __cdecl edtex::ElevationSpatialFile::dump(class ed::matrixMN<class osg::Vec4f> &) const",
+                    "function_name": "dump",
+                    "parameters": "class ed::matrixMN<class osg::Vec4f> &",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 41,
+                    "rva": 40,
+                    "rva_hex": "0x28",
+                    "name": "?dump@ElevationSpatialFile@edtex@@QEBAXAEAV?$matrixMN@VVec4f@osg@@@ed@@M@Z",
+                    "demangled": "public: void __cdecl edtex::ElevationSpatialFile::dump(class ed::matrixMN<class osg::Vec4f> &, float) const",
+                    "function_name": "dump",
+                    "parameters": "class ed::matrixMN<class osg::Vec4f> &, float",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 42,
+                    "rva": 41,
+                    "rva_hex": "0x29",
+                    "name": "?dumpSurfaceTypes@ElevationSpatialFile@edtex@@QEBAXAEAUScene@offshore@@H@Z",
+                    "demangled": "public: void __cdecl edtex::ElevationSpatialFile::dumpSurfaceTypes(struct offshore::Scene &, int) const",
+                    "function_name": "dumpSurfaceTypes",
+                    "parameters": "struct offshore::Scene &, int",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 47,
+                    "rva": 46,
+                    "rva_hex": "0x2E",
+                    "name": "?getHeight@ElevationSpatialFile@edtex@@QEBANAEBVVec3d@osg@@@Z",
+                    "demangled": "public: double __cdecl edtex::ElevationSpatialFile::getHeight(class osg::Vec3d const &) const",
+                    "function_name": "getHeight",
+                    "parameters": "class osg::Vec3d const &",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 48,
+                    "rva": 47,
+                    "rva_hex": "0x2F",
+                    "name": "?getHeight@ElevationSpatialFile@edtex@@QEBANAEBVVec3d@osg@@MPEAVVec2d@4@@Z",
+                    "demangled": "public: double __cdecl edtex::ElevationSpatialFile::getHeight(class osg::Vec3d const &, float, class osg::Vec2d *) const",
+                    "function_name": "getHeight",
+                    "parameters": "class osg::Vec3d const &, float, class osg::Vec2d *",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 52,
+                    "rva": 51,
+                    "rva_hex": "0x33",
+                    "name": "?getSurfaceType@ElevationSpatialFile@edtex@@QEBAHAEBVVec3d@osg@@@Z",
+                    "demangled": "public: int __cdecl edtex::ElevationSpatialFile::getSurfaceType(class osg::Vec3d const &) const",
+                    "function_name": "getSurfaceType",
+                    "parameters": "class osg::Vec3d const &",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 54,
+                    "rva": 53,
+                    "rva_hex": "0x35",
+                    "name": "?load@ElevationSpatialFile@edtex@@QEAA_NAEAVMmfStream@io@@N@Z",
+                    "demangled": "public: bool __cdecl edtex::ElevationSpatialFile::load(class io::MmfStream &, double)",
+                    "function_name": "load",
+                    "parameters": "class io::MmfStream &, double",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 64,
+                    "rva": 63,
+                    "rva_hex": "0x3F",
+                    "name": "?save@ElevationSpatialFile@edtex@@QEAA_NAEBV?$basic_string@D@ed@@@Z",
+                    "demangled": "public: bool __cdecl edtex::ElevationSpatialFile::save(class ed::basic_string<char> const &)",
+                    "function_name": "save",
+                    "parameters": "class ed::basic_string<char> const &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "ITextureFile": {
+            "class_name": "ITextureFile",
+            "namespace": "edtex",
+            "methods": [
+                {
+                    "ordinal": 4,
+                    "rva": 3,
+                    "rva_hex": "0x3",
+                    "name": "??0ITextureFile@edtex@@QEAA@AEBV01@@Z",
+                    "demangled": "public: __cdecl edtex::ITextureFile::ITextureFile(class edtex::ITextureFile const &)",
+                    "function_name": "ITextureFile",
+                    "parameters": "class edtex::ITextureFile const &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 5,
+                    "rva": 4,
+                    "rva_hex": "0x4",
+                    "name": "??0ITextureFile@edtex@@QEAA@XZ",
+                    "demangled": "public: __cdecl edtex::ITextureFile::ITextureFile(void)",
+                    "function_name": "ITextureFile",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 12,
+                    "rva": 11,
+                    "rva_hex": "0xB",
+                    "name": "??1ITextureFile@edtex@@UEAA@XZ",
+                    "demangled": "public: virtual __cdecl edtex::ITextureFile::~ITextureFile(void)",
+                    "function_name": "~ITextureFile",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": true
+                },
+                {
+                    "ordinal": 29,
+                    "rva": 28,
+                    "rva_hex": "0x1C",
+                    "name": "?close@ITextureFile@edtex@@QEAAXXZ",
+                    "demangled": "public: void __cdecl edtex::ITextureFile::close(void)",
+                    "function_name": "close",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 30,
+                    "rva": 29,
+                    "rva_hex": "0x1D",
+                    "name": "?create@ITextureFile@edtex@@SA?AV?$unique_ptr@VITextureFile@edtex@@U?$default_delete@VITextureFile@edtex@@@std@@@std@@W4enTextureType@2@PEBD@Z",
+                    "demangled": "public: static class std::unique_ptr<class edtex::ITextureFile, struct std::default_delete<class edtex::ITextureFile>> __cdecl edtex::ITextureFile::create(enum edtex::enTextureType, char const *)",
+                    "function_name": "create",
+                    "parameters": "enum edtex::enTextureType, char const *",
+                    "const": false,
+                    "static": true,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 50,
+                    "rva": 49,
+                    "rva_hex": "0x31",
+                    "name": "?getMetaData@ITextureFile@edtex@@QEBAAEBUMetaData@2@XZ",
+                    "demangled": "public: struct edtex::MetaData const & __cdecl edtex::ITextureFile::getMetaData(void) const",
+                    "function_name": "getMetaData",
+                    "parameters": "void",
+                    "const": true,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 55,
+                    "rva": 54,
+                    "rva_hex": "0x36",
+                    "name": "?loadTexture@ITextureFile@edtex@@QEAA_NPEAUITextureAccesor@texture@2@@Z",
+                    "demangled": "public: bool __cdecl edtex::ITextureFile::loadTexture(struct edtex::texture::ITextureAccesor *)",
+                    "function_name": "loadTexture",
+                    "parameters": "struct edtex::texture::ITextureAccesor *",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 56,
+                    "rva": 55,
+                    "rva_hex": "0x37",
+                    "name": "?open@ITextureFile@edtex@@QEAA_NPEBDW4Mode@12@@Z",
+                    "demangled": "public: bool __cdecl edtex::ITextureFile::open(char const *, enum edtex::ITextureFile::Mode)",
+                    "function_name": "open",
+                    "parameters": "char const *, enum edtex::ITextureFile::Mode",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 65,
+                    "rva": 64,
+                    "rva_hex": "0x40",
+                    "name": "?saveTexture@ITextureFile@edtex@@QEAA_NPEAUITextureAccesor@texture@2@AEBUMetaData@2@@Z",
+                    "demangled": "public: bool __cdecl edtex::ITextureFile::saveTexture(struct edtex::texture::ITextureAccesor *, struct edtex::MetaData const &)",
+                    "function_name": "saveTexture",
+                    "parameters": "struct edtex::texture::ITextureAccesor *, struct edtex::MetaData const &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "PngFile": {
+            "class_name": "PngFile",
+            "namespace": "edtex",
+            "methods": [
+                {
+                    "ordinal": 6,
+                    "rva": 5,
+                    "rva_hex": "0x5",
+                    "name": "??0PngFile@edtex@@QEAA@AEBV01@@Z",
+                    "demangled": "public: __cdecl edtex::PngFile::PngFile(class edtex::PngFile const &)",
+                    "function_name": "PngFile",
+                    "parameters": "class edtex::PngFile const &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 7,
+                    "rva": 6,
+                    "rva_hex": "0x6",
+                    "name": "??0PngFile@edtex@@QEAA@XZ",
+                    "demangled": "public: __cdecl edtex::PngFile::PngFile(void)",
+                    "function_name": "PngFile",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 13,
+                    "rva": 12,
+                    "rva_hex": "0xC",
+                    "name": "??1PngFile@edtex@@UEAA@XZ",
+                    "demangled": "public: virtual __cdecl edtex::PngFile::~PngFile(void)",
+                    "function_name": "~PngFile",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": true
+                },
+                {
+                    "ordinal": 32,
+                    "rva": 31,
+                    "rva_hex": "0x1F",
+                    "name": "?doClose@PngFile@edtex@@MEAAXXZ",
+                    "demangled": "protected: virtual void __cdecl edtex::PngFile::doClose(void)",
+                    "function_name": "doClose",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": true
+                },
+                {
+                    "ordinal": 35,
+                    "rva": 34,
+                    "rva_hex": "0x22",
+                    "name": "?doLoadTexture@PngFile@edtex@@MEAA_NPEAUITextureAccesor@texture@2@@Z",
+                    "demangled": "protected: virtual bool __cdecl edtex::PngFile::doLoadTexture(struct edtex::texture::ITextureAccesor *)",
+                    "function_name": "doLoadTexture",
+                    "parameters": "struct edtex::texture::ITextureAccesor *",
+                    "const": false,
+                    "static": false,
+                    "virtual": true
+                },
+                {
+                    "ordinal": 38,
+                    "rva": 37,
+                    "rva_hex": "0x25",
+                    "name": "?doSaveTexture@PngFile@edtex@@MEAA_NPEAUITextureAccesor@texture@2@@Z",
+                    "demangled": "protected: virtual bool __cdecl edtex::PngFile::doSaveTexture(struct edtex::texture::ITextureAccesor *)",
+                    "function_name": "doSaveTexture",
+                    "parameters": "struct edtex::texture::ITextureAccesor *",
+                    "const": false,
+                    "static": false,
+                    "virtual": true
+                },
+                {
+                    "ordinal": 58,
+                    "rva": 57,
+                    "rva_hex": "0x39",
+                    "name": "?openRead@PngFile@edtex@@MEAA_NPEBD@Z",
+                    "demangled": "protected: virtual bool __cdecl edtex::PngFile::openRead(char const *)",
+                    "function_name": "openRead",
+                    "parameters": "char const *",
+                    "const": false,
+                    "static": false,
+                    "virtual": true
+                },
+                {
+                    "ordinal": 61,
+                    "rva": 60,
+                    "rva_hex": "0x3C",
+                    "name": "?openWrite@PngFile@edtex@@MEAA_NPEBD@Z",
+                    "demangled": "protected: virtual bool __cdecl edtex::PngFile::openWrite(char const *)",
+                    "function_name": "openWrite",
+                    "parameters": "char const *",
+                    "const": false,
+                    "static": false,
+                    "virtual": true
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "TiffFile": {
+            "class_name": "TiffFile",
+            "namespace": "edtex",
+            "methods": [
+                {
+                    "ordinal": 8,
+                    "rva": 7,
+                    "rva_hex": "0x7",
+                    "name": "??0TiffFile@edtex@@QEAA@AEBV01@@Z",
+                    "demangled": "public: __cdecl edtex::TiffFile::TiffFile(class edtex::TiffFile const &)",
+                    "function_name": "TiffFile",
+                    "parameters": "class edtex::TiffFile const &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 9,
+                    "rva": 8,
+                    "rva_hex": "0x8",
+                    "name": "??0TiffFile@edtex@@QEAA@XZ",
+                    "demangled": "public: __cdecl edtex::TiffFile::TiffFile(void)",
+                    "function_name": "TiffFile",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 14,
+                    "rva": 13,
+                    "rva_hex": "0xD",
+                    "name": "??1TiffFile@edtex@@UEAA@XZ",
+                    "demangled": "public: virtual __cdecl edtex::TiffFile::~TiffFile(void)",
+                    "function_name": "~TiffFile",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": true
+                },
+                {
+                    "ordinal": 33,
+                    "rva": 32,
+                    "rva_hex": "0x20",
+                    "name": "?doClose@TiffFile@edtex@@MEAAXXZ",
+                    "demangled": "protected: virtual void __cdecl edtex::TiffFile::doClose(void)",
+                    "function_name": "doClose",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": true
+                },
+                {
+                    "ordinal": 36,
+                    "rva": 35,
+                    "rva_hex": "0x23",
+                    "name": "?doLoadTexture@TiffFile@edtex@@MEAA_NPEAUITextureAccesor@texture@2@@Z",
+                    "demangled": "protected: virtual bool __cdecl edtex::TiffFile::doLoadTexture(struct edtex::texture::ITextureAccesor *)",
+                    "function_name": "doLoadTexture",
+                    "parameters": "struct edtex::texture::ITextureAccesor *",
+                    "const": false,
+                    "static": false,
+                    "virtual": true
+                },
+                {
+                    "ordinal": 39,
+                    "rva": 38,
+                    "rva_hex": "0x26",
+                    "name": "?doSaveTexture@TiffFile@edtex@@MEAA_NPEAUITextureAccesor@texture@2@@Z",
+                    "demangled": "protected: virtual bool __cdecl edtex::TiffFile::doSaveTexture(struct edtex::texture::ITextureAccesor *)",
+                    "function_name": "doSaveTexture",
+                    "parameters": "struct edtex::texture::ITextureAccesor *",
+                    "const": false,
+                    "static": false,
+                    "virtual": true
+                },
+                {
+                    "ordinal": 59,
+                    "rva": 58,
+                    "rva_hex": "0x3A",
+                    "name": "?openRead@TiffFile@edtex@@MEAA_NPEBD@Z",
+                    "demangled": "protected: virtual bool __cdecl edtex::TiffFile::openRead(char const *)",
+                    "function_name": "openRead",
+                    "parameters": "char const *",
+                    "const": false,
+                    "static": false,
+                    "virtual": true
+                },
+                {
+                    "ordinal": 62,
+                    "rva": 61,
+                    "rva_hex": "0x3D",
+                    "name": "?openWrite@TiffFile@edtex@@MEAA_NPEBD@Z",
+                    "demangled": "protected: virtual bool __cdecl edtex::TiffFile::openWrite(char const *)",
+                    "function_name": "openWrite",
+                    "parameters": "char const *",
+                    "const": false,
+                    "static": false,
+                    "virtual": true
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "GeoTiffProps": {
+            "class_name": "GeoTiffProps",
+            "namespace": "edtex",
+            "methods": [
+                {
+                    "ordinal": 24,
+                    "rva": 23,
+                    "rva_hex": "0x17",
+                    "name": "?SaveToERS@GeoTiffProps@edtex@@QEAA_NPEBD@Z",
+                    "demangled": "public: bool __cdecl edtex::GeoTiffProps::SaveToERS(char const *)",
+                    "function_name": "SaveToERS",
+                    "parameters": "char const *",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 63,
+                    "rva": 62,
+                    "rva_hex": "0x3E",
+                    "name": "?pixFromLockon@GeoTiffProps@edtex@@QEAA?AVVec2d@osg@@AEBVVec3d@4@AEBUprojection_t@utm_private@@@Z",
+                    "demangled": "public: class osg::Vec2d __cdecl edtex::GeoTiffProps::pixFromLockon(class osg::Vec3d const &, struct utm_private::projection_t const &)",
+                    "function_name": "pixFromLockon",
+                    "parameters": "class osg::Vec3d const &, struct utm_private::projection_t const &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "HeightMesh": {
+            "class_name": "HeightMesh",
+            "namespace": "edtex",
+            "methods": [
+                {
+                    "ordinal": 26,
+                    "rva": 25,
+                    "rva_hex": "0x19",
+                    "name": "?addMesh@HeightMesh@edtex@@QEAAXAEAUMesh@offshore@@@Z",
+                    "demangled": "public: void __cdecl edtex::HeightMesh::addMesh(struct offshore::Mesh &)",
+                    "function_name": "addMesh",
+                    "parameters": "struct offshore::Mesh &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 49,
+                    "rva": 48,
+                    "rva_hex": "0x30",
+                    "name": "?getHeight@HeightMesh@edtex@@QEAANAEBVVec3d@osg@@@Z",
+                    "demangled": "public: double __cdecl edtex::HeightMesh::getHeight(class osg::Vec3d const &)",
+                    "function_name": "getHeight",
+                    "parameters": "class osg::Vec3d const &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 51,
+                    "rva": 50,
+                    "rva_hex": "0x32",
+                    "name": "?getPolygonHeight@HeightMesh@edtex@@QEAANAEBVVec3d@osg@@AEAN1@Z",
+                    "demangled": "public: double __cdecl edtex::HeightMesh::getPolygonHeight(class osg::Vec3d const &, double &, double &)",
+                    "function_name": "getPolygonHeight",
+                    "parameters": "class osg::Vec3d const &, double &, double &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 53,
+                    "rva": 52,
+                    "rva_hex": "0x34",
+                    "name": "?init@HeightMesh@edtex@@QEAAXAEAUScene@offshore@@HV?$basic_string@D@ed@@@Z",
+                    "demangled": "public: void __cdecl edtex::HeightMesh::init(struct offshore::Scene &, int, class ed::basic_string<char>)",
+                    "function_name": "init",
+                    "parameters": "struct offshore::Scene &, int, class ed::basic_string<char>",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "edtex": {
+            "class_name": "edtex",
+            "namespace": null,
+            "methods": [
+                {
+                    "ordinal": 43,
+                    "rva": 42,
+                    "rva_hex": "0x2A",
+                    "name": "?fromLockontoTexCoord@edtex@@YA?AVVec2d@osg@@VVec3d@3@AEBUGeoTiffProps@1@HHAEBUprojection_t@utm_private@@@Z",
+                    "demangled": "class osg::Vec2d __cdecl edtex::fromLockontoTexCoord(class osg::Vec3d, struct edtex::GeoTiffProps const &, int, int, struct utm_private::projection_t const &)",
+                    "function_name": "fromLockontoTexCoord",
+                    "parameters": "class osg::Vec3d, struct edtex::GeoTiffProps const &, int, int, struct utm_private::projection_t const &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 44,
+                    "rva": 43,
+                    "rva_hex": "0x2B",
+                    "name": "?fromTexCoordtoLockon@edtex@@YA?AVVec3d@osg@@VVec2d@3@AEBUGeoTiffProps@1@HHAEBUprojection_t@utm_private@@@Z",
+                    "demangled": "class osg::Vec3d __cdecl edtex::fromTexCoordtoLockon(class osg::Vec2d, struct edtex::GeoTiffProps const &, int, int, struct utm_private::projection_t const &)",
+                    "function_name": "fromTexCoordtoLockon",
+                    "parameters": "class osg::Vec2d, struct edtex::GeoTiffProps const &, int, int, struct utm_private::projection_t const &",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 45,
+                    "rva": 44,
+                    "rva_hex": "0x2C",
+                    "name": "?fromTexCoordtoUTM@edtex@@YA?AVVec2d@osg@@V23@AEBUGeoTiffProps@1@HH@Z",
+                    "demangled": "class osg::Vec2d __cdecl edtex::fromTexCoordtoUTM(class osg::Vec2d, struct edtex::GeoTiffProps const &, int, int)",
+                    "function_name": "fromTexCoordtoUTM",
+                    "parameters": "class osg::Vec2d, struct edtex::GeoTiffProps const &, int, int",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 46,
+                    "rva": 45,
+                    "rva_hex": "0x2D",
+                    "name": "?fromUTMtoTexCoord@edtex@@YA?AVVec2d@osg@@V23@AEBUGeoTiffProps@1@HH@Z",
+                    "demangled": "class osg::Vec2d __cdecl edtex::fromUTMtoTexCoord(class osg::Vec2d, struct edtex::GeoTiffProps const &, int, int)",
+                    "function_name": "fromUTMtoTexCoord",
+                    "parameters": "class osg::Vec2d, struct edtex::GeoTiffProps const &, int, int",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "": {
+            "class_name": "",
+            "namespace": null,
+            "methods": [],
+            "vftables": [
+                {
+                    "ordinal": 20,
+                    "rva": 19,
+                    "rva_hex": "0x13",
+                    "name": "??_7BmpFile@edtex@@6B@",
+                    "demangled": "const edtex::BmpFile::`vftable'"
+                },
+                {
+                    "ordinal": 21,
+                    "rva": 20,
+                    "rva_hex": "0x14",
+                    "name": "??_7ITextureFile@edtex@@6B@",
+                    "demangled": "const edtex::ITextureFile::`vftable'"
+                },
+                {
+                    "ordinal": 22,
+                    "rva": 21,
+                    "rva_hex": "0x15",
+                    "name": "??_7PngFile@edtex@@6B@",
+                    "demangled": "const edtex::PngFile::`vftable'"
+                },
+                {
+                    "ordinal": 23,
+                    "rva": 22,
+                    "rva_hex": "0x16",
+                    "name": "??_7TiffFile@edtex@@6B@",
+                    "demangled": "const edtex::TiffFile::`vftable'"
+                }
+            ],
+            "other_symbols": []
+        }
+    }
+}

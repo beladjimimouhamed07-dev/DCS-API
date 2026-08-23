@@ -1,0 +1,134 @@
+// DCS_OPS_RE: easy_profiler.dll
+// Generated from dumpbin /exports
+
+[    1]          0x0  protected: __cdecl profiler::ArbitraryValue::ArbitraryValue(unsigned __int64, unsigned __int64, unsigned int, unsigned short, enum profiler::DataType, bool)
+[    2]          0x1  public: __cdecl profiler::BaseBlockData::BaseBlockData(unsigned __int64, unsigned __int64, unsigned int)
+[    3]          0x2  public: __cdecl profiler::BaseBlockData::BaseBlockData(unsigned __int64, unsigned int)
+[    4]          0x3  protected: __cdecl profiler::BaseBlockDescriptor::BaseBlockDescriptor(unsigned int, enum profiler::EasyBlockStatus, int, enum profiler::BlockType, unsigned int)
+[    5]          0x4  public: __cdecl profiler::Block::Block(class profiler::Block &&)
+[    6]          0x5  public: __cdecl profiler::Block::Block(class profiler::BaseBlockDescriptor const *, char const *, bool)
+[    7]          0x6  public: __cdecl profiler::Block::Block(unsigned __int64, unsigned __int64, unsigned int, char const *)
+[    8]          0x7  public: __cdecl profiler::Block::Block(unsigned __int64, unsigned int, char const *)
+[    9]          0x8  public: __cdecl profiler::CSwitchEvent::CSwitchEvent(unsigned __int64, unsigned __int64)
+[   10]          0x9  public: __cdecl EasySocket::EasySocket(void)
+[   11]          0xA  public: __cdecl profiler::Event::Event(unsigned __int64, unsigned __int64)
+[   12]          0xB  public: __cdecl profiler::Event::Event(unsigned __int64)
+[   13]          0xC  private: __cdecl profiler::SerializedBlock::SerializedBlock(class profiler::Block const &, unsigned short)
+[   14]          0xD  private: __cdecl profiler::SerializedCSwitch::SerializedCSwitch(class CSwitchBlock const &, unsigned short)
+[   15]          0xE  public: __cdecl profiler::SerializedData::SerializedData(class profiler::SerializedData &&)
+[   16]          0xF  public: __cdecl profiler::SerializedData::SerializedData(void)
+[   17]         0x10  public: __cdecl profiler::ThreadGuard::ThreadGuard(void)
+[   18]         0x11  public: __cdecl profiler::Block::~Block(void)
+[   19]         0x12  public: __cdecl EasySocket::~EasySocket(void)
+[   20]         0x13  public: __cdecl profiler::SerializedData::~SerializedData(void)
+[   21]         0x14  public: __cdecl profiler::ThreadGuard::~ThreadGuard(void)
+[   22]         0x15  public: class profiler::ArbitraryValue & __cdecl profiler::ArbitraryValue::operator=(class profiler::ArbitraryValue const &)
+[   23]         0x16  public: class profiler::BaseBlockData & __cdecl profiler::BaseBlockData::operator=(class profiler::BaseBlockData const &)
+[   24]         0x17  public: class profiler::BaseBlockDescriptor & __cdecl profiler::BaseBlockDescriptor::operator=(class profiler::BaseBlockDescriptor &&)
+[   25]         0x18  public: class profiler::BaseBlockDescriptor & __cdecl profiler::BaseBlockDescriptor::operator=(class profiler::BaseBlockDescriptor const &)
+[   26]         0x19  public: class profiler::CSwitchEvent & __cdecl profiler::CSwitchEvent::operator=(class profiler::CSwitchEvent const &)
+[   27]         0x1A  public: class EasySocket & __cdecl EasySocket::operator=(class EasySocket const &)
+[   28]         0x1B  public: class profiler::Event & __cdecl profiler::Event::operator=(class profiler::Event const &)
+[   29]         0x1C  public: class profiler::SerializedData & __cdecl profiler::SerializedData::operator=(class profiler::SerializedData &&)
+[   30]         0x1D  public: class profiler::ThreadGuard & __cdecl profiler::ThreadGuard::operator=(class profiler::ThreadGuard const &)
+[   31]         0x1E  public: char * __cdecl profiler::SerializedData::operator[](unsigned __int64)
+[   32]         0x1F  public: char const * __cdecl profiler::SerializedData::operator[](unsigned __int64) const
+[   33]         0x20  public: int __cdecl EasySocket::accept(void)
+[   34]         0x21  public: unsigned __int64 __cdecl profiler::Event::begin(void) const
+[   35]         0x22  public: int __cdecl EasySocket::bind(unsigned short)
+[   36]         0x23  private: void __cdecl EasySocket::checkResult(int)
+[   37]         0x24  private: bool __cdecl EasySocket::checkSocket(unsigned __int64) const
+[   38]         0x25  public: void __cdecl profiler::SerializedData::clear(void)
+[   39]         0x26  public: unsigned int __cdecl profiler::BaseBlockDescriptor::color(void) const
+[   40]         0x27  public: int __cdecl EasySocket::connect(void)
+[   41]         0x28  public: char const * __cdecl profiler::ArbitraryValue::data(void) const
+[   42]         0x29  public: char const * __cdecl profiler::SerializedBlock::data(void) const
+[   43]         0x2A  public: char const * __cdecl profiler::SerializedBlockDescriptor::data(void) const
+[   44]         0x2B  public: char const * __cdecl profiler::SerializedCSwitch::data(void) const
+[   45]         0x2C  public: char * __cdecl profiler::SerializedData::data(void)
+[   46]         0x2D  public: char const * __cdecl profiler::SerializedData::data(void) const
+[   47]         0x2E  public: unsigned short __cdecl profiler::ArbitraryValue::data_size(void) const
+[   48]         0x2F  public: unsigned __int64 __cdecl profiler::Event::duration(void) const
+[   49]         0x30  public: bool __cdecl profiler::SerializedData::empty(void) const
+[   50]         0x31  public: unsigned __int64 __cdecl profiler::Event::end(void) const
+[   51]         0x32  public: void __cdecl profiler::SerializedData::extend(unsigned __int64)
+[   52]         0x33  public: char const * __cdecl profiler::SerializedBlockDescriptor::file(void) const
+[   53]         0x34  private: void __cdecl profiler::Block::finish(void)
+[   54]         0x35  private: void __cdecl profiler::Block::finish(unsigned __int64)
+[   55]         0x36  private: bool __cdecl profiler::Block::finished(void) const
+[   56]         0x37  public: void __cdecl EasySocket::flush(void)
+[   57]         0x38  public: unsigned int __cdecl profiler::BaseBlockData::id(void) const
+[   58]         0x39  public: unsigned int __cdecl profiler::BaseBlockDescriptor::id(void) const
+[   59]         0x3A  public: void __cdecl EasySocket::init(void)
+[   60]         0x3B  public: bool __cdecl profiler::ArbitraryValue::isArray(void) const
+[   61]         0x3C  public: bool __cdecl EasySocket::isConnected(void) const
+[   62]         0x3D  public: bool __cdecl EasySocket::isDisconnected(void) const
+[   63]         0x3E  public: int __cdecl profiler::BaseBlockDescriptor::line(void) const
+[   64]         0x3F  public: int __cdecl EasySocket::listen(int)
+[   65]         0x40  public: char const * __cdecl profiler::Block::name(void) const
+[   66]         0x41  public: char const * __cdecl profiler::SerializedBlock::name(void) const
+[   67]         0x42  public: char const * __cdecl profiler::SerializedBlockDescriptor::name(void) const
+[   68]         0x43  public: char const * __cdecl profiler::SerializedCSwitch::name(void) const
+[   69]         0x44  public: int __cdecl EasySocket::receive(void *, unsigned __int64)
+[   70]         0x45  public: int __cdecl EasySocket::send(void const *, unsigned __int64)
+[   71]         0x46  private: void __cdecl profiler::SerializedData::set(char *, unsigned __int64)
+[   72]         0x47  public: void __cdecl profiler::SerializedData::set(unsigned __int64)
+[   73]         0x48  public: bool __cdecl EasySocket::setAddress(char const *, unsigned short)
+[   74]         0x49  private: void __cdecl EasySocket::setBlocking(unsigned __int64, bool)
+[   75]         0x4A  public: void __cdecl profiler::BaseBlockData::setId(unsigned int)
+[   76]         0x4B  public: void __cdecl EasySocket::setReceiveTimeout(int)
+[   77]         0x4C  private: void __cdecl profiler::Block::setStatus(enum profiler::EasyBlockStatus)
+[   78]         0x4D  public: void __cdecl profiler::SerializedBlockDescriptor::setStatus(enum profiler::EasyBlockStatus)
+[   79]         0x4E  public: unsigned __int64 __cdecl profiler::SerializedData::size(void) const
+[   80]         0x4F  private: void __cdecl profiler::Block::start(void)
+[   81]         0x50  private: void __cdecl profiler::Block::start(unsigned __int64)
+[   82]         0x51  public: enum EasySocket::ConnectionState __cdecl EasySocket::state(void) const
+[   83]         0x52  public: enum profiler::EasyBlockStatus __cdecl profiler::BaseBlockDescriptor::status(void) const
+[   84]         0x53  private: enum profiler::EasyBlockStatus __cdecl profiler::Block::status(void) const
+[   85]         0x54  public: void __cdecl profiler::SerializedData::swap(class profiler::SerializedData &)
+[   86]         0x55  public: unsigned __int64 __cdecl profiler::CSwitchEvent::tid(void) const
+[   87]         0x56  public: enum profiler::DataType __cdecl profiler::ArbitraryValue::type(void) const
+[   88]         0x57  public: enum profiler::BlockType __cdecl profiler::BaseBlockDescriptor::type(void) const
+[   89]         0x58  public: unsigned __int64 __cdecl profiler::ArbitraryValue::value_id(void) const
+[   90]         0x59  beginBlock
+[   91]         0x5A  beginNonScopedBlock
+[   92]         0x5B  dumpBlocksToFile
+[   93]         0x5C  endBlock
+[   94]         0x5D  fillTreesFromFile
+[   95]         0x5E  fillTreesFromStream
+[   96]         0x5F  getContextSwitchLogFilename
+[   97]         0x60  isEnabled
+[   98]         0x61  isEventTracingEnabled
+[   99]         0x62  isListening
+[  100]         0x63  isLowPriorityEventTracing
+[  101]         0x64  isMainThread
+[  102]         0x65  main_thread_frameTime
+[  103]         0x66  main_thread_frameTimeLocalAvg
+[  104]         0x67  main_thread_frameTimeLocalMax
+[  105]         0x68  now
+[  106]         0x69  readDescriptionsFromStream
+[  107]         0x6A  registerDescription
+[  108]         0x6B  registerThread
+[  109]         0x6C  registerThreadScoped
+[  110]         0x6D  release_stats
+[  111]         0x6E  setContextSwitchLogFilename
+[  112]         0x6F  setEnabled
+[  113]         0x70  setEventTracingEnabled
+[  114]         0x71  setLowPriorityEventTracing
+[  115]         0x72  startListen
+[  116]         0x73  stopListen
+[  117]         0x74  storeBlock
+[  118]         0x75  storeEvent
+[  119]         0x76  storeValue
+[  120]         0x77  this_thread_frameTime
+[  121]         0x78  this_thread_frameTimeLocalAvg
+[  122]         0x79  this_thread_frameTimeLocalMax
+[  123]         0x7A  toMicroseconds
+[  124]         0x7B  toNanoseconds
+[  125]         0x7C  version
+[  126]         0x7D  versionMajor
+[  127]         0x7E  versionMinor
+[  128]         0x7F  versionName
+[  129]         0x80  versionPatch
+[  130]         0x81  writeTreesToFile
+[  131]         0x82  writeTreesToStream

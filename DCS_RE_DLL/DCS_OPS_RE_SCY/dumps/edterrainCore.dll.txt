@@ -1,0 +1,38 @@
+Microsoft (R) COFF/PE Dumper Version 14.51.36256.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file G:\DCS_OPS_RE_SCY\bin\edterrainCore.dll
+
+File Type: DLL
+
+  Section contains the following exports for edterrainCore.dll
+
+    00000000 characteristics
+    FFFFFFFF time date stamp
+        0.00 version
+           1 ordinal base
+           9 number of functions
+           9 number of names
+
+    ordinal hint RVA      name
+
+          1    0 000014E0 ??0projection_t@utm_private@@QEAA@XZ
+          2    1 000015B0 ?ParseConfig@utm_private@@YA_NPEAUlua_State@@AEAUprojection_t@1@@Z
+          3    2 000017B0 ?ParseConfig@utm_private@@YA_NPEBDAEAUprojection_t@1@@Z
+          4    3 00001B80 ?fromLatLon@utm_private@@YAXAEBUprojection_t@1@NNAEAN1@Z
+          5    4 00001CE0 ?fromLockonToMGRS@utm_private@@YA?AV?$basic_string@D@ed@@AEBUprojection_t@1@NNH@Z
+          6    5 000020B0 ?fromLockontoUTM@utm_private@@YAXAEBUprojection_t@1@NNAEAN1@Z
+          7    6 000020F0 ?fromMGRStoLockon@utm_private@@YA_NAEBUprojection_t@1@AEBV?$basic_string@D@ed@@AEAN2@Z
+          8    7 000022E0 ?fromUTMtoLockon@utm_private@@YAXAEBUprojection_t@1@NNAEAN1@Z
+          9    8 000023E0 ?toLatLon@utm_private@@YAXAEBUprojection_t@1@NNAEAN1@Z
+
+  Summary
+
+       C0000 .SCY
+        1000 .data
+        1000 .pdata
+        5000 .rdata
+        1000 .reloc
+        1000 .rsrc
+        A000 .text

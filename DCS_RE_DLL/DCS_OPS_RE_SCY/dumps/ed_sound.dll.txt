@@ -1,0 +1,101 @@
+Microsoft (R) COFF/PE Dumper Version 14.51.36256.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file G:\DCS_OPS_RE_SCY\bin\ed_sound.dll
+
+File Type: DLL
+
+  Section contains the following exports for ed_sound.dll
+
+    00000000 characteristics
+    FFFFFFFF time date stamp
+        0.00 version
+           1 ordinal base
+          72 number of functions
+          72 number of names
+
+    ordinal hint RVA      name
+
+          7    0 000249F0 SND_IVCFilter_create
+          8    1 00023620 SND_IVCRenderer_create
+          9    2 00025550 SND_VCFilterParams_load
+         10    3 00025BE0 SND_VCFilterParams_luaload
+         11    4 000260B0 SND_VCFilterParams_save
+         12    5 00006020 SND_add_host
+         13    6 0000CCC0 SND_add_proto_path
+         14    7 00009790 SND_add_source
+         15    8 00009820 SND_add_source_alt
+         16    9 000098C0 SND_add_source_alt2
+         17    A 0000F980 SND_add_wave_path
+         18    B 00003EC0 SND_context_get_param
+         19    C 00003F40 SND_context_next
+          1    D 00003390 SND_context_qtree
+         20    E 00003F60 SND_context_reset
+         21    F 00003FB0 SND_context_set2d
+         22   10 00004000 SND_context_set_output
+         23   11 00004050 SND_context_set_param
+         24   12 000040D0 SND_context_use_cockpit_gain
+         25   13 0000CED0 SND_del_proto_path
+         26   14 0000FB40 SND_del_wave_path
+         27   15 0001E680 SND_device_enumerate
+         28   16 0001E6A0 SND_device_get_count
+         29   17 0001E6C0 SND_device_get_info
+         30   18 00004130 SND_exit
+         31   19 0001B160 SND_get_global_gain
+         32   1A 00004250 SND_get_param
+         33   1B 0000CFE0 SND_get_protos
+         34   1C 0001E760 SND_get_stat
+         35   1D 00004450 SND_get_voices
+         36   1E 0000FC20 SND_get_wave_info
+         37   1F 00006330 SND_host_allow_cockpit_gain
+         38   20 000063C0 SND_host_del
+          2   21 00005BC0 SND_host_name
+          3   22 00005C00 SND_host_next
+          4   23 00005CA0 SND_host_params
+         39   24 000064E0 SND_host_set_max_speed
+         40   25 00006550 SND_host_set_pos_callback
+         41   26 000065D0 SND_host_set_sonic_boom
+         42   27 00006640 SND_host_set_type
+          5   28 00005CE0 SND_host_type
+         43   29 000066E0 SND_host_update
+          6   2A 00005D20 SND_host_voices
+         44   2B 00004590 SND_init
+         45   2C 00004830 SND_listener_params
+         46   2D 00004880 SND_offline_render
+         47   2E 000048E0 SND_offline_start
+         48   2F 00004980 SND_process
+         49   30 0000D0C0 SND_proto_path_next
+         50   31 0000D1D0 SND_proto_reload_all
+         51   32 0000D220 SND_reload_proto_path
+         52   33 0001B170 SND_set_global_gain
+         53   34 00004DD0 SND_set_listener
+         54   35 00004FE0 SND_set_param
+         55   36 00009B40 SND_source_del
+         56   37 00009CC0 SND_source_is_playing
+         57   38 00009D30 SND_source_link
+         58   39 00009E80 SND_source_live_push
+         59   3A 00009F00 SND_source_live_time
+         60   3B 00009F80 SND_source_play
+         61   3C 0000A1A0 SND_source_stop
+         62   3D 0000A250 SND_source_unlink
+         63   3E 0000A300 SND_source_update
+         64   3F 0001E7E0 SND_speaker_layout_get_count
+         65   40 0001E800 SND_speaker_layout_get_info
+         66   41 00005270 SND_start
+         67   42 000054E0 SND_stop
+         68   43 0000D8A0 SND_vca_add
+         69   44 0000D960 SND_vca_set
+         70   45 0000FCC0 SND_wave_purge_all
+         71   46 00002050 ed_qtree_parse
+         72   47 00001430 rot3d_set_basis
+
+  Summary
+
+       98000 .SCY
+     D085000 .data
+        3000 .pdata
+        D000 .rdata
+        1000 .reloc
+        1000 .rsrc
+       2C000 .text

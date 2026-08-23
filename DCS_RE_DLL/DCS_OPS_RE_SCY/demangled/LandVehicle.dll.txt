@@ -1,0 +1,104 @@
+// DCS_OPS_RE: LandVehicle.dll
+// Generated from dumpbin /exports
+
+[    1]          0x0  public: __cdecl EagleFM::LandVehicle::Car::Car(class EagleFM::LandVehicle::Car const &)
+[    2]          0x1  public: __cdecl EagleFM::LandVehicle::Car::Car(double)
+[    3]          0x2  public: __cdecl EagleFM::LandVehicle::LV_Object::LV_Object(class EagleFM::LandVehicle::LV_Object const &)
+[    4]          0x3  public: __cdecl EagleFM::LandVehicle::LV_Object::LV_Object(double)
+[    5]          0x4  public: __cdecl EagleFM::LandVehicle::contact_segment::contact_segment(void)
+[    6]          0x5  public: virtual __cdecl EagleFM::LandVehicle::Car::~Car(void)
+[    7]          0x6  public: virtual __cdecl EagleFM::LandVehicle::LV_Object::~LV_Object(void)
+[    8]          0x7  public: class EagleFM::LandVehicle::Car & __cdecl EagleFM::LandVehicle::Car::operator=(class EagleFM::LandVehicle::Car const &)
+[    9]          0x8  public: struct EagleFM::LandVehicle::CarInit & __cdecl EagleFM::LandVehicle::CarInit::operator=(struct EagleFM::LandVehicle::CarInit &&)
+[   10]          0x9  public: struct EagleFM::LandVehicle::CarInit & __cdecl EagleFM::LandVehicle::CarInit::operator=(struct EagleFM::LandVehicle::CarInit const &)
+[   11]          0xA  public: class EagleFM::LandVehicle::LV_Object & __cdecl EagleFM::LandVehicle::LV_Object::operator=(class EagleFM::LandVehicle::LV_Object const &)
+[   12]          0xB  public: struct EagleFM::LandVehicle::contact_segment & __cdecl EagleFM::LandVehicle::contact_segment::operator=(struct EagleFM::LandVehicle::contact_segment &&)
+[   13]          0xC  public: struct EagleFM::LandVehicle::contact_segment & __cdecl EagleFM::LandVehicle::contact_segment::operator=(struct EagleFM::LandVehicle::contact_segment const &)
+[   14]          0xD  const EagleFM::LandVehicle::Car::`vftable'
+[   15]          0xE  const EagleFM::LandVehicle::LV_Object::`vftable'
+[   16]          0xF  public: void __cdecl EagleFM::LandVehicle::Car::`default ctor closure'(void)
+[   17]         0x10  public: void __cdecl EagleFM::LandVehicle::LV_Object::`default ctor closure'(void)
+[   18]         0x11  public: void __cdecl EagleFM::LandVehicle::Car::DrawDebugGeometry(void) const
+[   19]         0x12  public: bool __cdecl EagleFM::LandVehicle::Car::NextGear(void)
+[   20]         0x13  private: static unsigned int const EagleFM::LandVehicle::LV_Object::POS_BUFF_MAX
+[   21]         0x14  public: bool __cdecl EagleFM::LandVehicle::Car::PrevGear(void)
+[   22]         0x15  protected: void __cdecl EagleFM::LandVehicle::Car::adjustSpecificCarParams(void)
+[   23]         0x16  public: void __cdecl EagleFM::LandVehicle::Car::adjustToNewDynamicBody(struct EagleFM::DynamicState const &, struct Vehicle_Descriptor const *, float)
+[   24]         0x17  public: class Math::Vector<3, double> __cdecl EagleFM::LandVehicle::LV_Object::calcGFactor(class Math::Vector<3, double> const &)
+[   25]         0x18  public: class Math::Vector<3, double> __cdecl EagleFM::LandVehicle::LV_Object::calcGFactor(void)
+[   26]         0x19  public: void __cdecl EagleFM::LandVehicle::Car::engineStartStop(bool)
+[   27]         0x1A  public: void __cdecl EagleFM::LandVehicle::Car::engineToggle(void)
+[   28]         0x1B  public: float __cdecl EagleFM::LandVehicle::Car::getClutchK(void) const
+[   29]         0x1C  public: void __cdecl EagleFM::LandVehicle::LV_Object::getDamageContacts(class ed::vector<struct EagleFM::DamageContact, class ed::allocator<struct EagleFM::DamageContact>> &)
+[   30]         0x1D  public: class EagleFM::DynamicBody * __cdecl EagleFM::LandVehicle::LV_Object::getDynamicBody(void)
+[   31]         0x1E  public: class EagleFM::EffectManager * __cdecl EagleFM::LandVehicle::LV_Object::getEffectManager(void)
+[   32]         0x1F  public: virtual double __cdecl EagleFM::LandVehicle::Car::getEngineRPM(void) const
+[   33]         0x20  public: unsigned char __cdecl EagleFM::LandVehicle::Car::getEngineState(void) const
+[   34]         0x21  public: virtual double __cdecl EagleFM::LandVehicle::Car::getFuel(void) const
+[   35]         0x22  public: int __cdecl EagleFM::LandVehicle::Car::getGearNum(void) const
+[   36]         0x23  public: class Math::Vector<3, double> __cdecl EagleFM::LandVehicle::Car::getMassPosW(void) const
+[   37]         0x24  public: double __cdecl EagleFM::LandVehicle::LV_Object::getModelingDeltaTime(void) const
+[   38]         0x25  public: int __cdecl EagleFM::LandVehicle::Car::getNextGearNum(void) const
+[   39]         0x26  public: virtual double __cdecl EagleFM::LandVehicle::Car::getNoseWheelsYaw(void) const
+[   40]         0x27  public: class Math::Matrix<3, float> __cdecl EagleFM::LandVehicle::LV_Object::getOrientation(void) const
+[   41]         0x28  public: float __cdecl EagleFM::LandVehicle::Car::getPedalBrakeAxis(void) const
+[   42]         0x29  public: float __cdecl EagleFM::LandVehicle::Car::getPedalGasAxis(void) const
+[   43]         0x2A  public: double __cdecl EagleFM::LandVehicle::LV_Object::getPitch(void) const
+[   44]         0x2B  public: class Math::Vector<3, double> __cdecl EagleFM::LandVehicle::LV_Object::getPosition(void) const
+[   45]         0x2C  public: struct EagleFM::LandVehicle::contact_segment const & __cdecl EagleFM::LandVehicle::Car::getRigidContactInitial(int) const
+[   46]         0x2D  public: double __cdecl EagleFM::LandVehicle::LV_Object::getRoll(void) const
+[   47]         0x2E  public: class Math::Vector<3, double> __cdecl EagleFM::LandVehicle::LV_Object::getRotateSpeed_l(void) const
+[   48]         0x2F  public: class Math::Vector<3, double> __cdecl EagleFM::LandVehicle::LV_Object::getRotateSpeed_w(void) const
+[   49]         0x30  public: float __cdecl EagleFM::LandVehicle::Car::getRudderAxis(void) const
+[   50]         0x31  public: double __cdecl EagleFM::LandVehicle::LV_Object::getShakeValue(void) const
+[   51]         0x32  public: virtual double __cdecl EagleFM::LandVehicle::Car::getStrutCompression(int) const
+[   52]         0x33  public: virtual double __cdecl EagleFM::LandVehicle::Car::getStrutCompressionAbsolute(int) const
+[   53]         0x34  public: void __cdecl EagleFM::LandVehicle::Car::getSuspensionPitchHeaveRollParams(float &, float &, float &) const
+[   54]         0x35  public: class Math::Vector<3, double> __cdecl EagleFM::LandVehicle::LV_Object::getTimePosition(void) const
+[   55]         0x36  public: class Math::Vector<3, double> __cdecl EagleFM::LandVehicle::LV_Object::getVelocity_l(void) const
+[   56]         0x37  public: class Math::Vector<3, double> __cdecl EagleFM::LandVehicle::LV_Object::getVelocity_w(void) const
+[   57]         0x38  public: struct EagleFM::LandVehicle::contact_segment const & __cdecl EagleFM::LandVehicle::Car::getWheelContactInitial(int) const
+[   58]         0x39  public: virtual double __cdecl EagleFM::LandVehicle::Car::getWheelRotationPhase(int) const
+[   59]         0x3A  public: int __cdecl EagleFM::LandVehicle::Car::getWheelsNum(void) const
+[   60]         0x3B  public: double __cdecl EagleFM::LandVehicle::LV_Object::getYaw(void) const
+[   61]         0x3C  public: class osg::Vec3f const & __cdecl EagleFM::LandVehicle::Car::get_G_factor(void) const
+[   62]         0x3D  public: virtual void __cdecl EagleFM::LandVehicle::Car::init(struct EagleFM::LandVehicle::CarInit const &)
+[   63]         0x3E  public: virtual void __cdecl EagleFM::LandVehicle::LV_Object::init(class Math::Vector<3, double> const &, float)
+[   64]         0x3F  public: bool __cdecl EagleFM::LandVehicle::Car::isAccelerating(void) const
+[   65]         0x40  public: bool __cdecl EagleFM::LandVehicle::Car::isBraking(void) const
+[   66]         0x41  public: bool __cdecl EagleFM::LandVehicle::Car::isCaterpillar(void) const
+[   67]         0x42  public: bool __cdecl EagleFM::LandVehicle::Car::isChangingGear(void) const
+[   68]         0x43  public: bool __cdecl EagleFM::LandVehicle::Car::isReversedDirection(void)
+[   69]         0x44  public: void __cdecl EagleFM::LandVehicle::LV_Object::setExternalForce(class Math::Vector<3, double> const &, class Math::Vector<3, double> const &, bool, bool)
+[   70]         0x45  public: void __cdecl EagleFM::LandVehicle::LV_Object::setExternalForce(class Math::Vector<3, double> const &, bool)
+[   71]         0x46  public: void __cdecl EagleFM::LandVehicle::LV_Object::setExternalMoment(class Math::Vector<3, double> const &, bool)
+[   72]         0x47  public: virtual void __cdecl EagleFM::LandVehicle::Car::setFuel(double)
+[   73]         0x48  public: virtual void __cdecl EagleFM::LandVehicle::Car::setMaxSpeed(float)
+[   74]         0x49  public: void __cdecl EagleFM::LandVehicle::Car::setNeutralGear(void)
+[   75]         0x4A  public: void __cdecl EagleFM::LandVehicle::LV_Object::setOrientaion(class Math::Matrix<3, float> const &)
+[   76]         0x4B  public: virtual void __cdecl EagleFM::LandVehicle::Car::setPayload(double, class Math::Vector<3, double> const &)
+[   77]         0x4C  public: virtual void __cdecl EagleFM::LandVehicle::Car::setPedalBrakeAxis(float)
+[   78]         0x4D  public: virtual void __cdecl EagleFM::LandVehicle::Car::setPedalBrakeAxis_delta(float)
+[   79]         0x4E  public: virtual void __cdecl EagleFM::LandVehicle::Car::setPedalClutchAxis(float)
+[   80]         0x4F  public: virtual void __cdecl EagleFM::LandVehicle::Car::setPedalGasAxis(float)
+[   81]         0x50  public: virtual void __cdecl EagleFM::LandVehicle::Car::setPedalGasAxis_delta(float)
+[   82]         0x51  public: void __cdecl EagleFM::LandVehicle::LV_Object::setPosition(class Math::Vector<3, double> const &)
+[   83]         0x52  public: virtual void __cdecl EagleFM::LandVehicle::Car::setRigidContact(int, double, double, class Math::Vector<3, double> const &, class Math::Vector<3, double> const &, class Math::Vector<3, double> const &, int, double)
+[   84]         0x53  public: virtual void __cdecl EagleFM::LandVehicle::LV_Object::setRigidContact(int, double, double, class Math::Vector<3, double> const &, class Math::Vector<3, double> const &, class Math::Vector<3, double> const &, int, double)
+[   85]         0x54  public: void __cdecl EagleFM::LandVehicle::Car::setRigidContactInitial(int &, class Math::Vector<3, double> const &, class Math::Vector<3, double> const &)
+[   86]         0x55  public: void __cdecl EagleFM::LandVehicle::Car::setRigidContactInitial(int &, float, float, float)
+[   87]         0x56  public: void __cdecl EagleFM::LandVehicle::Car::setRigidContactInitial(int &, float, float, float, char, float)
+[   88]         0x57  public: virtual void __cdecl EagleFM::LandVehicle::Car::setRudderAxis(float)
+[   89]         0x58  public: virtual void __cdecl EagleFM::LandVehicle::Car::setRudderAxis_delta(float)
+[   90]         0x59  public: virtual void __cdecl EagleFM::LandVehicle::Car::setStructureIF(int, double)
+[   91]         0x5A  public: virtual void __cdecl EagleFM::LandVehicle::LV_Object::setStructureIF(int, double)
+[   92]         0x5B  public: virtual void __cdecl EagleFM::LandVehicle::Car::setWheelContact(int, double, double, class Math::Vector<3, double> const &, class Math::Vector<3, double> const &, class Math::Vector<3, double> const &, int, double)
+[   93]         0x5C  public: void __cdecl EagleFM::LandVehicle::Car::setWheelContactInitial(int, float, float, float, bool, float, float)
+[   94]         0x5D  public: virtual void __cdecl EagleFM::LandVehicle::Car::simulate(double)
+[   95]         0x5E  public: virtual void __cdecl EagleFM::LandVehicle::LV_Object::simulate(double)
+[   96]         0x5F  public: void __cdecl EagleFM::LandVehicle::Car::simulateAutoClutch(float, float, float, float, double)
+[   97]         0x60  public: virtual void __cdecl EagleFM::LandVehicle::Car::simulateAutomaticTransmission(float, float, float, float, double)
+[   98]         0x61  public: void __cdecl EagleFM::LandVehicle::Car::simulateCruiseControl(double)
+[   99]         0x62  public: virtual void __cdecl EagleFM::LandVehicle::Car::simulateGearChange(void)
+[  100]         0x63  protected: bool __cdecl EagleFM::LandVehicle::Car::tryNextGear(void)
+[  101]         0x64  protected: bool __cdecl EagleFM::LandVehicle::Car::tryPrevGear(void)

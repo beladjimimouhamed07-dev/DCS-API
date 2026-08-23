@@ -1,0 +1,3 @@
+﻿ordinal,rva,rva_hex,name,demangled,symbol_type,namespace,class_name,function_name,parameters,const,static,virtual,is_vftable,is_vbtable,is_rtti,demangle_ok
+1,0,0x0,qt_plugin_instance,,unknown,,,,,False,False,False,False,False,False,False
+2,1,0x1,qt_plugin_query_metadata,,unknown,,,,,False,False,False,False,False,False,False

@@ -1,0 +1,41 @@
+Microsoft (R) COFF/PE Dumper Version 14.51.36256.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file G:\DCS_OPS_RE_SCY\bin\ZweiBlau.dll
+
+File Type: DLL
+
+  Section contains the following exports for ZweiBlau.dll
+
+    00000000 characteristics
+    FFFFFFFF time date stamp
+        0.00 version
+           1 ordinal base
+          12 number of functions
+          12 number of names
+
+    ordinal hint RVA      name
+
+          1    0 000025C0 ??0CloudShadows@cld@@QEAA@$$QEAV01@@Z
+          2    1 000028A0 ??0CloudShadows@cld@@QEAA@XZ
+          3    2 00002D40 ??1CloudShadows@cld@@UEAA@XZ
+          4    3 000032C0 ??4CloudShadows@cld@@QEAAAEAV01@$$QEAV01@@Z
+          5    4 000184A8 ??_7CloudShadows@cld@@6B@
+          6    5 00003E30 ?OnUpdate@CloudShadows@cld@@EEAAXXZ
+          7    6 00004590 ?collect@CloudShadows@cld@@AEAAIPEAVVec4d@osg@@AEBV34@AEAVVec3d@4@PEAPEAVviObject@@K@Z
+          8    7 00004610 ?collect@CloudShadows@cld@@AEAAIPEAVVec4d@osg@@PEAPEAVviObject@@K@Z
+          9    8 00005820 ?init@CloudShadows@cld@@QEAAXXZ
+         10    9 00005DB0 ?makeShadow@CloudShadows@cld@@QEAAXAEBVVec3f@osg@@@Z
+         11    A 00003E20 deinit_graphics_plugin
+         12    B 000102A0 init_graphics_plugin
+
+  Summary
+
+       C5000 .SCY
+        1000 .data
+        1000 .pdata
+        6000 .rdata
+        1000 .reloc
+        1000 .rsrc
+       17000 .text

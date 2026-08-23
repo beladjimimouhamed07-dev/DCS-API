@@ -1,0 +1,159 @@
+Microsoft (R) COFF/PE Dumper Version 14.51.36256.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file G:\DCS_OPS_RE\bin\zlib.dll
+
+File Type: DLL
+
+  Section contains the following exports for zlib.dll
+
+    00000000 characteristics
+    FFFFFFFF time date stamp
+        0.00 version
+           1 ordinal base
+         178 number of functions
+         132 number of names
+
+    ordinal hint RVA      name
+
+          1    0 00001000 adler32
+        140    1 00001010 adler32_combine
+        174    2 00001100 adler32_z
+          2    3 000013E0 compress
+         39    4 000014E0 compress2
+         46    5 000015E0 compressBound
+          3    6 00001600 crc32
+        142    7 00001610 crc32_combine
+        176    8 00001680 crc32_combine_gen
+        177    9 00001690 crc32_combine_gen64
+        178    A 000016A0 crc32_combine_op
+        175    B 000016E0 crc32_z
+          4    C 00002AE0 deflate
+         47    D 00003540 deflateBound
+          5    E 000036A0 deflateCopy
+          6    F 000038E0 deflateEnd
+        173   10 000039D0 deflateGetDictionary
+          7   11 00003AA0 deflateInit2_
+          8   12 00003D20 deflateInit_
+          9   13 00003D60 deflateParams
+         52   14 00003F30 deflatePending
+         51   15 00003FB0 deflatePrime
+         10   16 000040E0 deflateReset
+        164   17 00004280 deflateResetKeep
+         11   18 00004380 deflateSetDictionary
+        144   19 000045D0 deflateSetHeader
+        145   1A 00004640 deflateTune
+        110   1B 000133B0 fill_win32_filefunc
+        111   1C 00013410 fill_win32_filefunc64
+        112   1D 00013410 fill_win32_filefunc64A
+        113   1E 00013470 fill_win32_filefunc64W
+         38   1F 00001B90 get_crc_table
+        146   20 000057A0 gzbuffer
+         48   21 000057E0 gzclearerr
+         12   22 00005290 gzclose
+        147   23 00006450 gzclose_r
+        148   24 00006FB0 gzclose_w
+        149   25 00006500 gzdirect
+         13   26 00005840 gzdopen
+         34   27 000058D0 gzeof
+         14   28 000058F0 gzerror
+         15   29 00007080 gzflush
+        171   2A 00006540 gzfread
+        172   2B 000070F0 gzfwrite
+         30   2C 000065C0 gzgetc
+        161   2D 00006640 gzgetc_
+         41   2E 000066B0 gzgets
+        150   2F 00005940 gzoffset
+         16   30 000059B0 gzopen
+        165   31 000059C0 gzopen_w
+         28   32 00007170 gzprintf
+         29   33 000071A0 gzputc
+         40   34 00007270 gzputs
+         17   35 000067F0 gzread
+         32   36 000059D0 gzrewind
+         31   37 00005A30 gzseek
+         35   38 00007300 gzsetparams
+         33   39 00005BE0 gztell
+         49   3A 00006860 gzungetc
+        167   3B 000073C0 gzvprintf
+         18   3C 00007550 gzwrite
+         19   3D 000075A0 inflate
+         44   3E 00009D30 inflateBack
+         45   3F 0000AC60 inflateBackEnd
+         43   40 0000ACB0 inflateBackInit_
+        168   41 00008E20 inflateCodesUsed
+         42   42 00008E70 inflateCopy
+         20   43 00009060 inflateEnd
+        166   44 000090E0 inflateGetDictionary
+        156   45 00009190 inflateGetHeader
+         21   46 000091E0 inflateInit2_
+         22   47 00009460 inflateInit_
+        157   48 00009470 inflateMark
+        158   49 000094F0 inflatePrime
+         23   4A 00009570 inflateReset
+        159   4B 00009680 inflateReset2
+        163   4C 00009740 inflateResetKeep
+         24   4D 00009800 inflateSetDictionary
+         25   4E 000098F0 inflateSync
+         37   4F 00009AB0 inflateSyncPoint
+        160   50 00009B00 inflateUndermine
+        169   51 00009B50 inflateValidate
+         26   52 0000D550 uncompress
+        170   53 0000D6B0 uncompress2
+         62   54 00011790 unzClose
+         72   55 000117E0 unzCloseCurrentFile
+         64   56 000118A0 unzGetCurrentFileInfo
+        124   57 000119A0 unzGetCurrentFileInfo64
+        125   58 000119F0 unzGetCurrentFileZStreamPos64
+        100   59 00011A10 unzGetFilePos
+        127   5A 00011A50 unzGetFilePos64
+         73   5B 00011A90 unzGetGlobalComment
+         63   5C 00011B40 unzGetGlobalInfo
+        122   5D 00011B60 unzGetGlobalInfo64
+         76   5E 00011B80 unzGetLocalExtrafield
+        101   5F 00011C70 unzGoToFilePos
+        128   60 00011CF0 unzGoToFilePos64
+         65   61 00011D70 unzGoToFirstFile
+         66   62 00011DF0 unzGoToNextFile
+         75   63 00011EB0 unzLocateFile
+         61   64 000121E0 unzOpen
+         77   65 000121F0 unzOpen2
+        121   66 00012240 unzOpen2_64
+        120   67 000122A0 unzOpen64
+         67   68 000122B0 unzOpenCurrentFile
+         78   69 000122D0 unzOpenCurrentFile2
+         69   6A 000122F0 unzOpenCurrentFile3
+         79   6B 00012580 unzOpenCurrentFilePassword
+         68   6C 00012FD0 unzReadCurrentFile
+         74   6D 000132A0 unzStringFileNameCompare
+         71   6E 00013330 unzeof
+         70   6F 00013360 unztell
+        126   70 00013380 unztell64
+         36   71 0000D810 zError
+         84   72 0000F200 zipClose
+         83   73 0000F630 zipCloseFileInZip
+         87   74 0000F640 zipCloseFileInZipRaw
+        136   75 0000F650 zipCloseFileInZipRaw64
+         80   76 0000FB30 zipOpen
+         88   77 0000FB40 zipOpen2
+        131   78 0000FBA0 zipOpen2_64
+        130   79 0000FB30 zipOpen64
+         81   7A 0000FDB0 zipOpenNewFileInZip
+         86   7B 0000FE40 zipOpenNewFileInZip2
+        133   7C 0000FED0 zipOpenNewFileInZip2_64
+         89   7D 0000FF70 zipOpenNewFileInZip3
+        134   7E 00010020 zipOpenNewFileInZip3_64
+        135   7F 000100E0 zipOpenNewFileInZip4_64
+        132   80 00010740 zipOpenNewFileInZip64
+         82   81 000107D0 zipWriteInFileInZip
+         50   82 0000D850 zlibCompileFlags
+         27   83 0000D860 zlibVersion
+
+  Summary
+
+        1000 .data
+        2000 .pdata
+        7000 .rdata
+        1000 .reloc
+       14000 .text

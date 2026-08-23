@@ -1,0 +1,26 @@
+// DCS_OPS_RE: soundtouch.dll
+// Generated from dumpbin /exports
+
+[    1]          0x0  soundtouch_clear
+[    2]          0x1  soundtouch_createInstance
+[    3]          0x2  soundtouch_destroyInstance
+[    4]          0x3  soundtouch_flush
+[    5]          0x4  soundtouch_getSetting
+[    6]          0x5  soundtouch_getVersionId
+[    7]          0x6  soundtouch_getVersionString
+[    8]          0x7  soundtouch_getVersionString2
+[    9]          0x8  soundtouch_isEmpty
+[   10]          0x9  soundtouch_numSamples
+[   11]          0xA  soundtouch_numUnprocessedSamples
+[   12]          0xB  soundtouch_putSamples
+[   13]          0xC  soundtouch_receiveSamples
+[   14]          0xD  soundtouch_setChannels
+[   15]          0xE  soundtouch_setPitch
+[   16]          0xF  soundtouch_setPitchOctaves
+[   17]         0x10  soundtouch_setPitchSemiTones
+[   18]         0x11  soundtouch_setRate
+[   19]         0x12  soundtouch_setRateChange
+[   20]         0x13  soundtouch_setSampleRate
+[   21]         0x14  soundtouch_setSetting
+[   22]         0x15  soundtouch_setTempo
+[   23]         0x16  soundtouch_setTempoChange

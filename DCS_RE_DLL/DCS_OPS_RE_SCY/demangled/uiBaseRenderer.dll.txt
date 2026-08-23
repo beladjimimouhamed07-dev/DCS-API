@@ -1,0 +1,153 @@
+// DCS_OPS_RE: uiBaseRenderer.dll
+// Generated from dumpbin /exports
+
+[    1]          0x0  public: __cdecl uiBaseRenderer::ClipRectGuard::ClipRectGuard(class osg::RectImpl<class osg::Vec2i> const &)
+[    2]          0x1  public: __cdecl uiBaseRenderer::ModelViewMatrixGuard::ModelViewMatrixGuard(void)
+[    3]          0x2  public: __cdecl uiBaseRenderer::OpacityGuard::OpacityGuard(float)
+[    4]          0x3  public: __cdecl uiBaseRenderer::ProjectionMatrixGuard::ProjectionMatrixGuard(void)
+[    5]          0x4  public: __cdecl uiBaseRenderer::ShaderTechniqueGuard::ShaderTechniqueGuard(enum uiBaseRenderer::TechniqueType)
+[    6]          0x5  public: __cdecl uiBaseRenderer::ShiftPositionGuard::ShiftPositionGuard(float, float, float)
+[    7]          0x6  public: __cdecl uiBaseRenderer::ViewportGuard::ViewportGuard(class osg::RectImpl<class osg::Vec2i> const &)
+[    8]          0x7  protected: __cdecl uiBaseFont::uiBaseFont(class uiBaseFontManager *, struct FT_LibraryRec_*, struct FT_FaceRec_*, class ed::basic_string<char> const &, int, enum uiBaseFont::Blur)
+[    9]          0x8  public: __cdecl uiBaseFontManager::uiBaseFontManager(void)
+[   10]          0x9  public: __cdecl uiBaseFrameBuffer::uiBaseFrameBuffer(class osg::Vec2i const &, int, int)
+[   11]          0xA  public: __cdecl uiBaseGeometry::uiBaseGeometry(void)
+[   12]          0xB  public: __cdecl uiBaseShader::uiBaseShader(class uiBaseRenderer *)
+[   13]          0xC  public: __cdecl uiBaseShaderBkgQuads::uiBaseShaderBkgQuads(class uiBaseShaderBkgQuads const &)
+[   14]          0xD  public: __cdecl uiBaseShaderBkgQuads::uiBaseShaderBkgQuads(void)
+[   15]          0xE  public: __cdecl uiBaseShaderQuads::uiBaseShaderQuads(class uiBaseShaderQuads const &)
+[   16]          0xF  public: __cdecl uiBaseShaderQuads::uiBaseShaderQuads(void)
+[   17]         0x10  public: __cdecl uiBaseTextString::uiBaseTextString(void)
+[   18]         0x11  protected: __cdecl uiBaseTexture::uiBaseTexture(void)
+[   19]         0x12  public: __cdecl uiBaseTextureArray::uiBaseTextureArray(void)
+[   20]         0x13  public: __cdecl uiBaseTextureManager::uiBaseTextureManager(void)
+[   21]         0x14  public: __cdecl uiBaseWidgetShader::uiBaseWidgetShader(void)
+[   22]         0x15  public: __cdecl uiBaseRenderer::ClipRectGuard::~ClipRectGuard(void)
+[   23]         0x16  public: __cdecl uiBaseRenderer::ModelViewMatrixGuard::~ModelViewMatrixGuard(void)
+[   24]         0x17  public: __cdecl uiBaseRenderer::OpacityGuard::~OpacityGuard(void)
+[   25]         0x18  public: __cdecl uiBaseRenderer::ProjectionMatrixGuard::~ProjectionMatrixGuard(void)
+[   26]         0x19  public: __cdecl uiBaseRenderer::ShaderTechniqueGuard::~ShaderTechniqueGuard(void)
+[   27]         0x1A  public: __cdecl uiBaseRenderer::ShiftPositionGuard::~ShiftPositionGuard(void)
+[   28]         0x1B  public: __cdecl uiBaseRenderer::ViewportGuard::~ViewportGuard(void)
+[   29]         0x1C  public: virtual __cdecl uiBaseFont::~uiBaseFont(void)
+[   30]         0x1D  public: virtual __cdecl uiBaseFontManager::~uiBaseFontManager(void)
+[   31]         0x1E  public: virtual __cdecl uiBaseFrameBuffer::~uiBaseFrameBuffer(void)
+[   32]         0x1F  public: virtual __cdecl uiBaseGeometry::~uiBaseGeometry(void)
+[   33]         0x20  public: __cdecl uiBaseShader::~uiBaseShader(void)
+[   34]         0x21  public: __cdecl uiBaseShaderBkgQuads::~uiBaseShaderBkgQuads(void)
+[   35]         0x22  public: __cdecl uiBaseShaderQuads::~uiBaseShaderQuads(void)
+[   36]         0x23  protected: virtual __cdecl uiBaseTexture::~uiBaseTexture(void)
+[   37]         0x24  public: virtual __cdecl uiBaseTextureArray::~uiBaseTextureArray(void)
+[   38]         0x25  public: virtual __cdecl uiBaseTextureManager::~uiBaseTextureManager(void)
+[   39]         0x26  public: virtual __cdecl uiBaseWidgetShader::~uiBaseWidgetShader(void)
+[   40]         0x27  public: static void * __cdecl uiBaseTextString::operator new(unsigned __int64)
+[   41]         0x28  public: static void __cdecl uiBaseTextString::operator delete(void *)
+[   42]         0x29  public: class uiBaseShaderBkgQuads & __cdecl uiBaseShaderBkgQuads::operator=(class uiBaseShaderBkgQuads const &)
+[   43]         0x2A  public: class uiBaseShaderQuads & __cdecl uiBaseShaderQuads::operator=(class uiBaseShaderQuads const &)
+[   44]         0x2B  public: void __cdecl uiBaseShaderQuads::addBatchQuad(float, float, float, float, float)
+[   45]         0x2C  public: void __cdecl uiBaseShaderQuads::addBatchTexArrayCoords(int, float, float, float, float)
+[   46]         0x2D  public: void __cdecl uiBaseShaderQuads::addBatchTexCoords(float, float, float, float)
+[   47]         0x2E  public: void __cdecl uiBaseFontManager::addFontSearchPath(class ed::basic_string<char> const &)
+[   48]         0x2F  public: void __cdecl uiBaseShaderBkgQuads::addQuad(struct uiBaseShaderBkgQuads::BkgQuad const &)
+[   49]         0x30  public: virtual int __cdecl uiBaseRenderer::addShaderParam(char const *)
+[   50]         0x31  public: int __cdecl uiBaseShaderQuads::beginBatch(class ed::Ptr<class uiBaseTexture, class uiTextureCleaner>, int)
+[   51]         0x32  public: virtual void __cdecl uiBaseRenderer::beginShader(enum uiBaseRenderer::TechniqueType)
+[   52]         0x33  public: int __cdecl uiBaseShaderQuads::beginTextureArrayBatch(class uiBaseTextureArray const *, int)
+[   53]         0x34  public: virtual void __cdecl uiBaseRenderer::createTarget(int, int)
+[   54]         0x35  public: virtual class ed::Ptr<class uiBaseTexture, class uiTextureCleaner> __cdecl uiBaseFrameBuffer::createTexture(void)
+[   55]         0x36  public: void __cdecl uiBaseFontManager::debugDraw(class uiBaseShader *)
+[   56]         0x37  public: void __cdecl uiBaseFontManager::doRedraw(void)
+[   57]         0x38  public: void __cdecl uiBaseShaderBkgQuads::draw(class uiBaseShader *) const
+[   58]         0x39  public: void __cdecl uiBaseShaderQuads::draw(class uiBaseShader *) const
+[   59]         0x3A  public: void __cdecl uiBaseTextString::draw(class uiBaseShader *, class osg::Vec4f const &, float) const
+[   60]         0x3B  public: void __cdecl uiBaseTextString::draw(class uiBaseShader *, float) const
+[   61]         0x3C  public: void __cdecl uiBaseShaderQuads::drawBatch(class uiBaseShader *, int) const
+[   62]         0x3D  public: void __cdecl uiBaseShader::drawQuads(float const *, float const *, unsigned short const *, int)
+[   63]         0x3E  public: virtual void __cdecl uiBaseFrameBuffer::drawToTarget(class std::function<void __cdecl(void)>)
+[   64]         0x3F  public: virtual void __cdecl uiBaseRenderer::drawToTarget(class std::function<void __cdecl(void)>)
+[   65]         0x40  public: void __cdecl uiBaseShaderQuads::endBatch(void)
+[   66]         0x41  public: virtual void __cdecl uiBaseRenderer::endShader(void)
+[   67]         0x42  public: void __cdecl uiPolyLine::free_resources(void)
+[   68]         0x43  public: static class uiBaseRenderer * __cdecl uiBaseRenderer::get(void)
+[   69]         0x44  public: int __cdecl uiBaseFont::getAscender(void) const
+[   70]         0x45  public: int __cdecl uiBaseFont::getAscenderNoScale(void) const
+[   71]         0x46  public: int __cdecl uiBaseShaderQuads::getBatchCount(void) const
+[   72]         0x47  public: enum uiBaseFont::Blur __cdecl uiBaseFont::getBlur(void) const
+[   73]         0x48  public: class std::shared_ptr<class uiBaseFont> __cdecl uiBaseFontManager::getChineseFont(class ed::basic_string<char> const &, int, enum uiBaseFont::Blur)
+[   74]         0x49  public: virtual class osg::Vec4f __cdecl uiBaseFrameBuffer::getClearColor(void) const
+[   75]         0x4A  public: int __cdecl uiBaseFont::getDescender(void) const
+[   76]         0x4B  public: int __cdecl uiBaseFont::getDescenderNoScale(void) const
+[   77]         0x4C  public: struct FT_FaceRec_* __cdecl uiBaseFont::getFace(void) const
+[   78]         0x4D  protected: struct FT_FaceRec_* __cdecl uiBaseFontManager::getFace_(class ed::basic_string<char> const &)
+[   79]         0x4E  public: class ed::basic_string<char> const & __cdecl uiBaseFont::getFilename(void) const
+[   80]         0x4F  public: class std::shared_ptr<class uiBaseFont> __cdecl uiBaseFontManager::getFont(class ed::basic_string<char> const &, int, enum uiBaseFont::Blur)
+[   81]         0x50  public: bool __cdecl uiBaseFontManager::getFontFileValid(class ed::basic_string<char> const &)
+[   82]         0x51  protected: class ed::basic_string<char> const & __cdecl uiBaseFontManager::getFontRealPath_(class ed::basic_string<char> const &) const
+[   83]         0x52  public: class ed::basic_string<char> const & __cdecl uiBaseTextureManager::getFullPath(class ed::basic_string<char> const &) const
+[   84]         0x53  public: struct uiBaseFont::Glyph const & __cdecl uiBaseFont::getGlyph(int, float) const
+[   85]         0x54  public: int __cdecl uiBaseFont::getGlyphBorderSize(void) const
+[   86]         0x55  public: int __cdecl uiBaseFont::getGlyphDelta(int, int, float) const
+[   87]         0x56  public: static float __cdecl uiBaseTextureManager::getGlyphPixel3x3BlurValue(class ed::vector<unsigned char, class ed::allocator<unsigned char>> const &, class osg::Vec2i const &, int, int)
+[   88]         0x57  public: static float __cdecl uiBaseTextureManager::getGlyphPixel5x5BlurValue(class ed::vector<unsigned char, class ed::allocator<unsigned char>> const &, class osg::Vec2i const &, int, int)
+[   89]         0x58  public: int __cdecl uiBaseFont::getLineHeight(void) const
+[   90]         0x59  public: int __cdecl uiBaseFont::getLineHeightNoScale(void) const
+[   91]         0x5A  public: virtual int __cdecl uiBaseFrameBuffer::getMips(void) const
+[   92]         0x5B  public: virtual int __cdecl uiBaseFrameBuffer::getMsaa(void) const
+[   93]         0x5C  protected: class ed::basic_string<char> const & __cdecl uiBaseTextureManager::getNormalizedFullPath(class ed::basic_string<char> const &) const
+[   94]         0x5D  public: virtual float __cdecl uiBaseRenderer::getOpacity(void) const
+[   95]         0x5E  public: virtual float __cdecl uiBaseRenderer::getScale(void) const
+[   96]         0x5F  public: virtual int __cdecl uiBaseRenderer::getShaderParamHandle(char const *) const
+[   97]         0x60  public: int __cdecl uiBaseFont::getSize(void) const
+[   98]         0x61  public: virtual class osg::Vec2i __cdecl uiBaseFrameBuffer::getTargetSize(void) const
+[   99]         0x62  public: virtual class ed::Ptr<class uiBaseTexture, class uiTextureCleaner> __cdecl uiBaseRenderer::getTargetTexture(void)
+[  100]         0x63  public: virtual enum uiBaseRenderer::TechniqueType __cdecl uiBaseRenderer::getTechniqueType(void) const
+[  101]         0x64  public: void __cdecl uiBaseFont::getTextSize(class std::basic_string_view<wchar_t, struct std::char_traits<wchar_t>>, int &, int &, int &) const
+[  102]         0x65  public: int __cdecl uiBaseFont::getTextWidth(class std::basic_string_view<wchar_t, struct std::char_traits<wchar_t>>, float) const
+[  103]         0x66  public: int __cdecl uiBaseTextString::getTextWidth(float) const
+[  104]         0x67  public: virtual class uiBaseTextureArray const * __cdecl uiBaseFont::getTextureArray(void) const
+[  105]         0x68  public: virtual class uiBaseWidgetShader * __cdecl uiBaseRenderer::getWidgetShader(char const *)
+[  106]         0x69  public: virtual bool __cdecl uiBaseFont::init(void)
+[  107]         0x6A  protected: static class uiBaseRenderer *uiBaseRenderer::instance_
+[  108]         0x6B  public: class uiBaseRenderer::ModelViewMatrixGuard & __cdecl uiBaseRenderer::ModelViewMatrixGuard::makeIdentity(void)
+[  109]         0x6C  public: void __cdecl uiBaseRenderer::ProjectionMatrixGuard::makeOrtho2D(float, float, float, float)
+[  110]         0x6D  public: class uiBaseRenderer::ModelViewMatrixGuard & __cdecl uiBaseRenderer::ModelViewMatrixGuard::makeRotate(float, float, float, float)
+[  111]         0x6E  public: class uiBaseRenderer::ModelViewMatrixGuard & __cdecl uiBaseRenderer::ModelViewMatrixGuard::makeTranslate(float, float, float)
+[  112]         0x6F  public: void __cdecl uiBaseTextString::redraw(float)
+[  113]         0x70  public: virtual void __cdecl uiBaseTextureManager::releaseTexture(class ed::Ptr<class uiBaseTexture, class uiTextureCleaner>)
+[  114]         0x71  public: virtual void __cdecl uiBaseTextureManager::releaseTextures(void)
+[  115]         0x72  public: void __cdecl uiBaseShaderQuads::reset(void)
+[  116]         0x73  public: void __cdecl uiBaseShader::resetPositionShift(void)
+[  117]         0x74  public: void __cdecl uiBaseShader::resetTextureSampler(void)
+[  118]         0x75  public: void __cdecl uiBaseShaderQuads::setBatchQuad(int, float, float, float, float)
+[  119]         0x76  public: void __cdecl uiBaseShaderQuads::setBatchTexCoords(int, float, float, float, float)
+[  120]         0x77  public: void __cdecl uiBaseFontManager::setChineseFontsMap(class std::unordered_map<class ed::basic_string<char>, class ed::basic_string<char>, struct std::hash<class ed::basic_string<char>>, struct std::equal_to<class ed::basic_string<char>>, class ed::allocator<struct std::pair<class ed::basic_string<char> const, class ed::basic_string<char>>>> const &)
+[  121]         0x78  public: virtual void __cdecl uiBaseFrameBuffer::setClearColor(class osg::Vec4f const &)
+[  122]         0x79  public: void __cdecl uiBaseShader::setColor(class osg::Vec4f const &)
+[  123]         0x7A  public: void __cdecl uiBaseShader::setColors(float const *, int)
+[  124]         0x7B  public: void __cdecl uiBaseShader::setGamma(float)
+[  125]         0x7C  public: void __cdecl uiBaseRenderer::ModelViewMatrixGuard::setIdentity(void)
+[  126]         0x7D  public: void __cdecl uiBaseShader::setIntensity(float)
+[  127]         0x7E  public: void __cdecl uiBaseRenderer::ModelViewMatrixGuard::setMult(class osg::Matrixf const &)
+[  128]         0x7F  public: virtual void __cdecl uiBaseRenderer::setOpacity(float)
+[  129]         0x80  public: void __cdecl uiBaseShader::setOpacity(float)
+[  130]         0x81  public: void __cdecl uiBaseRenderer::ModelViewMatrixGuard::setRotate(float, float, float, float)
+[  131]         0x82  public: virtual void __cdecl uiBaseRenderer::setScale(float)
+[  132]         0x83  public: virtual void __cdecl uiBaseRenderer::setShaderParam(int, class osg::Vec2f const &)
+[  133]         0x84  public: virtual void __cdecl uiBaseRenderer::setShaderParam(int, class osg::Vec2i const &)
+[  134]         0x85  public: virtual void __cdecl uiBaseRenderer::setShaderParam(int, class osg::Vec4f const &)
+[  135]         0x86  public: virtual void __cdecl uiBaseRenderer::setShaderParam(int, float)
+[  136]         0x87  public: virtual void __cdecl uiBaseRenderer::setShaderParamArray4f(int, float const *, int)
+[  137]         0x88  public: virtual void __cdecl uiBaseRenderer::setShaderParamArray(int, float const *, int)
+[  138]         0x89  public: void __cdecl uiBaseShader::setTexture(class ed::Ptr<class uiBaseTexture, class uiTextureCleaner>)
+[  139]         0x8A  public: void __cdecl uiBaseShaderBkgQuads::setTexture(class ed::Ptr<class uiBaseTexture, class uiTextureCleaner>)
+[  140]         0x8B  public: void __cdecl uiBaseShader::setTextureArray(class uiBaseTextureArray const *)
+[  141]         0x8C  public: virtual void __cdecl uiBaseTextureManager::setTextureSearchPathes(class ed::vector<class ed::basic_string<char>, class ed::allocator<class ed::basic_string<char>>> const &)
+[  142]         0x8D  public: void __cdecl uiBaseRenderer::ModelViewMatrixGuard::setTranslate(float, float, float)
+[  143]         0x8E  public: void __cdecl uiBaseShader::setUserTextureFiltering(enum uiBaseRenderer::TextureSampler)
+[  144]         0x8F  public: void __cdecl uiPolyLine::set_texture(class ed::Ptr<class uiBaseTexture, class uiTextureCleaner>)
+[  145]         0x90  public: void __cdecl uiPolyLine::set_texture(class std::basic_string_view<char, struct std::char_traits<char>>, class osg::RectImpl<class osg::Vec2i> const &)
+[  146]         0x91  public: void __cdecl uiBaseShader::shiftPosition(float, float, float)
+[  147]         0x92  public: void __cdecl uiBaseShader::turnOffDrawQuads(void)
+[  148]         0x93  public: void __cdecl uiBaseShader::turnOffFontBlur(void)
+[  149]         0x94  public: void __cdecl uiBaseShader::turnOnDrawQuads(void)
+[  150]         0x95  public: void __cdecl uiBaseShader::turnOnFontBlur(class osg::Vec4f const &)

@@ -1,0 +1,286 @@
+{
+    "dll": "tracy.dll",
+    "class_count": 2,
+    "classes": {
+        "tracy": {
+            "class_name": "tracy",
+            "namespace": null,
+            "methods": [
+                {
+                    "ordinal": 1,
+                    "rva": 0,
+                    "rva_hex": "0x0",
+                    "name": "?CallTrace@tracy@@YAPEA_KH@Z",
+                    "demangled": "unsigned __int64 * __cdecl tracy::CallTrace(int)",
+                    "function_name": "CallTrace",
+                    "parameters": "int",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 2,
+                    "rva": 1,
+                    "rva_hex": "0x1",
+                    "name": "?GetFrequencyQpc@tracy@@YA_JXZ",
+                    "demangled": "__int64 __cdecl tracy::GetFrequencyQpc(void)",
+                    "function_name": "GetFrequencyQpc",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 3,
+                    "rva": 2,
+                    "rva_hex": "0x2",
+                    "name": "?GetGpuCtx@tracy@@YAAEAUGpuCtxWrapper@1@XZ",
+                    "demangled": "struct tracy::GpuCtxWrapper & __cdecl tracy::GetGpuCtx(void)",
+                    "function_name": "GetGpuCtx",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 4,
+                    "rva": 3,
+                    "rva_hex": "0x3",
+                    "name": "?GetGpuCtxCounter@tracy@@YAAEAU?$atomic@E@std@@XZ",
+                    "demangled": "struct std::atomic<unsigned char> & __cdecl tracy::GetGpuCtxCounter(void)",
+                    "function_name": "GetGpuCtxCounter",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 5,
+                    "rva": 4,
+                    "rva_hex": "0x4",
+                    "name": "?GetInitTime@tracy@@YA_JXZ",
+                    "demangled": "__int64 __cdecl tracy::GetInitTime(void)",
+                    "function_name": "GetInitTime",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 6,
+                    "rva": 5,
+                    "rva_hex": "0x5",
+                    "name": "?GetLockCounter@tracy@@YAAEAU?$atomic@I@std@@XZ",
+                    "demangled": "struct std::atomic<unsigned int> & __cdecl tracy::GetLockCounter(void)",
+                    "function_name": "GetLockCounter",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 7,
+                    "rva": 6,
+                    "rva_hex": "0x6",
+                    "name": "?GetProfiler@tracy@@YAAEAVProfiler@1@XZ",
+                    "demangled": "class tracy::Profiler & __cdecl tracy::GetProfiler(void)",
+                    "function_name": "GetProfiler",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 8,
+                    "rva": 7,
+                    "rva_hex": "0x7",
+                    "name": "?GetQueue@tracy@@YAAEAV?$ConcurrentQueue@UQueueItem@tracy@@UConcurrentQueueDefaultTraits@moodycamel@2@@moodycamel@1@XZ",
+                    "demangled": "class tracy::moodycamel::ConcurrentQueue<struct tracy::QueueItem, struct tracy::moodycamel::ConcurrentQueueDefaultTraits> & __cdecl tracy::GetQueue(void)",
+                    "function_name": "GetQueue",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 9,
+                    "rva": 8,
+                    "rva_hex": "0x8",
+                    "name": "?GetThreadHandle@tracy@@YA_KXZ",
+                    "demangled": "unsigned __int64 __cdecl tracy::GetThreadHandle(void)",
+                    "function_name": "GetThreadHandle",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 11,
+                    "rva": 10,
+                    "rva_hex": "0xA",
+                    "name": "?GetThreadName@tracy@@YAPEBD_K@Z",
+                    "demangled": "char const * __cdecl tracy::GetThreadName(unsigned __int64)",
+                    "function_name": "GetThreadName",
+                    "parameters": "unsigned __int64",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 12,
+                    "rva": 11,
+                    "rva_hex": "0xB",
+                    "name": "?GetToken@tracy@@YAPEAUExplicitProducer@?$ConcurrentQueue@UQueueItem@tracy@@UConcurrentQueueDefaultTraits@moodycamel@2@@moodycamel@1@XZ",
+                    "demangled": "struct tracy::moodycamel::ConcurrentQueue<struct tracy::QueueItem, struct tracy::moodycamel::ConcurrentQueueDefaultTraits>::ExplicitProducer * __cdecl tracy::GetToken(void)",
+                    "function_name": "GetToken",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 13,
+                    "rva": 12,
+                    "rva_hex": "0xC",
+                    "name": "?InitRPMallocThread@tracy@@YAXXZ",
+                    "demangled": "void __cdecl tracy::InitRPMallocThread(void)",
+                    "function_name": "InitRPMallocThread",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 14,
+                    "rva": 13,
+                    "rva_hex": "0xD",
+                    "name": "?ProfilerAvailable@tracy@@YA_NXZ",
+                    "demangled": "bool __cdecl tracy::ProfilerAvailable(void)",
+                    "function_name": "ProfilerAvailable",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 15,
+                    "rva": 14,
+                    "rva_hex": "0xE",
+                    "name": "?SetThreadName@tracy@@YAXPEBD@Z",
+                    "demangled": "void __cdecl tracy::SetThreadName(char const *)",
+                    "function_name": "SetThreadName",
+                    "parameters": "char const *",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 16,
+                    "rva": 15,
+                    "rva_hex": "0xF",
+                    "name": "?rpfree@tracy@@YAXPEAX@Z",
+                    "demangled": "void __cdecl tracy::rpfree(void *)",
+                    "function_name": "rpfree",
+                    "parameters": "void *",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 17,
+                    "rva": 16,
+                    "rva_hex": "0x10",
+                    "name": "?rpmalloc@tracy@@YAPEAX_K@Z",
+                    "demangled": "void * __cdecl tracy::rpmalloc(unsigned __int64)",
+                    "function_name": "rpmalloc",
+                    "parameters": "unsigned __int64",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 18,
+                    "rva": 17,
+                    "rva_hex": "0x11",
+                    "name": "?rpmalloc_finalize@tracy@@YAXXZ",
+                    "demangled": "void __cdecl tracy::rpmalloc_finalize(void)",
+                    "function_name": "rpmalloc_finalize",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 19,
+                    "rva": 18,
+                    "rva_hex": "0x12",
+                    "name": "?rpmalloc_initialize@tracy@@YAHXZ",
+                    "demangled": "int __cdecl tracy::rpmalloc_initialize(void)",
+                    "function_name": "rpmalloc_initialize",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 20,
+                    "rva": 19,
+                    "rva_hex": "0x13",
+                    "name": "?rpmalloc_thread_finalize@tracy@@YAXXZ",
+                    "demangled": "void __cdecl tracy::rpmalloc_thread_finalize(void)",
+                    "function_name": "rpmalloc_thread_finalize",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 21,
+                    "rva": 20,
+                    "rva_hex": "0x14",
+                    "name": "?rpmalloc_thread_initialize@tracy@@YAXXZ",
+                    "demangled": "void __cdecl tracy::rpmalloc_thread_initialize(void)",
+                    "function_name": "rpmalloc_thread_initialize",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                },
+                {
+                    "ordinal": 22,
+                    "rva": 21,
+                    "rva_hex": "0x15",
+                    "name": "?rprealloc@tracy@@YAPEAXPEAX_K@Z",
+                    "demangled": "void * __cdecl tracy::rprealloc(void *, unsigned __int64)",
+                    "function_name": "rprealloc",
+                    "parameters": "void *, unsigned __int64",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        },
+        "detail": {
+            "class_name": "detail",
+            "namespace": "tracy",
+            "methods": [
+                {
+                    "ordinal": 10,
+                    "rva": 9,
+                    "rva_hex": "0x9",
+                    "name": "?GetThreadHandleImpl@detail@tracy@@YA_KXZ",
+                    "demangled": "unsigned __int64 __cdecl tracy::detail::GetThreadHandleImpl(void)",
+                    "function_name": "GetThreadHandleImpl",
+                    "parameters": "void",
+                    "const": false,
+                    "static": false,
+                    "virtual": false
+                }
+            ],
+            "vftables": [],
+            "other_symbols": []
+        }
+    }
+}

@@ -1,0 +1,62 @@
+Microsoft (R) COFF/PE Dumper Version 14.51.36256.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file G:\DCS_OPS_RE\bin\Qt5Concurrent.dll
+
+File Type: DLL
+
+  Section contains the following exports for Qt5Concurrent.dll
+
+    00000000 characteristics
+    FFFFFFFF time date stamp
+        0.00 version
+           1 ordinal base
+          34 number of functions
+          34 number of names
+
+    ordinal hint RVA      name
+
+          1    0 00001EE0 ??0BlockSizeManager@QtConcurrent@@QEAA@H@Z
+          2    1 00001FA0 ??0BlockSizeManagerV2@QtConcurrent@@QEAA@H@Z
+          3    2 00001000 ??0ThreadEngineBase@QtConcurrent@@QEAA@XZ
+          4    3 000020E0 ??1BlockSizeManager@QtConcurrent@@QEAA@XZ
+          5    4 00001080 ??1ThreadEngineBase@QtConcurrent@@UEAA@XZ
+          6    5 000042A8 ??_7ThreadEngineBase@QtConcurrent@@6B@
+          7    6 00001170 ?acquireBarrierSemaphore@ThreadEngineBase@QtConcurrent@@QEAAXXZ
+          8    7 000022D0 ?blockSize@BlockSizeManager@QtConcurrent@@QEAAHXZ
+          9    8 000022E0 ?blockSize@BlockSizeManagerV2@QtConcurrent@@QEAAHXZ
+         10    9 000022F0 ?blockSizeMaxed@BlockSizeManager@QtConcurrent@@AEAA_NXZ
+         11    A 00002300 ?blockSizeMaxed@BlockSizeManagerV2@QtConcurrent@@AEAA_NXZ
+         12    B 000011A0 ?finish@ThreadEngineBase@QtConcurrent@@MEAAXXZ
+         13    C 000011B0 ?handleException@ThreadEngineBase@QtConcurrent@@AEAAXAEBVQException@@@Z
+         14    D 000011D0 ?isCanceled@ThreadEngineBase@QtConcurrent@@QEAA_NXZ
+         15    E 000011F0 ?isProgressReportingEnabled@ThreadEngineBase@QtConcurrent@@QEAA_NXZ
+         16    F 00001260 ?run@ThreadEngineBase@QtConcurrent@@EEAAXXZ
+         17   10 00001300 ?setProgressRange@ThreadEngineBase@QtConcurrent@@QEAAXHH@Z
+         18   11 00001320 ?setProgressValue@ThreadEngineBase@QtConcurrent@@QEAAXH@Z
+         19   12 00001340 ?shouldStartThread@ThreadEngineBase@QtConcurrent@@MEAA_NXZ
+         20   13 00001370 ?shouldThrottleThread@ThreadEngineBase@QtConcurrent@@MEAA_NXZ
+         21   14 000011A0 ?start@ThreadEngineBase@QtConcurrent@@MEAAXXZ
+         22   15 00001390 ?startBlocking@ThreadEngineBase@QtConcurrent@@QEAAXXZ
+         23   16 000014A0 ?startSingleThreaded@ThreadEngineBase@QtConcurrent@@QEAAXXZ
+         24   17 000014D0 ?startThread@ThreadEngineBase@QtConcurrent@@QEAAXXZ
+         25   18 000014E0 ?startThreadInternal@ThreadEngineBase@QtConcurrent@@AEAA_NXZ
+         26   19 00001560 ?startThreads@ThreadEngineBase@QtConcurrent@@AEAAXXZ
+         27   1A 000015F0 ?threadExit@ThreadEngineBase@QtConcurrent@@AEAAXXZ
+         28   1B 00001670 ?threadFunction@ThreadEngineBase@QtConcurrent@@MEAA?AW4ThreadFunctionResult@2@XZ
+         29   1C 00001680 ?threadThrottleExit@ThreadEngineBase@QtConcurrent@@AEAA_NXZ
+         30   1D 00002950 ?timeAfterUser@BlockSizeManager@QtConcurrent@@QEAAXXZ
+         31   1E 00002A10 ?timeAfterUser@BlockSizeManagerV2@QtConcurrent@@QEAAXXZ
+         32   1F 00002B30 ?timeBeforeUser@BlockSizeManager@QtConcurrent@@QEAAXXZ
+         33   20 00002B80 ?timeBeforeUser@BlockSizeManagerV2@QtConcurrent@@QEAAXXZ
+         34   21 000016C0 ?waitForResume@ThreadEngineBase@QtConcurrent@@QEAAXXZ
+
+  Summary
+
+        1000 .data
+        1000 .pdata
+        3000 .rdata
+        1000 .reloc
+        1000 .rsrc
+        3000 .text
