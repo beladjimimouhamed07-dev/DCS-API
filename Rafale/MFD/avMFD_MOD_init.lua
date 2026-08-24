@@ -162,27 +162,49 @@ mm_bmap_range_text =
 
 ----------------------------------------------------------------
 -- TAC
--- CAUCASUS MOVING MAP TEST
+-- CAUCASUS MOVING MAP
 --
--- Carte fixe.
--- Une seule tuile visible.
--- La croix représente l'avion.
+-- CARTE :
+--   27771 x 16868 pixels
+--
+-- DECOUPAGE :
+--   4096 x 4096 pixels
+--   7 colonnes
+--   5 lignes
+--   35 tuiles
+--
+-- ORDRE DES TUILES :
+--
+--   01 02 03 04 05 06 07
+--   08 09 10 11 12 13 14
+--   15 16 17 18 19 20 21
+--   22 23 24 25 26 27 28
+--   29 30 31 32 33 34 35
+--
+-- La carte reste fixe.
+-- TAC_MAP_TILE sélectionne la tuile.
+-- TAC_MAP_AIRCRAFT_X/Y donnent la position
+-- de l'avion à l'intérieur de cette tuile.
 ----------------------------------------------------------------
+
 
 TAC_MAP_VALID =
     get_param_handle(
         "TAC_MAP_VALID"
     )
 
+
 TAC_MAP_TILE =
     get_param_handle(
         "TAC_MAP_TILE"
     )
 
+
 TAC_MAP_AIRCRAFT_X =
     get_param_handle(
         "TAC_MAP_AIRCRAFT_X"
     )
+
 
 TAC_MAP_AIRCRAFT_Y =
     get_param_handle(
@@ -204,11 +226,10 @@ TAC_MAP_AIRCRAFT_Y:set(0)
 
 
 ----------------------------------------------------------------
--- CAUCASUS GEOREFERENCE
+-- ORIGINAL MAP GEOREFERENCE
+----------------------------------------------------------------
 --
--- ORIGINAL IMAGE
---
--- 27771 x 16868 pixels
+-- NORTH WEST
 ----------------------------------------------------------------
 
 local TAC_NW_LAT =
@@ -218,6 +239,10 @@ local TAC_NW_LON =
     34.92934725058618
 
 
+----------------------------------------------------------------
+-- NORTH EAST
+----------------------------------------------------------------
+
 local TAC_NE_LAT =
     45.01783390996292
 
@@ -225,12 +250,20 @@ local TAC_NE_LON =
     46.5736598541507
 
 
+----------------------------------------------------------------
+-- SOUTH WEST
+----------------------------------------------------------------
+
 local TAC_SW_LAT =
     40.93773261091714
 
 local TAC_SW_LON =
     34.81578621343812
 
+
+----------------------------------------------------------------
+-- SOUTH EAST
+----------------------------------------------------------------
 
 local TAC_SE_LAT =
     40.29948360353398
@@ -240,7 +273,7 @@ local TAC_SE_LON =
 
 
 ----------------------------------------------------------------
--- ORIGINAL MAP SIZE
+-- ORIGINAL IMAGE SIZE
 ----------------------------------------------------------------
 
 local TAC_MAP_PIXEL_WIDTH =
@@ -270,6 +303,24 @@ local TAC_TILE_ROWS =
 
 
 ----------------------------------------------------------------
+-- LAST REAL PIXEL
+--
+-- Important :
+--
+-- 27771 pixels de large
+-- 16868 pixels de haut
+--
+-- Les dernières tuiles contiennent donc du noir.
+----------------------------------------------------------------
+
+local TAC_LAST_PIXEL_X =
+    TAC_MAP_PIXEL_WIDTH - 1.0
+
+local TAC_LAST_PIXEL_Y =
+    TAC_MAP_PIXEL_HEIGHT - 1.0
+
+
+----------------------------------------------------------------
 -- CLAMP
 ----------------------------------------------------------------
 
@@ -293,21 +344,32 @@ end
 
 
 ----------------------------------------------------------------
--- GEO -> ORIGINAL MAP PIXELS
+-- GEOREFERENCE
 --
--- Retourne :
+-- Conversion LAT/LON -> UV
 --
--- pixel_x
--- pixel_y
+-- U :
+--   0 = gauche
+--   1 = droite
+--
+-- V :
+--   0 = haut
+--   1 = bas
+--
+-- On utilise les quatre coins.
+--
+-- Comme les quatre côtés ne sont pas parfaitement horizontaux/
+-- verticaux, on calcule d'abord U sur les deux bords puis
+-- la latitude des deux bords à ce U.
 ----------------------------------------------------------------
 
-local function tac_geo_to_pixels(
+local function tac_geo_to_uv(
     lat,
     lon
 )
 
     ------------------------------------------------------------
-    -- Horizontal interpolation on north edge
+    -- Longitude interpolation
     ------------------------------------------------------------
 
     local north_u =
@@ -322,10 +384,6 @@ local function tac_geo_to_pixels(
         )
 
 
-    ------------------------------------------------------------
-    -- Horizontal interpolation on south edge
-    ------------------------------------------------------------
-
     local south_u =
         (
             lon -
@@ -339,62 +397,20 @@ local function tac_geo_to_pixels(
 
 
     ------------------------------------------------------------
-    -- Average horizontal position
+    -- Moyenne U
     ------------------------------------------------------------
 
     local u =
         (
             north_u +
             south_u
-        ) * 0.5
-
-
-    ------------------------------------------------------------
-    -- Latitude of north border at longitude
-    ------------------------------------------------------------
-
-    local north_lat =
-        TAC_NW_LAT +
-        (
-            TAC_NE_LAT -
-            TAC_NW_LAT
         )
         *
-        north_u
+        0.5
 
 
     ------------------------------------------------------------
-    -- Latitude of south border at longitude
-    ------------------------------------------------------------
-
-    local south_lat =
-        TAC_SW_LAT +
-        (
-            TAC_SE_LAT -
-            TAC_SW_LAT
-        )
-        *
-        south_u
-
-
-    ------------------------------------------------------------
-    -- Vertical interpolation
-    ------------------------------------------------------------
-
-    local v =
-        (
-            north_lat -
-            lat
-        )
-        /
-        (
-            north_lat -
-            south_lat
-        )
-
-
-    ------------------------------------------------------------
-    -- Clamp
+    -- Clamp U
     ------------------------------------------------------------
 
     u =
@@ -404,6 +420,66 @@ local function tac_geo_to_pixels(
             1.0
         )
 
+
+    ------------------------------------------------------------
+    -- LATITUDE DES BORDS A CE U
+    --
+    -- On utilise U global plutôt que north_u/south_u
+    -- pour garder une géométrie cohérente.
+    ------------------------------------------------------------
+
+    local north_lat =
+        TAC_NW_LAT +
+        (
+            TAC_NE_LAT -
+            TAC_NW_LAT
+        )
+        *
+        u
+
+
+    local south_lat =
+        TAC_SW_LAT +
+        (
+            TAC_SE_LAT -
+            TAC_SW_LAT
+        )
+        *
+        u
+
+
+    ------------------------------------------------------------
+    -- V
+    --
+    -- haut = 0
+    -- bas  = 1
+    ------------------------------------------------------------
+
+    local denominator =
+        north_lat -
+        south_lat
+
+
+    local v = 0.0
+
+
+    if math.abs(denominator) > 0.000001 then
+
+        v =
+            (
+                north_lat -
+                lat
+            )
+            /
+            denominator
+
+    end
+
+
+    ------------------------------------------------------------
+    -- Clamp
+    ------------------------------------------------------------
+
     v =
         tac_clamp(
             v,
@@ -412,18 +488,30 @@ local function tac_geo_to_pixels(
         )
 
 
-    ------------------------------------------------------------
-    -- Pixel coordinates
-    ------------------------------------------------------------
+    return
+        u,
+        v
+
+end
+
+
+----------------------------------------------------------------
+-- UV -> ORIGINAL PIXELS
+----------------------------------------------------------------
+
+local function tac_uv_to_pixels(
+    u,
+    v
+)
 
     local pixel_x =
         u *
-        TAC_MAP_PIXEL_WIDTH
+        TAC_LAST_PIXEL_X
 
 
     local pixel_y =
         v *
-        TAC_MAP_PIXEL_HEIGHT
+        TAC_LAST_PIXEL_Y
 
 
     return
@@ -434,13 +522,17 @@ end
 
 
 ----------------------------------------------------------------
--- TILE NUMBER
+-- PIXELS -> TILE
 ----------------------------------------------------------------
 
-local function tac_get_tile_from_pixels(
+local function tac_get_tile_info(
     pixel_x,
     pixel_y
 )
+
+    ------------------------------------------------------------
+    -- COLUMN
+    ------------------------------------------------------------
 
     local col =
         math.floor(
@@ -448,6 +540,10 @@ local function tac_get_tile_from_pixels(
             TAC_TILE_SIZE
         )
 
+
+    ------------------------------------------------------------
+    -- ROW
+    ------------------------------------------------------------
 
     local row =
         math.floor(
@@ -457,7 +553,7 @@ local function tac_get_tile_from_pixels(
 
 
     ------------------------------------------------------------
-    -- Safety
+    -- SAFETY
     ------------------------------------------------------------
 
     col =
@@ -481,128 +577,118 @@ local function tac_get_tile_from_pixels(
 
 
     ------------------------------------------------------------
-    -- 01..35
+    -- TILE NUMBER
     ------------------------------------------------------------
 
-    return
-        row * TAC_TILE_COLUMNS +
+    local tile_number =
+        row *
+        TAC_TILE_COLUMNS +
         col +
         1
 
-end
-
-
-----------------------------------------------------------------
--- AIRCRAFT POSITION INSIDE TILE
-----------------------------------------------------------------
-
-local function update_tac_aircraft_position(
-    pixel_x,
-    pixel_y
-)
 
     ------------------------------------------------------------
-    -- TILE COLUMN / ROW
+    -- ORIGIN OF TILE
     ------------------------------------------------------------
 
-    local col =
-        math.floor(
-            pixel_x /
-            TAC_TILE_SIZE
-        )
-
-
-    local row =
-        math.floor(
-            pixel_y /
-            TAC_TILE_SIZE
-        )
-
-
-    ------------------------------------------------------------
-    -- CLAMP
-    ------------------------------------------------------------
-
-    col =
-        math.max(
-            0,
-            math.min(
-                TAC_TILE_COLUMNS - 1,
-                col
-            )
-        )
-
-
-    row =
-        math.max(
-            0,
-            math.min(
-                TAC_TILE_ROWS - 1,
-                row
-            )
-        )
-
-
-    ------------------------------------------------------------
-    -- PIXEL POSITION INSIDE TILE
-    ------------------------------------------------------------
-
-    local local_x =
-        pixel_x -
+    local tile_origin_x =
         col *
         TAC_TILE_SIZE
 
 
-    local local_y =
-        pixel_y -
+    local tile_origin_y =
         row *
         TAC_TILE_SIZE
 
 
     ------------------------------------------------------------
-    -- NORMALIZED TILE POSITION
-    --
-    -- 0 = left / top
-    -- 1 = right / bottom
+    -- POSITION INSIDE TILE
     ------------------------------------------------------------
 
-    local normalized_x =
+    local local_x =
+        pixel_x -
+        tile_origin_x
+
+
+    local local_y =
+        pixel_y -
+        tile_origin_y
+
+
+    ------------------------------------------------------------
+    -- NORMALIZED
+    --
+    -- 0 = left/top
+    -- 1 = right/bottom
+    ------------------------------------------------------------
+
+    local local_u =
         local_x /
         TAC_TILE_SIZE
 
 
-    local normalized_y =
+    local local_v =
         local_y /
         TAC_TILE_SIZE
 
 
     ------------------------------------------------------------
-    -- CONVERT TO MFD
-    --
-    -- X :
-    -- 0 -> -1
-    -- 1 -> +1
-    --
-    -- Y :
-    -- top    -> +1
-    -- bottom -> -1
+    -- Clamp
     ------------------------------------------------------------
 
+    local_u =
+        tac_clamp(
+            local_u,
+            0.0,
+            1.0
+        )
+
+
+    local_v =
+        tac_clamp(
+            local_v,
+            0.0,
+            1.0
+        )
+
+
+    return
+        tile_number,
+        local_u,
+        local_v
+
+end
+
+
+----------------------------------------------------------------
+-- TILE UV -> MFD COORDINATES
+----------------------------------------------------------------
+--
+-- X :
+--   0 -> -1
+--   1 -> +1
+--
+-- Y :
+--   0 -> +1
+--   1 -> -1
+----------------------------------------------------------------
+
+local function tac_tile_uv_to_mfd(
+    local_u,
+    local_v
+)
+
     local screen_x =
-        normalized_x *
+        local_u *
         2.0 -
         1.0
 
 
     local screen_y =
         1.0 -
-        normalized_y *
+        local_v *
         2.0
 
-
-    ------------------------------------------------------------
-    -- FINAL CLAMP
-    ------------------------------------------------------------
 
     screen_x =
         tac_clamp(
@@ -620,17 +706,9 @@ local function update_tac_aircraft_position(
         )
 
 
-    ------------------------------------------------------------
-    -- OUTPUT
-    ------------------------------------------------------------
-
-    TAC_MAP_AIRCRAFT_X:set(
-        screen_x
-    )
-
-    TAC_MAP_AIRCRAFT_Y:set(
+    return
+        screen_x,
         screen_y
-    )
 
 end
 
@@ -642,7 +720,7 @@ end
 local function update_tac_tile()
 
     ------------------------------------------------------------
-    -- DCS COORDINATES
+    -- DCS POSITION
     ------------------------------------------------------------
 
     local self_x,
@@ -696,62 +774,74 @@ local function update_tac_tile()
 
 
     ------------------------------------------------------------
-    -- GEO -> ORIGINAL PIXELS
+    -- LAT/LON -> UV
     ------------------------------------------------------------
 
-    local pixel_x,
-          pixel_y =
-        tac_geo_to_pixels(
+    local map_u,
+          map_v =
+        tac_geo_to_uv(
             lat,
             lon
         )
 
 
     ------------------------------------------------------------
-    -- TILE
+    -- UV -> PIXELS
     ------------------------------------------------------------
 
-    local tile =
-        tac_get_tile_from_pixels(
+    local pixel_x,
+          pixel_y =
+        tac_uv_to_pixels(
+            map_u,
+            map_v
+        )
+
+
+    ------------------------------------------------------------
+    -- PIXELS -> TILE
+    ------------------------------------------------------------
+
+    local tile,
+          local_u,
+          local_v =
+        tac_get_tile_info(
             pixel_x,
             pixel_y
         )
 
 
     ------------------------------------------------------------
-    -- POSITION INSIDE TILE
+    -- TILE UV -> MFD
     ------------------------------------------------------------
 
-    update_tac_aircraft_position(
-        pixel_x,
-        pixel_y
-    )
+    local screen_x,
+          screen_y =
+        tac_tile_uv_to_mfd(
+            local_u,
+            local_v
+        )
 
 
     ------------------------------------------------------------
     -- OUTPUT
     ------------------------------------------------------------
 
-    if tile >= 1
-    and tile <= 35 then
+    TAC_MAP_TILE:set(
+        tile
+    )
 
-        TAC_MAP_VALID:set(1)
 
-        TAC_MAP_TILE:set(
-            tile
-        )
+    TAC_MAP_AIRCRAFT_X:set(
+        screen_x
+    )
 
-    else
 
-        TAC_MAP_VALID:set(0)
+    TAC_MAP_AIRCRAFT_Y:set(
+        screen_y
+    )
 
-        TAC_MAP_TILE:set(0)
 
-        TAC_MAP_AIRCRAFT_X:set(0)
-
-        TAC_MAP_AIRCRAFT_Y:set(0)
-
-    end
+    TAC_MAP_VALID:set(1)
 
 end
 
