@@ -1,0 +1,66 @@
+VTABLE ??_7avMovingMap@cockpit@@6B@ @ 7ffada854f60
+  COL: 7ffada87c5b8
+  [000] 7ffada666ba0 -> FUN_7ffada666ba0
+  [001] 7ffada5f2060 -> NetCrewMemberUpdateStream
+  [002] 7ffada82c5a8 -> _purecall
+  [003] 7ffada668690 -> get_camera
+  [004] 7ffada82c5a8 -> _purecall
+  [005] 7ffada82c5a8 -> _purecall
+  [006] 7ffada82c5a8 -> _purecall
+  [007] 7ffada87c820 -> <non-function>
+  [008] 7ffada8276ec -> FinalRelease
+  [009] 7ffada666a70 -> FUN_7ffada666a70
+  [010] 7ffada669260 -> initialize
+  [011] 7ffada64a500 -> release
+  [012] 7ffada6675f0 -> SetCommand
+  [013] 7ffada666fe0 -> OnCockpitEvent
+  [014] 7ffada5f2250 -> ~avDate
+  [015] 7ffada5f2250 -> ~avDate
+  [016] 7ffada649680 -> checkCallbackKeyboard
+  [017] 7ffada649250 -> checkCallbackClickable
+  [018] 7ffada5f21c0 -> CheckNavMode
+  [019] 7ffada5f2250 -> ~avDate
+  [020] 7ffada5f2060 -> NetCrewMemberUpdateStream
+  [021] 7ffada64a440 -> register_in_script
+  [022] 7ffada5f23a0 -> l_metatable_name
+  [023] 7ffada87c8f8 -> <non-function>
+  [024] 7ffada649e60 -> l_register_functions
+  [025] 7ffada87c920 -> <non-function>
+  [026] 7ffada666af8 -> <non-function>
+  [027] 7ffada668860 -> get_map_rotation
+  [028] 7ffada6689d0 -> get_volume_size
+  [029] 7ffada668690 -> get_camera
+  [030] 7ffada6686c0 -> get_camera_point
+  [031] 7ffada5f2250 -> ~avDate
+  [032] 7ffada5f2250 -> ~avDate
+  [033] 7ffada87c948 -> <non-function>
+  [034] 7ffada6669e0 -> FUN_7ffada6669e0
+  [035] 7ffada87c630 -> <non-function>
+  [036] 7ffada666c40 -> FUN_7ffada666c40
+  [037] 7ffada7f7f40 -> check_segment
+  [038] 7ffada7f7f70 -> check_sphere
+  [039] 7ffada66a8b0 -> setName
+  [040] 7ffada87c7d0 -> <non-function>
+  [041] 7ffada666ccc -> FUN_7ffada666ccc
+  [042] 7ffada87c7f8 -> <non-function>
+  [043] 7ffada8276ec -> FinalRelease
+  [044] 7ffada666cd8 -> FUN_7ffada666cd8
+  [045] 7ffada87c970 -> <non-function>
+  [046] 7ffada666b10 -> FUN_7ffada666b10
+  [047] 7ffada7f7f40 -> check_segment
+  [048] 7ffada7f7f70 -> check_sphere
+  [049] 7ffada87ca08 -> <non-function>
+  [050] 7ffada666b94 -> FUN_7ffada666b94
+  [051] 7ffada87cb30 -> <non-function>
+  [052] 7ffada614180 -> FUN_7ffada614180
+  [053] 7ffada613858 -> FUN_7ffada613858
+  [054] 7ffada6682b8 -> FUN_7ffada6682b8
+  [055] 7ffada614b40 -> FUN_7ffada614b40
+  [056] 7ffada87ca30 -> <non-function>
+  [057] 7ffada614180 -> FUN_7ffada614180
+  [058] 7ffada613858 -> FUN_7ffada613858
+  [059] 7ffada6682b8 -> FUN_7ffada6682b8
+  [060] 7ffada614b40 -> FUN_7ffada614b40
+
+VTABLE s_??_7avMovingMap@cockpit@@6B@_7ffada8eb12b @ 7ffada8eb12b
+
