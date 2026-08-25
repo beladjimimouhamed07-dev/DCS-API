@@ -1,0 +1,113 @@
++0x0000
+    DeleteAll
+    FUN_7ffada5ef690
+    FUN_7ffada5efbc0
+    FUN_7ffada5f0470
+    FUN_7ffada5f0b10
+    FUN_7ffada5f31a0
+    FUN_7ffada602ba0
+    FUN_7ffada62cf50
+    FUN_7ffada62f2d0
+    FUN_7ffada828ff0
+    ccIndicatorPage
+    distribute_elements
+    draw
+    getType
+    rebuild
+    render
+    update
+    ~SimpleOctTreeNode
+    ~ccIndicatorPage
+    ~ccMapObjectsBuffer
+    ~ccMovingMap
++0x0008
+    DeleteAll
+    FUN_7ffada5ef1f0
+    FUN_7ffada62cf50
+    FUN_7ffada828ff0
+    ccIndicatorPage
+    ccMovingMap
+    distribute_elements
+    ~SimpleOctTreeNode
++0x000C
+    FUN_7ffada828ff0
++0x0010
+    FUN_7ffada5ef690
+    FUN_7ffada5f0b10
+    FUN_7ffada5f0c40
+    FUN_7ffada5f31a0
+    FUN_7ffada603bc0
+    FUN_7ffada62cf50
+    FUN_7ffada828ff0
+    ccIndicatorPage
++0x0014
+    FUN_7ffada828ff0
++0x0018
+    DeleteAll
+    FUN_7ffada5ef1f0
+    FUN_7ffada5ef690
+    FUN_7ffada5f0b10
+    FUN_7ffada5f31a0
+    FUN_7ffada828ff0
+    GetObjects
+    ~SimpleOctTree
++0x0019
+    get_page_by_ID
++0x001C
+    FUN_7ffada828ff0
++0x0020
+    get_page_by_ID
+    initialize
++0x0028
+    get_page_by_ID
++0x0030
+    FUN_7ffada5ef1f0
+    addElem
++0x0038
+    DeleteAll
+    FUN_7ffada5f0470
+    draw
+    rebuild
+    ~SimpleOctTreeNode
++0x0040
+    DeleteAll
+    draw
+    rebuild
+    ~SimpleOctTreeNode
++0x0050
+    distribute_elements
+    draw
+    update
+    ~ccIndicatorPage
++0x0058
+    distribute_elements
+    draw
+    update
+    ~ccIndicatorPage
+    ~ccMapObjectsBuffer
++0x0068
+    initialize
+    setCurrentVertexScaleModifier
+    setSize
++0x006C
+    setSize
++0x0070
+    get_page_by_ID
+    initialize
+    setCurrentVertexScaleModifier
+    setViewDistance
++0x0074
+    getCurrentVertexScaleModifier
+    setCurrentVertexScaleModifier
++0x0078
+    getType
+    getparent
+    initialize
+    setParent
++0x009A
+    draw
++0x00A0
+    render
+    ~ccMovingMap
++0x00A8
+    ~ccMovingMap
