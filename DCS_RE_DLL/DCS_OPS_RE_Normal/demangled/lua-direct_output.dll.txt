@@ -1,4 +1,0 @@
-// DCS_OPS_RE: lua-direct_output.dll
-// Generated from dumpbin /exports
-
-[    1]          0x0  luaopen_direct_output

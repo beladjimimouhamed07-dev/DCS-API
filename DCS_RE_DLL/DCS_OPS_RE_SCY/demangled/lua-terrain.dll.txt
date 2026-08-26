@@ -1,5 +1,0 @@
-// DCS_OPS_RE: lua-terrain.dll
-// Generated from dumpbin /exports
-
-[    1]          0x0  void __cdecl LuaTerrain::regMissionScripting(class Lua::Config &)
-[    2]          0x1  luaopen_terrain

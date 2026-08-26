@@ -1,5 +1,0 @@
-// DCS_OPS_RE: dxcompiler.dll
-// Generated from dumpbin /exports
-
-[    1]          0x0  DxcCreateInstance
-[    2]          0x1  DxcCreateInstance2

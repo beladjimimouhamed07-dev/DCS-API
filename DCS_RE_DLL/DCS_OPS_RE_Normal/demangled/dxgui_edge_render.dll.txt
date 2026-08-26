@@ -1,5 +1,0 @@
-// DCS_OPS_RE: dxgui_edge_render.dll
-// Generated from dumpbin /exports
-
-[    1]          0x0  createEdgeRenderer
-[    2]          0x1  destroyEdgeRenderer

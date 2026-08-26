@@ -1,9 +1,0 @@
-// DCS_OPS_RE: edWebviewBrowser.dll
-// Generated from dumpbin /exports
-
-[    1]          0x0  public: __cdecl ed::CEFInit::CEFInit(bool)
-[    2]          0x1  public: void __cdecl ed::CEFInit::`default ctor closure'(void)
-[    3]          0x2  class ed::WebViewAllowList * __cdecl ed::getGlobalWebViewAllowList(void)
-[    4]          0x3  ed_WebViewTexture_create
-[    5]          0x4  ed_WebView_create
-[    6]          0x5  ed_WebWindow_create

@@ -1,5 +1,0 @@
-// DCS_OPS_RE: qsvg.dll
-// Generated from dumpbin /exports
-
-[    1]          0x0  qt_plugin_instance
-[    2]          0x1  qt_plugin_query_metadata

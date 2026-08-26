@@ -1,3 +1,0 @@
-// DCS_OPS_RE: Newtonsoft.Json.dll
-// Generated from dumpbin /exports
-

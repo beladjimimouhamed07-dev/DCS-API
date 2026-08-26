@@ -1,4 +1,0 @@
-// DCS_OPS_RE: lua-ED_demosceneAPI.dll
-// Generated from dumpbin /exports
-
-[    1]          0x0  luaopen_ED_demosceneAPI
