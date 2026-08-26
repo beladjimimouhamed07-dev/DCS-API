@@ -2,3 +2,4 @@ DCS_RE_DLL/DCS_OPS_RE_Normal/bin/*.dll filter=lfs diff=lfs merge=lfs -text
 DCS_RE_DLL/DCS_OPS_RE_SCY/bin/*.dll filter=lfs diff=lfs merge=lfs -text
 decompile[[:space:]]avSimplest filter=lfs diff=lfs merge=lfs -text
 AvSimplest_decomp/** filter=lfs diff=lfs merge=lfs -text
+FA-18C/** filter=lfs diff=lfs merge=lfs -text
