@@ -1,0 +1,3 @@
+LIBRARY Rafalesystems
+EXPORTS
+    luaopen_Rafalesystems

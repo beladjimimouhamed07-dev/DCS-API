@@ -24,4 +24,7 @@ mm_mfd_pagedata = {
     tac_page_handle =
         get_param_handle("MM_MFD_PAGE_TAC"),
 
+    osf_page_handle =
+        get_param_handle("MM_MFD_PAGE_OSF"),
+
 }

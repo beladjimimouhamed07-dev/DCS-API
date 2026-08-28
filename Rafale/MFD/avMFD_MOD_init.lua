@@ -126,6 +126,10 @@ dofile(
     modpath .. "avMFD_MOD_page_tac.lua"
 )
 
+dofile(
+    modpath .. "avMFD_MOD_page_osf.lua"
+)
+
 
 ----------------------------------------------------------------
 -- SUPPORT

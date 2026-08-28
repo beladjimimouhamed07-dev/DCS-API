@@ -31,6 +31,8 @@ devices["voiRadio"]					= counter()
 devices["alti_pointeur"]			= counter()
 devices["GCAS"] 					= counter()
 devices["OSF"] 						= counter()
+devices["RAFALE_SYSTEMS"]			= counter()
+devices["OSF_SENSOR"]				= counter()
 
 
 -- RBE2 V1 DROP-IN

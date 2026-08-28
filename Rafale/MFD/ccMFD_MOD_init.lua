@@ -32,6 +32,7 @@ PAGE_ENG  = 3
 PAGE_BTN  = 9
 PAGE_RBE2 = 10
 PAGE_TAC  = 11
+PAGE_OSF  = 12
 
 
 ----------------------------------------------------------------------
@@ -58,6 +59,9 @@ page_subsets = {
     [PAGE_TAC] =
         modpath.."ccMFD_MOD_page_tac.lua",
 
+    [PAGE_OSF] =
+        modpath.."ccMFD_MOD_page_osf.lua",
+
 }
 
 
@@ -76,5 +80,6 @@ pages[1] = {
     PAGE_BTN,
     PAGE_RBE2,
     PAGE_TAC,
+    PAGE_OSF,
 
 }

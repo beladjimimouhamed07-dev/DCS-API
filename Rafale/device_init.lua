@@ -198,6 +198,30 @@ creators[devices.OSF] = {
     script_path .. "Rafale addon/OSF/OSF.lua"
 }
 
+creators[devices.RAFALE_SYSTEMS] = {
+    "avLuaDevice",
+    script_path .. "SYSTEM/device.lua"
+}
+
+creators[devices.OSF_SENSOR] = {
+    "avTVSensor",
+    script_path .. "OSF/sensor.lua"
+}
+
+indicators[#indicators + 1] = {
+    "ccIndicator",
+    script_path .. "OSF/tv_init.lua",
+    devices.OSF_SENSOR,
+    {
+        {},
+        {
+            sx_l = 0,
+            sy_l = 0,
+            sz_l = 0,
+        }
+    }
+}
+
 
 ----------------------------------------------------------------
 -- RBE2

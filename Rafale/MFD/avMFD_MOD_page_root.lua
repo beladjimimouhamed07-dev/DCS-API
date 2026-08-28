@@ -41,6 +41,10 @@ function clean_directory()
 							mm_mfd_btn[11].text.text 	= "RBE2"
 							mm_mfd_btn[11].func_short 	= rbe2_open_directory
 							mm_mfd_btn[11].func_long	= nothing
+
+							mm_mfd_btn[10].text.text 	= "OSF"
+							mm_mfd_btn[10].func_short 	= osf_open_directory
+							mm_mfd_btn[10].func_long	= nothing
 							
 		--CLOSE OTHER PAGES--
 		
@@ -50,6 +54,7 @@ function clean_directory()
 				mm_mfd_pagedata.bmap_page_handle:set(0)
 				mm_mfd_pagedata.rbe2_page_handle:set(0)
 				mm_mfd_pagedata.tac_page_handle:set(0)
+				mm_mfd_pagedata.osf_page_handle:set(0)
 											--mm_mfd_pagedata.eng_page_handle:set(0)
 		------------------------------------------
 			
@@ -72,8 +77,8 @@ function root_open_directory()
 			mm_mfd_btn[9].func_short 	= nothing
 			mm_mfd_btn[9].func_long		= nothing
 			
-			mm_mfd_btn[10].text.text 	= ""
-			mm_mfd_btn[10].func_short 	= nothing
+			mm_mfd_btn[10].text.text 	= "OSF"
+			mm_mfd_btn[10].func_short 	= osf_open_directory
 			mm_mfd_btn[10].func_long	= nothing
 			
 		--------------------------------------

@@ -29,3 +29,8 @@ rbe2_commands = {
     TDC_UP=counter(); TDC_RIGHT=counter(); TDC_DOWN=counter(); TDC_LEFT=counter();
     TARGET_LOCK=counter(); TARGET_UNLOCK=counter(); TARGET_NEXT=counter(); TARGET_PREV=counter();
 }
+
+osf_commands = {
+    TV=counter(); FLIR=counter(); TOGGLE=counter();
+    ZOOM_IN=counter(); ZOOM_OUT=counter();
+}
